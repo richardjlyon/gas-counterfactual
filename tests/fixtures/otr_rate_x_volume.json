@@ -1,0 +1,9 @@
+{
+ "comment": "s36 tickets 12 and 26 (0101): the one rate x volume fixture both tests run through gascf.on_the_road.net. NZ8 = £100m a year at the 2001 rate 0.43p/kWh in force all year (volume 100 / 0.0043 GWh); index ratio to 2001 1.0 in 2002 and 1.1 in 2003, so the on-the-road levy is £100m then £110m and counted NZ8 £0m then -£10m (negative, not clipped). Spec ccl-2001-baseline.md test 1.",
+ "rate_2001_gbp_per_kwh": 0.0043,
+ "index": {"2001": 74.6, "2002": 74.6, "2003": 82.06},
+ "counted": {"2002": 100.0, "2003": 100.0},
+ "volume_gwh": {"2002": 23255.81395348837, "2003": 23255.81395348837},
+ "expected_netted": {"2002": 100.0, "2003": 110.0},
+ "expected_counted": {"2002": 0.0, "2003": -10.0}
+}

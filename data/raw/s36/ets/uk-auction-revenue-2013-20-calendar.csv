@@ -1,0 +1,9 @@
+year,uk_revenue_gbp_m,basis,period_start,period_end,status,source_id,source
+2013,347.8,calendar,2013-01-01,2013-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"EC UK Phase III Auction Platform Reports nos. 57 and 58 (ICE auctions for BEIS/DECC), calendar-year sum, EUR at BoE annual average rates; value as stored by the Subsidy Clock (ets column 173.9m at its flat 0.5 share, x 2), Clock reference/indirect_annual.yaml ets.source"
+2014,312.2,calendar,2014-01-01,2014-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 156.1m x 2)"
+2015,412.0,calendar,2015-01-01,2015-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 206.0m x 2)"
+2016,311.0,calendar,2016-01-01,2016-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 155.5m x 2)"
+2017,529.4,calendar,2017-01-01,2017-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 264.7m x 2)"
+2018,1421.8,calendar,2018-01-01,2018-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 710.9m x 2)"
+2019,0.0,calendar,2019-01-01,2019-12-31,SOURCED,beis-ara-2020-21-trust-statement,"Decision 0110 (Richard Lyon, 19 Oct 2026, item 1.19): 2019-20 on calendar years as 0012 requires. No UK auctions in calendar 2019 (UK auctions suspended Jan 2019 to Mar 2020; research-model-items item 1)"
+2020,2414.5,calendar,2020-01-01,2020-12-31,SOURCED,beis-ara-2020-21-trust-statement,"Decision 0110: calendar 2020 = FY2019-20 printed GBP 201.4m (the March 2020 auctions) + FY2020-21 printed GBP 2,213.1m (UK left the EU ETS auctions at end-2020), BEIS ARA 2020-21 Trust Statement; research-model-items item 1"

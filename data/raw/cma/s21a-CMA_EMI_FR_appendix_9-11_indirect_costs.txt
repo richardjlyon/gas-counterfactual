@@ -1,0 +1,2165 @@
+                     Appendix 9.11: Assessment of indirect costs
+
+Contents
+                                                                                                                       Page
+Introduction ................................................................................................................ 1
+Our approach ............................................................................................................. 2
+Discussion of results .................................................................................................. 5
+Conclusions................................................................................................................ 9
+Annex A: Analysis of energy retailers’ indirect costs ................................................ 12
+Supplement 1: Indirect cost information ................................................................... 21
+Supplement 2: Total indirect cost ratios for the Six Large Energy Firms .................. 23
+Supplement 3: Segmental indirect cost ratios for the Six Large Energy Firms ......... 25
+Supplement 4: Indirect cost categories for the Six Large Energy Firms ................... 27
+Supplement 5: Mid-tier Suppliers’ indirect cost ratios ............................................... 30
+Annex B: Parties’ responses .................................................................................... 32
+
+
+
+Introduction
+
+1.        This appendix sets out our analysis of the operational costs of the Six Large
+          Energy Firms’ retail businesses. Past research by the Institute for Public
+          Policy and Research1 and Ofgem2 has highlighted significant dispersions in
+          operational costs, which it is argued could be indicative of a lack of
+          competition in a market where the product is largely homogenous. We
+          assessed this variance between the Six Large Energy Firms and compared
+          this against certain smaller energy suppliers. The results of our analysis are
+          consistent with the findings of these earlier reports, ie that there are
+          substantial and persistent differences in the level of indirect costs incurred by
+          the Six Large Energy Firms.
+
+2.        Our view is that the persistence of large differences in the cost bases of the
+          Six Large Energy Firms over the extended period of time we have reviewed is
+          likely to be indicative of inefficiency rather than differences in the business
+          models adopted by the Six Large Energy Firms.
+
+3.        We have not sought to compare either the network, or social and environ-
+          mental costs, incurred by the Six Large Energy Firms. We note that the
+          suppliers have limited control over network transmission and distribution
+          costs. As a result, we did not consider that any comparisons of such costs
+
+
+
+1 IPPR (April 2012), The True Cost of Energy, pp26–28.
+2 Ofgem (October 2008), Energy Supply Probe – Initial Findings Report, pp95–96.
+
+
+
+
+                                                          A9.11-1
+         would be informative. Social and environmental obligation costs3 are difficult
+         to benchmark in practice, as multiple schemes are in operation that span
+         multiple years and deliver their goals through a variety of means. Therefore,
+         we have concluded that it was likely that any comparisons made would be
+         unreliable.
+
+4.       In our provisional findings, we also set out the results of our benchmarking
+         analysis of the historical costs incurred by the Six Large Energy Firms in
+         purchasing energy for their retail businesses. We carefully considered the
+         responses that we received to this analysis (as set out in Annex B) and have
+         concluded that it would be misleading to seek to identify an ‘efficient’ level of
+         wholesale energy costs on an ex post basis. Therefore, we have not sought to
+         benchmark wholesale energy costs. We recognise that energy suppliers
+         select a forward purchasing strategy which may result in them incurring costs
+         which turn out to be either above or below the market price at the time of
+         delivery. This can create windfall gains or losses for those firms. However, in
+         well-functioning retail energy markets, we would expect prices to customers
+         be set on the basis of the opportunity cost of supply rather than the historical
+         incurred cost. We have taken this into account when assessing which tariffs
+         provide an appropriate benchmark against which to measure the Six Large
+         Energy Firms’ tariffs4 and the overall level of detriment.5 (See Section 10 for
+         our assessment of overall detriment.)
+
+Our approach
+
+5.       In order to compare levels of operational costs, we examined the relevant
+         firms’ indirect cost per customer account for their respective total supply
+         businesses, ie domestic, SME and I&C supply combined, as well as for their
+         domestic and SME retail segments (individually). We also estimated indirect
+         costs per customer account by fuel type. In order to estimate the ‘efficient’
+         level of indirect costs over the period, we took into account both the range of
+         indirect costs observed among the Six Large Energy Firms, as well as those
+         of the Mid-tier Suppliers. Our primary benchmark assumes that an efficient
+         supplier should be able to match the cost base of the lower quartile across the
+         Six Large Energy Firms. However, we consider this to be a conservative
+         assumption (see paragraph 27). Our detailed analysis of indirect costs is set
+
+
+
+
+3 The social and environmental costs the suppliers incur in response to discharging government-led initiatives are
+
+expected to be recovered through consumer bills. Competition between suppliers to deliver these obligations
+cost-effectively – and therefore reducing the impact on bills – was one of the original rationales for the suppliers
+and not government delivering these schemes.
+4 See Appendix 3.3: Domestic bills analysis.
+5 See Section 3 of the provisional decision on remedies.
+
+
+
+
+                                                      A9.11-2
+            out in Annex A to this appendix. This now includes the financial results for
+            2014, received after the publication of our provisional findings.
+
+Indirect costs
+
+6.          We asked for a breakdown of indirect costs by standardised cost categories:
+            bad debt costs, metering costs, sales and marketing costs, customer service
+            costs and central service costs. We note that comparing costs across these
+            categories might not be fully reliable where:
+
+            (a) there are differences in definitions and allocations across different indirect
+                cost categories across the Six Large Energy Firms; and
+
+            (b) higher costs in one cost category may yield efficiency benefits in another
+                category.
+
+7.          Therefore, our analysis focuses on the total indirect cost levels as opposed to
+            making comparisons at the level of individual cost categories. This avoids
+            making comparisons which are not ‘like-for-like’ and, thereby, the risk of
+            incorrectly identifying inefficiencies by benchmarking against a total cost base
+            that none of the Six Large Energy Firms was, in fact, able to achieve.
+
+8.          We have found that total indirect costs per customer account varied
+            significantly between the Six Large Energy Firms. This gap is persistent over
+            the period of review. The difference is largely driven by [], although two
+            suppliers, [] made significant improvements over the period.
+
+Table 1: Total supply business indirect cost ratios* over the relevant period for each of the Six
+Large Energy Firms
+                                                                                                   £
+
+ Supplier      2007     2008      2009     2010       2011     2012      2013     2014      Average
+
+ []            []      []       []      []        []      []       []      []          []
+ []            []      []       []      []        []      []       []      []          []
+ []            []      []       []      []        []      []       []      []          []
+ []            []      []       []      []        []      []       []      []          []
+ []            []      []       []      []        []      []       []      []          []
+ []            []      []       []      []        []      []       []      []          []
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+*We calculated indirect cost per customer account by dividing total indirect costs in real terms by total customer accounts
+across the total supply business. The averages for each supplier is a simple average of the six ratios for each year.
+Note: For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+9.          We noted that these cost ratios were not necessarily directly comparable as
+            the Six Large Energy Firms had different mixes of domestic, SME and I&C
+            customer bases. Therefore, we estimated the cost ratios for the firms for their
+            domestic and SME businesses separately, as shown in Table 2.
+
+
+
+
+                                                             A9.11-3
+Table 2: Average* domestic and SME indirect costs per account for each of the Six Large
+Energy Firms (FY09 to FY14)†
+                                   £
+
+ Supplier     Domestic      SME
+
+ []             []         []
+ []             []         []
+ []             []         []
+ []             []         []
+ []             []         []
+ []             []         []
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+*Average indirect cost ratios have not been weighted.
+†This analysis focuses on FY09 to FY14 as there was no split for SME for FY07 and FY08 for SSE.
+Note: For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+10.         This analysis indicates that indirect costs were significantly lower for domestic
+            customers, as compared with SMEs, although there remain large differences
+            across the firms with [] having the lowest domestic costs and [] the
+            highest.
+
+11.         We also calculated the cost ratios of certain Mid-tier Suppliers (First Utility,
+            Ovo Energy and Co-operative Energy) to compare their levels of cost to the
+            larger suppliers (see Annex A for further details). These firms predominantly
+            served domestic customers.
+
+Table 3: Total supply business indirect costs per customer account for the Mid-tier Suppliers
+                                                                              £
+
+ Supplier       2009     2010      2011   2012     2013     2014     Average
+
+ []            []      []       []     []      []      []        []
+ []            []      []       []     []      []      []        []
+ []            []      []       []     []      []      []        []
+ []            []      []       []     []      []      []        []
+
+Source: CMA analysis of P&L information submitted by the Mid-tier Suppliers.
+*We calculated the period average indirect cost per customer account by calculating a simple average of each year’s indirect
+costs per account.
+†First Utility had a large proportion of SME customers in 2009. After taking the decision to exit the non-domestic market, by
+2014 First Utility were almost exclusively domestic supply.
+
+
+12.         This analysis shows that the Mid-tier Suppliers’ indirect costs on a per-
+            customer basis were broadly6 in line with those of the Six Large Energy Firms
+            (for domestic customers), although [] had a lower cost base. However,
+            when comparing the costs of the Mid-tier Suppliers with those of the Six Large
+            Energy Firms, we considered that there were two important factors to take
+            into account. Firstly, as these firms were smaller and were acquiring
+            significant proportions of customers each year, they will have had
+            proportionally higher acquisition and on-boarding costs than the larger
+            suppliers. Secondly, as the Mid-tier Suppliers were growing fast, their cost
+            base may represent an element of spare capacity as they have been scaling
+
+
+6 We note that the indirect costs of [] were significantly higher early in the period but declined substantially. In
+
+2013 and 2014, its indirect costs per customer account were similar to those of the other Mid-tier Suppliers.
+
+
+                                                          A9.11-4
+         up their operations in anticipation of growth.7 Both of these factors may distort
+         the Mid-tier Suppliers’ indirect costs upwards and thus these may be higher
+         (in Table 1) than the true underlying cost level.
+
+Discussion of results
+
+Evidence of inefficiency
+
+13.      Having identified substantial differences in the level of indirect costs across
+         the Six Large Energy Firms and the Mid-tier Suppliers, we have considered
+         whether this evidence supported a hypothesis that some of the Six Large
+         Energy Firms may have been inefficient.
+
+14.      As summarised in Annex B, the Six Large Energy Firms put forward the view
+         that these differences did not necessarily provide evidence of inefficiency. In
+         particular, they told us the following:
+
+         (a) [] skewed the results with its indirect costs being significantly lower than
+             those of the other suppliers. SSE told us that this was not due to
+             efficiency but to differences in the timing of the suppliers’ investment
+             cycles.
+
+         (b) The analysis did not distinguish sufficiently or allow for differences
+             between suppliers, for example in relation to their customer mix or tariff
+             mix.
+
+         (c) There was insufficient evidence on inefficiency and large variances
+             between suppliers was not always a sign of inefficiency.
+
+         (d) The CMA’s analysis was too high level to provide a basis for robust
+             conclusions. To prove inefficiency a far more detailed, econometric
+             analysis would need to be carried out.
+
+15.      In relation to the submissions about the timing of investment cycles, we noted
+         that our analysis covered an eight-year period from 2007 to 2014, which we
+         considered to be sufficiently long for differences in the timing of investment
+         cycles across the Six Large Energy Firms to even out. Moreover, we
+         observed that while [] had the lowest indirect costs and had not invested
+         significantly in recent years,8 several of the Mid-tier Suppliers had made
+         significant investments in scaling up their operations over the same period
+
+
+
+7 Deciphering what would be their normal costs absent their current growth strategies is not feasible to any
+
+degree of accuracy. Likewise it is not possible to estimate any benefit from economies of scale that the larger
+suppliers may benefit from.
+8 For example, [].
+
+
+
+
+                                                    A9.11-5
+         and had only slightly higher indirect costs. Therefore, we found that the
+         evidence did not support the view that the timing of investment cycles was
+         having a significant impact on the level of indirect costs. As a result, our view
+         is that it is reasonable to draw conclusions in relation to differences in the cost
+         bases of the Six Large Energy Firms based on the evidence of this period as
+         a whole.
+
+16.      As regards the impact of customer mix, we agreed that there were likely to be
+         legitimate differences in the cost bases of the suppliers as the result of
+         differences in their customer and/or tariff mixes. For example, in Appendix
+         9.8, we set out our analysis of the differences in the cost to serve direct debit
+         customers as compared with standard credit and prepayment customers. We
+         have found that prepayment customers are £63 more expensive to serve, and
+         standard credit customers £100 more expensive to serve than direct debit
+         customers. However, in the domestic sector, our analysis has shown that the
+         supplier with the highest proportion of standard credit and prepayment
+         customers, [], has an indirect costs base that is just below our lower quartile
+         benchmark and similar to the costs of [], which has a relatively high
+         proportion of direct debit customers,9 see Annex A, Table 3. This indicates
+         that differences in the customer mix across the suppliers is not the main
+         reason for the cost differences that we have observed and that, if we were to
+         control for such mix effects, this would be likely to increase rather than reduce
+         the observed differences.
+
+17.      With respect to the points raised in (c) and (d), we considered that large
+         variances in indirect costs could be consistent with efficiency where firms
+         were clearly differentiated in terms of the nature and/or quality of service
+         provided.10 However, in this case, we noted that all the firms were selling the
+         same, homogeneous products (gas and electricity), with few clear differences
+         in terms of market positioning or service offering that would result in a
+         substantially more or less cost-intensive business model. Therefore, our view
+         is that large variances in indirect costs are likely to be the result of
+         inefficiencies rather than different commercial strategies. In addition, we note
+         that our analysis of inefficiencies is supported by evidence that we have
+         collected from the Six Large Energy Firms themselves of significant
+         inefficiencies that they have identified in their own operations. The scale of
+         some of the efficiency improvements identified by some of the Six Large
+
+
+
+
+9 [] has a relatively high proportion of direct debt customers when compared with the other Six Large Energy
+
+Firms. We note that several of the Mid-tier Suppliers have higher proportions of direct debit customers.
+10 For example, where firms in an industry are clearly offering different quality services (some offering a luxury
+
+version, others a ‘no frills’ version), we would expect there to be differences in the structure of the cost bases. A
+luxury provider might be expected to have higher overhead costs to support the higher quality service.
+
+
+                                                      A9.11-6
+         Energy Firms are above our expectation of what might constitute ‘normal’
+         levels.11 For example:
+
+         (a) [].
+
+         (b) E.ON told us that its indirect costs were higher than those of some
+             independents, due to legacy IT systems.
+
+         (c) []. Centrica has announced a cost efficiency programme, under which it
+             aims to reduce costs by £750 million per year. However, we note that
+             these savings are expected to be realised from efficiencies across the
+             whole of its business; not only its UK retail supply activities.12
+
+18.      Therefore, while we agree that the analysis that we have carried out is
+         indicative, rather than being based on an econometric assessment of cost
+         differentials, we note that our finding of substantial indirect cost inefficiencies
+         is supported rather than contradicted by the evidence of the Six Large Energy
+         Firms themselves.
+
+Identification of an appropriate benchmark
+
+19.      In our provisional findings (Appendix 10.5), we used the lower quartile of the
+         Six Large Energy Firms’ costs per customer on an annual basis as a
+         benchmark against which to measure the efficient level of indirect costs. As
+         summarised in Annex B, several of the parties submitted that this approach
+         was inappropriate. In particular, they submitted that the use of annual
+         benchmarking was likely to overstate the level of inefficiency. In addition, the
+         parties submitted that the analysis placed too much reliance on a very small
+         set of Mid-tier Suppliers.
+
+20.      First, we agree with the parties that applying a benchmark based on annual
+         lower quartile costs could result in a benchmark that none of the firms could
+         have achieved over the period due to year-to-year variations in cost levels. As
+         a result, we have altered the methodology to benchmark the suppliers against
+         a ‘whole period’ (ie 2007 to 2014) lower quartile cost. However, as shown in
+         Table 4, we also compared this lower quartile benchmark with that of the
+         lowest cost of the Six Large Energy Firms over the relevant period ([]). This
+         analysis shows that at least one firm was able to operate with a significantly
+
+
+11 It is common for firms, in the ordinary process of competition, to identify potential efficiency improvements that
+
+would allow them to reduce their cost base and, in so doing, either lower prices and/or increase their profits.
+However, in a well-functioning market, we would expect such cost-savings to be incremental in nature, rather
+than the significant cost-savings that have been identified in this market. For example, if EDF Energy were to
+achieve the cost reductions that it has identified, these would be sufficient to move it from a loss-making position
+to a position where it would make a return in excess of its cost of capital (based on 2013 figures).
+12 Centrica preliminary results for the year ended 31 December 2015.
+
+
+
+
+                                                      A9.11-7
+      lower cost base (around £100 million per year lower) than our lower quartile
+      benchmark and over £200 million per year lower than some of its competitors
+      ([]). We considered that it might be reasonable to take the most efficient
+      firm in the industry as the benchmark against which to evaluate the other
+      operators – given the similarities in the products they sell and their market
+      positioning, as well as the large differences between them – and that, on this
+      basis, the level of ‘excess’ costs would be around £850 million per year
+      across the five other of the Six Large Energy Firms.
+
+21.   However, given the potential differences in the mix of customers (eg as noted
+      in paragraph 9, some firms have higher proportions of more expensive
+      customers to serve), we have taken the period lower quartile as our main
+      benchmark. We note that this benchmark is similar to the level of indirect
+      costs per customer account achieved by []. We consider this to be
+      conservative given that at least one firm in the industry has a significantly
+      lower cost base and the firm with the highest proportion of expensive to serve
+      customers ([]) also has costs which are slightly below this level. In addition,
+      as noted in paragraph 12, we consider that the per-customer indirect costs of
+      the Mid-tier Suppliers may decline as they reach scale and their rate of growth
+      slows.
+
+22.   As regards the reliance that we propose to place on the Mid-tier Suppliers (as
+      comparators), we disagree that we are placing ‘too much’ emphasis on them
+      when carrying out our benchmarking analysis. Our benchmarking calculations
+      only use the figures of the Six Large Energy Firms, with the cost ratios of the
+      Mid-tier Suppliers providing a sense-check rather than forming an integral part
+      of the overall analysis.
+
+Scope of the analysis
+
+23.   Finally, we have considered which activities should be included within the
+      scope of our cost benchmarking analysis. The parties put forward the view
+      that, particularly for SME activities, suppliers’ indirect costs varied from year to
+      year and that the extent of these variations meant that robust conclusions
+      could not be drawn from the data. Having reviewed the SME cost data (see
+      Table 2) and information on the size of each of the Six Large Energy Firms’
+      SME activities, we agreed with the parties. We concluded that comparisons in
+      this operating segment were likely to be unreliable. Factors that make it
+      difficult to compare the suppliers in this regard include the following:
+
+      (a) The Six Large Energy Firms all have a significant market presence in the
+          domestic sector. This is not true in the SME sector with some suppliers
+
+
+
+
+                                        A9.11-8
+               having a large presence, like Centrica, some having a small presence,
+               like Scottish Power and EDF Energy in the gas market.13
+
+         (b) Customers in the SME market are far more diverse in terms of size and
+             energy needs than those in the domestic markets making it much harder
+             to draw conclusions from any differences between suppliers.
+
+24.      As a result, we have not sought to quantify any inefficiency in the SME market
+         in contrast to the provisional findings, although on the basis of the evidence of
+         inefficiencies in domestic energy retail supply, our view is that there are likely
+         to be some inefficiencies in the SME markets as well. We have taken this
+         qualitative observation into account when determining the detriment arising
+         from the Microbusiness Weak Customer Response AEC.
+
+25.      A more general note on our methodology is that some of the Six Large Energy
+         Firms submitted that metering costs were a direct cost item. We have treated
+         these as indirect costs for the purposes of this review in line with Ofgem’s
+         approach in its consolidated segmental statements.
+
+Conclusions
+
+26.      In Table 4 we set out the impact of benchmarking the suppliers’ indirect costs
+         to the lower quartile level incurred and to the level of the lowest cost of the Six
+         Large Energy Firms (SSE). The difference represents the reduction in costs
+         over the period required for the suppliers to have achieved our estimate of
+         efficient costs.
+
+
+
+
+13 See provisional findings, Appendix 7.5: Descriptive statistics (retail).
+
+
+
+
+                                                       A9.11-9
+Table 4: Comparison of indirect costs 2007 to 2014
+                                                                   £ million
+
+ Indirect (operational) costs             Domestic      Domestic
+ FY 2007–2014                             electricity       gas       Total
+
+ Combined SLEF* out-turn indirect costs     14,644        13,445
+ Restated using lower quartile              13,060        12,682
+ Variance                                    1,584           763     2,347
+
+ Restated using []                         10,755        10,535
+ Variance                                    3,889         2,910     6,799
+
+ Lower quartile variance by supplier:
+   []                                          []         []        []
+   []                                          []         []        []
+   []                                          []         []        []
+   []                                          []         []        []
+   []                                          []         []        []
+   []                                          []         []        []
+   Total                                      1,584         763      2,347
+
+ [] variance by supplier:
+   []                                          []          []       []
+   []                                          []          []       []
+   []                                          []          []       []
+   []                                          []          []       []
+   []                                          []          []       []
+   []                                          []          []       []
+   Total                                      3,889        2,910     6,799
+
+Source: CMA analysis.
+*Six Large Energy Firms.
+
+
+27.      Based on the above table we see that the costs above the lower quartile level
+         amount to £2.3 billion (£290 million a year) across an eight-year period if we
+         sum across all of the Six Large Energy Firms. However, if the results of []
+         and [] are excluded, this increases to £3.3 billion over the eight-year period,
+         or approximately £420 million per year. In our provisional decision on
+         remedies, we proposed an approach which was, to the extent that a firm had
+         achieved a cost base that is below the benchmark, the difference should not
+         be deducted from the total estimate of inefficiency in the industry. This was on
+         the basis that our benchmark was reasonably conservative – being set at the
+         lower quartile rather than the lowest cost firm – such that those firms []
+         which ‘beat’ the benchmark could be considered to be reasonably efficient,
+         but should not necessarily be considered ‘super-efficient’. Therefore, we set
+         their ‘cost inefficiency’ to zero in carrying out our analysis. As set out in Annex
+         B, several parties submitted that this approach was not reasonable and that
+         the CMA should deduct the outperformance of these two firms from their
+         economic profits when coming to a view on the total detriment. However, the
+         evidence did not indicate that these firms [] were particularly efficient when
+         compared with the Mid-tier Suppliers. As shown in Table 3, Ovo Energy and
+         First Utility had a similar level of costs as Centrica in 2014 in spite of operating
+         at a significantly smaller scale and growing rapidly. Therefore, we continue to
+         exclude their outperformance in our base case estimates. However, we
+         recognise that there is uncertainty as to the overall efficient level of costs. As
+         a result, in Section 10, where we set out our overall assessment of detriment,
+
+
+                                                        A9.11-10
+      including under our indirect approach, we have considered a sensitivity under
+      which this outperformance in terms of efficiency is deducted from economic
+      profits when coming to a view on total detriment.
+
+28.   The estimate of inefficiency increases to £6.8 billion if we take [] indirect
+      cost base as the benchmark. This is equivalent to around £850 million per
+      year. The evidence suggests that there are significant inefficiencies within
+      some of the larger energy suppliers. Other points of note:
+
+      (a) [], which has a higher proportion of expensive-to-serve customers by
+          payment type, has costs below the lower quartile level; and
+
+      (b) when using lower quartile costs as the benchmark, two suppliers, [],
+          account for a large proportion of the total ‘inefficiency’. Both of these
+          suppliers have told us that they needed to make significant savings.
+
+29.   Our analysis indicates that some of the Six Large Energy Firms have been
+      inefficient over the period of review, ie they could have operated with
+      significantly lower indirect costs. In a well-functioning market we would not
+      expect significant inefficiencies to persist over time. Rivalry would encourage
+      suppliers to cut costs in order to survive. We therefore consider it reasonable
+      to add cost inefficiency to out-turn profits in order to get a complete measure
+      of detriment arising from the provisional Domestic Weak Customer Response
+      AEC, the Prepayment AEC and the RMR AEC.
+
+
+
+
+                                       A9.11-11
+            Annex A: Analysis of energy retailers’ indirect costs
+
+Introduction
+
+1.      This annex, and its accompanying supplements, sets out our assessment of
+        the Six Large Energy Firms’ indirect costs.
+
+2.      Past studies have suggested that indirect costs have not been falling for the
+        Six Large Energy Firms, and that the gap between the best and worst
+        performers in this regard was significant:
+
+        (a) In its 2008 Probe, Ofgem noted that operational costs were rising faster
+            than the rate of inflation, and that the gap between the best and worst
+            operational costs on a per-customer account basis was around 90%.
+            Ofgem noted in its report at the time that some of the Six Large Energy
+            Firms had programmes in the pipeline to reduce these costs going
+            forward.14
+
+        (b) In its 2012 report, the Institute for Public Policy Research (IPPR) stated
+            that in a competitive market it would not be unreasonable to expect
+            operational cost savings of at least 2.5% a year. It found that the
+            differential between the best and worst operational costs was over 100%,
+            and concluded that competition did not appear to be driving down costs,
+            or forcing their convergence.15
+
+3.      In a well-functioning market, we would expect competition to drive market
+        participants to improve services and seek efficiencies. These efficiency gains
+        should, at least in part, manifest themselves in reduced costs. Over time a
+        significant and persistent gap between the highest and lowest cost suppliers,
+        given that the product is homogenous, would be unlikely to be sustainable. In
+        this section, we considered, at a high level, whether there was any evidence
+        of the Six Large Energy Firms generating efficiency savings in indirect costs
+        over the period of review, from FY07 to FY14.
+
+4.      This annex is structured under the following headings:
+
+        (a) Methodology: in paragraphs 5 to 8, we discuss how we measured indirect
+            cost savings.
+
+        (b) Results: in paragraphs 9 to 32, we set out the results of our analysis.
+
+
+
+
+14 Ofgem (October 2008), Energy Supply Probe – Initial Findings Report, pp95–96.
+15 IPPR (April 2012), The True Cost of Energy, pp26–28.
+
+
+
+
+                                                 A9.11-12
+Methodology
+
+5.      We focused our analysis on the indirect cost base, which is largely comprised
+        of the operational costs of meeting customers’ day-to-day needs. These costs
+        can be controlled by energy suppliers. Our analysis was predominantly
+        focused on the indirect cost base of the Six Large Energy Firms, however, for
+        comparability purposes, we have also considered the indirect costs of the four
+        Mid-tier Suppliers.
+
+6.      Given that all the relevant firms vary in size, an analysis of their total indirect
+        costs in absolute terms would not provide us with an indication of their relative
+        cost efficiency. To take into account the effect of a firm’s size, we sought to
+        adopt a suitable metric against which to calculate and compare indirect cost
+        ratios between the Six Large Energy Firms. Most of the Six Large Energy
+        Firms told us that the number of customer accounts was a key metric for
+        looking at indirect costs, although when looking at individual cost categories
+        the appropriate metric may change.
+
+7.      We considered that the number of customer accounts represented the most
+        appropriate measure, given that it closely corresponded with the number of
+        customer contracts held by a supplier, and was therefore a key driver
+        (although not the only driver) of indirect costs. The number of customer
+        accounts would also be closely aligned with the number of bills generated and
+        therefore was likely to be a good indicator for the level of customer contact
+        and any associated costs. For the purposes of this analysis, we therefore
+        adopted indirect costs per customer account as our indirect cost ratio
+        measure.16 We also converted indirect costs into real terms taking FY07 as
+        the base year (see Supplement 1 to this annex for the details of these
+        adjustments).
+
+8.      For the purposes of our analysis, we looked at indirect cost ratios at a total
+        supply business level, as well as by retail segment split by fuel and by indirect
+        cost component (ie the individual elements of a supplier’s indirect cost base).
+
+
+
+
+16 While we acknowledge that the number of customer accounts may not a perfect metric against which to
+
+measure all indirect costs, we considered that this measure benefited from being measured reasonably
+consistently across each of the Six Large Energy Firms, and therefore enables greater consistency and
+comparability across the relevant firms.
+
+
+                                                  A9.11-13
+Results
+
+Total supply business indirect cost ratios for the Six Large Energy Firms
+
+9.        In Table 1, we set out the indirect cost ratios at a total supply business level
+          for the Six Large Energy Firms on a combined basis from FY07 to FY14.
+
+Table 1: Total supply business indirect cost ratios over the relevant period for the Six Large
+Energy Firms combined
+                   Total indirect cost
+                       ratios (£)*
+ Financial          (average of the      Year-on-year
+ year                     firms)         movement (%)
+
+ FY07                      81                   N/A
+ FY08                      83                   +4
+ FY09                      83                   –1
+ FY10                      81                   –2
+ FY11                      76                   –7
+ FY12                      75                   –1
+ FY13                      74                   –2
+ FY14                      76                   +3
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+*We calculated indirect cost per customer account by dividing total indirect costs in real-terms divided by total customer
+accounts across the total supply business. The averages for each year is a simple average of the six ratios for each firm.
+Notes:
+1. For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+2. ‘N/A’ means ‘not available’.
+3. RWE’s indirect costs and account figures include Telecom Plus figures.
+4. Figures have been rounded.
+
+
+10.       Based on Table 1, indirect costs fell by around £5 per customer account (in
+          real terms) between FY07 and FY14, a decline of around 2% each year on
+          average. This comparison, however, masks the underlying trends in each
+          individual firm’s performance, and we consider these below.
+
+11.       Table 2 shows the indirect cost ratios at a total supply business level for each
+          of the Six Large Energy Firms from FY07 to FY14 (see also Supplement 2 for
+          further details for each of the Six Large Energy Firms).
+
+Table 2: Total supply business indirect cost ratios* over the relevant period for each of the Six
+Large Energy Firms
+                                                                                          £
+
+          2007        2008      2009     2010     2011      2012   2013   2014     Average
+
+ []         []       []       []     []          []   []    []    []          []
+ []         []       []       []     []          []   []    []    []          []
+ []         []       []       []     []          []   []    []    []          []
+ []         []       []       []     []          []   []    []    []          []
+ []         []       []       []     []          []   []    []    []          []
+ []         []       []       []     []          []   []    []    []          []
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+*We calculated indirect cost per customer account by dividing total indirect costs in real terms divided by total customer
+accounts across the total supply business. The averages for each supplier is a simple average of the six ratios for each year.
+Note: For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+12.       Based on Table 2, we found that:
+
+
+                                                              A9.11-14
+          (a) both [] and [] had each made improvements over the relevant period
+              to their individual indirect cost base; in particular, we found that these two
+              firms were the primary drivers for the cost reductions seen for the Six
+              Large Energy Firms on a combined basis from 2007 to 2014;
+
+          (b) the average gap between [] (with the lowest indirect cost ratios) and
+              [] (with the highest) was around £[] per customer account, or a
+              percentage difference of []%; and
+
+          (c) in considering the impact of higher indirect costs on [] profitability – and
+              based on (b) above – we calculated that, if [] had generated indirect
+              cost ratios in line with [], this would have the effect in most cases of
+              turning [] EBIT losses into an EBIT profit for its total supply business.
+
+13.       We noted that an analysis of total indirect costs per customer account at a
+          total supply business level would not make a distinction between customers in
+          different retail segments, eg between a domestic customer account and an
+          SME customer account. The mix of domestic and non-domestic customers
+          will influence the results above. Below, we looked at indirect costs on a retail
+          segmental basis, focusing on the two retail segments that formed part of our
+          reference markets, namely domestic and SME supply.
+
+Retail segmental indirect cost ratios for domestic and SME supply by fuel type
+
+14.       Table 3 shows the average segmental indirect cost ratios for domestic supply
+          (split by fuel type) for each of the Six Large Energy Firms for the period FY09
+          to FY14. The detailed figures behind this table are set out in Supplement 3 to
+          this annex.
+
+Table 3: Average* domestic indirect costs per account for each of the Six Large Energy Firms
+(FY09 to FY14)†
+         Domestic      Domestic    Domestic
+         electricity     gas        overall     Rank
+
+ []        []          []          []        []
+ []        []          []          []        []
+ []        []          []          []        []
+ []        []          []          []        []
+ []        []          []          []        []
+ []        []          []          []        []
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+*Average indirect cost ratios have not been weighted.
+†This analysis focuses on FY09 to FY14 as there was no split for SME for FY07 and FY08 for SSE.
+Note: For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+15.       Based on Table 3 and Supplement 3 to this annex, we found that, while there
+          were peaks and troughs in their respective indirect cost ratios with some firms
+          demonstrating no significant cost reductions, there appeared to be no
+          consistent trend of increasing costs. We also found that:
+
+
+                                                         A9.11-15
+         (a) both [] and [] demonstrated the strongest trends in cost reductions
+             over the relevant period, as was the case for their respective total supply
+             business indirect cost ratios; and
+
+         (b) the ranking of the indirect cost ratios for each of the Six Large Energy
+             Firms’ domestic retail segments was broadly consistent with the ranking
+             we found for their respective total supply businesses above, eg with []
+             generating the lowest indirect cost ratio, and [] generating the highest
+             cost, 70% higher.
+
+16.      Table 4 shows the segmental average indirect cost ratios for SME supply
+         (split by fuel type) for each of the Six Large Energy Firms for the period FY09
+         to FY14 (see also Supplement 3 to this annex for further details).
+
+Table 4: Average SME indirect costs per customer account for each of the Six Large Energy
+Firms (FY09 to FY14)†
+           SME         SME      SME
+         electricity   gas     overall   Rank
+
+ []        []        []      []       []
+ []        []        []      []       []
+ []        []        []      []       []
+ []        []        []      []       []
+ []        []        []      []       []
+ []        []        []      []       []
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+†Average indirect cost ratios have not been weighted.
+Note: This analysis focuses on FY09 to FY14 as there was no split for SME for FY07 and FY08 for SSE. For the purposes of
+restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+17.      Based on Table 4 above, in conjunction with Supplement 3 to this annex, we
+         found that:
+
+         (a) year-on-year movements in indirect cost ratios were more volatile for the
+             SME retail markets than for the domestic retail markets, with
+             proportionately larger differences between the Six Large Energy Firms;
+
+         (b) the rankings for SME indirect cost ratios were slightly different from the
+             similar rankings we found for the domestic retail segment and total supply
+             business levels for the Six Large Energy Firms; for SME indirect cost
+             ratios, [] generated the lowest ratio while [] generated the highest;
+             and
+
+         (c) only [] indirect cost ratios showed significant reductions over the period.
+
+18.      We considered that the reason for the more varied picture for indirect cost
+         ratios in the SME retail markets was likely to depend to some extent on the
+         relative significance of the SME retail activities for each of the Six Large
+         Energy Firms. For example, [],[].
+
+
+
+                                                       A9.11-16
+19.       We now consider the components of indirect costs on a more granular basis
+          to look at trends in different cost categories.
+
+Total supply business indirect costs by cost category
+
+20.       In relation to our analysis of the individual components of indirect costs, we
+          categorised indirect costs into six broad ‘standardised’ categories, namely the
+          costs relating to: (a) bad debts; (b) metering; (c) sales and marketing;
+          (d) customer service; (e) central services; and (f) other costs.17 We then
+          requested each of the Six Large Energy Firms to allocate their total indirect
+          costs to each of these six categories. This analysis was conducted at the total
+          supply business level.
+
+21.       Table 5 sets out the average indirect cost ratios at a total supply business
+          level for each of the Six Large Energy Firms over the relevant period.
+
+Table 5: Total supply business average indirect cost ratios* for the Six Large Energy Firms by
+category (FY07 to FY13)
+                                                               Average      Average
+                  Average      Average     Average sales      customer       central     Average
+                 bad debt     metering     and marketing        service      service        other
+ Energy firm     cost ratio   cost ratio       cost ratio     cost ratio   cost ratio   cost ratio
+
+ []                  []          []               []           []          []          []
+ []                  []          []               []           []          []          []
+ []                  []          []               []           []          []          []
+ []                  []          []               []           []          []          []
+ []                  []          []               []           []          []          []
+ []                  []          []               []           []          []          []
+
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms.
+*Indirect cost item per customer account. The average was based on a simple average of the annual indirect cost item ratios
+over the period FY09 to FY13.
+Note: For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+22.       In Supplement 4 to this annex, we describe the trends we saw in each of
+          these indirect cost categories. Based on Table 5 and Supplement 4 to this
+          annex, we found that:
+
+          (a) [] generated the lowest indirect cost ratios across most of the indirect
+              cost categories, and significantly outperformed its peers in relation [];
+
+          (b) [] and [] both had significantly higher sales and marketing cost ratios
+              relative to their peers; [] sales and marketing costs were over []%
+
+
+17 We defined each indirect cost category as follows: (a) bad debts: comprising in-year bad debt write-offs and
+
+movements in bad debt provision; and their debt collection, legal costs, debt reminders and other associated debt
+collection costs; (b) metering: comprising meter asset charges, transaction charges, meter reading costs and
+other associated costs; (c) sales and marketing: comprising costs associated with customer acquisition and
+retention, as well as the costs associated with white label arrangements; (d) customer service: comprising their
+costs for billing, credit management, call centres, customer relations (including complaints handling), cash control
+and other costs associated with customer service provision; (e) central services: comprising their central office
+recharges, IT and property costs and those costs associated with each of these; and (f) other items: comprising
+any other indirect cost items that may not on their own be material and do not fit into the above categories.
+
+
+                                                            A9.11-17
+                higher than the lowest cost per account supplier with [] being over
+                []% higher; [] also generated a significantly higher central service
+                cost ratio than the other suppliers, being almost []% higher than the
+                next highest ratio; and
+
+          (c) both [] and [] generated the lowest customer service cost ratios,
+              while [] had significantly higher customer service cost ratios than all the
+              other Six Large Energy Firms, with a cost ratio almost []% higher than
+              the next highest supplier.
+
+Indirect cost ratio comparison with the Mid-tier Suppliers
+
+23.       As noted in our methodology above, we compared the indirect cost ratios of
+          the Six Large Energy Firms with those of the four Mid-tier Suppliers.
+
+24.       The financial information that could be provided by the Mid-tier Suppliers was
+          not as detailed as that provided by the Six Large Energy Firms, and therefore
+          our analysis was limited to calculating their indirect cost ratios at a total supply
+          business level rather than on a retail segmental basis, although we would
+          note that the Mid-tier Suppliers predominantly supply the domestic retail
+          markets.
+
+25.       Table 6 shows the indirect cost ratios for each of the four Mid-tier Suppliers
+          (see also Supplement 5 to this annex for further details).
+
+Table 6: Total supply business indirect costs per customer account for the Mid-tier Suppliers
+         2009     2010     2011     2012     2013     2014     Average
+
+ []      []      []     []      []      []      []        []
+ []      []      []     []      []      []      []        []
+ []      []      []     []      []      []      []        []
+ []      []      []     []      []      []      []        []
+
+Source: CMA analysis of P&L information submitted by the Mid-tier Suppliers.
+*We calculated the period average indirect cost per customer account by calculating a simple average of each year’s indirect
+costs per account.
+†For the purpose of our indirect cost ratio analysis, we used Ovo Energy’s P&L information that reported to different financial
+year-ends for FY09 to FY11. Therefore, FY09 and FY10 are reported to 30 June year-ends, while FY11 represents a six-month
+accounting period, and FY12 and FY13 are reported to 31 December year-ends. Given that FY11 represented a partial year,
+we did not include FY11 indirect cost ratios for Ovo Energy in its average calculation.
+Note: For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+
+
+26.       Based on Table 6, we found that [] indirect cost ratios were significantly
+          higher than any of the other relevant firms, including both the Mid-tier
+          Suppliers and the Six Large Energy Firms (as a group). This was due to []
+          change in customer mix, with a significant proportion of its revenue from SME
+          customers in 2009 []. In 2013 and 2014, [] indirect cost ratios were
+          comparable with those of the other Mid-tier Suppliers.
+
+27.       Taking the [] Mid-tier Suppliers in turn, we noted that Utility Warehouse
+          generated the lowest indirect cost ratios, and that this was lower than the
+
+
+                                                         A9.11-18
+          ratios of the Six Large Energy Firms.18 Based on our analysis, Ovo Energy
+          would be ranked joint first with SSE over the period under consideration, with
+          Co-operative Energy ranking third, ahead of Centrica, E.ON, RWE and [].
+          This comparison is represented graphically in Figure 1.
+
+Figure 1: Comparison of total supply business average indirect cost ratios between the Mid-
+tier Suppliers and the Six Large Energy Firms
+
+[]
+Source: CMA analysis of P&L information submitted by the Six Large Energy Firms and Mid-tier Suppliers.
+Notes:
+1. For the purposes of restating indirect costs into real terms, we adopted FY07 as the base year.
+2. We calculated the average indirect cost ratio based on a simple average of the annual ratios for each firm.
+
+
+28.       Based on Figure 1, the Mid-tier Suppliers compared relatively favourably
+          against the Six Large Energy Firms (as a group).
+
+29.       The Mid-tier Suppliers could not allocate their indirect costs by customer type
+          therefore with the mid-tiers we were limited to looking at total supply only. The
+          Mid-tier Suppliers are predominantly domestic customer focused. Below we
+          compare the Six Large Energy Firms’ domestic indirect costs per account
+          against the Mid-tier Suppliers’ total supply.
+
+Figure 2: Comparison of domestic supply business average indirect cost ratios of the Six
+Large Energy Firms and total supply costs of the Mid-tier Suppliers
+
+[]
+
+Source: CMA analysis.
+
+
+30.       Ovo Energy still compares favourably against the Six Large Energy Firms,
+          joint second with Centrica and Scottish Power. However, Co-operative Energy
+          becomes the worst performer, with a higher cost than RWE npower or EDF
+          Energy.
+
+31.       The Mid-tier Suppliers are currently investing to grow, scaling up their
+          operations substantially and acquiring significant numbers of new customers,
+          who have associated on-boarding costs to accompany them. If the Mid-tier
+          Suppliers were to reach scale and their growth slow down, we consider it
+          reasonably likely that their indirect costs per customer account would decline
+          with the movement to steady state and the realisation of economies of scale.
+
+32.       Based on Figures 1 and 2 and their stage of growth, we believe that the Mid-
+          tier Suppliers compared relatively favourably against the Six Large Energy
+          Firms in recent years.
+
+
+
+18 Utility Warehouse has an operating relationship with RWE that means some typical energy supply costs are
+
+borne by RWE.
+
+
+                                                          A9.11-19
+Summary of our indirect cost analysis
+
+33.   As noted in Annex B, the Six Large Energy Firms have submitted that there
+      are not significant inefficiencies in the industry and have put forward the view
+      that differences between suppliers are driven by company-specific differences
+      such as customer mix and service differentiation. We acknowledge that there
+      may be legitimate differences in suppliers’ costs to serve as a result of
+      customer mix, however we do not believe that this explains away the
+      significant differential in costs to serve. In addition, we note that we do not see
+      any evidence of significant differences in market positioning or service
+      differentiations across the Six Large Energy Firms.
+
+34.   Based on our analysis we have found that:
+
+      (a) [];
+
+      (b) []; and
+
+      (c) [].
+
+
+
+
+                                       A9.11-20
+                           Supplement 1: Indirect cost information
+
+Introduction
+
+1.         This supplement sets out the limited number of adjustments we made to the
+           indirect costs of the Six Large Energy Firms.
+
+2.         To eliminate the effects of inflation on indirect costs, we calculated the indirect
+           cost ratios in ‘real terms’, using the Consumer Price Index (CPI) as our
+           deflator and FY07 as our base year.19
+
+3.         Using the annual CPI movement taken from the Office for National Statistics,
+           we deflated the costs of years FY08 to FY14 to make them comparable to
+           2007 prices. The annual CPI change used for each of the Six Large Energy
+           Firms and the deflator applied to FY08 to FY14 can be seen in Table 1.
+
+Table 1: Annual CPI and associated deflator
+
+ Deemed
+ Financial      Financial accounts                                      Annual       Deflator
+ Year           year end                 Firm                          CPI index   (Costs x %)
+
+                31 December 2007         Centrica, E.ON, EDF Energy,       2.1%        100.0%
+ FY 2007
+                                         RWE and Scottish Power.
+                31 March 2008            SSE                               2.5%        100.0%
+ FY 2008        December 2008                                              3.1%         96.9%
+                March 2009                                                 2.9%         97.1%
+ FY 2009        December 2009                                              2.9%         94.1%
+                March 2010                                                 3.4%         93.8%
+ FY 2010        December 2010                                              3.7%         90.6%
+                March 2011                                                 4.0%         90.0%
+ FY 2011        December 2011                                              4.2%         86.8%
+                                         As above
+                March 2012                                                 3.5%         86.9%
+ FY 2012        December 2012                                              2.7%         84.5%
+                March 2013                                                 2.8%         84.5%
+ FY 2013        December 2013                                              2.0%         82.8%
+                March 2014                                                 1.6%         83.1%
+ FY 2014        December 2014                                              0.5%         82.4%
+                March 2015                                                 0.0%         83.1%
+
+Source: Office for National Statistics – CPI data set.
+
+
+Additional adjustments to indirect costs
+
+4.         We describe some of the other minor adjustments we made to the indirect
+           costs for each of the Six Large Energy Firms (when applicable):
+
+           (a) Centrica had included some metering costs as direct costs above the
+               gross profit line. These have been brought into indirect costs in this
+               analysis and mapped to ‘metering costs’.
+
+
+
+
+19 Office for National Statistics. CPI data set used – last updated 16 December 2014.
+
+
+
+
+                                                         A9.11-21
+(b) EDF Energy had included some commission costs as direct costs above
+    the gross profit line. We have included these costs within indirect costs
+    within our analysis and mapped them to ‘sales and marketing costs’.
+
+(c) SSE had some third-party intermediary costs recorded as direct costs
+    above the gross profit line. We have included these within indirect costs
+    and mapped them to ‘sales and marketing costs’.
+
+
+
+
+                                A9.11-22
+               Supplement 2: Total indirect cost ratios for the
+                        Six Large Energy Firms
+
+Introduction
+
+1.    This supplement sets out the total indirect cost ratios for each of the Six Large
+      Energy Firms over the relevant period.
+
+2.    Table 1 sets out the total customer accounts, the nominal and real total
+      indirect costs and the indirect cost ratio (ie £ per customer account). The table
+      is split by firm and by year with a simple average of the eight years shown at
+      the foot of the table.
+
+
+
+
+                                      A9.11-23
+Table 1: Annual total supply business indirect costs and ratios (FY07 to FY14) and average
+ratios
+                                          Total                          Total indirect costs
+ Financial                            customer    Total indirect costs    (adjusted for CPI)
+ year          Energy firm            accounts       (nominal) £’000                    £’000   £/account
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY07          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY08          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY09          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY10          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY11          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY12
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY13          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ FY14          []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+ Average       []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+               []                         []                   []                    []          []
+
+
+Source: CMA analysis of P&L information of the Six Large Energy Firms.
+Notes:
+1. Simple average of the eight years shown at the foot of the table.
+2. SSE FY07 and FY08 customer account figures omit industrial customers so will be marginally overstated.
+
+
+
+
+                                                        A9.11-24
+             Supplement 3: Segmental indirect cost ratios for the
+                          Six Large Energy Firms
+
+Introduction
+
+1.       This supplement sets out the indirect cost ratios for each of the Six Large
+         Energy Firms’ domestic and SME retail activities (split by fuel type) over the
+         period FY07 to FY14.
+
+2.       Table 1 sets out the indirect cost ratios (ie £ per customer account) in real
+         terms for domestic and SME supply, split by fuel type.
+
+Table 1: Domestic and SME indirect cost ratios in real terms (FY07 to FY14) and average ratios
+                                                                                                    £/account
+
+ Financial               Domestic      Domestic          SME      SME
+ year                    electricity       gas      electricity    gas   Domestic   SME   Electricity    Gas
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY07
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY08
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY09
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY10
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY11
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY12
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+ FY13
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+             []               []         []            []     []        []    []         []      []
+
+
+
+
+                                                  A9.11-25
+                                                                                                                      £/account
+
+ Financial                        Domestic      Domestic           SME      SME
+ year                             electricity       gas       electricity    gas    Domestic       SME      Electricity    Gas
+
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+ FY14
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+
+ Average      []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+              []                       []          []            []      []          []       []           []      []
+
+Source: CMA analysis of P&L information of Six Large Energy Firms.
+Notes:
+1. Simple average of the five years shown at the foot of the table.
+2. All costs are reported in real terms with 2007 as the base year to make the figures comparable to others in the indirect cost
+analysis.
+
+
+
+
+                                                           A9.11-26
+               Supplement 4: Indirect cost categories for the
+                        Six Large Energy Firms
+
+Introduction
+
+1.    This supplement sets out the indirect cost ratios for each of the Six Large
+      Energy Firms based on the six broad indirect cost categories we used for the
+      purpose of our analysis.
+
+2.    Table 1 shows for each of the Six Large Energy Firms the indirect cost per
+      customer account for each of their indirect cost categories.
+
+
+
+
+                                     A9.11-27
+Table 1: Total supply business indirect cost ratios by cost category for the Six Large Energy
+Firms
+                                                              Sales and
+ Financial                          Bad debt     Metering     marketing        Customer           Central
+ year          Energy firm             costs        costs         costs     service costs   service costs     Other costs
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY07          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY08          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY09          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY10          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY11          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY12          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ FY13          []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+ Average       []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+               []                       []          []           []              []              []             []
+
+Source: CMA analysis of P&L information of Six Large Energy Firms.
+Notes:
+1. All costs are reported in real terms with 2007 as the base year to make the figures comparable to others in the indirect cost
+analysis.
+2. Simple average of the seven years shown at the foot of the table.
+
+
+
+
+Commentary on indirect cost ratios by cost category
+
+3.         Based on Table 4:
+
+
+                                                            A9.11-28
+(a) Bad debt cost ratios: several of the Six Large Energy Firms showed an
+    increase in bad debt costs from the impact of the financial crash and
+    subsequent recession. The biggest peaks in bad debt cost ratios were
+    seen for [] and []. After this peak, the cost ratios fell to similar levels
+    seen in FY07. We note that this trend did not significantly alter when
+    looking at bad debts as a percentage of revenues.
+
+(b) Metering cost ratios: over the period, this cost ratio remained relatively
+    flat for most of the Six Large Energy Firms. The gap between the highest
+    ([]) and lowest ([]) ratios narrowed over the period.
+
+(c) Sales and marketing cost ratios: we note that this cost ratio would be
+    heavily influenced by each firm’s business and customer acquisition
+    strategy. We found that over the period of review all the Six Large Energy
+    Firms reduced their sales and marketing cost ratios on a per customer
+    account basis. The firms that had spent the most in sales and marketing
+    (ie [] and []) reduced their costs the most and the firm that spent the
+    least, [], reduced its costs the least. Over the period of review, on
+    average [] had the lowest cost ratio and [] the highest.
+
+(d) Customer service cost ratios: these ratios were significantly higher for
+    [] than for all the other Six Large Energy Firms. Over the period, while
+    these ratios fell for [], they remained significantly high relative to the
+    other suppliers. [], although significantly lower in its cost ratios than
+    [], showed year-on-year increases in its customer service cost ratio.
+    [] showed the strongest signs of cost reductions over this period.
+
+(e) Central service cost ratios: were significantly higher for [] than the
+    other Six Large Energy Firms. [] central service costs also increased
+    over the period, while [] incurred the lowest average central service
+    cost ratio.
+
+
+
+
+                                 A9.11-29
+        Supplement 5: Mid-tier Suppliers’ indirect cost ratios
+
+Introduction
+
+1.    This supplement sets out the indirect cost ratios for the Mid-tier Suppliers.
+
+2.    Based on the indirect cost information provided by the four Mid-tier Suppliers,
+      we calculated total indirect costs per customer account. These results are set
+      out in Table 1. In calculating their indirect cost ratios, we would highlight that:
+
+      (a) to make these figures comparable to the other parts of our indirect cost
+          ratio analysis, all figures were adjusted for inflation based on CPI using
+          2007 as the base year; the adjustment made is reported in the table
+          below; and
+
+      (b) the average provided at the bottom of the table is a simple average; for
+          Ovo Energy, it excludes FY10 because this was a six-month accounting
+          period as a result of a year-end change during 2011. In the table below,
+          for Ovo Energy, FY09 relates to the period ending 30 June 2010, FY10 is
+          for the 12 months to 30 June 2011, FY11 is for the six months to
+          31 December 2011, and for FY12, FY13 and FY14 the financial year
+          matches the calendar year.
+
+
+
+
+                                       A9.11-30
+Table 1: Total supply business indirect cost ratios for the Mid-tier Suppliers
+ Deemed financial                                                         []              []             []              []
+ year
+
+                         Customer numbers                                 []              []             []              []
+                         Meters                                           []              []             []              []
+                         Customer accounts                                []              []             []              []
+ FY09
+                         Total indirect costs                             []              []             []              []
+                         CPI adjustment made:                             []              []             []              []
+                         Total indirect costs per customer                []              []             []              []
+                         CPI adjusted                                     []              []             []              []
+
+                         Customer numbers                                 []              []             []              []
+                         Meters                                           []              []             []              []
+                         Customer accounts                                []              []             []              []
+ FY10
+                         Total indirect costs                             []              []             []              []
+                         CPI adjustment made:                             []              []             []              []
+                         Total indirect costs per customer                []              []             []              []
+                         CPI adjusted                                     []              []             []              []
+
+                         Customer numbers                                 []              []             []              []
+                         Meters                                           []              []             []              []
+                         Customer accounts                                []              []             []              []
+ FY11
+                         Total indirect costs                             []              []             []              []
+                         CPI adjustment made:                             []              []             []              []
+                         Total indirect costs per customer                []              []             []              []
+                         CPI adjusted                                     []              []             []              []
+
+                         Customer numbers                                 []              []             []              []
+                         Meters                                           []              []             []              []
+                         Customer accounts                                []              []             []              []
+ FY12
+                         Total indirect costs                             []              []             []              []
+                         CPI adjustment made:                             []              []             []              []
+                         Total indirect costs per customer                []              []             []              []
+                         CPI adjusted                                     []              []             []              []
+
+                         Customer numbers                                 []              []             []              []
+                         Meters                                           []              []             []              []
+                         Customer accounts                                []              []             []              []
+ FY13
+                         Total indirect costs                             []              []             []              []
+                         CPI adjustment made:                             []              []             []              []
+                         Total indirect costs per customer                []              []             []              []
+                         CPI adjusted                                     []              []             []              []
+
+                         Customer numbers                                 []              []             []              []
+                         Meters                                           []              []             []              []
+                         Customer accounts                                []              []             []              []
+ FY14
+                         Total indirect costs                             []              []             []              []
+                         CPI adjustment made:                             []              []             []              []
+                         Total indirect costs per customer                []              []             []              []
+                         CPI adjusted                                     []              []             []              []
+
+Source: CMA analysis of P&L information of four Mid-tier Suppliers.
+*Co-op Energy commenced trading in December 2010.
+Note: All costs are reported in real terms with 2007 as the base year to make the figures comparable to others in the indirect
+cost analysis.
+
+
+
+
+                                                          A9.11-31
+                                 Annex B: Parties’ responses
+
+Introduction
+
+1.       In this annex, we set out a summary of the views of parties relating to our
+         provisional findings concerning the competitive benchmark price and revenue
+         (set out in Appendix 10.5 of our provisional findings). We have published the
+         responses we received to our provisional findings and our Remedies Notice
+         on our website. We address the majority of these submissions in this
+         appendix, while others are addressed in Appendix 9.10.
+
+Overall comments on the provisional findings
+
+2.       EDF Energy20 told us that our competitive benchmark for the industry required
+         a number of substantial assumptions, and did not take account of key
+         differences between suppliers in its conclusions. It added that there were
+         significant methodological weaknesses in the CMA’s approach and therefore
+         in the conclusions drawn.
+
+3.       RWE21 told us that the CMA made an inappropriate ex post assessment of the
+         level of costs that a ‘reasonably efficient’ operator could have been expected
+         to achieve, by imposing a presumption that was unsupported by evidence in
+         its benchmarks that the Six Large Energy Firms were inefficient in each of the
+         three main cost categories (ie direct costs, indirect costs and the capital
+         charge). It added that the CMA did not perform the normal econometric,
+         overhead and functional benchmarking analyses that were commonly applied
+         by regulators when assessing an efficiency gap.
+
+4.       SSE22 told us that the competitive benchmark analysis was unsound, and that
+         alongside the ROCE analysis, the economic profit generated by the Six Large
+         Energy Firms was assessed by taking into account the costs that would have
+         been incurred by a hypothetically efficient supplier over the Relevant Period. It
+         added that this analysis had led the CMA to claim that the Six Large Energy
+         Firms were ‘overcharging’ domestic and SME customers relative to the price
+         that an efficient supplier could offer. It also told us that our analysis estimated
+         the degree to which prices were above the competitive level by assuming that
+         all competitors should have been able to achieve the cost performance of a
+         hypothetically efficient supplier with respect to direct and indirect costs despite
+         the fact that no retail supplier had achieved this over the Relevant Period.
+
+
+
+20 EDF Energy response to provisional findings, p21, profitability annex.
+21 RWE npower response to provisional findings profitability analysis, p4, paragraph 6.1.
+22 SSE response to provisional findings, Annex 1, p2, paragraph 1.6.
+
+
+
+
+                                                    A9.11-32
+         SSE told us that it believed that correcting for the errors in the CMA’s analysis
+         eliminates any excess revenues in the industry altogether.
+
+5.       Centrica told us that our estimate of the competitive benchmark revenue or
+         price failed to recognise differentiated costs and prices across products, and
+         differences in the risks and capital required to support different customer
+         segments. It added that undue reliance was placed on a period of benign and
+         falling wholesale market costs.23
+
+6.       Scottish Power told us that the benchmarks used to assess the efficiency of
+         the Six Large Energy Firms were neither meaningful nor achievable as they
+         were based on a selective use of data and used a methodology that did not
+         take proper account of: (a) year-on-year variability in cost drivers (particularly
+         in relation to wholesale energy costs); (b) the fact that many such cost drivers
+         had different effects on different suppliers (due to differences in their customer
+         mix such as the proportion of customers paying by direct debit); and (c) that
+         many such factors were driven by either unpredictable wholesale price
+         variation or consumer choice and were therefore not directly controllable by
+         suppliers.24 In benchmarking the performance of regulated companies, it told
+         us that it was standard practice to condition that performance on factors that
+         were outside the direct control of those firms. It told us that the benchmarking
+         analysis for the Six Large Energy Firms carried out by the CMA did not control
+         for such factors.25
+
+7.       E.ON told us that the CMA analysis on efficient prices and costs had
+         significant weaknesses and recycled many of the same assumptions and
+         associated problems that affected the ROCE analysis. It therefore told us that
+         the results of the competitive benchmark analysis suffered from the same
+         issues, which, in its view, effectively invalidated its results.26
+
+Benchmarking indirect costs in the provisional findings
+
+8.       EDF Energy told us that the relative proportions of customer payment types
+         would have a significant effect on indirect costs, eg cash/cheque and
+         prepayment customers had significantly higher costs to serve, as noted by the
+         CMA. It explained that this would also result in variances in gross margin as
+         the higher indirect costs were passed through in price differentials, thereby
+
+
+
+23 Centrica response Appendix to provisional findings and possible remedies, p21, paragraph 76. We address
+
+parties’ submissions on the capital required by energy retail suppliers and the use of the intermediary fee model
+in Appendix 3.4.
+24 Scottish Power response to provisional findings, p15, paragraph 4.2.
+25 Scottish Power response to provisional findings, p17, paragraph 8.
+26 E.ON response to provisional findings, p7, paragraph 3.4. We address parties’ submissions on our ROCE
+
+analysis in Appendix 3.4.
+
+
+                                                   A9.11-33
+         increasing gross margin for those suppliers with higher proportions of
+         cash/cheque and prepayment customers.27
+
+9.       EDF Energy also told us that the proportion of online ‘self-serve’ customers
+         would affect a supplier’s indirect cost to serve, and that suppliers with a higher
+         proportion of self-serve customers would be expected to have a lower level of
+         indirect costs.28
+
+10.      RWE told us that the CMA’s benchmark for indirect costs was simplistic and
+         implied that the majority of operators had been inefficient without adequate
+         supporting evidence. It told us that its main weaknesses were as follows:29
+
+         (a) The analysis incorrectly assumed that all differences in unit costs between
+             firms could be characterised as inefficiency because it did not control for
+             other drivers of differences in costs, such as customer mix, geography,
+             legacy issues and scale. Under regulatory standard practice, it told us that
+             these factors could be controlled for using econometric analysis and other
+             quantitative techniques. Consequently, it told us that there was a risk that
+             the CMA would wrongly ascribe differences in cost arising from these
+             factors to inefficiency.
+
+         (b) The analysis performed no external benchmarking to determine whether
+             the Six Large Energy Firms were inefficient by reference to other
+             competitive industries. It added that the CMA made an unsupported
+             presumption that the Six Large Energy Firms must on average be
+             inefficient, even though this position had not been tested.
+
+         (c) The CMA supported its benchmark based on limited evidence from the
+             indirect cost ratios of mid-tier firms. It therefore wrongly compared the
+             ‘greenfield’ mid-tier firms, whose total market share was only around 10%,
+             with the ‘brownfield’ business of the Six Large Energy Firms which would
+             have substantially different cost bases, operating models and business
+             strategies.
+
+11.      SSE told us that the proposed adjustments to indirect costs were founded on
+         material errors of fact and assessment, and that the CMA appeared to believe
+         that there were material indirect cost efficiency gains available to the Six
+         Large Energy Firms. It added that the available evidence did not support
+         this.30
+
+
+
+
+27 EDF Energy response to provisional findings, p22, profitability annex.
+28 EDF Energy response to provisional findings, p22, profitability annex.
+29 RWE npower response to provisional findings profitability analysis, p4, paragraph 6.4.
+30 SSE response to provisional findings, Annex 1, p25, paragraphs 1.75–1.79.
+
+
+
+
+                                                    A9.11-34
+12.      SSE told us that its indirect costs were materially reducing the average and
+         lower quartile indirect cost benchmarks used by the CMA for its analysis.
+         However, it told us that it would expect to have lower indirect costs than other
+         firms, since it was at a different point in its investment cycle for domestic
+         customers.31
+
+13.      Centrica told us that it was indeed true that indirect costs per account varied
+         significantly across the industry (as the CMA had observed). However, it told
+         us that it could not be assumed that all this variation stemmed from
+         inefficiency, and that variations in operating costs were wholly consistent with
+         competitive markets, given that this:32
+
+         (a) could reflect a customer’s choice to pay through different methods;
+
+         (b) could result from differentiation in the levels of customer service offered
+             by suppliers; and
+
+         (c) might be a result of short-term underinvestment which could adversely
+             impact customer service levels in the longer term.
+
+14.      Furthermore, Scottish Power told us that more problematic for the justification
+         of the lowest quartile measure for benchmarking indirect costs was the
+         selective use of the cost information of the Mid-tier Suppliers. It told us that
+         there was only one mid-tier firm that represented a valid comparison to the
+         large integrated suppliers and which had indirect costs below the lower
+         quartile measure for those suppliers. It therefore told us that this approach
+         was inherently biased and sensitive to outliers since, in the presence of
+         differences in customers and operating conditions across firms, the single
+         best performing firm was unlikely to be a good representative of the industry
+         as a whole.33
+
+15.      In relation to indirect costs and the comparison to the Mid-tier Suppliers, Ovo
+         Energy and Co-operative Energy, E.ON told us that the concept of a lower
+         quartile in a sample of six firms and a read-across to only two Mid-tier
+         Suppliers was not statistically robust.34 E.ON told us that the CMA appeared
+         not to have taken account of differences in region or customer mix. It also told
+         us that the level of indirect costs per customer varied by business segment,
+         tariff type and geography (among others).
+
+
+
+
+31 SSE response to provisional findings, Annex 1, p25, paragraph 1.75–1.79.
+32 Centrica response Appendix to provisional findings and possible remedies, p46, paragraph 159.
+33 Scottish Power response to provisional findings, p17, paragraph 4.7.
+34 E.ON response to provisional findings, p115, paragraphs A85–86.
+
+
+
+
+                                                   A9.11-35
+16.      Opus Energy told us that, with regard to indirect costs, the CMA had omitted
+         to take the customer into account. It told us that the UK energy supply sector
+         had one of the worst net promotor scores of any industry in the country, and
+         that this was partly down to the poor levels of service provided to customers.
+         It told us to consider the quality of service that would be provided by a
+         ‘benchmark’ company which had indirect costs equivalent to a low investor in
+         service costs.
+
+Other responses to the provisional findings
+
+17.      EDF Energy told us that the CMA should review and consider whether there
+         were outliers that should be treated differently within the current broad
+         groups.35 It considered that the CMA's grouping of all Six Large Energy Firms
+         together in a provisional finding of unilateral market power, without
+         differentiation, limited EDF Energy’s ability to compete on a strategy of
+         differentiation that was founded on building trust with customers, even though
+         the Six Large Energy Firms had each taken significantly different
+         approaches.36
+
+18.      EDF Energy told us that it did not believe that a direct comparison could be
+         made between the Mid-tier Suppliers and the Six Large Energy Firms, eg
+         smaller suppliers attracted more direct debit customers who were cheaper to
+         serve, and given their simpler customer mix were able to take advantage of
+         new technologies more easily.37
+
+19.      EDF Energy told us that it had concerns over the robustness of indirect costs
+         allocations between suppliers, and that this could result in misleading data for
+         comparison.38
+
+20.      SSE told us that the extreme assumptions adopted in the competitive
+         benchmark analysis would inevitably lead to a finding of excessive profits,
+         even where they did not exist. Moreover, it added that even if the CMA’s
+         results could be considered to be informative, the profits appeared to be
+         highly skewed towards a single supplier, with all other suppliers making more
+         limited profits. It therefore told us that this could hardly be regarded as a
+         market feature.39
+
+
+
+
+35 EDF Energy response to provisional findings, p21, profitability annex.
+36 EDF Energy response to provisional findings, p13, paragraph 4.31.
+37 EDF Energy response to provisional findings, p22, profitability annex.
+38 EDF Energy response to provisional findings, p25, profitability annex.
+39 SSE response to provisional findings, Annex 1, p3, paragraph 1.12.
+
+
+
+
+                                                    A9.11-36
+21.      Centrica told us that the competitive benchmark analysis should be adjusted
+         at least as follows:40
+
+         (a) Extending the period of analysis to include FY07 and FY08.
+
+         (b) Calculating the lower quartile commodity benchmark over the full five-year
+             period rather than for each individual year.
+
+22.      Scottish Power outlined a different set of scenarios and adjustments for the
+         competitive benchmark analysis:41
+
+         (a) Pass-through of average wholesale costs on the basis that variations in
+             these costs were largely determined by wholesale price fluctuations and
+             the level of risk inherent in a given strategy.
+
+         (b) Indirect cost benchmarks calculated on the basis of average mid-tier
+             indirect costs – this was chosen on the basis that the CMA appeared to
+             justify its use of the lower quartile benchmark for indirect costs on the cost
+             performance of a single mid-tier independent supplier that had the lowest
+             costs of all such comparable suppliers, an approach that it considered
+             was highly selective and vulnerable to outliers. It considered that average
+             mid-tier cost performance was a more reliable benchmark.
+
+         (c) Lower quartile wholesale cost benchmark on the basis of average
+             company costs across several years – this scenario was modelled as a
+             second alternative to the CMA’s approach. It told us that this would
+             remove much of the apparent ‘efficiency’ that in fact was driven by the
+             benchmark changing very frequently due to annual volatility of wholesale
+             costs.
+
+         (d) Scottish Power told us that scenarios (a) and (b) together would address
+             their critiques of the approach to benchmarking of wholesale and indirect
+             costs taken by the CMA.
+
+Responses to Appendix 3.5 of the provisional decision on remedies
+
+23.      Post the provisional findings an updated indirect costs analysis was published
+         in Appendix 3.3 alongside the provisional decision on remedies taking into
+         account many of the responses to the provisional findings. Below we set out
+         the responses to Appendix 3.5 of the provisional decision on remedies and
+         the responses from the authorised economic advisers of the main parties
+
+
+
+40 Centrica response Appendix to provisional findings and possible remedies, p47, paragraph 161.
+41 Scottish Power response to provisional findings, p29, paragraph 6.4.
+
+
+
+
+                                                   A9.11-37
+        following a confidentiality ring where this analysis, among others, was made
+        available.
+
+24.     SSE’s advisers told us that it was inappropriate to use the ‘lowest cost’42 as a
+        benchmark. They told us that this was an extreme benchmark that was at
+        odds with established practice. SSE said that given the limitations of such
+        data, the CMA should be adopting a more cautious approach to bench-
+        marking, for example by taking the upper quartile.43
+
+25.     SSE’s advisers also said that while the CMA had adjusted for CPI when
+        looking at the trend in indirect costs the CMA used nominal costs to calculate
+        the detriment, which the advisers believed was an oversight on the CMA’s
+        part.44
+
+26.     SSE suggested that it appeared that the indirect cost benchmarking analysis
+        had not been updated despite Appendix 3.6 of the provisional decision on
+        remedies suggesting that some suppliers reclassified some of their indirect
+        costs.45
+
+27.     SSE also told us that while the CMA accepted that suppliers had different
+        investment cycles which could affect the results, it was wrong to suggest that
+        eight years was long enough cover a full investment cycle. SSE had [].
+
+28.     In their confidential submission RWE’s advisers told us that its two biggest
+        concerns were that no credit had been given to firms who beat the benchmark
+        when calculating the detriment and that the lower quartile benchmark was not
+        supported by evidence or the data.46 The advisers submitted that the median
+        would be a more appropriate benchmark to use, or lower quartile excluding
+        Centrica, which was an anomaly due to its size.
+
+29.     RWE’s advisers submitted that it was established practice in regulated
+        markets that if a supplier outperformed a cost benchmark it would normally be
+        allowed to retain these profits. The advisers stated that the CMA’s decision to
+        allocate £0 to those suppliers surpassing the benchmark overstated the
+        detriment.47
+
+30.     RWE’s advisers submitted that for this analysis to be reliable it was necessary
+        to control for customer mix, tariff mix, geographical locations, firm
+
+
+
+
+42 Submission of SSE’s authorised advisers, paragraph 3.3.
+43 SSE confidential response to Appendix 3.5 of the provisional decision on remedies, paragraph 3.3.13.
+44 Submission of SSE’s authorised advisers, paragraph 3.10.
+45 SSE confidential response to Appendix 3.5 of the provisional decision on remedies, paragraph 3.3.14.
+46 Submission of RWE’s authorised advisers, paragraph 3.6.
+47 Submission of RWE’s authorised advisers, paragraphs 3.8 & 3.9.
+
+
+
+
+                                                  A9.11-38
+        specific/legacy issues and differences in scale, which the CMA had not
+        done.48
+
+31.     RWE’s advisers told us [].49
+
+32.     In its response to the provisional decision on remedies, RWE told us:
+
+               It is true that RWE (and, we understand, some other parties) has
+               at various times during this Investigation accepted that it has
+               higher unit indirect costs than some other retail energy supply
+               firms. RWE continues to accept that is the case. However, the
+               CMA’s presumption that this variation in unit costs reflects a lack
+               of competition is incorrect and has no basis in economic theory.
+               RWE’s higher indirect costs do not mean it is ‘inefficient’ in a
+               sense which is relevant for a competition investigation, nor do
+               they imply that it is appropriate for the CMA to disallow our actual
+               costs incurred in its ‘efficiency’ calculations.50
+
+33.     [].51
+
+34.     E.ON’s economic advisers said that the analysis performed might not be on a
+        like for like basis given the scope for companies to allocate certain costs
+        differently. As an example it stated that customer retention cost and meter
+        rental costs could conceivably be allocated as a direct or indirect cost. The
+        advisers told us that simple allocation differences, for example the difference
+        between activity-based costing against allocation by another metric, had a
+        material impact on the results.52 To support the above claim the advisers
+        noted that the supplier with the lowest indirect costs had the highest direct
+        costs per customer, which suggested that this supplier’s relatively low level of
+        indirect cost might be at least in part the result of allocating more costs to
+        direct costs, rather than being the result of superior efficiency. In addition,
+        E.ON’s economic advisors showed that the correlation between the direct and
+        indirect costs by supplier (controlling for the supplier and year) is negative and
+        greater in magnitude than 0.5 across all SLEFs for the period 2007 to 2014.
+
+35.     E.ON’s advisers told us that the approach to indirect costs favoured a capital-
+        intensive strategy as it ignored how a company financed its operations. For
+
+
+
+
+48 Submission of RWE’s authorised advisers, paragraph 3.14.
+49 Submission of RWE’s authorised advisers, paragraph 3.24.
+50 RWE npower confidential response to Appendix 3.5 of the provisional decision on remedies, paragraph 34.
+51 RWE npower confidential response to Appendix 3.5 of the provisional decision on remedies, paragraphs 35.1–
+
+35.4.
+52 Submission of E.ON’s authorised advisers, paragraphs 5.4.1–5.4.11.
+
+
+
+
+                                                 A9.11-39
+        example, a company that owned its assets might have a lower indirect cost
+        base because it avoided rent. E.ON’s advisors noted that there was no reason
+        why a more capital intensive strategy should be viewed as systematically
+        more efficient in the energy supply market. As the CMA had excluded
+        depreciation from the analysis this was exacerbated, since this implies there
+        is no degree of compensation for suppliers’ asset ownership structures.53
+
+36.     E.ON’s advisers also submitted that lower costs did not always mean greater
+        efficiency, nor did it necessarily lead to better customer outcomes. As an
+        example, the advisers said that E.ON read its customers’ meters twice a year
+        whereas SSE did this once every two years. The advisers suggested that
+        while SSE’s approach might be lower cost, it might not necessarily lead to
+        better customer outcomes.54 Another example referred to was sales and
+        marketing spend, where higher costs may lead to higher numbers of customer
+        gains, such that lower costs are not necessarily preferable or more efficient.
+        The CMA should focus on only those indirect costs which a higher cost would
+        more reasonably be argued to be due to inefficiency.
+
+37.     Finally, E.ON’s advisors noted that higher indirect costs are associated with
+        different payment types (as noted by the CMA in other parts of its analysis).
+        E.ON’s advisors argued that the CMA’s analysis does not control for
+        differences in payment type mix across suppliers, in relation to bad debts,
+        customer service and metering costs, but that the CMA should take such
+        differences into account, given the differences in costs across different
+        payment types. Adjusting for these would materially affect the results. The
+        advisors own calculation shows that making some adjustments for i) payment
+        type mix; ii) cost allocation methodologies; iii) allocation across direct or
+        indirect costs. E.ON’s economic advisors noted that a number of their
+        concerns around the calculation of indirect cost inefficiency were not
+        quantifiable, and so the adjustments made relate to only a small set of the
+        assumptions over which they expressed concern. Making adjustments for
+        only those assumptions that were quantifiable, however, reduced E.ON’s
+        estimated inefficiency by 76%.55
+
+38.     In its response to the provisional decision on remedies, E.ON told us that it
+        considered the CMA’s indirect costs analysis to be methodologically weak
+        with all cost differentials being labelled as inefficiency with insufficient
+        assessment made of the underlying drivers. In addition, it stated that selection
+
+
+
+
+53 Submission of E.ON’s authorised advisers, paragraphs 5.1–5.5.5.
+54 Submission of E.ON’s authorised advisers, paragraphs 5.7–5.7.4
+55 Submission of E.ON’s authorised advisors, para 5.7-5.7.4
+
+
+
+
+                                                  A9.11-40
+         of a lower quartile from a population of 6 is unlikely to lead to statistically
+         significant results.56
+
+39.      Centrica’s economic advisers told us that the CMA had overstated the
+         detriment by not reducing the economic profits of those suppliers beating the
+         benchmark. The advisers also submitted that there was no evidence
+         presented to justify the claims of inefficiency and that cost variation alone is
+         not evidence of inefficiency.57
+
+40.      EDF Energy’s advisers told us that the cost differences were not down to
+         inefficiency but more likely a result of differing customer mixes. Direct debit
+         customers were lower-cost to serve and without adjusting for these the
+         analysis could not be relied upon. Equally, due to very different customer
+         mixes any comparison to the Mid-tier Suppliers was also not valid.58
+
+41.      In its response to the provisional decision on remedies EDF told us that:
+
+                EDF Energy recognises that there have been inefficiencies in our
+                indirect cost base in the past but consider that these have not
+                been passed on to customers or contributed to excess profits. In
+                particular, EDF Energy’s domestic retail prices are either below or
+                only slightly above the efficient revenue benchmark calculated by
+                the CMA, and they are consistently lower than industry averages
+                over the period being investigated.59
+
+42.      Below we set out our responses to the above.
+
+CMA response to parties’ views
+
+43.      Some of the parties submitted that the CMA’s benchmark was extreme, with
+         SSE suggesting that using the lowest cost provider was not justified. We note
+         that our base case indirect benchmark is the lower quartile scenario and not
+         the lowest cost. The lowest cost scenario is to illustrate the difference if the
+         CMA were to assume that the supplier with the lowest costs was the most
+         efficient. The Appendix makes it clear that our central estimate is that of the
+         lower quartile cost, for example see paragraph 21 of this appendix.
+
+44.      Some suppliers suggested that the CMA had failed to capture the full invest-
+         ment cycle. While the period of our analysis may not have captured the full
+         investment cycle for all items for some suppliers, such as billing systems as
+
+
+
+56 E.ON confidential response to Appendix 3.5 of the provisional decision on remedies, paragraph 10.
+57 Submission of Centrica’s authorised advisers.
+58 Submission of EDF Energy’s authorised advisers following April 2016 confidentiality ring.
+59 EDF Energy response to the provisional decision on remedies, paragraph 1.5.
+
+
+
+
+                                                   A9.11-41
+      outlined by SSE, we observe that the large majority of these costs should be
+      capitalised and depreciated. As depreciation is excluded from our analysis
+      there should be no significant impact. While we recognise that installing a new
+      billing system may temporarily push up indirect costs, for it to do so materially
+      and/or persistently would suggest a failure to efficiently install a new system.
+      We note that reliable financial data from all parties pre-2007 does not exist,
+      such that it has not been possible for us to carry out analysis over a longer
+      period.
+
+45.   SSE’s advisers submitted that we had failed to adjust for CPI when adding the
+      excess indirect costs to the economic profit. However, adjusting for CPI was
+      to ensure that inflationary impacts were not distorting any view of trend so that
+      any cost increases year on year were not exaggerated. When looking at
+      profits we have not adjusted for inflation, equally when adding any cost
+      overspends to economic profit it is right to use nominal costs and not CPI
+      adjusted costs.
+
+46.   A number of suppliers told us that customer mix would significantly distort the
+      results. We agree that customer mix will have an impact on the results.
+      However, as previously outlined, the supplier with the highest proportion of
+      customers that are highest cost to serve (Centrica) has a total indirect cost
+      base that is below our benchmark. Therefore, we consider our approach to be
+      conservative.
+
+47.   Some of the parties told us that the suppliers who outperformed the
+      benchmark should have these costs deducted from the economic profits as
+      calculated in the ROCE working paper. If just focusing on indirect costs in
+      excess of our benchmark it would be inappropriate to net out those who had
+      beaten the mark as this would understate the total cost excesses. However,
+      as set out in paragraph 27, we recognise that there is some uncertainty
+      regarding the actual efficient level of costs. Therefore, we have considered a
+      scenario in which we include SSE’s and Centrica’s outperformance against
+      our benchmark as a sensitivity in our assessment of the detriment.
+
+48.   Some of the parties submitted that economies of scale impacted the results
+      and in particular that Centrica should be disregarded from the analysis given
+      its scale. However, we note that in spite of its greater scale, Centrica does not
+      have the lowest costs. Moreover, the smallest of the larger providers, Scottish
+      Power, has the third lowest costs per customer and near to our benchmark.
+      We have therefore included all of the Six Large Energy Firms in the
+      comparator set.
+
+49.   E.ON’s economic advisers raised the issue of cost allocation, suggesting that
+      it could impact the results. As set out in paragraph 7, we agree that there may
+
+
+                                      A9.11-42
+      be scope for allocation differences between suppliers affecting the results. We
+      felt this was a greater risk when looking at individual cost categories within
+      indirect costs which is why we did not benchmark these costs despite having
+      the ability to do so. We also recognise that there could be allocation
+      differences between indirect and direct costs and have not carried out a full
+      audit of allocations. However, we consider that the scope of any such
+      differences will be limited, for the following reasons:
+
+      (a) Profit and loss cost lines that clearly identified indirect costs were
+          manually moved to indirect costs. The direct cost categories remaining
+          are wholesale energy costs, transportation costs, distribution costs and
+          obligation costs. We consider that there is limited scope for misallocation
+          between these categories and indirect costs given the clear differences
+          between these cost types and firms’ need for accounting information to
+          provide a useful basis on which to manage their operations.
+
+      (b) When asking suppliers to separate out their indirect costs into bad debts,
+          metering, sales & marketing, customer service and central service costs
+          we set out the type of costs we expected to see in each category. No
+          supplier responded to this request by suggesting they had any of these
+          cost items included in direct costs.
+
+      (c) The suppliers have been separating out their direct and indirect costs in
+          the CSS for a number of years now.
+
+      (d) In response to the original supplier questionnaire the parties were
+          required to fill out a definitions tab to outline at a high level what costs
+          were included within each line of the profit and loss account. From
+          reviewing these we identified no misallocations.
+
+50.   Further to the above, E.ON’s advisers submitted that SSE had the lowest
+      indirect cost per account but highest direct cost per account, which suggested
+      that this supplier’s relatively low level of indirect cost might be in part the
+      result of allocating more costs to direct costs. The observation by the advisers
+      is accurate. However, this is due to SSE having high energy costs and to a
+      lesser extent high network costs. We do not believe this is due to
+      misallocation. Additionally, Centrica, which has indirect costs below our
+      benchmark, has the lowest direct costs when measured against customer
+      numbers.
+
+51.   E.ON’s economic advisers also told us that the CMA’s approach favoured a
+      capital-intensive strategy as, for example, it made no allowance for whether
+      assets were owned or leased. Leasing an asset would increase costs versus
+      owning an asset which would lead to a higher depreciation charge. The
+
+
+                                        A9.11-43
+      advisers said that the extra cost borne by those that leased more assets could
+      not be attributed to inefficiency. The advisers argued that the CMA
+      exacerbated this by excluding depreciation from its analysis, since this implies
+      no degree of compensation for suppliers’ asset ownership structures is made
+      in the CMA’s analysis. The suggestion was that suppliers with higher indirect
+      costs might have lower depreciation charges due to the way the company
+      financed itself. When looking at the data, however, we have observed that this
+      is not true. Without making any adjustments for scale, EDF and RWE have
+      the highest absolute depreciation charges across the entire period of review.
+      If we included depreciation in the analysis it would increase the detriment
+      contributed by these two suppliers, not reduce it.
+
+52.   We agreed with E.ON that higher costs in certain categories might be
+      indicative of a higher quality service being provided rather than inefficiency.
+      However, as set out in paragraph 17, we did not find any evidence to suggest
+      that one or more of the Six Large Energy Firms was providing a materially
+      higher quality service than the others, which would have justified the level of
+      costs differences that we have observed. Furthermore, we note that higher
+      costs can, in several cases, be caused by poorer quality services, for
+      example, billing errors leading to a higher rate of customers contacting energy
+      suppliers.
+
+53.   Finally, we note that the analysis of indirect costs that we have undertaken is
+      necessarily approximate, given the limited number of firms and years in our
+      comparator set. However, we have observed very large and persistent
+      differences in these firms’ costs to serve. In a well-functioning market, we
+      would expect such differences to reduce over time as firms improve their
+      performance (or exit the industry if they are unable to do so). We have not, as
+      E.ON submitted, assumed that all cost differences are the result of
+      inefficiency but rather, by using the lower quartile benchmark as our base
+      case estimate, allowed for some differences in costs arising from other,
+      unidentified factors.
+
+
+
+
+                                      A9.11-44
+

@@ -1,0 +1,3633 @@
+A review of the Energy Efficiency
+Commitment 2002 – 2005
+
+A report for the Secretary of State for
+Environment, Food and Rural Affairs
+August 2005
+Summary
+
+This report fulfils Ofgem’s reporting duties to the Secretary of State for Environment,
+Food and Rural Affairs under the Energy Efficiency Obligations Order 2001. In addition
+to reporting on each supplier’s performance, as required, Ofgem has included extra
+analysis that we consider will help inform Defra’s review of the Energy Efficiency
+Commitment in 2007.
+
+The Energy Efficiency Commitment 2002-2005 (the EEC) required electricity and gas
+suppliers to achieve an energy savings target of 62 TWh in domestic households in
+Great Britain between 1 April 2002 and 31 March 2005. At least 50% of the target had
+to be met in relation to a Priority Group of consumers, defined as those in receipt of
+certain income-related benefits and tax credits.
+
+The overall target was set by Defra. Ofgem was required to administer the programme.
+The EEC is the Government’s key energy efficiency policy for existing households and
+Defra expected it to curb domestic carbon dioxide emissions by 1% per annum. The
+EEC has also made a contribution to alleviating fuel poverty through targeting at least
+half of the energy savings towards the Priority Group.
+
+Twelve supplier groups were set a target under the EEC: Atlantic Electric and Gas, British
+Gas, Cambridge Gas, Dee Valley, EDF Energy, npower, Opus Energy, Powergen,
+Scottish and Southern Energy, Scottish Power, Telecom Plus and TXU Energi. All
+suppliers met their EEC targets, with the exception of TXU Energi and Atlantic Electric
+and Gas, who went into administration and administrative receivership respectively
+during the three-year period. Because of this there has been a shortfall of nearly 1 TWh
+in meeting the target. 61 TWh counts towards the final EEC 2002 – 2005 target and at
+least 50% of this was achieved in Priority Group households.
+
+The main measure type offered by suppliers was insulation, contributing 56% to the
+total savings achieved. Cavity wall insulation and loft insulation were the most popular
+insulation measures. The distribution of energy efficient lightbulbs achieved one quarter
+of the total savings. Appliances, mainly energy efficient white goods, contributed 11%
+to the total savings achieved and heating measures achieved 9%.
+
+The EEC 2005 – 2008 began on 1 April this year with a new target on suppliers to save
+energy in consumers’ homes. The suppliers had the option to carry forward energy
+efficiency measures which exceeded their EEC 2002 – 2005 targets to count towards
+their new EEC targets. The total energy savings achieved by suppliers over the three
+years 2002 - 2005 was 86.8 TWh. Six suppliers chose to carry over their excess
+measures, equating to roughly 25% of the EEC 2005 – 2008 energy savings target.
+Table of contents
+
+1. Introduction..............................................................................................................1
+
+Ofgem’s role under the Energy Efficiency Commitment .................................................2
+
+Administration of the EEC..............................................................................................2
+
+Key features of the EEC..................................................................................................4
+
+EEC 2005 – 2008 ..........................................................................................................5
+
+The annual review.........................................................................................................6
+
+2. Overall progress 2002-2005 .....................................................................................7
+
+Progress to the end of the second year (April 2002-March 2004)....................................7
+
+Progress in the third year (April 2004 to March 2005)....................................................7
+
+The Priority Group ........................................................................................................9
+
+Measures delivered .....................................................................................................11
+
+3. Each supplier’s activity during the three years of the EEC 2002 – 2005 ..................12
+
+Targets ........................................................................................................................13
+
+Atlantic Electric and Gas..............................................................................................15
+
+British Gas ..................................................................................................................18
+
+Cambridge Gas ...........................................................................................................21
+
+Dee Valley Group .......................................................................................................23
+
+EDF Energy .................................................................................................................23
+
+npower .......................................................................................................................27
+
+Opus Energy ...............................................................................................................29
+
+Powergen....................................................................................................................32
+
+ScottishPower..............................................................................................................35
+
+Scottish and Southern Energy.......................................................................................37
+
+Telecom Plus...............................................................................................................40
+
+TXU Energi..................................................................................................................43
+
+4. Measures delivered during the three years..............................................................47
+
+Measures installed.......................................................................................................47
+Delivering schemes .....................................................................................................51
+
+5. Monitoring the outcomes of the EEC.......................................................................57
+
+Monitoring the schemes ..............................................................................................57
+
+The effect of the uplifts for appliances and energy services ..........................................61
+
+6. The transition from the EEC 2002 – 2005 to the EEC 2005 – 2008 .........................63
+
+Background.................................................................................................................63
+
+Factors that influenced supplier carry over activity.......................................................64
+
+Activity counting towards the target.............................................................................65
+
+Activity that has been carried over overall ...................................................................67
+
+Implications for the EEC 2005-2008.............................................................................68
+
+7. Emerging Issues.......................................................................................................70
+
+Supplier compliance....................................................................................................70
+
+Achieving the target ....................................................................................................70
+
+Supplier targeting of the Priority Group .......................................................................71
+
+Changes in the accreditation of measures ....................................................................71
+
+Carry over to the EEC 2005-2008.................................................................................72
+
+Other issues ................................................................................................................73
+
+Appendix 1 The numbers of measures installed by delivery route...............................75
+
+Appendix 2 Glossary of terms.....................................................................................76
+1. Introduction
+    1.1.    The EEC required suppliers to achieve a target improvement in domestic
+            energy efficiency. The overall target set by Defra for the EEC was 62 TWh,
+            which had to be delivered between 1 April 2002 and 31 March 2005. At
+            least half of this target had to be achieved in the Priority Group.
+
+    1.2.    The EEC forms part of the Government’s Climate Change Programme1. Defra
+            expected the programme to curb carbon dioxide emissions from households
+            by 1%. In addition, the EEC was highlighted in the Fuel Poverty Strategy2 as
+            improvements in energy efficiency have an important role to play in the
+            alleviation of fuel poverty. To ensure equity for those consumers on low-
+            incomes, at least 50% of the energy savings had to be achieved from
+            households in the ‘Priority Group’. The Priority Group was defined as those
+            households receiving certain income related benefits and tax credits. The
+            Government’s Energy White Paper3 and Energy Efficiency Plan for Action4
+            further recognised the importance of domestic energy efficiency in
+            contributing to the Government’s energy policy objectives. The EEC followed
+            on from three Energy Efficiency Standards of Performance programmes set up
+            by Offer and Ofgem that ran from 1994 to 2002.
+
+    1.3.    Under the Electricity Act 1989 and the Gas Act 1986 the Secretary of State
+            has the power to set targets for suppliers to achieve improvements in energy
+            efficiency. The Electricity and Gas (Energy Efficiency Obligations) Order 2001
+            sets the legal basis for the EEC. Ofgem was required to administer the
+            programme.
+
+
+
+
+1
+  Climate Change: The UK Programme, November 2000, DETR
+2
+  The UK Fuel Poverty Strategy, November 2001, DEFRA and DTI
+3
+  Our Energy Future – Creating a Low Carbon Economy, 2003, DTI
+4
+  Energy Efficiency The Government’s Plan for Action, 2004, Defra
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  1                          August 2005
+          Ofgem’s role under the Energy Efficiency
+          Commitment
+
+   1.4.      Ofgem’s remit to administer the EEC included:
+
+             •    determining the energy efficiency targets for each gas or electricity
+                  supplier on whom obligations were imposed, and adjusting these targets
+                  each year of the EEC,
+
+             •    determining whether a proposed activity was considered to be qualifying
+                  action,
+
+             •    determining the improvement in energy efficiency to be attributed to a
+                  qualifying action,
+
+             •    providing written agreement where appropriate to a supplier regarding
+                  the trade of energy savings to another supplier,
+
+             •    providing written agreement where appropriate to a supplier regarding
+                  trading all or part of their target to another supplier, and
+
+             •    reporting to the Secretary of State for the Environment, Food and Rural
+                  Affairs, each year of the programme.
+
+
+          Administration of the EEC
+
+   1.5.      Defra set the overall EEC target. All licensed supplier groups with at least
+             15,000 gas or electricity domestic consumers were subject to a target,
+             apportioned by Ofgem in relation to the suppliers’ domestic consumer
+             numbers. The formula for target setting, which was provided in the Order, set
+             progressively higher targets for suppliers with larger consumer numbers to
+             take into account the economies of scale that they were expected to achieve.
+
+   1.6.      The initial targets were set in January 2002 based upon each supplier’s
+             consumer numbers on 31 December 2001. These targets were revised in
+             January 2003 and were finalised in January 2004 to take account of changing
+             consumer numbers. Eleven suppliers were set a target in January 2002 with
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets             2                                August 2005
+             one new entrant to the programme in January 2003 and a further two new
+             entrants in 2004.
+
+   1.7.      Suppliers met their targets by setting up schemes to promote and deliver
+             energy efficiency measures to domestic consumers. As administrator, Ofgem
+             put in place procedures to assess suppliers’ schemes and to oversee their
+             progress and compliance against their targets. Ofgem assessed whether a
+             supplier’s proposal could be capable of being qualifying action under the
+             Order, ie that it would lead to improvements in energy efficiency that would
+             not have otherwise happened. These proposals detailed the measures
+             suppliers were planning to offer, how they would be promoted and who
+             could benefit from the scheme.
+
+   1.8.      Suppliers were required to report on each scheme once it had been
+             completed to confirm the exact types and numbers of measures that were
+             installed. The results of the supplier’s monitoring of the quality of installations
+             and customer satisfaction monitoring was scrutinised along with evidence
+             from the relevant project partners such as retailers and social housing
+             providers (SHPs). Ofgem was then able to approve the scheme and
+             determined the improvement in energy efficiency that had resulted. Suppliers
+             had to demonstrate how they had assisted the Priority Group by monitoring
+             recipients of their schemes. At the end of the programme Ofgem had to
+             determine whether the supplier’s activity was qualifying action under the
+             Order, ie that at least 50% of the total approved energy savings had been
+             achieved in relation to the Priority Group.
+
+   1.9.      Ofgem has developed an EEC Scheme Spreadsheet that details the energy
+             savings attributable to standard energy efficiency measures. Suppliers were
+             accredited with energy savings for their schemes on an ex-ante basis. The
+             methodology for determining the energy savings attributed to measures
+             corresponded to Defra’s EEC target-setting model. The energy savings were,
+             where possible, taken from recognised sources such as the Building Research
+             Establishment and the Energy Saving Trust. Ofgem has also appointed
+             technical advisory agents to assist it in its role as administrator.
+
+   1.10.     Procedures were put in place to monitor delivery and to oversee each
+             supplier’s progress against its target. Suppliers submitted information to
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets             3                                 August 2005
+            Ofgem each quarter, detailing the energy savings they had achieved. This
+            information was used to compile Ofgem’s quarterly EEC Update report which
+            is available on our website at www.ofgem.gov.uk.
+
+    1.11.   As well as monitoring each supplier’s overall progress, Ofgem conducted two
+            rounds of auditing in Summer 2003 and in early 2005. An independent
+            auditor was appointed to conduct this process. These audits confirmed that
+            the suppliers had the correct procedures in place to report accurately on their
+            schemes and that they were delivering their schemes as proposed. The actual
+            energy savings achieved from the different measures employed by the
+            suppliers were not monitored on a ‘before and after’ basis.
+
+    1.12.   In July 2004 the National Audit Office published a report on Ofgem’s energy
+            efficiency work in relation to the EEC5. In the report it commented that ‘in
+            administering the EEC, Ofgem has established robust arrangements for
+            checking suppliers’ schemes and obtaining reliable data.’
+
+         The cost of administering the EEC
+
+    1.13.   The direct costs incurred by Ofgem in administering the EEC from April 2002
+            to March 2005 were £1 million. Ofgem’s costs are paid by licensees and
+            agreed by HM Treasury.
+
+
+         Key features of the EEC
+
+    1.14.   The key features of the EEC 2002 - 2005 programme were as follows:
+
+            •      the savings suppliers were accredited with were derived on an ex-ante
+                   basis rather than an ex-post basis
+
+            •      at least 50% of the total energy savings had to be met within the
+                   Priority Group, ie those households receiving certain income related
+                   benefits or tax credits
+
+
+
+
+5
+ Social Action Plan and Household Energy Efficiency, July 2004, HC 878, July 2004.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 4                              August 2005
+             •      the overall target was set in fuel-standardised, lifetime discounted
+                    energy savings. Suppliers could achieve savings in homes heated by
+                    gas, electricity, coal, oil or LPG
+
+             •      suppliers were not restricted to their own customer base
+
+             •      suppliers had flexibility over the types of measures that they used to
+                    meet their targets
+
+             •      suppliers were not required to spend a fixed amount of money and
+                    consequently Ofgem did not collect suppliers’ cost data
+
+             •      the target included business as usual energy efficiency activity. As a
+                    result, suppliers were allowed to tie in with existing programmes but
+                    every scheme had to demonstrate that measures were being installed
+                    which were additional to the business as usual activity
+
+             •      the target assumed that suppliers would lever in funding from third
+                    parties such as social housing providers (SHPs)
+
+             •      suppliers had the option of trading their obligation or energy savings
+                    with other suppliers
+
+             •      there was an incentive (in terms of an uplift in savings) for suppliers to
+                    deliver schemes as an energy service package. The energy service
+                    savings eligible for uplift were limited to 10% of each supplier’s target
+
+             •      there was an incentive (in terms of an uplift in savings) for suppliers to
+                    deliver appliance schemes
+
+             •      those suppliers who exceeded their Energy Efficiency Standard of
+                    Performance 3 (EESoP, 2000 - 2002) targets were able to carry over
+                    these energy savings into the EEC. The amount that could be carried
+                    over was limited to 10% of each supplier’s EEC target, and
+
+             •      Suppliers were obliged to meet their targets by 31 March 2005.
+
+
+         EEC 2005 – 2008
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets              5                                August 2005
+1.15.    The EEC 2002 – 2005 has been superseded by the EEC 2005 – 2008. The
+         Electricity and Gas (Energy Efficiency Obligations) Order 2004 (‘the 2004
+         Order’) sets the legal framework and a target of 130 fuel standardised, lifetime
+         discounted TWh. Eight suppliers are currently obligated under the EEC 2005 -
+         2008. These are British Gas, EDF Energy, npower, Opus Energy, Powergen,
+         Scottish and Southern Energy, ScottishPower and Telecom Plus.
+
+1.16.    Defra has committed to continuing the EEC for a further three years from 2008 to
+         2011, following a review of the EEC in 2007.
+
+
+         The annual review
+
+   1.17.     Ofgem is required to report to the Secretary of State for Environment, Food
+             and Rural Affairs at the end of each year of the EEC. Chapter 3 fulfils these
+             reporting requirements for the period 1 April 2004 to 31 March 2005,
+             providing details on the:
+
+             •      progress towards the achievement of the suppliers’ targets over the third
+                    year of the programme
+
+             •      the schemes completed
+
+             •      proposed activity, and
+
+             •      the proportion of energy savings achieved in the Priority Group.
+
+   1.18.     Suppliers’ overall progress to the end of the third year is set out in Chapter 2.
+             Analysis of the measures promoted and how they were delivered over the
+             three years is detailed in Chapter 4. Information on the outcome of the
+             programme following Ofgem’s monitoring is set out in Chapter 5. Detail on
+             the suppliers’ carry over to the EEC 2005 – 2008 is set out in Chapter 6. The
+             emerging issues have been identified in Chapter 7. Appendix 1 details the
+             measures delivered through the main delivery routes. A glossary of terms is
+             provided in Appendix 2.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets            6                                 August 2005
+2. Overall progress 2002-2005
+2.1.     This chapter outlines suppliers’ overall progress during the three years of the
+        programme (April 2002 to March 2005), focussing specifically upon the energy
+        savings achieved. To give some context to the discussion, the suppliers’ progress
+        in the first two years of the EEC (April 2002 to March 2004), which was outlined
+        in the second EEC Annual Review6, is briefly summarised.
+
+2.2.     This chapter discusses the main measures installed, provided or promoted by the
+        suppliers and outlines the progress suppliers have made towards meeting at least
+        half of the overall energy efficiency target in the Priority Group.
+
+2.3.     All figures included within this review are in relation to the overall target set.
+
+
+         Progress to the end of the second year (April 2002-
+         March 2004)
+
+2.4.     By the end of the second year of the EEC, suppliers had achieved 47.4 TWh of
+         energy savings, representing 77% of the overall target of 62 TWh. Roughly 60%
+         of the achieved savings were from insulation measures, with just over 20% from
+         lighting measures and the remainder split between appliances and heating.
+         Suppliers’ activity was more focused towards non-Priority Group households
+         with 46% of the achieved energy savings relating to the Priority Group during
+         the first two years.
+
+
+         Progress in the third year (April 2004 to March 2005)
+
+2.5.     At the end of the EEC, suppliers had installed or provided energy efficiency
+        measures which would result in an energy saving of 86.8 TWh or 140% of the
+        overall target. Of this total, nearly 40 TWh was achieved within the third year of
+        the programme. The solvent suppliers have over-achieved against the overall
+        target by roughly 25 TWh of energy savings and this will be transferred to the
+        EEC 2005-2008. This transfer of energy savings to EEC 2005 - 2008 means that
+
+
+
+
+6
+ “A review of the Energy Efficiency Commitment to the end of the second year – A report for the Secretary
+of State for Environment, Food and Rural Affairs” 178/04, Ofgem, July 2004
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  7                                      August 2005
+         the solvent suppliers have done just enough to comply with their targets.
+         However, one supplier went into administration and one into administrative
+         receivership during the course of the EEC 2002 - 2005 and did not comply with
+         their targets. As a consequence, despite one company’s shortfall being made up
+         by another on a voluntary basis, the overall target of 62 TWh will not be
+         achieved: the shortfall is less than 2% of the overall target, or nearly 1 TWh.
+
+2.6.     The EEC 2002-2005 followed on from the Energy Efficiency Standards of
+         Performance (EESoP) programme, the third tranche of which ran from April 2000
+         to March 2002. Figure 2.1 charts the energy savings achieved on a quarter-by-
+         quarter basis over the three years of the EEC.
+
+         Figure 2.1: Energy saving by measure type achieved each quarter of the EEC
+
+
+
+                  18
+
+                  16
+
+                  14
+
+                  12
+
+                  10
+            TWh
+
+
+
+
+                  8
+
+                  6
+
+                  4
+
+                  2
+
+                  0
+                       EEC   EEC    EEC      EEC     EEC     EEC        EEC   EEC       EEC   EEC    EEC      EEC
+                       Q1    Q2     Q3       Q4      Q5      Q6         Q7    Q8        Q9    Q10    Q11      Q12
+
+
+                       Appliances         Lighting         Insulation         Heating         Indicative target
+
+
+
+
+2.7.     To reach the overall target of 62 TWh, suppliers needed on average to provide
+         just under 5.2 TWh of energy efficiency measures for each quarter of the EEC, as
+         shown by the horizontal line in Figure 2.1. After the first six months of the EEC,
+         where suppliers were scaling up their activity, the suppliers consistently
+         achieved the indicative average required, and in some months overshot it by a
+         considerable margin.
+
+2.8.     The data presented in Figure 2.1 is taken from quarterly reports submitted by the
+         suppliers. These reports are based on the estimated outturn of the energy
+         savings each supplier achieved by measure and type. When a supplier
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                        8                                             August 2005
+         completed the activity outlined in its scheme proposal it submitted a completion
+         report outlining the actual measures provided and the energy savings achieved.
+         By the end of June 2005 Ofgem had approved 139 completion reports on
+         supplier energy efficiency activity that had been carried out in the period April
+         2002 to March 2005. By the end of the second year of the EEC 2002-2005
+         Ofgem had had just one completion report from suppliers to approve. During
+         the course of the EEC suppliers could bank parts of their schemes and some took
+         advantage of this during the third year. Other suppliers chose to submit all of
+         their completion information in one batch in April 2005.
+
+2.9.     The supplier data shows no clear seasonal trend for the delivery of energy
+         efficiency measures. One possible reason for this is that the suppliers were able
+         to integrate with the Warm Front, Welsh HEES and Warm Deal programmes at
+         any time. This involved the suppliers purchasing measures from the
+         Government programmes, with the funds from the sales being used to support
+         further energy efficiency measures. The purchase date was assumed to be the
+         date when the associated energy savings were achieved. Suppliers also set up
+         large programmes of insulation work with social housing providers. In these
+         cases the activity reflects the project partners schedule of works as opposed to
+         consumer demand.
+
+
+         The Priority Group
+
+2.10.    Of the total energy savings achieved, 42 TWh or 48.5% resulted from measures
+         installed in, or provided to, Priority Group households. The remaining 44.7 TWh
+         or 51.5% results from measures provided to other households. Figure 2.2 shows
+         the breakdown of the energy savings achieved during the course of the
+         programme, distinguishing between Priority and non-Priority Group households.
+         In the final year of the programme the suppliers managed to narrow the gap
+         between their Priority and non-Priority Group activity primarily by increasing the
+         distribution of free low energy lamps to Priority Group households.
+
+2.11.    By the end of the EEC each supplier was required to achieve at least 50% of its
+         target in relation to Priority Group consumers. Figure 2.3 shows the total energy
+         savings achieved in the Priority and non-Priority groups. It shows that although
+         the suppliers achieved slightly more activity in the non-Priority Group during the
+         course of the EEC they had managed to keep their activity broadly in balance.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           9                                August 2005
+                 Figure 2.2: Energy Savings by measure type and Priority and non-Priority
+                 Group
+
+
+
+
+                                   Non priority
+
+
+
+
+                                           Priority
+
+
+
+                                                      0      5          10     15        20     25    30         35     40      45        50
+
+                                                                              Achieved energy savings (TWh)
+
+
+                                            Insulation                  Heating                Appliances                   Lighting
+
+
+
+                      Energy savings achieved in the first                   Energy savings achieved in the second               Energy savings achieved in the third
+                            year of the EEC (TWh)                                    year of the EEC (TWh)                             year of the EEC (TWh)
+                     Priority          Non-Priority                           Priority         Non-Priority                          Priority      Non-Priority
+    Measure                                                 Total                                                     Total                                       Total
+                     Group               Group                                Group              Group                               Group           Group
+Lighting                   5.0                   5.3             10.3                7.1              10.0              17.1            10.8              10.3     21.1
+Heating                    0.2                   1.0              1.2                1.0               1.5               2.5             1.5               2.5      3.9
+Insulation                 2.6                   0.8              3.4                4.7               2.4               7.1             7.1               3.4     10.5
+Appliances                 0.2                   2.0              2.2                0.9               2.6               3.5             1.1               2.9      4.0
+Total                      8.0                   9.1             17.1               13.7              16.5              30.2            20.4              19.1     39.5
+
+
+
+                 Figure 2.3: Energy savings (TWh) achieved in relation to the Priority and non-
+                 Priority Groups for each quarter of the EEC
+
+                          18
+
+                          16
+
+                          14
+
+                          12                                                                                                                        57%
+
+                          10
+                    TWh
+
+
+
+
+                          8
+                                                                                                           55%
+                                                                                                                                          42%
+                          6                                                            60%
+                                                                                                                      55%      51%
+                                                                 49%                            55%
+                          4                           59%                    46%                                                                   43%
+                                           57%                                                             45%                            58%
+                          2                                                            40%                                     49%
+                                 57%                  41%        51%         54%                45%                   45%
+                                 43%       43%
+                          0
+                                 Q1        Q2          Q3        Q4          Q5          Q6      Q7        Q8         Q9       Q10        Q11       Q12
+
+
+
+                                                                                  Priority    Non Priority
+
+
+
+
+        Review of the EEC 2002 – 2005
+        Office of Gas and Electricity Markets                                       10                                                         August 2005
+         Measures delivered
+
+2.12.    Supplier activity can be broken down into four broad categories of measure:
+         lighting, insulation, heating and appliances. Figure 2.4 and the accompanying
+         table shows how the delivered energy savings are attributed to the four main
+         measure types. The level of activity by the suppliers across the four different
+         measure types was broadly consistent across the three years. There was a slight
+         fall in the share of insulation activity in the third year that was offset by an
+         increase in lighting activity. Of the total energy efficiency activity that was
+         achieved, 56% was in insulation and 24% was in lighting. Appliance activity,
+         although involving a large number of measures, made up 11% of the total
+         because the energy saving per appliances is relatively low. Heating measures
+         accounted for the remaining 9% of the energy savings.
+
+         Figure 2.4: Proportion of total achieved energy savings from each of the four
+         main measure types
+
+
+
+                                              Appliances          Heating
+                                                11%                9%
+
+
+
+
+                                   Lighting
+                                     24%
+
+
+
+
+                                                                            Insulation
+                                                                               56%
+
+
+
+
+                                              Proportion of overall achieved savings
+
+                Measure          EEC Year 1                EEC Year 2               EEC Year 3
+            Appliances                          3%                      4%                       4%
+            Heating                             1%                      3%                       5%
+            Insulation                        12%                       20%                      24%
+            Lighting                            4%                      8%                       12%
+
+            Total                             20%                       35%                      45%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                      11                                     August 2005
+3. Each supplier’s activity during the three
+    years of the EEC 2002 – 2005
+3.1.     This chapter documents the progress made by each obligated supplier during the
+         three years of the EEC 2002 – 2005. For each supplier that was eligible for a
+         target in January 2004, information is given on:
+
+         •    the type of measures that the supplier proposed to deliver over the three
+              years of the programme,
+
+         •    the progress made towards its target during the third year of the programme,
+
+         •    the activity towards the target over the three years of the programme, and
+
+         •    the proportion of the energy savings that have been delivered to Priority
+              Group households over the three years of the programme.
+
+3.2.     Figure 3.1 outlines the suppliers who were set a target in 2002, 2003 and 2004
+         and the changes in ownership that occurred at the beginning of the second and
+         third years of the EEC 2002 –2005.
+
+Figure 3.1: Suppliers who were set a target in 2002, 2003 and 2004
+
+Suppliers set an initial target in       Suppliers set a revised target    Suppliers set a final target in
+             2002                                  in 2003                             2004
+Amerada                                 -                                 -
+-                                       Atlantic Electric and Gas         Atlantic Electric and Gas
+British Gas                             British Gas                       British Gas
+Cambridge Gas                           Cambridge Gas                     Cambridge Gas
+Dee Valley Group                        Dee Valley Group                  Dee Valley Group
+LE Group                                LE Group (including the           LE Group (including the
+                                        Seeboard Energy supply            Seeboard Energy supply
+                                        licence, rebranded to EDF         licence, rebranded to EDF
+                                        Energy)                           Energy)
+npower                                  npower                            npower
+-                                       -                                 Opus Energy
+Powergen                                Powergen (including the           Powergen (including the
+                                        Amerada supply licence)           Amerada supply licence)
+Scottish and Southern Energy            Scottish and Southern Energy      Scottish and Southern Energy
+ScottishPower                           ScottishPower                     ScottishPower
+Seeboard Energy                         -                                 -
+-                                       -                                 Telecom Plus
+TXU                                     TXU                               TXU
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                   12                                    August 2005
+3.3.      The information presented in this chapter is based upon suppliers’ scheme
+          proposals, which were accredited by Ofgem as capable of being qualifying
+          action under the Order. The quarterly reports and scheme completion reports
+          returned by the suppliers have been used to detail the actual delivery of the
+          suppliers’ schemes.
+
+
+          Targets
+
+3.4.      Each supplier is set a separate gas and electricity target, according to the number
+          of consumers on each licence. For the purpose of this report these targets have
+          been combined to show one target for each supplier group. Suppliers’ indicative
+          targets were set in January 2002. These targets were revised in 2003 and were
+          finalised in January 2004, based on each supplier’s average number of domestic
+          consumers over the three years of the programme.
+
+3.5.      All supplier activity discussed in this chapter is compared against each supplier’s
+          final target as set in January 2004.
+
+Figure 3.2: Each supplier’s overall achieved activity as a percentage of its target
+
+
+
+
+                     0%   20%     40%     60%        80%   100%     120%    140%   160%   180%
+
+         Atlantic
+
+       British Gas
+
+       Cambridge
+
+       EDF Energy
+
+          npower
+
+        Powergen
+
+              SSE
+
+   ScottishPower
+
+             TXU
+
+   Telecom Plus
+
+    Opus Energy
+
+
+
+
+                                        EEC Year 1    EEC Year 2   EEC Year 3
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 13                              August 2005
+3.6.    Figure 3.2 provides an overview of the energy savings achieved by each of the
+        obligated suppliers and shows these energy savings as a percentage of each
+        supplier’s final target. The blue portion of each bar (on the left) indicates energy
+        savings achieved during the first year of the EEC, the green portion (centred)
+        relates to the second year and the yellow portion of the bar (on the right)
+        indicates the savings from the third year.
+
+3.7.    This chapter fulfils Ofgem’s reporting duties to the Secretary of State under the
+        Electricity and Gas (Energy Efficiency Obligations) Order 20017.
+
+
+
+
+7
+ The Electricity and Gas (Energy Efficiency Obligations) Order 2001, December 2001, No 4011, HMSO.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  14                                 August 2005
+         Atlantic Electric and Gas
+
+3.8.     Atlantic Electric and Gas was a new entrant in the second year of the EEC and
+         was active throughout this year. However, in April 2004 Atlantic Electric and
+         Gas went into administrative receivership and ceased trading. Because the EEC
+         target is a relevant requirement on each supplier’s licence, Atlantic Electric and
+         Gas’ target remained.
+
+3.9.     At the time that Atlantic Electric and Gas went into administrative receivership it
+         had achieved a small proportion of energy savings, however the administrators
+         did not have access to the information that would allow them to report on the
+         energy savings. As a result, the energy savings achieved by Atlantic Electric and
+         Gas could not be determined as qualifying action. Consequently, Atlantic
+         Electric and Gas has not complied with its target under the EEC. The Gas and
+         Electricity Markets Authority (the Authority) in this case decided not to impose a
+         financial penalty on Atlantic Electric and Gas because it would have served no
+         practical purpose, there being no funds available to pay it.
+
+
+         Proposed activity
+
+3.10.    Figure 3.3 shows the total proposed savings broken down by measure type. The
+         accompanying table provides a breakdown of the proposed savings for the
+         second and third years of the EEC.
+
+         Figure 3.3: Atlantic Electric and Gas proposed energy savings up to April 2004
+
+
+
+
+                               Lighting
+                                 27%
+
+
+
+
+                                                      Insulation
+                                                         73%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          15                                August 2005
+                                              Proportion of proposed energy
+                                                         savings
+                             Measure                       Year 2    Year 3
+                             Insulation                        51%       21%
+                             Lighting                          14%       14%
+                             Appliances                         0%        0%
+                             Heating                            0%        0%
+                             Total                             65%       35%
+
+
+
+3.11.    Atlantic Electric and Gas had two scheme proposals accredited by Ofgem in the
+         third year of the EEC. These predominantly involved insulation measures, with
+         no savings proposed for heating or appliances. The proposed lighting savings
+         accounted for slightly more than a quarter of Atlantic Electric and Gas’ target.
+
+3.12.    During 2003 and the start of 2004, Atlantic Electric and Gas had a total of seven
+         scheme proposals accredited by Ofgem. These proposals accounted for 178% of
+         its final target.
+
+
+         Delivery over the three years of the EEC
+
+3.13.    Figure 3.4 shows the proportion of Atlantic Electric and Gas’ reported energy
+         savings towards its target from the two types of measures it delivered. The
+         accompanying table shows the reported energy savings for each year of the EEC.
+
+         Figure 3.4: Energy savings reported as achieved in the second year by Atlantic
+         Electric and Gas split by measure type
+
+
+
+                                        Lighting
+                                          32%
+
+
+
+
+                                                                       Insulation
+                                                                          68%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 16                            August 2005
+                     Reported as achieved energy savings as a percentage Proportion of EEC 2002-
+                              of Atlantic Electric and Gas' target       2005 target carried over
+                                                                            to EEC 2005-2008
+                                            Year2               Year3
+   Insulation                                           5%                 0%                (0%)
+   Lighting                                             3%                 0%                (0%)
+   Appliances                                           0%                 0%                (0%)
+   Heating                                              0%                 0%                (0%)
+
+
+
+3.14.    The overall achieved energy savings resembles the proposals. Nearly 70% was
+         achieved with insulation measures and the remainder with lighting measures.
+
+3.15.    Atlantic achieved just under 8% of its target in the second year of the EEC as
+         reported through their last submitted quarterly report in March 2004. Over five
+         percentage points (pp) of the achieved savings were from insulation measures
+         with the remainder resulting from the promotion of lighting (3pp).
+
+3.16.    Figure 3.5 shows a full breakdown of the reported energy savings, by measure
+         type and customer type, as a percentage of the Atlantic Electric and Gas target.
+
+         Figure 3.5 Atlantic Electric and Gas’ percentage energy savings to target by
+         measure type
+
+
+
+
+                                non Priority
+                                  Group
+
+
+                              Priority Group
+
+
+                                               0%   10%        20%   30%   40%    50%
+
+
+
+
+                                           Insulation                  Lighting
+
+
+
+3.17.    Just under half of the energy savings achieved were in the Priority Group. The
+         majority of the energy savings in both the Priority and non-Priority Groups have
+         come from insulation measures with the remainder coming from lighting.
+
+3.18.    All suppliers were required to monitor and formally report upon their achieved
+         activity. Atlantic Electric and Gas did not submit any such completion reports.
+         Consequently, Ofgem was unable to determine whether its energy savings could
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                     17                            August 2005
+         be considered qualifying action under the Order and these savings are not
+         included in the achieved savings (across all suppliers) against the total EEC 2002
+         – 2005 target.
+
+
+
+
+         British Gas
+
+         Proposed activity
+
+3.19.    Figure 3.6 shows the total proposed energy savings for British Gas broken down
+         by measure type. The accompanying table provides a breakdown of the
+         proposed savings for each year of the EEC.
+
+         Figure 3.6: British Gas proposed energy savings up to 31 March 2005
+
+                                                   Heating
+                                                    10%
+
+
+                                  Appliances
+                                     7%
+                                                                          Insulation
+                                                                             57%
+
+
+
+
+                                        Lighting
+                                          26%
+
+
+
+
+                                               Proportion of proposed energy
+                                                          savings
+                             Measure           Year 1  Year 2  Year 3
+                             Insulation           41%     16%       0%
+                             Lighting             11%       5%    10%
+                             Appliances             5%      0%      2%
+                             Heating                9%      1%      0%
+                             Total                66%     22%     12%
+
+
+
+3.20.    British Gas proposed to achieve over half of its target by installing insulation
+         measures. However, all the other measure types were represented with over a
+         quarter of proposed savings attributed to lighting measures and 10% and 7% of
+         the proposed activity in heating and appliance measures respectively.
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                        18                        August 2005
+3.21.    British Gas had six scheme proposals accredited by Ofgem in the third year of
+         the EEC – which have brought the total number of schemes for achieving its EEC
+         target to 28. The scheme proposals accredited in Year 3 accounted for a small
+         share of the British Gas target. Combined with the accredited scheme proposals
+         from Years 1 and 2, British Gas’ proposed savings, equated to 187% of its final
+         target.
+
+
+         Delivery over the three years of the EEC
+
+3.22.    British Gas achieved energy savings equating to 133% of its EEC 2002 – 2005
+         target; 73% of British Gas’ target had been achieved by the end of the second
+         year of the EEC. Ofgem determined that it achieved sufficient qualifying action
+         to comply with its target, with 50% of the qualifying action being in relation to
+         the Priority Group.
+
+3.23.    Figure 3.7 shows the proportion of British Gas’ achieved energy savings towards
+         its target from each of the four main measure types. The accompanying table
+         shows the achieved energy savings for each year of the EEC as a percentage of
+         the British Gas target, as well as the percentage of the target carried over to EEC
+         2005 - 2008.
+
+         Figure 3.7: Energy savings to target achieved by British Gas split by measure
+         type
+
+
+                                 Appliances         Heating
+                                   12%               19%
+
+
+
+
+                              Lighting
+                                                              Insulation
+                                35%
+                                                                 34%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          19                                 August 2005
+                       Achieved energy savings as a percentage of British Gas'              Proportion of EEC
+                                                                                            2002-2005 target
+                                                    target
+                                                                                           carried over to EEC
+                            Year 1                  Year 2                  Year 3
+                                                                                               2005-2008
+  Insulation                            11%                    25%                   31%                  (33%)
+  Lighting                               4%                    13%                   17%                    (0%)
+  Appliances                             4%                     5%                    3%                    (0%)
+  Heating                                4%                     7%                    8%                    (0%)
+
+
+
+3.24.    Although British Gas proposed that the majority of its energy savings would be
+         achieved with insulation measures, insulation and lighting each contributed one-
+         third of the total achieved savings against its target. The remainder of the
+         achieved savings were split between appliances and heating at 12% and 9%
+         respectively.
+
+3.25.    British Gas exceeded its target by 33%. Almost all of the measures carried over
+         were insulation, some of which were delivered as energy services. The other
+         measures carried forward to the EEC 2005 – 2008 were at quantities too small to
+         show on the above table.
+
+3.26.    Figure 3.8 shows British Gas’ percentage breakdown of the achieved energy
+         savings to target, by measure type and customer type.
+
+         Figure 3.8: British Gas’ percentage energy savings to target by measure type
+
+
+
+                         non Priority
+                           Group
+
+
+
+
+                       Priority Group
+
+
+
+                                        0%    10%        20%      30%       40%      50%
+
+
+                               Insulation     Lighting         Appliances    Heating
+
+
+
+3.27.    Lighting measures contributed almost half of the energy savings achieved against
+         the Priority Group target. This was closely followed by insulation. The energy
+         savings from heating measures and appliances contributed 6 pp and 2 pp
+         respectively.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                    20                                      August 2005
+3.28.    An almost even split of the energy savings to target were delivered through each
+         of the measure types to the non-Priority Group with insulation being the largest
+         proportion at 16% of the British Gas target.
+
+
+
+
+         Cambridge Gas
+
+         Proposed activity
+
+3.29.    In 2002, Cambridge Gas sold its domestic consumers but retained its supply
+         licence. One scheme proposal was accredited by Ofgem in the second year of
+         the EEC. Cambridge Gas ensured compliance with its target with this one single
+         scheme.
+
+3.30.    Figure 3.9 shows the total energy savings proposed by Cambridge Gas, broken
+         down by measure type. The accompanying table provides a breakdown of the
+         proposed savings for each year of the EEC.
+
+         Figure 3.9 Cambridge Gas proposed energy savings up to 31 March 2005
+
+
+
+                                                                 Lighting
+                                                                   1%
+
+
+
+
+                                   Insulation
+                                      99%
+
+
+
+
+                                            Proportion of proposed energy
+                                                       savings
+                              Measure           Year 1  Year 2  Year 3
+                              Insulation             0%    99%       0%
+                              Lighting               0%      1%      0%
+                              Appliances             0%      0%      0%
+                              Heating                0%      0%      0%
+                              Total                  0%   100%       0%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 21                       August 2005
+3.31.    Cambridge Gas proposed one scheme to predominantly deliver insulation
+         measures and a small amount of lighting to meet its target.
+
+
+         Delivery over the three years of the EEC
+
+3.32.    Cambridge Gas achieved energy savings equating to 100% of its EEC 2002 –
+         2005 target. Ofgem determined that it achieved sufficient qualifying action to
+         comply with its target, with over 50% of the qualifying action being in relation
+         to the Priority Group.
+
+3.33.    Figure 3.10 shows the proportion of Cambridge Gas’ achieved energy savings by
+         measure type. The accompanying table shows the achieved energy savings for
+         each year of the EEC as a percentage of the Cambridge Gas target.
+
+         Figure 3.10: Energy savings achieved by Cambridge Gas split by measure type
+
+
+
+                                                                    Lighting
+                                                                      1%
+
+
+
+
+                             Insulation
+                                99%
+
+
+
+
+                                Achieved energy savings as a percentage of Cambridge
+                                                       Gas' target
+                                        Year 1             Year 2              Year 3
+             Insulation                          0%                 99%                 0%
+             Lighting                            0%                  1%                 0%
+             Appliances                          0%                  0%                 0%
+             Heating                             0%                  0%                 0%
+
+
+
+3.34.    Cambridge Gas is the only supplier whose proposals exactly matched its actual
+         delivery. 99% of the achieved energy savings came from insulation measures
+         and the remainder was met by energy efficient lighting. Cambridge Gas has now
+         exited the supply market so no carry-over of measures was considered.
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 22                                     August 2005
+3.35.    Figure 3.11 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the Cambridge Gas target.
+
+         Figure 3.11: Cambridge Gas’ percentage energy savings to target by measure
+         type
+
+
+
+                              non Priority
+                                Group
+
+
+
+                           Priority Group
+
+
+                                             0%       20%        40%     60%      80%
+
+
+
+                                         Insulation                    Lighting
+
+
+
+
+3.36.    To ensure compliance with its EEC target, Cambridge Gas achieved more than
+         70% of its energy savings in relation to the Priority Group. Of the energy savings
+         achieved for the Priority Group almost all were from installing insulation. The
+         energy savings from lighting made up only a small fraction of both the Priority
+         and non-Priority Group’s achieved savings.
+
+
+
+
+         Dee Valley Group
+
+3.37.    Under the EEC 2002 –2005, suppliers had the option to trade their targets and
+         obligations to another supplier. In 2004, to comply with its obligation, Dee
+         Valley traded its entire target with EDF Energy. EDF Energy’s target increased.
+
+
+
+
+         EDF Energy
+
+3.38.    At the start of the EEC, separate targets were set for LE Group and Seeboard
+         Energy. In 2002, LE Group purchased Seeboard Energy’s supply licence and
+         consumers. During the second year of the EEC, the company rebranded as EDF
+         Energy. The EDF Energy target incorporates the targets set for LE Group and
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                       23                          August 2005
+         Seeboard Energy in January 2004. Additionally, as referred to above, EDF
+         Energy’s final target included the obligation traded by Dee Valley Group.
+
+
+         Proposed activity
+
+3.39.    Figure 3.12 shows the total proposed savings broken down by measure type.
+         The accompanying table provides a breakdown of the proposed savings for the
+         three years of the EEC.
+
+         Figure 3.12: EDF Energy proposed energy savings up to 31 March 2005
+
+
+
+
+                                   Heating                             Insulation
+                                    2%                                    70%
+
+                            Appliances
+                               2%
+
+
+
+                                    Lighting
+                                      26%
+
+
+
+
+                                               Proportion of proposed energy
+                                                          savings
+                            Measure            Year 1     Year 2     Year 3
+                            Insulation             63%          0%        7%
+                            Lighting               25%          1%        1%
+                            Appliances              1%          0%        0%
+                            Heating                 2%          0%        0%
+                            Total                  91%          1%        8%
+
+
+
+3.40.    EDF Energy had eight scheme proposals accredited by Ofgem in the third year of
+         the EEC, which brought the total number of schemes for achieving its EEC target
+         to 40, including 10 Seeboard Energy schemes. Combined with the accredited
+         scheme proposals from Years 1 and 2 of the EEC, EDF Energy proposed savings
+         which equated to more than double its actual target.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                    24                         August 2005
+3.41.    70% of the total proposed energy savings were expected to be the result of
+         insulation measures. The remainder largely consisted of lighting measures at
+         over a quarter of the proposed savings, with small amounts from heating and
+         appliances.
+
+
+         Delivery over the three years of the EEC
+
+3.42.    EDF Energy achieved energy savings equating to 174% of its EEC 2002 – 2005
+         target; 91% of EDF Energy’s target had been achieved by the end of the second
+         year of the EEC. Ofgem determined that it achieved sufficient qualifying action
+         to comply with its target, with 50% of the qualifying action being in relation to
+         the Priority Group.
+
+3.43.    Figure 3.13 shows the proportion of EDF Energy’s achieved energy savings
+         towards its target from each of the four main measure types. The accompanying
+         table shows the achieved energy savings for each year of the EEC.
+
+         Figure 3.13: Energy savings to target achieved by EDF Energy split by measure
+         type
+
+
+                                        Heating
+                                                                  Insulation
+                                         3%
+                                                                     49%
+                                Appliances
+                                   8%
+
+
+
+
+                                             Lighting
+                                               40%
+
+
+
+
+                    Achieved energy savings as a percentage of EDF Energy's           Proportion of EEC
+                                                                                      2002-2005 target
+                                                   target
+                                                                                     carried over to EEC
+                          Year 1                  Year2           Year3                  2005-2008
+Insulation                         33%                      34%                56%                  (74%)
+Lighting                           12%                       9%                18%                    (0%)
+Appliances                          1%                       1%                 6%                    (0%)
+Heating                             0%                       0%                 2%                    (0%)
+
+
+
+3.44.    As stated in its scheme proposals, most of EDF Energy’s savings were achieved
+         with insulation measures. Lighting measures made up 40% of the savings
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                       25                               August 2005
+         attributed to it target. 8% of the total achieved savings came from appliance
+         measures, this was higher than anticipated in the scheme proposals. The smallest
+         proportion of achieved energy savings came from the installation of heating
+         measures. EDF exceeded its target by 74%, all of the measures carried forward
+         were insulation.
+
+3.45.    Figure 3.14 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the EDF Energy target.
+
+         Figure 3.14: EDF Energy’s percentage energy savings to target by measure type
+
+
+
+                           non Priority
+                             Group
+
+
+
+                         Priority Group
+
+
+
+                                          0%     10%      20%    30%     40%   50%
+
+
+                            Insulation         Lighting     Appliances    Heating
+
+
+
+3.46.    The majority of energy savings to target delivered to the Priority Group have
+         been achieved with lighting measures (27% of the target) closely followed by
+         insulation (21% of the target). The energy savings from heating measures and
+         appliances contributed a combined percentage of less than 2% of the target.
+
+3.47.    Almost a third of the EDF Energy target was delivered with insulation to the non
+         Priority Group. EDF Energy’s appliance activity for non-Priority Group customers
+         was more than double that for those in the Priority Group. Activity achieved
+         with heating measures was at a low level.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                     26                         August 2005
+         npower
+
+         Proposed activity
+
+3.48.    Figure 3.15 shows the total proposed savings broken down by the four measure
+         types. The accompanying table provides a breakdown of the proposed savings
+         for the three years of the EEC.
+
+         Figure 3.15: npower proposed energy savings up to 31 March 2005
+
+
+                                            Heating
+                                             4%
+
+
+
+                               Appliances
+                                 22%
+                                                                         Insulation
+                                                                            63%
+
+
+
+                                        Lighting
+                                          11%
+
+
+
+                                                   Proportion of proposed energy
+                                                              savings
+                             Measure               Year 1  Year 2  Year 3
+                             Insulation               45%       3%    14%
+                             Lighting                 11%       0%      0%
+                             Appliances                 2%    10%     11%
+                             Heating                    3%      1%      0%
+                             Total                    61%     14%     25%
+
+
+
+3.49.    npower had thirteen scheme proposals accredited by Ofgem in the third year of
+         the EEC, which brought the total number of schemes for achieving its target to
+         33. Combined with the accredited scheme proposals from Years 1 and 2 of the
+         EEC, npower proposed savings equal to 172% of its target.
+
+3.50.    63% of npower’s total proposed energy savings were expected to be achieved
+         with insulation measures. The remainder was dominated by appliances at 22%
+         of the proposed energy savings, with lighting and heating measures contributing
+         11% and 4% respectively.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                       27                        August 2005
+         Delivery over the three years of the EEC
+
+3.51.    npower achieved energy savings equating to 122% of its EEC 2002 – 2005
+         target; 68% of npower’s target had been achieved by the end of the second year
+         of the EEC. Ofgem determined that it achieved sufficient qualifying action to
+         comply with its target, with 50% of the qualifying action being in relation to the
+         Priority Group.
+
+3.52.    Figure 3.16 shows the proportion of npower’s achieved energy savings towards
+         its target from each of the four main measure types. The accompanying table
+         shows the achieved energy savings for each year of the EEC.
+
+         Figure 3.16: Energy savings to target achieved by npower split by measure type
+
+
+
+                                                                  Insulation
+                                        Heating                      41%
+                                         9%
+
+
+
+
+                                 Appliances
+                                   28%
+
+                                                             Lighting
+                                                               22%
+
+
+
+
+                        Achieved energy savings as a percentage of npower's               Proportion of EEC
+                                                                                          2002-2005 target
+                                                   target
+                                                                                         carried over to EEC
+                           Year 1                 Year2                    Year3
+                                                                                             2005-2008
+Insulation                              4%                  33%                    25%                (22%)
+Lighting                                6%                   9%                     8%                  (0%)
+Appliances                              0%                  12%                    17%                  (0%)
+Heating                                 0%                   4%                     4%                  (0%)
+
+
+
+3.53.    The pattern of npower’s achieved savings against its target follows its scheme
+         proposals with the energy savings from insulation dominating with 41% of the
+         total. 28% of npower’s target was achieved with appliance measures. This is
+         high in comparison with other suppliers. Just under a quarter of the total savings
+         were achieved with lighting measures and heating provided 9% of the energy
+         savings.
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  28                                       August 2005
+3.54.    Figure 3.17 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the npower target.
+
+
+
+
+         Figure 3.17: npower’s percentage energy savings to target by measure type
+
+
+
+                         non Priority
+                           Group
+
+
+
+
+                       Priority Group
+
+
+
+                                        0%     10%      20%    30%     40%   50%
+
+                          Insulation         Lighting     Appliances    Heating
+
+
+
+3.55.    The proportion of energy savings to target delivered to the Priority Group
+         achieved with insulation measures equals the amount achieved with lighting,
+         nearly 20%. The energy savings from Priority Group appliances and heating
+         measures contributed 8% and 4% of the target respectively.
+
+3.56.    The sale of appliances to non-Priority Group consumers has contributed 20% of
+         npower’s achieved savings to target. This was only slightly less than the
+         proportion of non-Priority Group insulation measures.
+
+
+
+
+         Opus Energy
+
+3.57.    Opus Energy became an obligated supplier in the third year of the EEC.
+
+
+         Proposed activity
+
+3.58.    Figure 3.18 shows the total proposed savings broken down by measure. The
+         accompanying table provides a breakdown of the proposed savings for the third
+         year of the EEC.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                   29                         August 2005
+         Figure 3.18: Opus Energy proposed energy savings up to 31 March 2005
+
+
+                                        Lighting
+                                          42%
+
+
+
+
+                                                                 Insulation
+                                                                    58%
+
+
+
+
+                                              Proportion of proposed energy
+                                                         savings
+                            Measure                                 Year 3
+                            Insulation                                   58%
+                            Lighting                                     42%
+                            Appliances                                    0%
+                            Heating                                       0%
+                            Total                                       100%
+
+
+
+3.59.    Ofgem accredited two schemes for Opus Energy. These schemes were equal to
+         266% of Opus Energy’s target. Over half of the proposed savings were expected
+         to be derived from insulation measures with the remaining 42% from lighting
+         measures.
+
+
+         Delivery over the three years of the EEC
+
+3.60.    Opus Energy achieved energy savings equating to 109% of its EEC 2002 – 2005
+         target. Ofgem determined that it achieved sufficient qualifying action to comply
+         with its target, with over 50% of the qualifying action being in relation to the
+         Priority Group.
+
+3.61.    Figure 3.19 shows Opus Energy achieved its entire target from delivering lighting
+         measures. The accompanying table shows the achieved energy savings for each
+         year of the EEC.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  30                         August 2005
+         Figure 3.19: Energy savings achieved by Opus Energy split by measure type
+
+
+
+
+                                                                         Lighting
+                                                                          100%
+
+
+
+
+                Achieved energy savings as a percentage of Opus Energy's Proportion of EEC 2002-
+                                                                         2005 target carried over
+                                         target
+                                                                            to EEC 2005-2008
+                                                            Year3
+Insulation                                                           0%                      (0%)
+Lighting                                                          109%                       (0%)
+Appliances                                                           0%                      (0%)
+Heating                                                              0%                      (0%)
+
+
+
+3.62.    Though Opus Energy originally proposed to meet half of its target with insulation
+         measures, the insulation scheme was withdrawn and Opus Energy’s lighting
+         scheme was extended to meet its entire target.
+
+3.63.    Figure 3.20 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the Opus Energy target.
+
+         Figure 3.20: Opus Energy’s percentage energy savings to target by measure
+         type
+
+
+
+
+                                 non Priority
+                                   Group
+
+
+
+                              Priority Group
+
+
+
+                                                0%   20%    40%   60%   80%   100%
+
+
+                                                     Lighting
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                      31                        August 2005
+3.64.    To ensure compliance with its EEC target, Opus Energy achieved 86% of its
+         energy savings in relation to the Priority Group through the provision of CFLs.
+         Opus Energy and Telecom Plus worked together under the EEC 2002 – 2005 and
+         met their targets through this one joint lighting scheme.
+
+
+         Powergen
+
+3.65.    In 2002, Powergen purchased TXU Energi’s customers, but not its licences. The
+         purchase included Amerada’s licences and customers, which had previously
+         been acquired by TXU Energi. Powergen was not legally obliged to meet TXU’s
+         target as it did not hold the licence. It volunteered to achieve TXU Energi’s target
+         but not to meet the requirement that at least half of the savings should be in
+         relation to the Priority Group.
+
+
+         Proposed activity
+
+3.66.    Figure 3.21 shows the total proposed savings broken down by measure type.
+         The accompanying table provides a breakdown of the proposed savings for the
+         three years of the EEC.
+
+         Figure 3.21: Powergen proposed energy savings up to 31 March 2005
+
+
+                                                     Heating
+                                                      11%
+
+                                        Appliances
+                                          16%
+                                                                     Insulation
+                                                                        44%
+
+
+
+
+                                                Lighting
+                                                  29%
+
+
+
+
+                                        Proportion of proposed energy
+                                                   savings
+                             Measure    Year 1     Year 2     Year 3
+                             Insulation     36%          0%        8%
+                             Lighting       13%         11%        5%
+                             Appliances      0%         16%        0%
+                             Heating         5%          6%        0%
+                             Total          54%         33%       13%
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                      32                     August 2005
+3.67.    Powergen had nineteen schemes accredited by Ofgem during the third year of
+         the EEC, bringing its total number of schemes to 37. These schemes equated to
+         double Powergen’s target. Almost half of the total proposed energy savings were
+         expected to be from insulation measures with over a quarter from lighting. The
+         remainder consisted of appliances and heating.
+
+
+         Delivery over the three years of the EEC
+
+3.68.    Powergen achieved energy savings equating to 154% of its EEC 2002 – 2005
+         target; 65% of Powergen’s target had been achieved by the end of the second
+         year of the EEC. Ofgem determined that it achieved sufficient qualifying action
+         to comply with its target, with 50% of the qualifying action being in relation to
+         the Priority Group.
+
+3.69.    Figure 3.22 shows the proportion of Powergen’s achieved energy savings
+         towards its target from each of the four main measure types. The accompanying
+         table shows the achieved energy savings for each year of the EEC.
+
+         Figure 3.22: Energy savings to target achieved by Powergen split by measure
+         type
+
+
+                                                   Heating
+                                                    3%        Insulation
+                                                                 19%
+                                  Appliances
+                                    32%
+
+
+
+
+                                                              Lighting
+                                                                46%
+
+
+
+                   Achieved energy savings as a percentage of Powergen's         Proportion of EEC 2002-
+                                               target                            2005 target carried over
+                                                                                    to EEC 2005-2008
+                        Year 1                 Year2               Year3
+
+Insulation                       11%                    26%                24%                    (38%)
+Lighting                          4%                    10%                40%                      (0%)
+Appliances                        0%                    14%                23%                      (0%)
+Heating                           0%                     0%                 3%                      (0%)
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                   33                                  August 2005
+3.70.    Nearly half of Powergen’s energy savings achieved against its target were met
+         with lighting measures. At a third of the Powergen target, appliances provided
+         more energy savings towards the target than insulation measures. Powergen
+         exceeded its target by 54% and carried over 38 percentage points of this to the
+         EEC 2005 - 2008. Almost all of the measures carried over were insulation. The
+         other measures carried forward to the EEC 2005 – 2008 were at quantities too
+         small to show on the above table.
+
+3.71.    Figure 3.23 shows a full breakdown of the achieved energy savings to target, by
+         measure type and customer type, as a percentage of the final Powergen target.
+
+         Figure 3.23: Powergen’s percentage energy savings to target by measure type
+
+
+
+                            non Priority
+                              Group
+
+
+
+                         Priority Group
+
+
+                                           0%   10% 20% 30% 40% 50% 60% 70%
+
+
+
+                              Insulation                     Lighting
+                              Appliances                     Heating
+                              non Qualifying Action
+
+
+
+3.72.    The majority of the energy savings to target in the Priority Group resulted from
+         lighting measures. Appliance and insulation measures contributed equal
+         amounts to Priority Group consumers. This is a relatively small amount of
+         Priority Group insulation compared with other suppliers. A large proportion of
+         non Priority Group savings were delivered through the sale of appliances,
+         double the amount delivered to Priority Group households. There was an even
+         split of achieved savings between insulation and lighting measures delivered to
+         non-Priority Group customers. The smallest proportion of energy savings
+         delivered to the Priority Group has resulted from heating measures.
+
+3.73.    Powergen volunteered to exceed its EEC target to make up the shortfall in TXU
+         Energi’s target. This additional amount has been achieved by Powergen, as non
+         Priority Group savings. Ofgem is unable to determine these savings as qualifying
+         action in the EEC as at least 50% of it has not been achieved in the Priority
+         Group. However, these measures have been installed and are saving energy for
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                   34                       August 2005
+         domestic consumers. The excess non Priority Savings that were achieved equal
+         14% of Powergen’s target which it could otherwise have carried over.
+
+
+
+
+         ScottishPower
+
+         Proposed activity
+
+3.74.    Figure 3.24 shows the total proposed savings broken down by measure type.
+         The accompanying table provides a breakdown of the proposed savings for the
+         three years of the EEC.
+
+         Figure 3.24: ScottishPower proposed energy savings up to 31 March 2005
+
+
+
+                                        Heating
+                                         15%
+
+
+                                Appliances                              Insulation
+                                   2%                                      65%
+
+
+                                        Lighting
+                                          18%
+
+
+
+
+                                               Proportion of proposed energy
+                                                          savings
+                             Measure               Year 1  Year 2  Year 3
+                             Insulation               38%       8%    19%
+                             Lighting                 18%       0%      0%
+                             Appliances                 0%      1%      1%
+                             Heating                  12%       1%      3%
+                             Total                    68%       9%    23%
+
+
+
+3.75.    ScottishPower had eight scheme proposals accredited in the third year of the
+         EEC, bringing its total number of schemes to 17. Consistent with most of the
+         other suppliers, over 60% of the proposed activity was expected to come from
+         insulation measures with 18% resulting from lighting measures. A further 15%
+         of the energy savings was expected from heating measures, higher than average,
+         with the remaining 2% expected from appliances.
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                    35                          August 2005
+         Delivery over the three years of the EEC
+
+3.76.    ScottishPower achieved energy savings equating to 171% of its EEC 2002 –
+         2005 target; 88% of ScottishPower’s target had been achieved by the end of the
+         second year of the EEC. Ofgem has determined that ScottishPower achieved
+         sufficient qualifying action to comply with its target, with 50% of the qualifying
+         action being in relation to the Priority Group.
+
+3.77.    Figure 3.25 shows the proportion of ScottishPower’s achieved energy savings
+         towards its target from each of the four main measure types. The accompanying
+         table shows the achieved energy savings for each year of the EEC.
+
+         Figure 3.25: Energy savings to target achieved by ScottishPower split by
+         measure type
+
+
+                                        Heating
+                                         19%
+
+                                                                     Insulation
+                           Appliances                                   36%
+                              1%
+
+
+
+
+                                          Lighting
+                                            44%
+
+
+
+                  Achieved energy savings as a percentage of ScottishPower's Proportion of EEC 2002-
+                                            target                           2005 target carried over
+                       Year 1              Year2                Year3           to EEC 2005-2008
+Insulation                    18%                   36%                 52%                    (71%)
+Lighting                        4%                  23%                 16%                      (0%)
+Appliances                      0%                   1%                   1%                     (0%)
+Heating                         1%                   4%                 14%                      (0%)
+
+
+
+3.78.    Though ScottishPower achieved the majority of its energy savings through
+         insulation measures, the dominant measure against its target was actually
+         lighting, achieving 44% of the overall savings. Insulation measures provided a
+         lesser proportion of the target than proposed with 36% of the total achieved
+         energy savings. Almost a quarter of the savings were achieved with heating
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                36                                 August 2005
+         measures, relatively high in comparison to the other suppliers. As expected,
+         appliances have provided the smallest proportion of the total achieved energy
+         savings, 1% of the total.
+
+3.79.    Figure 3.26 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the ScottishPower target.
+
+         Figure 3.26: ScottishPower’s percentage energy savings to target by measure
+         type
+
+
+
+                            non Priority
+                              Group
+
+
+
+                          Priority Group
+
+
+
+                                           0%    10%       20%   30%      40%   50%
+
+
+                              Insulation        Lighting     Appliances     Heating
+
+
+
+3.80.    Lighting measures make up the majority of the activity to target in the Priority
+         Group while insulation makes up the majority in the non Priority Group. The
+         energy savings from heating measures were focused towards non-Priority Group
+         households.
+
+3.81.    In the non Priority Group, the insulation measures contributed 27% to the target
+         with 12% of the target being achieved through heating measures. Appliances
+         schemes were offered to non-Priority Group consumers only.
+
+
+
+
+         Scottish and Southern Energy
+
+         Proposed activity
+
+3.82.    Figure 3.27 shows the total proposed savings broken down by measure type.
+         The accompanying table provides a breakdown of the proposed savings for the
+         three years of the EEC.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                      37                         August 2005
+         Figure 3.27: Scottish and Southern Energy proposed energy savings up to 31
+         March 2005
+
+
+
+                                  Heating
+                                   8%
+
+                            Appliances
+                               6%
+
+                                                                    Insulation
+                               Lighting                                78%
+                                 8%
+
+
+
+
+                                            Proportion of proposed energy
+                                                       savings
+                             Measure        Year 1  Year 2  Year 3
+                             Insulation        61%       4%    13%
+                             Lighting            7%      0%      1%
+                             Appliances          5%      0%      1%
+                             Heating             8%      0%      0%
+                             Total             81%       4%    15%
+
+
+
+3.83.    Scottish and Southern Energy had six scheme proposals approved by Ofgem in
+         the third year of the EEC. These proposals brought its total number of schemes to
+         21. Very little activity was proposed in lighting, appliances and heating,
+         especially in second and third years of the programme. The scheme proposals
+         accounted for 194% of Scottish and Southern Energy’s target.
+
+3.84.    Scottish and Southern Energy proposed to achieve over three quarters of its
+         energy savings by installing insulation measures - high in comparison to the
+         other suppliers. Heating and lighting measures were proposed to contribute 8%
+         apiece and the smallest proportion of energy savings was expected to be
+         delivered through appliances.
+
+
+         Delivery over the three years of the EEC
+
+3.85.    Scottish and Southern Energy achieved energy savings equating to 165% of its
+         EEC 2002 – 2005 target; 89% of Scottish and Southern Energy’s target had been
+         achieved by the end of the second year of the EEC. Ofgem determined that it
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                38                          August 2005
+         achieved sufficient qualifying action to comply with its target, with 50% of the
+         qualifying action being in relation to the Priority Group.
+
+3.86.    Figure 3.28 shows the proportion of Scottish and Southern Energy’s achieved
+         energy savings towards its target from each of the four main measure types. The
+         accompanying table shows the achieved energy savings for each year of the EEC.
+
+         Figure 3.28: Energy savings to target achieved by Scottish and Southern Energy
+         split by measure type
+
+
+                                                     Heating
+                                        Appliances    7%
+                                           3%
+
+
+
+                                 Lighting
+                                   18%
+
+
+
+
+                                                                     Insulation
+                                                                        72%
+
+
+
+
+                    Achieved energy savings as a percentage of Scottish and            Proportion of EEC
+                                                                                       2002-2005 target
+                                        Southern Energy's target
+                                                                                      carried over to EEC
+                        Year 1                   Year2               Year3                2005-2008
+Insulation                       31%                           41%                64%               (65%)
+Lighting                          7%                            8%                 3%                 (0%)
+Appliances                        2%                            0%                 1%                 (0%)
+Heating                           0%                            0%                 7%                 (0%)
+
+
+
+3.87.    As proposed, almost three quarters of Scottish and Southern Energy’s total energy
+         savings were achieved with insulation measures. Lighting followed with 18% of
+         the achieved energy savings and the remaining 10% was split between heating
+         measures and appliances.
+
+3.88.    Figure 3.29 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the Scottish and Southern Energy
+         target.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                      39                                 August 2005
+         Figure 3.29: Scottish and Southern Energy’s percentage energy savings to target
+         by measure type
+
+
+
+
+                            non Priority
+                              Group
+
+
+
+
+                          Priority Group
+
+
+
+
+                                           0%     10%      20%   30%      40%   50%
+
+
+                            Insulation          Lighting     Appliances     Heating
+
+
+
+3.89.    The savings achieved in the Priority Group were heavily dominated by
+         insulation measures, whereas most of the other suppliers’ activity was more
+         evenly split. One quarter of the Priority Group savings were achieved with
+         lighting measures and the remainder comprised heating measures and a small
+         amount of appliances.
+
+3.90.    Over a third of the Scottish and Southern Energy target was achieved with non-
+         Priority Group insulation measures. The remaining non- Priority Group savings
+         were predominantly from lighting measures with small but equal amounts of
+         heating and appliances making up the remainder.
+
+
+
+
+         Telecom Plus
+
+3.91.    Telecom Plus became an obligated supplier in the third year of the EEC.
+
+
+         Proposed activity
+
+3.92.    Figure 3.30 shows the total proposed savings broken down by measure type.
+         The accompanying table provides a breakdown of the proposed savings for the
+         third year of the EEC.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                      40                         August 2005
+         Figure 3.30: Telecom Plus proposed energy savings up to 31 March 2005
+
+
+
+
+                              Lighting
+                                43%
+
+                                                                Insulation
+                                                                   57%
+
+
+
+
+                                         Proportion of proposed energy
+                                                    savings
+                            Measure                            Year 3
+                            Insulation                             57%
+                            Lighting                               43%
+                            Appliances                               0%
+                            Heating                                  0%
+                            Total                                 100%
+
+
+
+3.93.    Telecom Plus had two schemes accredited by Ofgem. These schemes were
+         equal to 265% of Telecom Plus’ target. Over half of the proposed savings were
+         expected to be delivered with insulation measures with the remaining 43% of
+         proposed energy savings from lighting measures.
+
+
+         Delivery over the three years of the EEC
+
+3.94.    Telecom Plus achieved energy savings equating to 107% of its EEC 2002 – 2005
+         target. Ofgem has determined that Telecom Plus achieved sufficient qualifying
+         action to comply with its target, with over 50% of the qualifying action being in
+         relation to the Priority Group.
+
+3.95.    Figure 3.31 shows the proportion of Telecom Plus’ achieved energy savings
+         towards its target from each of the four main measure types. The accompanying
+         table shows the achieved energy savings for each year of the EEC.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets             41                            August 2005
+         Figure 3.31: Energy savings achieved by Telecom Plus split by measure type
+
+
+
+
+                                                                     Lighting
+                                                                      100%
+
+
+
+
+                    Achieved energy savings as a percentage of Telecom Plus' Proportion of EEC 2002-
+                                             target                          2005 target carried over
+                                                                 Year3          to EEC 2005-2008
+Insulation                                                                0%                    (0%)
+Lighting                                                               107%                     (0%)
+Appliances                                                                0%                    (0%)
+Heating                                                                   0%                    (0%)
+
+
+
+3.96.    Though Telecom Plus originally proposed to meet half of its target with
+         insulation measures, the insulation scheme was withdrawn and Telecom Plus’
+         lighting scheme was extended to meet its target in full.
+
+3.97.    Figure 3.32 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the Telecom Plus target.
+
+         Figure 3.32: Telecom Plus’ percentage energy savings to target by measure
+         type
+
+
+
+                            non Priority
+                              Group
+
+
+
+
+                         Priority Group
+
+
+
+                                           0%   20%   40%    60%   80%   100%
+
+                                                      Lighting
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 42                                August 2005
+3.98.    To ensure compliance with its EEC target, Telecom Plus achieved just less than
+         86% of energy savings in relation to the Priority Group, through distributing
+         CFLs. Telecom Plus and Opus Energy worked together under the EEC 2002 –
+         2005 and met their targets through this one joint lighting scheme.
+
+
+
+
+         TXU Energi
+
+3.99.    Powergen purchased TXU Energi’s customers in October 2002 but not the TXU
+         licences. TXU Energi was put into administration soon after and the company
+         ceased trading. Powergen volunteered to deliver sufficient measures to achieve
+         TXU Energi’s target but not to meet the requirement that at least half of the
+         savings be in relation to the Priority Group. As a consequence TXU Energi has a
+         shortfall in qualifying action against its EEC target and has not complied with its
+         obligation. The Authority in this case decided not to impose a financial penalty
+         as it would have served no practical purpose.
+
+
+         Proposed activity
+
+3.100. Figure 3.33 shows the total energy savings proposed by TXU Energi broken
+         down by measure type. The accompanying table provides a breakdown of the
+         proposed savings for the three years of the EEC.
+
+         Figure 3.33: TXU Energi proposed energy savings up to October 2002
+
+
+
+                                  Heating
+                                   3%                        Insulation
+                                                                52%
+
+
+                          Appliances
+                            19%
+
+
+
+
+                                        Lighting
+                                          26%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets              43                             August 2005
+                                           Proportion of proposed energy
+                                                      savings
+                            Measure        Year 1     Year 2     Year 3
+                            Insulation         52%          0%         0%
+                            Lighting           26%          0%         0%
+                            Appliances         19%          0%         0%
+                            Heating             3%          0%         0%
+                            Total             100%          0%         0%
+
+
+
+3.101. Ofgem accredited eight TXU scheme proposals in the first year of the EEC before
+         it went into administration. All suppliers’ targets are based on the average of its
+         numbers for the three years of the EEC. As TXU Energi was not supplying any
+         domestic consumers in the second and third years of the EEC, its target
+         decreased significantly. Therefore, the schemes proposed during the first year
+         account for 226% of TXU Energi’s final target.
+
+
+         Delivery over the three years of the EEC
+
+3.102. Powergen completed some of the schemes set up by TXU Energi and reported
+         the achieved savings to Ofgem. From this data, 13% of TXU Energi’s final target
+         was determined as qualifying action. Powergen additionally volunteered to
+         exceed its EEC target with the intention of making up the shortfall from TXU
+         Energi’s target. However, these savings did not meet the requirement that at least
+         50% were in the Priority Group so they could not be determined as qualifying
+         action.
+
+3.103. Powergen also reported the excess savings that TXU Energi had achieved under
+         the EESoP 3 programme. Suppliers were able to carry these measures into the
+         EEC. Again, all of the EESoP 3 excess measures had been provided to non
+         Priority Group consumers and so could not be considered qualifying action as
+         there is not a corresponding amount of Priority Group activity. Additionally, the
+         level of this activity breached the 10% threshold on carry over activity between
+         EESoP 3 and the EEC8. This activity would have made up more than 20% of
+         TXU energi’s energy saving target.
+
+
+
+
+8
+ The Order limited the amount of excess activity that could be transferred from the 2000-02 programme to
+10% of each supplier’s obligation.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  44                                     August 2005
+3.104. Figure 3.34 shows the proportion of TXU Energi’s achieved energy savings
+         towards its target from both of the measure types delivered. The accompanying
+         table shows the achieved energy savings for each year of the EEC.
+
+         Figure 3.34: Energy savings achieved by TXU Energi split by measure type
+
+
+
+                                                                 Insulation
+                                                                    28%
+
+
+
+
+                                   Appliances
+                                     72%
+
+
+
+
+                   Achieved energy savings as a percentage of TXU Energi's target Proportion of EEC
+                                                                                  2002-2005 target
+                          Year 1                Year2               Year3        carried over to EEC
+                                                                                     2005-2008
+Insulation                           7%                  0%                   0%                 (0%)
+Lighting                             0%                  0%                   0%                 (0%)
+Appliances                          17%                  0%                   0%                 (0%)
+Heating                              0%                  0%                   0%                 (0%)
+
+
+
+3.105. Though TXU Energi’s scheme proposals anticipated energy savings to be
+         achieved with a mix of all the measure types, TXU Energi’s change in
+         circumstances meant that completed activity was only reported for insulation
+         measures and appliances.
+
+3.106. Figure 3.35 shows a full breakdown of the achieved energy savings, by measure
+         type and customer type, as a percentage of the final TXU Energi target.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets               45                                   August 2005
+         Figure 3.35: TXU Energi’s percentage energy savings to target by measure type
+
+
+
+                          non Priority
+                            Group
+
+
+
+                        Priority Group
+
+
+
+                                        0%    10%    20%     30%    40%     50%
+
+
+                            Insulation       Appliances    non Qualifying Action
+
+
+
+3.107. TXU Energi achieved a quarter of its EEC target. The Priority Group savings
+         contributed 6.5% of savings towards the target; therefore 13% of the target has
+         been determined as qualifying action. These savings determined as qualifying
+         action have been counted toward the overall achievement of the EEC.
+
+3.108. Across both the non Priority Group and the Priority Group, the qualifying action
+         was evenly split between insulation measures and appliances.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 46                           August 2005
+4. Measures delivered during the three years
+4.1.     This chapter provides information on the types of measures that have been
+         delivered over the last three years and how they have been promoted and
+         delivered to consumers.
+
+
+         Measures installed
+
+4.2.     Insulation measures have dominated supplier activity, accounting for 56% of the
+         total savings achieved. One quarter of the total energy savings have come from
+         the installation of lighting measures, predominantly CFLs (compact fluorescent
+         lamps). The promotion of A rated appliances has contributed 11% to the overall
+         savings achieved under the programme. The remainder of the savings, 9%, was
+         met through heating measures. Figure 4.1 details the total number of measures
+         installed throughout the three years.
+
+         Figure 4.1: The number of measures installed and their energy savings
+
+                    Measure                   Number of measures installed Energy savings
+                                            Priority Group non-Priority Group  (GWh)
+Cavity wall insulation                             441,213            350,311 25,069.271
+Loft insulation (top up)                           343,467            185,029   4,138.786
+Loft insulation (virgin)                           142,361             83,884   9,696.905
+                       2
+DIY loft insulation (m )                         1,999,548        13,979,819    8,101.492
+Draught stripping                                    15,516             7,227      38.561
+Tank insulation                                      98,650            97,182     433.501
+Radiator panels (m2)                                 27,574            11,304      13.392
+Solid wall insulation                                17,352             6,378     972.597
+Other insulation                                        617             2,008      21.145
+Energy efficient cold appliances                   589,357         2,366,727    7,381.189
+Energy efficient wet appliances                    671,693         2,880,044    2,260.324
+Other appliances                                     19,932            73,905      42.496
+A and B rated boilers                              104,364            174,627   2,361.905
+A and B rated boilers with heating controls          22,769            64,728   1,233.475
+Heating controls upgrade                           631,711         1,734,417     1,220.49
+Fuel switching                                       20,432            20,645   2,763.325
+CHP/Communal heating*                                   403               212      39.037
+Other heating                                           126                76       4.663
+CFLs                                           24,203,630         15,533,940 20,976.794
+         *Number of properties served by the heating system.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets            47                           August 2005
+         Insulation
+
+4.3.     The majority of insulation measures have been installed in Priority Group
+         households providing benefits to these consumers in terms of lower bills and
+         increased thermal comfort. The two exceptions are DIY loft insulation, of which
+         85% of the measures were purchased by non-Priority consumers; and other
+         insulation measures.
+
+4.4.     Cavity wall insulation has been the most popular insulation measure throughout
+         the three years of the programme. Suppliers fitted cavity wall insulation in nearly
+         800,000 households, equating to almost 30% of the total energy savings
+         achieved.
+
+4.5.     Loft insulation has generally been promoted alongside cavity wall insulation
+         with over 750,000 households benefiting from a professional installation. Almost
+         30% of the households receiving loft insulation had no previous insulation. Two
+         thirds of these properties were in the Priority Group. The remaining properties
+         received a top-up to a total depth of between 200mm and 270mm. DIY loft
+         insulation has been a popular delivery route for consumers with almost 16
+         million square metres of loft insulation being sold through retailers. Based upon
+         an average of 40m2 installed in a typical property, this equated to around
+         400,000 households. DIY and professional installations of loft insulation
+         contributed 25% to the total energy savings achieved.
+
+4.6.     Other insulation measures were also delivered by suppliers, contributing less
+         than 2% to the total savings achieved. These measures were provided as part of
+         a broader programme of insulation work, as they are not as cost-effective to
+         deliver alone. Draught proofing and hot water tank jackets have been provided
+         as part of some major insulation schemes. Hot water tank jackets are an
+         established measure so there is increasingly limited opportunity to fit them.
+         Internal and external solid wall insulation was installed in over 20,000
+         households, predominantly in the social sector. The ‘other insulation’ category
+         details some small schemes, which were set up to insulate valves and flanges in
+         community heating systems.
+
+4.7.     Radiator panels fit behind radiators on external walls to help retain heat within a
+         room. Some were professionally installed and others sold for DIY installation.
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          48                                August 2005
+         Almost 39,000m2 of radiator panels were installed. Assuming an average radiator
+         size of 0.8m2, this equates to over 48,000 radiators being fitted with panels.
+
+
+         Lighting
+
+4.8.     Nearly 40 million CFLs have been distributed over the last three years. CFL
+         schemes are relatively straightforward to set up and deliver so suppliers’ initial
+         activity under the EEC concentrated on these measures. Likewise, during the last
+         six months of the programme, the delivery of CFLs to the Priority Group was
+         increased to ensure that suppliers had a more even balance between their
+         Priority and non Priority Group activity. 60% of all CFLs distributed were
+         provided to Priority consumers.
+
+4.9.     The majority of CFLs were given out for free, predominantly to Priority Group
+         households. When delivering measures for free, suppliers were limited to
+         delivering no more than four CFLs to each household. If each of the Priority
+         Group CFL recipients were provided with the maximum number permissible,
+         four bulbs, then 6 million households would have benefited. Defra estimated
+         that there were approximately 8.8 million households in the Priority Group.
+
+4.10.    When suppliers offered CFLs direct and at a cost to their consumers the
+         measures were capped at six CFLs per household. These limits were put in place
+         to ensure that consumers did not take more CFLs than they required and
+         therefore the measures led to improvements in energy efficiency. CFLs sold
+         through retailers were not capped and over 3.7 million CFLs were sold through
+         this route. Retail partnerships were also used to sell over 400,000 luminaires to
+         consumers.
+
+
+         Appliances
+
+4.11.    Suppliers delivered nearly 3 million cold appliances (fridges, freezers and fridge-
+         freezers) during the EEC. These measures were all A rated under the European
+         Energy Labelling scheme. This accounts for over one quarter of the total sales of
+         cold appliances in Great Britain over the three years, equating to 60% of the
+         total sales of A rated fridges and freezers during this period.
+
+4.12.    With regard to wet appliances (dishwashers and washing machines) 3.5 million
+         were sold under the EEC. This accounts for one third of total sales of wet
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           49                                August 2005
+         appliances, or 50% of all A rated wet appliances sold between 2002 and 2005.
+         Throughout the EEC, supplier activity led the transformation in the market for
+         appliances. This transformation may continue due to the introduction of A+ and
+         A++ ratings for cold appliances in July 2004.
+
+4.13.    When devising the target-setting model for the EEC, Defra included an uplift of
+         1.6 for the energy savings from appliances which made them more cost-effective
+         for the suppliers. The uplift has been removed for the EEC 2005 – 2008. Having
+         an uplift in the energy savings from a measure has implications for the actual
+         carbon saved by the programme. This is detailed in Chapter 5.
+
+4.14.    Less than 20% of the total number of appliances sold were provided to Priority
+         Group consumers. Two suppliers set up fridgesavers schemes which allow
+         Priority Group consumers to trade in a working yet faulty fridge or freezer for a
+         heavily-subsidised energy-efficient equivalent. The energy savings attributable
+         are slightly higher than conventional trade-in schemes for appliances as the
+         faulty appliance is taken out of use and destroyed. Around 36,000 old,
+         inefficient appliances were destroyed and replaced.
+
+4.15.    Suppliers have also been working to identify other types of energy efficient
+         appliances to promote to consumers. One supplier ran a small scheme for
+         Priority Group consumers and pensioners to trade in traditional kettles for jug
+         kettles with a scale. Other suppliers set up schemes to deliver consumer
+         electronics in partnership with retailers. One such example was the ‘intelligent
+         mains panel’, a plug system that reduces the stand-by consumption from
+         computer peripherals when the computer is itself in stand-by mode.
+
+
+         Heating
+
+4.16.    The majority of heating measures were delivered to non-Priority Group, or able-
+         to-pay consumers. SEDBUK 9A or B rated boilers have been installed in over
+         300,000 households through the EEC. Suppliers were accredited with the
+         difference in energy savings between the legal requirement under the Building
+         Regulations (a D rated boiler) and the efficiency actually installed.
+
+
+
+
+9
+ Seasonal Efficiency Database of Boilers in the United Kingdom.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  50                        August 2005
+4.17.    Suppliers also promoted a range of ‘other heating’ measures to consumers, as
+         shown in Figure 4.1. Fuel switching was conducted in over 40,000 households,
+         evenly split between Priority and non-Priority Group consumers. This generally
+         involved subsidising the upgrade of an electric or coal fired heating system to a
+         gas-fired system. One supplier installed forty ground source heat pumps.
+         Another supplier installed a small number of mechanical ventilation and heat
+         recovery units as part of one its social housing schemes.
+
+4.18.    There was some interest in solar water heating at the start of the EEC. However,
+         following the introduction of the DTI’s Clear Skies programme10 in 2003,
+         suppliers were unable to compete with the level of funding provided by the
+         Government programme. As a consequence the proposed solar water heating
+         schemes did not go ahead.
+
+4.19.    Around twenty schemes for community heating and CHP installations were
+         proposed to Ofgem, with only eleven being completed to the benefit of over 600
+         domestic properties. The remainder of the schemes were withdrawn by the
+         suppliers for a number of reasons such as the timescales involved or the cost
+         effectiveness of the scheme.
+
+
+         Delivering schemes
+
+4.20.    Suppliers have promoted their schemes through numerous routes and have
+         partnered with different organisations to deliver measures to consumers.
+         Suppliers were not limited to assisting only their own customers and were able
+         to target any domestic consumer in Great Britain. The main routes for suppliers
+         to promote measures to consumers has involved them:
+
+         •   offering measures direct to consumers,
+
+         •   partnering with other organisations such as SHPs and charities,
+
+         •   partnering with retailers and manufacturers, and
+
+         •   linking in with other Government programmes.
+
+
+
+
+10
+  The DTI’s Clear Skies programme offered grants for a number of different renewable technologies.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 51                                     August 2005
+4.21.    Appendix 1 details the numbers of measures, which have been delivered
+         through retail partnerships, SHP schemes, interaction with other Government
+         programmes and other delivery routes.
+
+         Carry over from EESoP 3
+
+4.22.    Suppliers had the option to carry over measures installed under the EESoP 3
+         programme, which exceeded their EESoP 3 targets. This carry over was limited
+         to 10% of the supplier’s EEC target. Measures equating to almost 3,000 GWh, or
+         nearly 5% of the EEC target, were carried forward into the EEC. Two suppliers
+         were able to carry over the maximum amount, equating to 10% of their targets.
+         The other four suppliers who previously had EESoP targets carried over measures
+         equating to between 2% and 7% of their EEC targets.
+
+
+         Offering measures direct to consumers
+
+4.23.    Most of the suppliers offered the four main measure types directly to their
+         customers through different schemes. These offers were used to retain existing
+         customers or attract new customers to the supplier. Suppliers have used a
+         number of routes to market these schemes, such as targeted mailing, bill inserts,
+         the web and customer magazines.
+
+4.24.    CFLs sold to consumers in this way were limited to six per household. Suppliers
+         were required to cross check their records of recipients to ensure that this limit
+         was adhered to for each household. The suppliers distributed around 12 million
+         CFLs directly to non-Priority Group consumers. This figure excludes the
+         suppliers’ retail partnerships. Suppliers also sent CFLs direct to consumers for
+         free. The Priority Group was the main beneficiary of this route. Suppliers
+         identified Priority Group customers from their records or schemes and sent them
+         up to four CFLs for free.
+
+4.25.    Nearly half of all the heating measures provided to consumers under the EEC
+         were offered direct to consumers by the suppliers, with the consumer paying a
+         contribution towards the cost of the measures. The suppliers’ direct offers also
+         account for one quarter of all the insulation fitted in domestic premises under
+         the EEC. Again, these measures were generally promoted to able-to-pay
+         consumers, offering cavity wall insulation, loft insulation and hot water tank
+         jackets.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          52                                 August 2005
+         Energy services
+
+4.26.    An energy service package in the EEC was defined as an activity that included:
+
+               •   two measures, one of which had to be insulation to the loft or the walls
+                   or an improvement to the primary heating system such as a boiler or
+                   CHP,
+               •   an assessment of the premises,
+               •   relevant advice to the consumer, and
+               •   an offer to the consumer for the option of deferring payment for the
+                   measures.
+
+
+4.27.    Three suppliers offered an energy service package direct to consumers. The
+         major measures installed were loft and/or cavity wall insulation and the
+         secondary measure tended to be a hot water tank jacket, draught proofing or
+         CFLs. Suppliers were incentivised to deliver measures as part of an energy
+         service package. Energy services accounting for up to 10% of a supplier’s target
+         received a 50% increase in the energy savings achieved.
+
+4.28.    Only one supplier delivered more than 10% of its target through energy services,
+         taking full advantage of the incentive and also continuing to deliver energy
+         services without the uplift. This supplier achieved 15% of its target through
+         energy services, including the uplift. Energy services for the other two suppliers
+         contributed 1% and 8% to their individual targets, including the uplift. The
+         energy services schemes achieved over 4TWh, including the uplift. Suppliers
+         had the potential to deliver up to 6TWh as energy services qualifying for the
+         uplift, leading to a total potential saving of just over 9TWh.
+
+
+         Partnering with SHPs and charities
+
+4.29.    Partnerships with SHPs have been key to the suppliers meeting their targets. The
+         suppliers were able to expand the SHPs programme of works, lever in additional
+         funding and target the Priority Group effectively. Through these partnerships,
+         suppliers have offered insulation, heating and CFLs. The community heating
+         schemes set up under the EEC have all been in partnership with SHPs. One
+         supplier partnered with a SHP to promote its fridgesavers scheme to Priority
+         Group consumers.
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           53                               August 2005
+4.30.    The majority of insulation measures (nearly 60%) have been delivered in
+         partnerships with SHPs. Over 50% of all the dwellings receiving cavity wall
+         insulation under the EEC were social housing. 80% of all the loft top-up activity
+         has been through partnerships with SHPs, showing that top-up installations are
+         cost effective when a package of measures are being installed. For the same
+         reason, smaller insulation measures have also been installed in greater numbers
+         under SHP schemes. The majority of tank insulation and radiator panels were
+         fitted through this delivery route. The 23,000 households receiving solid wall
+         insulation were all social housing properties. A third of all heating activity was
+         part funded and delivered with SHPs. 60% of fuel switching, 25,000
+         households, benefited from supplier and SHP partnerships.
+
+4.31.    Suppliers partnered with hundreds of SHPs, charities and community groups
+         who delivered CFLs to their tenants or members. Up to four bulbs were provided
+         for free to each household, predominantly to the Priority Group. Around 24
+         million CFLs were delivered to Priority Group consumers, and up to 16 million
+         of these were distributed through such partnerships.
+
+4.32.    Some suppliers have also partnered with charities to provide other goods and
+         services with their energy efficiency schemes such as safety devices. This has
+         broadened the benefits of the suppliers’ schemes and has been used as a tool to
+         attract SHP partners.
+
+         Partnerships with housing developers
+
+4.33.    Certain suppliers have partnered with housing developers and SHPs to fund the
+         installation of measures in new build houses. The suppliers have claimed energy
+         savings where they have provided funding to enable the developer to exceed the
+         requirements of the Building Regulations, predominantly through installing
+         luminaires and upgrading the efficiency of the boiler.
+
+
+         Partnering with retailers and manufacturers
+
+4.34.    Suppliers have partnered with a number of retailers over the last three years,
+         including supermarkets, department stores, appliance retailers and DIY stores. As
+         well as partnering with high street chains, suppliers also worked with some
+         independent appliance and lighting retailers.
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           54                                August 2005
+4.35.    Retailers were required to provide electronic point of sale (EPoS) data at the end
+         of supplier’s schemes to confirm the number of measures sold to consumers. For
+         CFLs and DIY insulation, suppliers had to use the EPoS data to prove that they
+         had increased the sales of the product by 20% compared with the previous year.
+         Some suppliers found this difficult with some CFL schemes due to the
+         competition from cheap, shorter life bulbs. The success of these schemes has
+         been dependent upon the retailers promoting measures and subsidising the
+         price. There appears to be little consumer demand without a supplier’s support.
+         Over 3.7 million CFLs were sold through retailers under the EEC. This equates to
+         9% of all the CFLs delivered under the EEC.
+
+4.36.    All consumer electronics and appliances (with the exception of kettles and some
+         fridgesavers) were sold in partnership with retailers and manufacturers. The
+         suppliers used their funding to subsidise and promote the appliances and to train
+         sales staff in energy efficiency. The two main routes were incentivising
+         consumers to purchase an A rated appliance when shopping for a new model
+         and encouraging consumers to trade-in their existing (and working) appliance for
+         an A rated model. In the latter scenario, higher energy savings were awarded to
+         recognise that the consumer’s old, inefficient, appliance was being removed
+         from circulation and destroyed. One of the fridgesavers schemes involved the
+         supplier promoting the service and determining who was eligible. The consumer
+         was then given a voucher to claim their new appliance at a national retailer.
+
+4.37.    Partnerships with manufacturers involved CFLs, luminaires, appliances and
+         boilers. Suppliers provided a subsidy to the manufacturer to promote and
+         discount the product, with the manufacturer monitoring sales through their retail
+         partners. Partnerships with boiler manufacturers enabled the boiler merchants to
+         sell condensing boilers at the same price as a standard boiler under the Building
+         Regulations.
+
+4.38.    Partnerships with manufacturers also enabled suppliers to fund improvements to
+         consumer electronics to help get more efficient models to the market.
+
+
+         Linking with other Government programmes
+
+4.39.    Suppliers have partnered with a number of other Government programmes:
+         Warm Front and its devolved equivalents, Community Energy and Clear Skies.
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          55                                August 2005
+4.40.    Six suppliers chose to interact with the fuel poverty programmes Warm Front,
+         Welsh HEES and Warm Deal, contributing 16% of all insulation measures
+         installed under the EEC. The suppliers were able to purchase measures installed
+         under the Warm Front programme and the managing agents, Eaga and Powergen
+         Warm Front, were required to spend that money on similar measures. All of the
+         recipients were in the Priority Group. The insulation measures purchased from
+         Warm Front made an important contribution to the EEC, accounting for 16% of
+         all the professional insulation measures installed. This activity was dominated by
+         cavity wall insulation and loft insulation. Over 100,000 properties received loft
+         insulation under Warm Front and which was sold to suppliers; of this, 80,000
+         properties had virgin lofts. This shows that the suppliers were able to purchase
+         the most cost effective measures installed by Warm Front. One supplier
+         purchased a small number of boiler replacements and heating controls also.
+
+4.41.    Eaga partnered with seven suppliers to deliver almost eight million CFLs through
+         the Warm Front programme. This equates to one fifth of all CFLs distributed
+         under the EEC. Up to four CFLs were provided to almost two million households
+         who were recipients of Warm Front or who contacted the Warm Front helpline.
+
+4.42.    One supplier partnered with the Community Energy Programme to part-fund a
+         CHP installation in Scotland. The supplier’s project partners confirmed that the
+         scheme could not have gone ahead without its funding. The energy savings were
+         accredited in proportion to the supplier’s cost contribution to the plant, the
+         remainder of the energy and carbon saving have been attributable to the
+         Community Energy Programme.
+
+4.43.    The DTI’s Clear Skies programme provided grants directly to domestic
+         consumers who installed measures such as solar water heating and ground
+         source heat pumps. One supplier partnered with a SHP who also used Clear
+         Skies to part-fund the installation of heat pumps in social housing. The SHP
+         produced a declaration to prove that the measures would not have been
+         installed without the additional funding from the supplier.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          56                                 August 2005
+5. Monitoring the outcomes of the EEC
+5.1.     This chapter details the results of the customer satisfaction monitoring and
+         quality monitoring conducted by suppliers. For schemes involving DIY loft
+         insulation and direct CFLs, recipients were monitored to learn how the measures
+         were utilised. A summary of the results of this monitoring is provided below.
+         The proportion of energy savings achieved in England, Scotland and Wales is
+         detailed in this chapter along with the different fuels saved under the EEC 2002 –
+         2005. Finally, the effect of the appliance and energy services uplifts on the total
+         EEC energy savings and carbon savings is detailed.
+
+5.2.     In order to demonstrate compliance with their targets, suppliers were required to
+         monitor their schemes. A proportion of recipients from all schemes had to be
+         monitored to ensure customer satisfaction and that the necessary quality
+         standards had been met. For schemes involving DIY loft insulation and direct
+         CFLs, recipients were monitored to learn how the measures were utilised.
+
+
+         Monitoring the schemes
+
+5.3.     A proportion of recipients from all schemes had to be monitored to ensure
+         satisfaction with the measures and service provided. Customer satisfaction was
+         also used to help track whether, and how, consumers were using certain
+         measures, namely CFLs and DIY loft insulation. The results of the CFL and DIY
+         loft insulation monitoring are set out below.
+
+5.4.     Where insulation and heating measures were installed quality monitoring had to
+         be conducted on at least 5% of the properties. For professional installations, this
+         involved a contractor, independent of the actual installer, surveying properties.
+         The suppliers had to show that any problems identified were rectified before the
+         scheme was completed. For retail partnerships offering boiler and DIY
+         insulation, suppliers had to contact a sample of recipients to ensure that the
+         measures had been installed to the correct standards. This involved telephone
+         monitoring and some home visits. All the monitoring results were submitted to
+         Ofgem with the supplier’s completion reports for scrutiny before approval.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          57                                 August 2005
+         Auditing
+
+5.5.     Ofgem conducted two phases of auditing, one in the summer of 2003 and the
+         second in early 2005. An independent auditor, the Building Research
+         Establishment, was selected to conduct the site visits. A selection of each
+         supplier’s schemes were audited to check that the necessary contracts were in
+         place with the relevant project partners such as manufacturers, installers,
+         retailers and SHPs. The auditing process helped to provide a guarantee that the
+         suppliers were delivering their schemes as proposed. One issue that did arise
+         was in relation to technical monitoring. The approach to monitoring, and the
+         questions asked, varied between suppliers and contractors. Ofgem therefore
+         devised a standard set of monitoring questions for the EEC 2005 - 2008 for all
+         contractors to use.
+
+         Monitoring the utilisation of CFLs
+
+5.6.     The suppliers agreed to ask specific questions when monitoring a sample of
+         recipients of CFLs to determine whether they had installed, or planned to utilise
+         the bulbs. The results show that 75% of consumers had installed their CFLs at
+         the time of survey. 23% of householders were storing their CFLs for use when
+         other bulbs failed and the remainder, 2%, responded that their CFLs were not
+         required.
+
+5.7.     Over 50% of respondents were already using CFLs, mainly having between 1
+         and 3 already fitted. Most of the CFLs were installed in consumers’ living rooms,
+         followed by the hallways and bedrooms. This corresponds to the energy saving
+         awarded to CFLs under the EEC which assumed the measures would be installed
+         in high and medium use fittings within the home.
+
+         Monitoring the utilisation of DIY insulation
+
+5.8.     Five schemes were set up to promote DIY loft insulation, four of which were in
+         partnership with retailers. 90% of the overall sample of recipients had 100mm or
+         less previously installed in their loft and over 15% of the total respondents had
+         no insulation in their loft beforehand. 87% of the respondents had actually fitted
+         the loft insulation they had purchased, the remainder had yet to install it.
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          58                                 August 2005
+5.9.     The monitoring also surveyed where and how the loft insulation was used. 7%
+         of the loft insulation installed was not installed in the household’s loft; instead it
+         was fitted in places such as the walls, floor or a garage. Some of this was also
+         used to insulate extensions, as required under the Building Regulations. To
+         account for the fact that not all insulation is installed, and that some installations
+         are for the purpose of meeting the Building Regulations, Defra included an
+         adjustment factor in their EEC 2005 - 2008 target setting model. The energy
+         savings attributed to sales of DIY loft insulation are consequently reduced by
+         10%.
+
+         England, Scotland and Wales
+
+5.10.    In Defra’s consultation on the EEC 2002 – 2005 it asked Ofgem to monitor the
+         delivery of the suppliers’ schemes across England, Scotland and Wales. In the
+         completion reports for each of their schemes, suppliers detailed the percentage
+         of energy savings delivered in each of the three countries. The completion report
+         shows that 86% of the energy savings were achieved in England, with equal
+         savings delivered in Scotland and Wales.
+
+         Figure 5.1: The percentage of the overall energy savings, which have been
+         achieved in England, Scotland and Wales
+
+
+                                           Wales
+                                            7%
+
+
+                                Scotland
+                                  7%
+
+
+
+
+                                                        England
+                                                         86%
+
+
+
+5.11.    Figures from the Office of National Statistics shows that 86% of the households
+         in Great Britain are in England, matching the suppliers’ delivery. The remainder
+         of the household distribution is 9% in Scotland and 5% in Wales, whereas the
+         two countries benefited equally in terms of energy savings.
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets              59                               August 2005
+5.12.    Partnerships with retailers were an important route for suppliers, however
+         consumers in rural parts of Scotland and Wales may have less opportunity to
+         visit such national retailers. Unlike Warm Front in England the Warm Deal and
+         Welsh HEES eligibility criteria included consumers in social housing. This gave
+         suppliers less opportunity to add value to social housing insulation schemes. The
+         Scottish Executive has implemented the Scottish Central Heating Programme. It
+         is available to all households in the private sector who lack central heating and
+         where the householder is aged 60 or over and to those aged 80 or over who had
+         partial or inefficient central heating systems. The availability of the Warm Deal
+         and the Central Heating Programme may explain why Scotland has received a
+         relatively lower share of EEC assistance.
+
+         Fuels saved
+
+5.13.    The use of fuel standardisation factors, based on the carbon content of the fuels,
+         in setting the overall EEC target, gave the suppliers an incentive to target
+         consumers’ homes that use the more carbon intensive fuels. For instance, the
+         cost of insulating an electrically-heated home is broadly similar with that of a
+         gas-heated home with cavity wall insulation. However, the energy savings
+         accredited to the electrically-heated property are almost twice as large. This has
+         encouraged suppliers to target homes that use the more carbon intensive fuels.
+         Figure 5.2 shows the anticipated energy expected breakdown by fuel type.
+
+         Figure 5.2 Chart showing the proportion of the overall savings, which have
+         been saved in each of the five fuel types
+
+
+
+                                                      Oil
+                                                     1.8%   LPG
+                                                            0.2%
+                                  Electricity
+                                    44.3%                          Coal
+                                                                   5.2%
+
+
+
+
+                                                                Gas
+                                                               48.5%
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           60                                 August 2005
+5.14.    Around 44% of the total energy savings have been achieved in electricity savings
+         mainly from installing insulation in electrically heated properties, CFLs, and
+         appliances. The majority of the savings have been in gas through the installation
+         of insulation and condensing boilers. Measures installed in homes heated by
+         coal, oil and LPG provide a small contribution. Houses heated by coal will have
+         benefited from fuel switching as well as insulation measures. The potential for
+         benefits in homes heated by LPG are limited and account for less that 1% of the
+         total savings.
+
+
+         The effect of the uplifts for appliances and energy
+         services
+
+5.15.    Under the EEC suppliers were incentivised to provide energy services packages
+         to consumers. Energy services, equating up to 10% of a supplier’s target,
+         received a 50% increase in the energy savings attributable. For A rated cold and
+         wet white goods, Defra applied a factor of 1.6 to uplift the energy savings.
+
+5.16.    Defra designed the EEC with a view to saving carbon from households. The
+         uplift in energy savings from energy services or appliances has implications for
+         the actual lifetime carbon and energy savings achieved under the EEC
+         programme. Figure 5.3 shows the total energy savings counting towards the
+         target, the uplifted energy savings and the actual energy savings achieved by the
+         EEC. The final column shows the lifetime carbon savings achieved by the EEC.
+
+         Figure 5.3. The effect of the energy services and appliances uplift on the
+         energy and carbon savings
+
+                                                                          Lifetime carbon
+                            Energy savings (TWh)
+                                                                           savings (MtC)
+
+  Total savings         Energy Services     Appliances   Total achieved   Total achieved
+against the target          Uplift            Uplift      minus Uplift     minus Uplift
+            61.202                  0.845       3.613           56.744                15.544
+
+
+
+5.17.    Those suppliers with successful energy services schemes decided to carry over
+         insulation activity from these schemes to their EEC 2005 – 2008 targets.
+         Consequently, the energy services actually counting towards the EEC 2002 –
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets              61                            August 2005
+         2005 target, and the subsequent uplift in savings, is lower than the actual level
+         of energy service achieved, 4TWh. The suppliers chose to carry over A+ rated
+         appliances to the EEC post 2005, as they may be considered ‘innovative’ under
+         the new programme and so attract an uplift11. All other cold and wet appliances
+         have been counted towards the EEC 2002 – 2005 targets so that they can receive
+         the uplift in energy savings.
+
+5.18.    Figure 5.3 shows that the actual energy saving achieved by the EEC, minus the
+         uplifted savings, is 56.7 TWh. This equates to a lifetime carbon saving of over 15
+         MtC. The lifetime of the carbon savings depends upon the lifetime of the
+         measures installed and will be up to 40 years for insulation measures. Defra’s
+         target-setting model included business as usual sales for certain measures. These
+         sales were expected even without the supplier’s input and were consequently
+         not attributed with a carbon saving. The overall carbon saving of 15 MtC
+         includes business as usual activity.
+
+5.19.    Of the savings counting towards the target, 4.5 TWh is not an actual energy
+         saving. If there had been no uplift for energy services and appliances, suppliers
+         would have had to have saved a further 4.5 TWh through installing additional
+         measures. It is difficult to predict which measures the suppliers would have
+         delivered to achieve this additional energy saving and consequently we cannot
+         predict the carbon saving that would have resulted. Defra predicted that the EEC
+         would save 0.4 MtC each year. The uplifted energy savings equate to 7.3% of
+         the total energy savings achieved. Therefore, it could be argued that the carbon
+         saving from the EEC has been reduced by 7.3% as a result of the uplifts.
+
+
+
+
+11
+  The 2004 Order provides an incentive for suppliers to promote ‘innovative action’.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                 62                               August 2005
+6. The transition from the EEC 2002 – 2005 to
+     the EEC 2005 – 2008
+6.1.     This chapter assesses the activity the suppliers have carried out in excess of what
+         was required under the EEC 2002 - 2005 and has been carried forward and
+         approved as carried over savings under the EEC 2005 - 2008. The EEC places a
+         regulatory requirement on each obligated supplier to meet an energy saving
+         target in domestic premises. Throughout the second half of the EEC 2002 - 2005
+         suppliers knew that their targets would increase after 2005 and that they would
+         be able to carry over any excess energy savings. This influenced the level of
+         supplier activity and allowed them to design long-term strategies. This Chapter
+         discusses the amount and type of activity the suppliers carried over and the
+         implications this has for the EEC 2005 - 2008.
+
+
+         Background
+
+6.2.     The level of supplier energy efficiency activity over the three years of 2002 to
+         2005 was not only influenced by the obligation put on them for this period, but
+         was also heavily influenced by the Government’s announcements on how it
+         intended to develop the EEC. In April 2003 the Government, in its Energy White
+         Paper12, announced that it intended to double the scale of the EEC for a further
+         six years, but said that this would be taken forward in two three-year tranches.
+         This message was reinforced in the Government’s Energy Efficiency Plan for
+         Action13. In addition to this clear commitment to increase the scale of the
+         programme Defra committed to the companies being allowed to carry over
+         unlimited energy efficiency activity from EEC 2002-2005 to EEC 2005-2008.
+         This provided regulatory certainty for the companies as they knew that they
+         could bring forward activity for their targets for the period 2005 to 2008. Given
+         the scale of the increase in the activity required by the EEC 2005 - 2008 the
+         suppliers did bring forward a large amount of activity to smooth out the
+         transition and to ensure that there would not be a step change required between
+         the two programmes. This was clearly beneficial for the companies as it gave
+
+
+
+12
+  Our Energy Future – Creating a Low Carbon Economy, 2003, DTI.
+13
+  Energy Efficiency: The Government’s Plan for Action, 2004, Defra.
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                63                          August 2005
+         them a longer period in which to comply with their obligations and it meant that
+         there would be a gradual increase in activity.
+
+
+         Factors that influenced supplier carry over activity
+
+6.3.     Throughout the development of the EESoP and EEC energy efficiency
+         programmes the data used to determine the energy savings has evolved to reflect
+         the latest research, changes in the legal minimum standards and changes in the
+         products sold on the market. These changes in accreditation influence supplier
+         activity as it encourages them to take advantage of a measure type in the current
+         scheme which might not be so favourable in the future.
+
+6.4.     Towards the end of the EEC 2002-2005 suppliers accelerated their energy
+         efficiency activity. The increase in activity occurred in all measure types
+         although suppliers particularly concentrated on the delivery of CFLs. This
+         reflected the short lead times required to set up these types of schemes and the
+         fact that the energy savings accredited to CFLs fell considerably between the two
+         programmes. This reduction was a consequence of new monitoring data that
+         suggested the energy savings attributed to lighting measures in the EEC 2002-
+         2005 was higher than that achieved. In addition, the fact that the heat
+         replacement effect, which makes an allowance for the heat gain from electrical
+         goods, had been included in the target setting process meant that it had to be
+         included in Ofgem’s accreditation for the first time. These factors encouraged
+         the suppliers to bring forward as much lighting activity as possible at the end of
+         the EEC 2002 – 2005 and not to carry these measures over.
+
+6.5.     It was not only lighting measures that were affected by the changes in
+         accreditation. Changes to the Building Regulations from the 1 April 2005 have
+         led to the minimum standard for a boiler installation being B-rated. This
+         reduced the difference in efficiency between the standard boiler installation and
+         the A-rated boilers promoted by the suppliers in their EEC activity and as a
+         consequence meant that the energy savings attributable under the EEC have
+         fallen. This has made the installation of boilers in the programme less attractive.
+         The suppliers’ schemes promoting A-rated appliances in the period 2002-2005
+         were very successful and consequently the market average appliance being
+         installed by consumers has improved. The difference in energy consumption
+         between the market average appliance and the appliances that the suppliers
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          64                                  August 2005
+         promote has narrowed and therefore the energy savings that can be accredited to
+         the suppliers is less than was previously available. Additionally, Defra removed
+         the 1.6 uplift factor that was applied to the energy saving from appliance
+         measures in the EEC 2002 - 2005 in the EEC 2005 - 2008 and also applied the
+         heat replacement effect.
+
+6.6.     The energy savings attributed to insulation measures increased for the EEC 2005-
+         2008, primarily as a result of a change in the assumption of the standard heating
+         pattern used by householders. These changes directly influenced measures that
+         the suppliers carried over between the programmes and encouraged the
+         suppliers to take forward insulation measures to the EEC 2005 - 2008 more than
+         any other type of measure.
+
+6.7.     A full explanation of the changes to the assumptions used to accredit energy
+         efficiency measures is available on Defra’s website:
+         http://www.defra.gov.uk/environment/energy/eec/pdf/measuremix.pdf .
+
+
+         Activity counting towards the target
+
+6.8.     Chapter 4 highlighted the numbers of measures that the suppliers had carried out
+         over the course of the three years from 2002 to 2005. The table below
+         highlights those measures that have been counted towards the target and those
+         that have been carried over to EEC 2005-2008. Of all the cavity wall insulation
+         measures that were installed 53% were carried over, in professional loft
+         insulation a similar pattern emerges with the slightly higher percentage of 70%
+         being carried over. With respect to lighting measures all were accredited against
+         the EEC 2002 - 2005 obligation. Of the other measures only the more innovative
+         were carried forward to the EEC 2005 – 2008. This reflects suppliers looking to
+         take advantage of the incentive that has been introduced for innovative action.
+         Suppliers have also carried over their energy service action to take advantage of
+         the incentive that has been maintained in the new programme. The chart below
+         shows the measure breakdown of all supplier activity to target.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          65                               August 2005
+          Figure 6.1: Energy saving by measure type counting towards the EEC 2002-
+          2005 target
+
+
+                                             Appliances
+                                               16%               Heating
+                                                                  12%
+
+
+
+
+                                  Lighting
+                                    34%
+
+                                                                   Insulation
+                                                                      38%
+
+
+
+
+          Figure 6.2: Measures that were counted towards EEC 2002-2005, measures
+          carried over and overall measures installed between 2002 and 2005
+
+Measure                                                   EEC 2002-         Carry over     Total
+Cavity wall insulation                                        367,070             424,454        791,524
+Loft insulation (top up)                                      173,521             354,975        528,496
+Loft insulation (virgin)                                       51,000             175,245        226,245
+DIY loft insulation (m2)                                   13,210,946           2,768,421 15,979,367
+Draught stripping                                              15,863               6,880         22,743
+Tank insulation                                               122,933              72,899        195,832
+Radiator panels (m2)                                           34,587               4,291         38,878
+Solid wall insulation                                          17,689               6,041         23,730
+Other insulation                                                  961               1,664          2,625
+Energy efficient cold/ wet appliances                       6,501,213               6,608      6,507,821
+Other appliances                                               14,306              79,531         93,887
+A and B rated boilers                                         278,899                   92       278,991
+A and B rated boilers with heating controls                    87,497                    0        87,497
+Heating controls upgrade                                    2,366,128                    0     2,366,128
+Fuel switching                                                 41,077                    0        41,077
+CHP/Communal heating                                              327                  288           615
+Other heating                                                     162                   40           202
+CFLs                                                       39,737,570                    0 39,737,570
+
+
+
+
+ Review of the EEC 2002 – 2005
+ Office of Gas and Electricity Markets                    66                               August 2005
+         Activity that has been carried over overall
+
+6.9.     As reflected in the table above, almost all the activity that was carried over by
+         the suppliers was insulation. This reflects the increased energy savings that are
+         available for insulation measures and the fact that it was only worth suppliers
+         considering carrying over other measures to take advantage of the innovative
+         action incentive. The changes in the accreditation of measures have meant that
+         although the energy saving of the measures in EEC 2002 - 2005 was around 25
+         TWh, in the methodology for accrediting measures in the EEC 2005 - 2008 this
+         equates to nearly 35 TWh, more than 25% of the overall target for the period
+         2005 - 2008.Activity that has been carried over by supplier.
+
+6.10.    The chart below shows the activity that has been carried over per supplier as a
+         proportion of their EEC 2005 - 2008 targets. The amount carried over by each
+         supplier varies considerably from those that have just met their EEC 2002-005
+         targets to those that have managed to carry over measures that equate to around
+         half of their new targets. Those suppliers that have not carried over savings are
+         those that were new entrants in the third year of the EEC 2002 - 2005. The
+         larger suppliers, however, have all carried over savings and this will clearly have
+         implications for the amount of work that these suppliers will have to do in the
+         period 2005 to 2008. The supplier that has carried forward the most has already
+         achieved more than half of its obligation for the period 2005 - 2008, although 35
+         percentage points of this is in the non-Priority Group. In this case the supplier is
+         required to achieve fewer energy savings in the next three years than it delivered
+         in the period 2002 to 2005.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           67                                August 2005
+          Figure 6.3: Energy savings carried over from the EEC 2002 - 2005 to the EEC
+          2005 - 2008 by supplier as a percentage of each supplier’s EEC 2005 – 2008
+          target
+
+
+
+
+            British Gas Priority
+
+        British Gas non Priority
+
+            EDF Energy Priority
+
+        EDF Energy non Priority
+
+                npower Priority
+
+           npower non Priority
+
+           O pus Energy Priority
+
+     O pus Energy non Priority
+
+             Powergen Priority
+
+         Powergen non Priority
+
+                    SSE Priority
+
+               SSE non Priority
+
+         ScottishPower Priority
+
+    ScottishPower non Priority
+
+          Telecom Plus Priority
+
+    Telecom Plus non Priority
+
+                                   0%          10%                20%                 30%            40%
+
+                                                   Percentage of each supplier's target
+
+
+                                        Lighting   Appliances     Insulation   Heating      CHP
+
+
+
+
+          Implications for the EEC 2005-2008
+
+6.11.     The clear Government signal about the increase in the size of the EEC 2005 -
+          2008 encouraged suppliers to bring forward a large amount of energy efficiency
+          activity. Even making an allowance for the changes to the way measures are
+          accredited it would appear that if the suppliers maintain the levels of activity
+          achieved over the final year of the EEC 2002 - 2005 they would be able to meet
+          their obligations under the EEC 2005 - 2008. Changes to the accreditation of
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                    68                                       August 2005
+         certain measures will encourage the suppliers to focus more on the delivery of
+         insulation measures in their initial work in the EEC 2005-2008.
+
+6.12.    The level of carry-over that the suppliers have achieved has moderated the level
+         of activity required in the period 2005 to 2008. However, the carry-over that the
+         suppliers achieved will have eased the transition to a higher level of activity
+         rather than reduce the overall level of activity that is required from them.
+         Although the level of activity the suppliers will have to achieve in the period
+         2005 to 2008 is less than what the overall target is, it is important to note this
+         does not undermine the contribution the EEC 2005 - 2008 will make towards the
+         Government’s climate change objectives, assuming the suppliers comply with
+         their obligations: the overall target remains at 130TWh, the energy efficiency
+         activity that the suppliers carried over means that this target will have been
+         achieved over a longer period of time.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets           69                                 August 2005
+7. Emerging Issues
+
+         Supplier compliance
+
+7.1.      All the solvent companies complied with their obligation to achieve their
+         energy savings target, including at least 50% of their target in the Priority Group.
+         Throughout the course of the programme suppliers accelerated their levels of
+         energy efficiency activity such that by the end of the programme the suppliers
+         had achieved 86.7 TWh of energy savings, nearly 25 TWh more than the overall
+         target set by Defra. The overwhelming majority of the excess energy savings has
+         been carried forward to the EEC 2005 - 2008.
+
+7.2.     During the course of the EEC one company went into administration and one
+         into administrative receivership and both did not comply with their obligations.
+         The Authority found these companies in breach of their obligation but, given the
+         circumstances, did not impose a financial penalty. The Authority also noted
+         that, in the absence of similar circumstances, it could be expected to impose a
+         severe penalty in future.
+
+7.3.     As a consequence of these two companies’ circumstances, despite the solvent
+         suppliers overachieving against their targets, there is a slight shortfall against the
+         overall target of 62 TWh. However, it is important to note that one of these
+         companies had met part of its target and another supplier volunteered to make
+         up the company’s shortfall in energy savings, but without any regard to the
+         Priority Group; this has considerably reduced the shortfall against the overall
+         target. In the other company’s case, it had reported activity on its quarterly
+         reports but had not completed any of its activity and therefore these energy
+         savings could not count towards the target. Given the legislative framework in
+         which the EEC 2005 - 2008 has been set up, in similar circumstances in the
+         future it would seem likely that there would be a shortfall against the target.
+
+
+         Achieving the target
+
+7.4.     Of the overall activity nearly 60% was achieved in insulation with another
+         quarter being achieved in lighting. The remainder was split between heating
+         and appliance measures. Throughout the course of the EEC 2002 - 2005
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets            70                                 August 2005
+         suppliers tried a number of different approaches to deliver energy efficiency
+         measures to consumers. However, the majority of the delivery mechanisms
+         involved ‘market push’ as opposed to ‘consumer pull’ or involved partnering
+         with project partners where measures were delivered for free. So while the EEC
+         has reached its objective of making the consumption on energy in domestic
+         properties more efficient it would appear to have done little to encourage
+         consumers to consider their energy demand and their effect on the environment.
+
+7.5.     The structure of the EEC 2005 - 2008, in terms of the way it encourages suppliers
+         to promote energy efficiency, has seen little change. It would therefore seem
+         likely that this trend will continue.
+
+
+         Supplier targeting of the Priority Group
+
+7.6.     The solvent suppliers were successful in reaching at least 50% of their energy
+         saving target in the Priority Group. This was achieved through a number of
+         different delivery routes, although the three most popular were by providing free
+         CFLs through a number of different project partners, working with SHPs to
+         insulate homes and working with the Government’s and the Devolved
+         Administration’s fuel poverty programmes. When working with the fuel poverty
+         schemes the suppliers had to purchase measures from the managing agents at
+         cost. Research carried out for Ofgem during the course of the EEC 2002 - 2005
+         suggested that there is still cavity wall and loft insulation activity to be carried
+         out in the social housing sector. It would therefore seem likely that the suppliers
+         will continue to promote energy efficiency activity through social housing
+         providers and the Government’s and the Devolved Administrations’ fuel poverty
+         programmes in the EEC 2005 - 2008; although in the latter case the suppliers
+         will have to consider different reporting arrangements as there is now a slight
+         difference in the qualifying criteria between the Warm Front programme and the
+         Priority Group. However, given the scale of the overall target it would seem
+         likely that the suppliers will have to consider a more direct approach to working
+         with consumers to reach their Priority Group targets in the period 2005 to 2008.
+
+
+         Changes in the accreditation of measures
+
+7.7.     Throughout the course of all the energy efficiency programmes that have been
+         run since the beginning of the first EESoP 1 programme in 1994 the energy
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets            71                                  August 2005
+         savings attributed to measures have been updated. This is a result of more
+         information becoming available on the way the different measures are used by
+         consumers, the legal minimum standards being changed and due to the way
+         markets have evolved over time. These three factors have greatly reduced the
+         amount of energy savings that are available from lighting, heating and appliance
+         measures in the EEC 2005 - 2008.
+
+7.8.     During the course of the EEC the suppliers’ delivery of their targets was based on
+         balancing a portfolio of measures. Changes to the accreditation of measures for
+         the EEC 2005-2008 means that the cost-effectiveness of the different measures
+         will be considerably different between the two EEC programmes. These changes
+         are likely to push the suppliers to focus their activity even more towards the
+         delivery of insulation measures. It would therefore seem likely that the
+         insulation industry would see an increase in demand throughout the EEC 2005 -
+         2008 and this has been reflected in the anecdotal evidence from the suppliers
+         and insulation contractors. What has also come through is that there is less
+         interest in the delivery of CFLs particularly compared to the acceleration in
+         activity seen in the last six months of the EEC 2002 - 2005. However, the
+         suppliers are considering different ways to promote energy efficiency measures
+         in their new schemes and it seems likely that their EEC 2005 - 2008 activity will
+         continue to be made up of range of measures.
+
+
+         Carry over to the EEC 2005-2008
+
+7.9.     The energy savings that the supply companies have carried over from the EEC
+         2002 - 2005 to the EEC 2005 - 2008 are considerable. This resulted from the
+         clear and early signal from the Government that it intended to increase the scale
+         of the programme in the future and that the suppliers would be able to carry
+         forward an unlimited amount of activity. However, the amount of the energy
+         savings carried forward does have implications for the amount of activity the
+         suppliers will have to carry out if they are to comply with their EEC 2005-2008
+         targets. On completion of their EEC 2002 - 2005 activity suppliers had already
+         achieved roughly 30% of their EEC 2005-2008 targets, moderating the increase
+         in activity required between the two programmes and suggesting that the levels
+         of activity achieved in the final year of the EEC 2002 - 2005, if maintained for
+         the three years 2005 - 2008, would be enough to reach the EEC 2005 - 2008
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          72                                August 2005
+         target. For the period 2005 to 2008 suppliers will have to achieve roughly 95
+         TWh of energy savings, as opposed to the 130 TWh set in the 2004 Order14.
+
+7.10.    Suppliers were also mindful of the changes in the legislation when considering
+         their carry-over. A number of suppliers carried out innovative measures in the
+         EEC 2002 - 2005, but to ensure that they could achieve the maximum benefit
+         from these measures, they decided to carry them forward to the EEC 2005 - 2008
+         to take advantage of the incentive that has been introduced. In addition,
+         suppliers have also taken advantage of the fact that the incentive for energy
+         service action has been maintained. This has led them to carry forward the
+         majority of the energy service action that was achieved in the EEC 2002-2005.
+
+
+         Other issues
+
+7.11.    This report details the energy efficiency activity that suppliers engage in under
+         the EEC programme. Almost all the cavity wall insulation and professionally
+         installed loft insulation activity in Great Britain is installed either through the EEC
+         or the Government and Devolved Administrations’ fuel poverty schemes.
+         However, as reported last year, this is not the case with respect to the numbers
+         of A-rated boilers that were installed. Evidence from the EST suggests that a
+         large number of condensing gas boilers continued to be installed outside the
+         EEC. This was likely to be a response by the independent installers to the
+         anticipated change in the Building Regulations that came into effect in April
+         2005, which made installing a condensing gas boiler mandatory.
+
+7.12.    In addition, the data from the EST also suggests that although the suppliers
+         managed to promote nearly 6 million white appliances over the course of the
+         EEC 2002 - 2005, this was only half of the total A-rated appliances sold. The
+         reason for this is not clear, although it could have been a result of the retailers
+         not involved in EEC activity ensuring that their product range was of the same
+         quality as those of their competitors.
+
+7.13.    This is the final annual report for the EEC 2002 – 2005. Ofgem will continue to
+         publish an annual report on the EEC 2005 – 2008 each July. Over the coming
+         year Ofgem will work with the suppliers on setting up their schemes for the EEC
+
+
+
+14
+  The Electricity and Gas (Energy Efficiency Obligations) Order 2004
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                  73                           August 2005
+         2005 - 2008 and ensure that they can demonstrate compliance with the
+         legislation and will continue to carry out audits of their activity. Ofgem will also
+         continue to use its experience in administering the EEC to help inform the
+         Government on the development of future energy efficiency policy and to use
+         our experience to inform the way we continue to administer the EEC. Ofgem
+         remains committed to working closely with Defra on the review of the EEC post
+         2008 which is due to be completed in 2007.
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets          74                                 August 2005
+Appendix 1 The numbers of measures installed by delivery route
+1.1        The following table details the total number of measures which have been delivered under the EEC through each of the three main delivery routes,
+           retail, SHP partnerships and with other Government programmes. The final columns show the number of measures which have been promoted
+           through other delivery routes such as direct offerings by suppliers, partnerships with charities or installer incentives.
+
+                                                                               Retail                             SHP                  Other Government programmes           Other delivery routes
+                     Measure type               Overall total      Total       % of overall total   Total         % of overall total     Total       % of overall total     Total        % of overall total
+Cavity wall insulation                                 791,524             0                  0.0   441,152                     55.7     119,117                   15.0     231,255                     29.2
+Loft insulation (top up)                               528,496             0                  0.0   422,804                     80.0      22,441                     4.2     83,251                     15.8
+Loft insulation (virgin)                               226,245             0                  0.0     76,706                    33.9      86,922                   38.4      62,617                     27.7
+                        2
+DIY loft insulation (m )                            15,979,367 15,979,367                  100.0             0                   0.0             0                   0.0             0                   0.0
+Draught stripping                                       22,743             0                  0.0     19,926                    87.6             4                   0.0       2,813                    12.4
+Tank insulation                                        195,832      37,101                   18.9     32,621                    16.7      61,777                   31.5      64,333                     32.9
+Radiator panels (m2)                                    38,878             0                  0.0     34,587                    89.0             0                   0.0       4,291                    11.0
+Solid wall insulation                                    23730                                        23,730                  100.0              0                   0.0            0                    0.0
+Other insulation                                          2,625            0                  0.0      2,625                  100.0              0                   0.0            0                    0.0
+Cold / wet appliances                                6,507,821    6,489,533                  99.7     18,288                     0.3                                 0.0            0                    0.0
+Other appliances                                        93,837      79,531                   84.8            0                   0.0             0                   0.0     14,306                     15.2
+Replacement boilers                                    278,991      12,312                    4.4   139,964                     50.2      13,561                     4.9    113,154                     40.6
+Replacement boilers & heating controls                  87,497             0                  0.0     38,259                    43.7        8,869                  10.1      40,369                     46.1
+Heating controls upgrade only                        2,366,128     550,548                   23.3   608,217                     25.7      45,716                     1.9   1,161,647                    49.1
+Fuel switching                                          41,077             0                  0.0     25,154                    61.2             0                   0.0     15,923                     38.8
+Other heating                                               202            0                  0.0           162                 80.2             0                   0.0            40                  19.8
+CHP/ Community heating (number of households)               615            0                  0.0           327                 53.2         288                   46.8             0                    0.0
+
+CFLs                                                39,737,570    4,174,515                  10.5 10,682,834                    26.9 7,922,034                     19.9 16,958,187                      42.7
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets                                                                             75                                                                           August 2005
+Appendix 2 Glossary of terms
+2.1      Accreditation – the determination of the energy savings attributable to measures
+         under the EEC.
+
+2.2      BREDEM - Building Research Establishment Domestic Energy Model.
+
+2.3      CFLs - Compact fluorescent lamps (energy efficient light bulbs).
+
+2.4      CHP - Combined Heat and Power.
+
+2.5      dCHP - Domestic Combined Heat and Power.
+
+2.6      Defra - Department for Environment, Food and Rural Affairs.
+
+2.7      DIY – Do-it-yourself
+
+2.8      DTI – Department of Trade and Industry
+
+2.9      EEC - Energy Efficiency Commitment, 1 April 2002 – 31 March 2005.
+
+2.10     EEC 2005 – 2008 - Energy Efficiency Commitment, 1 April 2005 – 31 March
+         2008.
+
+2.11     EESoP – Energy Efficiency Standards of Performance
+
+2.12     EESoP 3 – Energy Efficiency Standards of Performance 1 April 2000 – 31 March
+         2002
+
+2.13     EST – Energy Saving Trust
+
+2.14     Fuel-standardised energy savings – energy savings that have been adjusted
+         according to the carbon concentration of each fuel. These coefficients are set out
+         in the EEC Order and are as follows: coal 0.56, electricity 0.80, gas 0.35, LPG
+         0.43 and oil 0.46.
+
+2.15     GWh - Giga watt hour (1 million kilo watt hours).
+
+2.16     HEES – Home Energy Efficiency Scheme
+
+2.17     HRE – the Heat Replacement Effect
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets         76                                August 2005
+2.18     Lifetime discounted – the projected energy savings for measures (as set out in
+         Defra’s target setting model) were discounted over the lifetime of the measure by
+         the standard Treasury rate of 6% per year.
+
+2.19     LPG - Liquid petroleum gas.
+
+2.20     MtC – million tonnes of carbon
+
+2.21     The Order - The Electricity and Gas (Energy Efficiency Obligations) Order 2001
+         Statutory Instrument number 4011.
+
+2.22     The 2004 Order - The Electricity and Gas (Energy Efficiency Obligations) Order
+         2004 Statutory Instrument number 3392.
+
+2.23     Priority Group - defined in the EEC Order as those household receiving one of
+         the follow benefits: council tax benefit, housing benefit; income support; an
+         income-based jobseeker's allowance, an attendance allowance, a disability
+         living allowance, a war disablement pension together with a mobility
+         supplement or a payment under constant attendance allowance; industrial
+         injuries disablement benefit where it includes constant attendance allowance
+         and state pension credit. Child tax credit and working tax credit are included
+         where the household’s relevant income is less than £14,200.
+
+2.24     SEDBUK – Seasonal efficiency database of boilers in the UK.
+
+2.25     SHP - Social Housing Provider, a Local Authority or a Registered Social
+         Landlord.
+
+2.26     Supplier activity - energy efficiency work undertaken by suppliers to meet their
+         energy efficiency targets.
+
+2.27     Target setting model - Defra’s assumptions and the calculations used in setting
+         the overall EEC target, as set out on their website: www.defra.gov.uk.
+
+2.28     TWh - Tera Watt hours (1,000 GWh).
+
+
+
+
+Review of the EEC 2002 – 2005
+Office of Gas and Electricity Markets         77                                  August 2005
+

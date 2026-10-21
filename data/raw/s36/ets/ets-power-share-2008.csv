@@ -1,0 +1,2 @@
+year,value,status,numerator_mtco2,denominator_mtco2,numerator_source_id,denominator_source_id,source_id,decision,note
+2008,0.648165164,SOURCED,171.799836308,265.055646,desnz-final-ghg-1990-2024-t1.2,eea-ets-union-registry-v82-sep2026,desnz-final-ghg-1990-2024-t1.2;eea-ets-union-registry-v82-sep2026,0068,"DESNZ GHG 1990-2024 sheet 1.2 V12 less V10 (2008) / EEA v82 '2. Verified emissions' 2008 GB 20-99 (Excel row 38988) + XI 20-99 (row 90134); checked against both files by the Modeller 17 Oct 2026 about 13:00 BST; printed 0.6482"

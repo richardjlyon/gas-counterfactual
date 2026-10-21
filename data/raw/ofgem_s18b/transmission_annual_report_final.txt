@@ -1,0 +1,4101 @@
+Transmission Annual Report for 2008-09
+
+
+
+
+Document Type: Annual Report
+
+Ref: 48/10
+
+
+
+Date of Publication: 1 April 2010
+
+
+
+Target Audience: This document may be of particular interest to users of the
+transmission networks, licensees, providers of finance, consumer groups and other
+interested parties.
+
+Overview:
+
+This is the third report on transmission licensee's costs and forecast capital expenditure
+based on the regulatory reporting process introduced as part of Transmission Price
+Control Review for 2007-12 (TPCR4).
+
+This report sets out revenue, operating cost, capital expenditure, and returns on
+regulatory equity for the four licensees in respect of their transmission owner (TO)
+responsibilities for the year ended 31st March 2009. This is the second year of the
+current price control. The report sets out Ofgem's provisional assessment of the
+Regulatory Asset Value (RAV) for each licensee as at 31 March 2009 although the RAV
+will not be finalised until the next price review following an efficiency assessment. It also
+provides information on system operator (SO) responsibilities for the year ended 31
+March 2009.
+
+
+                                              Office of Gas and Electricity Markets
+              Promoting
+Contact name and details:choice
+                           Martinand value Head
+                                  Rodgers, for allofgas and electricity
+                                                     Network            customers
+                                                             Business Support
+
+Tel: 020 7901 7273
+Email: martin.rodgers@ofgem.gov.uk
+Team: Network Cost and Outputs Team, Local Grids and RPI-X@20
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+Context
+
+All transmission licensees are required to report annually to Ofgem on the income
+received and costs they incur in operating, maintaining and improving their
+transmission systems. Over time, this information will show the trend of expenditure
+on each transmission system and will inform decisions in future price control reviews,
+the one year roll-over of TPCR4 as well as the next full review (TPCR5).
+
+This report is the third annual report and covers the second year of the 2007 - 2012
+price control period.
+
+The aim of the report is to present the key information on the licensees operating
+and capital costs in a meaningful and user friendly format.
+
+
+
+
+Associated Documents
+
+   TPCR 2007 - 2012 Final Proposals, December 2006 (ref 206/06)
+    http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=191&refer=Netwo
+    rks/Trans/PriceControls/TPCR4/ConsultationDecisionsResponses
+   Transmission Annual Report for 2006/07 (ref 60/08)
+    http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=9&refer=Networks
+    /Trans/RegReporting
+   Transmission Annual Report for 2007/08 (ref 31/09)
+    http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=27&refer=Networ
+    ks/Trans/RegReporting
+   Electricity Distribution Cost Review 2007-2008 (ref 165/08)
+    http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=28&refer=Networ
+    ks/ElecDist/PriceCntrls/CostRep
+   Gas Distribution Annual Report 2007/08 (ref 27/09)
+    http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=484&refer=Netwo
+    rks/GasDistr/GDPCR7-13
+
+   Copies of these documents can be found on our website (www.ofgem.gov.uk)
+
+
+
+
+Office of Gas and Electricity Markets
+Transmission Annual Report 2008-09                                                                   April 2010
+
+
+
+
+Table of Contents
+
+Summary ........................................................................................... 1
+   The purpose of the review .............................................................................. 1
+   Results for 2008/09 ...................................................................................... 1
+1. Background and Introduction ........................................................ 3
+   Electricity and Gas Transmission in Great Britain ............................................... 3
+   Regulatory Reporting ..................................................................................... 4
+   Objectives .................................................................................................... 4
+   Process for 2008/09 ...................................................................................... 5
+   Compliance .................................................................................................. 5
+2. Review of Transmission Owners (TO) Performance (in 2008/09
+prices) ............................................................................................... 6
+   Background .................................................................................................. 6
+   Returns on Regulatory Equity (RORE) .............................................................. 6
+   Price Control Revenue ................................................................................... 8
+      National Grid Electricity Transmission ........................................................... 8
+      Scottish Hydro-Electric Transmission ............................................................ 9
+      Scottish Power Transmission ..................................................................... 10
+      National Grid Gas .................................................................................... 11
+   Total Expenditure........................................................................................ 12
+   Total Operating Costs .................................................................................. 13
+   Controllable Operating Costs (including non operational capex) ........................ 13
+      Controllable Opex NGET ........................................................................... 14
+      Controllable Opex SHETL .......................................................................... 15
+      Controllable Opex SPTL ............................................................................ 16
+      Controllable Opex NGG ............................................................................. 17
+   Interest Cost .............................................................................................. 18
+   Pension Costs ............................................................................................. 19
+   Tax Clawback Calculation ............................................................................. 19
+   Total Capital Expenditure (Base Line) ............................................................ 20
+      Capital Expenditure NGET ......................................................................... 21
+      Capital Expenditure SHETL ........................................................................ 21
+      Capital Expenditure SPTL .......................................................................... 22
+      Capital Expenditure NGG .......................................................................... 22
+      Incentivised Capex .................................................................................. 23
+      Logged Up Capex .................................................................................... 24
+   Forecast Capex (Base Line) to 2011/12 ......................................................... 25
+      NGET ..................................................................................................... 25
+      SHETL .................................................................................................... 27
+      SPTL ...................................................................................................... 28
+      NGG ...................................................................................................... 29
+   Provisional RAV .......................................................................................... 30
+      Capitalisation Items ................................................................................. 31
+   Innovation Funding Initiative (IFI) ................................................................ 32
+3. Review of System Operator (SO) Performance (in 2008/09 prices)
+........................................................................................................ 33
+   Background ................................................................................................ 33
+
+
+Office of Gas and Electricity Markets
+Transmission Annual Report 2008-09                                                                 April 2010
+
+
+
+
+   Price Control Revenue ................................................................................. 33
+      National Grid Gas .................................................................................... 33
+      National Grid Electricity Transmission ......................................................... 34
+   Total Internal Expenditure............................................................................ 36
+   Total Internal Operating Costs ...................................................................... 36
+   Pension Costs ............................................................................................. 37
+   Total Internal Capital Expenditure ................................................................. 38
+   Forecast Internal Capital Expenditure ............................................................ 39
+   Provisional RAV .......................................................................................... 40
+Appendices ...................................................................................... 41
+Appendix 1 - Data on individual transmission licensees .................. 42
+   National Grid Electricity Transmission (NGET) ................................................. 43
+     LICENSEE‟S COMMENTS ........................................................................... 45
+     NGET Transportation Owner (TO) .............................................................. 45
+     NGET System Operator (SO) ..................................................................... 45
+   Scottish Hydro Electricity Transmission (SHETL) ............................................. 46
+     LICENSEE‟S COMMENTS ........................................................................... 47
+   Scottish Power Transmission (SPT) ............................................................... 48
+     LICENSEE‟S COMMENTS ........................................................................... 49
+   National Grid Gas (NGG) .............................................................................. 50
+     LICENSEE‟S COMMENTS ........................................................................... 52
+     NGG Transmission Owner (TO) .................................................................. 52
+     NGG System Operator (SO) ...................................................................... 53
+Appendix 2 - Responses and Questions ........................................... 54
+Appendix 3 – The Authority’s Powers and Duties ............................ 55
+Appendix 4 - Glossary...................................................................... 57
+Appendix 5 - A guide to Return on Regulatory Equity ...................... 60
+Appendix 6 - Amendments to Regulatory Reporting Pack (RRP)
+Tables .............................................................................................. 61
+Appendix 7 - Feedback Questionnaire ............................................. 62
+
+
+
+
+Office of Gas and Electricity Markets
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+
+Summary
+
+The purpose of the review
+
+Historical data is a critical input to our price control work. At the time of the last
+transmission price control review (TPCR4) we made a commitment to capturing and
+publishing annual cost reports. The contents of this report will improve the quality of
+our information on costs, revenues, incentives and outputs and will help us to
+monitor and set future price controls and incentives. This enables comparison of
+actual expenditure with the price control allowances set at TPCR4 and will inform
+both the price control roll-over (which will apply for the 2012/13 regulatory year)
+and the next price control (TPCR5). We also report on external and internal System
+Operator (SO) costs.
+
+The report also provides greater transparency of the financial performance of the
+companies, particularly in relation to the regulatory allowances.
+
+The basis for the reporting of TO and SO costs is set out in the Transmission Price
+Control Review Reporting Rules; Instructions and Guidance (version 3.0) April 2009.
+These rules were developed following the last price control to provide a robust and
+coherent framework for cost reporting in the format of a Regulatory Reporting Pack
+(RRP). The pack comprises formatted Excel workbooks and a commentary on annual
+expenditure.
+
+In reading the report it is important to take account of differences in the time at
+which costs and investments were incurred and when consequential adjustments are
+made to regulatory allowances (e.g. for logged up costs and incremental investment
+revenue drivers). Due to these timing differences returns and RAV are understated
+and debt to RAV is overstated.
+
+
+Results for 2008/09
+
+Average return on regulatory equity for all TOs was 7.2%, slightly above the 7.0%
+allowed return, although there was a spread from 6.8% to 8.2%.
+
+Total revenue across electricity and gas TOs was £2200m which is within 1.0% of the
+allowance. The electricity and gas SO revenues were £1250m, the electricity SO
+balancing costs significantly above the target, £826m against £545m (the upper limit
+of the "deadband"). This was due to higher margin costs, power prices and constraint
+costs.
+
+Total controllable operating costs across the TO licensees of £319m were 15.5%
+above allowances. As in 2007/08 this is primarily due to NGET costs exceeding
+allowances. Internal electricity and gas SO costs of £91m were 13.7% above
+allowances, split equally between gas and electricity. The key causes of this were,
+bringing in house critical IT systems from an outsourced supplier, general and
+specific energy price inflation.
+
+
+Office of Gas and Electricity Markets                                                 1
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+Total electricity and gas capital expenditure by TOs was £1034m, 4.1% above
+allowances (before calculation of incentivised capex and revenue drivers). This was
+mainly due to NGET and SHETL exceeding their load related capital expenditure
+allowances. In aggregate NGG exceeded its load related allowance due to continuing
+spend on Milford Haven, but was lower on non load related expenditure. Internal SO
+capital expenditure was £20.8m, 14.9% above allowances.
+
+National Grid is now projecting volumes of non load related capex which are
+significantly lower than were forecast at the time of the last price control. Given the
+scale of the change, we will be seeking to understand the reasons for the forecasting
+differences. We will do this either during the TPCR4 price control roll-over, or during
+TPCR5.
+
+National Grid forecast SO internal capex to significantly exceed (32.9%) the price
+control allowance over the 5 year period due to upgrading of critical systems.
+
+As in 2007/08 all licensees incurred lower interest costs than envisaged at the time
+of the last price control.
+
+Overall total contributions to pension schemes were £297.2m, £261.1m (87.9%) of
+which were deficit payments made by National Grid.
+
+
+
+
+Office of Gas and Electricity Markets                                                  2
+Transmission Annual Report 2008-09                                            April 2010
+
+
+
+
+1. Background and Introduction
+
+Chapter Summary
+
+This is the third year of the Regulatory Reporting process introduced as part of the
+last transmission price control settlement.
+
+
+
+Electricity and Gas Transmission in Great Britain
+
+1.1. Electricity Transmission: The transmission system is a network of power lines
+that transport electricity at high voltages across Great Britain. Electricity is generated
+at power plants and the transmission system conveys this into the local distribution
+networks for onward distribution to customers. There are three electricity
+transmission owners in the UK; one in England & Wales and two in Scotland. The
+systems are fully interconnected, but exist under separate ownership.
+
+
+1.2. The electricity transmission system in England & Wales is owned and operated
+by National Grid Electricity Transmission (NGET) plc. It is the largest of the three
+transmission companies, covering around 150,499km2 and delivers around 305 TWh
+of electricity to over 28.4 million electricity customers on an annual basis.
+
+
+1.3. Scottish Power Transmission Ltd (SPTL) and Scottish Hydro Electricity
+Transmission Ltd (SHETL) own, plan and develop (but do not operate) the Electricity
+transmission system in Scotland. Together, they cover an area of more than
+78,117km2 and deliver about 32.6 TWh of electricity annually to about 2.7 million
+customers. SPTL covers the south of Scotland, while the north is covered by SHETL.
+
+
+1.4. Gas Transmission: The Gas National Transmission System (NTS) comprises a
+network of high pressure pipes and compressor stations connected to the distribution
+network and independent systems. Gas is brought into Great Britain from gas fields
+in the North Sea and Norway, via pipelines linking us to continental Europe and from
+liquefied natural gas (LNG) terminals. The NTS is owned by National Grid Gas.
+
+
+1.5. Regulation of the Transmission system is separated into two; Transmission
+Owners (TOs) who own and maintain the network of transmission assets and
+Systems Operators (SOs) who operated the network.
+
+
+1.6. The system operators covering the whole of GB are NGET for electricity and NGG
+for Gas.
+
+
+
+
+Office of Gas and Electricity Markets                                                    3
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+Regulatory Reporting
+
+1.7. In the Transmission Price Control Review Final Proposals (Ref 206/06) published
+in December 2006 paragraph 12.1 we made a commitment to publish an annual
+regulatory reporting pack:
+
+
+    “In previous consultations we have indicated we intended to adopt the approach
+    initiated in DPCR4 and introduce an annual regulatory reporting pack (RRP). The
+    licensees and credit rating agencies have generally welcomed this approach. This
+    will improve the quality of our information on cost, revenue, and incentive and
+    output reporting and will help us to monitor performance and set future price
+    controls and incentives. We expect the licensees to provide accurate, complete and
+    timely information and we will routinely publish this information.”
+
+
+1.8. Following TPCR4 new licence conditions (B16 and A40 for gas and electricity
+respectively) were introduced to provide for an annual reporting process.
+
+
+1.9. This is the third RRP for the Transmission Operators (TOs). It relates to the
+2008/09 financial year, the second year of the current price control period 2007 to
+2012. The information for the following licensees is included in the report:
+
+
+     National Grid Electricity Transmission plc (NGET) both TO and SO,
+     Scottish Hydro Electric Transmission Limited (SHETL),
+     Scottish Power Transmission Limited (SPTL), and
+     National Grid Gas plc (NGG) both TO and SO
+
+Objectives
+
+1.10. The Transmission Price Control Review Reporting Rules: Instructions and
+Guidance set out the objectives of the RRP. These are:
+
+
+     To ensure the RAV is rolled forward according to the TPCR4 Final Proposals;
+     To improve the robustness and consistency of data reported to us;
+     To reduce the burden on TOs to provide such information at a price control; and
+     To improve the transparency of reporting requirements.
+1.11. Thus, the key elements of the annual reporting process are to provide an
+overview of:
+
+
+     revenue,
+     operating costs,
+     capital expenditure,
+     financeability, and
+     a provisional regulatory asset value (RAV).
+
+
+1.12. The provisional RAV is calculated in accordance with the methodology set out in
+the TPCR4 Final Proposals. This RAV is provisional until finalised at the next price
+
+
+
+Office of Gas and Electricity Markets                                                    4
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+control. We will shortly consult on the scope of the TPCR4 roll-over for one year.
+Depending on the outcome of this consultation and subsequent decisions we will
+undertake a review of historical capex either under the roll-over or under TPCR5.
+
+
+1.13. We have also developed a measure of "return on regulatory equity" which we
+first utilised in the 2007/08 Transmission Regulatory Report. We plan to use this as a
+means of comparing the overall financial performance of businesses with the
+assumptions built into price control allowances. This also provides some context for
+the more detailed assessments of components of expenditure performance arising
+from the annual cost reporting process
+
+
+Process for 2008/09
+
+1.14. The regulatory reporting process for 2008/09 was similar to the one followed in
+previous years. Companies submitted revenue, cost, and financial data at the end of
+July 2009. We then undertook a review of the information and raised a number of
+supplementary questions. The review involved one visit to each licensee to assess
+performance and clarify the data submitted. All licensees were given the opportunity
+to meet with Ofgem's Senior Partner Transmission and Governance to review key
+findings from the reporting process.
+
+
+1.15. Overall, the response from licensees to the process undertaken was
+constructive.
+
+
+1.16. It is proposed to make some minor changes to the reporting process for future
+years to address points that have arisen with the licensees during the course of RRP
+review.
+
+
+Compliance
+
+1.17. We take compliance with licence conditions very seriously. We expect licensees
+to augment their processes and systems where necessary, to collect, reconcile and
+supervise data so as to complete reporting to us in accordance with the RRP
+guidance. There is a requirement for licensees to come forward with information on
+any errors that have occurred in previous submissions and, where errors are
+inadvertent, we have not penalised the licensees.
+
+
+1.18. During this year we have validated, to our satisfaction, substantive samples of
+the financial data submitted by each of the licensees in their various reports to us.
+This includes data contained in the regulatory reporting pack.
+
+
+
+
+Office of Gas and Electricity Markets                                                   5
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+
+2. Review of Transmission Owners (TO) Performance (in
+   2008/09 prices)
+
+Chapter Summary
+
+This chapter summarises the key data from the licensees as Transmission Owners.
+The main areas of concern are: NGET's operating costs being above the allowance for
+the second year, NGET's further changes in the quantity of some asset replacement
+volumes for the price control period similar to 2007/08 although on a reduced scale,
+and SPTL's reduction in expenditure on asset maintenance.
+
+
+Background
+
+2.1. In this section we have provided an overview of the main components of TO
+performance in 2008/09 compared to the price control allowances converted to this
+years‟ price level, specifically:
+
+
+   Return on Regulatory Equity (RoRE)
+   Turnover in 2008/09
+   Interest costs in 2008/09
+   Pension costs in 2008/09
+   Operating Costs in 2008/09,
+   Capital Expenditure in 2008/09,
+   Forecast Capex to 2011/12, and
+   Provisional RAV for 2008/09.
+
+
+Returns on Regulatory Equity (RORE)
+
+2.2. In the 2007/08 Transmission Regulatory report we developed the RORE
+calculation. This measure will not necessarily be consistent with standard accounting
+metrics for the return on equity, but we think it helps us (and all interested parties)
+understand better how companies have performed. A guide to RORE can be found in
+Appendix 5.
+
+
+2.3. The figures for NGET and NGG include internal SO as RORE for SO alone is not
+meaningful. Excluding SO data has the effect of increasing NGET RORE from 6.82%
+to 7.01% and NGG from 7.55% to 7.77%.
+
+
+
+
+Office of Gas and Electricity Markets                                                 6
+Transmission Annual Report 2008-09                                                                                                                        April 2010
+
+
+
+
+         Figure 1 - 2008/09 Returns on Regulatory Equity
+
+ 8.50%
+
+
+
+
+ 8.00%
+
+
+
+
+ 7.50%
+
+
+
+
+ 7.00%
+
+
+
+
+ 6.50%
+
+
+
+
+ 6.00%
+
+
+
+
+ 5.50%
+
+
+
+
+ 5.00%
+                        SPT                        NGG                   Average                      SHETL                            NGET
+
+                                                              Achieved        Asssumed
+
+
+
+
+Figure 2 - Components of Variance in Returns on Regulatory Equity
+
+
+
+         9.00%
+
+         8.00%
+
+         7.00%
+
+         6.00%
+
+         5.00%
+
+         4.00%
+
+          3.00%                                                                                            Allowed
+                                                                                                         Achieved
+          2.00%
+                                                                                                    Revenue Incentives excluding IFI
+          1.00%
+                                                                                                Interest variance (includes return on return)
+          0.00%
+                                                                                            Capex variance
+          -1.00%        NGET
+                                       SHETL                                             Opex variance
+          -2.00%                                   SPTL
+                                                             NGG
+                                                                          Average
+
+
+
+                                                     NGET           SHETL                   SPTL                      NGG                       Average
+   Opex variance                                    -1.46%          0.25%                  -0.34%                    -0.24%                     -0.91%
+   Capex variance                                   -0.08%          -0.97%                 0.71%                     0.14%                      0.03%
+   Interest variance (includes return on return)    0.47%           0.47%                  0.47%                     0.47%                      0.47%
+   Revenue Incentives excluding IFI                 0.89%           0.25%                  0.33%                     0.19%                      0.59%
+  Achieved                                          6.82%           7.00%                  8.17%                     7.55%                      7.18%
+  Allowed                                           7.00%           7.00%                  7.00%                     7.00%                      7.00%
+
+
+
+
+2.4. Figure 1 above compares the returns on regulatory equity assumption which
+underpinned the last price control with the actual returns earned by each TO. NGET's
+return was below the allowed return, this was due overspending on opex offset to
+some extent from revenue incentives. SPTL is higher than allowed due to capex
+under spends and revenue incentives offset by overspend on opex. NGG have
+
+
+
+Office of Gas and Electricity Markets                                                                                                                              7
+Transmission Annual Report 2008-09                                                     April 2010
+
+
+
+
+benefited mainly from under spending their capex allowance. The cumulative RoRE
+performance after 2 years is as follows.
+
+
+2.5. Figure 2 shows the way in which different components contributed to the overall
+variance. As in 2007/08 all TOs have benefited from lower interest rates.
+
+
+2.6. The cumulative RoRE performance after 2 years is as follows.
+
+
+              Cumulative RoRE Performance
+              NGET      SHETL     SPTL      NGG      Average Allowed
+                 6.88%     8.07%      8.51%    7.33%    7.20%    7.00%
+
+Price Control Revenue
+
+2.7. The revenue figures shown below exclude income from excluded services such
+as; post BETTA connection charges, services for 3rd parties, miscellaneous and de
+minimis income
+
+
+National Grid Electricity Transmission
+
+
+Table 1 - NGET TO Revenue Summary
+
+
+     (figures in £m)                    2007/08     2008/09   Year on year variance Variance%
+     Total Allowance                     1297.71      1407.08                109.36         8%
+     Total Actual Revenue                1298.72      1421.63                122.91         9%
+     Over / Under Recovery                   1.00       14.55                 13.55
+    NB. Figures include income collected on behalf of the Scottish TOs.
+2.8. NGET‟s base line allowed revenues rose by £109.4m (8%) year on year. The
+largest single element of this increase (£40.2m) is due to inflation. Other significant
+increases include an additional £25.6m of pass- through costs and an increase of
+£4.3m in construction revenues associated with the England – Scotland
+interconnection project under the Transmission Investment for Renewable
+Generation (TIRG) programme. Table 1 shows NGET allowed and actual TO revenues
+for 2008/09 and the previous year as well as the year on year change.
+
+
+2.9. NGET was able to recover incentive revenues of just under £19m in 2008/09,
+which represents an increase of nearly £16m on the previous year. This includes
+£10.5m under the reliability incentive (an increase of £12m) and £2.2m under the
+Sulphur Hexafluoride (SF6) leakage arrangements, which provides NGET with an
+incentive to minimise the volume of SF6 gas that leaks from transmission equipment.
+NGET was also able to recover £6.2m via the IFI scheme, which allows it to pass
+through 80% of spend on eligible research and development projects. At £7.7m, IFI
+spend in 2008/09 was more than double the £3m spent in the previous year.
+
+
+2.10. NGET recovered £14.6m of revenues in excess of the allowed maximum for the
+year. The explanation given for the over recovery is the early connection of
+
+
+Office of Gas and Electricity Markets                                                            8
+Transmission Annual Report 2008-09                                                                                                        April 2010
+
+
+
+
+generation plant in Scotland and delays to the connection of generation plant in
+negative charging zones. The chart below shows the areas of movement in NGET TO
+revenues, year on year.
+
+
+Figure 3 - NGET TO Year on Year Movement in Revenue
+
+ 120.00
+                                                                                                                             +£4.4m        +£109.4m
+                                                              +£15.9m
+                                                                            -£1.7m           -£0.8m          -£0.1m
+ 100.00
+                                                +£25.6m
+
+
+  80.00
+
+                                     +£4.3m
+£m
+
+
+
+
+                       +£21.6m
+  60.00
+
+
+            +£40.2m
+  40.00
+
+
+
+
+  20.00
+
+
+
+
+     0.00
+              RPI     Base revenue    TIRG     Pass through   Incentive   Difference In     Extension      Difference In   Adjustment     Total allowed
+                          ("X")                               payments      services      Reconciliation   Connections     factor ("K")     revenue
+
+
+
+
+Scottish Hydro-Electric Transmission
+
+
+2.11. Table 2 shows SHETL allowed and actual TO revenues for 2008/09 together
+with data for the previous year and the year on year change.
+
+
+Table 2 - SHETL Revenue Summary
+
+(figures in £m)                               2007-08              2008-09                            variance                            variance%
+Total Allowance                                   55.49                57.46                                                1.97                  4%
+Total Actual Revenue                              53.54                59.32                                                5.78                 11%
+Over / Under Recovery                             -1.95                 1.86                                                3.81
+
+
+2.12. SHETL's base line revenues increased by around £2m in 2008/09 compared
+with 2007/08. There was an increase of around £3m in base revenues, £2m of which
+was due to inflation. This was offset by a decrease of a similar amount relating to
+pre-construction revenues for the Beauly-Denny project that were recoverable in
+2007/08. The remaining £2m relates to differences in the SHETL revenue recovery
+positions for the two preceding years when SHETL over-recovered £1.9m against its
+allowed revenue. The licensee has explained that this relates to the timing of costs
+associated with the public inquiry into the Beauly-Denny project.
+
+
+2.13. SHETL was entitled to recover marginally less revenue under the Innovation
+Funding Incentive in 2008/09, £0.31m, compared with £0.35m in 2007/08.
+
+
+
+
+Office of Gas and Electricity Markets                                                                                                                     9
+Transmission Annual Report 2008-09                                                              April 2010
+
+
+
+
+2.14. The chart below shows the areas of movement in SHETL revenues, year on
+year.
+
+
+Figure 4 - SHETL Year on Year Movement in Revenue
+
+      6
+
+                                                 +£2.15m
+      5
+                                                                -£0.07m
+
+
+      4
+
+                       +£1.03m      +£0.14m
+ £m
+
+
+
+
+      3
+
+
+          +£1.95m                                                                       +£1.97m
+      2
+                                                                            -£3.23m
+
+
+      1
+
+
+
+      0
+             RPI     Transmission Pass Through   Adjustment     Incentive     TIRG    Total allowed
+                     Base Revenue     Items      Factor ("K")   Payments                revenue
+                         ("X")
+
+
+
+Scottish Power Transmission
+
+
+Table 3 - SPTL Revenue Summary
+
+(figures in £m)                    2007-08          2008-09   Year on year variance Variance%
+Total Allowance                       169.69           180.10                 10.41         6%
+Total Actual Revenue                  169.50           180.44                 10.94         6%
+Over / Under Recovery                  -0.19             0.34                   0.53
+
+2.15. SPTL base line allowed revenues increased from £170m in 2007/08 to £180m
+in 2008/09. Of this £6m was due to inflation. Table 3 shows SPT allowed and actual
+TO revenues for 2008/09 together with data for the previous year and the year-on-
+year change.
+
+
+2.16. Compared to 2007/08, there was a positive variance against TIRG revenue of
+£5.4m due to increased allowances in respect of the England – Scotland
+interconnector project, Project B5 and Sloy. There was a large negative movement in
+the correction “K” factor due to the fact that there was a small positive correction
+adjustment in 2008/09 compared with a significantly larger one in the previous year.
+Figure 5 shows SPTL allowed and actual TO revenues for 2008/09 and the previous
+year as well as the year on year change.
+
+
+2.17. SPT performed slightly worse under its incentive mechanisms, which meant
+that it was entitled to recover around a quarter of a million pounds less than in the
+previous year. The principal reason for this was SPTLs performance under the
+reliability incentive, where adverse weather conditions caused an increased number
+of loss of supply incidents. The revenue for the reliability incentive relates to
+performance in 2007/08.
+
+
+
+Office of Gas and Electricity Markets                                                                   10
+Transmission Annual Report 2008-09                                                                  April 2010
+
+
+
+
+2.18. SPTL spent less on IFI eligible projects in 2008/09, £0.17m compared to
+£0.23m in the previous year. This figure represents less than half of the amount that
+SPTL is entitled to spend under the IFI arrangements.
+
+
+Figure 5 - STPL Year on Year Movement in Revenue
+
+        16                              +£5.36m       +£0.54m
+
+        14                                                       -£0.24m
+        12
+                                                                                               +£10.41m
+        10                 +£3.24m
+                                                                                 -£4.52m
+   £m
+
+
+
+
+        8
+              +£6.04m
+        6
+
+        4
+
+        2
+
+        0
+                 RPI         Base          TIRG         Pass     Incentive      Adjustment      TOTAL
+                           Revenue                    Through    Payments       Factor ("K")
+                             ("X")                     Items
+
+
+
+
+National Grid Gas
+
+
+Table 4 - NGG TO Movement in Revenue
+
+(figures in £m)                      2007-08         2008-09   Year on year variance Variance%
+Total Allowance                         526.07          563.09                 37.02         7%
+Total Actual Revenue                    524.04          538.10                 14.06         3%
+Over / Under Recovery                    -2.03          -24.99                -22.96
+
+Figure 6 - NGG TO Year on Year Movement in Revenue
+
+        40
+                                                                  +£12.5m              +£37m
+
+        35
+
+
+        30
+
+                                                    +£0.5m
+                                  +£7.4m
+        25
+   £m
+
+
+
+
+        20
+                +£16.6m
+        15
+
+
+        10
+
+
+         5
+
+
+         0
+                   RPI         Pass through       TO incentive   Adjustment         Total allowed
+                                   costs           revenue       factor ("K")         revenue
+
+
+
+2.19. NGG TO revenues stood at £563m for the year 2008/09. This represents an
+increase of 7%, or £37m, on the previous year. Of this, £16m was the effect of
+inflation on the base revenue allowance. Pass-through costs increased by around
+
+
+
+Office of Gas and Electricity Markets                                                                       11
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+£7.4m, owing primarily to costs associated with the conveyance of liquefied
+petroleum gas to independent systems, offset by a decrease in the pass through of
+additional security costs. Figure 6 shows NGG allowed and actual TO revenues for
+2008/09 together with data for the previous year and the year-on-year change.
+
+
+2.20. NGG TO under-recovered against the maximum allowed revenue by £25m, or
+around 4% of allowed revenue. NGG has explained that the under-recovery was
+mainly due to revenues from capacity auctions being 16% lower than expected.
+Booked exit capacities were also lower than anticipated when the charges were set.
+
+
+2.21. The increase of £0.5m in incentive payments relates solely to an increase in
+spending on Innovation Funding Initiative (IFI) eligible projects.
+
+
+Total Expenditure
+
+2.22. Total transmission expenditure across all TOs (operating costs and capital
+expenditure) of £1.6bn represents a decrease of 19.5% (£386m) on the prior year;
+this was due to the substantial completion of the Milford Haven pipeline project in
+2008. Despite this total expenditure was 6.9% (£103m) above the price control
+allowances. Operating expenditure was £61.7m overspent, while capital expenditure
+was £40.7m overspent against base line allowances.
+
+
+2.23. The variance in total expenditure against allowance is partially explained by the
+factors above, increases in cost of own use electricity due to high electricity prices
+and increases in load related capital expenditure
+
+
+Figure 7 - Total Transmission Expenditure by Category
+
+               2500.0
+
+               2000.0
+
+               1500.0
+
+   £m          1000.0
+
+                500.0
+
+                  0.0
+                              Opex (TO)    Capex (TO)           Total
+      2007_08 Actuals           527.7       1450.6             1978.3
+      2008_09 Actuals           560.6       1033.5             1594.1
+      2008_09 Allowance         495.2        992.8             1488.0
+
+
+
+
+Office of Gas and Electricity Markets                                                12
+Transmission Annual Report 2008-09                                                                            April 2010
+
+
+
+
+Total Operating Costs
+
+2.24. The total operating cost allowances for the transmission companies can be
+divided into 3 main elements: controllable, non controllable and an allowance for non
+operational capex. Performance for 2008/09 is shown below.
+
+
+Figure 8 - Breakdown of TO Operating Costs
+
+                              Breakdown of TO Operating Costs (£m 08-09 Prices)
+                   350.0
+                   300.0
+                   250.0
+                   200.0
+   £m
+                   150.0
+                   100.0
+                      50.0
+                       0.0
+                               Controllable Operating
+                                                          Non Controllable costs    Non- Operational Capex
+                                       Costs
+        2007-08 ACTUALS                278.1                      230.2                        19.6
+        2008-09 ACTUALS                301.1                      241.8                        17.6
+        2008-09 ALLOWANCE              259.2                      223.7                        12.3
+
+
+
+
+2.25. TOs incurred a total of £301.1m in controllable operating expenditure
+(excluding non-operational capex) in 2008-09. This represents 16.2% (£41.9m)
+overspend against the 2008/09 allowance of 259.2m, and an 8.3% (£23m) increase
+on the 2007/08 expenditure.
+
+
+Controllable Operating Costs (including non operational capex)
+
+Figure 9 - Movement in Total TO Controllable Operating Costs
+
+
+                              Movement in TO controllable operating costs 2007-08 to 2008-09
+ 350
+
+
+
+                                                                      +2.5m        +4.9m              -1.4m    318.7m
+                                                        +6.9m
+                             +8.8m         +8.1m
+
+ 300
+             288.9m
+
+
+
+
+ 250
+
+
+
+
+Office of Gas and Electricity Markets                                                                                   13
+Transmission Annual Report 2008-09                                                                    April 2010
+
+
+
+
+2.26. Figure 9 shows the main components of movements in controllable operating
+costs from 2007/08 to 2008/09 for all transmission assets owners (TO).
+
+
+2.27. Overall, total controllable operating costs for the TOs was £21m (7%) higher
+than last year's expenditure. Across the TOs the costs movements are largely driven
+by NGET and NGG and relate mainly to accounting adjustments increasing costs
+pressures and management initiative such as reorganisations,
+
+
+Controllable Opex NGET
+
+
+Figure 10 - NGET movement in Controllable Opex
+
+                   NGET :Areas of Movement in controllable operating costs 2007-08 to 2008-09
+    240
+
+
+                                                                           +3.9m         -1.5m   226.8m
+                                                 +4.8m        +1.9m
+
+    220                            +11.5m
+
+
+
+                       +6.1m
+
+          200.3m
+    200
+
+
+
+
+    180
+
+
+
+
+2.28. Figure 10 above shows the main components of movement in controllable
+operating costs between 2007-08 and 2008-09 for NGET.
+
+
+2.29. Controllable operating expenditure for 2008/09 was £226.8m; 10% above
+2007/08 expenditure of £206.4m. Aside from general inflation, most of the increase
+in operating costs is attributable to the following four areas of NGET's operations:
+
+
+     Accounting change - reclassification of excluded services overhead diversion
+      schemes (£11.5m). These costs are offset by additional revenues
+
+     Increase in own use electricity due to a steep rise in electricity prices (£4.3m).
+
+     The impact of various change and reorganisation programmes, which have been
+      running for the last few years, which have further increased operating costs. The
+      net effect of these changes was £3.9m increase in operating costs in the current
+      year, as shown above. Over the last three years NGET have implemented various
+      change and reorganisation programmes, these initiatives include the
+
+
+
+
+Office of Gas and Electricity Markets                                                                         14
+Transmission Annual Report 2008-09                                                                                                          April 2010
+
+
+
+
+          transformation of shared services functions and back office processes and
+          systems.
+
+         Lastly, there has been an increase in planned and unplanned maintenance.
+2.30. The chart below shows NGET's performance against operating cost allowances.
+
+
+Figure 11 - NGET Opex Performance against Allowances
+
+
+         250.0
+
+
+
+
+         200.0
+
+
+
+
+         150.0
+    £m
+
+
+
+
+         100.0
+
+
+
+
+          50.0
+
+
+
+
+           0.0
+                 2001/02   2002/03   2003/04     2004/05        2005/06   2006/07       2007/08   2008/09     2009/10   2010/11   2011/12
+
+
+                                     Company Reported Actuals         TPCR Company Forecasts      TPCR Allowances
+
+
+
+
+2.31. NGET have overspent against their allowance in the first two years of the price
+control. In 2008/09 they spent £46.0m (representing 26.7%) more than the
+allowance, this is due to accounting changes, high energy costs and increased
+maintenance costs
+
+
+2.32. In 2008/09, NGET also brought forward the investment in IS systems. This has
+resulted in non operational capex being £4.5m higher than the allowance of £8.4m.
+
+
+Controllable Opex SHETL
+
+
+2.33. Figure 12 below shows the operating costs trend for SHETL since the last price
+control. Controllable operating expenditure for 2008/09 was £6.0m, representing an
+8.1% under spend against allowance. However, SHETL signalled that operating costs
+are expected to increase in future years as their network expands.
+
+
+
+
+Office of Gas and Electricity Markets                                                                                                               15
+Transmission Annual Report 2008-09                                                                                                                                   April 2010
+
+
+
+
+Figure 12 - SHETL Opex Performance against Allowances
+     10.0
+
+
+
+      9.0
+
+
+
+      8.0
+
+
+
+      7.0
+
+
+
+      6.0
+£m
+
+
+
+
+      5.0
+
+
+
+      4.0
+
+
+
+      3.0
+
+
+
+      2.0
+
+
+
+      1.0
+
+
+
+      0.0
+            2001/02    2002/03     2003/04         2004/05         2005/06        2006/07         2007/08         2008/09       2009/10       2010/11      2011/12
+
+                                             Company Reported Actuals          TPCR Company Forecasts        TPCR Allowances
+
+
+
+
+2.34. SHETL stated that they would not need to replace assets to resolve the issues
+caused by BT's implementation of their 21 century network (BT21CN). SHETL expect
+to work with BT to ensure continued availability of the current platform post 2014.
+This is, however, subject to enough existing users committing to the continued use
+of this facility.
+
+
+2.35. There has been an ongoing focus on operational efficiency within group
+companies that provide services to SHETL. This has translated into a £0.9m under
+spend against price control allowance.
+
+
+Controllable Opex SPTL
+
+
+Figure 13 - SPTL Opex Performance against Allowances
+     25.0
+
+
+
+
+     20.0
+
+
+
+
+     15.0
+£m
+
+
+
+
+     10.0
+
+
+
+
+      5.0
+
+
+
+
+      0.0
+            2001/02   2002/03    2003/04       2004/05        2005/06        2006/07       2007/08      2008/09       2009/10       2010/11      2011/12
+
+
+                                  Company Reported Actuals              TPCR Company Forecasts          TPCR Allowances
+
+
+
+
+Office of Gas and Electricity Markets                                                                                                                                        16
+Transmission Annual Report 2008-09                                                               April 2010
+
+
+
+
+2.36. SPTL experienced a £1.8m (9.9%) over spend in controllable opex in 2008/09.
+This was after an adjustment a £5.8m for capitalisation. The major reasons given for
+the under spend were constrained planned maintenance as a result of network
+construction activity and a management decision to focus on major overhead lines
+(OHL) refurbishment as against tower painting . According to SPTL, the OHL
+refurbishment programme consumed the majority of the available outages,
+restricting the ability to carry out maintenance activities
+
+
+2.37. Despite the apparent reduction in maintenance activity- especially tower
+painting, SPTL consider that the full maintenance programme, as proposed in the
+price control submission will be met. SPTL has stated that they had commenced an
+accelerated tower painting programme in 2009 to ensure work is completed before
+the end of the price control and are forecasting to spend about £1m per annum in
+future years.
+
+
+2.38. SPTL's overspend against their non-operational capex allowance was due to
+land and building expenditure relating to work to fit out a new depot.
+
+
+Controllable Opex NGG
+
+
+Figure 14 - NGG Movement in Controllable Opex
+
+                      NGG: Areas of movement in controllable Operating costs
+ 70.0
+
+
+
+
+                                       +2.5m                             +1.1m   -0.9m
+
+                                                                                         66.4m
+                                                        +0.8m
+
+                      +1.9m
+
+
+         62.8m
+
+
+
+
+ 60.0
+
+
+
+
+2.39. Figure 14 above shows the main components of movement in controllable
+operating costs between 2007-08 and 2008-09 for NGG.
+
+
+2.40. Controllable operating expenditure for 2008/09 was £66.4m, an increase of
+2.6% on 2007/08 expenditure of £64.7m. Operating costs were higher than the price
+control allowance due mainly to higher electricity costs, but this was offset by lower
+expenditure on non operational capex.
+
+
+
+
+Office of Gas and Electricity Markets                                                                    17
+Transmission Annual Report 2008-09                                                                                                          April 2010
+
+
+
+
+Figure 15 - NGG Opex Performance against Allowances
+        120.0
+
+
+
+
+        100.0
+
+
+
+
+         80.0
+   £m
+
+
+
+
+         60.0
+
+
+
+
+         40.0
+
+
+
+
+         20.0
+
+
+
+
+          0.0
+                2002/03   2003/04     2004/05       2005/06    2006/07     2007/08         2008/09        2009/10      2010/11    2011/12
+
+
+                                    Company Reported Actuals      TPCR Company Forecasts             TPCR Allowances
+
+
+
+
+Interest Cost
+
+2.41. To provide a comparison of interest costs between operators, Table 5
+summarises, for each of the Transmission Operators - the end of year net debt
+position, achieved interest rate and the composition of the gross debt portfolio –. In
+the TPCR4 financial model, the allowance for financing costs was calculated by using
+the pre-tax cost of debt assumption made in the Weighted Average Cost of Capital
+(WACC), i.e. 3.75% real. As the table shows, all four of the TOs are comfortably
+outperforming on the cost of debt, particularly SHETL and SPT.
+
+
+Table 5 - Interest Costs
+Table 2.3 Interest costs (£m)                                                   NGET TO                SPT TO          SHETL TO        NGG TO
+
+Opening net debt                                                                      3,317.8             504.4            158.1          2,181.1
+Closing net debt                                                                      3,844.6             410.0            158.1          2,513.3
+Average net debt                                                                     3,581.2             457.2            158.1          2,347.2
+
+Aggregation of gross debt (ex. derivatives/leases)*
+- Fixed                                                                                      48%              30%            100%            52%
+- Floating                                                                                    9%              70%              0%            15%
+- Index- linked                                                                              43%               0%              0%            32%
+
+P/L net interest (attributable to TO) - £m                                                 233.3             24.3                7.9        147.8
+
+Ac hieved nominal interest rate - %                                                         6.5%             5.3%            5.0%            6.3%
+Average Marc h- Marc h RPI inflation                                                        3.0%             3.0%            3.0%            3.0%
+
+Achieved real interest rate - %                                                            3.4%            2.3%             2.0%            3.2%
+TPCR interest rate assumption                                                              3.75%           3.75%            3.75%           3.75%
+
+Implied (under)/ out- performanc e                              0.3%      1.5%       1.8%         0.5%
+*Note: For NGET and NGG the aggregation of gross debt inc ludes debt that may be attributable to non-
+transmission assets e.g. LNG, metering etc .
+
+
+
+
+Office of Gas and Electricity Markets                                                                                                               18
+Transmission Annual Report 2008-09                                                  April 2010
+
+
+
+
+Pension Costs
+
+2.42. Table 6 below compares actual pension costs with the price control pension
+allowances. The allowances and actual are based on the cash amount paid into the
+pensions scheme rather than the charge shown in the financial statements. The
+pension numbers quoted are provisional and may be subject to re-statement on final
+agreement with Ofgem regarding input data and allocations.
+
+
+NGG have made a deficit payment that is significantly higher than assumed in TPCR4
+(where allowances were set based on a notional 10 year deficit recovery period)
+since they have agreed to reduce their deficit over a 2.5 year period (resulting from
+a deferral of payments in earlier years). The difference to allowed funding will be
+corrected at subsequent full price controls subject to it being determined as
+efficiently incurred.
+
+
+Table 6 Pension Cost 2008/09
+                                        Electricity Transmission            Gas
+Pension costs (£m) -
+nominal                      NGET TO       SPT TO   SHETL TO       Total   NGG TO
+
+2008/09
+Actual
+Ongoing costs                   14.4         1.1       1.2         16.7     9.0
+Deficit repair                  63.2         0.0       0.0         63.2    178.0
+Total                           77.6         1.1       1.2         80.0    186.9
+Allowances
+Ongoing costs                   15.8         1.5       1.8         19.1     12.2
+Deficit repair                  41.6         0.0       0.0         41.6     29.8
+Total                           57.3         1.5       1.8         60.6     42.0
+
+
+Variance to allowance
+Ongoing costs                   (1.3)       (0.4)     (0.6)        (2.3)   (3.3)
+Deficit repair                  21.7         0.0       0.0         21.7    148.2
+Total                           20.3        (0.4)     (0.6)        19.3    144.9
+
+
+Tax Clawback Calculation
+
+2.43. As outlined in the Transmission Price Control Review: Final Proposals decision
+document 206/06 section 8.21, we intend to make ex post adjustments to reduce
+the tax allowance where both actual gearing and actual interest expense exceed the
+level assumed in the TPCR4 financial model. The methodology for this was published
+in an open letter of 31 July 2009 "Clawback of tax benefit for excess gearing".
+
+
+2.44. Calculations (including the "shadow" RAV element) have been made for both
+2007-08 and 2008-09. This indicates that there are no adjustments required for
+either year.
+
+
+
+
+Office of Gas and Electricity Markets                                                       19
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+Total Capital Expenditure (Base Line)
+
+Figure 16 - Total TO Net Capital Expenditure
+                 1600.0
+
+                 1400.0
+
+                 1200.0
+
+                 1000.0
+            £m
+
+
+
+
+                  800.0
+
+                  600.0
+
+                  400.0
+
+                  200.0
+
+                    0.0
+                                Load       Non Load             Total
+       2007_08 Actual          980.7        469.9              1450.6
+       2008_09 Actual          590.2        443.3              1033.5
+       2008_09 Allowance       430.3        562.6              992.8
+
+
+
+
+2.45. Across all of the Transmission Operators total Load related capital expenditure
+was £590.2m, 37.2% above the TPCR4 base line allowance and 39.8% below the
+expenditure incurred in 2007/08. Non load capital related expenditure in 2008/09
+was £443.3m, 21.2% below the TPCR4 allowance and 5.6% below the expenditure
+incurred in 2007/08. These variances are against base line allowances.
+
+
+2.46. All the capex allowance figures, base line and incentivised, are shown before
+any impact of revenue drivers. All NGET‟s revenue drivers and the downward
+element of Scottish TOs‟ revenue drivers (if connecting lower volume of generation
+than baseline level) will take effect as a one-off amount at the end of the TPCR4. The
+upward element of Scottish TOs‟ revenue drivers (if connecting higher volume of
+generation than baseline level), on the other hand, will take effect in the year that
+the baseline generation volume is exceeded. Currently none of the TOs are triggering
+the upward revenue drivers, but SHETL and SPTL are currently connecting lower than
+baseline volume of generation and could trigger downward revenue driver
+adjustments at end of TPCR4. The adjustment for revenue drivers, if triggered, will
+have an impact on licensee‟s performance against allowances both on an annual
+basis and at the end of the price control period.
+
+
+
+
+Office of Gas and Electricity Markets                                               20
+Transmission Annual Report 2008-09                                      April 2010
+
+
+
+
+Capital Expenditure NGET
+
+
+Figure 17 - NGET Net Capital expenditure
+                  450.0
+                  400.0
+                  350.0
+                  300.0
+                  250.0
+  £m
+                  200.0
+                  150.0
+                  100.0
+                   50.0
+                    0.0
+                               Load        Non Load
+       Actual 2007/08          323.8         339.9
+       Actual 2008/09          331.0         288.2
+       Allowance 2008/09       189.5         399.3
+
+
+
+
+2.47. NGET load related capital expenditure was £331.0m, 74.7% above the TPCR4
+base line allowance of £189.5m and 2.2% above the expenditure incurred in
+2007/08 £323.7m. As well as inflationary pressures, increased load expenditure was
+due to generation projects not envisaged in TPCR4, revised generation timescales,
+and demand related investment higher than expected in TPCR4. Demand related
+investment includes Grain LNG and provision of capacity for the 2012 Olympic
+Games.
+
+
+2.48. NGET non-load related expenditure in 2008/09 was £288.2m, 27.8% below the
+allowance and 15.5% below the expenditure incurred in 2007/08. This was due to re-
+phasing and prioritising capital projects. Transformer replacement increased but
+overhead line replacement reduced as priority was given to load related schemes.
+
+
+Capital Expenditure SHETL
+
+
+Figure18 - SHETL Net Capital Expenditure
+                   40.0
+                   35.0
+                   30.0
+                   25.0
+  £m               20.0
+                   15.0
+                   10.0
+                    5.0
+                    0.0
+                              Load        Non Load
+       Actual 2007/08         29.7          15.2
+       Actual 2008/09         35.1          16.8
+       Allowance 2008/09      24.4          15.8
+
+
+
+
+2.49. SHETL significantly increased load related capital expenditure in 2008/09 to
+£35.1m, 43.7% above the base line allowance of £24.4m and 18.1% above the
+expenditure incurred in 2007/08. Load related expenditure increased £5.4m. SHETL
+
+
+Office of Gas and Electricity Markets                                            21
+Transmission Annual Report 2008-09                                      April 2010
+
+
+
+
+also commented that the planning process was now more manageable, although this
+is not necessarily echoed by SPTL.
+
+
+2.50. SHETL non load related capital expenditure 2008/09 was £16.8m, 6.4% above
+the allowance and 10.7% above the expenditure incurred in 2007/08.
+
+
+Capital Expenditure SPTL
+
+
+Figure 19 - SPTL Net Capex Expenditure
+
+                   80.0
+                   70.0
+                   60.0
+                   50.0
+  £m               40.0
+                   30.0
+                   20.0
+                   10.0
+                     0.0
+                                 Load           Non Load
+       Actual 2007/08            27.4             69.9
+       Actual 2008/09            46.5             73.3
+       Allowance 2008/09         51.7             69.1
+
+
+2.51. SPTL load related capital expenditure was £46.5m, 10.1% below the TPCR4
+base line allowance of £51.7m and 69.8% above the expenditure incurred in
+2007/08. The actual expenditure was also well below the forecast for 2008/09 made
+in 2007/08 of £100.4m. Generation connections were significantly below forecast due
+to protracted consents process.
+
+
+2.52. SPTL non load related capital expenditure 2008/09 was £73.3m, 6.1% above
+the allowance and 4.8% above the expenditure incurred in 2007/08.
+
+
+Capital Expenditure NGG
+
+
+Figure 20 - NGG Net Capital Expenditure
+                        700.0
+                        600.0
+                        500.0
+                        400.0
+                £m
+                        300.0
+                        200.0
+                        100.0
+                           0.0
+                                        Load               Non Load
+        Actual 2007/08                  599.9                44.9
+        Actual 2008/09                  181.2                66.7
+        Allowance 2008/09               164.6                78.4
+
+
+
+
+Office of Gas and Electricity Markets                                            22
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+
+2.53. NGG load related capital expenditure was £181.2m, 10.1% above the TPCR4
+base line allowance and 69.8% below the expenditure incurred in 2007/08. Load
+related investment decreased by £422.3m due to the substantial completion of the
+Milford Haven pipeline being delivered in 2008 which is now operational although
+there are still planning consent issues outstanding with Tewkesbury Council. Total
+forecast spend for Milford Haven in TPCR4 is now estimated to be £1.15bn against
+£818m at the time of TPCR4. A further £85.8m expenditure is forecast to be spent in
+the next 3 years.
+
+
+2.54. NGG have strategic stock of £10.3m. This relates to safeguard orders placed
+for key fittings to ensure delivery of the Milford Haven project on the required date.
+The majority of this surplus pipe and fittings has now been identified for usage on
+the Easington to Paull pipeline project.
+
+
+2.55. NGG non-load related capital expenditure in 2008/09 was £65.1m, 17.0%
+below the allowance and 44.8% above the expenditure incurred in 2007/08. The
+increase in non load related expenditure is due to increases in asset health
+expenditure, although emissions expenditure has fallen. The review of the
+compressor emissions reduction strategy started in 2008 is still ongoing hence the
+reduced expenditure.
+
+
+Incentivised Capex
+
+
+2.56. At TPCR4 an incentive was introduced to minimise the impact of over or under
+spend on efficiently incurred capex. Previously if a licensee overspent on capex it
+would not be remunerated until the following price control, consequently a reduction
+in the actual return on regulated capex would occur. A capex incentive term was
+added to the license so that only 25% of the net costs / benefit from under / over
+spend on capex will result in a charge / gain for licensees.
+
+
+2.57. The following table shows calculations required to derive the incentivised capex
+figures, showing the actual for 2008/09 and a cumulative position. All companies are
+above the allowance in 2008/09. Despite increasing load related expenditure this
+year both SHETL and SPTL are below the incentivised allowances on a cumulative
+basis.
+
+
+
+
+Office of Gas and Electricity Markets                                                23
+Transmission Annual Report 2008-09                                                 April 2010
+
+
+
+
+Table 7 Incentivised Capex
+Capex Values (£m)                                   NGET TO SHETL TO SPT TO Elec Total NGG TO
+Non Load                                               288.2     16.4    60.5     365.1   52.9
+Load excluding Milford Haven                           331.0     35.1    46.5     412.6  115.2
+Milford Haven                                                                       0.0   66.0
+Pension Deficit                                         10.3                       10.3
+Subtotal for Provisional RAV                           629.4     51.5   107.0     787.9  234.1
+
+Logged up capex                                          8.4      0.2      6.0     14.6       7.3
+Incremental capex                                                                   0.0      88.0
+TIRG                                                    25.2      8.6     34.8     68.6
+Regulatory WIP                                        (78.7)                     (78.7)
+Total Actual Expenditure                               584.3     60.3    147.8    792.4     329.4
+
+Non Load Allowance                                     399.3     15.8     69.1    484.1      78.4
+Load Allowance (before revenue driver adjustment)      189.5     24.4     51.7    265.6     164.6
+Pension Deficit                                         10.3                       10.3
+Total 2008/09 Final Proposals                          599.1     40.2    120.8    760.1     243.0
+
+Incentivised Capex Values (£m)                      NGET TO SHETL TO SPT TO Elec Total NGG TO
+Total Capex                                             629.4     51.5  107.0     787.9  234.1
+Less capitalised pensions                               (3.3)    (0.6)  (1.3)     (5.2)
+Less net load related sole use                         (95.3)    (6.7)  (9.4)   (111.4)
+Less Pension Deficit                                   (10.3)                    (10.3)
+Total Actual Incentivised Capex                         520.6     44.2   96.3     661.1  234.1
+
+Total capex allowance                                  599.1     40.2    120.8    760.1     243.0
+Less revenue driver adjustment                        (58.0)                     (58.0)
+Less capitalised pensions                              (3.9)     (0.9)   (0.9)    (5.7)
+Less net load related sole use                        (13.0)     (2.9)   (8.7)   (24.6)
+Less Pension Deficit                                  (10.3)                     (10.3)
+Total Final Proposal Incentivised Capex                514.0     36.3    111.2    661.5     243.0
+
+Incentivised Capex Over / (Under Spend)                  6.7       7.9  (14.9)     (0.4)     (9.0)
+As a Percentage                                        1.3%     21.7% (13.4%)    (0.1%)    (3.7%)
+
+Cumulative                                          NGET TO SHETL TO SPT TO Elec Total NGG TO
+Actual Incentivised Capex                             1,097.9     79.1   187.6  1,364.6  817.4
+Final Proposal Incentivised Capex                     1,089.2     82.6   239.7  1,411.5  779.8
+Incentivised Capex Over / (Under Spend)                   8.6    (3.5)  (52.1)   (46.9)   37.6
+As a Percentage                                         0.8%   (4.2%) (21.7%)   (3.3%)   4.8%
+
+
+
+Logged Up Capex
+
+
+2.58. In TPCR4, we introduced a mechanism by which licensees could "log up"
+certain capital costs. Under this procedure the expenditure is separately recorded
+and at the next price control the Transmission Operators will receive income on all
+efficiently incurred expenditure as though that expenditure had been included at the
+previous price control and the impact of this is NPV neutral for the licensee. However
+in the intervening period the RAV is effectively understated and the ratio Debt to RAV
+overstated unless due allowance is made for this "capex not yet included in the RAV".
+These costs will be added to the RAV at the start of TPCR5 after a review for
+efficiency.
+
+
+2.59. The implementation of BT21CN has now been delayed by BT until 2018 and
+therefore it becomes a cost in TPCR5 not TPCR4. TOs have adopted differing
+solutions to the problems caused by BT21CN.
+
+
+Office of Gas and Electricity Markets                                                          24
+Transmission Annual Report 2008-09                                            April 2010
+
+
+
+
+2.60. The table below summarises the current cumulative TPCR4 logging up costs
+associated with the respective transmission operators
+
+
+Table 8 - Cumulative Logged Up Costs 2007/08 to 2008/09
+
+                                            NGET     SHETL    SPTL      NGG       Total
+BT21CN                                                           6.5                  6.5
+Cable Tunnels                                  3.9                                    3.9
+Plugs (only for Scottish companies)
+Quarry & Loss Development Claims                                           1.9       1.9
+Milford Haven Pipeline Project                                            83.1      83.1
+Other                                          8.7      0.2      3.4       6.3      18.7
+Total Logging Up Capex                        12.6      0.2      9.9      91.3     114.0
+
+
+
+Forecast Capex (Base Line) to 2011/12
+
+NGET
+
+
+2.61. The current 2008/09 forecast for the price control period includes two years
+actuals spend and three years forecasts. Commodity costs that had risen in 2007/08
+fell in 2008/09.
+
+
+Table 9 - NGET Load Related Capex Forecast
+                                                                        £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                       1,577.4
+
+2007/08                                                                  323.8
+2008/09                                                                  331.0
+2009/10                                                                  313.1
+2010/11                                                                  226.6
+2011/12                                                                  184.9
+Lat est Capex Forec ast (Jul. 2009)                                    1,379.3
+
+Change in Forec ast £m                                                 (198.1)
+Perc ent age Change                                                    - 12.6%
+
+T PCR4 Final Proposals Allowanc e                                      1,311.2
+
+Forec ast over/(under) spend against Allowanc es                          68.2
+Perc ent age Change                                                      5.2%
+
+
+2.62. NGET's current load related forecast for the TPCR4 period of £1379.3m is
+£68.2m, 5.2% higher than allowance, and 12.6% below the previous forecast. The
+current forecast anticipates strong generation connection activity, completion of
+previous deferred connection schemes. NGET has responded to market signals where
+appropriate and deferred a number of generation connections and infrastructure
+projects.
+
+
+
+
+Office of Gas and Electricity Markets                                                 25
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+Table 10 - NGET Non Load Related Capex Forecast
+NGET Capex Non Load Forec ast £m [2007/08 - 2011/12]                NGET
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                     1,979.6
+
+2007/08                                                                339.9
+2008/09                                                                288.2
+2009/10                                                                389.8
+2010/11                                                                422.7
+2011/12                                                                626.3
+Lat est Capex Forec ast (Jul. 2009)                                  2,066.9
+
+Change in Forec ast £m                                                     87.3
+Perc ent age Change                                                       4.4%
+
+T PCR4 Final Proposals Allowanc e                                    2,109.6
+
+Forec ast over/(under) spend against Allowanc es                         (42.7)
+Perc ent age Change                                                      - 2.0%
+
+
+
+
+2.63. NGET's current non load related forecast for the TPCR4 period of £2066.9m is
+2.0% lower than allowance and 4.4% higher than the previous forecast. Non load
+volumes were reduced in 2007/08 against expectations at the price control. They
+have been adjusted again in 2008/09 (see table below).
+
+
+2.64. NGET states that their non load asset replacement / refurbishment strategy has
+not significantly changed but the latest asset health assessments have allowed NGET
+to revise technical asset lives and refurbish rather than replace some assets. In
+particular some circuit breaker lives have been extended and others refurbished
+rather than replaced. The asset lives of overhead lines in rural areas have also been
+extended.
+
+
+Table 11 - NGET Non Load Related Volumes 2007/08 to 2011/12
+Asset Class                              FBPQ      2007/08 RRP 2008/09 RRP
+                                        Forecast    Projections Projections
+
+Transformers (units)                       86          39           43
+Reactors (units)                           35          16           7
+Circuit Breakers                          530          160
+Circuit Breaker
+                                                                   191
+(replacement)(units)
+Circuit Breaker
+                                                                   159
+(refurbishment)(units)
+Overhead Line (full
+refurbishment)(cct km)                    1468         576         543
+
+Overhead Line (fittings
+                                          1198        1003         907
+only)(cct km)
+Cables (km)                               71.6         50.3        74.5
+
+NB. The information for circuit breakers changed between the 2007/08 RRP and the
+2008/09 RRP
+2.65. The non load forecast includes £64.1m (2008/09 prices) additional expenditure
+on cable tunnels in the London area, over and above the £68.4m (2008/09 prices)
+allowed as logged up. The overall plan has significantly changed with expenditure
+
+
+
+Office of Gas and Electricity Markets                                                26
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+extending into TPCR5. Additionally, the forecast includes replacement of operational
+telecoms equipment at substations.
+
+
+2.66. Table 11 reveals that National Grid is now projecting volumes of non load
+related capex which are significantly lower than were forecast at the time of the last
+price control. Given the scale of the change, we will be seeking to understand the
+reasons for the forecasting differences. We will do this either during the TPCR4 price
+control roll-over, or during TPCR5.
+
+
+SHETL
+
+
+Table 12 - SHETL Load Related Capex Forecast
+                                                                         £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                          126.7
+
+2007/08                                                                    29.7
+2008/09                                                                    35.1
+2009/10                                                                    22.7
+2010/11                                                                    33.4
+2011/12                                                                    35.9
+Lat est Capex Forec ast (Jul. 2009)                                       156.8
+
+Change in Forec ast £m                                                     30.1
+Perc ent age Change                                                      23.8%
+
+T PCR4 Final Proposals Allowanc e                                         135.7
+
+Forec ast over/(under) spend against Allowanc es                           21.1
+Perc ent age Change                                                      15.5%
+
+
+
+
+2.67. SHETL's current load related forecast for the TPCR4 period of £156.8m is
+15.5% higher than the allowance and 23.8% above the previous forecast. SHETL are
+confident that they will spend the capex allowance and connect greater than
+1489MW which was their baseline capex allowance.
+
+
+Table 13 - SHETL Non Load Related Capex Forecast
+                                                                          £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                           96.4
+
+2007/08                                                                     15.2
+2008/09                                                                     16.8
+2009/10                                                                     14.7
+2010/11                                                                     16.0
+2011/12                                                                     18.7
+Lat est Capex Forec ast (Jul. 2009)                                         81.4
+
+Change in Forec ast £m                                                     (15.0)
+Perc ent age Change                                                      - 15.5%
+
+T PCR4 Final Proposals Allowanc e                                           70.7
+
+Forec ast over/(under) spend against Allowanc es                            10.6
+Perc ent age Change                                                       15.0%
+
+
+
+2.68. Current SHETL non load related forecast of £81.4m is 15.0% higher than the
+allowance and 15.5% below 2007/08 forecast. SHETL expect to outturn close to the
+control period TPCR4 allowance.
+
+
+Office of Gas and Electricity Markets                                               27
+Transmission Annual Report 2008-09                                       April 2010
+
+
+
+
+SPTL
+
+
+Table 14 - SPTL Load Related Capex Forecast
+                                                                        £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                         483.7
+
+2007/08                                                                   27.4
+2008/09                                                                   46.5
+2009/10                                                                   53.6
+2010/11                                                                  137.3
+2011/12                                                                  175.0
+Lat est Capex Forec ast (Jul. 2009)                                      439.8
+
+Change in Forec ast £m                                                  (43.9)
+Perc ent age Change                                                     - 9.1%
+
+T PCR4 Final Proposals Allowanc e                                        346.6
+
+Forec ast over/(under) spend against Allowanc es                          93.2
+Perc ent age Change                                                     26.9%
+
+
+
+
+2.69. SPTL's current load related forecast for the TPCR4 period of £439.8m is 26.9%
+higher than the allowance and 9.1% below previous forecast. SPTL are confident that
+they will spend the capex allowance and connect greater than 2132MW which was
+their baseline capex allowance. This is despite the fact that delays in planning and
+consents have reduced expenditure in the first 2 years of the price control.
+Forecasted contracted generation connection expenditure considerably exceeds the
+allowances towards the end of the control period.
+
+
+Table 15 - SPTL Non Load Related Capex Forecast
+
+                                                                      £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                       349.2
+
+2007/08                                                                 69.9
+2008/09                                                                 73.3
+2009/10                                                                 58.8
+2010/11                                                                 77.6
+2011/12                                                                 69.9
+Lat est Capex Forec ast (Jul. 2009)                                    349.5
+
+Change in Forec ast £m                                                   0.3
+Perc ent age Change                                                    0.1%
+
+T PCR4 Final Proposals Allowanc e                                      347.0
+
+Forec ast over/(under) spend against Allowanc es                         2.5
+Perc ent age Change                                                    0.7%
+
+
+
+2.70. SPTL's current non load related forecast for TPCR4 of £349.5m is 0.7% higher
+than allowance. Previous forecasts for the price control period are similar
+
+
+2.71. Actual cumulative spend to date is above the allowance but investment will
+decrease in 2009/10. Overall SPTL expect to outturn close to the total TPCR4
+allowance. SPTL non load expenditure asset volumes will be broadly in line with
+forecasts made at the time of TPCR4. But increase in commodity prices could lead to
+reduced asset replacement volumes or over spends.
+
+
+
+Office of Gas and Electricity Markets                                             28
+Transmission Annual Report 2008-09                                        April 2010
+
+
+
+
+NGG
+
+
+Table 16 - NGG Load Related Capex Forecast
+                                                                        £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                         819.3
+
+2007/08                                                                  599.9
+2008/09                                                                  177.6
+2009/10                                                                   38.1
+2010/11                                                                   33.3
+2011/12                                                                   24.0
+Lat est Capex Forec ast (Jul. 2009)                                      872.9
+
+Change in Forec ast £m                                                     53.5
+Perc ent age Change                                                       6.5%
+
+T PCR4 Final Proposals Allowanc e                                        594.1
+
+Forec ast over/(under) spend against Allowanc es                          278.8
+Perc ent age Change                                                      46.9%
+
+
+
+
+2.72. NGG's current load related forecast of £872.9m is 46.9% higher than allowance
+and 6.5% above the previous forecast. This is due to the forecast for the Milford
+Haven project being nearly twice the TPCR4 allowance, other load related
+expenditure being lower than the allowances. Expenditure on Milford Haven now
+extending into 2012/13 although at significantly reduced rates. NGG claim that given
+the majority of capex is driven by market signals; capex forecasting and planning are
+volatile.
+
+
+Table 17 - NGG Non Load Related Capex Forecast
+                                                                          £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                           256.2
+
+2007/08                                                                     44.9
+2008/09                                                                     65.1
+2009/10                                                                     82.3
+2010/11                                                                     50.4
+2011/12                                                                     39.4
+Lat est Capex Forec ast (Jul. 2009)                                        282.2
+
+Change in Forec ast £m                                                      25.9
+Perc ent age Change                                                       10.1%
+
+T PCR4 Final Proposals Allowanc e                                          346.9
+
+Forec ast over/(under) spend against Allowanc es                          (64.8)
+Perc ent age Change                                                     - 18.7%
+
+
+
+
+2.73. NGG's current NGG non load related forecast of £282.2m was 18.7% lower
+than allowance and 10.1% above the previous forecast. Emissions capex forecast has
+been reduced and appears to be moved into TPCR5.
+
+
+
+
+Office of Gas and Electricity Markets                                              29
+Transmission Annual Report 2008-09                                               April 2010
+
+
+
+
+Provisional RAV
+
+2.74. In the Final Proposals of the last Transmission Price Control (Ref 206/06) we
+made a commitment to publish updated RAV information (Ref 206/06, December
+2006, TPCR4-FP), Appendix 2 of the Final Proposals (paragraph 1.34) stated “To
+provide greater confidence, we intend to publish updated RAV information on an
+annual basis. This will set out our provisional view of the RAV based upon the
+information obtained under the regulatory reporting regime. Nevertheless, we intend
+to continue to undertake a detailed efficiency review of expenditure at the end of the
+review period which may highlight the need for further adjustments.”
+
+
+2.75. In compiling this report we have not completed a review of the efficiency of
+any capital expenditure schemes. Instead, only the processes and methods have
+been examined and areas of concern identified for consideration in TPCR5. Our
+assessment of RAV is therefore provisional. Table 18 below summarises this
+provisional view.
+
+
+2.76. In estimating this RAV, we have applied the approach identified in the TPCR4
+Final Proposals. The provisional RAV has been rolled forward in accordance with the
+license but this does not, as yet, include all network investment. Certain expenditure
+incurred in 2008/09 will, after review, be included in RAV at a future date. This is
+identified as "capex not yet in the RAV" in for each licensee in Table 19
+
+
+Table 18 Provisional RAV
+                           £m             NGET TO SHETL TO SPT TO Elec Total NGG TO
+RAV b/fwd (in 2007/08 prices)               6,220.0   338.2    819.2 7,377.4   3,755.2
+RPI Inflation of 4.1%                         184.6    10.0     24.3   219.0     111.5
+RAV b‟fwd (in 2008/09 prices)               6,404.6   348.2    843.5 7,596.4   3,866.7
+RAV provisional additions (Table XX)          629.4    51.5    107.0   787.9     234.2
+RAV depreciation                            (453.4)  (19.8)   (73.3) (546.5)   (123.4)
+RAV c‟fwd (at average RPI in 2008/09)       6,580.6   379.9    877.2 7,837.8   3,977.5
+
+RAV c‟fwd (at end year RPI in 2008/09)      6,473.9   373.8    863.0   7,710.7   3,913.0
+
+
+
+2.77. In practice it proved necessary to make specific adjustments to the licensee‟s
+initial estimate of RAV. Further details of these adjustments are provided in Table 19
+below. This table summarises the capex adjustment to submissions from the
+supplied regulatory accounts and segmental analysis. They arise from items excluded
+from the RAV such as interest during construction, related party margins, general
+overheads and non operational capex each of which are discussed further in the
+capitalisation section.
+
+
+
+
+Office of Gas and Electricity Markets                                                      30
+Transmission Annual Report 2008-09                                                         April 2010
+
+
+
+
+Table 19 RAV Adjustments
+                                                                                      Elect.
+                           £m                           NGET TO SHETL TO SPT TO       Total   NGG TO
+Regulatory Accounts Capex                                   848.0   60.7     166.2    1,074.9    373.0
+Deduct:
+ Capitalised Interest                                      (71.4)                       (71.4)    (26.5)
+ Non Operational Capex                                     (12.9)             (2.4)     (15.3)     (2.3)
+ Capitalised Depreciation of Non Operational   Assets                         (2.0)      (2.0)
+ Capitalisation of Corporate / Group costs                           (0.1)    (0.5)      (0.6)
+ Customer Contributions                                    (38.0)             (3.2)     (41.2)     (9.4)
+ Related party margins                                                        (7.0)      (7.0)
+ Excess overheads                                                    (0.3)    (3.3)      (3.6)
+ Scrap sales                                                                               0.0
+Add:
+ Pensions deficit                                           10.3                         10.3
+ Quasi capex                                                 4.9                          4.9
+ West Sole capex (LNG refurbishment)                                                                3.6
+Rounding                                                     1.6                         1.6        1.4
+subtotal                                                   742.5     60.3    147.8     950.6      339.8
+"Capex not yet in Rav":
+Deduct:
+ TIRG                                                      (25.2)    (8.6)   (34.8)     (68.6)
+ Logging up items                                           (8.4)    (0.2)    (6.0)     (14.6)     (7.2)
+ Incremental capex                                                                         0.0    (88.1)
+ Regulatory WIP                                            (78.7)                       (78.7)
+ Stategic Stock                                                                            0.0    (10.3)
+ Strategic WIP (ENSG)                                       (0.8)                        (0.8)
+subtotal                                                 (113.1)    (8.8)    (40.8)   (162.7)    (105.6)
+
+RAV additions after provisional review                     629.4     51.5    107.0     787.9      234.2
+
+Capitalisation Items
+
+
+2.78. There are a number of differences between the expenditure which companies
+treat as capital for the purposes of their published accounts and the expenditure
+which is viewed as appropriate for inclusion in the Regulatory Asset Value. To aid
+transparency we have identified these in Table 19 and they are described below.
+
+
+2.79. National Grid statutory accounts capitalise interest incurred during construction
+whereas the Scottish licensees have not. Because a return is provided on capital
+expenditure as part of the price control it is not appropriate for the RAV to include
+these costs and consequently they are removed.
+
+
+2.80. Non operational capex is expenditure, usually capitalised in statutory accounts,
+which has not been incurred on the operational system of the licensees. This is
+usually on items (such as personal computers and vehicles) which can also be
+supplied as services. The costs of such services are provided for when setting the
+revenue allowance for controllable costs. Such expenditure is therefore not included
+in the RAV.
+
+
+2.81. In some group structures it is possible for charges to the licensee regulated
+business to include items which would not be treated as part of the RAV if they had
+been directly incurred by that business. Examples of this are depreciation on non
+operational expenditure and related party margins.
+
+
+
+Office of Gas and Electricity Markets                                                                 31
+Transmission Annual Report 2008-09                                             April 2010
+
+
+
+
+2.82. The treatment of customer contributions may be in the form of an advance to
+mitigate against future charges. These advances will not form part of the baseline
+revenue allowance and consequently such receipts are deducted from the overall
+expenditure on the RAV.
+
+
+2.83. At this time we have also made an overhead adjustment where the percentage
+of capitalised overheads exceeds that in the base year that was used in setting the
+original allowances at TPCR4. This is a provisional treatment of these costs which we
+will review at the next price control
+
+
+2.84. Where a licensee receives monies from the disposal of operational assets, or
+assets that become surplus to operational requirements or from assets as scrap,
+these receipts are deducted from the RAV to reflect its reduced value.
+
+
+2.85. NGG operate certain LNG facilities to provide gas for sites remote from the NTS
+network (e.g. in Scotland) where it would not be economic to have a pipeline.
+Consequently at TPCR4 it was agreed the refurbishment of these facilities would be
+treated as an allowed addition to the RAV.
+
+
+2.86. There can be capital expenditure on items which are being remunerated via a
+different form to the baseline revenue allowance. This type of expenditure is
+therefore also removed from the RAV although it may become part of the RAV at a
+later date dependent on the form of revenue adjustment. Examples of such "capex
+not yet included in the RAV" include TIRG, Incremental Capex, and Logged up
+expenditure, Regulatory Work In Progress (WIP), and overspends on Milford Haven.
+
+
+Innovation Funding Initiative (IFI)
+
+2.87. The transmission companies have spent a total of £10.2m on IFI projects in
+2008/09 and 80% of such expenditure is allowed up to a cap of 0.5% of turnover or
+£0.5 million whichever is the higher. These are Research and Development projects
+paid for by the licensee and undertaken by external parties (e.g. Universities). The
+table below show the expenditure by licensee. The total cumulative expenditure
+within this price control period is £15.1m, 80% (£12.1m) of which is remunerated
+under the IFI incentive.
+
+
+Table 20 - IFI Costs
+                                                                 Elect.
+               £m                  NGET TO SPT TO     SHETL TO   Total      NGG TO
+
+IFI Expenditure                         7.7     0.1        0.4        8.2       2.0
+80% allowed                             6.2     0.1        0.3        6.5       1.6
+
+
+
+
+Office of Gas and Electricity Markets                                                  32
+Transmission Annual Report 2008-09                                             April 2010
+
+
+
+
+3. Review of System Operator (SO) Performance (in 2008/09
+   prices)
+
+Chapter Summary
+
+This chapter summarises the financial data from the licensees as Transmission
+System Owners. The main areas of concern are: NGET's significant increase in
+incentivised external balancing costs, and NGET and NGG capex forecasts that
+exceed price control allowances.
+
+
+Background
+
+3.1. In this section we have provided an overview of the main components of System
+Operators financial performance in 2008/09 compared to the price control allowances
+converted to this years‟ price level, specifically:
+
+
+   External and Internal Turnover 2008/09
+   Pensions 2008/09
+   Internal Operating Costs in 2008/09,
+   Internal Capital Expenditure in 2008/09,
+   Forecast Internal Capex to 2011/12, and
+   Provisional RAV for 2008/09
+
+Price Control Revenue
+
+National Grid Gas
+
+
+Table 21 - NGG Revenue Summary
+
+(figures in £m)                    2007-08     2008-09   Year on year variance Variance%
+Total Allowed Revenue                 278.28      367.51                 89.23        32%
+Total Actual Revenue                  274.14      342.75                 68.60        25%
+Over / Under Recovery                  -4.13      -24.76                -20.63
+
+
+3.2. NGG SO allowed revenues increased from £278m in 2007/08 to £367.5m in
+2008/09. This is an increase of 32%. The most significant areas of movement were
+in NTS external costs revenue. The main driver for this has been the cost of
+unaccounted-for gas, which increased by £50m in 2008/09 and own-use gas (OUG),
+which cost an additional £19m year on year, despite a decrease in OUG volumes of
+8% .These increased costs were offset to some degree by decreases in the cost of
+operating margin and residual balancing. NGG SO was entitled to recover additional
+revenues via the entry capacity incentive, primarily through the release of entry
+capacity at Milford Haven.
+
+
+3.3. NGG SO under-recovered against the maximum allowed revenue by nearly
+£25m. NGG has explained that this under-recovery was caused by shrinkage gas
+
+
+
+Office of Gas and Electricity Markets                                                  33
+Transmission Annual Report 2008-09                                                                 April 2010
+
+
+
+
+prices which were significantly higher than anticipated and by better than expected
+performance against the SO incentive. If shrinkage gas prices are higher than
+forecast this leads to an under recovery as NGG is allowed to recover the actual cost.
+
+
+3.4. The chart below shows the areas of movement in NGG SO revenues, year on
+year.
+
+
+Figure 21 - NGG Movement in Allowed Revenue
+
+                                  National Grid Gas:
+              Areas of movement in SO allowed revenue 2007-08 to 2008-09
+        120
+
+                                                 +£50.35m     +£4.17m
+        100
+                                                                                         +£89.23
+                                                                            -£9.12m
+        80
+   £m
+
+
+
+
+        60
+                                    +£23.24m
+        40
+                        +£18.93m
+        20
+              +£1.66M
+         0
+                RPI      SO Entry     SO Exit   NTS external NTS internal Adjustment       Total
+                        Incentive   Incentive   cost revenue cost revenue Factor ("K")   allowed
+                        Revenue     Revenue                                              revenue
+
+
+
+
+National Grid Electricity Transmission
+
+
+Table 22 - NGET Revenue Summary
+
+
+(figures in £m)                      2007/08             2008/09   Year on year variance Variance%
+Balancing External                     569.85               907.68                337.82        59%
+Balancing Internal                     112.92                99.32                -13.60       -12%
+The balancing external costs in 2008/09 is the total cost of external balancing
+services, as opposed to the £826m incentivised cost discussed below
+3.5. NGET operates the electricity transmission system in Great Britain. As a part of
+its role as system operator, NGET is required to ensure that generation and demand
+are in balance. It does this through the balancing mechanism, whereby participating
+generation and demand units make bids and offers to NGET to decrease or increase
+generation or demand. For example, if NGET requires more generation at a certain
+point on the network, it will accept an offer from a generator to supply a specified
+quantum of additional power to the network at a price agreed between the two
+parties. NGET also enters into contracts with generation and demand units to provide
+ancillary services, such as to provide for the use of intertrips – systems which
+
+
+
+Office of Gas and Electricity Markets                                                                      34
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+automatically remove generation from the system in the event of failure of a
+transmission circuit.
+
+
+3.6. The costs NGET incurs in performing its system operation duties are recovered
+from the generators and suppliers through the Balancing Services Use of System
+charge and hence they are included in the revenue section of this report.
+
+
+3.7. As in previous years, Ofgem agreed with NGET a scheme designed to provide an
+incentive on the system operator to manage the costs associated with balancing the
+system in 2008/09. Through the scheme, Ofgem sets NGET a cost target for the
+year (the Incentivised Balancing Cost (IBC)). In 2008/09 if NGET incurred costs
+below the IBC, it could receive an incentive payment of up to £15m. Conversely, if
+NGET incurred costs above the IBC, it could be penalised by up to £15m.
+
+
+3.8. In 2008/09, NGET‟s incentivised balancing costs were £826m against the upper
+limit of the target "deadband" of £545m. This means that the IBC was exceeded by
+£281m, and that NGET incurred the maximum penalty of £15m through the incentive
+scheme. At £330m, the cost of bids and offers was more than double the £164m cost
+in 2007/08. The ancillary services contracts increased by £182m to £590m.
+
+
+3.9. The main drivers of NGET‟s increased balancing costs in 2008/09 are:
+
+
+   Margin costs. NGET ensures that there is sufficient system generation available to
+    provide for eventualities such as an unexpected demand increase, or the failure
+    of a generator. The combination of short energy market, lower than anticipated
+    availability of nuclear generation, the introduction of the Large Combustion Plant
+    Directive and a reduction in the number of available commercial service providers
+    had the effect of increasing NGET‟s margin costs. NGET‟s utilisation of expensive
+    oil plant on the balancing mechanism was higher than anticipated.
+
+   Power prices. Power prices increased markedly shortly after the incentive scheme
+    had been agreed with Ofgem. This had a knock-on effect on the cost of bids and
+    offers in the balancing mechanism and on future contract prices.
+
+   Constraints. A constraint occurs where there is insufficient capacity on the
+    transmission system to transmit energy from the point of generation to the point
+    of consumption. The most significant of these on the GB transmission is the
+    „Cheviot‟ constraint in the circuits linking England and Scotland. NGET can resolve
+    constraints by, for example, accepting a bid in the balancing mechanism from a
+    generator located within the constraint to reduce its output and accepting an
+    offer from a generator on the other side of the constraint to reinstate that
+    energy. In 2008-09, the volume of constraints was greater than that expected at
+    the start of the year, owing to an increase in circuit outages. As explained above,
+    high power prices meant that the cost of reinstating margin was higher than
+    anticipated. Output from the Scottish wind farms was also greater than expected.
+
+
+
+
+Office of Gas and Electricity Markets                                                35
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+Total Internal Expenditure
+
+3.10. In this section we have provided an overview of the main components of SO
+financial performance in 2008/09.
+
+
+3.11. Figure 22 below summarises aggregated total industry opex and capex
+expenditure for both electricity and gas system operators comparing current
+expenditure to previous year's and TPCR4 allowances. Total SO outturn expenditure
+was £114.7m, 2.9% above the TPCR4 allowance £111.4m and 5.7% above the
+expenditure incurred in 2007/08 £108.5m.
+
+
+Figure 22 - Total SO Expenditure
+                140.0
+
+                120.0
+
+                100.0
+
+                 80.0
+      £m
+
+
+
+
+                 60.0
+
+                 40.0
+
+                 20.0
+
+                  0.0
+                               Opex        Capex               Total
+      2007_08 Actuals           86.9        19.6               106.5
+      2008_09 Actuals           96.2        20.9               117.0
+      2008_09 Allowance         93.4        18.0               111.4
+
+
+
+3.12. Operational expenditure in 2008/09 was £96.2m, 3.0% above allowances and
+10.7% above the expenditure incurred in 2007/08. Capital expenditure in 2008/09
+was £20.9m, 16.1% above the allowances and 6.6% above the expenditure incurred
+in 2007/08.
+
+
+Total Internal Operating Costs
+
+3.13. Figure 23 below shows the breakdown of total operating costs between
+controllable and non-controllable compared to 2007/08 allowances. Overall, there
+was a 10.7% increase from last year, and a 3.0% overspend on allowance.
+
+
+3.14. NGET have cited the decision to bring the operations of critical systems back
+in-house, the pressing need to enhance capability and resilience of control room staff
+and skilled labour shortage and retention as the main contributors to the increase in
+operating costs.
+
+
+3.15. Critical operations cover control room, data centre infrastructure and IS
+Systems & Networks operations. These previously outsourced services have now
+been brought back in house to ensure service and reliability levels are maintained.
+
+
+Office of Gas and Electricity Markets                                                 36
+Transmission Annual Report 2008-09                                                                 April 2010
+
+
+
+
+Figure 23 - Breakdown of SO Operating Costs
+                    120.0
+
+                    100.0
+
+                     80.0
+   £M
+
+
+
+
+                     60.0
+
+                     40.0
+
+                     20.0
+
+                      0.0
+                            Controllable Operating Costs   Non Controllable costs          Total
+        2007-08 ACTUALS                82.5                         4.4                    86.9
+        2008-09 ACTUALS                91.2                         5.0                    96.2
+        2008-09 ALLOWANCE              80.2                        13.2                    93.4
+
+
+
+Figure 24 - Controllable Opex
+                    60.0
+                    55.0
+                    50.0
+                    45.0
+                    40.0
+                    35.0
+  £M                30.0
+                    25.0
+                    20.0
+                    15.0
+                    10.0
+                     5.0
+                     0.0
+                                              NGET                                  NGG
+        2007-08 ACTUALS                       54.2                                  28.3
+        2008-09 ACTUALS                       59.4                                  31.7
+        2008-09 ALLOWANCE                     53.7                                  26.5
+
+
+
+
+3.16. NGET stated that they are experiencing a shortage of and strong demand for
+skilled power system engineers, and authorised control room staff remains below
+what is considered as to be optimum level required. They have responded to the
+current staff attrition levels by paying market supplements.
+
+
+Pension Costs
+
+3.17. Table 23 below compares pension costs with allowed pension spend. The
+allowances and actual are based on the cash amount paid into the pensions scheme
+rather than the charge shown in the financial statements. The pension numbers
+quoted are provisional and may be subject to re-statement on final agreement with
+Ofgem regarding input data and allocations.
+
+Whilst NGET SO has deficit funding £6.4m higher than assumed this is substantially a
+timing difference since the 2007/08 payment was £4.4m less than assumed in
+TPCR4. The difference to allowed funding will be corrected at subsequent full price
+controls subject to any overspend being determined as efficiently incurred.
+
+
+Office of Gas and Electricity Markets                                                                      37
+Transmission Annual Report 2008-09                                             April 2010
+
+
+
+
+Table 23 - Pension Costs
+
+
+                 Pension costs (£m) - nominal        NGET SO          NGG SO
+                 2008/09
+                 Actual
+                 Ongoing costs                           5.7           4.7
+                 Deficit repair                         19.2           0.7
+                 Total                                  24.9           5.4
+                 Allowances
+                 Ongoing costs                           4.8           5.5
+                 Deficit repair                         12.8           0.2
+                 Total                                  17.6           5.7
+
+
+                 Variance to allowance
+                 Ongoing costs                          0.9           (0.8)
+                 Deficit repair                         6.4            0.5
+                 Total                                  7.4           (0.3)
+
+
+Total Internal Capital Expenditure
+
+Figure 25 - SO Capex (after adjustment for prior year expenditure and
+Xoserve costs)
+                16.0
+
+                14.0
+
+                12.0
+
+                10.0
+      £m
+
+
+
+
+                 8.0
+
+                 6.0
+
+                 4.0
+
+                 2.0
+
+                 0.0
+                                        NGET                   NGG
+     2007_08 Actuals                    9.6                    10.0
+     2008_09 Actuals                    13.8                   7.0
+     2008_09 Allowance                  8.6                    9.5
+
+
+
+
+3.18. NGET capital expenditure 2008/09 was £13.8m, 60.5% above the allowance
+and 43.8% above the expenditure incurred in 2007/08m.
+
+
+3.19. There has been acceleration in critical asset replacement within the Electricity
+National Control Centre (ENCC). Despite this the current level of IT systems
+expenditure is forecast to continue for the rest of TPCR4 and subsequent control
+period.
+
+
+
+
+Office of Gas and Electricity Markets                                                    38
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+3.20. NGG capital expenditure 2008/09 was £7.0m, 26.3% below the allowance and
+30.0% below the expenditure incurred in 2007/08m.
+
+
+Forecast Internal Capital Expenditure
+
+3.21. We also asked the companies to provide us with updated capex forecasts for
+the price control period. Table 24 below compares this with TPCR4 Final Proposals.
+
+
+3.22. Both electricity and gas SO forecast to significantly overspend the total capital
+allowances by 59.5% and 10.5% respectively over the whole price control period.
+National Grid indicated they need to invest more than previously forecast in updating
+and replacing critical systems such as the Balancing Mechanism system to ensure
+reliability and security.
+
+
+Table 24 - NGET Forecast Capex
+                                                                          £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                           82.3
+
+2007/08                                                                     12.9
+2008/09                                                                     14.5
+2009/10                                                                     19.7
+2010/11                                                                     16.0
+2011/12                                                                     15.5
+Less Prior Y ear allowanc e expendit ure                                   (3.9)
+Lat est Capex Forec ast (Jul. 2009)                                         74.7
+
+Change in Forec ast £m                                                      (7.6)
+Perc ent age Change                                                       - 9.2%
+
+T PCR4 Final Proposals Allowanc e                                           46.8
+
+Forec ast over/(under) spend against Allowanc es                            27.9
+Perc ent age Change                                                       59.5%
+
+
+
+
+3.23. Current NGET capex forecast for TPCR4 £74.7m is 59.5% higher than the
+allowance but 9.2% below last years forecast. Capital expenditure going forward is
+significantly above allowance due to upgrading of critical systems which are
+becoming less reliable with dated technological software not being compatible to
+operational market needs.
+
+
+3.24. NGET ESO forecast spend has reduced by £5.2m year on year which has been
+achieved by the re-prioritisation of projects.
+
+
+
+
+Office of Gas and Electricity Markets                                                39
+Transmission Annual Report 2008-09                                              April 2010
+
+
+
+
+Table 25 - NGG Forecast Capex
+                                                                       £m
+Lic ensee's Previous Capex Forec ast (Jul. 2008)                        75.8
+
+2007/08                                                                  10.6
+2008/09                                                                   9.1
+2009/10                                                                  26.0
+2010/11                                                                  17.0
+2011/12                                                                  19.6
+Less Xoserve Expenditure                                               (20.9)
+Latest Capex Forec ast (Jul. 2009)                                       61.4
+
+Change in Forec ast £m                                                (14.4)
+Perc entage Change                                                  - 19.0%
+
+T PCR4 Final Proposals Allowanc e                                       55.6
+
+Forec ast over/(under) spend against Allowanc es                          5.8
+Perc entage Change                                                     10.5%
+
+
+
+
+3.25. Current NGG capex forecast for TPCR4 £61.4m is 10.5% higher than the
+allowance and 19.0% below last years forecast.
+
+
+Provisional RAV
+
+3.26. Table 26 shows the provisional RAV; we have applied the approach identified in
+the SO final proposals.
+
+
+Table 26 - SO RAV
+
+                           £m                NGET SO       NGG SO
+
+RAV b/f                                             49.6        38.7
+RPI Inflation of 4.1%                                2.0         1.6
+RAV provisional additions                           12.5         7.6
+RAV depreciation                                   (9.3)      (13.6)
+RAV c‟fwd                                           54.8        34.3
+
+
+
+
+Office of Gas and Electricity Markets                                                   40
+Transmission Annual Report 2008-09                                     April 2010
+
+
+
+
+Appendices
+
+Index
+
+Appendix         Name of Appendix                                Page Number
+1                Data on individual transmission licensees       42
+2                Responses and Questions                         54
+3                The Authority's Powers and Duties               55
+4                Glossary                                        57
+5                A guide to Return on Regulatory Equity          60
+                 Amendments to Regulatory Reporting Pack (RRP)
+6                                                                61
+                 Tables
+7                Feedback Questionnaire                          62
+
+
+
+
+Office of Gas and Electricity Markets                                          41
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+ Appendix 1 - Data on individual transmission licensees
+
+1.1. This chapter provides a comparison between allowance and actual expenditure
+for each licensee in nominal terms. After each table there is a statement by the
+licensee on their expenditure to provide greater clarity on this aspect.
+
+
+1.2. All the data presented is derived from the information in the regulatory reporting
+packs. These packs are reconciled back to the audited published information
+contained within the Regulatory Accounts and various elements (e.g. Income) have
+also been subject to audit review under agreed upon procedures determined by the
+Authority.
+
+
+1.3. Net debt can include financing for significant network assets that are not as yet
+included the provisional RAV (e.g. logged up costs and revenue driven expenditure).
+This expenditure on "Capex not yet in the RAV" may be capital in nature and has
+been funded by the licensee (potentially with debt) and will, if efficient, attract
+relevant income allowances in the future and may thus be viewed as "shadow RAV".
+Consequently without the adjustment shown the gearing indicated will overstate to
+that extent the percentage relative eventual final RAV.
+
+
+
+
+Office of Gas and Electricity Markets                                                42
+Transmission Annual Report 2008-09                                                                       April 2010
+
+
+
+
+National Grid Electricity Transmission (NGET)
+
+Table 1 - NGET TO
+
+                                                            NGET Transmission - TO
+                                                                                            Timing
+Regulated Income                                            Allowance      Actual         Difference
+                                                                £m          £m                £m
+Final Proposals                                                 1,147.5
+Adjustments from final proposals to lic ense                        2.1
+Differenc e for inc ome spec ific inflation                        (2.6)
+Core Allowanc e                                                 1,147.0      1,162.0             15.0
+Exc luded Servic es                                                             92.9
+Allowed Adjustments                                                             23.9
+Timing Differenc es                                                             (1.6)
+per NGET Regulatory Accounting Statement                                    1,277.2
+
+
+Controllable Opex                                                          Actual
+                                                                            £m
+Ac c ounting Controllable Opex                                                 216.2
+Non operational c apex                                                          12.9
+Total                                                                          229.1
+Net movement in provisions / other adjustments                                  (2.4)
+                                                            Allowance      Actual         Variance
+                                                                £m          £m              £m
+Cash Controllable Opex                                           180.7        226.7            46.0
+
+
+Non Controllable Costs                                                     Actual
+                                                                            £m
+Total                                                                         117.8
+
+
+
+Innovation Funding Incentive (IFI)                                         Actual
+                                                                            £m
+Opex (80% of whic h is allowed)                                                 7.7
+
+
+Logged Up Operating Costs                                                  Actual
+                                                                            £m
+Opex                                                                                -
+
+
+
+                                                                                           Under /
+                                                                                           (Over)
+Pensions                                                    Allowance      Actual         Recovery
+                                                                £m          £m               £m
+Ongoing                                                            15.8         14.4            (1.3)
+Defic it                                                           41.6         63.2            21.6
+Total                                                             57.3         77.6            20.3
+
+
+                                                                                           Pension
+                                                                                           costs in
+Capex (including pensions)                                  Allowance      Actual           actual
+                                                                £m          £m               £m
+Load Related                                                      189.5        331.0              1.7
+Non Load Related                                                  399.3        288.2              1.5
+Pension Defic it                                                   10.3         10.3                 -
+Subtotal                                                          599.1        629.4              3.2
+Capex not yet included in the RAV
+Logged up c apex                                                                 8.4
+Antic ipatory (strategic ) investment                                            0.8
+TIRG                                                                            25.2
+Regulatory WIP                                                                  78.7
+Total                                                                          742.4
+
+Incentivised Capex                                          Allowance      Actual         Variance
+                                                                £m          £m              £m
+Total c apex                                                      599.1        629.4
+Pension defic it                                                  (10.3)       (10.3)
+less revenue driver adjustment                                    (58.0)
+less c apitalised pensions                                         (3.9)        (3.2)
+less net Load related sole use                                    (13.0)       (95.3)
+Total                                                            513.9        520.7              6.7
+
+
+Capex Additions                                                                629.4
+Ofgem Adjustments                                                                     -
+Provisional RAV Additions                                                     629.4
+
+
+Gearing / Interest                                                         Actual
+Interest Costs (£m)                                                            233.3
+Net Debt                                                                     3,731.3
+Provisional RAV (at year end pric e level)                                   6,473.9
+Capex not yet inc luded in the RAV                                             170.3
+Gearing as % of provisional RAV and c apex not yet in RAV                      56.2%
+
+
+System Activities and Performances                                         Actual
+
+Overhead Circ uit km                                                         14,145
+Underground Circ uit km                                                         655
+Measured system maximum demand (GW)                                            53.4
+
+Total direc tly c onnec ted generation (GW)                                     61.3
+Total direc tly c onnec ted wind generation (GW)                                    -
+Total embedded generation (GW)                                                   5.1
+
+Inc entivised loss of supply volume - NGET only (MWh)                             52
+System availability                                                            94.6%
+SF6 leakage rate (tonnes)                                                        9.9
+
+
+
+
+Office of Gas and Electricity Markets                                                                            43
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+Table 2 - NGET SO
+
+                                                 NGET Transmission - SO
+Regulated Income                                  Target       Actual       Variance
+                                                    £m          £m            £m
+External                                              905.5       907.7             2.2
+Internal                                               99.8        99.3            (0.5)
+Balancing Services Use of System Charges            1,005.3     1,007.0             1.7
+Scottish & Hydro Charges                                           289.7
+Other Income                                                       (17.7)
+per NGET Regulatory Accounting Statement                        1,279.0
+
+
+Controllable Opex                                              Actual
+                                                                £m
+Accounting Controllable Opex                                       60.1
+Net movement in provisions / other adjustments                      (0.7)
+                                                 Allowance     Actual       Variance
+                                                     £m         £m            £m
+Cash Controllable Opex                                 53.7        59.4           5.8
+
+
+Logged Up Costs                                                Actual
+                                                                £m
+Operating Costs                                                      0.5
+Capital Expenditure                                                  0.3
+Total                                                                0.8
+
+                                                                             Under /
+                                                                             (Over)
+Pensions                                         Allowance     Actual       Recovery
+                                                     £m         £m             £m
+Ongoing                                                  4.8         5.8           1.0
+Deficit                                                 12.8        18.6           5.8
+                                                       17.6        24.4            6.8
+Total
+                                                 Allowance     Actual       Variance
+SO Capex                                             £m         £m            £m
+                                                        8.6        13.8           5.3
+Total
+                                                               Actual
+Gearing / Interest
+Interest Costs (£m)                                                  1.9
+Net Debt                                                            30.8
+Provisional RAV (at year end price level)                           54.8
+Gearing as % of provisional RAV                                    56.2%
+
+
+
+
+Office of Gas and Electricity Markets                                                      44
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+LICENSEE’S COMMENTS
+
+
+NGET Transportation Owner (TO)
+
+
+1.4. The challenges in 2008/09 have been significantly different to those of 2007/08
+and were dominated by turbulence in global financial markets and the economic
+recession in the UK. National Grid has maintained a flexible approach towards
+investment, asset and system operating strategies in order to respond to changes in
+demand and the re-sequencing of load-related requirements that have resulted.
+
+
+1.5. In 2007/08, National Grid highlighted how it was experiencing significant
+inflationary pressures due to commodity price increases, global economic growth and
+indicated how it intended to manage the effects of such inflation by delaying certain
+investments until prices stabilised. Looking forward, National Grid continues to keep
+the transmission investment plan under review, responding to demand falling back,
+continuing entry connection activity and the potential need for further works
+(including anticipatory/ENSG reinforcements) to maintain the viability of achieving
+the Government‟s targets for 2020 and facilitating a low carbon future.
+
+
+1.6. National Grid‟s overall level of capital investment in 2008/09 was above the level
+of 2007/08 and incentivised Capex was broadly in line with incentive capital
+allowances. In addition circa £80 million has been spent on schemes expected to
+connect after March 2012, bringing the total such investment in the first two years of
+this price control to £125 million.
+
+
+1.7. During 2008/09, the headline ETO opex overspend versus allowances increased
+by £18 million. The „like-for like‟ opex overspend increased more modestly after
+taking into account opex offset by additional revenues; accelerated investment in
+systems; exceptional costs; and atypical energy costs.
+
+
+NGET System Operator (SO)
+
+
+1.8. 2008/09 witnessed a step up in both investment in and operational support for
+critical operating systems. ESO controllable costs increased by £8m to £60m
+primarily as a result of the decision to increase and enhance the level of IS support
+for and resilience of critical operating systems and to increase the capability and
+resilience of control room staff.
+
+
+1.9. Like for like, ESO Capex investment during 2008/09 was £5m higher than the
+£9m allowance as a result of the decision to accelerate critical asset replacement
+schemes such as the Integrated Electricity Management System (iEMS) and
+Balancing Mechanism (BM) asset upgrades as well as the associated property power
+supply upgrades.
+
+
+
+
+Office of Gas and Electricity Markets                                                   45
+Transmission Annual Report 2008-09                                                                            April 2010
+
+
+
+
+Scottish Hydro Electricity Transmission (SHETL)
+
+Table 3 - SHETL TO
+
+                                                                                     SHETL
+                                                                                                Timing
+Regulated Income                                                      Allowance      Actual   Difference
+                                                                          £m          £m          £m
+Base Pric e Control                                                           54.8       54.8
+Differenc e for inc ome spec ific inflation                                    0.1
+Under / Over Rec overy (Current Year)                                                     1.9
+                                                                              54.9       56.6           1.7
+Exc luded Servic es                                                                       1.7
+Allowed Adjustments                                                                       0.7
+Timing Differenc es                                                                       2.0
+Total Regulatory Turnover                                                                61.0
+
+Controllable Opex                                                                    Actual
+                                                                                      £m
+Ac c ounting Controllable Opex                                                            5.6
+Non operational c apex                                                                    0.0
+Total                                                                                     5.6
+Net movement in provisions / other adjustments                                            0.4
+                                                                      Allowance      Actual      Variance
+                                                                          £m          £m           £m
+Cash Controllable Opex                                                        6.5         6.0          0.5
+
+Non Controllable Costs                                                               Actual
+
+Network Rates                                                                              3.7
+
+Innovation Funding Incentive (IFI)                                                   Actual
+                                                                                      £m
+Opex (80% of whic h is allowed)                                                           0.4
+
+Logged Up Operating Costs                                                            Actual
+                                                                                      £m
+Opex                                                                                      0.0
+
+                                                                                                  Under /
+                                                                                                  (Over)
+Pensions                                                              Allowance      Actual      Recovery
+                                                                          £m          £m            £m
+Ongoing Costs                                                                 1.8         1.2           0.6
+
+                                                                                               Pensions
+                                                                                              included in
+Capex (including pensions)                                            Allowance      Actual      actual
+                                                                          £m          £m          £m
+Load Related                                                                  24.4       35.1          0.4
+Non Load Related                                                              15.8       16.8          0.2
+Subtotal                                                                      40.2       51.9          0.6
+Capex Not yet Included in RAV
+Logged up c apex                                                                          0.2
+TIRG                                                                                      8.6
+Total                                                                                    60.7
+
+Incentivised Capex                                                    Allowance      Actual      Variance
+                                                                          £m          £m           £m
+Total c apex                                                                  40.2        51.9
+less c apitalised pensions                                                   (0.9)       (0.6)
+Less net Load related sole use                                               (2.9)       (6.7)
+Total                                                                        36.3        44.6         (8.3)
+
+Additions                                                                                 51.9
+Ofgem Adjustments                                                                        (0.4)
+Provisional RAV Additions                                                                51.5
+
+Gearing / Interest (From Debt table)                                                 Actual
+Interest Costs (£m)                                                                        7.9
+Net Debt                                                                                 158.1
+Provisional RAV (at year end)                                                            373.7
+Capex not yet inc luded in RAV                                                             9.3
+Gearing as % of provisional RAV and c apex not yet inc luded in RAV                     41.3%
+
+System Activities and Performances                                                   Actual
+Overhead Circ uit km                                                                    5,225
+Underground Circ uit km                                                                     73
+Measured system maximum demand (GW)                                                       1.6
+Total direc tly c onnec ted generation (GW)                                               2.8
+Total direc tly c onnec ted wind generation (GW)                                          0.2
+Total embedded generation (GW)                                                            1.2
+
+Number of inc entivised loss of sypply events (#)                                            7
+System availability                                                                     96.7%
+SF6 leakage mass (Kg)                                                                     88.0
+
+
+
+
+Office of Gas and Electricity Markets                                                                                 46
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+LICENSEE’S COMMENTS
+
+
+Operational Expenditure
+
+
+1.10. SHETL has continued to tightly & rigorously control the level of operating costs
+within the business and this along with the impact on operating costs of the delays in
+developer related capex schemes in 2007/08 has resulted in an underspend of £0.9M
+in cash controllable Opex costs against the OFGEM allowance.
+
+
+
+Capital Expenditure
+
+
+1.11. In 2008/09 SHETL continued to increase capital expenditure in line with the
+TPCR4 agreed OFGEM allowances. Overall, price control capital expenditure has risen
+by £8.3M in the year.
+
+
+1.12. Load related expenditure was higher than allowance recovering delays from the
+previous year associated with a number of developer related schemes. Load related
+expenditure has increased by £6.2M in the year. Notable schemes in the year
+included;
+
+
+Glendoe hydro electric power station infrastructure works
+Tealing 132kV switchgear replacement
+Tealing Static Var Compensator (SVC)
+
+
+1.13. Non-Load related expenditure was lower than annual allowance but is in line
+with the overall TPCR4 allowance. Non-Load related expenditure has increased by
+£2.1M. notable schemes in the year included;
+
+
+Dundee city 132kV cables (MD1/MD2) replacement
+275kV GA10 switchgear replacement
+Strichen Grid Supply Point transformer replacement
+
+
+
+
+Office of Gas and Electricity Markets                                               47
+Transmission Annual Report 2008-09                                                                   April 2010
+
+
+
+
+Scottish Power Transmission (SPT)
+
+Table 4 - SPT
+                                                                       SPTL
+                                                                                        Timing
+Regulated Income                                       Allowance       Actual         Difference
+                                                           £m           £m                £m
+Base Pric e Control                                           171.6        171.7
+Differenc e for inc ome spec ific inflation                     0.2
+Under / Over Rec overy (Current Year)                                         0.3
+                                                              171.8         172.0              0.2
+Exc luded Servic es                                                           2.1
+Allowed Adjustment                                                            8.2
+Timing Differenc es                                                           0.2
+Total Regulatory Turnover                                                  182.5
+
+Controllable Opex                                                      Actual
+                                                                        £m
+Ac c ounting Controllable Opex                                              11.5
+Non operational c apex                                                        2.4
+Total                                                                       13.9
+Adjustment to c apitalisation (to be rec alc ulated)                          5.8
+                                                       Allowance       Actual         Variance
+                                                           £m           £m              £m
+Cash Controllable Opex                                        17.9          19.7            (1.8)
+
+Non Controllable Costs                                                 Actual
+                                                                        £m
+Network Rates                                                               13.9
+
+Inovation Funding Incentive                                            Actual
+                                                                        £m
+Opex (80% of whic h is allowed)                                                 0.1
+
+Logged Up Operating Costs                                              Actual
+                                                                        £m
+Opex                                                                            0.0
+
+                                                                                       Under /
+                                                                                       (Over)
+Pensions                                               Allowance       Actual         Recovery
+                                                           £m           £m               £m
+Ongoing Costs                                                  1.5              1.1           0.3
+
+
+                                                                                       Pension
+                                                                                       costs in
+Capex (including pensions)                             Allowance       Actual           Actual
+                                                           £m           £m               £m
+Load Related                                                  51.7          46.5               0.5
+Non Load Related                                              69.1          73.3               0.8
+Subtotal                                                     120.8         119.8               1.3
+Capex Not Yet Included in RAV
+Logged up c apex                                                              6.0
+TIRG                                                                         34.8
+Total                                                                       160.6
+
+Incentivised Capex                                     Allowance       Actual         Variance
+                                                           £m           £m              £m
+Total c apex                                                  120.8         119.8
+less c apitalised pensions                                     (0.9)         (1.3)
+Less net Load related sole use                                 (8.7)         (9.4)
+Total                                                        111.2         109.1              2.1
+
+Additions                                                                   119.8
+Ofgem Adjustments                                                          (12.8)
+Provisional RAV Additions                                                  107.0
+
+Gearing / Interest (From Debt table)                                   Actual
+Interest Costs (£m)                                                          24.3
+Net Debt                                                                    410.0
+Provisional RAV ( at year end)                                              862.6
+Capex not Yet inc luded in RAV                                               75.2
+Gearing as % of provisional RAV and Capex net yet inc luded in RAV         43.7%
+
+System Activities and Performances                                     Actual
+Overhead Circ uit km                                                       3,754
+Underground Circ uit km                                                       288
+
+Measured system maximum demand (GW)                                             4.1
+
+Total direc tly c onnec ted generation (GW)                                     7.5
+Total direc tly c onnec ted wind generation (GW)                                0.6
+Total embedded generation (GW)                                                  0.8
+
+Number of inc entivised loss of sypply events (#)                               6
+System availability                                                        92.7%
+SF6 Leakage Mass (Kg)                                                       774.0
+
+
+
+
+Office of Gas and Electricity Markets                                                                        48
+Transmission Annual Report 2008-09                                            April 2010
+
+
+
+
+LICENSEE’S COMMENTS
+
+
+Revenue
+1.14. Revenue of £182.5m received by SP Transmission Ltd in 2008/09 is in line with
+allowed revenue as prescribed in our Licence.
+
+
+Controllable Opex
+1.15. Cash controllable opex costs were £1.8m above allowance for 2008/09 due to
+Ofgem adjustments to overheads; our performance against allowance is negatively
+impacted by Ofgem‟s capitalisation adjustment of £3.3m.
+
+
+Capital Investment
+1.16. Notwithstanding the impact of the challenging economic climate and the
+availability of finance, SP Transmission recorded its highest ever level of capital
+investment during 2008/09.
+
+
+1.17. Investment to provide new capacity for generation increased by over 75%
+compared to 2007/08 as a number of large wind farms and associated reinforcement
+works entered the main construction phase. Dunlaw, Toddleburn and Crystal Rig
+windfarms were connected during the year and major works were undertaken at
+Markshill, Dunlaw and on „P‟ route 132kV overhead line to facilitate renewable
+generation. There does, however, continue to be delays to projects caused by
+planning consent issues and system design changes required to accommodate
+revised customer requirements.
+
+
+1.18. Investment to replace ageing and poor condition assets has continued at record
+levels and is ahead of OFGEM‟s allowance for the first two years.
+
+
+Interest
+1.19. The interest expense for the year was £5.3m lower than the prior year,
+primarily due to the reduction in debt, following the issue of £191 million ordinary
+shares.
+
+
+System Activities and Performance
+1.20. System availability continues to be lower than the historical average. This is
+mainly attributable to a higher level of planned outages, which predominantly take
+place outside the winter period. These are planned outages necessary to deliver our
+commitments to customers for new connections, strategic reinforcement associated
+with Government renewables targets and the asset modernisation programme.
+
+
+1.21. During 2008/09 there were six „incentivised loss-of-supply incidents‟ on the
+transmission network, which is slightly better than the long-term average number for
+this type of incident.
+
+
+
+
+Office of Gas and Electricity Markets                                                  49
+Transmission Annual Report 2008-09                                                                        April 2010
+
+
+
+
+National Grid Gas (NGG)
+
+Table 5 - NGG TO
+                                                                       NGG - NTS TO
+
+                                                                                             Timing
+Regulated Income                                                Allowance     Actual       Difference
+                                                                    £m         £m              £m
+Final Proposals                                                       556.2
+Adjustments from final proposals to lic ense                            6.1
+Differenc e for inc ome spec ific inflation                             0.8
+Maximum allowed revenue                                               563.1       538.1          (25.0)
+NTS Exit Charges foregone                                                         (57.8)
+Elimination of DN Pensions Defic it & Other Adjustments                           (28.5)
+Other Inc ome                                                                         -
+per NGG Regulatory Accounting Statement                                          451.8
+
+
+Controllable Opex                                                             Actual
+                                                                               £m
+Ac c ounting Controllable Opex                                                    64.2
+Non operational c apex                                                              2.3
+Total                                                                             66.5
+Net movement in provisions / Other adjustments                                     (0.1)
+                                                                Allowance     Actual       Variance
+                                                                    £m         £m            £m
+Cash Controllable Costs                                               66.4        66.4           (0.0)
+
+
+Non Controllable Costs                                                        Actual
+                                                                               £m
+Total                                                                            106.4
+
+
+Inovation Funding Initiative (IFI)                                            Actual
+                                                                               £m
+Opex (80% of which is allowed)                                                     2.0
+
+
+Logged Up Operating Costs                                                     Actual
+                                                                               £m
+Opex                                                                              14.0
+
+
+
+                                                                                            Under /
+                                                                                            (Over)
+Pensions                                                        Allowance     Actual       Recovery
+                                                                    £m         £m             £m
+Ongoing                                                                12.2         9.0          (3.2)
+Defic it                                                               29.8       178.0         148.2
+                                                                       42.0       187.0         144.9
+Ongoing (under rec overy in 2002 - 07)                                  4.8            -           N/A
+Total                                                                 46.8       187.0         144.9
+
+
+                                                                                            Pension
+                                                                                            Costs in
+Capex (including pensions)                                      Allowance     Actual         actual
+                                                                    £m         £m             £m
+Load Related                                                          164.6       181.2            0.9
+Non Load Related                                                       78.4        66.7            0.3
+Subtotal                                                             243.0       247.9             1.2
+Capex Not Yet Included in RAV
+Inc remental Capex                                                                 88.0
+Logged Up Costs                                                                     7.3
+Strategic Stoc k                                                                   10.3
+Total                                                                             353.5
+
+
+Incentivised Capex                                              Allowance     Actual       Variance
+                                                                    £m         £m            £m
+Total Capex                                                           243.0       247.9
+Ofgem Adjustment                                                                  (13.8)
+Total Capex                                                          243.0        234.1           (8.9)
+
+
+Additions                                                                         247.9
+Ofgem Adjustments (deferred for c onsideration)                                   (13.8)
+Provisional RAV additions                                                        234.1
+
+
+Gearing / Interest                                                            Actual
+Interest Costs                                                                    147.8
+Net Debt                                                                        2,488.2
+Provisional RAV (at year end pric e level)                                      3,913.0
+Capex not yet in the RAV                                                          100.6
+Gearing as % of provisional RAV and c apex not yet in the RAV                       62%
+
+
+System Activities and Performances                                            Actual
+NTS Length Km                                                                     7,612
+Installed Compressor Power (MW)                                                   1,276
+
+
+
+
+Office of Gas and Electricity Markets                                                                             50
+Transmission Annual Report 2008-09                                                                 April 2010
+
+
+
+
+Table 6 - NGG SO
+                                                                      NGG - NTS SO
+Regulated Income                                                Target      Actual         Variance
+                                                                 £m          £m              £m
+Core Allowance                                                      367.5       342.7           (24.8)
+Balancing neutrality charges                                                     (1.4)
+Capacity Management costs                                                        (1.2)
+GSO Provision re Deemed Interruptible Charges Foregone error                    (10.7)
+per NGG Regulatory Accounting Statement                                        329.4
+
+
+Controllable Opex                                                           Actual
+                                                                             £m
+Accounting Controllable Opex                                                    32.1
+Net movement in provisions                                                       (0.4)
+                                                               Allowance    Actual         Variance
+                                                                   £m        £m              £m
+Cash Controllable Costs                                              26.5       31.7              5.2
+
+
+Non Controllable Costs                                                      Actual
+                                                                             £m
+Agency Costs (xoserve)                                                            6.9
+
+
+Logged Up Costs                                                             Actual
+                                                                             £m
+Total                                                                                  -
+
+                                                                                            Under /
+                                                                                            (Over)
+Pensions                                                       Allowance    Actual         Recovery
+                                                                   £m        £m               £m
+Ongoing                                                               5.5         4.7            (0.8)
+Deficit                                                               0.2         0.7             0.5
+                                                                      5.7         5.4            (0.3)
+Ongoing (under recovery in 2002 - 07)                                 2.1            -             N/A
+Total                                                                 7.9        5.4            (0.3)
+
+
+SO Capex                                                       Allowance    Actual         Variance
+
+Total                                                                 9.5        7.0             (2.4)
+
+
+Gearing / Interest                                                          Actual
+
+Interest Costs                                                                    1.4
+Net Debt                                                                         24.7
+Provisional RAV (at year end price level)                                        34.3
+Gearing as % of provisional RAV                                                   72%
+
+
+
+
+Office of Gas and Electricity Markets                                                                      51
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+
+LICENSEE’S COMMENTS
+
+
+NGG Transmission Owner (TO)
+
+
+1.22. The challenges in 2008/09 were significantly different to those of 2007/08 and
+were dominated by the impact of changes to the UK security of supply
+arrangements, turbulence in the global financial markets and economic recession in
+the UK. The economic instability led to changes in terms of demand-side response
+(to higher energy prices and recessionary pressures), lower growth in energy
+demand and reappraisal of supplyside investment decisions by energy sector
+investors.
+
+
+1.23. As part of the 2007/08 RRP narrative, National Grid highlighted how it had
+experienced significant inflationary pressures due to commodity price increases,
+global economic growth and increased competition for UK construction resources.
+These global economic drivers impacted the level of construction in 2008/09, which
+were largely determined in advance and reflect the impact of the aforementioned
+2007/08 real inflationary pressures.
+
+
+1.24. 2008/09 saw significant changes to UK security of supply arrangements. As a
+result, the gas National Transmission System (NTS) has become increasingly
+complex and inherently more difficult to operate as new entry points and sources of
+supply are commissioned. In response to market signals, National Grid continues to
+fast-track wherever possible the delivery and commissioning of new NTS capacity,
+connections and associated reinforcements necessary to ensure the continued safe
+operation of the NTS. National Grid has continued to manage the impact of delays in
+the completion of new gas importation capacity and storage facilities.
+
+
+1.25. National Grid endeavours to minimise the consequential impact of delays in
+obtaining the necessary planning consents upon both customer and consumer costs
+and benefits. Experience of working with the new planning act has demonstrated that
+the difficulty and cost in gaining planning consent for pipelines and particularly above
+ground installations has markedly increased for future schemes. Whilst the Planning
+Act will increase costs, it should however provide greater certainty on timescales and
+diligent application of process.
+
+
+1.26. In summary, National Grid continues to pro-actively manage the impact of
+rapidly changing economic conditions and the onset of the more fundamental
+changes taking place within the UK energy sector i.e. undertaking the changes
+necessary to ensure the continued safe and secure operation and development of
+energy transmission systems (in response to changing consumer demand patterns,
+customer and governmental requirements) whilst helping to facilitate the
+decarbonisation of the UK energy sector and achievement of climate change targets.
+
+
+
+
+Office of Gas and Electricity Markets                                                52
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+
+NGG System Operator (SO)
+
+
+1.27. 2008/09 witnessed a step up in investment in and operational support for
+critical operating systems. The result of this was that GSO controllable costs
+increased as a result of management‟s decision to increase the level of IS support
+and enhance the resilience of critical operating systems. In addition electricity own
+use costs were high due to prevailing market conditions.
+
+
+1.28. Operationally Winter 2008/09 was dominated by the Russia-Ukraine dispute
+which impacted the UK by stimulating significant export flows to the continent as
+shippers sought to manage their positions across UK and European markets. This
+coincided with a period of very cold weather in early January which required
+significant flows from UK storage to meet the high demands. This presented
+significant operational challenges which were successfully met through the
+deployment of the available suite of operational and commercial balancing tools,
+many being used for the only the first or second time. Experiences from this event
+were captured and reviewed with industry and Government. This resulted in a
+number of changes, including the introduction of new Safety Monitor / Gas Balancing
+Alert information, together with a corresponding refinement in the way that Safety
+Monitors are calculated.
+
+
+
+
+Office of Gas and Electricity Markets                                                   53
+Transmission Annual Report 2008-09                                       April 2010
+
+
+
+
+ Appendix 2 - Responses and Questions
+
+
+We welcome views on the information published in this report. Please send your
+comments to:
+
+
+
+Martin Rodgers
+Head of Network Business Support, Networks Cost and Outputs Team,
+Local Grids and RPI-X@20
+Ofgem
+9 Millbank
+London
+SW1P 3GE
+Email: martin.rodgers@ofgem.gov.uk
+
+
+
+
+Office of Gas and Electricity Markets                                            54
+Transmission Annual Report 2008-09                                                     April 2010
+
+
+
+
+    Appendix 3 – The Authority‟s Powers and Duties
+
+1.1. Ofgem is the Office of Gas and Electricity Markets which supports the Gas and
+Electricity Markets Authority (“the Authority”), the regulator of the gas and electricity
+industries in Great Britain. This Appendix summarises the primary powers and duties
+of the Authority. It is not comprehensive and is not a substitute to reference to the
+relevant legal instruments (including, but not limited to, those referred to below).
+
+
+1.2. The Authority's powers and duties are largely provided for in statute, principally
+the Gas Act 1986, the Electricity Act 1989, the Utilities Act 2000, the Competition Act
+1998, the Enterprise Act 2002 and the Energy Act 2004, as well as arising from
+directly effective European Community legislation. References to the Gas Act and the
+Electricity Act in this Appendix are to Part 1 of each of those Acts.1
+
+
+1.3. Duties and functions relating to gas are set out in the Gas Act and those relating
+to electricity are set out in the Electricity Act. This Appendix must be read
+accordingly2.
+
+
+1.4. The Authority‟s principal objective when carrying out certain of its functions
+under each of the Gas Act and the Electricity Act is to protect the interests of
+consumers, present and future, wherever appropriate by promoting effective
+competition between persons engaged in, or in commercial activities connected with,
+the shipping, transportation or supply of gas conveyed through pipes, and the
+generation, transmission, distribution or supply of electricity or the provision or use
+of electricity interconnectors.
+
+
+1.5. The Authority must when carrying out those functions have regard to:
+
+
+    The need to secure that, so far as it is economical to meet them, all reasonable
+     demands in Great Britain for gas conveyed through pipes are met;
+    The need to secure that all reasonable demands for electricity are met;
+    The need to secure that licence holders are able to finance the activities which
+     are the subject of obligations on them 3; and
+    The interests of individuals who are disabled or chronically sick, of pensionable
+     age, with low incomes, or residing in rural areas. 4
+
+
+1.6. Subject to the above, the Authority is required to carry out the functions
+referred to in the manner which it considers is best calculated to:
+
+
+1
+  entitled “Gas Supply” and “Electricity Supply” respectively.
+2
+  However, in exercising a function under the Electricity Act the Authority may have regard to
+the interests of consumers in relation to gas conveyed through pipes and vice versa in the
+case of it exercising a function under the Gas Act.
+3
+  under the Gas Act and the Utilities Act, in the case of Gas Act functions, or the Electricity Act,
+the Utilities Act and certain parts of the Energy Act in the case of Electricity Act functions.
+4
+  The Authority may have regard to other descriptions of consumers.
+
+
+Office of Gas and Electricity Markets                                                            55
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+     Promote efficiency and economy on the part of those licensed 5 under the relevant
+      Act and the efficient use of gas conveyed through pipes and electricity conveyed
+      by distribution systems or transmission systems;
+     Protect the public from dangers arising from the conveyance of gas through pipes
+      or the use of gas conveyed through pipes and from the generation, transmission,
+      distribution or supply of electricity;
+     Contribute to the achievement of sustainable development; and
+     Secure a diverse and viable long-term energy supply.
+
+
+1.7. In carrying out the functions referred to, the Authority must also have regard,
+to:
+
+
+     The effect on the environment of activities connected with the conveyance of gas
+      through pipes or with the generation, transmission, distribution or supply of
+      electricity;
+     The principles under which regulatory activities should be transparent,
+      accountable, proportionate, consistent and targeted only at cases in which action
+      is needed and any other principles that appear to it to represent the best
+      regulatory practice; and
+     Certain statutory guidance on social and environmental matters issued by the
+      Secretary of State.
+
+
+1.8. The Authority has powers under the Competition Act to investigate suspected
+anti-competitive activity and take action for breaches of the prohibitions in the
+legislation in respect of the gas and electricity sectors in Great Britain and is a
+designated National Competition Authority under the EC Modernisation Regulation 6
+and therefore part of the European Competition Network. The Authority also has
+concurrent powers with the Office of Fair Trading in respect of market investigation
+references to the Competition Commission.
+
+
+
+
+5
+    or persons authorised by exemptions to carry on any activity.
+6
+    Council Regulation (EC) 1/2003
+
+
+Office of Gas and Electricity Markets                                                  56
+Transmission Annual Report 2008-09                                           April 2010
+
+
+
+
+ Appendix 4 - Glossary
+
+B
+
+Baseline
+
+Baselines define the reference levels of capacity that the transmission licensee is to
+release. Baselines also determine the levels above (or below) which incremental
+capacity is defined.
+
+Baseline Capital Expenditure
+
+Baseline capital expenditure is the total amount of capex required in association with
+the baseline. It includes both load related capex and non-related capex.
+
+BT21st Century
+BT's consolidation of its telecoms network sometime in the future onto one platform;
+this may mean that some tele-protection services used by TOs will be incompatible
+with the new platform. Hence TOs may be required to replace tele-protection lines.
+
+
+C
+
+Cash Controllable Costs
+
+Excludes exceptional provisions (e.g. restructuring costs), and the net movement in
+provisions but includes the "non operational" capital expenditure which has been
+excluded from the assessment of RAV.
+
+I
+
+Incentivised loss-of-supply incidents
+
+Incidents on the transmission network which impact 4 or more customers, these
+incidents typically occur on the main backbone of our interconnected transmission
+network.
+
+
+L
+
+Load Related Capex
+
+The installation of new assets to accommodate changes in the level or pattern of
+electricity or gas supply and demand
+
+
+
+
+Office of Gas and Electricity Markets                                                    57
+Transmission Annual Report 2008-09                                             April 2010
+
+
+
+
+N
+
+Non controllable costs
+
+Costs not within the direct control of the licensee and allowed to be passed on to the
+customer. These include network rates, license fees, security costs, Scottish
+Independent Undertakings price differential and xoserve TO costs.
+
+Non-Load Related capex
+
+The replacement or refurbishment of assets which are either at their useful life due
+to their age or condition, or need to be replaced on safety or environmental grounds.
+
+Non operational capex
+
+Capital expenditure on items other than the operational system e.g. personal
+computers, vehicles.
+
+Q
+
+Quasi Capex
+
+Operating costs that are treated as operating costs in the regulatory and statutory
+accounts, but are reported as capex for regulatory reporting purpose.
+
+R
+
+Regulatory Asset Value (RAV)
+
+The value ascribed by Ofgem to the capital employed in the licensee‟s regulated
+transmission or (as the case may be) distribution business (the „regulated asset
+base‟). The RAV is calculated by summing an estimate of the initial market value of
+each licensee‟s regulated asset base at privatisation and all subsequent allowed
+additions to it at historical cost, and deducting annual depreciation amounts
+calculated in accordance with established regulatory methods. These vary between
+classes of licensee. A deduction is also made in certain cases to reflect the value
+realised from the disposal of assets comprised in the regulatory asset base. The RAV
+is indexed to RPI in order to allow for the effects of inflation on the licensee‟s capital
+stock. The revenues licensees are allowed to earn under their price controls include
+allowances for the regulatory depreciation and also for the return investors are
+estimated to require to provide the capital.
+
+Return on Regulatory Equity (RoRE)
+
+The financial return achieved by shareholders in a licensee during a price control
+period from it‟s out-turn performance under the price control. The return is
+measured using income and cost definitions contained in the price control regime (as
+opposed to accounting conventions) and is expressed as a percentage of (share)
+equity in the business. Importantly, in the calculation the gearing (proportions of
+share equity and debt financing in the RAV) and cost of debt figures used are those
+given as the „assumed‟ levels in the relevant price control final proposals. The aim of
+
+
+Office of Gas and Electricity Markets                                                   58
+Transmission Annual Report 2008-09                                         April 2010
+
+
+
+
+the RORE measure is to provide an indication of the return achieved by the owners of
+a licensee which can be compared to the cost of equity originally allowed in the price
+control settlement and to the return achieved by other licensees on an equivalent
+basis.
+
+
+S
+
+System Operations - External costs
+
+The costs incurred in real time system balancing, matching of electricity and gas
+demand and supply, ensuring the stability and security the system.
+
+System Operations - Internal costs
+
+The provision of staff and IT systems to enable system operations to take place.
+
+
+
+
+Office of Gas and Electricity Markets                                               59
+Transmission Annual Report 2008-09                                          April 2010
+
+
+
+
+ Appendix 5 - A guide to Return on Regulatory Equity
+1.1. Historically, the debate during a price control review has focused heavily on the
+level of the allowed return, even within a relatively narrow range. It is
+understandable that this number is of interest, particularly among analysts, as it
+constitutes a significant element of the overall revenue cap for regulated companies.
+Furthermore, it is a single figure rather than a complex incentive mechanism and its
+outperformance can be readily demonstrated in the capital markets.
+
+
+1.2. However, we believe that an excessive focus on the allowed return means that
+the impact of other elements of the price control can be overlooked even though
+they are potentially of a greater magnitude. We have therefore developed a tool to
+holistically measure the performance of the companies under the control – by
+measuring returns on regulatory equity over the five year period.
+
+
+1.3. When calculating RoRE, we are not attempting to be consistent with accounting
+return on equity metrics. We do, however, think it is important that companies,
+investors, analysts and other interested parties understand the basis of our
+calculations and also why actual shareholder returns differ from those presented in
+our analysis. We do not, for example, take account of a company‟s capital structure
+nor analyse the cost of its embedded debt, both of which would likely impact actual
+returns. Furthermore, we have only made adjustments for what we consider to be
+meaningful variances from an assumed baseline. We recognise that there may be
+other factors that can affect actual shareholder returns. In our analysis we consider
+variances in returns from: cost expenditure, pensions, tax, incentives and the cost of
+debt. For the latter, we measure the difference between our allowance and a
+benchmark based on actual 10 year trailing average bond yields for a comfortable
+investment grade issuer. This allows a like for like comparison between Transmission
+Owners.
+
+
+1.4. When measuring RoRE, we initially calculate a value for the equity component of
+the Regulatory Asset Value (RAV) by applying our notional gearing assumption of
+60%. Secondly, the starting point is always the allowed return on equity implied
+within the cost of capital determination for the price control 7%. We then express
+variances between out-turned expenditure versus our ex ante determinations as a
+percentage of the equity capital for each relevant driver. These are then added or
+subtracted from the baseline equity return. In calculating the RoRE we apply any
+necessary adjustments, for example – corporation tax and for variances in total
+expenditure.
+
+
+
+
+Office of Gas and Electricity Markets                                                60
+Transmission Annual Report 2008-09                                        April 2010
+
+
+
+
+ Appendix 6 - Amendments to Regulatory Reporting Pack
+   (RRP) Tables
+
+Ofgem propose making a few minor amendments to the RRP tables in 2009/10 to
+address points that have arisen during the course of the RRP review. These will be
+developed over the next few months. We would welcome views on any additional
+changes that would be appropriate.
+
+
+
+
+Office of Gas and Electricity Markets                                                61
+                                                                                         Appendices
+
+
+Transmission Cost Review 2008-09                                               XX 2010
+
+
+
+
+ Appendix 7 - Feedback Questionnaire
+
+1.1. Ofgem considers that consultation is at the heart of good policy development.
+We are keen to consider any comments or complaints about the manner in which this
+consultation has been conducted. In any case we would be keen to get your
+answers to the following questions:
+
+
+   Does the report adequately reflect your views? If not, why not?
+   Does the report offer a clear explanation as to why not all the views offered had
+    been taken forward?
+   Did the report offer a clear explanation and justification for the decision? If not,
+    how could this information have been better presented?
+   Do you have any comments about the overall tone and content of the report?
+   Was the report easy to read and understand, could it have been better written?
+   Please add any further comments?
+
+
+1.2. Please send your comments to:
+
+
+Andrew MacFaul
+Consultation Co-ordinator
+Ofgem
+9 Millbank
+London
+SW1P 3GE
+andrew.macfaul@ofgem.gov.uk
+
+
+
+
+Office of Gas and Electricity Markets                                                62
+

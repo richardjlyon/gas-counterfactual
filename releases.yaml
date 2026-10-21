@@ -1,0 +1,121 @@
+{
+ "_comment": "Engine releases. One row per version; once listed, the run file and the clock export are immutable (tests/test_releases.py checks every sha256). Cut with `python -m gascf.release`.",
+ "releases": [
+  {
+   "version": "v4-s32",
+   "date": "2026-10-14",
+   "commit": "0fd133792dc4558be5d747a52ed940ecdbad6347",
+   "run_commit": "e0bfd735d4f0e1ba43b0bfbafb52dd11043bba64",
+   "run_file": "out/v4/2026-10-13.json",
+   "run_sha256": "9b8ac97a3bb2f19e8b6a01d789b66ac9f449735b8f751faa21aaf6d3fc560260",
+   "clock_export_file": "out/clock/v4-s32.json",
+   "clock_export_sha256": "199350495e3f4e78794bf9a3f9e99ae8f946e2c6efcde72e50ed88bc160b6135",
+   "note": "s32 run of 13 Oct 2026 (CM rule NZ5, spec §5.4). First release: the Clock's CM net-zero share (as hand-copied into subsidy-clock reference/capacity_market_netzero_share.yaml, e0bfd735/9b8ac97a) plus the engine's G0/B0 2002-05 baselines for the Clock's TNUoS/BSUoS lines."
+  },
+  {
+   "version": "v4-s33",
+   "date": "2026-10-14",
+   "commit": "20b7bba7174783553a9f6f7f03c1c7dfa19f4993",
+   "run_commit": "20b7bba7174783553a9f6f7f03c1c7dfa19f4993",
+   "run_file": "out/v4/2026-10-14.json",
+   "run_sha256": "e8f4b444d8787d5538345e80d754e9f1e192fa96344a3b6612da85b1f62d44f3",
+   "clock_export_file": "out/clock/v4-s33.json",
+   "clock_export_sha256": "b9df4e0a453496fc360e635d1e9efb6f562574c4c0781ef53d8f49c7a5c883df",
+   "note": "s33 run of 14 Oct 2026. Central GO4 = B0 'ibc' + FY2018/19 workbook share (Richard, 14 Oct 2026; spec §15.1 item 8; stated exception to decision 7). Schema clock-export/2: per-year no-net-zero grid (GO5) and balancing (GO4), generators' share included, with ranges, energy/services parts, CPIH carry-forward rule; CM block and G0/B0 kept."
+  },
+  {
+   "version": "v4-s34",
+   "date": "2026-10-14",
+   "commit": "189cf716cf271966a722ee473a9209d6ad629c3b",
+   "run_commit": "189cf716cf271966a722ee473a9209d6ad629c3b",
+   "run_file": "out/v4/2026-10-14-s34.json",
+   "run_sha256": "993ac7d1e9d8d37cc2e45ca69835d88986eaae810c814c9c6212e91e0c36f5c7",
+   "clock_export_file": "out/clock/v4-s34.json",
+   "clock_export_sha256": "0518da1eefb94fc957611756217b64db11005e0639b439a42e61002b2f14416e",
+   "note": "s34 run of 14 Oct 2026. B0's four E&W IBC years from one document, the NGET Dec 2005 note (D1: FY2004/05 384.1, not NG 2010 Table 1's 289.2); RIIO-2 allowed return per TO (SHET 2.69%, F3); RPI->CPIH switch cited to the RIIO-2 FD Finance Annex; Ofgem WMI page cited beside the chart embed; bridge row M shows the Clock's electricity CCL from 1 Aug 2015 (D2; engine CCL unchanged). Gap 2025 GBP 17.12bn -> 17.03bn real (606.12 -> 602.76 per household); 2024 15.66bn -> 15.57bn."
+  },
+  {
+   "version": "v4-s35",
+   "date": "2026-10-14",
+   "commit": "353dc68242187b20b33a24f12cfff3f77bd644f4",
+   "run_commit": "353dc68242187b20b33a24f12cfff3f77bd644f4",
+   "run_file": "out/v4/2026-10-14-s35.json",
+   "run_sha256": "f902a6140d22672dd94e5130ff5b91cf2026e46ea87392af55384b604b7d7b49",
+   "clock_export_file": "out/clock/v4-s35.json",
+   "clock_export_sha256": "6838a93ca701baef90c9f469821d426ee0d9470c550922eccdfaded6f73029ba",
+   "note": "s35 run of 14 Oct 2026. Method-roast fixes (Richard, 14 Oct 2026 late; triage-method-2026-10-14): T3 renewal allowance R as an indexed RAV roll-forward (45-yr straight-line depreciation, current control's real return; RIIO-ET2 PCFH para 4.1, 2.17); T4 R central = the whole NLR allowance above 2002-05 (was half; low end of net-zero cost = central, high end = R 0); T6b balancing energy share applied to external B0 only (s/(1+ir) = 0.457 of B0); T8 RPI->CPIH switch cited to RIIO-ET2 PCFH para 2.17 (was RIIO-2 FD Finance Annex 2.24); T12 SPT/SHETL FY2005/06 from BETTA final proposals Dec 2004 Table 2.3 (127.5/52.56; draft 114.5/47.3); T1 range labels by net-zero cost, balancing crossing years exported, go4_range deleted. Gap 2025 GBP 17.03bn -> 16.92bn real (602.76 -> 598.92 per household); 2024 15.57bn -> 15.46bn."
+  },
+  {
+   "version": "v4-s36",
+   "date": "2026-10-20",
+   "commit": "b0be4bc7cdb5c28bd7095b656e9001fd51988657",
+   "run_commit": "88c0068a45fb35548b7e08eea3dc5d47a5897f1c",
+   "run_file": "out/v4/2026-10-20-s36.json",
+   "run_sha256": "24a52094d4cb020f56bbf4d14104603d6fa92918b4c8bcc97639033fa51e5ce8",
+   "clock_export_file": "out/clock/v4-s36.json",
+   "clock_export_sha256": "50accde0cfd264a3a57a2a1a4dc1d61cadcc67610f9a166e9e79004267865955",
+   "note": "v4-s36 re-cut 2 under decision 0133 (Richard Lyon, 20 Oct 2026: \"a\"): the reliability margin is the midpoint of NESO T-1 2027/28 recommendation (ECR 2026 p.5, 4 to 5 GW) over the matching 2027/28 Base Case peak (ECR 2026 workbook Figure B1, 61 GW): 7.4% (6.6% / 8.2%), was 7.0% on the 2030/31 peak. Replaces the 0122 cut at 2fea228, never tagged. Headline 2002-24 161.275 -> 161.207 (2024 GBP). Rulings as before: 0108, 0110, 0111 (test 7 red, disclosed), 0112, 0117, 0118, 0122. Not tagged here: Richard tags the commit.",
+   "tests": {
+    "commit": "b0be4bc7cdb5c28bd7095b656e9001fd51988657",
+    "passed": 1249,
+    "failed": 2,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 100,
+    "duration_s": 3347.5,
+    "started_utc": "2026-10-20T12:42:44+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEs",
+    "disclosed_failures": [
+     {
+      "test": "tests/test_fossil_like_for_like.py::test_early_years_gap_close_to_net_zero_extras_pooled",
+      "decision": "0111"
+     }
+    ],
+    "release_pending": [
+     "tests/test_releases.py::test_latest_release_series_equal_engine_code"
+    ],
+    "post_release_check": {
+     "passed": 20,
+     "failed": 0,
+     "skipped": 0,
+     "errors": 0,
+     "warnings": 0,
+     "duration_s": 1.0,
+     "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEs tests/test_releases.py"
+    }
+   },
+   "figures_file": "out/figures/v4-s36.json",
+   "figures_sha256": "b6a6da959c6c9e646267087db3181ca59cbbf3be355b2858e0cdb6e4dea5e6ab"
+  },
+  {
+   "version": "v4-s37",
+   "date": "2026-10-20",
+   "commit": "d2692e204efc77b873a4722bd64071817f3716bb",
+   "run_commit": "5734ca3b44effe64b4813c6bfda074e239b2ee74",
+   "run_file": "out/v4/2026-10-20-s37.json",
+   "run_sha256": "d22d2d3df0cf2aa0f60f336f1477fb4350978ec94013c3071477b9b0c46c1a8e",
+   "clock_export_file": "out/clock/v4-s37.json",
+   "clock_export_sha256": "ed38abdbb058e86e8d25f2a7aabbebd3593f4e2b9bafd38b75d23760875b6f8e",
+   "note": "v4-s37 under decision 0144 (Richard Lyon, 20 Oct 2026: \"Yes, take all the recommendations (headline about £141bn)\"): extra running of the plant Britain had at the market price (1A); gas-price feedback with its demand side, dQ/((e_s+e_d)Q), 0.06 + 0.169 (2A; range row Krichene 0.16 + 0.45 = 0.61); stack estimate to the methods page and range ends named (4A); labels 5a and 5b; Cottam mixed, closes 30 Sep 2019 (6); sensitivity rows for 1C, 2B, 3B, 4, 5bB and 7B.",
+   "tests": {
+    "commit": "d2692e204efc77b873a4722bd64071817f3716bb",
+    "passed": 1264,
+    "failed": 1,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 99,
+    "duration_s": 3455.6,
+    "started_utc": "2026-10-20T22:12:05+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEs",
+    "disclosed_failures": [
+     {
+      "test": "tests/test_fossil_like_for_like.py::test_early_years_gap_close_to_net_zero_extras_pooled",
+      "decision": "0111"
+     }
+    ]
+   },
+   "figures_file": "out/figures/v4-s37.json",
+   "figures_sha256": "e85a473f736530839f51fa4dd609f302fde3e6448717f647e0e75c877e890fe3"
+  }
+ ]
+}

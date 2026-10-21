@@ -1,0 +1,32 @@
+{
+ "comment": "O'Shea, Horne and Maslin (2025): merit-order effect (MOE) of wind, 2021-23 (s36 ticket 18; 0069, 0086, 0087). Built 17 Oct 2026 from the staged PDF (file, pdf_sha256) with pdftotext -layout on PDF pp. 24 and 27. JSON, which is valid YAML (repo convention, as reference/fossil_closures.yaml). Citation form (parent, 17 Oct 14:21): printed page with the PDF page in brackets.",
+ "source_id": "ucl-oshea-horne-maslin-2025-preprint-v1",
+ "title": "Modelling the long-term financial benefits of UK investment in wind energy generation",
+ "authors": "O'Shea, Horne and Maslin",
+ "publisher": "UCL Open: Environment Preprints, v1, first published online 23 Oct 2025, CC BY 4.0",
+ "doi": "10.14324/ucloepreprints.290.v1",
+ "url": "https://journals.uclpress.co.uk/ucloepreprints/repository/object/290/download/284/",
+ "file": "data/raw/s36/ucl-oshea/oshea-ucloe-preprint-290-v1.pdf",
+ "pdf_sha256": "d7fa85732a2b30a3f0fa3160401fa888b1d336a79f7d11a3b27655c3f9fd09a6",
+ "peer_reviewed": false,
+ "status": "SOURCED",
+ "sign_note": "PDF shows negative; stored as magnitude",
+ "units": "GBP/MWh",
+ "stmoe_total_gbp_mwh": {
+  "locator": "Table 4 'Short-Term MOE Model Results', column (2) 'Total MOE', printed p.22 (PDF p.24)",
+  "values": {
+   "2021": 24.23,
+   "2022": 56.48,
+   "2023": 25.64
+  }
+ },
+ "ltmoe_gbp_mwh": {
+  "locator": "Table 5 'Long-Term MOE Model Results', column (2) 'Total MOE', printed p.25 (PDF p.27)",
+  "note": "carried for the record, not read by the build (0087)",
+  "values": {
+   "2021": 7.19,
+   "2022": 18.18,
+   "2023": 8.41
+  }
+ }
+}

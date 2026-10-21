@@ -1,0 +1,17 @@
+[
+ {"station": "FIXTURE Coal A (net-zero closure, needs FGD+SCR)", "unit": "all", "fuel": "coal", "capacity_mw": 2000,
+  "actual_close": "2016-03-31", "reason": "net_zero_policy", "fossil_britain_close": null, "abatement_needed": "FGD+SCR",
+  "source_id": "FIXTURE", "url": "https://example.invalid/fixture", "quote": "FIXTURE: not evidence", "note": "test fixture only"},
+ {"station": "FIXTURE Coal B (age)", "unit": "all", "fuel": "coal", "capacity_mw": 1000,
+  "actual_close": "2013-03-31", "reason": "age", "fossil_britain_close": "2013-03-31", "abatement_needed": null,
+  "source_id": "FIXTURE", "url": "https://example.invalid/fixture", "quote": "FIXTURE: not evidence", "note": "test fixture only"},
+ {"station": "FIXTURE Coal C (mixed, legitimate date later)", "unit": "1", "fuel": "coal", "capacity_mw": 500,
+  "actual_close": "2019-07-01", "reason": "mixed", "fossil_britain_close": "2021-07-01", "abatement_needed": "SCR",
+  "source_id": "FIXTURE", "url": "https://example.invalid/fixture", "quote": "FIXTURE: not evidence", "note": "test fixture only"},
+ {"station": "FIXTURE Coal D (biomass conversion)", "unit": "1", "fuel": "coal", "capacity_mw": 600,
+  "actual_close": "2013-04-01", "reason": "net_zero_policy", "fossil_britain_close": null, "abatement_needed": null,
+  "source_id": "FIXTURE", "url": "https://example.invalid/fixture", "quote": "FIXTURE: not evidence", "note": "test fixture only"},
+ {"station": "FIXTURE Gas E (carbon price)", "unit": "all", "fuel": "gas", "capacity_mw": 400,
+  "actual_close": "2015-01-01", "reason": "net_zero_policy", "fossil_britain_close": null, "abatement_needed": null,
+  "source_id": "FIXTURE", "url": "https://example.invalid/fixture", "quote": "FIXTURE: not evidence", "note": "test fixture only"}
+]

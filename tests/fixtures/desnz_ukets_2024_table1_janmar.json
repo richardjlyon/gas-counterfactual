@@ -1,0 +1,6 @@
+{"source": "DESNZ/UK ETS Authority, Report on the functioning of the UK carbon market for 2024, Table 1 (first six rows)",
+ "report_file": "s36/ets/desnz-ukets/report-on-the-functioning-of-the-UK-carbon-market-for-2024.pdf",
+ "report_sha256": "850ddc726c5ee9ad231a9eff062bd9f138058bc909760f58504e94f580a33f42",
+ "rows": [["2024-01-10", 102138180], ["2024-01-24", 89970990], ["2024-02-07", 90357250],
+          ["2024-02-21", 88563900], ["2024-03-06", 95737300], ["2024-03-20", 95599350]],
+ "total_gbp": 562366970}

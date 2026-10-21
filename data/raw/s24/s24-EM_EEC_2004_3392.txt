@@ -1,0 +1,845 @@
+                    EXPLANATORY MEMORANDUM TO THE
+
+        THE DRAFT ELECTRICITY AND GAS (ENERGY EFFICIENCY
+                     OBLIGATIONS) ORDER 2004
+
+1. This explanatory memorandum has been prepared by the Department for
+Environment, Food and Rural Affairs and is laid before Parliament for approval of each
+House by Command of Her Majesty.
+
+2. Description
+
+2.1 The Electricity and Gas (Energy Efficiency Obligations) Order 2004 (the draft
+Order), if in force, would place an overall obligation on electricity and gas suppliers to
+meet targets for the promotion of improvements in domestic energy efficiency. It
+requires the Gas and Electricity Markets Authority (known as Ofgem) to determine
+individual targets for each supplier. Ofgem must also determine which energy efficiency
+measures suppliers can use to meet their targets and what improvements in energy
+efficiency should be attributed to them, and is also responsible for enforcement.
+
+3. Matters of interest to the JCSI
+
+3.1 The draft Order establishes energy efficiency obligations for certain electricity or gas
+suppliers for the period 1 April 2005 to 31 March 2008. These are the successors to the
+energy efficiency obligations established under the Electricity and Gas (Energy
+Efficiency Obligations) Order 2001 (S.I 2001/4011, as amended by S.I. 2003/1180) for
+the period 1 April 2002 to 31 March 2005. Some provisions of the 2001 Order continue
+in force after 31 March 2005 (see, for example, the reporting requirement in article 13).
+
+3.2 Although it is made under the same powers as the 2001 Order and is intended to
+achieve broadly similar effects, the draft Order does not follow the drafting of the 2001
+Order. The new approach is intended to make the draft Order more transparent and
+accessible to users.
+
+4. Legislative background
+
+4.1 The Order is made under powers in the Gas Act 1986, the Electricity Act 1989 and
+the Utilities Act 2000. The powers enable the Secretary of State to set an overall target
+for the promotion of improvements in energy efficiency and to impose an energy
+efficiency obligation on certain electricity and gas suppliers.
+
+4.2 The powers were used for the first time when an energy efficiency obligation was
+imposed on electricity and gas suppliers by the Electricity and Gas (Energy Efficiency
+Obligations) Order 2001). That energy efficiency obligation was for the period 1 April
+2002 to 31 March 2005. The draft Order imposes a new obligation on suppliers for the
+period 1 April 2005 to 31 March 2008.
+4.3 Under the 2001 Order, suppliers are required to direct at least 50% of energy savings
+to those in receipt of at least one of the benefits or tax credits listed in the Schedule to the
+Order. That Order was amended by the Electricity and Gas (Energy Efficiency
+Obligations) (Amendment) Order 2003 which updated that list to reflect the introduction
+of new tax credits and state pension credit.
+
+5. Extent
+
+5.1 This instrument applies to Great Britain.
+
+6. European Convention on Human Rights
+6.1 Lord Whitty, Parliamentary Under Secretary of State at the Department for
+Environment, Food and Rural Affairs, has made the following statement regarding
+Human Rights:
+
+In my view the provisions of the Electricity and Gas (Energy Efficiency Obligations)
+Order 2004 are compatible with the Convention rights.
+
+7. Policy Background
+
+7.1 The purpose of the energy efficiency obligation in promoting energy efficiency is to
+help electricity and gas consumers in the household sector to use energy more efficiently
+and in turn reduce their fuel costs or enjoy greater comfort.
+
+7.2 In doing so, the primary aim is to make a significant contribution to the UK’s legally
+binding target under the Kyoto protocol (once in force) to cut greenhouse gas emissions
+by 12.5% below 1990 levels by 2008-2012 and its domestic goal to cut emissions of
+carbon dioxide by 20% below 1990 levels by 2010. Energy efficiency measures are one
+of the key components of the Government’s UK Climate Change Programme.
+
+7.3 ‘Energy Efficiency – the Government’s Plan for Action’, published in April 2004, set
+out the aim to secure carbon savings in the household sector in the UK of around 4.2
+million tonnes of carbon (MtC). Of this, the energy efficiency obligations imposed by
+the draft Order are expected to contribute about 0.7MtC by 2010.
+
+7.4 In providing particular help to low-income consumers who spend a larger proportion
+of their income on energy, it is expected that the energy efficiency obligations will also
+contribute to the alleviation of fuel poverty.
+
+7.5 The draft order includes incentives for energy service actions, which the Government
+considers to be an effective way to improve energy efficiency, and for innovative actions,
+such as micro CHP, to encourage the development of new energy efficient technologies.
+These incentives are intended to promote market transformation and raise customer
+awareness and are expected to increase energy savings in the longer term.
+7.6 There has been extensive consultation on the energy efficiency obligations, both
+informal and formal. A brief summary of the responses to the statutory consultation is
+contained in the Regulatory Impact Assessment.
+
+8. Impact
+
+8.1 A Regulatory Impact Assessment is attached to this Memorandum.
+
+9. Contact
+
+Janet Miller
+Sustainable Energy Policy Division
+Department for Environment, Food and Rural Affairs
+Tel: 020-7082 8710
+e-mail: janet.miller@defra.gsi.gov.uk
+FINAL REGULATORY IMPACT ASSESSMENT
+
+DRAFT ELECTRICITY AND GAS (ENERGY EFFICIENCY OBLIGATIONS
+ORDER) 2004
+
+INTRODUCTION
+
+1. The Electricity Act 1989 and the Gas Act 1986, as amended by the Utilities Act 2000,
+contain powers for the Secretary of State, by Order, to impose an obligation on electricity
+and gas suppliers to achieve energy efficiency targets.
+
+2. This final Regulatory Impact Assessment (RIA) considers the impact of a draft Order
+setting out the details of an energy efficiency obligation to be imposed by the Secretary
+of State for the period 1 April 2005 to 31 March 2008. The draft Order would set a total
+obligation of 130 terawatt hours (TWh) of fuel-standardised lifetime-discounted energy
+benefits. The fuel-standardisation is devised to ensure that the target units are directly
+related to the carbon emissions saved, irrespective of the fuel(s) concerned. Projected
+energy savings will be discounted over the lifetime of the measure at the standard
+Treasury discount rate of 3.5% a year. Suppliers would meet their targets by encouraging
+and assisting domestic consumers to take up energy saving measures.
+
+3. The obligation will be known as the Energy Efficiency Commitment 2005-2008 (EEC
+2005-2008) and will apply in England, Scotland and Wales. The draft Order includes a
+requirement on suppliers to achieve at least 50% of their energy savings from a Priority
+Group of low-income consumers.
+
+4. These proposals have been appraised for their potential environmental, societal, and
+economic impacts.
+
+PURPOSE AND INTENDED EFFECT
+
+5. The purpose of the energy efficiency obligations in promoting energy efficiency is to
+help electricity and gas consumers in the household sector to use less energy. In doing
+so, the primary aim is to make a significant contribution to the UK’s legally binding
+target under the Kyoto protocol (once in force) to cut greenhouse gas emissions by
+12.5% below 1990 levels by 2008–2012 and its domestic goal to cut emissions of carbon
+dioxide by 20% below 1990 levels by 2010. Energy efficiency measures are one of the
+key components of the Government’s UK Climate Change Programme.
+
+6. The Energy White Paper “Our energy future – creating a low carbon economy”,
+published in February 2003, set energy efficiency at the heart of UK energy policy,
+identifying improved energy efficiency as the most cost-effective way to meet all of our
+energy policy goals. By using less energy we can reduce carbon emissions, enhance the
+security of our energy supplies, improve the competitiveness of UK businesses and
+reduce fuel poverty. In the Energy White Paper the Government made a commitment to
+“consult on an expansion of the EEC to run from 2005 to at least 2008, at possibly twice
+its current level of activity”.
+
+7. Energy Efficiency The Government’s Plan for Action, published by Defra in April
+2004, sets out the aim to secure carbon savings in the household sector in the UK of
+around 4.2 million tonnes of carbon (MtC). Of this, the the EEC 2005 - 2008 is
+expected to contribute about 0.7MtC by 2010.
+
+8. In providing particular help to low-income consumers, who spend a larger proportion
+of their income on energy, it is expected that EEC will also contribute to the alleviation
+of fuel poverty. The Fuel Poverty Implementation Plan, to be published later this year,
+will set out how the Government intends to tackle fuel poverty.
+
+RISK ASSESSMENT
+
+9. Man-made emissions of carbon dioxide and other greenhouse gases are accumulating
+in the atmosphere and starting to change our climate. There is now strong scientific
+evidence that climate change is happening and that it is being accelerated by human
+activity – notably carbon dioxide released by burning fossil fuels such as coal, oil and
+gas. This is now acknowledged to have a serious impact including severe flooding,
+droughts and storms with high economic, human and environmental cost both nationally
+and internationally, particularly in developing countries.
+
+10. Energy efficiency has a key role in meeting the Government’s climate change targets
+by reducing emissions of carbon dioxide. The Government’s Energy White Paper states
+that using less energy is the cheapest, cleanest and safest way of addressing its energy
+policy objectives. In order to achieve the Government's aims, as set out in the Energy
+White Paper, a doubling of energy efficiency improvements in all sectors is required.
+Extending the EEC from 2005 will make a significant contribution to the UK’s legally
+binding target under the Kyoto protocol to cut greenhouse gas emissions by 12.5% below
+1990 levels by 2008–2012 and its domestic goal to cut emissions of carbon dioxide by
+20% below 1990 levels by 2010.
+
+11. It is also recognised that the EEC can contribute to the Government’s targets to
+alleviate fuel poverty. The Government currently estimates the number of households in
+the UK in fuel poverty at 3 million in 2001. Householders living in fuel poverty may
+suffer from cold-related illnesses, stress and anxiety. There is also a risk of fuel debt or
+householders forsaking other essential items to pay fuel bills. The Fuel Poverty Action
+Plan, to be published later this year, will set out how the Government intends to meet the
+target of eradicating fuel poverty in vulnerable households by 2010.
+
+THE OPTIONS
+
+12. There are a number of ways in which household energy efficiency can be improved.
+In the past various programmes have offered grants and subsidies, yet have distorted the
+market or were not generally regarded as the most cost-effective approach. The
+Government is considering the feasibility of fiscal incentives or disincentives to
+encourage householder demand for energy efficiency measures. However, voluntary
+action by households has historically been limited due to a number of well-established
+barriers to investment in energy efficiency measures, particularly customer apathy. The
+EEC 2002-05 has demonstrated that the EEC mechanism is an effective way to stimulate
+the provision of household energy efficiency in terms of cost-effectively delivering a
+range of energy efficiency measures.
+
+13. The EEC 2005-2008 is intended as a continuation of the current EEC that runs from
+April 2002 to March 2005, for which a RIA was completed in November 2001. The
+Energy White Paper stated that the Government would consult on an expansion of the
+EEC to run from 2005 to at least 2008, at possibly twice its current level of activity.
+
+14. The options identified for the EEC 2005 to 2008 were:
+
+Option 1 Implement the EEC from 2005 - 2008, as proposed in the Energy White Paper,
+at around twice its current level of activity.
+
+Option 2 Implement the EEC from 2005 – 2008 continuing at the same level of activity
+as the current EEC.
+
+Option 3 Do not extend the current EEC programme beyond 2005.
+
+15. In order to achieve the Government's aims, as set out in the Energy White Paper, a
+doubling of energy efficiency improvements in all sectors is required. If the EEC were
+continued at the same level (option 2), or discontinued (option 3) the Government’s aims
+would not be met and the risks set out above would not be mitigated. In addition there
+would be no new benefits to consumers.
+
+16. If the Government does not increase the scale of the EEC obligation, as in Option 2,
+the benefits and costs would be roughly half that of Option 1. If the Government does
+nothing, as in Option 3, then it is highly unlikely that households or energy suppliers will
+take any significant actions to improve energy efficiency.
+
+17. As a result the Government would find it increasingly difficult to achieve its goals for
+reducing carbon dioxide emissions and contributing to the alleviation of fuel poverty. To
+the extent that household energy efficiency measures cost-effectively reduce carbon
+emissions it reduces the burdens placed on UK industry in achieving the Government's
+overall objectives.
+
+18. Table 1 below summarises the expected carbon savings and cost to consumers for
+each of the three options. The table also shows the expected resource expenditure over
+the three years and the energy cost savings by 2010 and 2020.
+
+Table 1 The expected carbon savings and costs of each option
+            Expected   Expected cost      Resource          Energy cost savings*
+            carbon     to consumers,      expenditure*      By 2010 By 2020         Over
+            saving     per fuel and per   for 3 year                                lifetime
+                       annum              programme
+Option 1       0.7 MtC            £9.00          £1,400M            £ £ 3,400M        £5,400M
+                                                              1,100M
+Option 2       0.4 MtC             £4.50           £700M       £600M      £1,700M     £2,700M
+Option 3         0 MtC                £0                £0         £0           £0           £0
+* Note: resource expenditure and energy benefits are both net of comfort taking and
+business as usual deadweight.
+
+
+19. The detailed analysis has focused on option 1, as set out in the Energy White Paper.
+Option 1 would extend the EEC from 2005 – 2008 at around twice its current level. This
+would secure total consumer savings of 130 TWh (fuel-standardised lifetime-
+discounted), in reduced energy use or greater comfort. It is expected that this level of
+obligation will contribute annual carbon savings of around 0.7MtC in 2010.This would
+make an important contribution to the 4.2 MtC of carbon savings from household sector
+by 2010 set out under the Government’s Energy Efficiency Action Plan, and provide
+ongoing benefits to consumers. The detailed analysis, which has been carried out in
+relation to Option 1, can be found in Annex 1 to the Energy Efficiency Commitment from
+April 2005 – Consultation Proposals, published by Defra in May 2004.
+
+BENEFITS AND COSTS
+
+20. The costs and benefits of EEC options (particularly the level of the target) are
+established using an illustrative mix of possible measures representing a balanced
+selection of measures generally regarded as cost-effective. The data and assumptions
+underlying the illustrative mix are informed by information provided by energy suppliers,
+by representatives of the industries concerned, and by experts, including the Energy
+Saving Trust (EST) and the Building Research Establishment (BRE).
+
+21. The analysis behind the illustrative mix takes account of a number of issues
+including:
+
+   •   The likely number of each possible measure installed over the period 2005–
+       2008. This has been assessed to take account of the current state of the housing
+       stock, of other physical and market constraints, and of typical replacement cycles
+       for boilers and appliances;
+   •   Estimates of the unit cost of each measure are based upon the set of EEC 2002-
+       2005 illustrative mix figures, allowing for 4 years’ inflation at 2.5% to convert to
+       2004 prices. While real costs per measure have declined significantly over the
+       successive Energy Efficiency Standards of Performance (EESoP) and EEC 2002-
+       2005 schemes, it is recognised that from 2005 the costs for some measures, such
+       as insulation, are likely to increase;
+   •   The supplier contribution is the share of the direct cost of the measures that the
+       supplier is likely to have to meet, in order to induce the householder to take up the
+       offered EEC measure. This is based on the cost to the supplier and the final price
+       that the consumer is prepared to pay. The difference is the supplier contribution,
+       or inducement cost. The level of the subsidy or inducement cost will depend on
+       the householder’s willingness and ability to pay. For this reason, households on
+       income or disability benefits are expected to require higher inducement than other
+       households. A Priority Group of consumers has been identified, as defined later;
+   •   In estimating the EEC carbon savings, it has been assumed that when suppliers
+       offer a measure under the EEC, they will unavoidably pick up and meet the cost
+       of assisting consumers who would have taken the measure in any event
+       (deadweight), as well as stimulating additional take-up. Thus the energy and cost
+       savings and the lifetime-discounted energy savings attributed to the EEC, count
+       the energy savings benefits from all installations, including the Business As Usual
+       deadweight. This avoids the otherwise intractable problem of allocating
+       deadweight to supplier’s activity when determining the energy savings they have
+       achieved;
+   •   Indicative estimates of suppliers’ costs of developing and administering the
+       EEC 2005-2008 programmes additional to the inducement cost, are generally
+       similar to those assumed for EEC 2002-2005, but also take account of suppliers’
+       views, particularly for measures where marketing intensity will need to increase
+       significantly. They are assessed for each measure individually, and on average,
+       such costs are expected to make up around 21% of the suppliers’ direct costs;
+   •   Energy improvement is defined as the benefit to the household from an energy
+       efficiency measure, either from lower bills, or from increased comfort (eg in
+       terms of increased warmth);
+   •   The annual carbon saving resulting from each installation has been calculated
+       using the annual energy saving, minus the comfort taken, and the carbon intensity
+       of the fuel saved (e.g. for condensing boilers this would be the carbon intensity of
+       gas). The carbon intensities for each fuel are consistent with Defra’s
+       Environmental Reporting – Guidelines for Company Reporting on Greenhouse
+       Gas Emissions. Since the EEC carbon saving contribution to the Climate Change
+       Programme has to be estimated for 2010, the energy savings for each measure are
+       also calculated for this year.
+
+22. The assumed lifetimes for the measures in the illustrative mix are generally the same
+as those used in setting the EEC 2002-2005 targets and were estimated following
+discussions with the BRE and EST. Projected energy savings will be discounted over the
+lifetime of the measure at the standard Treasury discount rate of 3.5% a year, in setting
+the EEC 2005-2008 energy savings for a measure. Note that this tends to increase the
+savings relative to those for the current EEC for which a discount rate of 6% a year
+applies.
+
+23. The analysis has taken account of concerns that the energy efficiency industry may be
+unable to meet suppliers’ demands for extra activity. Views from the energy suppliers,
+the insulation manufacturers, and the insulation installers were considered, in addition to
+independent reports on the insulation industry. Overall this risk is considered to be
+relatively low.
+
+24. The analysis has also considered the possibility that the energy efficiency measures
+included in the illustrative mix may not perform as expected and do not deliver the
+proposed carbon impact. There is a risk that some of the measures do not deliver the full
+energy saving potential as determined, because of different behaviour/usage than
+assumed or because of physical underperformance. Continuing monitoring studies are
+eliminating or reducing this risk. Furthermore, some allowance for potential
+underperformance of insulation measures is implicitly included in “comfort taking” of
+30%, as studies suggest that real comfort taking in the long term is less than that. So
+therefore the risk on carbon savings due to underperformance is considered low, but there
+is some risk that the benefits may be slightly overstated.
+
+25. The Government recognises the importance of promoting stronger consumer demand
+in order to achieve the improvement in energy efficiency in the household sector set out
+in the Energy White Paper and required by the EEC 2005-08. It has, for example,
+recently given additional funding to the Energy Saving Trust to promote the EEC and
+will continue to look for ways to promote stronger consumer demand.
+
+26. The carbon savings of 0.7MtC/yr in 2010 are estimated net of comfort taking (which
+is approximately a 25% reduction), and of business as usual activity (leading to a further
+17% reduction). The carbon savings correspond to net annual delivered energy savings
+of around 10TWh/yr. Before corrections are taken for comfort and business as usual
+deadweight, the gross energy savings are around 17TWh/yr. The annual energy savings
+are the basis on which the energy cost benefits are calculated, using projected prices for
+2010 for each fuel. On the other hand, the obligation target score is set in terms of gross
+lifetime-discounted energy savings, with relative carbon weightings for each of the
+different fuels. The lifetime of the energy efficiency measures must be taken into
+account when determining the lifetime energy savings, and are typically in the range of
+10-40 years. When determining the energy savings to be attributed to the measures
+delivered under the EEC it is impractical to make corrections for comfort and
+deadweight. It is therefore important to realise that the "TWh" used for the EEC are not
+simply related to the annual energy savings or to the carbon savings but also depend on
+the mix of measures as well as the scaling factor used in the carbon weighting. For the
+illustrative mix as a whole, comfort and deadweight corrections would reduce the gross
+130TWh obligation score to 80TWh net. Therefore, in the simplest of terms, the carbon
+saving of 0.7MtC corresponds to 80/130TWh, i.e. about 60% of the total energy savings.
+
+Environmental
+
+27. EEC 2005-2008 as proposed would benefit the environment by reducing carbon
+dioxide emissions by about 0.7MtC per year in 2010, helping to tackle climate change
+and improve local air quality. In addition reduced energy demand will reduce wider
+environmental impacts of energy extraction, production and supply. In contributing to the
+Government’s climate change abatement programme, all consumers will share the
+benefits such as cleaner air and the mitigation of carbon emissions from reduced energy
+production.
+Considering the social cost of a tonne of carbon is possibly £35-£140, the carbon savings
+equate to additional benefits of about £24M-£95M per annum.
+
+Social
+
+28. EEC 2005-2008 as proposed would provide social benefits through reducing fuel
+bills and improving comfort, thus also contributing to the alleviation of fuel poverty and
+the risk of ill health caused by cold homes, particularly for children and the elderly. EEC
+activity raises the overall energy efficiency standards of the housing stock. EEC 2005-08
+would also provide particular help to those on low-incomes by requiring 50% of energy
+savings to be focussed on a priority group of those in receipt of benefits and tax credits or
+pension credit.
+
+29. If the costs of the EEC 2002-05 were passed on in full by suppliers, it is expected
+that the average energy bill would increase by no more than about £4 per customer per
+fuel each year of the programme (or about £7.2 p.a. per household, since not all
+households are gas customers) (in 2004 prices). Extending the EEC from 2005 – 2008 is
+likely to result in a potential additional cost of £5 per customer per fuel (or about £9 p.a.
+per household). The overall increase would therefore be an increase on average of not
+more than about £9 (in 2004 prices) per customer per fuel per annum (or about £16 p.a.
+per household) over the three years, compared to prices before the start of the EEC in
+2002. In practice, the energy suppliers may absorb a part of the costs.
+
+30. There is an offsetting benefit, in terms of lower energy consumption or improved
+comfort for consumers. The Government estimates that the average annual ongoing
+financial benefit under the 2005-2008 period, in lower energy bills or increased comfort,
+would be around £15 a year for the lifetime of the measures, which can be much longer
+than the three year period of the EEC.
+
+31. The EEC does not dictate what measures suppliers must take in order to meet their
+obligations. The suppliers are operating in a competitive market and so will want to
+retain customers by keeping prices down.
+
+Economic
+
+32. EEC 2005-2008 as proposed would provide economic benefits in promoting
+innovation by creating market opportunities for new or more efficient technologies and
+improving security of energy supply by reducing demand in the domestic sector.
+
+33. Costs for the current EEC were based on discussions with energy suppliers, the
+energy efficiency industry and the Energy Saving Trust taking into account evidence
+from the energy suppliers about the costs of past programmes and the costs of the
+Government’s Warm Front programme. The costs for EEC 2005-08 have been similarly
+estimated on the basis of discussions with suppliers of energy efficiency products and
+services, plus information about the costs of the EEC 2002 - 2005.
+
+34. The costs given in this RIA are the total net resource costs, not just the subsidies
+expected to be given by suppliers through the EEC. In other words, some beneficiaries of
+the EEC programme are given a 100 per cent subsidy, whilst others part fund the product
+or service provided. All the monies spent by the suppliers, homeowners and landlords
+are counted, and then debited by the estimated business as usual investment in these
+energy savings measures during the EEC period. The corresponding savings are
+discounted at the 3.5 per cent Treasury rate.
+
+35. The estimated ongoing annual energy savings to consumers, including comfort
+taking, would reach a total of around £390M in gross terms by the end of the EEC 2005 -
+2008 period. This represents approximately £310M net of business as usual activity. It is
+estimated that the measures installed under the EEC 2005-2008 would provide an average
+annual ongoing gross financial benefit for consumers, in lower energy bills or increased
+comfort, of about £15 per household. These benefits will continue beyond the EEC
+period, for the lifetime of the measures. Under option 1, the gross benefit per household
+to priority group consumers would be higher than the average, at around £20 a year.
+Overall lifetime-discounted savings (net of business as usual improvements) are
+estimated to amount to a net present value of around £1,100M by 2010, £3,400M by
+2020, and £5,400M over the lifetime of the measures. Comfort taking is estimated to
+account for around 25%.
+
+36 The cost to the suppliers for the three years of the obligation under the EEC is
+estimated to be no more than about £9 per gas or electricity consumer bill per year,
+averaged over the three years. Energy suppliers may pass some or all of this cost through
+to their domestic customers. Passed on in full, it corresponds to an average energy price
+rise of around 3%, or just under 20p per week. The net resource cost over the EEC
+period (i.e. total cost of measures net of business as usual deadweight, plus
+implementation costs) is approximately £1,400M, of which implementation costs are
+estimated to make up around £200M, i.e. 15% of the total. Comparing this total with the
+savings benefits above, one finds that for 2020 the net present value of savings exceeds
+the resource cost by a factor of around 2 ½.
+
+37. The above analysis of costs and benefits relates to the Government’s illustrative mix
+of measures. Under the current EEC, the measures adopted by suppliers have been
+broadly in line with the illustrative mix for that programme. However, if suppliers were
+to adopt a different mix of measures, the outcomes in terms of costs and benefits could be
+slightly different, because of the differing cost/savings ratios of measures, and disparate
+prices of electricity and fossil fuels.
+
+38. The proposed target is based on comprehensive analysis. If, in the event of
+unforeseen circumstances that significantly affected the Government’s assumptions, it
+were necessary to reconsider the level of energy efficiency obligation, any amendment
+would be effected by a further statutory instrument, following consultation.
+EQUITY AND FAIRNESS
+
+39. The Government believes that all sectors must play their part in contributing to
+improving energy efficiency and reducing emissions of greenhouse gases to contribute to
+meeting our climate change target. Accordingly the UK Climate Change Programme sets
+out a package of policies and measures for all sectors of the economy. The EEC makes
+an important contribution to energy efficiency savings in the household sector.
+
+40. Consideration has been given to how the Government can best achieve its climate
+change abatement objectives through the EEC whilst ensuring equity and fairness for
+consumers. Under the EEC the onus is upon the obligated suppliers to ensure that their
+targets are met as cost effectively as possible. It is likely that these costs will be passed on
+to consumers of electricity and gas through their bills. For those consumers receiving
+energy efficiency measures under the EEC, the savings may outweigh such an increase in
+bills. Some consumers may receive measures for free whereas others may receive
+subsidised measures.
+
+41. Those on low incomes are most likely to be affected by any increase in energy bills
+since they spend a higher proportion of their income on electricity and gas. In
+recognition of this the draft Order would require suppliers to direct at least 50% of their
+energy-savings to a Priority Group of low-income consumers in receipt of certain income
+related benefits or tax credits. This will ensure that low income consumers receive a fair
+share of the benefits of the EEC.
+
+42. The EEC Priority Group is defined as householders in receipt the following benefits
+or tax credits.
+
+income support
+housing benefit
+council tax benefit
+income based jobseekers allowance
+attendance allowance
+disability living allowance
+disablement pension benefit (which must include constant attendance allowance)
+war disablement pension (which must include the mobility supplement or constant
+attendance allowance)
+child tax credit (where the consumer’s relevant income is £14,600 or less)
+working tax credit (where the consumer’s relevant income is £14,600 or less)
+state pension credit
+
+43. There are a proportion of consumers who will have higher energy bills, but may not
+receive any corresponding energy efficiency improvements under the scheme. These are
+most likely to be owner occupiers in older houses, which do not have the potential for
+cavity wall insulation, or who may have already carried out all cost effective energy
+efficiency measures in their home. However, households only need to install two 20-
+Watt Compact Fluorescent Lights (CFLs) in high usage fittings for the extra cost of the
+new EEC to be easily covered by the financial savings.
+
+44. Manufacturers and suppliers of energy efficient products and services such as cavity
+wall insulation, efficient boilers, loft insulation, heating controls and draft proofing will
+obviously benefit from a growth in the size of these markets. It is not possible to know
+what changes in the pattern of production and consumption will result in other areas of
+the economy and hence who loses as a result of these gains.
+
+Competition issues
+
+45. Competition issues arise in two different markets – the market for energy supply and
+the market for energy efficiency services. EEC does not create any barriers to entry into
+the market for the supply of electricity or gas. However, it does raise the entry costs, as it
+is an obligation on suppliers, although these costs may be passed through to consumers.
+
+46. Suppliers’ individual energy efficiency targets are based on their customer numbers.
+So as not to deter new entry by small firms and to reflect the relatively higher costs
+incurred by smaller companies, the obligations are not imposed on firms supplying less
+than 50,000 customers.
+
+47. Suppliers are allowed to pass on the costs of their obligations under the EEC. A
+supplier that is inefficient and pursues high-cost energy efficiency measures or that
+increases their prices simply in order to increase economic rent is likely to lose customers
+as they have the freedom to switch to another supplier.
+
+48. Suppliers have an incentive to keep the costs of their obligations under the EEC as
+low as possible in order to minimise the amount of any pass through. This reflects the
+competitive supplier market and the will to retain customers. Suppliers therefore have an
+incentive to be competitive in the supply of energy efficiency products and services.
+Barriers to entry into the market for most energy efficient products and services are
+relatively low.
+
+49. Whilst some suppliers may choose to undertake a large proportion of their obligations
+through in-house contractors, there is no reason to suppose this will reduce competition in
+the rest of the energy supply market.
+
+50. It is possible that short run bottlenecks could develop in the supply of certain energy
+efficient products such as loft insulation or cavity wall insulation, given a rapid expansion
+in the market for these products. Any resulting price increases are likely to be short
+lived, given that new market entry is possible. The indication given in the EEC 2005-
+2008 consultation document and in Energy Efficiency The Government’s Plan for Action
+(April 2004) that there will be an EEC from 2008 to 2011 could help induce new market
+entry.
+Small Firms’ Impact test
+
+51. The proposals will not impose costs on small businesses. The draft Order does not
+apply to new and small energy suppliers with fewer than 50,000 customers. This means
+that new entrants would not have to set up EEC programmes while at an early stage. The
+draft Order contains other provisions that avoid the risk of creating barriers to new
+entrant companies: where a supplier prefers not to set up its own EEC programmes, then
+it may transfer all or part of its target to another supplier, purchase accredited
+performance from another supplier or contract out the operation of its programme.
+
+52. When suppliers are setting up retail schemes, for example for energy efficient
+appliances or CFLs, small independent retailers may be disadvantaged, as it is easier for
+suppliers to set up schemes with large retailers or retail chains. To mitigate this effect, the
+Energy Saving Trust and Retailer Associations, e.g. through the Energy Efficiency
+Partnership for Homes, are promoting and working on setting up schemes specifically for
+small independent retailers.
+
+Consultation
+
+53. There has been extensive informal consultation since 2002 with the energy suppliers,
+energy efficiency industry, consumer groups and other interested parties on the EEC post
+2005.
+
+54. The consultation document that was published in May 2004 with a partial RIA, was
+the statutory consultation required by the Utilities Act. It sought comments on the
+proposed level of the overall obligation for EEC 2005 - 2008 and the format of the
+scheme. These detailed proposals, setting out the costs and benefits, had been discussed,
+inter alia, with a High Level Advisory Committee including Government Departments,
+Devolved Administrations, Ofgem, the Energy Saving Trust, representatives of the
+energy efficiency industry and the suppliers. The consultation document was sent to all
+those with an interest in the further development of the EEC.
+
+55. There were 126 responses to the consultation. The majority of respondents were
+supportive of EEC and its proposed expansion. Following consultation, changes are
+recommended in two main areas covered by the order, as set out below. A brief summary
+of the key points raised in consultation responses in areas is at Annex A.
+
+Determination of suppliers’ targets
+
+56. The consultation proposal was that the overall EEC obligation should be apportioned
+between suppliers in relation to the number of their domestic customers. In order to
+reflect the higher costs potentially incurred by smaller companies, it was proposed that
+the targets should be progressive, so that a smaller company would have a lower target in
+relation to its customer numbers than a larger company. This would be achieved by
+means of an adjustment factor applied to suppliers’ targets to take account of such
+economies of scale. This proposal was strongly opposed by some energy suppliers,
+largely on the grounds that the economies of scale did not exist, or that they did not apply
+to any but the smallest companies.
+
+57. In view of the importance of this issue to suppliers, and the potential impact on their
+targets, the Government offered a further opportunity to comment to suppliers and to
+Ofgem, which is responsible for setting suppliers’ individual targets. The Government
+sought views on the original proposal and on two alternative approaches. Firstly, an
+adjustment factor that was constant above a threshold of 500,000 customers per supplier
+per fuel, which means that above that level a supplier’s target would be directly
+proportional to its customer numbers, but below that level would be progressive, as
+originally proposed. Secondly, to have no adjustment factor, so that all suppliers would
+have a target that was directly proportional to their customer numbers.
+
+58. A number of suppliers made comments, some of which were confidential. There
+were differing views on the existence of economies of scale in respect of either large or
+small companies and on whether any threshold of customer numbers should be taken into
+account in determining supplier’s targets. The Government has considered the matter
+further and takes the view that the argument for economies of scale is no longer valid for
+larger suppliers within the EEC. As a result, the Government proposes to remove the
+adjustment factor altogether. In order to avoid disadvantaging very small suppliers, and
+to reduce barriers to market entry, it also proposes to raise to 50,000, from the 15,000
+originally proposed, the threshold of customers below which a supplier would not be
+subject to an EEC 2005-08 obligation. While this would affect the determination of
+suppliers’ individual targets, it does not affect the overall obligation on all suppliers of
+130 TWh.
+
+Incentives for energy services and innovative action
+
+59. Energy services: the consultation document invited views on a proposal that the
+incentive for energy services under the EEC 2002-05 should be maintained for the first
+year of the EEC 2005-08 period, in order to allow suppliers to offer energy services under
+similar conditions to an Ofgem pilot to test removal of the 28-day rule for domestic
+energy service contracts. Of the respondents that commented on this issue, the majority
+supported this proposal and of these a number suggested that the incentive should be
+extended to the whole of the EEC 2005-08 period.
+
+60. The Government considers that energy services are potentially an effective way to
+improve energy efficiency in all sectors. It considers that it would be supportive for this
+market to apply an incentive for the full EEC 2005-08 period, but that the definition of
+energy services should be more consistent with that of the 28-day rule pilot. It therefore
+proposes that suppliers should be accredited with an additional 50% of energy savings for
+measures provided under an energy services agreement.
+
+61. In order to encourage suppliers to set up energy services schemes on a larger scale,
+this incentive only applies if at least 5% of a supplier’s target is met in this way (while
+the maximum remains at 10%).
+62. Innovative action: while proposing to wait for the results of field trials on micro
+CHP and conclusions about fiscal incentives before making a decision about the
+appropriateness of an incentive for micro CHP, the consultation document invited views
+on this issue. About 40% of the respondents suggested that the EEC 2005-08 should
+include incentives for new technologies, including micro CHP. In the light of its wish to
+encourage new energy efficient technologies in the household sector, including micro
+CHP, and of the consultation responses, the Government proposes an incentive of 50% of
+energy savings for innovative measures, including micro CHP.
+
+63. While take up of the above incentives by suppliers would reduce the overall energy
+benefits and carbon savings of the EEC 2005-08 programme, this should be outweighed
+by increased energy savings in the longer term. However, in order to limit the effect on
+the current programme, it is proposed that the above incentives should apply up to a
+maximum of 10% of suppliers’ targets.
+
+Implementation and enforcement
+
+64. The Regulator, Ofgem, will be responsible for the operation of the EEC, including
+monitoring and enforcement. The draft Order provides for this. The procedures that
+suppliers will follow in order to achieve their energy efficiency targets are set out in
+Ofgem’s Administration Procedures for the Energy Efficiency Commitment 2005-08.
+Ofgem published a consultation document on these procedures in July 2004. The final
+version of the Administration Procedures is expected to be published early in January
+2005.
+
+Monitoring and evaluation
+
+65. Progress on the EEC 2005-08 will be reviewed in 2007 as part of the Government’s
+consideration of the overall target for the EEC for 2008-11. Key monitoring information
+will come from Ofgem’s annual reports to the Secretary of State, as proposed in the draft
+Order. In order to report to the Secretary of State, Ofgem has proposed that it will
+require quarterly progress reports from each supplier. A wider framework for
+monitoring of issues likely to affect EEC activity will also be developed.
+
+
+SUMMARY
+
+66. The draft Order proposes that the EEC for 2005-2008 be pursued with an overall
+obligation of 130 fuel-standardised lifetime-discounted TWh resulting in carbon savings
+of about 0.7MtC in 2010.
+
+67. The EEC 2005-2008 as proposed will make a significant contribution to the
+Government’s UK Climate Change Programme. It provides financial and welfare
+benefits for consumers, particularly those on low incomes, and works alongside other
+relevant Government policies, in improving domestic energy efficiency.
+68. The proposed level of obligations should stimulate a significant increase in energy
+efficiency improvements without placing onerous costs on the energy supply companies
+– or the consumer. The EEC will continue to provide energy suppliers with the freedom
+and incentive to develop the most innovative and cost-effective programmes of energy
+efficiency measures.
+Su
+69. The Government considers the option of EEC 2005-08 as proposed in option 1 is
+most likely to contribute effectively to energy efficiency in the domestic sector and to
+carbon abatement targets, at reasonable cost to suppliers and consumers and taking
+account of the practical capacity of the energy efficiency industry in the relevant period.
+
+DECLARATION
+
+I have read the Regulatory Impact Assessment and I am satisfied that the benefits justify
+the costs
+
+Signed by the Minister Responsible: Lord Whitty
+
+Date: 4th November 2004
+
+Parliamentary Under Secretary of State, Department for Environment Food and Rural
+Affairs
+
+
+Contact point:
+
+Janet Miller
+Defra
+Ashdown House
+123 Victoria Street
+London, SW1E 6DE
+
+Tel: 020 7082 8710
+e-mail: Janet.Miller@defra.gsi.gov.uk
+                                                                                  ANNEX
+
+ENERGY EFFICIENCY COMMITMENT POST 2005 CONSULTATION
+SUMMARY OF KEY POINTS IN RESPONSES
+
+
+Extension and expansion of the Energy Efficiency Commitment
+About two-thirds of respondents supported the EEC and the proposed expansion. Seven
+stated that they did not fully welcome the proposals or had concerns about them,
+including: that the carbon savings were not higher in view of the increased level of
+activity; that EEC should instead be provided as funding for which LAs could bid.
+
+Level of the overall energy efficiency target
+The majority of respondents were supportive of the proposed size of the target for the
+next phase of the EEC. Over 50 respondents suggested that the proposed target for the
+next phase of the EEC should be increased. Energy suppliers considered the proposed
+target to be too high, and that it should be reduced to reflect market conditions. A
+number of suppliers expressed concerns about the capacity of the insulation industry to
+meet the increased demand that would be required by EEC. The insulation industry did
+not consider that there would be capacity constraints.
+
+Social focus
+The majority of respondents who commented on the issue supported the proposal that
+50% of energy savings should be directed to the priority group of low-income consumers
+(those in receipt of benefits or tax credit/pension credit). Some suppliers considered a
+50% priority group to be a challenge, and a level that should not be exceeded. Two
+respondents suggested that the priority group share of savings should more accurately
+reflect the balance of benefit recipients in the community, at a level of about 40%, and
+one that there should be an increase in the share to reflect the increase in the numbers on
+tax credit/pension credit.
+
+The majority of respondents who commented agreed with the proposal that low-income
+recipients of Attendance Allowance and Disability Living Allowance should be included
+in the priority group.
+
+EEC interaction with fuel poverty
+There were a range of differing opinions about the contribution EEC could or should
+make to alleviation of fuel poverty. 18 respondents stated that the EEC should make an
+increased contribution to fuel poverty, while 8 stated that it should not. Some
+respondents were concerned that since the EEC mechanism could lead to increased costs
+being passed to customers, fuel poor households could in effect subsidise activity in non-
+fuel poor households. Some suggested that EEC should include fuel poverty targets
+and/or that the priority group should be focused on the fuel poor.
+There was strong support for improved interaction between EEC and Government fuel
+poverty programmes. Some respondents wished to see more drive from Government to
+achieve this cost-effectively and some wished to see ground rules established.
+
+Determination of energy suppliers’ targets
+Several respondents, mainly energy suppliers, contended that the size of a supplier’s
+target should be directly proportional to the size of its customer base. One supplier
+considered that targets should be regressive, so that larger companies would have a lower
+target in proportion to their customer numbers.
+
+Interaction with social landlords
+A range of respondents, including some industry and local authority interests suggested
+that energy suppliers should not be credited with the total energy savings resulting from
+partnership schemes with a social landlord. This was in order to encourage suppliers to
+work in the private sector, where it was believed that more fuel poor were found. Others,
+including suppliers and some industry bodies and charities considered that contributions
+from social landlords should not reduce the energy savings credited to suppliers,
+continuing the arrangements of the current EEC.
+
+Incentives for innovative technologies and other measures
+About 40% of respondents suggested that the EEC should include incentives for new
+technologies/innovation including, for example, mCHP. About 13% of respondents
+suggested that incentives should only be included where there is assessment and evidence
+of energy saving performance and barriers to market entry or dissemination. They
+believed that products should only be supported under the EEC when they had passed the
+development stage and needed market support. One respondent suggested that
+development of a methodology by Ofgem, for inclusion of new technologies into the
+EEC, when they were ready, would be helpful. One suggested that it was unlikely that
+any new measures would be ready in time for inclusion in the next phase of the EEC.
+One respondent considered that evidence of significant carbon savings and cost-
+effectiveness was needed if the EEC were used to support innovation.
+
+Three respondents suggested that there should be EEC incentives for early boiler
+replacements. Other respondents sought support for energy advice provision,
+maintenance, appliances, insulation materials, heating controls, Benefits Health Checks
+and hard to treat homes.
+
+Energy Services Incentive
+10 respondents proposed that the current incentive for energy services should be
+maintained, and most of these believed that this should be for the full three years of the
+next phase of the EEC. Three respondents suggested that the incentive should be
+removed.
+
+Qualifying measures for the EEC
+A number of respondents suggested that the EEC should include renewables as eligible
+measures, while 2 suggested that the supply of “green” energy should not be covered by
+an EEC obligation. Other respondents sought inclusion of measures such as energy
+advice provision, domestic windows, solid wall insulation, hard to treat homes and one
+suggested that consideration should be given to the accessibility of the EEC to small
+independent retailers.
+
+Monitoring/review of the EEC
+A number of respondents suggested that the performance of EEC measures and the actual
+costs to suppliers should be kept under independent review. Some suppliers proposed the
+establishment of a High Level Group of stakeholders with the power to intervene if
+markets, costs or other issues impacted on delivery of the EEC.
+
+EEC for business
+One respondent supported the consultation proposal not to extend the domestic EEC to
+small businesses. Three respondents sought continuing consideration of an EEC for
+business, especially those that do not pay the CCL.
+
+Consumer demand
+Those who responded on this issue welcomed the comments in the consultation
+document. Over half of respondents sought further help, including from Government, to
+increase customer demand, via marketing, national campaigns and fiscal incentives, in
+order to support the increased EEC targets.
+
+Administration of the EEC
+Some respondents suggested that the administrative arrangements designed by Ofgem
+could lead to additional burdens or costs on suppliers, the energy efficiency industry or
+other stakeholders. Some suggested that the administrative arrangements could have a
+negative impact in some areas, such as Scotland, or on some products, such as CFLs.
+

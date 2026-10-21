@@ -1,0 +1,2790 @@
+             September 2000
+
+
+The transmission price control
+  review of the National Grid
+         Company from 2001
+    Transmission asset owner
+               Final proposals
+Executive summary
+
+This document sets out final proposals for a new price control to apply from 1 April
+2001 to the transmission business of The National Grid Company plc (NGC). It is
+anticipated that this price control will expire at the end of March 2006.
+
+These proposals are the culmination of a process which has lasted 11 months and has
+involved three consultation papers and a number of individual meetings with NGC and
+other interested parties. Ofgem has received advice from two firms of consultants –
+Arthur Andersen and PB Power in respect of operating and capital expenditure
+respectively - whose final reports have been placed in Ofgem’s library. The proposals
+have been considered by Ofgem’s board of senior business advisers, its Management
+Committee and the Management Board of Ofgem. The table below summarises the key
+elements of the final proposals and compares them with the draft proposals.
+
+Item                                   NGC                  Draft proposals              Final proposals
+Controllable operating                 £1,047 million       £944-1,004 million           £1,020 million
+expenditure*
+Capital expenditure**                  £1,540 million       £1,186 million               £1,320 million
+Cost of capital (real pre-tax)                              5½%-6¼%                      6¼%
+NPV of allowed revenues                                     £3,614-3,744 million         £3,842 million
+Effective P 0 cut***                                        0-6%                         0%
+X***                                                        3%                           1.5%
+Notes: all figures in 1999/000 prices throughout this document, except where otherwise stated.
+* the costs of business rates and licence fees will be subject to a pass-through (see Chapter 2)
+** capital expenditure subject to correction mechanism (see Chapter 3)
+*** P 0 and X factors adjusted from figures published in June (see Chapter 6)
+
+Ofgem has decided, following consultation, to separate the price control into two
+controls covering NGC’s role as transmission asset owner (TO) and system operator
+(SO). Ofgem is proposing that the new price control should apply to the revenues of the
+TO part of the business only. SO activities that are presently included in the scope of
+the price control will, from 1 April 2001, be subject to separate incentive arrangements,
+in respect of which draft proposals are being published today. This will involve the
+transfer of costs estimated at around £40 million per annum included in the table above
+from the TO price control to the SO incentive schemes. This transfer will not directly
+impact on the level of NGC’s revenues but, by improving inventives on NGC, it is
+expected to reduce the overall costs of transmission and system operation.
+
+NGC has been asked to indicate to Ofgem by 27 October whether or not it accepts the
+proposals set out in this document.
+Table of contents
+
+1. Price control review of the National Grid Company (NGC)..............................1
+
+      Objectives of the price control review....................................................................1
+
+      NGC’s revenues.......................................................................................................2
+
+      Scope of price control .............................................................................................3
+
+      The separation of the SO and TO for regulatory purposes and the impact of NETA
+      ................................................................................................................................3
+
+      Type of price control...............................................................................................4
+
+      European cross-border tariffs ..................................................................................5
+
+2. Operating expenditure............................................................................................6
+
+      Overall approach.....................................................................................................6
+
+      Consultants’ efficiency study...................................................................................8
+
+      Ofgem’s assessment.................................................................................................9
+
+      NGC’s overall performance relative to other electricity network companies ........9
+
+      Components of operating expenditure..................................................................12
+
+      TO/SO division of responsibilities .........................................................................17
+
+      Impact of NETA.....................................................................................................18
+
+      Projections for operating costs in the period of the next price control ................18
+
+3. Capital expenditure .............................................................................................. 20
+
+      Responses to the draft proposals document..........................................................20
+
+      Capital expenditure from 2001/02 to 2005/06......................................................21
+
+      Total capital expenditure projections....................................................................24
+
+      TO/SO division of responsibilities .........................................................................24
+
+      Impact of NETA.....................................................................................................24
+
+      Projections for capital expenditure in the period of the next price control..........25
+
+4. Output measures................................................................................................... 26
+
+      Views on the draft proposals.................................................................................26
+      Demand related outputs........................................................................................27
+
+5. Cost of capital and other financial issues .......................................................... 28
+
+      Introduction ..........................................................................................................28
+
+      The weighted average cost of capital (WACC)......................................................28
+
+      Dividend growth model.........................................................................................34
+
+      Valuation of assets.................................................................................................36
+
+      Financial modelling ...............................................................................................38
+
+6. Price control calculations.................................................................................... 41
+
+      Introduction ..........................................................................................................41
+
+      Deriving a range for the price controls.................................................................41
+
+      Operating expenditure ..........................................................................................42
+
+      Capital expenditure...............................................................................................42
+
+      Regulatory value....................................................................................................42
+
+      Cost of capital .......................................................................................................43
+
+      Allocating P 0 and X................................................................................................43
+
+      Other factors affecting calculation of P o and X.....................................................43
+
+      Impact of NETA and the SO/TO division of responsibilities..................................43
+
+      The final proposals for the transmission business .................................................44
+
+7. Ring-fencing........................................................................................................... 45
+
+      Introduction ..........................................................................................................45
+
+Appendix 1 Form of licence amendments ............................................................. 49
+
+      Introduction ..........................................................................................................49
+
+      Formula for P t ........................................................................................................49
+
+      Formula for D t .......................................................................................................49
+
+      Formula for Kt ........................................................................................................49
+
+      Formula for G t .......................................................................................................49
+
+      Formula of U t.........................................................................................................50
+Appendix 2 Summary of responses to draft proposals document ...................... 51
+
+Appendix 3 Structure of National Grid Group (NGG)......................................... 55
+
+Appendix 4 Application of the dividend growth model....................................... 56
+
+Appendix 5 NGC’s summary response on network capabilities ......................... 59
+
+     NGC Transmission Capacity for the forthcoming Price Control...........................59
+
+     Exit Point Capacities ..............................................................................................60
+
+     Entry Point Capacities ...........................................................................................61
+
+     System Boundary Capabilities ...............................................................................62
+
+Appendix 6 Price control calculations ................................................................... 65
+Foreword
+
+This document sets out Ofgem’s conclusions from its review of the price control that
+applies to the transmission business of the National Grid Company plc (NGC). The
+document sets out proposals for a new price control to apply from 1 April 2001 for five
+years and follows the publication of draft proposals by Ofgem in June 2000.
+
+Following the introduction of the New Electricity Trading Arrangements (NETA), which
+is expected to take place before implementation of the new price control, the activities
+of the transmission business will involve two distinct roles: its role as transmission asset
+owner (TO) and its role as system operator (SO). These different activities of the
+transmission business are explained in Chapter 1 below. The existing transmission
+business price control applies to revenues earned from all of the TO activities and some
+of the SO activities. In order to reflect NGC’s new responsibilities following the
+introduction of NETA, Ofgem is proposing that the new RPI-X price control will apply
+only to the revenues of the TO business. The revenues of the SO part of the business
+will be regulated through a separate price control. Ofgem is today publishing “The
+transmission price control review of the National Grid Company from 2001: System
+Operation. Initial Proposals”.
+
+In order to aid comparison with Ofgem’s draft proposals, published in June, these
+proposals are set out as if the new price control had the same scope as the existing
+transmission business price control (covering all TO and some SO revenues). The
+document then sets out separately the adjustments arising from the reduction in the
+scope of the control, and certain further adjustments arising from the impact of NETA.
+
+The price control should allow NGC to finance the costs attributable to, and efficiently
+incurred by, the TO, including an appropriate return on its regulatory asset base. In
+formulating these proposals Ofgem has considered a business plan questionnaire (BPQ)
+completed by NGC, reports from consultants appointed by Ofgem to assess the
+efficiency of NGC’s cost projections, the views of Ofgem’s senior business advisers, and
+responses to the three consultation documents published as part of this review.
+
+The remainder of this document is structured as follows:
+       ♦       Chapter 1: discusses the licensed activities of NGC’s business, the form,
+               structure, scope and duration of the next price control, the transmission
+               access arrangements and the system operator incentives;
+
+       ♦       Chapter 2: sets out Ofgem’s views on NGC’s future operating costs in the
+               light of the BPQ, the efficiency study which Arthur Andersen have
+               conducted, NGC’s comments on Arthur Andersen’s study and the
+               responses to the draft proposals. It also explains the separation of future
+               operating costs between the TO and the SO;
+
+       ♦       Chapter 3: sets out Ofgem’s views on NGC’s future capital expenditure,
+               both load related and non-load related, in the light of the BPQ, the
+               capital expenditure study which PB Power have conducted, NGC’s
+               comments on PB Power’s report and the responses to the draft proposals.
+               It also discusses the separation of future capital expenditure between the
+               TO and the SO;
+
+       ♦       Chapter 4: describes Ofgem’s proposals for improving incentives on
+               NGC;
+
+       ♦       Chapter 5: sets out the method which Ofgem has used in assessing
+               NGC’s cost of capital and Ofgem’s approach to financial modelling;
+
+       ♦       Chapter 6: outlines Ofgem’s method for the calculation of NGC’s
+               allowed revenues for the next price control period; and
+
+       ♦       Chapter 7: contains Ofgem’s proposals for introducing a financial ring-
+               fence into NGC’s transmission licence.
+
+       Rationale for this review
+
+The operations of NGC are central to the operation of the electricity supply industry in
+England and Wales and to the related trading arrangements. NGC’s quality of service
+affects almost all users of the system. Transmission charges account for about 5 per cent
+of a typical domestic bill and slightly more for industrial and commercial customers
+although NGC’s performance in running the transmission business can have a significant
+impact on the costs of generation to final customers.
+NGC is the monopoly provider of most transmission services in England and Wales. In
+order to protect customers, it remains appropriate to regulate NGC’s charges. To
+incentivise NGC to be efficient, a price control remains the most appropriate method of
+regulation for those of NGC’s activities which are not subject to separate revenue
+incentives.
+
+In 1999/2000 NGC’s price controlled revenue was approximately £870 million. The
+direct cost to Ofgem of conducting the present review has been approximately £0.8
+million (including a provision of around £0.5 million for consultancy services).
+
+NGC has been asked to indicate by 27 October whether the proposals contained in this
+document are acceptable.
+
+Ofgem
+September 2000
+1. Price control review of the National Grid Company (NGC)
+
+         Objectives of the price control review
+
+1.1      The objective of this price control review is to protect the interests of consumers by:
+
+         (i)      ensuring that NGC can finance the licensed activities of its TO business, given
+                  efficiency and economy on NGC’s part;
+
+         (ii)     enabling quality of service to be maintained and appropriate new investment to be
+                  financed;
+
+         (iii)    ensuring that the prices charged to NGC’s customers are no higher than necessary
+                  to fulfil objectives (i) and (ii); and
+
+         (iv)     providing incentives to ensure that NGC maintains an appropriate balance
+                  between the quality of its services, efficient capital investment, efficient operating
+                  expenditure and efficient financial management.
+
+1.2      In setting the next price control, Ofgem has considered the effects of future developments,
+         including:
+
+         ♦         New Electricity Trading Arrangements (NETA): the introduction of NETA, which
+                   will significantly affect the way NGC discharges its functions, is scheduled to take
+                   place before the new TO control;
+
+         ♦         review of the transmission access regime: Ofgem is planning to review the way
+                   access to the transmission system is sold following the introduction of NETA;
+
+         ♦         division of SO and TO functions: for regulatory purposes, these functions will be
+                   separated within NGC’s transmission business on implementation of NETA; and
+
+         ♦         developments in transmission and ancillary services: there may be technical
+                   changes in these areas over the period of the next price control.
+
+1.3      In general, NGC’s customers, principally electricity suppliers and generators, may be
+         expected to recover their costs from final customers. Given that NGC monopolises high-
+         voltage transmission in England and Wales, it is important for final customers that NGC is
+
+
+
+
+Office of Gas and Electricity Markets               1                            September 2000
+         as efficient as possible. Table 1.1 shows the levels of operating expenditure, depreciation
+         and the return on capital in NGC’s RPI-X revenue in 1998/99.
+
+         Table 1.1: Transmission business RPI-X-controlled costs and revenues (1998/99)
+
+                                                 1998/99           Share of
+                                                  (£m)           transmission
+                                                                 revenues (%)
+         Operating expenditure                       320              35
+         Current cost depreciation                   294              32
+         Return on capital                           235              25
+         Total RPI-X revenue                         849              92
+         Post-1990 connections revenues               76               8
+         TOTAL                                       925             100
+         Source: NGC submissions to Ofgem
+
+1.4      On average, NGC’s RPI-X controlled revenue represents 5 per cent of final electricity
+         prices to domestic customers and slightly more for industrial and commercial customers.
+         A 25 per cent difference in operating expenditure over one year could change electricity
+         prices to final consumers by about 0.4 per cent. In 1996, NGC’s return on capital was
+         estimated at 7 per cent for the purpose of setting the present price control. A variation of
+         1 percentage point in this cost of capital would affect allowed revenue by around £40
+         million per annum, leading to a variation in prices to final customers of about 0.2 per
+         cent.
+
+         NGC’s revenues
+
+1.5      NGC’s electricity transmission business has three principal sources of revenue:
+
+         ♦         transmission network use-of-system (TNUoS) and connection charges;
+
+         ♦         transmission services use-of-system (TSUoS) charges; and
+
+         ♦         the incentive mechanisms relating to the costs of losses and energy uplift
+                   recovered from customers through the Pool.
+
+1.6      These charges were described in Chapter One of the initial thoughts consultation
+         document (published in March 2000). This price control review process concerns the first
+         of the three revenue streams: income from NGC’s TNUoS and pre-Vesting connection
+         charges. In addition, as part of this review Ofgem has considered the costs of post-Vesting
+         connections. NGC’s TSUoS charges and their associated incentive schemes through
+         which NGC recovers certain costs of system operation are regulated separately and are
+
+
+Office of Gas and Electricity Markets            2                              September 2000
+         being reviewed separately. Throughout this review process, Ofgem has considered the
+         interactions between the TSUoS incentives schemes and the price controlled revenue, to
+         ensure consistency of approach. In particular, Ofgem has reviewed the division between
+         the scope of the transmission business price control and the scope of the other incentive
+         arrangements. This is explained further in the following paragraphs.
+
+         Scope of price control
+
+1.7      Previous consultation documents have addressed the scope of the price control. All the
+         respondents to the initial thoughts and draft proposals consultation documents who
+         expressed a view on the scope of the control considered that the price control should
+         remunerate those activities which would be allocated to the TO following the separation
+         of the SO and the TO for regulatory purposes. Ofgem considers that the SO should be
+         remunerated through the successor to the transmission services incentives arrangements.
+         Most respondents who commented on this issue agreed with this view. Ofgem’s final
+         proposals are based on the separation of the costs of the TO from those of the SO. This
+         issue is discussed further in the next section and in Chapters 2, 3, 5 and 6 below.
+
+1.8      The draft proposals indicated that incentives on NGC should be strengthened by linking
+         its revenues to the outputs it achieves. The issues surrounding linking NGC’s revenues to
+         the outputs which it achieves are discussed further in Chapter 4.
+
+         The separation of the SO and TO for regulatory purposes and the impact of
+         NETA
+
+1.9      The structure of the National Grid Group in January 2000 is shown in Appendix 3.
+         Following the introduction of NETA, and coinciding with the start of the new price
+         control period on 1 April 2001, Ofgem is to regulate the two functions of NGC’s
+         transmission business, the SO and the TO, separately, and is in the process of setting
+         separate price controls for each. As indicated in the draft proposals, the TO is to be
+         regulated by means of a price control, following the same format as the current price
+         control of the transmission business. As part of the process of separating the functions of
+         the TO and the SO, it has become apparent that the appropriate division between the two
+         broadly coincides with the current division between the activities remunerated through
+         the price control and those activities remunerated through separate incentives
+         mechanisms. However, there are some activities presently falling within the scope of the
+         price control which will in future be part of NGC’s role as SO. In order to separate the
+
+
+Office of Gas and Electricity Markets          3                              September 2000
+         price controls applying to these functions properly in the future, it is necessary to consider
+         separately the projected operating costs, capital expenditure and regulatory asset base of
+         activities falling within the scope of the existing price control. Ofgem refers to the SO
+         costs covered by the existing price control as the “internal SO costs”. This separation is
+         discussed in Chapters 2, 3 and 5.
+
+1.10     The TO will own and maintain the high-voltage transmission network in England and
+         Wales, and will carry out investment where this is judged appropriate. The SO will
+         undertake the short-term activities necessary to operate the high-voltage transmission
+         network in England and Wales safely and efficiently. The introduction of NETA will have
+         significant implications for the operations of the SO and a minor impact on the activities
+         of the TO. The SO will be expanded to incorporate a larger System Management function
+         responsible for the day-to-day operation of the system and a Trading function. The TO
+         will incur extra expenditure as a result of NETA, as discussed in Chapter 2.
+
+         Type of price control
+
+1.11     At present NGC’s transmission business is subject to an RPI-X price control, under which
+         allowed revenue is fixed at regular reviews. RPI-X controls are widely used in the UK for
+         the regulation of network monopolies. This form of regulation has proven effective in
+         providing clear targets for companies and has led to significant price reductions and
+         quality improvements for customers to date.
+
+1.12     The advantages and benefits of RPI-X controls in the regulation of network monopolies in
+         the electricity industry may be demonstrated through the achievements of NGC and of
+         the PES distribution businesses. The operating costs of NGC’s transmission business have
+         fallen by 30 per cent since 1990, and the operating costs of the distribution businesses,
+         which are subject to a similar price control, have been reduced by about one-quarter
+         between 1994/95 and 1997/98. At the same time, NGC’s customers have generally
+         benefited from high quality of supply – for example, there were no transmission related
+         voltage or frequency excursions and only five transmission related loss of supply incidents
+         in 1998/99. Ofgem is proposing that the TO business should continue to be subject to an
+         RPI-X control.
+
+
+
+
+Office of Gas and Electricity Markets           4                              September 2000
+         European cross-border tariffs
+
+
+1.13     The European Commission is leading work to develop a system of payments for cross-
+         border electricity flows within Europe. In the first instance these will not apply to the UK,
+         and their impact has not been considered as part of this price control review. If the UK
+         subsequently participates in these arrangements, Ofgem will need to consider at that time
+         what the implications will be for transmission operators within Great Britain.
+
+
+
+
+Office of Gas and Electricity Markets           5                             September 2000
+2. Operating expenditure
+
+         Overall approach
+
+2.1      NGC’s transmission business expenditure can be broken down into capital costs and
+         operating costs. Capital costs cover spending on assets, such as transformers and
+         switchgear, the benefits of which can be expected to last several years. Operating costs
+         cover the day-to-day costs of running the network, such as repairs and maintenance,
+         planning, control, overhead costs and business rates. The appropriate allowance for
+         capital expenditure in the period of the next price control is the subject of the next
+         Chapter. Operating costs are discussed in this Chapter.
+
+2.2      The draft proposals set out Ofgem’s overall approach to the analysis of operating
+         expenditure. NGC submitted its response to Ofgem’s business plan questionnaire (BPQ)
+         in January 2000, which set out NGC’s projections for operating expenditure between
+         1998/99 and 2005/06. Ofgem has employed Arthur Andersen as consultants to examine
+         the transmission business operating costs in 1998/99 and 1999/00 and NGC’s forecasts of
+         operating costs over the period from 2000/01 to 2005/06. NGC’s forecasts and Arthur
+         Andersen’s subsequent analysis did not take into account the impact on operating costs
+         attributable to the introduction of NETA. These additional costs were addressed in a later
+         study by Arthur Andersen. Ofgem’s consultants submitted a draft report to Ofgem in
+         April 2000 and a final report in July 2000.
+
+2.3      The draft proposals document considered the projected operating expenditure of NGC’s
+         regulated transmission business as a whole. As mentioned in Chapter 1 above, Ofgem
+         now intends to regulate the revenues of the TO part of the transmission business only by
+         means of an RPI-X price control. This Chapter sets out Ofgem’s views in relation to the
+         operating expenditure requirements of the whole transmission business, then discusses
+         the separation of operating expenditure between the TO and the SO. This results in an
+         operating cost allowance for the portion of that expenditure relating to the TO only.
+
+2.4      The draft proposals set out the areas of NGC’s operating expenditure which Ofgem
+         considered contentious. Of these, this Chapter covers:
+
+         ♦         staff costs: these account for around one-third of NGC’s controllable operating
+                   costs throughout the next price control. Ofgem’s consultants considered that
+                   there could be significant savings in addition to those projected in NGC’s
+
+
+Office of Gas and Electricity Markets            6                             September 2000
+                   response to Ofgem’s BPQ. These savings were attributable to staff numbers, pay
+                   levels, organisational shape, severance costs and the costs of the HR and finance
+                   functions;
+
+         ♦         research and development: Ofgem’s consultants questioned whether it was
+                   appropriate to include a large part of NGC’s forecasts of research and
+                   development expenditure in the allowance for operating costs. They considered
+                   that a mechanism whereby NGC would report on its research and development
+                   expenditure to Ofgem periodically with the cost being recovered ex-post might be
+                   more appropriate. They also considered that NGC had not fully demonstrated
+                   where the benefits of completed research projects were reflected in its forecasts of
+                   the costs of the transmission business activity;
+
+         ♦         insurance: Ofgem’s consultants felt that consideration should be given to
+                   excluding the cost of insuring against low probability events, such as terrorism,
+                   from NGC’s allowed operating costs, and that it might be appropriate to allow
+                   NGC to recover costs arising from a terrorist incident through a subsequent price
+                   control settlement, as appropriate. This would remove the immediate need for
+                   NGC’s customers to pay for insurance against low probability events, such as
+                   terrorism;
+
+         ♦         Energis charges: NGG’s associated undertaking, the telecoms company Energis,
+                   currently pays around £4 million per year to NGC for the use of NGC’s
+                   transmission assets upon which 2,725 km of fibre-optic cable is installed (the so-
+                   called Infrastructure Services Licence (ISL) fee). This revenue is treated as
+                   excluded revenue, and by taking account of this revenue at the price control
+                   review, correspondingly less revenue needs to be raised from use of system
+                   charges . The basis on which the current charge was calculated was set in 1993
+                   and confirmed at the last price control review in 1996. However, at the last price
+                   control review OFFER stated that it might wish to review the level of the ISL fee at
+                   some time in the future. Consequently, in their draft report, Ofgem’s consultants
+                   calculated a market-based ISL fee of £3,000/km, using a method consistent with
+                   that which Ofgem had applied to calculate the ISL fee for Thus, ScottishPower’s
+                   telecoms affiliate during last year’s review of ScottishPower’s price control; and
+
+
+
+
+Office of Gas and Electricity Markets             7                              September 2000
+         ♦         business rates: in the draft proposals, Ofgem said that it was minded to include an
+                   allowance for the outcome of the review of business rates, as was done during the
+                   PES distribution reviews. NGC had submitted its BPQ before the government’s
+                   plans for the review of business rates had been finalised. Accordingly, Ofgem has
+                   examined NGC’s projections to ensure that they correspond with the outcome of
+                   the review of business rates, and is satisfied that this is the case. Ofgem intends
+                   that any variation between its forecast of NGC’s business rates and their outturn
+                   level should be a pass-through element within the price control (see Appendix 1).
+
+         Consultants’ efficiency study
+
+2.5      The draft proposals document contained details of the draft report of the study,
+         commissioned by Ofgem and undertaken by Arthur Andersen, to assess the operating cost
+         efficiency of NGC’s transmission business. The draft report projected efficient operating
+         costs at £907 million over the next price control period. Ofgem considered the draft
+         report and NGC’s comments on the draft report in formulating its draft proposals, which
+         were based on forecast efficient cash operating expenditure of between £944 million and
+         £1,004 million over the next price control period. Following the submission of
+         comments on the draft report by NGC and further work by Ofgem’s consultants, the final
+         report of the efficiency study was submitted to Ofgem at the end of July, and has been
+         placed in Ofgem’s library and on its website (www.ofgem.gov.uk). The final report
+         contained projections for efficient cash operating costs of between £964 million and
+         £1,027 million over the next price control period, depending on the assumptions on
+         efficient staff costs and the funding of research and development. NGC has submitted
+         further comments on the final report of the efficiency study, which it placed on its
+         website. Based on its consultants’ draft and final reports, on NGC’s comments on those
+         reports and on responses to its consultation documents, Ofgem has estimated efficient
+         operating costs over the next price control period at £1,020 million. The projections for
+         operating expenditure over the price control period by NGC, Ofgem and Ofgem’s
+         consultants are contained in Table 2.1 below.
+
+
+
+
+Office of Gas and Electricity Markets             8                             September 2000
+Table 2.1: Forecasts for NGC’s ECOC over the next price control period (£m)
+
+                                        2001/02   2002/03   2003/04   2004/05   2005/06   Total
+NGC BPQ submission (1/00)               220.9     212.8     207.6     203.9     201.3     1,046.5
+Consultants’ draft report (4/00)        195.4     185.9     178.7     174.7     172.5     907.2
+Draft proposals high case (6/00)        212.9     205.4     198.7     194.6     192.3     1,003.9
+Draft proposals low case (6/00)         205.7     194.6     185.3     180.0     177.9     943.5
+Consultants’ final report               208.7     198.4     190.0     185.2     181.6     963.9
+Scenario 1 (7/00)
+Consultants’ final report               216.9     206.2     197.1     191.9     188.2     1,000.3
+Scenario 2 (7/00)
+Consultants’ final report               218.5     210.8     203.4     199.2     195.3     1,027.2
+Scenario 3 (7/00)
+Final proposals (9/00)                  221.1     209.9     200.2     196.0     192.2     1,019.5
+
+         Ofgem’s assessment
+
+2.6      Respondents to the draft proposals consultation were broadly supportive of the approach
+         to be adopted in estimating NGC’s allowed revenues over the period of the next price
+         control. NGC argued, however, that greater emphasis should be placed on its overall
+         performance in reducing controllable operating costs compared to other electricity
+         companies. Ofgem’s consultants have benchmarked NGC against comparator companies
+         both on its overall performance and on components of operating expenditure.
+
+         NGC’s overall performance relative to other electricity network companies
+
+2.7      In its responses to the draft proposals and to the final report of the efficiency study, NGC
+         has argued that its performance since privatisation compares favourably with other
+         network utilities, including the three most efficient public electricity supplier (PES)
+         distribution businesses, known as the “frontier” PESs. Both NGC and Ofgem’s consultants
+         considered a variety of measures and comparators in considering NGC’s overall
+         performance relative to other electricity network companies.
+
+2.8      NGC has argued that its operating cost performance is comparable with that of the
+         frontier PESs and that, comparing to operating cost performance since 1991/92 rather than
+         1990/91, NGC has outperformed the frontier PESs. NGC used a measure of controllable
+         operating costs to support this argument, and showed real controllable operating cost
+         reductions of 46 per cent for NGC between 1990/91 and 1998/99, and for the frontier
+         PESs on average, of 50 per cent over the same period. It also showed real controllable
+         operating cost reductions of 54 per cent for NGC between 1991/92 and 1998/99 and for
+         the frontier PESs of 46 per cent over the same period. NGC’s reason for using 1991/92 as
+         the base for comparison rather than 1990/91 was that NGC incurred significant
+
+
+Office of Gas and Electricity Markets               9                           September 2000
+         restructuring costs in both 1990/91 and 1991/92 post-privatisation whereas the PESs
+         already existed as separate corporate entities.
+
+2.9      Ofgem’s consultants also considered the relative performance of NGC and the frontier
+         PESs and based their comparisons on the same data, which was provided by NGC. The
+         consultants do not accept the view that 1991/92 is a more appropriate starting point in
+         the comparison of costs trends between NGC and the PESs. By beginning the analysis
+         after the significant increase in costs in 1990/91, the consultants considered that NGC has
+         presented its cost reduction performance an unduly favourable light. NGC attributed the
+         increase to restructuring costs, in particular the need to create a new commercial charging
+         function. Consequently, Ofgem’s consultants considered that these costs may be
+         regarded as one-off expenditures and so their exclusion from subsequent years’ costs may
+         not form part of efficiency gains.
+
+2.10     Ofgem’s consultants’ analysis demonstrated that the average controllable operating cost
+         reduction of the three frontier PESs slightly exceeded that of NGC between 1990/91 and
+         1997/98 (the last year for which actual data was available for the analysis). The
+         compound annual reduction for NGC was 8.1 per cent compared to 8.7 per cent for the
+         frontier PESs over the period 1990/1 to 1997/8.
+
+2.11     Because of the difficulty in determining the impact of the post-privatisation restructuring
+         undertaken by NGC on the comparison of NGC and PES performance, Ofgem’s
+         consultants also considered the relative performance of NGC and the frontier PESs over
+         the period when a marked acceleration in operating cost reductions was discernible after
+         privatisation. For NGC this trend started in 1992/93 after returning to the same levels of
+         operating costs as those prior to the increases in 1990/91. For the PESs, the acceleration
+         started later in 1994/95. The compound rate of operating cost reduction for NGC over
+         the period 1992/93 to 1997/98 was 12.3 per cent. Over the period 1994/95 to 1997/98
+         the frontier PESs achieved a higher compound annual reduction of 13.8 per cent. Hence,
+         according to the consultants, over an appropriately comparable period, the frontier PESs
+         outperformed NGC by a significant margin.
+
+2.12     After 1997/98, NGC also presented a comparison of the price control settlement for the
+         frontier PESs and NGC’s BPQ response cost profile. NGC argued that this resulted in a
+         reduction in its operating costs of 59 per cent between 1991/92 and 2004/05, and a
+         reduction of 47 per cent for the frontier PESs over the same period. NGC further
+
+
+
+Office of Gas and Electricity Markets          10                             September 2000
+         compared this profile with that presented by Ofgem and concluded that it implied that
+         NGC would significantly outperform the frontier PESs. Ofgem’s consultants did not
+         consider this a valid comparison since it combines regulatory account operating costs
+         before 1998 with Ofgem’s projections of efficient operating costs after 1998 and PES
+         price controls (which cover capital expenditure and operating expenditure).
+
+2.13     NGC further supports its assertion that its performance is efficient in comparison with
+         other utility network companies by means of an international benchmarking exercise
+         which covers 20 transmission utilities, the “ITOMs” study. It cites the fact that NGC has
+         been identified as a “best performer” in this exercise. Ofgem’s consultants note that the
+         activities covered by the ITOMs exercise account for only 21 per cent of the controllable
+         operating costs of the TO. Although the consultants accept that the study supports NGC’s
+         cost projections in the specific areas covered by the analysis, they believe that the results
+         are of limited use in guiding projections for the transmission business as a whole.
+
+2.14     Ofgem’s consultants also examined the compound cost savings rates in the water and
+         sewerage, electricity distribution and gas transportation industries, drawing on research
+         conducted by ORR and Ofwat in their recent price control reviews. The results of their
+         analysis are summarised in Table 2.2 below.
+
+         Table 2.2: Relative declines in operating expenditure since privatisation
+
+         Industry/Company                       Compound annual cost savings in real unit
+                                                operating expenditure since privatisation
+         NGC                                                      6.8%
+         PES distribution (all)                                   6.0%
+         PES distribution (top 6)                                 7.7%
+         Water                                                    3.7%
+         Sewerage                                                 4.1%
+         British Gas/Transco                                      7.5%
+         Source: Office of the Rail Regulator
+
+2.15     Commenting on the table, Ofgem’s consultants considered that:
+
+         ♦         in broad terms, the nature of the business for these sectors is comparable.
+                   Therefore they did not expect variation in input prices or capital substitution
+                   effects to create fundamental differences in unit costs;
+
+         ♦         the figure for water and sewerage probably understates efficiency improvements
+                   due to additional expenditure on quality improvements; and
+
+
+
+
+Office of Gas and Electricity Markets                 11                          September 2000
+         ♦         the figure for gas probably overstates efficiency gains due to a large increase in
+                   volumes, which has the effect of boosting performance due to economies of scale.
+
+2.16     Ofgem considers that the exchange of views between its consultants and NGC has
+         demonstrated that it is possible to derive a variety of answers from benchmarking NGC,
+         depending on the period over which the comparison is made and the precise variable
+         compared. The lack of a direct comparator for NGC adds to the difficulties in relying on
+         benchmarking. However, Ofgem is of the view that NGC has not demonstrated that
+         controllable operating cost reductions of around 3.5 per cent per annum, on which
+         Ofgem has based its final proposals, are unattainable. Table 2.2 above indicates that this
+         is a lower reduction than NGC or the PES distribution businesses have achieved since
+         privatisation.
+
+         Components of operating expenditure
+
+2.17     Based on respondents’ views, on the final report of the efficiency study and on NGC’s
+         comments on the final report, Ofgem has projected a level of efficient operating costs of
+         £1,020 million. In the draft proposals, Ofgem raised a number of areas of operating
+         expenditure on which it welcomed views, including:
+
+         ♦         staff costs;
+
+         ♦         research and development;
+
+         ♦         insurance; and
+
+         ♦         Energis charges.
+
+2.18     This section summarises Ofgem’s conclusions on each of those areas in turn.
+
+         Staff costs
+
+2.19     Staff costs, which are approximately one-third of NGC’s controllable operating costs,
+         account for a substantial proportion of the savings identified in the efficiency study
+         conducted by Ofgem’s consultants. NGC’s BPQ submission contained staff costs of
+         between £82 million and £86 million per annum for the next price control period. In
+         their final report, Ofgem’s consultants estimated a range for the efficient level of cash staff
+         costs.
+
+
+
+
+Office of Gas and Electricity Markets            12                             September 2000
+         Pay
+
+2.20     Ofgem’s consultants forecast three potential scenarios for base salary levels in the
+         transmission business:
+
+         ♦         in Scenario 1, Ofgem’s consultants aligned base salaries to a market lower quartile
+                   derived from a benchmarking study commissioned by NGC from Hay Consultants
+                   in 1998/99 and 1999/00 and inflated base salaries using a real wage growth factor
+                   of 2.3 per cent thereafter1;
+
+         ♦         in Scenario 2, Ofgem’s consultants re-aligned the base salaries of all job groups
+                   with average salaries above the market median (again, derived from the Hay
+                   benchmarking study) in 1998/99 and 1999/00 to the median, and increased those
+                   base salaries by a real wage growth factor of 2.3 per cent thereafter. For those job
+                   groups with average pay below the median, average actual salaries were applied
+                   in 1998/99 and 1999/00 and were inflated using the real wage growth factor of 2
+                   per cent, as assumed by NGC, thereafter. This is the growth rate applied by NGC
+                   in projecting wage costs in the BPQ; and
+
+         ♦         in Scenario 3, Ofgem’s consultants made no change to the pay levels assumed by
+                   NGC in the BPQ. This is based on actual average salaries in 1998/99 and
+                   1999/00, inflated at a wage growth factor of 2 per cent thereafter.
+
+         Organisational shape
+
+2.21     Ofgem’s consultants combined the pay analysis set out above with an investigation of the
+         transmission business’s organisational shape. As with pay, Ofgem’s consultants
+         considered organisational shape in three scenarios:
+
+         ♦         in Scenarios 1 and 2, Ofgem’s consultants determined a revised organisational
+                   shape on the basis of a review of the shape and balance of the transmission
+                   business with PB Power. Scenarios 1 and 2 assume that this shape will be
+                   achieved by the transmission business by 2004, followed by a 2 per cent per year
+                   reduction in all job groups thereafter. In determining the revised organisational
+                   shape achieved in 2004, Ofgem’s consultants made amendments to the Network
+                   Services and Project Management operating units only. All other operating units
+
+
+
+
+Office of Gas and Electricity Markets             13                           September 2000
+                   are unchanged from NGC’s BPQ submission, though the 2 per cent per year
+                   reduction in all job groups after 2004 relates to all operating units;
+
+         ♦         in Scenario 3 Ofgem’s consultants assumed that the organisational shape for 2006
+                   submitted by NGC in its BPQ is achieved by 2004 and the accelerated rate of
+                   change required to reach this level by 2004 is carried on at the same level
+                   between 2004 and 2006.
+
+         Severance
+
+2.22     In accordance with standard accounting practices, NGC provides for severance liabilities
+         when these are identified, utilising the provision when these are paid. As Ofgem’s
+         consultants focused on cash operating costs, all charges to the profit and loss account
+         made to set up this provision were removed. In addition, Ofgem’s consultants formulated
+         the following scenarios for the treatment of severance:
+
+         ♦         in Scenarios 1 and 2 severance cost is estimated at twice the annual base salary
+                   cost using an assumption of pay corresponding to Scenarios 1 and 2 as described
+                   above.
+
+         ♦         in Scenario 3 severance cost is estimated at two and a half times the annual salary
+                   cost, using an assumption of pay corresponding to Scenario 3 as described above.
+
+         HR and Finance
+
+2.23     Ofgem’s consultants have forecast efficient costs for the HR and finance functions by
+         comparing the transmission business to the 75th percentile (i.e. the lower end of the top
+         quartile in terms of performance) (Scenarios 1 and 2) and the median (Scenario 3) of the
+         respective sample groups. The scenarios both assume that the Transmission Business
+         reaches the efficient level by 2001/2
+
+         Summary of staff cost adjustments
+
+2.24     For the next price control period, the final report forecasts efficient staff costs £9.7 million
+         (Scenario 3), £27.8 million (Scenario 2) or £64.2 million (Scenario 1) lower than NGC’s
+         BPQ submission.
+
+
+1
+          Ofgem’s consultants assumed a wage growth factor of 2.3% for Scenarios 1 and 2 in line with economic
+forecasts.
+
+
+
+Office of Gas and Electricity Markets                14                                 September 2000
+2.25     Of the respondents to the draft proposals, only NGC and one other commented in detail
+         on the level of staff costs. In summary, NGC supported linking salaries to the market
+         median, but disputed the organisational shape used by Ofgem’s consultants in the low
+         scenario. On Finance, HR and Severance, NGC made a number of points on the
+         application of the benchmarking studies, some of which Ofgem’s consultants took into
+         account in formulating their final proposals. After careful consideration, Ofgem’s view is
+         that it is appropriate to benchmark NGC against scenario 2 as proposed by AA.
+
+2.26     Accordingly, the final proposals on operating expenditure are based on the median of the
+         range of comparator companies in pay, and the costs of the HR and Finance functions.
+         On organisational shape, Ofgem considers that the shape and balance of the transmission
+         business developed by its consultants is appropriate. On severance, it appears
+         unreasonable to expect customers to pay for excessively generous severance terms and so
+         Ofgem has adopted the lower forecast of severance costs.
+
+         Research and development
+
+2.27     The draft proposals suggested that it might be appropriate to allow NGC to recover the
+         efficient costs associated with research and development projects only once the benefits
+         of such projects to customers had been demonstrated. Accordingly, the forecast for
+         efficient operating expenditure in Ofgem’s low scenario did not include around £7
+         million per year of the research and development expenditure in NGC’s BPQ. The high
+         scenario included NGC’s BPQ forecast for research and development in full.
+
+2.28     Since the publication of the draft proposals document, NGC has provided to Ofgem and
+         Ofgem’s consultants information on its research and development programme. Ofgem
+         understands that NGC undertakes three kinds of research and development projects:
+
+         ♦         projects “designed to deliver a product against a clear target”;
+
+         ♦         projects which address emerging health, safety and environmental issues; and
+
+         ♦         other projects, which are aimed at “establishing technical understanding”.
+
+2.29     All of the respondents to the draft proposals document considered that it would be
+         appropriate to include an allowance for NGC’s expenditure on research and
+         development. Ofgem’s final proposals are based on an allowance for NGC’s research and
+         development which includes funding for projects “designed to deliver a product against a
+
+
+
+Office of Gas and Electricity Markets            15                             September 2000
+         clear target” and the projects which address emerging health, safety and environmental
+         issues. No allowance has been made, however, for projects aimed at “establishing
+         technical understanding”, as Ofgem considers it appropriate that such projects be funded
+         through savings resulting from further research and development projects in operating
+         costs. This results in a reduction of £0.6 million per year over five years compared to
+         NGC’s BPQ forecast of around £8 million per year in the next price control period.
+
+         Insurance
+
+2.30     NGC spends £1.3 million per year on insurance against terrorism. The draft proposals
+         document argued that it might be appropriate to remove the costs of insurance against
+         relatively low probability events such as terrorism from efficient costs. The costs of such
+         events would be remunerated through the price control, as they occurred. This would
+         mean that NGC’s customers would no longer have to pay the margin on insurance
+         policies.
+
+2.31     However, most respondents who commented on this issue opposed this treatment of
+         insurance costs. Most felt that this might cause significant volatility in prices in the event
+         of a catastrophic event. Many argued that insurance against such risks is standard
+         business practice. One respondent expressed concern at the inclusion by NGC of self-
+         assessed costs for self-insurance, particularly where NGC controls the risks it claims to be
+         insuring against. However, Ofgem understands that the costs for insurance against low
+         probability events, such as terrorism, forecast in the BPQ were not self-assessed, but
+         based on actual quotations for insurance of this nature.    Accordingly, Ofgem has
+         included an allowance for all insurance costs in its estimation of efficient cash operating
+         costs over the period of the next price control.
+
+         Energis charges
+
+2.32     NGC levied a charge on Energis for the use of transmission assets (the ISL fee) of £3.6
+         million in 1999/00. The allowed revenues contained in the draft proposals proposed a
+         increase to £9.1 million, based on a market based method, consistent with that used for
+         the Scottish companies during the Scottish transmission price control reviews. Most
+         respondents to the initial thoughts and draft proposals consultation documents supported
+         this approach. NGC argued that the ISL fee had been determined in consultation with
+         OFFER in 1993 and to revisit it would be inconsistent. However, at the last price control
+         review, OFFER stated explicitly that it might be appropriate to revisit the level of the ISL
+
+
+Office of Gas and Electricity Markets           16                              September 2000
+         fee. In addition, NGC argued that it would be appropriate to include an allowance for
+         wayleaves in the calculation of the ISL fee. This would have the effect of reducing the fee
+         by £450 per km of fibre.
+
+2.33     The present level of the fee was calculated when the technology used was new and when
+         the income which NGC and Energis could expect to receive from its application was
+         uncertain. Ofgem considers that an increase in the ISL fee to a market based rate,
+         consistent with that used for Scottish Power and its telecoms subsidiary and taking into
+         account new information received from NGC, is appropriate. Ofgem’s consultants have
+         calculated the efficient value for the ISL fee, based on 2,725 km of fibre, at £6.2 million
+         per year over the period of the next price control. Should it transpire that such a fee is
+         not appropriate, Ofgem may revisit it at the next price control review. While some
+         respondents to the draft proposals favoured reducing NGC’s regulatory value to take
+         account of the gains which shareholders have made from NGC’s investment in Energis,
+         Ofgem considered that this would be inappropriate (see Chapter 5).
+
+         TO/SO division of responsibilities
+
+2.34     This section discusses the separation of the projected operating costs, between the TO
+         and the SO before taking into account the effects of the introduction of NETA, as this is
+         the basis on which NGC’s operating cost submissions were made. The implications of
+         the introduction of NETA for the TO’s efficient cash operating costs (ECOC) are discussed
+         below. The capital expenditure and the regulatory asset base are discussed in Chapters 3
+         and 5 respectively.
+
+2.35     NGC projected separately the operating costs attributable to the SO and the TO. Ofgem’s
+         consultants have reviewed NGC’s projections, and have derived two scenarios for cost
+         projections for the SO business based on the scenarios 2 and 3 in their final report on the
+         efficiency study for the split of costs between the TO and the SO. In order to determine
+         the split of costs between the TO and the SO, Ofgem’s consultants have:
+
+         ♦         reviewed the allocation of central costs between the TO and the SO as projected
+                   by NGC and amended this where an alternative allocation method was
+                   considered to be more appropriate;
+
+         ♦         separated the Transmission Business attributable operating costs between the TO
+                   and the SO and determined on allocation of cost adjustments to arrive at an
+
+
+
+Office of Gas and Electricity Markets           17                            September 2000
+                   estimate of efficient operating costs for each of the two functions. Ofgem and
+                   NGC have agreed that the SO should be a “thin” function, and that the activities
+                   in the regulated transmission business which are SO functions should comprise
+                   those of the System Management operating unit, plus a small number of staff from
+                   the Commercial and Systems Strategy operating unit;
+
+         ♦         considered at a high level the cost base of the Ancillary Services Business (ASB),
+                   which is not, at present, part of the regulated transmission business and
+                   determined any cost adjustments and allocations which should be made to
+                   establish the ECOC of this business unit, following the principles used when
+                   adjusting operating costs for the transmission business; and
+
+         ♦         combined the ECOC of the SO function from the transmission business with the
+                   ECOC of the ASB, in order to determine the total ECOC for the SO.
+
+         Impact of NETA
+
+2.36     Ofgem’s consultants have suggested that there are likely to be additional operating costs
+         for the TO as a consequence of NETA in two areas:
+
+         ♦         information systems costs associated with amendments to TNUoS charging of
+                   £0.3 million in 2001/02; and
+
+         ♦         incremental operational telecoms costs of £0.5 million per year over the period of
+                   the next price control.
+
+2.37     Ofgem also notes that NGC has claimed that there are likely to be additional costs as a
+         consequence of the introduction of new transmission access arrangements and the impact
+         of NETA on constraints, which are not the subject of these proposals. Efficiently incurred
+         costs may be recovered under the SO control.
+
+         Projections for operating costs in the period of the next price control
+
+2.38     Ofgem has estimated efficient operating costs over the next price control period, taking
+         into account the impact of the TO/SO division of responsibilities and NETA. Ofgem has
+         based its calculation of the allowed revenues on those estimates, which are set out in
+         Table 2.3.
+
+
+
+
+Office of Gas and Electricity Markets             18                              September 2000
+Table 2.3: Forecasts of NGC’s controllable operating costs 2001/02-2005/06 (£ million)
+
+Source                           2001/02   2002/03     2003/04   2004/05      2005/06       Total
+NGC BPQ                          221       213         208       204          201           1,047
+Draft proposals high case        213       205         199       195          193           1,004
+Draft proposals low case         206       195         185       180          178           944
+Final proposals (whole           221       210         200       196          192           1,020
+transmission business pre-
+NETA)
+SO operating costs               (35)      (35)        (34)      (34)         (35)          (173)
+Incremental NETA costs           1         1           1         1            1             3
+Final proposals                  187       175         166       162          158           849
+(after SO and NETA
+adjustments)
+
+
+
+
+Office of Gas and Electricity Markets             19                       September 2000
+3. Capital expenditure
+
+3.1      The draft proposals considered NGC’s forecasts for capital expenditure in the forthcoming
+         price control period, the reasons for the levels of expenditure and whether the proposed
+         revised projections would be sufficient for NGC to carry out its statutory and licence
+         obligations. Ofgem projected a total expenditure of £1,291 million, a reduction of £249
+         million from NGC’s forecast of £1,540 million. The draft proposals contained an error by
+         using Ofgem’s LRE projection as £431 million, whereas the description of LRE given
+         earlier in the chapter set out a projection of total LRE of £535 million. This error was also
+         contained in the draft proposals price control calculations.
+
+3.2      Ofgem sought views on three main issues:
+
+         ♦         whether its projection of capital expenditure for the forthcoming period was
+                   appropriate;
+
+         ♦         whether the price control should include a mechanism to correct for uncertainties
+                   in the levels of new generation connections; and
+
+         ♦         whether such a mechanism should apply only outside a 3 to 7 GW range, within
+                   which a single capital expenditure allowance would apply.
+
+3.3      The final proposals take account of the views expressed by NGC and other respondents to
+         the draft proposals.
+
+         Responses to the draft proposals document
+
+3.4      Of the 12 responses received by Ofgem, eight (from NGC and seven other organisations
+         within the electricity industry) made comments on the capital expenditure projections in
+         the draft proposals. Ofgem’s proposal to introduce a correction mechanism for
+         expenditure on new generation connections received most comment. In general,
+         respondents supported the introduction of a mechanism to recognise the uncertainty over
+         the levels of new generation connections. One respondent agreed that low growth in
+         new connections was likely. There were a number of comments on the operation of the
+         mechanism. These were that the mechanism should be transparent; that it should
+         recognise that costs may be incurred ahead of the actual connection; and that there could
+         be a large change to the capital expenditure allowance for small changes to the amount of
+
+
+
+Office of Gas and Electricity Markets           20                             September 2000
+         new generation connected at the edge of the deadband. Conversely, one respondent said
+         a best estimate should be incorporated in the price control and that any major
+         underspend not gained through increased efficiency should be clawed back at the next
+         review.
+
+3.5      Other views expressed were that NGC’s level of future investments should be viewed
+         against its outputs. Quality of supply factors such as frequency and voltage excursions
+         should be used as output measures but using comparisons against operating limits rather
+         than statutory limits.
+
+3.6      NGC made several comments on Ofgem’s draft capital expenditure proposals. While
+         NGC commented favourably on the review of expenditure in the present period and on
+         the analysis of their non-load related expenditure (NLRE), it brought out three areas of
+         concern. These were on the level of new generation connections and the associated
+         capital expenditure; the phasing of load related expenditure (LRE); and the disallowance
+         of the expenditure for system protection and system monitoring projects. On the
+         expenditure associated with new generation connections, NGC considered that around
+         10 GW of generation connections might occur, but if only 5 GW were to enter the costs
+         would be higher than those projected by Ofgem. NGC also said that a year-on-year
+         adjustment against an agreed background assumption should be made and that it saw no
+         benefit in adopting a deadband in the mechanism. On the phasing of expenditure, NGC
+         said the Ofgem proposals reflected PB Power’s view on the timing of a component of the
+         London infrastructure work. NGC said that due to the advanced nature of the scheme the
+         proposed expenditure should reflect the expenditure already committed. On the projects
+         for system protection against extreme incidents and system monitoring, NGC said the
+         expenditure should be included within Ofgem’s projections. This topic is discussed
+         further in the LRE section below.
+
+         Capital expenditure from 2001/02 to 2005/06
+
+         Load related expenditure
+
+3.7      LRE is driven by connection of new generation and load, reinforcement of the existing
+         transmission system to accommodate these new connections, reinforcement where
+         generation is retired and by general load growth. As load growth is relatively stable, the
+         number and location of new generators causes the greatest uncertainty in forecasting
+         capital expenditure. The draft proposals set out a base assumption of 5 GW of new
+
+
+Office of Gas and Electricity Markets          21                             September 2000
+         generation with an associated total LRE of £535 million. In addition it set out a correction
+         factor of £30 million per GW from the base assumption but with a deadband of 3 GW to
+         7 GW where no correction would be made. The draft proposals made reductions from
+         NGC’s 2001 forecast of gross LRE of £741 million to £535 million.
+
+         Correction mechanism
+
+3.8      NGC has made further submissions on: the expenditure needed to accommodate 5 GW
+         of new generation; the correction factor; the use of the deadband; and the method of
+         implementation of the correction mechanism. NGC re-modelled the likely new
+         generation that would constitute the 5 GW base assumption. It concluded that the
+         associated level of expenditure would mean a total LRE of £585 million. NGC says that
+         the appropriate correction factor would be £23 million per GW.
+
+3.9      In the light of responses to the draft proposals, Ofgem has modified the correction
+         mechanism to remove the need for an assumed deadband, with its attendant
+         disadvantages. To implement the mechanism, a correction term will be included within
+         the main price control revenue formula. As this formula provides a year-on-year revenue
+         stream, the correction mechanism would also operate year-on-year. To achieve this, a
+         year-on-year background assumption of new generation connections would be sought
+         from NGC. To ensure transparency and to recognise that expenditure will be made in
+         advance of the actual connection, signed connection and use of system agreements
+         would be used as a means of determining when connections are made against the
+         background assumption. Such a mechanism will address a number of comments made
+         by respondents. It will:
+
+         ♦         reduce the effects of uncertainty;
+
+         ♦         be transparent;
+
+         ♦         operate on a year-on-year basis; and
+
+         ♦         remove the sensitivities around the edges of the deadband.
+
+         Phasing of expenditure
+
+3.10     NGC considered that the adjustments to the phasing of expenditure, particularly part of
+         the London infrastructure project, should be reversed as NGC has committed itself to this
+
+
+
+Office of Gas and Electricity Markets            22                             September 2000
+         expenditure. In reviewing capital expenditure at a price control review, Ofgem seeks to
+         ensure expenditure is incurred efficiently to meet statutory and licence conditions. This
+         applies to the timing as well as the magnitude of the expenditure. Ofgem is not
+         convinced that the timing of expenditure suggested by NGC will be necessary for NGC to
+         meet its obligations, and accordingly has not re-phased its projections.
+
+         System protection and system monitoring projects
+
+3.11     NGC’s forecast for the forthcoming period included two projects, one to protect the
+         system against extreme incidents and one to monitor power quality on the transmission
+         system. The first project is designed to protect the transmission system against highly
+         unlikely incidents beyond those covered by the security standards. Both frequency and
+         voltage incidents would be catered for. Although Ofgem supports the aim of the project,
+         Ofgem considers that the documentation submitted by NGC in support of the project
+         does not provide sufficient justification of the levels of expenditure, nor does it provide
+         evidence that the scheme has been developed to a level where implementation would be
+         possible in the forthcoming control period. However, should NGC be able to deliver this
+         project during the period, Ofgem would expect to include an amount appropriate for
+         efficiently spent capital expenditure in the additions to regulatory value at the time of the
+         next review.
+
+3.12     The second project, which deals with system monitoring, proposes to monitor power
+         quality characteristics on the transmission system. Ofgem considers there is insufficient
+         justification of the costs of the scheme in relation to the benefits. Accordingly Ofgem has
+         not included an allowance for this scheme in its capital expenditure projections.
+
+         Non load related expenditure
+
+3.13     The draft proposals noted that a modelling process adopted by Ofgem’s engineering
+         consultants, PB Power, provided reasonable correlation with NGC’s own forecasts, except
+         for switchgear and overhead lines, where reduced expenditure was indicated. Ofgem
+         agreed with PB power’s view that a reduction of 7.5 per cent in the NGC forecast for the
+         asset replacement element of NLRE was appropriate. No representations have been made
+         to Ofgem on this reduction. Ofgem has made an adjustment to this projection since the
+         draft proposals to remove non-operational capital expenditure which has already been
+         allowed within operating expenditure projections.
+
+
+
+
+Office of Gas and Electricity Markets           23                             September 2000
+         Total capital expenditure projections
+
+3.14     Ofgem projects that the total capital expenditure requirements in the forthcoming period,
+         based on the assumption of 5 GW of new connection, will be £1,320 million. This
+         assessment includes the adjustments described above. This is shown against NGC’s
+         forecasts in the table of LRE and NLRE below (Table 3.1).
+
+         Table 3.1 : Comparison of LRE and NLRE in the period 2001/02 to 2005/06 (1999/00 £
+         million)
+
+                                        Load Related   Non Load Related         Total
+          NGC 2001 Forecast                 741              799                1,540
+          Ofgem Projection                  585              735                1,320
+
+         TO/SO division of responsibilities
+
+3.15     This section discusses the separation of the projected capital expenditure, which has been
+         assessed on a pre-NETA basis. As described in Chapter 3, NGC has provided a separation
+         of its capital expenditure attributable to the SO and the TO. Only about 3 per cent of the
+         total amount forecast is attributable to the SO function. The majority of this relates to the
+         replacement of systems required to manage and operate the transmission system. The
+         remaining expenditure is for replacing computer hardware.
+
+3.16     Ofgem’s consultants have reviewed the functional split of the capital expenditure scheme
+         into TO and SO, as proposed by NGC, and the level of the forecast costs. Ofgem broadly
+         agrees with NGC’s separation method. The projected SO operational capital expenditure
+         is given as an adjustment in Table 3.2 below.
+
+         Impact of NETA
+
+3.17     NGC says that additional capital investment for reducing transmission constraint costs will
+         be needed as a result of the introduction of NETA. It says that while constraint volumes
+         are not forecast to change significantly, the price of constraints could rise. However,
+         NGC also says there is a wide range of uncertainty surrounding these constraint prices.
+         NGC is presently incentivised to reduce the costs of constraints through the transmission
+         services incentive schemes. An allowance for constraint reduction capital expenditure
+         has previously been made as part of these incentives. It therefore seems appropriate for
+         the SO to be incentivised in the same manner. Any capital expenditure required for
+         constraint reduction is considered as part of the SO incentives review.
+
+
+
+Office of Gas and Electricity Markets            24                           September 2000
+         Projections for capital expenditure in the period of the next price control
+
+3.18     Ofgem has estimated efficient capital expenditure over the next price control period,
+         taking into account the impact of the TO/SO division of responsibilities and NETA.
+         Ofgem has based its calculation of the allowed revenues on those estimates, which are set
+         out in Table 3.2.
+
+         Table 3.2: NGC’s capital expenditure forecasts and Ofgem proposals 2001/02-2005/06
+         (£ million)
+
+         Source                 2001/02    2002/03     2003/04     2004/05     2005/06        Total
+         NGC BPQ                  352        352         327         279         233         1,540
+         Draft proposals          275        270         254         251         240         1,291 1
+         Final proposals          305        291         263         236         225         1,320
+         (excl. TO/SO, NETA)
+         Effect of TO/SO           (15)      (12)         (3)         (2)         (3)         (35)
+         split
+         (operational) 2
+         Effect of NETA             0         0            0           0           0           0
+         Final proposals           290       279          260         233         222        1,284
+         (inc. TO/SO, NETA)
+         1. Based on LRE of £535 million. The draft proposals were based on a five-year total of £1,186 million,
+         reflecting £431 million of LRE – see paragraph 3.1 above.
+         2. Only SO operational capital expenditure is shown. SO non-operational capital expenditure is excluded as
+         part of non-operational expenditure – see paragraph 3.13 above. Total SO capital expenditure is assessed as
+         £42 million.
+
+3.19     Ofgem considers that this proposal allows NGC sufficient revenue to meet its statutory
+         and licence obligations. These include obligations that derive not only from these
+         proposals but also from the wider range of obligations, such as safety and the
+         environment, that NGC has to meet. In accepting these proposals, NGC accepts that it
+         can discharge all its duties in a suitable way and that it will not claim at a later date that
+         insufficient allowances were made.
+
+3.20     As stated in other network operator price control proposals, these proposals are based on
+         the present legislative requirements. NGC may be at risk from changes to present
+         requirements during the period of the control. Ofgem is therefore prepared to give the
+         same undertaking to NGC as was given to the distribution companies at the end of last
+         year’s review. If, during or following a public inquiry for which the result is not yet
+         known, or as a result of a change in the law, NGC considers it must undertake unforeseen
+         additional expenditure during the price control period, Ofgem would adjust the price
+         control to allow pass through of those costs which it considered reasonable, subject to
+         consultation at the time.
+
+
+
+
+Office of Gas and Electricity Markets                25                                  September 2000
+4. Output measures
+
+4.1      The draft proposals discussed Ofgem’s view on providing NGC with incentives for the
+         quality and levels of service it delivers. Two sets of output measures were described
+         which could be used to incentivise the two principal aspects of NGC’s transmission
+         business:
+
+         ♦         measures related to meeting demand for the use of the transmission system, which
+                   fall on the TO; and
+
+         ♦         measures related to the operation of the transmission system, which fall on the
+                   SO.
+
+4.2      On the TO measures, Ofgem proposed to measure NGC’s demand related outputs and to
+         incentivise NGC against its performance in delivering access rights which are part of the
+         new transmission access regime that is developed. For the SO measures, Ofgem
+         considered that it did not seem appropriate for the price control to incentivise NGC as the
+         price control is intended to apply to the TO rather than the SO. SO measures and
+         incentives are being taken forward separately.
+
+         Views on the draft proposals
+
+4.3      Ofgem invited views on the draft proposals as follows:
+
+         ♦         the appropriateness of measuring NGC’s TO business output by reference to the
+                   level of access rights to be provided under revised transmission access
+                   arrangements; and
+
+         ♦         if the new access regime is not in place by 1 April 2001, whether a transitional
+                   arrangement involving some form of revenue driver should be adopted or whether
+                   Ofgem should wait until the introduction of new transmission access
+                   arrangements before introducing output-based incentive arrangements.
+
+4.4      Eight responses were received, including NGC’s. Views varied with some respondents
+         agreeing that a capacity measure based on the proposed transmission access regime
+         would be suitable while others had reservations about the proposed regime and the
+         benefits an output measure based on it would bring. However, there was general
+
+
+
+
+Office of Gas and Electricity Markets            26                            September 2000
+         agreement that an interim measure, such as a simple MW measure, should not be
+         adopted.
+
+         Demand related outputs
+
+4.5      Ofgem remains of the view that NGC’s performance in delivering appropriate capability
+         on the transmission system should be the measure against which it is incentivised. The
+         proposed price control will allow NGC to develop the network capability through the
+         period to meet the requirements made of it. Any transmission access regime will need to
+         take account of the present capabilities of the system and the likely changes to the
+         capabilities the price control will bring. At Ofgem’s request, NGC has estimated the
+         likely changes to a number of transmission system capabilities, based on the level of
+         capital expenditure set out in the draft proposals. These are:
+
+         ♦         the maximum load capability and maximum generation capability of grid exit
+                   points and grid entry points respectively;
+
+         ♦         the transfer capability across the boundaries defined in NGC’s Seven Year
+                   Statement; and
+
+         ♦         the maximum system demand that could be accommodated.
+
+4.6      NGC’s summary of its response to these questions is shown in Appendix 5. This is based
+         on NGC’s view of the most likely scenario of new generation to meet Ofgem draft
+         proposals base case assumption that 5 GW of new generation will connect in the next
+         period. Actual developments during the period may differ from the assumptions made by
+         NGC. Ofgem expects NGC to invest efficiently to meet the actual requirements and not
+         to make investments simply to meet projections made at this time. To allow Ofgem to
+         make comparisons of the capabilities resulting from actual developments in the future
+         against present estimates, NGC has also provided a complete set of data similar in form to
+         that given in the Seven Year Statement.
+
+4.7      In developing a new transmission access regime, Ofgem proposes to use the information
+         set out in Appendix 5 (together with the more detailed information provided to Ofgem by
+         NGC) as the basis for determining the level of transmission access rights NGC would be
+         expected to make available.
+
+
+
+
+Office of Gas and Electricity Markets            27                          September 2000
+5. Cost of capital and other financial issues
+
+         Introduction
+
+5.1      The initial thoughts and draft proposals documents set out a framework for the analysis
+         and assessment of financial issues as part of NGC’s price control review. This chapter
+         estimates the cost of capital for NGC’s transmission business and examines matters
+         relating to asset valuation and financial modelling.
+
+         The weighted average cost of capital (WACC)
+
+5.2      The level of return that is required by the financial markets is called the cost of capital.
+         The cost of capital is usually calculated as a weighted average of the cost of debt and
+         equity finance. In the draft proposals, Ofgem estimated a range for the real, pre-tax cost
+         of capital for NGC of between 5 ½ and 6 ¼ per cent (see table 5.1). NGC has argued
+         throughout this review that its cost of capital was higher than this: it considers that its cost
+         of capital is at least as high as the PES distribution and Scottish transmission businesses,
+         which all accepted price controls based on a 6.5 per cent cost of capital in 1999.
+
+         Table 5.1: Ofgem’s estimates for NGC’s cost of capital in its draft proposals (June 2000)
+
+         Component                      Low case            High case
+
+         Cost of debt
+         Risk-free rate                 2.5                 2.75
+         Debt risk premium              1.7                 1.7
+         Cost of debt                   4.2                 4.45
+
+         Cost of equity
+         Risk-free rate                 2.5                 2.75
+         Equity risk premium            3.5                 3.5
+         Asset beta                     0.3                 0.4
+         Equity beta                    1.0                 1.0
+         Post-tax cost of equity        6.0                 6.25
+         Taxation adjustment            1.429               1.429
+         Pre-tax cost of equity         8.6                 8.9
+
+         WACC
+         Gearing                        0.7                 0.6
+         Pre-tax WACC                   5.5                 6.25
+
+
+
+
+Office of Gas and Electricity Markets              28                           September 2000
+5.3       Since the estimation of the cost of capital involves a significant amount of judgement, it is
+         appropriate to consider relevant evidence from as many sources as possible, including
+         other regulators. Since the publication of the draft proposals, the Competition
+         Commission has reported on the references of the price controls of two water only
+         companies, which were published in September 2000 2. The references were not
+         primarily concerned with the cost of capital.
+
+5.4      As the Commission noted, it is difficult to apply estimates of the cost of capital from one
+         industry to another. Ofgem notes that the Competition Commission has reduced its
+         estimate of the risk-free rate from 3.5-3.8 per cent in the MMC’s reports on the Cellnet
+         and Vodafone reference in 1998 to a range of 2.75-3.25 per cent, based on current and
+         recent yields and including an allowance to reflect institutional factors. The
+         Commission’s range was nevertheless higher than the range in Ofgem’s draft proposals of
+         2.5-2.75 per cent. The Commission also used an estimate for the equity risk premium of
+         4.0 per cent, which is higher than Ofgem’s estimate of 3.5 per cent, although Ofgem’s
+         estimate is within the range of 3.5 to 5.0 per cent used by the MMC in its report on
+         Cellnet and Vodafone and referred to by the Competition Commission. The Commission,
+         like Ofgem, considers that there is uncertainty over the value to be assumed for the inputs
+         necessary to estimate the cost of capital and judgement is required when interpreting
+         relevant evidence.
+
+5.5      In reaching its final view, Ofgem has considered all relevant evidence, including the
+         recent reports from the Commission. Ofgem has examined NGC’s financial ratios, and its
+         projections indicate that the ratios are likely to be robust even at higher levels of gearing
+         (see below). Evidence from financial markets available since June 2000 has not suggested
+         that Ofgem should revise the set of assumptions contained in its draft proposals. In
+         particular, current observed yields on index-linked gilts with five or more years to
+         maturity continue to fall below Ofgem’s range for the risk-free rate. Ofgem has also noted
+         that NGC plays an important and central role in maintaining the quality and security of
+         electricity supply and that transmission charges are a relatively small element of the final
+         bill for most customers. In the light of these factors the regulatory system provides NGC
+         with a high degree of protection. Taking all these factors into consideration, Ofgem has
+         assumed a cost of capital of 6¼ per cent, at the top of the range it estimated in the draft
+
+
+2
+ Mid-Kent Water plc – a report on the references under sections 12 and 14 of the Water Industry Act 1991,
+Monopolies and Mergers Commission (2000) and Sutton and East Surrey Water plc – a report on the references under
+sections 12 and 14 of the Water Industry Act 1991, Monopolies and Mergers Commission (2000)
+
+
+
+Office of Gas and Electricity Markets               29                                September 2000
+         proposals. The remainder of this section discusses in greater detail Ofgem’s method for
+         estimating NGC’s cost of capital.
+
+         Gearing
+
+5.6      Companies can be financed by both debt and equity. The proportion of debt to debt plus
+         equity is referred to as gearing. In calculating a WACC it is necessary to make an
+         assumption about gearing. Gearing also influences the cost of both debt and equity
+         finance. The initial thoughts and draft proposals documents explained that it would be
+         appropriate to assume that NGC has reasonably efficient levels of gearing to encourage
+         financial efficiency and protect the interests of customers.
+
+5.7      Specialist credit rating agencies assign rating grades to individual debt issues by assessing
+         the degree of credit risk. These ratings are reviewed on a regular basis. Those rating
+         categories that represent the lowest risk are classified as investment grade, indicating
+         suitability for a wide range of investors. Ratings representing higher risk are classified as
+         speculative, indicating suitability only for limited types of investor. In consequence, there
+         is a marked difference in the ease of access to, and cost of, debt finance for speculative
+         grade issuers.
+
+5.8      The draft proposals document suggested that a level of gearing of between 60 and 70 per
+         cent would be consistent with NGC maintaining a reasonably efficient capital structure
+         and an investment grade credit rating for its debt. Nevertheless, this approach was
+         designed to encourage financial efficiency rather than prescribe any particular capital
+         structure. Provided NGC complies with the licence obligations in the proposed ring-
+         fence to maintain an issuer investment grade credit rating, it is free to arrange its finances
+         to target whatever level of gearing it deems appropriate. Therefore, it is not necessarily of
+         concern if NGC deviates from this level of gearing. NGC did not suggest that a 60 to 70
+         per cent level of gearing is unsustainable, though it argued that such a level of gearing
+         would reduce its credit rating to the minimum investment grade and result in a higher
+         cost of both debt and equity. In response to the draft proposals document, NGC made no
+         new substantive points regarding the level of gearing. Based on current conditions in the
+         financial markets, on the responses to the consultation, on public statements by rating
+         agencies, and on its analysis of NGC’s financial ratios, Ofgem considers that it will be
+         appropriate to assume a range of 60 to 70 per cent for the level of gearing in calculating
+
+
+
+
+Office of Gas and Electricity Markets           30                              September 2000
+         the cost of capital. Ofgem considers that this would be consistent with a credit rating well
+         above the minimum level for investment grade.
+
+         The cost of debt finance
+
+5.9      The cost of debt finance can be thought of as having two components, a risk-free
+         component and a company specific risk premium.
+
+         Risk-free rate
+
+5.10     Although the risk-free rate is not directly observable, it is possible to derive an estimate
+         from the return available on UK Government index-linked and conventional gilts. The
+         draft proposals contained a range of 2.5 to 2.75 per cent for the risk-free rate, based on
+         the yields on index-linked gilts (ILGs) over the past three years. Respondents to the draft
+         proposals document broadly supported this approach, though some argued that a number
+         of institutional factors have depressed the yield on ILGs. For example, it has been
+         suggested that the Government’s minimum funding requirements for pension funds have
+         created an artificially high level of demand for ILGs at a time when the government has
+         been making relatively few debt issues due to its current budget surpluses. Other factors
+         may include a reduction in the premium for unanticipated inflation reflecting a
+         widespread expectation that government economic policies in the western world will
+         continue to place priority on monitoring levels of inflation. Ofgem noted in its draft
+         proposals that such effects appear to be small, and are difficult to estimate with any
+         degree of precision, since this would involve estimating the market’s expectations for
+         inflation twenty years ahead. Nevertheless, Ofgem’s range of 2.5 to 2.75 per cent was
+         above observed yields on index-linked gilts of five or more years’ maturity, thereby
+         including some allowance for this effect.
+
+5.11     This approach is consistent with recent regulatory practice, for example ORR’s December
+         1999 determination of Railtrack’s track access charges, confirmed in July 2000, Ofgem’s
+         1999 review of the PES distribution businesses and Ofwat’s December 1999 proposals in
+         its periodic review. Some respondents suggested using longer-term averages to estimate
+         the risk-free rate, consistent with longer term averages of returns on ILGs. NGC has
+         argued for a greater focus on longer-term averages. Ofgem considers that the longer the
+         present relatively low yields on index-linked and conventional gilts persist the more
+         persuasive becomes the argument that these lower yields are not simply a feature of short
+         term market conditions. Using a five year average places undue weight on yields at a
+
+
+Office of Gas and Electricity Markets           31                              September 2000
+         time when these were higher than at present, and would be inconsistent with recent
+         regulatory practice.
+
+5.12     At present, yields on ILGs with five or more years to maturity are in the range 1.8 to 2.7
+         per cent, with an average of 2.1 per cent. The averages of such bonds over the past year
+         and two years are also 2.1 per cent. The average over the past three years is 2.4 per cent.
+         As indicated above, Ofgem considers a range of 2.5-2.75 per cent an appropriate estimate
+         for the risk-free rate.
+
+         Debt risk premium
+
+5.13     The debt risk premium reflects the additional return required by the providers of debt
+         finance to hold corporate rather than Government debt and can be estimated as a
+         premium over the real risk-free rate. It will depend on a number of company specific
+         factors including the company’s level of gearing and its overall financial position, the size
+         and liquidity of the debt issue and its maturity, and wider economic factors. These
+         matters are assessed by credit rating agencies. Ofgem’s final proposals estimate the
+         average premium on NGC’s debt at around 170 basis points, or 1.7 percentage points.
+
+5.14     Combining these estimates suggests a real cost of debt finance of 4.2 to 4.45 per cent,
+         consistent with the calculations set out in the draft proposals and with NGC’s estimate of
+         its real cost of new debt finance of 4.4 per cent at 60 per cent gearing.
+
+         The cost of equity finance
+
+5.15     The initial thoughts and draft proposals documents set out estimates for the cost of equity
+         finance based on the capital asset pricing model (CAPM) and the dividend growth model
+         (DGM). CAPM provides a framework to estimate the return required by financial markets
+         for investing in a particular company given its risk. It derives an estimate for the cost of
+         equity finance by adding an estimate of the real risk-free rate to an estimate of the
+         appropriate equity risk premium (ERP). Estimating the real risk-free rate is discussed in the
+         section on the cost of debt finance.
+
+         Equity risk premium
+
+5.16     In estimating the appropriate ERP two factors are taken into consideration, the ERP for the
+         market as a whole and the riskiness of the company relative to the market. The
+         appropriate method of estimating the ERP for the market as a whole has been the subject
+
+
+
+Office of Gas and Electricity Markets           32                             September 2000
+         of considerable debate. This has mainly focused on whether the ERP should be based on
+         observing historic returns, surveying investors’ expectations or combining estimates of
+         dividend yields and of real dividend growth.
+
+5.17     The draft proposals quoted various estimates for the ERP based on the present
+         expectations of City institutions and investors. This evidence suggests a range for the ERP
+         of between 2 and 5 per cent with an average value of 3.5 per cent. Some respondents
+         have continued to suggest an ERP of between 3.5 per cent and 5 per cent, consistent with
+         estimates used by the MMC in its 1998 report on Cellnet and Vodafone. As investment
+         decisions are made on the basis of expectations of the future it seems appropriate to focus
+         attention on present market evidence rather than averages of historic returns. This
+         approach also avoids the practical difficulties associated with judging the period and
+         method for calculating historic averages of returns. The ERP of 3.5 per cent used in
+         Ofgem’s draft proposals compares to an estimate of 4.0 per cent used by the Competition
+         Commission in its two recent reports on water only companies. However, as argued
+         above, it is consistent with the range of 3.5 to 5.0 per cent used in previous MMC reports
+         and referred to in the two recent Competition Commission reports. The Commission also
+         notes that the longer that equity valuations remain high, the more confidence it is
+         possible to have that the ERP is lower than the historical average, and, accordingly,
+         Ofgem considers that its estimate should be at the low end of the Commission’s implied
+         range. Accordingly, Ofgem’s final proposals are based on an equity risk premium of 3.5
+         per cent.
+
+         Equity beta
+
+5.18     The beta coefficient aims to provide an indication of the specific riskiness of a company
+         relative to the market. The coefficient has been used to predict the extent to which a
+         company’s share price would tend to change in response to changes in the level of the
+         overall market and to measure a company’s non-diversifiable risk relative to equities
+         generally. The draft proposals used an assumption of 1.0 for the NGC’s equity beta (i.e.
+         giving it an equity risk comparable to the market as a whole), consistent with the beta
+         adopted for the PES distribution businesses in their price control reviews last year.
+
+5.19     Some respondents to the draft proposals said that 60 to 70 per cent gearing might lead to
+         equity beta values for NGC’s transmission business of greater than 1. This would imply
+         that there is more risk associated with a transmission business that is able to retain
+
+
+
+Office of Gas and Electricity Markets           33                             September 2000
+         investment grade status for debt than for a typical investment in equities. This seems
+         unlikely, given the stable nature of electricity demand, the supportive regulatory
+         framework and the monopoly nature of the business. Ofgem considers that an estimate of
+         1.0 for equity beta therefore remains valid. It may be argued, indeed, that this is
+         relatively generous, given the LBS estimate of NGG’s equity beta of 0.56, and the recent
+         declines in the equity betas of many “old economy” companies.
+
+         Dividend growth model
+
+5.20     In its submission in response to the initial thoughts consultation document, NGC argued
+         that CAPM does not provide a credible estimate for the cost of equity. It argued that
+         many “old economy” companies (i.e. those not in the media, IT or telecoms sectors) were
+         finding it more and more difficult to raise equity, implying a higher cost of equity.
+         However, the betas for many “old economy” stocks had declined significantly since 1997,
+         implying a low cost of equity. On the basis of this dichotomy, NGC submitted that it
+         would be inappropriate for Ofgem to apply CAPM to determine its cost of equity. As it
+         considered that methods such as the Arbitrage Pricing Theory (APT) are not widely used
+         or understood in the UK, it recommended the use of the DGM. In its draft proposals
+         document, Ofgem proposed to investigate further the implications of analysis based on
+         the DGM.
+
+5.21     According to the DGM, the value of a share is assumed to be the discounted sum to
+         infinity of all future dividends. From this, it can be shown that the post-tax cost of equity
+         will be equal to the sum of the dividend yield and a growth assumption. As neither of
+         these is directly observable for NGC’s UK electricity business, it is necessary to find
+         proxies in order to apply the DGM to NGC. In response to the initial thoughts
+         consultation document, NGC argued that, based on its application of the DGM
+         (submitted to Ofgem in a study by OXERA), its post-tax cost of equity should be 9-10 per
+         cent. OXERA had used a sample of “old economy” companies to calculate the dividend
+         yield and IBES 3-year forecasts to calculate the growth assumption. However, Ofgem
+         argued that:
+
+         ♦         OXERA’s sample of “old economy” companies was unrepresentative and therefore
+                   unsuitable for the estimation of an appropriate return on equity for NGC; and
+
+
+
+
+Office of Gas and Electricity Markets           34                             September 2000
+         ♦         instead of using only 3-year forecasts to calculate the assumption of dividend
+                   growth in perpetuity, a long-run growth assumption should be used beyond the
+                   period of the forecasts.
+
+5.22     Ofgem stated that it would examine the application of the DGM by City analysts and fund
+         managers and by regulators abroad. Ofgem has concluded that:
+
+         ♦         CAPM appears to be more widely used in the City than the DGM;
+
+         ♦         worldwide, CAPM seems to be used more widely by regulators than the DGM
+                   although the DGM is used by many American regulators;
+
+         ♦         most American regulators who use DGM, including the Federal Energy Regulatory
+                   Commission (FERC), use a two-stage model to determine the return on equity.
+                   FERC uses a combination of IBES forecasts for the short term assumption and
+                   economic growth forecasts for the long-term;
+
+         ♦         Ofgem’s discussions with equity analysts and fund managers indicate that a two-
+                   stage DGM is used most widely in the City; and
+
+         ♦         the lack of a consensus on the proxies which should be used for the growth and
+                   dividend yield assumptions, and the range of estimates which can be derived,
+                   undermine the usefulness of the DGM.
+
+5.23     The Competition Commission, in its recent report on two water only companies, did not
+         use the DGM, stating that the DGM required assumptions on future dividends, which
+         themselves were likely to be dependent on the price control set. The Commission felt
+         that this circularity undermined the usefulness of the DGM for estimating the cost of
+         capital to be used in setting the price controls of regulated companies. Ofgem considers
+         that it is appropriate to examine all available evidence in assessing a cost of capital, and
+         accordingly Ofgem has estimated NGC’s cost of equity using a number of different
+         proxies for the dividend yield and growth rate (see Appendix 4). This is not intended to
+         be a definitive list of such proxies: it is merely intended to show the lack of consensus on
+         which proxies should be used, and the large divergence in estimates for the cost of equity
+         which result. The average post-tax cost of equity given by the 22 scenarios considered is
+         5.7 per cent, or 6.1 per cent if scenarios with negative growth rates are ignored. The
+         results from the scenarios in which a two-stage DGM is used are more concentrated than
+
+
+
+Office of Gas and Electricity Markets            35                            September 2000
+         the scenarios in which a one-stage DGM is used. They range from 4.7 per cent to 6.8 per
+         cent, with an average of 5.7 per cent, slightly below that derived from Ofgem’s use of
+         CAPM (see table 5.1 above). None of this analysis suggests that Ofgem’s range of 6.0 to
+         6.25 per cent for the post-tax cost of equity is inappropriate.
+
+         Valuation of assets
+
+5.24     Throughout this price control review, there has been support for retaining the
+         methodology used to calculate NGC’s regulatory value. At the last transmission price
+         control review the capital invested in NGC’s transmission business was considered in two
+         parts, the initial capital at flotation and investment made since then. As noted in Chapter
+         1, NGC’s post-Vesting connections are remunerated outside the RPI-X control. While
+         some respondents favoured reducing NGC’s regulatory value to take account of the gains
+         which shareholders have made from NGC’s investment in Energis, Ofgem considered that
+         this was inappropriate and also likely to increase investors’ perceptions of regulatory risk
+         which might in turn lead to a higher cost of equity. Accordingly, it made no adjustment
+         to NGC’s regulatory value to take account of this.
+
+5.25     In the draft proposals Ofgem published an opening regulatory value of £4,456 million for
+         2001/02. NGC made a number of comments on the valuation of additions during
+         previous years. Ofgem has taken account of these comments and adjusted the opening
+         value in 2001/02 to £4,590 million. The table below explains the calculation of the
+         opening asset value.
+
+         Table 5.2 NGC’s regulatory value since Vesting (£m)
+
+                                        90/91      91/92      92/93       93/94      94/95      95/96
+         Opening value(Real)            4,243.7    4,323.9    4,466.7     4,665.6    4,734.3    4,687.8
+         FCM depreciation (Real)        -212.2     -219.5     -228.6      -239.2     -246.9     -251.9
+         Capex (Real)                   292.4      362.2      427.5       307.9      200.5      202.7
+         Closing value (Real)           4,323.9    4466.7     4,665.6     4,734.3    4,687.8    4,638.6
+         Average RAV                    4,283.8    4,395.3    4,566.1     4,699.9    4,711.1    4,663.2
+
+
+
+                                 96/97            97/98     98/99     99/00     00/01
+         Opening value(Real)     4,638.6          4,577.9   4,489.7   4,524.4   4,518.1
+         FCM depreciation (Real) -257.0           -261.9    -266.3    -273.8    -280.5
+         Capex (Real)            196.3            173.7     301.0     267.5     352.6
+         Closing value (Real)    4,577.9          4,489.7   4,524.4   4,518.1   4,590.2
+         Average RAV             4,608.3          4,533.8   4,507.0   4,521.2   4,554.1
+
+
+
+
+Office of Gas and Electricity Markets                  36                                 September 2000
+5.26     Since the price control will apply to NGC’s TO business only, it is necessary to remove
+         from the regulatory value the value of assets from the SO business. NGC has provided a
+         breakdown of the items which it considers should be allocated to the SO:
+
+         ♦         land and buildings: this category principally comprises the control centre at
+                   Wokingham;
+
+         ♦         plant and equipment: the largest item in this category is the energy management
+                   system (NGC’s key operational system for real-time control), monitoring facilities
+                   and the provision of data into the commercial systems. Also included is the
+                   communications switched infrastructure;
+
+         ♦         assets under construction: this covers the replacement of the energy management
+                   system and “Global” which includes fire protection equipment; and
+
+         ♦         portable and freestanding: the three components in this category are computing
+                   equipment, engineering equipment and facilities equipment.
+
+5.27     It has not been possible to specify the exact regulatory value of the SO assets. This is
+         because many of the assets are small in size, and their age for the purpose of regulatory
+         depreciation is not easily available. NGC has suggested the use of current cost net book
+         value as a proxy for the regulatory asset value. Ofgem considers that this may be
+         inappropriate. Ofgem prefers to determine the proportion of the regulatory value relating
+         to the SO assets by reference to the proportion of the net book value of the SO assets to
+         the net book value of the assets of the transmission business as a whole. The total
+         regulatory value of assets to be removed from the overall transmission business regulatory
+         value (in order to arrive at the regulatory value for the TO only) is £73.3 million.
+
+5.28     Ofgem has made no adjustment to the asset lives of the TO business (20 years for pre-
+         Vesting assets and 40 years for post-Vesting assets), as it considers that such lives should
+         not be revisited, since they are an approximation and an incentive to NGC to extend asset
+         lives where appropriate. This has increased the depreciation charge for the TO and SO
+         combined in the first year of the next control by £2 million compared to the depreciation
+         charge for NGC’s transmission business as a whole. However, over the life of the assets,
+         there will be no adverse impact on consumers, as the cost of the assets will be
+         depreciated over fewer years. The value of NGC’s regulatory asset base between the last
+
+
+
+
+Office of Gas and Electricity Markets            37                            September 2000
+         financial year and the end of the next price control period, taking into account the impact
+         of the division of responsibilities between the TO and SO, is set out in table 5.3.
+
+         Table 5.3a: Regulatory value of NGC’s transmission business (£m)
+
+                                          99/00   00/01 ‘01/02 02/03      03/04 04/05 05/06
+         Opening regulatory value       4,524.4 4,518.1 4,590.2 4,606.1 4,600.6 4,559.3 4,484.0
+         Depreciation                    -273.8 -280.5 -289.3 -296.9 -304.2 -310.8 -316.7
+         Capital expenditure              267.5   352.6 305.2 291.4       262.9 235.5 224.6
+         Closing regulatory value       4,524.4 4,590.2 4,606.1 4,600.6 4,559.3 4,484.0 4,391.9
+
+         Table 5.3b Regulatory value of the transmission asset owner (£m)
+
+                                          99/00   00/01 ‘01/02 02/03      03/04 04/05 05/06
+         Opening regulatory value       4,524.4 4,518.1 4,516.9 4,522.2 4,509.4 4,470.1 4,397.9
+         Depreciation                   (273.8) (280.5) (284.9) (292.2) (299.2) (305.7) (311.5)
+         Capital expenditure              267.5   352.6 290.2 279.4       259.9 233.5 221.6
+         Closing regulatory value       4,518.1 4,590.2 4,522.2 4,509.4 4,470.1 4,397.9 4,308.1
+
+         Financial modelling
+
+5.29     Chapter 7 sets out proposals for a set of licence conditions to implement a regulatory ring-
+         fence around the transmission business. These conditions will include a requirement that
+         NGC maintain an investment grade credit rating. In assessing the impact of these price
+         control proposals on the overall financial position of NGC, Ofgem has focused on
+         assessing whether they will be consistent with NGC maintaining such a rating.
+
+5.30     In general, transmission and distribution businesses have strong business profiles,
+         reflecting limited business risk. They are therefore able to sustain lower interest coverage
+         and higher gearing, compared to businesses that operate in a more competitive
+         environment with greater cash flow volatility. Ofgem’s consultations support the view that
+         if, throughout the period of the revised price control, NGC remains above the minimum
+         interest coverage and below the maximum gearing indicators set out in Table 5.4 it would
+         be expected to sustain a solid investment grade rating.
+
+         Table 5.4: Ofgem’s financial indicators
+
+
+         Indicator                           Level
+         EBIT interest coverage              Min 1.5 x
+         EBITDA interest coverage            Min 2.25 x
+         FFO interest coverage               Min 2 x
+         FFO to total debt                   Min 12%
+         Gearing (D/D+E)                     Max 65%
+
+
+
+Office of Gas and Electricity Markets          38                             September 2000
+5.31     Ofgem has therefore had regard to the level and trends of the financial indicators in Table
+         5.4. In its financial modelling of NGC, Ofgem has looked at a variety of scenarios, using
+         actual data, forecasts provided by NGC and data consistent with the assumptions
+         underlying this price control review. Ofgem has had to make assumptions about the
+         dividends which NGC would pay were it a quoted company. Ofgem has assumed that
+         dividends were equal to 35 per cent of the average regulatory value (i.e. that part of the
+         regulatory value not funded by debt), multiplied by the post-tax cost of equity less NGC’s
+         electricity demand growth assumption of 0.5 per cent per annum.
+
+5.32     NGC’s present financial structure is not consistent with the assumptions about efficient
+         financing set out in this document. In order to reconcile this assumption to the forecast
+         balance sheets of NGC at 31 March 2001, a stylised adjustment has been made to change
+         the amount of debt in issue at that time.
+
+5.33     Table 5.5 sets out the ratios for 2005/06, the last year of the proposed control, based on
+         the final proposals set out in this document. Ofgem has also examined the position
+         beyond 2006. Overall, these results appear to be comfortably within the limits shown in
+         Table 5.4 and indicate that NGC should be able to maintain a credit rating significantly
+         above investment grade.
+
+5.34     Ofgem is required by Section 3 of the Electricity Act 1989 to exercise its functions in a
+         way that is best calculated to secure that licence holders such as NGC are able to finance
+         the carrying on of their authorised activities. Given the strength of these financial ratios it
+         could be argued that it would be possible for Ofgem to propose more significant
+         reductions in revenue during the next price control period while still fulfilling its duties
+         under Section 3 of the Electricity Act. However, Ofgem considers that it is also beneficial
+         to achieve a high degree of consistency between regulatory reviews, since this could
+         reduce perceptions of regulatory risk that may increase the cost of capital for regulated
+         companies. Ofgem has therefore decided that it is appropriate to set price controls based
+         on the net present value approach described in the draft proposals document which has
+         been used by Ofgem, its predecessors, the Competition Commission and other regulators
+         during previous price control reviews of NGC and other companies.
+
+
+
+
+Office of Gas and Electricity Markets           39                              September 2000
+         Table 5.5: Ofgem’s projections of NGC’s financial ratios
+
+Indicator                               2005/06                  Av. ½-05/06           Av. 06/07-09/10      Ofgem level
+EBITDA Interest coverage (operating       4.0                        4.0                     4.1             Min 2.25
+profit + depreciation) / interest
+EBIT Interest coverage (Earnings before   2.8                         2.9                    2.8             Min 1.5
+interest and tax PBIT)/Interest
+FFO interest coverage (FFO +              3.4                         3.4                    3.6              Min 2
+Interest)/Interest
+FFO/TO total debt (FFO / Net debt)       16.9%                      15.5%                  18.4%             Min 12%
+Gearing Net debt /(Net debt+Equity       60.0%                      60.0%                  60.0%             Max 65%
+shareholders funds)*
+
+(net debt+equity shareholders funds) is assumed to be equal to the regulatory value.
+FFO is funds from operations
+
+
+
+
+Office of Gas and Electricity Markets                 40                                   September 2000
+6. Price control calculations
+
+         Introduction
+
+6.1      It is important to be transparent about the way in which price controls are calculated.
+         This Chapter explains how Ofgem has derived the final proposals for NGC’s transmission
+         business over the next five years, incorporating the analysis set out earlier in this
+         document. Setting RPI-X price controls requires an estimate of the revenue that would be
+         sufficient to finance an efficient business. The principles governing the calculation of the
+         controls are set out in Chapter 1, while commentary on individual cost components can
+         be found in Chapter 2 (operating costs), Chapter 3 (capital expenditure) and Chapter 5
+         (financial issues). Consistent with the principles set out in the draft proposals document,
+         it will be important to balance incentives for cost reduction with those for quality of
+         performance.
+
+6.2      This Chapter explains how Ofgem has derived the transmission business price control
+         proposals for NGC over the next five years, incorporating the analysis set out earlier in
+         this paper. Over time, transmission prices may be considered the sum of:
+
+         ♦         the allowed operating costs;
+
+         ♦         an allowance for the depreciation of the regulatory asset base; and
+
+         ♦         a return on the appropriate regulatory asset base.
+
+6.3      The focus of this Chapter is the determination of the total revenue requirement for NGC
+         over the next review period. There is then the question of how to sculpt that revenue
+         over that period, thus generating annual price reductions. The price level in the first year
+         of the next price control period is referred to as P0. The subsequent annual reduction in
+         prices is referred to as X. The balance between P0 and X is considered below.
+
+         Deriving a range for the price controls
+
+6.4      Ofgem has derived forecasts for:
+
+         ♦         efficient operating expenditure;
+
+         ♦         efficient capital expenditure;
+
+
+
+Office of Gas and Electricity Markets               41                          September 2000
+         ♦         hence a path of regulatory asset values; and
+
+         ♦         the cost of capital to use as the appropriate return.
+
+         These can been combined to form ranges for the path of prices over the next five years for
+         NGC. The resulting revenue for the next price control period is set out in Appendix 6.
+
+         Operating expenditure
+
+6.5      Based on the methodology outlined in Chapter 2, Ofgem has estimated NGC’s
+         controllable operating expenditure as £1,020 million over five years. Based on NGC’s
+         BPQ submission and other information, Ofgem has estimated other operating costs
+         (including business rates and the transmission licence fee) of around £100 million per
+         year over the next price control period. Ofgem proposes that any variation between the
+         outturn levels of licence fees and business rates and Ofgem’s estimates should be a cost
+         pass-through item (see Chapter 2 above). It is proposed that this should operate
+         symmetrically, so that revenues would be reduced should the outturns be below Ofgem’s
+         assumptions. See Appendix 1 for further details of the pass-through mechanism.
+
+         Capital expenditure
+
+6.6      In respect of capital expenditure, a base projection of £1,320 million over five years has
+         been made as explained in Chapter 3. Ofgem believes this to be achievable by NGC
+         using the best techniques presently available, without detriment to short or medium term
+         system performance. It is based on new generation connections of 5 GW over the price
+         control period. As explained in Chapter 3, Ofgem proposes that revenues may be
+         increased or reduced to reflect allowed additional capital expenditure of £23 million for
+         each GW of new generation connections over or under the 5 GW predicted by Ofgem.
+
+         Regulatory value
+
+6.7      As explained in Chapter 5, Ofgem has calculated an opening regulatory value at 1 April
+         2001 of £4,590 million. Taking account of predicted capital expenditure of £1,320
+         million and depreciation profiles described in Chapter 5, this falls to £4,392 million at the
+         end of 2005/06.
+
+
+
+
+Office of Gas and Electricity Markets             42                          September 2000
+         Cost of capital
+
+6.8      In respect of the cost of capital, Ofgem has assumed a pre-tax real weighted average cost
+         of capital of 6¼ per cent, consistent with the discussion set out in Chapter 5.
+
+         Allocating P0 and X
+
+6.9      NGC has argued that the X factor of 3 per cent contained in the draft proposals (which
+         was the same as that accepted by the PES distribution businesses in the price control
+         review in 1999) did not take into account the smaller proportion of NGC’s costs which
+         are deemed controllable relative to its price controlled income. According to NGC, an X
+         of 3 per cent for operating costs as a whole translates into required efficiency gains of 12
+         per cent per annum for controllable operating costs. NGC considers that if an X of 3 per
+         cent applies to distribution business, consistent treatment would imply an X of 1.3 per
+         cent for NGC.
+
+6.10     Ofgem has taken account of the arguments as well as the desirability of avoiding any
+         sharp peaks or troughs in the profile of NGC’s revenues. Taking these factors into
+         consideration, it seems reasonable to set an X of 1.5 per cent.
+
+         Other factors affecting calculation of Po and X
+
+6.11     In order to illustrate the impact of these proposals, it is useful to calculate the initial
+         reduction in revenues: the P0 cut. To do this, it is necessary to reconcile the new path of
+         revenues with the 2000/01 revenues arising out of the existing price control. Ofgem’s
+         draft proposals presented P0 adjustments relative to revenues of £856 million in 2000/01
+         (consistent with revenues in 1999/00 of £870 million adjusted by RPI-4). NGC has
+         argued that it is more appropriate to compare proposed allowed revenues for 2001/02
+         with the maximum allowed revenues for 2000/01 implied by its licence condition 4A,
+         ignoring the impact of previous over- or under-recoveries. The numbers below are
+         presented on this basis.
+
+         Impact of NETA and the SO/TO division of responsibilities
+
+6.12     The impact of NETA is forecast to be to increase the TO’s operating costs over the period
+         of the price control by £2.8 million. This is equivalent to a reduction in the P0 cut of less
+         than 0.1 per cent. The impact of the SO/TO division of responsibilities will be to reduce
+         the costs of the TO by around £40 million per annum. This is equivalent to an increase
+
+
+Office of Gas and Electricity Markets            43                               September 2000
+         in the P0 cut of 5 per cent. However, these costs are included in the calculation of a
+         separate SO price control, on which Ofgem is publishing initial proposals today. This
+         adjustment therefore involves no net reduction in NGC’s revenues.
+
+         The final proposals for the transmission business
+
+6.13     On the basis of all the information available to Ofgem, and taking into account the
+         considerations described above, Ofgem has framed its final proposals on the basis that
+         NGC will have an X of 1.5 per cent for each of the years 2002/03 to 2005/06. Ofgem
+         proposes that revenues in 2001/02 should be £758 million, taking account of the removal
+         of SO-related costs and the impact of NETA. Excluding these adjustments, revenues
+         would be £800 million, equivalent to a P0 cut of 0 per cent between the 2000/01 allowed
+         revenues of £800 million and the 2001/02 allowed revenues. The calculation of these
+         proposals is set out in Appendix 6.
+
+
+
+
+Office of Gas and Electricity Markets          44                            September 2000
+7. Ring-fencing
+
+         Introduction
+
+7.1      In its draft proposals, Ofgem indicated its intention to propose modifications to NGC’s
+         Transmission Licence so as to introduce financial ring-fencing conditions. Chapter 7 of
+         the draft proposals set out the principles which the proposed modifications would
+         embody, and discussed certain potential areas of difficulty in applying them. It indicated
+         that it would be necessary to consider whether transitional reliefs should be granted in
+         respect of certain pre-existing arrangements to which NGC is party.
+
+7.2      Respondents to the draft proposals expressed support for Ofgem’s policy to standardise
+         financial ring-fencing conditions across all monopoly gas and electricity network
+         licensees. There was general agreement that it was appropriate to introduce such
+         conditions into NGC’s Transmission licence. Those PESs who responded to the
+         consultation repeated or referred to the views they had expressed in response to Ofgem’s
+         earlier consultation on the standard conditions of electricity distribution licences to be
+         issued under the Utilities Act 2000. In particular, concerns were expressed in relation to
+         certain elements of the proposed conditions that differ from those now applying to PESs
+         and BG Transco. Ofgem has already responded to these concerns in its decision
+         document published in April 2000 and continues to hold discussions with the industry’s
+         expert group on the practical aspects of implementation. DTI has asked Ofgem to consult
+         further on the standard licence conditions to be implemented under the Utilities Act. This
+         consultation is expected to take place in October.
+
+7.3      NGC supported the intention underlying Ofgem’s proposals. It noted that the proposed
+         conditions have already been extensively consulted on in the context of electricity
+         distribution licences, and considered there was no obvious reason to require additional
+         safeguards in relation to transmission customers. In relation to transitional issues, NGC
+         argued that Ofgem would need to strike the appropriate balance between securing
+         benefits to customers and avoiding excessive costs from altering existing arrangements.
+
+7.4      In the light of these responses, and for the reasons set out in the draft proposals, Ofgem
+         will seek NGC’s agreement to licence modifications to give effect to the financial ring-
+         fencing conditions on the basis outlined in the draft proposals. It is intended that the new
+         conditions should take effect on and from 1 April 2000. The relevant conditions will be
+
+
+
+Office of Gas and Electricity Markets           45                             September 2000
+         closely modelled on the corresponding draft standard electricity distribution licence
+         conditions published in Ofgem’s April 2000 decision document which will be subject to
+         further consultation in October.
+
+7.5      In the draft proposals document, Ofgem indicated that it was in discussion with NGC
+         regarding a number of existing arrangements affecting NGC that would not comply with
+         the proposed ring-fence requirements. In particular, NGC carries on certain activities,
+         including the provision of project management and network services to other electricity
+         utility and telecommunications operators in the UK and elsewhere, and the provision of
+         lease finance to Energis for the major part of its optical fibre network, which, in aggregate,
+         might exceed the limits proposed for de minimis activities. Moreover, NGC is party to
+         certain agreements governing indebtedness and banking arrangements, the terms of
+         which would infringe the prohibition on cross-default provisions. It also has made and
+         received outstanding loans to and from affiliates on terms that may not comply with the
+         proposed licence requirement that such loans be on an arm’s length basis and normal
+         commercial terms, or the requirement that an affiliate to whom NGC makes such a loan
+         must have, or its obligations must be guaranteed by a person having, an investment grade
+         credit rating.
+
+7.6      NGC has indicated to Ofgem that it considers that the fact that the company provides
+         project management and network services to other electrical utility operators is beneficial
+         to the customers of its transmission business. The conduct of these activities enables the
+         company to keep at its disposal greater resources of the kind required to maintain, repair
+         and reinforce its own network infrastructure, at no incremental cost. This provides an
+         additional safeguard of system security, facilitating a more rapid response to widespread
+         system failure, in a cost efficient manner. Ofgem considers that this argument may have
+         some merit. Accordingly, revenues arising from these activities, although excluded for
+         price control purposes, will not be taken into account in calculating compliance with the
+         de minimis thresholds.
+
+7.7      These considerations do not apply to NGC’s activities in the provision of similar services
+         to Energis and other telecommunications network operators. Accordingly, it would be
+         appropriate that revenues from and investments in such activities be taken into account
+         for these purposes. NGC has indicated that it intends to transfer these activities to an
+         affiliate of the company in which it has no investment. NGC will, however, initially
+
+
+
+
+Office of Gas and Electricity Markets           46                             September 2000
+         continue to provide certain manpower services to that affiliate, to which attributable costs
+         will be recharged.
+
+7.8      NGC’s investment in fibre-optic cable leased to Energis, and the revenues deriving from
+         the related lease payments, would similarly fall to be taken into account under the de
+         minimis limits. As a result, NGC may be unable to comply with these limits. Ofgem is
+         satisfied that it would not be practicable to restructure these arrangements in a cost-
+         effective manner. Accordingly, Ofgem has indicated to NGC that it will require NGC to
+         obtain a full and effective counter-indemnity in respect of Energis’s obligations under the
+         lease arrangements from an affiliate having, and agreeing at all relevant times to maintain,
+         an investment grade credit rating. On this basis, the investment in, and revenues deriving
+         from, the leased fibre would not need to be taken into account in assessing compliance
+         with the de minimis limits.
+
+7.9      Ofgem has indicated to NGC that it expects the company to take such steps as it
+         considers appropriate to bring existing financing arrangements, including intra-group
+         loans and pooled bank accounts, into compliance with the proposed new licence
+         conditions. Ofgem considers this to be important in order to safeguard the financial
+         resources of NGC, and to prevent inappropriate cross-subsidy.
+
+7.10     Ofgem will give further consideration, however, to one particular area of potential non-
+         compliance, relating to a cross-default obligation arising under an agreement between
+         NGC and the European Investment Bank. It would appear that a number of PESs are
+         parties to similar agreements which might cause difficulties for them in achieving
+         compliance with the equivalent prohibition in electricity distribution licences. Loans
+         provided by the European Investment Bank represent a cost-effective source of finance for
+         operators of infrastructure assets. It is desirable to ensure that this source of finance
+         remains available to energy network operators. However, the structure under which such
+         loans have historically been made available would prevent compliance with the cross-
+         default provisions of the financial ring-fence. Ofgem considers that it would be difficult to
+         grant derogations in order to prevent such breaches, as the existence of any cross-default
+         obligation referable to an affiliate outside the ring-fence exposes the ring-fenced activities
+         to the risk of failure elsewhere in the group. This would undermine a principal purpose
+         of the ring-fence. Accordingly, Ofgem intends to explore whether alternative structures,
+         perhaps coupled with a more flexible lending policy, might obviate these difficulties.
+
+
+
+
+Office of Gas and Electricity Markets           47                              September 2000
+7.11     The financial ring-fence conditions set out in Chapter 7 of the draft proposals are
+         necessary in order to ensure that NGC will be able to continue to finance its licensed
+         activities. Ofgem will therefore propose licence modifications in order to include these
+         conditions in NGC’s licence. However, Ofgem recognises that there are circumstances
+         where these conditions could prevent NGC from carrying on activities, or structure its
+         operations, in a way which, on balance, is beneficial to customers. Ofgem has therefore
+         discussed with NGC how to avoid such effects while at the same time providing
+         safeguards to ensure that it will be able to continue to finance its licensed activities.
+         Having taken account of these considerations, Ofgem is proposing to grant derogations
+         from the ring-fence conditions in the areas described in this Chapter.
+
+
+
+
+Office of Gas and Electricity Markets           48                              September 2000
+Appendix 1 Form of licence amendments
+
+         Introduction
+
+1.1      The new licence condition will be based on the existing NGC licence condition 4A Part
+         1. At present the formula is:
+
+         Mdt=[1+(RPIt-Xg)/100]*Pt-1 - Dt - Kt.
+
+1.2      There will be two additional components, Ut and At , defined below, which will be
+         incorporated so that the new formula will be:
+
+         Mdt=[1+(RPIt-Xg)/100]*Pt-1 - Dt + At - Kt.+U t
+
+1.3      Changes to the three principal components, and the definition of the new components,
+         are set out below.
+
+         Formula for P t
+
+1.4      Pt-1 will have a fixed value for 2001/02 equal to the value of transmission network revenue
+         in 2000/01. For the period of the next price control, it shall be calculated according to
+         the following formula:
+
+         Pt-1 = Pt-2 * [1+ 0.01 * (RPIt-1 -Xg)]
+
+1.5      Xg will be set equal to 1.5.
+
+         Formula for D t
+
+1.6      Dt is a correction factor applied to transmission network revenue, and is equal to the
+         value of user maintenance in relevant year t.
+
+         Formula for K t
+
+1.7      Kt will roll over in to the new control and will continue to be calculated as now.
+
+         Formula for Gt
+
+1.8      At will be calculated according to the following formula:
+
+         Gt=G t-1 + [At*GWt-1]
+
+
+
+Office of Gas and Electricity Markets             49                         September 2000
+         Where:
+
+         Gt is the new connections revenue adjustment in year t
+
+         At-is defined in the following formula
+
+                   At=cet*[Rt+Dept]
+
+         Rt is NGC’s cost of capital (6.25 per cent)
+
+         Dept is NGC’s cost of depreciation (2.5 per cent)
+
+         GWoutt+1 is the outturn level of new generator connections in year t+1 defined as the
+         station capacity in GW with Commissioning Programme Commencement Dates within
+         year t+1 on 1 January in year t-1
+
+         GWfort+1 is the forecast level of new generator connections commissioning in year t+1
+         defined as the station capacity in GW in accordance with the forecast below:
+
+         Year (t+1)            2002/03    2003/04        2004/05        2005/06         2006/07
+         Gwfor                   0.6        1.1            1.7            1.1             0.5
+
+
+
+         Formula of Ut
+
+1.9      Ut will be calculated according to the following formula:
+
+         Ut= Ratet-1 +Lt-1
+
+         Where:
+
+         Ratet is the difference between the actual level of business rates incurred by NGC in year
+         t-1 and Ofgem’s assumptions, set out below (£m, in outturn prices):
+
+         Year                  2001/02    2002/03        2003/04        2004/05         2005/06
+         Ratet                  100.2      99.4           96.5           98.3            102.7
+
+         Lt is the difference between the actual level of NGC’s licence fee incurred by NGC in year
+         t-1 and Ofgem’s assumptions, set out below (£m, in outturn prices):
+
+         Year                  2001/02    2002/03        2003/04        2004/05         2005/06
+         Lt                      7.6        7.8            8.0            8.1             8.3
+
+
+
+
+Office of Gas and Electricity Markets             50                        September 2000
+Appendix 2 Summary of responses to draft proposals document
+
+Respondent              Subject                   Comment
+Respondent 7            Benchmarking              Benchmarking of overall operating expenditure (with PESs, Scottish transmission) most appropriate
+                                                  way of determining efficient costs.
+Respondent 2            Capital expenditure       Supports PB Power view that low number of connections likely.
+Respondent 4            Capital expenditure       Support correction mechanism.
+Respondent 5            Capital expenditure       More appropriate to exclude connections expenditure. Treatment of quality of supply needs further
+                                                  consideration. Statutory output measures should not be used, as breaches are rare: operating limits
+                                                  instead should be used.
+Respondent 6            Capital expenditure       Prefer an annual deadband mechanism, rather than over the price control period.
+Respondent 7            Capital expenditure       Defence and security a defensible investment and appropriate expenditure should be allowed
+Respondent 8            Capital expenditure       Welcome correction mechanism. Should be referred to DTI/Ofgem embedded generation working
+                                                  group.
+Respondent 10           Capital expenditure       Appropriate to take central forecast of capital expenditure to balance risks of over- and underspend.
+Respondent 11           Capital expenditure       Correction mechanism should be adjusted
+Respondent 12           Central cost allocation   Time-based allocation better than “four metrics”
+Respondent 5            Cost of capital           Almost one third of NGC’s revenues derive from assets covered by connection agreements, reducing
+                                                  the risks associated with NGC’s investments in these assets.
+Respondent 7            Cost of capital           NGC’s business risks same as or higher than Scottish transmission. Gearing inconsistent with PESs
+                                                  and Scottish transmission. MSDW say that gearing should be consistent. Many commentators
+                                                  question sustainability of low ILG yields. Cost of equity should not be calculated using CAPM:
+                                                  DGM should be used.
+Respondent 10           Cost of capital           Ofgem not justified in assuming lower cost of capital for NGC than for PESs and Scottish
+                                                  transmission. Long term averages for risk-free rate should be considered. Decline in betas could
+                                                  reflect volatility of new economy companies. Optimal gearing is lower than 70%.
+Respondent 11           Cost of capital           Risk-free rate should focus on longer term averages and possible market imperfections. Ofgem
+                                                  should take into account Competition Commission findings on Mid-Kent Water. Corporate bond
+                                                  spreads have widened.
+
+
+
+
+Office of Gas and Electricity Markets             51                           September 2000
+Respondent              Subject                Comment
+Respondent 4            Energis                Support “market based” fee
+Respondent 6            Energis                Appropriate level of rental charge should be apportioned between regulated and unregulated
+                                               business.
+Respondent 7            Energis                ISL fee too high. AA’s proposals rewrite history. AA’s proposals seem inconsistent with Scottish
+                                               companies. AA’s draft proposals excluded wayleaves and assumed a greater length of fibre.
+Respondent 10           Energis                Appropriate charge close to NGC’s £1400/km
+Respondent 8            Financial issues       Regulatory risk can be significant.
+Respondent 2            Form of control        Five years very long, given uncertainty in the industry.
+Respondent 4            Form of control        Ofgem should consider rolling out current control by one year to allow NETA to happen.
+Respondent 5            Form of control        Welcome RPI-X as second best for competition
+Respondent 9            Form of control        If productivity growth is 2%, RPI-2 is equal to RPI-4
+Respondent 13           Form of control        Support RPI-X and five year control, with reservations about the changes which may arise. P0
+                                               should be avoided or minimised as it can be a distorting factor. May be appropriate to have a mid-
+                                               period review.
+Respondent 12           Form of control        Ofgem should consider opex and capex together. Ofgem should add actual capital expenditure
+                                               incurred into the regulatory asset base. Difficult to distinguish between deliberate misforecast and
+                                               genuine error.
+Respondent 3            Insurance              AA’s treatment of insurance costs wrong: common practice amongst companies to insure against
+                                               catastrophic losses.
+Respondent 5            Insurance              Support AA’s approach to insurance costs.
+Respondent 6            Insurance              AA’s treatment of insurance inappropriate.
+Respondent 8            Insurance              AA’s treatment of insurance inappropriate, as it would introduce significant volatility into prices.
+Respondent 10           Insurance              AA’s treatment of insurance will increase regulatory risk
+Respondent 11           Insurance              Insurance costs should be allowed as incurred.
+Respondent 12           Insurance              Insurance costs should be allowed
+Respondent 11           Interconnector         Interconnector charges should be included in use of system charges
+Respondent 13           Organisational shape   No justification for AA’s assertion of a more pyramid-based structure.
+Respondent 4            Output measures        Inappropriate to introduce output measures as already covered by statutory obligations.
+Respondent 5            Output measures        Welcome clarification of effects of new incentives regime. Would not support the use of a revenue
+
+
+
+
+Office of Gas and Electricity Markets          52                           September 2000
+Respondent              Subject           Comment
+                                          driver as the basis for an interim arrangement.
+Respondent 6            Output measures   Outcome of transmission access debate should be awaited.
+Respondent 9            Output measures   Access rights are a matter of transmission constraints, not simply the thermal capacity of the line.
+                                          This incentivisation idea should be forgotten.
+Respondent 10           Output measures   Unconvinced with appropriateness of access regime. Consideration of output measures should wait
+                                          until new access regime in place.
+Respondent 11           Output measures   Should be an incentive on NGC to invest. Ofgem should focus incentives on parts of the network
+                                          where capacity is a problem.
+Respondent 12           Output measures   No transitional arrangements. More detail on output measures required.
+Respondent 13           Output measures   NGC’s performance already to a high standard. Output measures inappropriate.
+Respondent 11           Rates             Ofgem should include estimate of rates on best available evidence.
+Respondent 4            Reactive power    Should be comment on ring-fencing reactive power assets.
+Respondent 13           Research and      Ofgem’s view of R&D unduly narrow and short-term. Costs should be allowed as incurred.
+                        development
+Respondent 6            Research and      NGC should be given fixed allowance for R&D, and required to demonstrate that R&D was relevant
+                        development       to the interests of customers.
+Respondent 7            Research and      Serious reservations about AA’s treatment of R&D. Regulatory risk involved means that
+                        development       shareholders would not support it.
+Respondent 8            Research and      AA’s treatment of R&D inappropriate.
+                        development
+Respondent 11           Research and      Reasonable to expect some funding for R&D. Not every project will deliver benefits. Company
+                        development       should only be penalised where decision to undertake a project was badly made. Under RPI-X
+                                          company has an incentive to spend well.
+Respondent 2            Ring-fencing      Should include reactive power assets
+Respondent 5            Ring-fencing      Should include reactive compensation and connection assets
+Respondent 6            Ring-fencing      Broadly concur with proposals. Should be ring-fencing between TO and SO.
+Respondent 8            Ring-fencing      PES comments on Utilities Act should be taken into account.
+Respondent 11           Ring-fencing      New ring-fence goes further than BG’s, e.g. requirement that affiliates retain investment grade credit
+                                          ratings. Regulatory risk increased by inconsistency.
+
+
+
+
+Office of Gas and Electricity Markets     53                            September 2000
+Respondent              Subject         Comment
+Respondent 13           Staff costs     Levels of savings proposed unrealistic given NGC’s past performance and diminishing returns.
+Respondent 7            Staff costs     NGC surprised at reliance on PB Power’s advice, which it has not seen. AA/PB Power shape
+                                        internally inconsistent and disjointed. On HR and Finance, AA rely on Saratoga study. AA have
+                                        misapplied the external consultants’ report. On Finance, AA have denied NGC ability to comment
+                                        on AA’s benchmarking database. This is inconsistent with open regulation.
+Respondent 5            TO/SO split     Concerned that no separate licences proposed.
+Respondent 6            TO/SO split     Should be separate licences. SO’s costs should be should be recovered under SO incentive
+                                        schemes.
+
+
+
+
+Office of Gas and Electricity Markets   54                          September 2000
+Appendix 3 Structure of National Grid Group (NGG)
+
+3.1      This Appendix contains a diagram of the structure of the National Grid Group.
+
+
+
+
+                                                                                                                                         January 2 2000
+
+                                                         The National Grid Group plc (‘NGG’)
+
+           NEES                                                           National Grid Holdings Limited –(‘NGH’)-
+
+
+
+
+         The National Grid              Natgrid Finance   NATIONAL GRID       ENMO Ltd         NATIONAL GRID         THE NATIONAL     NGG TELECOMS
+         Company plc (‘NGC’)            Holdings Limited INTERNATIONAL                         INSURANCE Ltd         GRID GROUP       Holdings Limited
+                                                           Ltd                                  [Guernsey]           QUEST TRUSTEE
+                                                                                                                     COMPANY Ltd
+                                                                                                                           NGG TELECOMS Ltd         NGG
+                                                                                                                                            Telecoms
+                                                                                                                                            Investment ltd
+         NGC                DATUM     ESIS           NGC                     Energy            NGC   NGC       NGC           BSCC Ltd
+         NOMINEES           SOLUTIONS Limited        PROPERTIES              Pool              TWO   LEASING   EMPLOYEE                   Energis
+         Ltd                Ltd                      Ltd                     Funds             Ltd   Ltd       SHARES                     plc
+                                                                             Administration                    TRUSTEE
+                                                                             Ltd                               Ltd
+
+
+
+
+Office of Gas and Electricity Markets               55                              September 2000
+Appendix 4 Application of the dividend growth model
+
+4.1      This appendix lists the scenarios which Ofgem has derived for the application of
+         the dividend growth model to NGC. As NGC’s regulated business is not
+         separately listed, and therefore pays no dividend and has no share price, it is
+         necessary to use proxies to estimate the two components of the dividend growth
+         model (the dividend yield and the dividend growth rate). Ofgem has developed
+         a number of scenarios, based on the wide range of possible proxies. For each
+         scenario, the proxy variables are listed in the following order: dividend yield,
+         short run growth and long run growth.
+
+         ♦         Scenario 1: the yield on the FTSE-100; the long-run growth of the
+                   economy; the long-run growth rate of the economy;
+
+         ♦         Scenario 2: the yield on the FTSE-All Share; the long-run growth of the
+                   economy; the long-run growth rate of the economy;
+
+         ♦         Scenario 3: average yield of OXERA sample; IBES forecasts for OXERA
+                   sample; IBES forecasts for OXERA sample;
+
+         ♦         Scenario 4: average yield of OXERA sample; IBES forecasts for OXERA
+                   sample; long-run growth rate of the economy;
+
+         ♦         Scenario 5: weighted average yield of Ofgem utilities sample; weighted
+                   IBES forecasts for Ofgem utilities sample; weighted IBES forecasts for
+                   Ofgem utilities sample;
+
+         ♦         Scenario 6: weighted average yield of Ofgem utilities sample; weighted
+                   IBES forecasts for Ofgem utilities sample; long-run growth rate of the
+                   economy;
+
+         ♦         Scenario 7: average yield of Ofgem utilities sample; IBES forecasts for
+                   Ofgem utilities sample; IBES forecasts for Ofgem utilities sample;
+
+         ♦         Scenario 8: average yield of Ofgem utilities sample; IBES forecasts for
+                   Ofgem utilities sample; long-run growth rate of the economy;
+
+
+
+
+Office of Gas and Electricity Markets            56                            September 2000
+         ♦         Scenario 9: weighted average yield of Ofgem energy sample; weighted
+                   IBES forecasts for Ofgem energy sample; weighted IBES forecasts for
+                   Ofgem energy sample;
+
+         ♦         Scenario 10: weighted average yield of Ofgem energy sample; weighted
+                   IBES forecasts for Ofgem energy sample; long-run growth rate of the
+                   economy;
+
+         ♦         Scenario 11: average yield of Ofgem energy sample; IBES forecasts for
+                   Ofgem energy sample; IBES forecasts for Ofgem energy sample;
+
+         ♦         Scenario 12: average yield of Ofgem energy sample; IBES forecasts for
+                   Ofgem energy sample; long-run growth rate of the economy;
+
+         ♦         Scenario 13: weighted average yield of Ofgem electricity sample;
+                   weighted IBES forecasts for Ofgem electricity sample; weighted IBES
+                   forecasts for Ofgem electricity sample;
+
+         ♦         Scenario 14: weighted average yield of Ofgem electricity sample;
+                   weighted IBES forecasts for Ofgem electricity sample; long-run growth
+                   rate of the economy;
+
+         ♦         Scenario 15: weighted average yield of Ofgem electricity sample;
+                   weighted IBES forecasts for Ofgem electricity sample; long-run growth
+                   rate of electricity demand;
+
+         ♦         Scenario 16: average yield of Ofgem electricity sample; IBES forecasts for
+                   Ofgem electricity sample; IBES forecasts for Ofgem electricity sample;
+
+         ♦         Scenario 17: average yield of Ofgem electricity sample; IBES forecasts for
+                   Ofgem electricity sample; long-run growth rate of the economy;
+
+         ♦         Scenario 18: average yield of Ofgem electricity sample; IBES forecasts for
+                   Ofgem electricity sample; long-run growth rate of electricity demand;
+
+         ♦         Scenario 19: weighted average yield of Ofgem price-controlled sample;
+                   weighted IBES forecasts for Ofgem price-controlled sample; weighted
+                   IBES forecasts for Ofgem price-controlled sample;
+
+
+
+
+Office of Gas and Electricity Markets            57                            September 2000
+         ♦         Scenario 20: weighted average yield of Ofgem price-controlled sample;
+                   weighted IBES forecasts for Ofgem price-controlled sample; long-run
+                   growth rate of the economy;
+
+         ♦         Scenario 21: average yield of Ofgem price-controlled sample; IBES
+                   forecasts for Ofgem price-controlled sample; IBES forecasts for Ofgem
+                   price-controlled sample;
+
+         ♦         Scenario 22: average yield of Ofgem price-controlled sample; IBES
+                   forecasts for Ofgem price-controlled sample; long-run growth rate of the
+                   economy.
+
+Scenario      Current yield       Short-run growth        Long-run growth        Post-tax cost of equity
+    1              2.1                    2.0                    2.0                       4.1
+    2              2.2                    2.0                    2.0                       4.2
+    3              4.5                    4.8                    4.8                       9.3
+    4              4.5                    4.8                    2.0                       6.8
+    5              3.0                    3.7                    3.7                       6.7
+    6              3.0                    3.7                    2.0                       5.2
+    7              4.2                   -2.5                   -2.5                       1.6
+    8              4.2                   -2.5                    2.0                       5.7
+    9              3.1                    6.0                    6.0                       9.1
+   10              3.1                    6.0                    2.0                       5.5
+   11              3.6                    1.3                    1.3                       4.9
+   12              3.6                    1.3                    2.0                       5.5
+   13              4.1                    3.4                    3.4                       7.5
+   14              4.1                    3.4                    2.0                       6.3
+   15              4.1                    3.4                    0.5                       5.0
+   16              4.2                    0.9                    0.9                       5.1
+   17              4.2                    0.9                    2.0                       6.1
+   18              4.2                    0.9                    0.5                       4.7
+   19              4.2                    3.0                    3.0                       7.2
+   20              4.2                    3.0                    2.0                       6.3
+   21              4.4                   -2.5                   -2.5                       1.9
+   22              4.4                   -2.5                    2.0                       5.9
+
+OXERA’s sample included around 60 “old economy” stocks. Ofgem argued that this sample was
+unrepresentative.
+Ofgem’s utility sample consists of: Kelda, Hyder, Thames, Severn Trent, United Utilities, Anglian Water,
+Centrica, BG Group, British Energy, NGG, PowerGen, Viridian, Scottish and Southern, Scottish Power,
+Railtrack, BAA and BT.
+Ofgem’s energy sample consists of: Centrica, BG Group, British Energy, NGG, PowerGen, Viridian, Scottish
+and Southern, Scottish Power.
+Ofgem’s electricity sample consists of : British Energy, NGG, PowerGen, Viridian, Scottish and Southern,
+Scottish Power.
+Ofgem’s price-controlled companies sample consists of Kelda, Hyder, Thames, Severn Trent, United
+Utilities, Anglian Water, BG Group, NGG, PowerGen, Viridian, Scottish and Southern, Scottish Power,
+Railtrack, BAA and BT.
+Where the sample has been weighted, it has been weighted by market capitalisation as at 4 th August 2000.
+
+
+
+Office of Gas and Electricity Markets                58                                 September 2000
+Appendix 5 NGC’s summary response on network
+capabilities
+
+         NGC Transmission Capacity for the forthcoming Price Control
+
+5.1      In order to describe the outputs from the Transmission Owner function of NGC
+         which are expected to be delivered from the capital investment programme in
+         the forthcoming price control, a set of measures have been produced. These
+         measures could be used, for example, to determine the capacity that will be
+         made available in future transmission capacity auctions.
+
+5.2      As the transmission system has many entry and exit points, and these interact to
+         use the transmission capacity at particular pinch points on the main network
+         infrastructure in different ways, a full description of transmission capacity can
+         only be provided by a complex network description. We have provided such a
+         description to Ofgem as a data set.
+
+5.3      The data set describes the capacity that would be provided by the transmission
+         system after establishing a set of reinforcements to accommodate a reference
+         scenario with 5 GW of new generation connections in addition to those
+         currently under construction. The data set also includes a full description of the
+         reference scenario including expected generation and demand developments. As
+         this scenario reflects just one of many possible ways the transmission system
+         could be used and would need to be developed, it differs from that provided in
+         the Seven Year Statement (which reflects the network needed to accommodate
+         those parties who have entered contracts with us).
+
+5.4      To illustrate and summarise the capacity provided by this set of reinforcements a
+         number of calculations have been undertaken. These are based on conditions
+         that are described in our security standards and largely refer to average
+         generation conditions at the time of peak demand with all network circuits in-
+         service. On this basis, the maximum entry and exit capacities at individual
+         customer connection points have been calculated and the capability across the
+         system pinch points have been determined using the system boundaries
+         described in our Seven Year Statement.
+
+
+
+
+Office of Gas and Electricity Markets           59                             September 2000
+5.5      These results depend on the particular generation and demand scenario chosen
+         and so would need to be recalculated for other scenarios. In particular, the
+         boundary capabilities would vary if demand conditions representing other times
+         of the year were used or if generation developments were changed from those
+         assumed. Nevertheless, the measures provide an illustration of the capacity
+         available on the transmission system and a base-line from which any future
+         changes to reflect updated scenarios or alternative network reinforcements can
+         be assessed.
+
+         Exit Point Capacities
+
+5.6      The maximum exit capacity at each existing Grid Supply Point, and those that
+         are expected to be established during the forthcoming price control period, have
+         been calculated using a number of simplifying assumptions. These values
+         represent the maximum power that may be supported at each point individually,
+         such that security is provided in accordance with the P2/5 security standard. It
+         reflects the capacity and connection arrangements of our supergrid transformers
+         and equipment at supply points but excludes the ability to support additional
+         load by using embedded generation or inter-supply point connections at low
+         voltage (as these are not part of NGC’s system).
+
+5.7      The following table shows the total of the individual exit capacities from NGC’s
+         system:
+
+                                        2001/2        2003/4             2005/6
+Total maximum exit
+capacities (MVA)                        58600         60300              61250
+
+5.8      These values exceed the simultaneous peak demand expected on the
+         transmission system for two reasons. Firstly, the capacity at each supply point
+         must be sufficient to accommodate the local peak demand which may be
+         considerably larger than that which occurs at time of the system simultaneous
+         maximum. Secondly, there will be some additional capacity due to the fact that
+         transformers and other transmission equipment are purchased in standard sizes.
+
+5.9      The ability of the transmission system to meet a simultaneous peak demand is
+         illustrated in the following table. It is calculated using the generation and
+
+
+
+
+Office of Gas and Electricity Markets            60                            September 2000
+         transmission network in the reference scenario and uniformly scaling the
+         demand and generation until an overload or unacceptable voltage occurs:
+
+
+                                        2001/2               2003/4                 2005/6
+Maximum simultaneous
+demand capability (MW)                  56100                54500                  55300
+Forecast simultaneous
+maximum demand (MW)                     51900                52100                  52900
+
+5.10     The margin for accommodating peak demands higher than forecast in the
+         reference scenario falls from 8% at the beginning of the review to 5% at the end.
+         This reflects some tightening of system margins but shows the network remains
+         robust against likely variations in winter peak demand.
+
+         Entry Point Capacities
+
+5.11     The capacity of individual entry points has been calculated to reflect the
+         maximum generation that may be accommodated in accordance with PLM-SP-1,
+         the security standard for generation connections. It is based on the ratings of the
+         transmission circuits at the connection substation. It makes no allowance for
+         power flows that may arise from other generators or loads and therefore not all
+         of this capacity will be available solely for generation.
+
+5.12     In practice, almost all of NGC’s existing substations, including those for
+         marshalling circuits and connecting demand, could be used to connect
+         additional generation to the transmission system. For the purpose of illustrating
+         the capacity that exists or would be established over the price control period,
+         however, only those substations that have generation at some point in the
+         reference scenario have been included. While it is possible that some
+         substations could be re-configured when the associated power station closes,
+         such possible reductions in entry capacity have not been shown until such re-
+         configuration plans are confirmed.
+
+                                        2001/2               2003/4                 2005/6
+Total generation in reference           65300                63500                  65000
+scenario (MW)
+Total maximum circuit
+capacity at entry points*               179900               185050                 192150
+(MVA)
+*        Circuit capacity is needed for both generation and system through flows.
+
+
+
+
+Office of Gas and Electricity Markets                 61                                September 2000
+5.13     The increase in capacity from 2001/2 to 2005/6 reflects the reinforcements that
+         would be required to accommodate the new plant in the reference scenario. As
+         noted above, the total circuit capacity at entry points is very much larger than
+         the installed generation capacity or peak demand. This reflects the very large
+         capacities that are available at some existing substations where a number of
+         circuits are marshalled together. It also reflects the high thermal ratings of
+         individual high voltage transmission circuits but, in the absence of load flow
+         studies, does not show voltage and other power sharing limitations that would
+         occur in practice. For this reason, the ability of the transmission system to accept
+         patterns of generation and demand is better assessed from the boundary
+         capabilities given below.
+
+         System Boundary Capabilities
+
+5.14     The following table calculates the capability of the network infrastructure to
+         support transfers across various inter-regional boundaries. The boundaries
+         chosen are the same as those set out in our Seven Year Statement. The
+         capability represents the maximum transfer that can be accommodated and
+         secured in accordance with the security standards specifying thermal and
+         voltage performance (PLM-SP-2 and PLM-ST-9). They are calculated by
+         proportionally increasing the generation and decreasing the demand in the
+         exporting region and reducing the generation and increasing the demand in the
+         importing region until an overload or unacceptable voltage occurs.
+
+
+
+
+Office of Gas and Electricity Markets           62                             September 2000
+                           2001/02                     2003/04                      2005/06
+Boundary:                  Required     Boundary       Required     Boundary        Required     Boundary
+                           Transfer     Capability     Transfer     Capability      Transfer     Capability
+                           (MW)         (MW)           (MW)         (MW)            (MW)         (MW)
+1: Upper North             2000         *1900          2850         4150            2850         4150
+2: North to                8050         8750           9450         9600            9900         10650
+Midlands
+3: Midlands to             7550         9550           9450         10800           8800         11000
+South
+4: South Coast             5050         5350           5500         5600            4950         5050
+5: NE & Yorkshire          6450         8900           7850         9050            7750         9900
+6: Sth & Sth West          4400         5100           5200         5200            4800         4900
+7: South West              1750         1750           1750         1850            1200         1400
+8: London                  7700         8750           7800         8150            8000         9250
+9: Thames Estuary          6000         8000           5050         7050            5700         8050
+10: NE/ Yorks/             10250        13750          12550        14300           11550        13300
+Trent
+11 West Midlands           4800         5250           5150         5450            5400         5500
+*       We have a direction from Ofgem for this area of the transmission system prior to completion of the
+new Yorkshire line and associated reinforcements.
+
+5.15     The ‘Required Transfer’ column represents the capability that, for the particular
+         peak demand scenario, must be supported in order to meet the security
+         standards. The ‘Boundary Capability’ column then shows the maximum
+         capability before overloading or unacceptable voltages occur.
+
+5.16     It is important to note that the calculation of boundary capability depends on the
+         strength of the transmission network (across the boundary and locally to it) and
+         the disposition of generation and demand either side of a boundary. As the
+         disposition of generation and demand changes from year to year, throughout the
+         year and indeed over the course of a day, the boundary capabilities will also
+         change. It is for this reason that some boundary capabilities decrease over time
+         in the table above. It is also for this reason that reinforcements may be required
+         to accommodate new dispositions of generation and demand, even though the
+         boundary transfers do not change significantly.
+
+5.17     Given the close proximity of some boundaries, certain reinforcements will
+         increase the capability on more than one boundary, so as problems are resolved
+         in one particular area, this may give an increase above the minimum required
+         capacity on another boundary. Also as transmission equipment is purchased in
+         standard sizes, there will generally be more capability available than the
+         absolute minimum needed in any one year.
+
+
+Office of Gas and Electricity Markets                63                                  September 2000
+5.18     At off-peak times, system transfers may be larger than those calculated for the
+         time of peak demand. During the summer, boundary capabilities will also fall
+         due to the need to take circuits out of service for essential maintenance and
+         construction work. For these reasons, additional calculations and scenario
+         assumptions are required to describe the capability throughout the year.
+
+
+
+
+Office of Gas and Electricity Markets          64                            September 2000
+Appendix 6 Price control calculations
+
+6.1      As explained in Chapter 6, Ofgem has calculated NGC’s price controlled
+         revenues based on the operating and capital expenditure forecasts and cost of
+         capital assumptions outlined in Chapters 2, 3 and 5, consistent with the scope of
+         the price control assumed in the draft proposals document (i.e. including certain
+         SO costs and excluding costs efficiently incurred by the TO in the delivery of
+         NETA). See Table A6.1.
+
+6.2      Ofgem has also calculated the revenues of the TO only, including the costs
+         efficiently incurred by the TO in the delivery of NETA. These are set out in
+         Table A6.2.
+
+Table A6.1: NGC’s price controlled revenues including certain SO costs before the
+delivery of NETA (P 0 cut=0, X=1.5)
+
+                                2001/02 2002/03 2003/04 2004/05 2005/06 Total
+Opening asset values                4,590  4,606   4,601   4,559   4,484
+Depreciation                          -289  -297    -304    -311    -317 -1,518
+Capex                                  305   291     263     236     225   1,320
+Closing values                      4,606  4,601   4,559   4,484   4,392
+
+Controllable operating                   221   210      200        196       192        1,020
+costs
+Operating costs                          324   310      296        288       294        1,512
+Depreciation allowance                   289   297      304        311       317        1,518
+Return                                   287   288      286        283       277        1,421
+Total                                    901   895      886        881       884        4,451
+PV of totals                             874   817      762        713       676        3,842
+
+Price control revenues                   800   788      776        765       753        3,882
+Excluded revenues                        103   107      112        120       126          568
+Total revenues                           903   895      889        885       879        4,450
+PV of totals*                            876   818      764        716       669        3,842
+*discounted at 6.25 per cent cost of capital
+
+
+
+
+Office of Gas and Electricity Markets          65                            September 2000
+Table A6.2: NGC’s price controlled revenues excluding all SO costs and including
+costs efficiently incurred in the delivery of NETA (P 0 cut=5, X=1.5)
+
+                                2001/02 2002/03 2003/04 2004/05 2005/06 Total
+Opening asset values                4,517  4,522   4,509   4,470   4,398
+Depreciation                          -285  -292    -299    -306    -312 -1,493
+Capex                                  290   279     260     234     222   1,285
+Closing values                      4,522  4,509   4,470   4,398   4,308
+
+Controllable operating                   187   175   166      162       158        849
+costs
+Operating costs                          290   276   262      254       260    1,342
+Depreciation allowance                   285   292   299      306       312    1,493
+Return                                   282   282   281      277       272    1,395
+Total                                    858   850   842      837       843    4,230
+PV of totals                             832   776   723      677       642    3,651
+
+Price control revenues                   758   747   736      724       714    3,678
+Excluded revenues                        100   105   109      116       121      550
+Total revenues                           858   852   844      840       835    4,229
+PV of totals*                            833   778   725      680       635    3,651
+*discounted at 6.25 per cent cost of capital
+
+
+
+
+Office of Gas and Electricity Markets          66                      September 2000
+

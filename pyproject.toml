@@ -1,0 +1,26 @@
+[project]
+name = "gas-counterfactual"
+version = "0.1.0"
+description = "Engine: GB household electricity cost vs all-gas Britain"
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1",
+    "pymupdf>=1.28.2",
+    "xlrd>=2.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-xdist>=3.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gascf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

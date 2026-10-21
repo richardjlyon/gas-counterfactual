@@ -1,0 +1,5 @@
+year,power_tco2e,total_covered_tco2e,value,status,source_id,decision,locator
+2021,46200000,107880367,0.428,SOURCED,desnz-functioning-ukcm-2024-chart3;desnz-functioning-ukcm-2021-22,0055,"power: 2024 report Chart 3 'Annual greenhouse gas emissions under UK ETS - by sector' (p.16), read by pixel scaling at 300 dpi, 46.2 Mt +/- 0.2 (research-model-items.md item 1); total: 2021-22 report text line 659 '107,880,367 tCO2e in 2021'; share as ruled in 0055 (0.428)"
+2022,48193462,110618346,0.435673,SOURCED,desnz-functioning-ukcm-2023,0055,"2023 report section 7.3 (pdftotext lines 413-415): total 110,618,346 tCO2e in 2022; power 48,193,462 tCO2e"
+2023,36084695,96750817,0.372965,SOURCED,desnz-functioning-ukcm-2024,0055,"2024 report section 7.3 (pdftotext lines 502-507): total 96,750,817 tCO2e in 2023; power 36,084,695 tCO2e (restating the 2023 report)"
+2024,29484524,85634344,0.344307,SOURCED,desnz-functioning-ukcm-2024,0055,"2024 report section 7.3 (pdftotext lines 500-507): total 85,634,344 tCO2e; power 29,484,524 tCO2e"

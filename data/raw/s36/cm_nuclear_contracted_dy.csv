@@ -1,0 +1,12 @@
+delivery_year,auction_acquired_mw,post_trade_tw_mw,post_trade_ex_dungeness_mw,source,locator
+2015/16,0.000,0.000,0.000,OFGEM-CMAR-2016-17;NESO-CMR-20261014,"No CM delivery year: no agreements in the register; Ofgem CM annual report 2016-17 PDF p.3 (first delivery year brought forward to 2017/18)"
+2016/17,0.000,0.000,0.000,NESO-CMR-20261014,"Only the 2016-17 (TR) Transitional Capacity Auction (802.71 MW, DSR/CHP/OCGT/oil); no nuclear agreements"
+2017/18,7878.366,7878.366,6950.287,NESO-CMR-20261014;EMR-FAR-EA-DY1718,"Register auction 2017-18 (T-1) (Early Auction), 16 agreements; EA 2017/18 Final Auction Results Table 2 p.6 Nuclear 7,878.366"
+2018/19,7876.108,7876.108,6928.729,NESO-CMR-20261014;EMR-FAR-T1-DY1819,"Register auction 2018-19 (T-4) (T-4 2014), 16 agreements; T-1 2017 Final Results Report Table 2 p.7 Nuclear 7,876.108"
+2019/20,7575.233,6557.152,6265.729,NESO-CMR-20261014;EMR-FAR-T4-2015,"Register auction 2019-20 (T-4), 16 agreements; T-4 2015 Final Results Table 2 p.6 Nuclear 7,575.233; post-trade: Dungeness B CMU 21/22 traded out 28/01/2020-30/09/2020 (896.308 MW), Hunterston B CMU 7 traded out whole DY (413.196 MW)"
+2020/21,7878.366,7878.366,6950.287,NESO-CMR-20261014;EMR-FAR-T4-2016,"Register auction 2020-21 (T-4), 16 agreements; T-4 2016 Final Results Report Table 2 p.6 Nuclear 7,878.366"
+2021/22,7925.577,7056.129,6115.134,NESO-CMR-20261014,"Register auction 2021-22 (T-4), 16 agreements; Hunterston B CMU 7 and 8 traded out whole DY (869.448 MW); Dungeness B CMU 21/22 terminated 28/10/2022"
+2022/23,5919.544,5919.544,5024.234,NESO-CMR-20261014,"Register auction 2022-23 (T-3), 12 agreements; Dungeness B CMU 21/22 terminated 10/11/2023"
+2023/24,5382.953,5382.953,4956.282,NESO-CMR-20261014,"Register auctions 2023-24 (T-4) 3,971.200 + 2023-24 (T-1) 1,411.753, 12 agreements; Dungeness B traded 468.639 MW to Heysham 1 CMU 2; Dungeness B CMU 22 terminated 13/11/2024"
+2024/25,4806.455,4806.455,4806.455,NESO-CMR-20261014,"Register auctions 2024-25 (T-4) 2,039.197 + 2024-25 (T-1) 2,767.258, 10 agreements; matches B13"
+2025/26,4626.022,4626.022,4626.022,NESO-CMR-20261014,"Register auctions 2025-26 (T-4) 989.814 + 2025-26 (T-1) 3,636.208, 10 agreements; matches B13"

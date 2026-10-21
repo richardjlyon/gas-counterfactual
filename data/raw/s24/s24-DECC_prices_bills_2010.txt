@@ -1,0 +1,1516 @@
+Estimated impacts of energy and
+climate change policies on energy
+prices and bills
+
+
+
+
+                              July 2010
+Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+
+2
+ Estimated impacts of energy and
+ climate change policies on
+ energy prices and bills
+  Executive Summary
+1. Britain is the first country in the world to set legally binding ‘carbon budgets’,
+   aiming to cut UK emissions by 34% by 2020 and at least 80% by 2050 through
+   investment in energy efficiency and clean energy technologies such as
+   renewables, nuclear and carbon capture and storage.
+
+2. Everyone has a role to play in tackling climate change, from reducing their own
+   emissions to planning for adaptation. The Government is providing a range of
+   support for individuals, communities and businesses to reduce their carbon
+   emissions. Many of the policies (for example the Renewables Obligation) that are
+   reflected in prices and bills are designed to help bring forward the levels of low-
+   carbon energy investment which are required if the UK is to meet its energy needs
+   and make the transition to a low-carbon economy.
+
+3. Compared to the counterfactual scenario in which climate change and energy
+   policies do not have an impact on energy bills, on average, domestic energy bills
+   will be 1% higher in 2020 and non-domestic energy bills, for medium-sized
+   consumers, will be 26% higher as a result of climate change and energy policies.
+
+4. The impact of climate change and energy policies on energy prices is higher than
+   the impact on bills (18% and 33% on gas and electricity prices respectively for
+   domestic consumers and 24% and 43% respectively, for medium-sized non-
+   domestic consumers). The impact on bills is lower as the Government has in
+   place a range of policies to improve energy efficiency, which helps households
+   and businesses reduce energy consumption, lessening the overall bill impact.
+
+5. There will be a variable impact on households owing to differential take up of
+   energy efficiency, renewable heat and micro-generation measures – by 2020 it is
+   estimated that households will see a decrease in bills by an average of
+   approximately 25% if they take up both renewable and insulation measures
+   (compared to a bill with the impact of policies). A greater burden of the increase
+   in bills falls on lower-income households with respect to the share of income spent
+   on energy bills.
+
+6. Sustained higher prices for fossil fuels reduce the cost of some energy and
+   climate change policies, lowering the cost passed onto consumer bills. For
+   example, at an oil price of around $150 per barrel in 2020 and gas price of around
+   120 pence per therm, climate change and energy policies would have the effect of
+   reducing bills in 2020 by around 5% compared to a bill excluding these policies.
+
+
+
+                                                                                        3
+     Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+     Introduction
+7. Energy and climate change policies are likely to have a significant impact on
+   consumers across the UK. The impact on households and businesses will be
+   through changes in prices for goods and services and changing patterns of
+   consumption, in particular for energy.
+
+8. This analytical paper sets out DECC’s latest assessment of the impact of energy
+   and climate change policies on gas and electricity prices and bills. It updates
+   analysis that was previously published in July 2009.1 Future updates will be
+   published alongside the Annual Energy Statement.
+
+9. The analysis within this document is not a complete view of the impacts of energy
+   and climate change policies on consumers. Energy and climate change policies
+   are likely to have other costs and benefits that will impact energy consumers
+   outside their electricity and gas bills, for example, through costs of appliances due
+   to changes in energy efficiency standards.
+
+10. The results presented in this document are based on analysis of policies and
+    proposals put forward by the previous Government. Only those policies already in
+    place or that have been planned to a sufficient degree of detail (i.e. with quantified
+    estimates of costs and benefits) have been included in the modelling. Annex A
+    presents the policies assessed in this document and details any changes made to
+    the policies since the last published analysis in July 2009.
+
+     Current domestic bills
+11. Ofgem’s estimate of the average annual domestic gas and electricity bill as of May
+    2010 is estimated at £620 and £500, respectively.2 Fossil fuel prices (gas, coal
+    and oil) are the primary drivers of wholesale energy costs, which currently make
+    up over 60% of domestic energy prices.3 Transmission and distribution costs,
+    supplier costs and margins and a 5% VAT rate are the other main components of
+    the household energy bill. Based on Ofgem’s analysis, energy and climate
+    change policies are estimated to represent 7% of the total household energy bill in
+    2009, excluding the impact of energy efficiency savings.4 DECC’s estimates of
+    the breakdown of an average domestic gas and electricity bill in 2010, as noted in
+    Chart 1, are broadly similar to Ofgem’s. Differences are down to different
+    assumptions used.
+
+
+
+
+ 1
+   Analytical Annex to the UK Low Carbon Transition Plan, July 2009. Available online at:
+ http://www.decc.gov.uk/en/content/cms/publications/lc_trans_plan/lc_trans_plan.aspx.
+ 2
+  Ofgem; Electricity and Gas Supply Market Report, June 2010. Available at:
+ http://www.ofgem.gov.uk/Markets/RetMkts/ensuppro/Documents1/Electricity%20and%20Gas%20Supply%20Market%20Report
+ %20June%202010.pdf . Ofgem assumes customer bill is for standard tariffs, weighted by payment method and market share.
+ Average figures assume electricity consumption of 4MWh/yr and gas consumption of 16.9MWh/yr
+ 3
+   See Annex C table C1 for wholesale price assumptions from 2010 to 2020
+ 4
+   Source: Ofgem Updated Household Energy Bills Explained Factsheet, August 2009.
+  Ofgem’s estimate of climate change and energy policies does not account for energy efficiency savings that would reduce the
+ impact of policies as a proportion of bills. In addition for this report Ofgem use higher consumption bands than more recent
+ analysis, this will increase the impact of policies. DECC estimates account for the impact of energy efficiency policies.
+
+
+     4
+     Chart 1: Estimated breakdown of an average annual domestic gas and
+     electricity bill in 20105
+
+                                                                                                             VAT
+                            Electricity bill £512                      Energy and           Gas bill £591   (5%),
+         Energy and                                                      climate
+                          VAT (5%),                                      change                              5%
+           climate
+           change           5%                                         policies, 4%
+        policies, 12%
+                                                                      Supplier
+                                                    Wholesale         costs and
+       Supplier                                     electricity      margin, 15%
+       costs and                                    cost, 46%                                                  Wholesale
+      margin, 16%                                                                                              gas cost,
+                                                                                                                 56%
+              Transmission                                                Transmission
+               , distribution                                              , distribution
+               & metering,                                                 & metering,
+                    21%                                                         21%
+
+
+
+
+     Source: DECC 2010
+     Figures in real 2009 prices
+
+12.        The results from DECC analytical modelling are included in the analysis that
+           follows. Details of the main assumptions and definitions can be found in Annex
+           B.
+
+     Estimated impacts on average domestic energy prices and bills
+13.        Chart 2 and Table 1 below illustrate the estimated increase in average
+           domestic retail gas and electricity prices as a result of energy and climate
+           change policies to 2020. “Base prices” (i.e. excluding policies) are projected to
+           increase to 2020, driven by rising wholesale prices which are based on DECC
+           fossil fuel price assumptions and rising transmission, distribution and metering
+           costs as extrapolated from historical trends. The results are based on a fossil
+           fuel price scenario consistent with an oil price of around $80/bbl and gas price
+           of around 69 pence per therm6 in 2020.
+
+
+
+
+ 5
+  DECC assumes an average consumption of 4.2MWh/yr for electricity and 16.4MWh/yr for gas in 2010; as derived from total
+ consumption estimates published in Digest of United Kingdom Energy Statistics, 2009 and CLG household assumptions.
+ 6
+   In real 2009 prices.
+
+
+                                                                                                                           5
+ Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+Chart 2: Estimated impact of energy and climate change policies on average
+domestic retail gas and electricity prices (including VAT)
+                                                             180
+     Retail price including VAT (£/MWh) - real 2009 prices
+
+
+
+                                                             160
+
+                                                             140
+
+                                                             120
+
+                                                             100
+
+                                                             80
+
+                                                             60
+
+                                                             40
+
+                                                             20
+
+                                                              0
+                                                                       Gas            Electricity       Gas             Electricity     Gas             Electricity
+
+                                                                               2010                              2015                           2020
+
+                                                                   Base gas price                   Base electricity price            RHI
+                                                                   HEM (New SO)                     CERT                              CESP
+                                                                   Better billing                   Smart Meters                      Energy security
+                                                                   ETS impact on wholesale price    RO                                Extended RO
+                                                                   CCS                              FIT
+
+ Source: DECC 2010
+
+
+ Table 1: Estimated impact of energy and climate change policies on average
+ domestic gas and electricity prices and an average domestic energy bill
+ (including VAT)
+
+                                                                                                                         2010          2015             2020
+                                                                             Price impacts (real 2009 £/MWh and % change)
+                                                                                                                               1         4                8
+                             Increase in gas prices due to policies
+                                                                                                                             (4%)      (10%)            (18%)
+                             Increase in electricity price due to                                                           15           29               40
+                             policies                                                                                     (14%)        (26%)            (33%)
+                                                               Energy bill (gas + electricity) impacts (real 2009 £ and % change)
+                             Estimated average energy bill without
+                                                                                                                         £1,060       £1,149            £1,226
+                             policies
+                             Estimated average energy bill with
+                                                                                                                         £1,103       £1,150            £1,239
+                             policies
+                                                                                                                              £42        £1              £13
+                             Impact of policies on energy bill
+                                                                                                                             (4%)       (0%)            (1%)
+Source: DECC 2010. Numbers may not add up due to rounding
+
+
+
+
+ 6
+14.   As presented in Table 1, domestic retail gas prices are estimated to be 18%
+      higher and retail electricity prices 33% higher in 2020 due to energy and climate
+      change policies (compared to prices in 2020 without policies).
+
+15.   The steady increase over time in the impact of energy and climate change
+      policies on electricity prices is primarily due to the EU Emissions Trading
+      System (EU ETS) and Renewables Obligation (RO). The EU ETS is assumed
+      to impact on electricity prices as generators are assumed to pass on the cost of
+      purchasing carbon allowances onto electricity wholesale prices. The RO is
+      assumed to affect retail prices as the costs of the RO subsidy and grid
+      reinforcement for renewables are assumed to be passed on to end-users of
+      electricity. This analysis does not include any impacts the RO may have on
+      wholesale electricity prices at this stage. However, this impact has been
+      modelled separately by Redpoint, and it is estimated to reduce wholesale
+      electricity prices by an average of around £6/MWh over the period 2010 to
+      2020.
+
+16.   Under our current assumptions, the Renewable Heat Incentive (RHI) is
+      estimated have the biggest impact on gas prices. However, the RHI is yet to be
+      finalised. The Coalition Government is committed to meeting its targets on
+      renewables, including through taking action on renewable heat. The new
+      Coalition Administration is reviewing the RHI and has not committed to a
+      particular option at this stage, including on potential funding methods. Our
+      existing analysis assumes that the RHI is funded through a levy on gas bills,
+      which is consistent with previously published DECC analysis rather than
+      indicative of the final decision on the policy. Changes to this assumption could
+      significantly alter the headline impacts. Annex D provides a breakdown of price
+      impacts by policy.
+
+17.   The increases in gas and electricity prices accelerate closer to 2020 as the
+      ambition of the policies that are rolled out increases. However, there are a
+      number of policies that already have some impact in 2010 (including the RO,
+      Carbon Emissions Reduction Target (CERT), Feed-in-Tariffs (FiTs) and EU
+      ETS).
+
+18.   Table 1 also shows the estimated impact of energy and climate change policies
+      on an average domestic energy (gas plus electricity) bill. In total, policies are
+      estimated to increase the average bill by £13 (1%) compared to a bill in 2020 in
+      the absence of these policies. The breakdown of the energy bill into separate
+      gas and electricity bills shows that the biggest percentage increase comes from
+      the rise in domestic gas bills (See Annex E for further detail).
+
+19.   The impact of policies on gas and electricity prices is much greater than the
+      impact on gas and electricity bills. This is because bills are a combination of
+      prices and energy usage, and therefore include the impact of a range of
+      policies which improve energy efficiency by helping households and businesses
+      reduce energy consumption, lessening the overall bill impact. Chart 3 below
+      shows the estimated average bill impact of individual policies in 2020.
+
+
+                                                                                      7
+  Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+ Chart 3: Estimated impact of energy and climate change policies on an
+ average domestic energy bill in 2020 (including VAT)
+               Estimated final average household             Estimated impact of policies on an average household energy
+                       energy bill in 2020                                             bill in 2020
+                                                      £400
+      £1,400
+                  Overall impact of policies                                                                                   RHI
+
+                  Base bill                           £300                                                                     Extended RO
+      £1,200
+                                                                                                                               Future SO
+                                                      £200
+                                                                                                                               RO
+      £1,000
+                                                                                                                               EU ETS
+                                                      £100
+                                                                                                                               Smart Meters
+       £800
+                                                        £0                                                                     CCS
+
+                                                                                                                               FIT
+       £600
+                                                     -£100                                                                     Products Policy
+
+                                                                                                                               CERT
+       £400                                          -£200
+                                                                                                                               Energy Security
+
+                                                                                                                               Better billing
+       £200                                          -£300
+                                                                                                                               CERT Extension
+
+                                                     -£400                                                                     CESP
+         £0                                                  Positive impact of policies on   Negative impact of policies on
+                                      2020                   average household energy bill    average household energy bill
+
+
+
+
+  Source: DECC 2010
+  Figures in real 2009 prices
+
+
+  Estimated impacts on average non-domestic energy prices and
+  bills
+20.        A different selection of policies has been modelled for the non-domestic
+           compared to the domestic sector, primarily because different policies apply to
+           non-domestic sectors of the economy. The impact on non-domestic bills is also
+           more complex to analyse than domestic bills. This is because of the diversity of
+           energy usage (i.e. greater use of non-metered fuels) and energy prices faced
+           by energy users in the non-domestic sector and different levels of emissions
+           abatement opportunities across sectors. The bills analysis below has been
+           carried out for an illustrative medium-sized non-domestic user of gas and
+           electricity.7 Looking ahead DECC are intending to expand this analysis to
+           include the impact on energy intensive users.
+
+21.        Chart 4 and Table 2 illustrate the estimated increase in average non-domestic
+           retail gas and electricity prices due to energy and climate change policies to
+           2020. As with domestic prices, the increases in base prices (i.e. excluding
+           policies) up to 2020 are due to assumed increases in wholesale prices,
+           transmission, distribution and metering costs.
+
+
+
+
+  7
+    Non-domestic energy consumers include industry, transport, public administration, commercial and agriculture. A medium-
+  sized gas user is defined by an annual consumption of between 2,778 and 27,777MWh of gas. A medium-sized electricity
+  user is defined by an annual consumption of between 2,000 and 19,999MWh of electricity. The midpoints of these ranges
+  have been used for this analysis.
+
+
+  8
+22.                                             As before, the steady increase in the estimated impact of energy and climate
+                                                change policies on electricity prices is primarily due to the EU ETS and RO8,
+                                                while the RHI is estimated to have the biggest impact on gas prices9 (see
+                                                Annex D for a breakdown of impacts by policy).
+
+23.                                             The increases in gas and electricity prices accelerate closer to 2020 as the
+                                                ambition of the policies that are rolled out increases. However, there are a
+                                                number of policies that already have an impact in 2010 (including the RO, FiTs
+                                                and EU ETS).
+
+  Chart 4: Estimated impact of energy and climate change policies on average
+  non-domestic retail gas and electricity prices
+
+                                                140
+      Retail price (£/MWh) - real 2009 prices
+
+
+
+
+                                                120
+
+
+                                                100
+
+
+                                                 80
+
+
+                                                 60
+
+
+                                                 40
+
+
+                                                 20
+
+
+                                                  0
+                                                           Gas           Electricity       Gas           Electricity     Gas          Electricity
+
+                                                                  2010                            2015                         2020
+
+                                                      Base gas price                   Base electricity price          CCL
+                                                      RHI                              ETS impact on wholesale price   RO
+                                                      Extended RO                      CCS                             FIT
+
+
+  Source: DECC 2010
+
+
+
+
+  8
+    This includes the impacts of the RO subsides and the costs of grid reinforcement. This analysis does not include any
+  impacts the RO may have on wholesale electricity prices at this stage. However, this has been modelled separately by
+  Redpoint, and it is estimated to reduce wholesale electricity prices by an average of around £6/MWh over the period 2010 to
+  2020 under a fossil fuel price scenario consistent with a sustained oil price of around $80/bbl in 2020.
+  9
+    The new Coalition Administration is reviewing the RHI and has not committed to a particular option at this stage, including
+  on potential funding methods. Our existing analysis assumes that the RHI is funded through a levy on gas bills, which is
+  consistent with our previously published work rather than indicative of the final decision we expect.
+
+
+                                                                                                                                                    9
+  Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+ Table 2: Estimated impact of energy and climate change policies on average
+ non-domestic retail gas and electricity prices and an average medium-sized
+ non-domestic user’s energy bill
+                                                                    2010               2015    2020
+                        Price impacts (real 2009 £/MWh and % change)
+                                                                       2                 3       7
+       Increase in gas prices due to policies
+                                                                     (6%)              (10%)   (24%)
+       Increase in electricity price due to                           15                 23      37
+       policies                                                     (20%)              (28%)   (43%)
+        Energy bill (gas + electricity) impacts (real 2009 £000s and % change)
+       Estimated average energy bill without
+                                                                   £1,217          £1,327      £1,410
+       policies
+       Estimated average energy bill with                          £1,392          £1,477      £1,778
+       policies
+                                                                     £175               £150    £368
+       Impact of policies on energy bill
+                                                                    (14%)              (11%)   (26%)
+  Source: DECC 2010
+  Numbers may not add up due to rounding
+
+
+24.     As presented in Table 2, average non-domestic retail gas prices are estimated
+        to be 24% higher and retail electricity prices 43% higher in 2020 due to energy
+        and climate change policies (compared to prices in 2020 without policies).
+
+25.     Table 2 and Chart 5 also show the estimated impacts of energy and climate
+        change policies on the energy bill for an illustrative user. Overall, energy and
+        climate change policies are expected to increase the average medium-sized
+        non-domestic user’s energy bill by £368,000 (26%) compared to a bill in 2020
+        in the absence of these policies. Annex E provides a breakdown of the impacts
+        on the average gas and electricity bill by each policy.
+
+26.     The percentage increase in an average bill for the non-domestic sector is
+        higher than the increase in the domestic sector. This arises in part because the
+        baseline gas and electricity prices for non-domestic users are, on average,
+        lower than for domestic users in addition domestic bills include the impact of a
+        wider range of policies which improve energy efficiency. For policies such as
+        FiTs that affect both the domestic and the non domestic sector it is assumed
+        the impact on the retail price of that policy is the same across sectors, as costs
+        are assumed to be spread evenly over total consumption. The estimated price
+        impact will therefore be higher in percentage terms for non-domestic
+        consumers compared to domestic.
+
+27.     There are a number of energy efficiency policies for non-domestic consumers
+        which will have an impact on their level of energy consumption and thus reduce
+        their energy bills. The results include the estimated impacts of Products Policy
+        on the energy consumption of domestic and non-domestic consumers. They
+
+
+  10
+           also include the impacts of the Carbon Reduction Commitment (CRC) and the
+           Climate Change Agreement (CCA), which only affect non-domestic consumers.
+           Due to data constraints, the analysis does not include the costs of meeting the
+           CCA requirements, only the benefits. The associated savings are spread
+           across all non-domestic consumers. This will therefore underestimate the bill
+           savings for eligible non-domestic users and overestimate the bill savings for
+           ineligible non-domestic users. The CCL analysis is partial in that it only models
+           costs, not associated savings.
+
+28.        There will be further reductions in energy consumption due to the roll-out of
+           smart-metering for small and medium enterprises (SMEs). It has not been
+           possible to model the impact of this in the above analysis. However, estimates
+           suggest that an average SME will approximately save 3% on gas bills and 2%
+           on electricity bills by 2020, compared to counterfactual of bill in 2020 without
+           Smart Meters policy. There are also plans to consider cost effective options for
+           SME energy efficiency.
+
+  Chart 5: Estimated impact of energy and climate change policies on an
+  average non-domestic energy bill for a medium sized consumer in 2020
+
+                 Estimated final average non-                Estimated impact of policies on an average non-domestic
+               domestic energy bill for medium               energy bill for medium sized consumers in 2020 (£000's)
+               sized consumers in 2020 (£000's)   £600
+      £2,000
+                 Overall impact of
+                 policies
+      £1,800                                      £500
+                 Base bill
+      £1,600
+                                                  £400
+
+      £1,400                                                                                                                  Products Policy
+                                                  £300                                                                        FIT
+      £1,200                                                                                                                  CCS
+                                                                                                                              Extended RO
+                                                  £200
+      £1,000                                                                                                                  RO
+                                                                                                                              CCL
+       £800                                       £100                                                                        EU ETS
+                                                                                                                              RHI
+       £600                                                                                                                   CRC
+                                                    £0
+                                                                                                                              CCA
+       £400
+                                                  -£100
+       £200
+
+                                                  -£200
+         £0
+                                                            Positive impact of policies on  Negative impact of policies on
+                                     2020                 average non domestic energy bill average non domestic energy bill
+
+
+
+
+  Source: DECC 2010
+  Figures in real 2009 prices
+
+
+  Sensitivity analysis of average bill impacts
+29. Analysis of price and bill impacts is inherently uncertain and sensitive to
+    underlying assumptions. The primary driver of energy prices and bills is not
+    energy and climate change policies but rather changes in fossil fuel prices (gas,
+    coal and oil), which are the primary drivers of wholesale energy costs and
+    currently make up around 60% of domestic energy prices.
+
+
+
+
+                                                                                                                                       11
+  Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+30. Fossil fuel prices also affect the cost of energy and climate change policies. With
+    higher fossil fuel prices, the costs of energy and climate change policies are
+    generally reduced. Higher fossil fuel prices lower the cost of policies such as the
+    RO since the subsidy required to incentivise low-carbon investment is less.
+    Higher fossil fuel prices also lead to higher baseline energy prices more generally
+    and thereby increase the value of any energy savings from energy efficiency
+    policies.
+
+31. The analysis described in the previous sections is based on a scenario where the
+    oil price is around $80/bbl and gas price around 60 pence per therm10 in 2020.
+    This is an assumption made for analytical purposes rather than a forecast. In
+    order to look at the impact of fossil fuel prices on the estimates and given the high
+    level of uncertainty associated with these assumptions we have looked at two
+    alternative scenarios. In the first, an oil price of around $150/bbl (gas at
+    120p/therm) in 2020 is assumed and, in the second, an oil price of around $60/bbl
+    (gas at 35p/therm).11
+
+32. The higher fossil fuel price scenario used is coupled with a higher European Union
+    Allowance (“carbon price”) assumption. This is because gas is relatively more
+    expensive than coal compared with the central and lower fossil fuel price
+    scenarios. As a result, coal generation is relatively more attractive in the higher
+    fossil fuel price scenario, the demand for carbon allowances is higher and hence
+    the carbon price is higher. This leads to a larger absolute impact of the EU ETS
+    on wholesale electricity prices.12
+
+33. Chart 6 shows how the overall impact of energy and climate change policies on an
+    average household energy bill changes under the different fossil fuel price
+    scenarios. The effect that higher fossil fuel price assumptions have of reducing
+    the cost of low-carbon investment, combined with the increased monetary value of
+    energy efficiency savings when prices are higher dominate the increased impact
+    of the EU ETS due to higher carbon prices. As such, under higher fossil fuel
+    prices, energy and climate change policies are estimated to actually reduce the
+    average household energy bill in 2020 by £87 or 5% (compared to a bill in 2020
+    without policies). See Annex C for average price and bill impacts of policies based
+    on an oil price in 2020 of $150/bbl and $60/bbl.
+
+
+
+
+  10
+     Real 2009 prices.
+  11
+     This is based on DECC’s fossil fuel price assumptions available at:
+  http://www.decc.gov.uk/assets/decc/statistics/projections/file51365.pdf
+  12
+     For more detail on the drivers of DECC’s carbon price assumptions, see
+  http://www.decc.gov.uk/en/content/cms/what_we_do/lc_uk/valuation/valuation.aspx.
+
+
+  12
+  Chart 6: Estimated impact of energy and climate change policies on an
+  average domestic energy bill in 2020 under different fossil fuel price
+  scenarios
+
+   £1,800
+
+   £1,600
+                          Overall impact of policies           Base bill
+   £1,400
+
+   £1,200
+
+   £1,000
+
+    £800
+
+    £600
+
+    £400
+
+    £200
+
+       £0
+
+   -£200
+               oil price of c. $60/bbl in 2020         oil price of c. $80/bbl in 2020   oil price of c. $150/bbl in 2020
+
+
+
+
+  Source: DECC 2010
+  Figures in real 2009 prices
+
+
+  Distributional impacts of energy and climate change policies in
+  the domestic sector
+34. Looking at the impact of policies on average domestic prices and bills masks
+    significant distributional impacts across households. Policies will lead to transfers
+    between different sections of the population. For instance, households will
+    generally only take up the measures included in a particular policy (such as
+    energy efficiency or renewable heat measures) if they are subsidised. Some low
+    income households will be able to access fully subsidised measures whilst other
+    households will be able to buy measures at subsidised prices. These subsidies
+    are funded by all energy consumers (through increased energy bills). Policies that
+    drive energy efficiency, such as CERT, CERT Extension, the Community Energy
+    Saving Programme (CESP) and Future Supplier Obligation (SO) will therefore
+    lead to transfers of benefits from those who do not take up measures but pay for
+    the costs of these policies through their energy bills to those who do take up
+    measures.
+
+35. Households that take up insulation or renewable energy measures will generally
+    have lower energy bills as a result. The benefit from lower energy bills will
+
+
+                                                                                                                            13
+  Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+       typically be larger than the cost to the household of the policy (which is assumed
+       to be spread evenly across all households).
+
+36. To assess the distributional impacts of energy and climate change polices, a
+    model has been developed by the Centre for Sustainable Energy (CSE) supported
+    by DECC which simulates how the impacts on household energy bills are likely to
+    be allocated across the population.13
+
+  Distributional impacts of policies across income deciles
+37. When assessing distributional impacts, it is important to look at the increase in the
+    energy bill as a percentage of income, as well as the absolute and percentage
+    increase in the bill. This gives a better idea of the affordability of the impact for
+    households on different incomes14.
+
+38. As outlined above, the costs of energy policies are passed on by energy suppliers
+    through an increase in the price of energy. Households with higher levels of
+    energy consumption will face a larger bill increase from the same increase in
+    price. People on higher incomes generally consume more energy; they typically
+    live in larger houses which require more heating and have more electrical
+    appliances. High-income households are therefore likely to face a larger absolute
+    increase in their energy bill than low-income households.
+
+39. However, although higher income households may face a higher absolute
+    increase in their bill, this increase is likely to be a much smaller proportion of their
+    income than for lower income households, as demonstrated in Chart 7. Those
+    households in the bottom income decile are estimated to see their expenditure on
+    electricity and gas increase by around 1% of income in 2020 as a result of energy
+    and climate change policies. By contrast, those households in the highest income
+    deciles see a slight fall in energy bill as a proportion of income as it is assumed,
+    under current policies, that they are more likely to take up renewable or insulation
+    measures due to associated up front financial cost of take up.
+
+
+
+
+  13
+    Centre for Sustainable Energy, Distributional Impacts Model for Policy Scenario Analysis (DIMPSA), 2009
+  14
+    Assessing bill impact in terms of income is one way of considering affordability, another way for instance, is to consider
+  energy bill as a share of total equivalised expenditure.
+
+
+  14
+ Chart 7: Energy bill as a percentage of income in 2020, with and without
+ energy and climate change policies
+
+                                18.0%
+                                16.0%
+                                14.0%
+            Percent of income
+
+
+
+
+                                12.0%
+                                10.0%
+                                8.0%
+                                6.0%
+                                4.0%
+                                2.0%
+                                0.0%
+                                        Bottom     2        3        4        5         6        7          8   9   Top
+                                                         Equivalised income deciles
+
+
+                                          Increase in share of income spent on energy bills with policies
+
+                                          Share of income spent on energy bill withot policies
+
+
+
+  Source: DECC 2010
+
+
+40. There is a significant difference in the impact on energy bills between households
+    that take up insulation and renewable energy measures and those that do not. By
+    2020 it is estimated that households will see a decrease in bills by an average of
+    approximately 25% if they take up both a renewable energy and insulation
+    measure, if only an insulation measure is taken up bills will fall by 7% on average,
+    compared to the same bill in 2020 had they not taken up measure(s).15 This takes
+    account of the reduced energy consumption of households that take up such
+    measures but not the upfront financial costs or the benefit from additional
+    payments from policies such as FiTs and the RHI.
+
+41. A greater burden of any increase in bills falls on lower income households with
+    respect to the share of income spent on energy bills. As illustrated in Chart 8,
+    households across the income distribution that receive measures see a decrease
+    in bills compared to their bills without climate change and energy policies.
+    Households that receive insulation or renewable measures in the bottom income
+    decile see the largest decrease in bills accounting for just under 1% of their
+    income. However, without measures their bills rise by about 2% of their income.
+
+
+
+
+  15
+    It should be noted that only a very small proportion of households (just over 1%) are assumed to receive both a renewable
+  energy measure and an insulation measure as a direct result of climate change and energy policies (this does not take into
+  account voluntary take up of measures).
+
+
+                                                                                                                          15
+Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+     This could potentially include over half of households in the bottom income
+     decile.16
+
+Chart 8: Impact of climate change policies for household that take up
+insulation or renewable energy measures
+
+                                                          2.5%
+                                                                                                          household receives no measures
+      change in bill from policy in 2020 as % of income
+
+
+
+
+                                                          2.0%                                            household receives measure
+                                                                                                          average of all households
+                                                          1.5%
+
+                                                          1.0%
+
+                                                          0.5%
+
+                                                          0.0%
+
+                                                          -0.5%
+
+                                                          -1.0%
+
+                                                          -1.5%
+                                                                  Bottom   2   3        4        5         6         7         8       9   Top
+
+                                                                                   Equivalised income deciles
+
+
+Source: DECC 2010
+
+
+
+
+16
+  Insulation and renewable measures include: cavity wall insulation, loft insulation top up, loft insulation full, solid wall
+insulation, biomass boiler, solar water heating, ground source heat pump, air source heat pump, Gas mCHP, micro wind,
+small wind and photovoltaic panels. The above analysis shows the average impact on bills across these renewable and
+insulation measures. In practice, savings on bills will vary depending on which renewable or energy efficiency measure is
+taken up and the physical characteristics of the household (e.g. size).
+
+
+16
+ Annex A: Policies assessed in this analysis
+
+
+The results presented in this document are based on analysis of proposals and
+policies put forward by the previous Government. Only those policies which are
+already in place or planned to a sufficient degree of detail have been included in the
+modelling (i.e. with quantified estimates of costs and benefits). The table below sets
+out the policies analysed and where there have been significant changes in policy
+design since July 2009 and the analysis of price and bill impacts published alongside
+the Low Carbon Transition plan (LCTP). Some of these policies and proposals will
+have to go through the Spending Review process before receiving approval to go
+ahead.
+
+The LCTP estimated the impact of climate change and energy policies on an
+average household energy (gas plus electricity) bill in 2020 to be approximately 12%
+compared with a bill in 2020 without these policies. The updated impact is lower
+primarily due to a lower impact of the EU ETS due to the fall in DECC estimates of
+the EUA price, incorporating the effect of the recession and revised estimates of
+industrial carbon abatement opportunities; a reduction in the RHI subsidy cost in line
+with the Impact Assessment published in February 2010; increased savings
+attributed to Products Policy reflecting additional potential from energy using
+products.
+
+ Table A1: Energy and climate change policies included in the analysis
+  Policy                                                   Notes
+  Community Energy Saving
+                                    No changes since July 2009 price and bills analysis
+  Programme (CESP)
+                                    The estimated bill impacts of CERT include savings
+                                    accrued from measures installed as part of EEC1
+                                    and EEC2. They also allow for a comfort factor of
+  Carbon Emissions Reduction        15% for insulation measures in the priority group.
+  Target (CERT)                     Bill impacts for CERT and the CERT extension
+                                    arise from the cost to suppliers of meeting their
+                                    targets and the reduced energy demand resulting
+                                    from households receiving measures
+
+                                    This is a new policy included in the analysis since
+                                    July 2009. It is due to run between 2011 and 2012
+                                    with savings from installed measures expected to
+                                    accrue in the years following. It therefore replaces
+  CERT Extension                    the further supplier obligations in these years
+                                    assumed in place for the July 2009 price and bills
+                                    analysis.
+                                    The CERT extension is a 108Mt extension to the
+                                    CERT supplier target. It includes a super-priority
+
+                                                                                    17
+Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+                                             group which must receive 15% of this target;
+                                             professional insulation must receive 68% of the
+                                             target; and Compact Fluorescent Lights are no
+                                             longer eligible measures. Analysis allows for a
+                                             comfort factor of 40% for insulation measures in the
+                                             super priority group (15% in priority group) and
+                                             25% for heating measures in the super priority
+                                             group (0% for priority group).
+
+                                             There is likely to be a continuation of the CERT
+                                             extension past 2012, however the detail of what
+ Future Supplier Obligation
+                                             form it will take is still being built up. The numbers
+ (SO)
+                                             used here are based on the Initial Assessment of
+                                             Impacts published in March 2010.
+
+                                             Since January 2009, suppliers have been required
+                                             to include on bills or statements comparisons
+                                             between the energy used in the period covered by
+                                             the bill or statement and the energy used in the
+                                             same period in the previous year. This
+                                             requirement, which was part of the UK’s
+                                             implementation of the Energy Services Directive,
+ Better Billing
+                                             was designed to help customers be more aware of
+                                             their energy consumption, and consequently to use
+                                             energy more efficiently. The cost/benefit analysis
+                                             for this policy, published by BERR in August 2007,
+                                             estimated, on a central case, a total net benefit of
+                                             £315 million over fifteen years, assuming energy
+                                             savings of 0.25% persisting over that period
+
+                                             The Government set out its commitment to the roll-
+                                             out of smart meters in its coalition programme. In
+                                             July 2010, the Government published its
+                                             implementation plan (the Smart Metering
+                                             Prospectus), which provides an overview of
+ Smart Metering
+                                             analysis and proposals for implementing the smart
+                                             metering roll-out to domestic and small non-
+                                             domestic consumers. The impacts presented in
+                                             this document refer to the expected price and bill
+                                             impacts of this set of proposals.
+                                             There are a number of EU Implementing Measures
+                                             (minimum standards and labelling) that have
+                                             already been agreed by EU Member States
+                                             covering a range of household and non-domestic
+ Products Policy
+                                             products, in order to improve their energy
+                                             efficiency. For these 11 measures, detailed Impact
+                                             Assessments have been conducted (between July
+                                             2008 and April 2009). The impacts have been
+
+
+18
+                           recently updated, to reflect these IAs.
+
+                           In addition, DEFRA now have estimated impacts
+                           available on a second tranche of EU Implementing
+                           Measures that are in development led by the EU.
+                           The analysis for which is being finalised from the
+                           consultation beginning December 2009.
+
+                           The powers to introduce the RHI were taken in the
+                           Energy Act 2008. The intention to introduce the
+                           RHI in April 2011 and broad nature of the scheme
+                           were set out in the Renewable Energy Strategy.
+                           Detailed proposals were consulted on from 1
+                           February to 26 April 2010. There has been no
+                           public update of the policy since the consultation
+                           proposals. The underlying subsidy costs of the RHI
+                           policy have not changed since the RHI Impact
+                           Assessment published in February 2010.
+                           However, the estimated bill impacts have fallen by
+Renewable Heat incentive   around £10 since that previous publication. This is
+(RHI)                      primarily because the impacts published in
+                           February corresponded to the financial year
+                           2020/21, whereas the impacts here relate the
+                           calendar year 2020.
+
+                           The proposals which were consulted on this year
+                           were the first set of detailed proposals on scheme
+                           design, including eligibility and tariffs. The
+                           published costs were lower than in the LCTP due to
+                           the introduction of tariff banding by technology and
+                           size of installation.
+
+                           This includes the costs recouped through the
+                           Ofgem price control process for security upgrades
+Security Measures          within the gas and electricity networks undertaken
+                           as part of the Government’s National Security
+                           Strategy.
+
+                           The estimated price and bill impacts of the EU ETS
+                           are based on analysis of the impact of the policy on
+                           wholesale electricity prices. The results presented
+                           assume full cost pass through of the EUA (carbon
+EU Emissions Trading       price) to end use consumers, regardless of whether
+System (EU ETS)            allowances are allocated free of charge to
+                           generators or are purchased from auctions or the
+                           secondary carbon market.
+                           DECC published updated carbon values (EUA
+                           prices) in June 2010. These are lower than those
+
+
+                                                                         19
+Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+                                             used for the price and bills analysis in July 2009
+                                             incorporating the effect of the recession and
+                                             revised estimates of industrial carbon abatement
+                                             opportunities.
+                                             The existing RO bill impacts are calculated as the
+                                             subsidy costs of the RO following the Energy White
+ Existing Renewables                         Paper reforms, especially the introduction of
+ Obligation (Existing RO)                    technology banding, that were expected to take
+                                             renewable electricity generation to around 15% of
+                                             total generation in 2020.
+                                             The extended RO bill impacts are calculated as the
+                                             additional impacts of the extended RO (through
+                                             subsidy costs and balancing costs pushing up
+                                             consumer electricity bills) over and above those of
+                                             the existing RO. The extended RO policy package
+                                             is expected to take large-scale renewable electricity
+                                             generation to around 29% of total generation in
+                                             2020.
+                                             The published Impact Assessments for the
+ Extended RO                                 extended RO with the Renewables Obligation
+                                             Order 2010 and the Renewable Energy Strategy
+                                             2009 included an offsetting impact on consumer
+                                             electricity bills through lower wholesale prices than
+                                             would otherwise have come about. The analysis in
+                                             this report does not include any impacts the RO
+                                             may have on wholesale electricity prices at this
+                                             stage. However, this impact has been modelled
+                                             separately by Redpoint, and it is estimated to
+                                             reduce wholesale electricity prices by an average
+                                             of around £6/MWh over the period 2010 to 2020.
+                                             The range of impacts is marginally higher than in
+                                             the July 2009 analysis because a more detailed
+                                             analysis of the costs of CCS has resulted in slightly
+ Carbon Capture and Storage                  increased estimates and a narrowing of the range.
+ demonstrations (CCS)                        This analysis is consistent with that presented in
+                                             the Impact Assessment of Coal and Carbon
+                                             Capture and Storage requirements in ‘A framework
+                                             for the development of clean coal.’
+                                             Following the FiTs consultation in July 2009 the
+                                             final details of the FiT’s scheme were announced in
+                                             February 2010 and the scheme itself was launched
+ Feed-in-Tariffs (FiTs)
+                                             in April 2010. The analysis now reflects the final
+                                             scheme design as announced and published in
+                                             February.
+ Climate Change Levy (CCL)                   No changes since July 2009 price and bills analysis
+ Carbon Reduction
+ Commitment (CRC)                            The price and bill impacts are consistent with the
+
+20
+                            Impact Assessment published in January 2010
+
+                            Newer data and methodological improvements
+                            since July 2009 have led to a reduction in the
+                            estimate of non-traded emissions covered by CCAs
+Climate Change Agreements   of around 50%. The analysis assumes that the
+(CCA)                       new CCA scheme goes ahead as planned by the
+                            previous Government. CCA agreements are not
+                            assumed to be in place after the third carbon
+                            budget period.
+
+
+
+
+                                                                       21
+ Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+ Annex B: A brief introduction to DECC’s modelling and
+ assumptions
+
+
+The average energy prices and bills model produces estimates of the impact of
+energy and climate change policies on domestic and non-domestic energy
+consumers. Average in this case means that any price or consumption impact is
+spread evenly, on a per MWh basis, across all consumers affected by the policy,
+either domestic, non-domestic or both.
+
+The results for domestic and non-domestic consumers are based on average
+consumption, as opposed to an ‘average’ household or business. Results for the
+non-domestic sector are based on the consumption of a medium-sized fuel user in
+industry (as defined by Eurostat).17 Average consumption for households is derived
+from historical total domestic consumption as published in DECC’s Digest of United
+Kingdom Energy Statistics (DUKES) divided by Communities and Local Government
+(CLG) estimates of the number of households.
+
+The estimated price without policies is calculated by summing assumptions of the
+future wholesale price,18 transmission, distribution and metering costs and an
+assumed energy supplier cost and margin for each year.19 The estimated bill without
+policies is calculated using the estimated energy price without policies, including
+VAT and multiplying by baseline consumption. Electricity distribution, gas
+distribution and transmission are all subject to separate Price Controls under Ofgem.
+This includes a requirement of provision for flooding defences. The electricity
+Distribution Price Control contains an allowance for flooding across all distribution
+companies of £112m for the duration of the Price Control (5 years). This impact of
+which is included in the transmission and distribution cost estimate as a part of the
+base bill rather than an energy and climate change policy on top of the base bill.
+
+However, in the absence of any firm evidence of differential pass-through to
+domestic and non-domestic customers, this analysis is based on the assumption that
+these costs are spread evenly across total energy consumption in the UK.20 This
+assumption implies that the non-domestic bill impacts may be overestimated and the
+domestic bill impacts may be underestimated.
+
+The Centre for Sustainable Energy (CSE) worked with the Department for Energy
+and Climate Change (DECC) to analyse the distributional impacts of energy and
+climate change policies on the energy bills of UK consumers.
+
+Microsoft SQL Server Express 2008 provides the platform for the ‘Distributional
+Impacts Model for Policy and Strategic Analysis’ – DIMPSA. DIMPSA is built
+ 17
+    A medium-sized gas user is defined by an annual consumption of between 2,778 and 27,777MWh of gas. A medium-sized
+ electricity user is defined by an annual consumption of between 2,000 and 19,999MWh of electricity. The midpoints of these
+ ranges have been used for this analysis.
+ 18
+    For DECC wholesale price projections see: http://www.decc.gov.uk/en/content/cms/statistics/projections/projections.aspx
+ 19
+    Transmission, distribution and metering cost projections derived from Ofgem historical data. Supplier cost and Margin
+ projections derived from Ofgem historical data, Electricity and Gas Supply Market Report:
+ http://www.ofgem.gov.uk/Markets/RetMkts/ensuppro/Documents1/QPR%20final%20feb.pdf
+ 20
+    We assume that 100% of the costs of the policies borne by the energy suppliers are passed on to consumers.
+
+
+ 22
+upon a series of algorithms designed to model the costs and benefits of policy
+delivery. It is based on the Living Costs and Food (LCF) survey. The LCF does not
+include detailed information on physical household characteristics, beyond built form,
+which are important in modelling the impact of energy policies. Data from the 2006
+English House Condition Survey (EHCS) was therefore used to generate a predictive
+model to identify wall type, loft insulation levels and heating system age/communal
+heating in the LCF dataset.
+
+For the purpose of the model, data from four LCF surveys were combined, (financial
+years 2004/5, 2005/6, and calendar years 2006 and 2007) generating a sample size
+of over 20,000 cases. Time- and location-specific fuel price information was used to
+convert survey expenditure data on household fuels into consumption.
+
+The model then uses a look up table containing a set of fuel prices for 2010 by
+method of payment, to estimate household energy bill in the baseline year. These
+prices are based upon DECC figures for average gas and electricity by fuel region in
+2009 and SALKENT tables for non metered fuels as of October 2009. The gas and
+electricity prices have been adjusted to 2010 using information on energy supplier
+price amendments from Consumer Focus.
+
+The model identifies households in the LCF suitable for renewable energy
+technologies based on a number of criteria used to constrain the application of
+measures - variables used include; tenure, built form, central heating type, number of
+rooms, occupants, age of household representative, rurality and wall type.
+
+The total policy costs passed through to customers are dependent upon what
+sectors the policy has an impact on. For instance, the Feed-in-Tariff applies to both
+domestic and business customers; the costs have therefore been split between
+these two customer groups based on their total annual consumption. In addition,
+cost is distributed based on the fuel types covered by the policy (i.e. electricity, gas,
+oil, coal or LPG). The total policy costs are then divided between the relevant fuels
+according to the weighted number of consumers using each fuel.
+
+
+
+
+                                                                                       23
+   Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+  Annex C: Wholesale price assumptions and estimated impact of energy and
+  climate change policies on energy prices and bills on domestic and non-
+  domestic consumers, assuming an oil price of around $150/bbl in 2020 and
+  also an oil price of around $60/bbl in 2020
+
+  Table C1: Wholesale price assumptions 21
+
+
+
+                         $60/bbl                                    $80/bbl                                   $150/bbl
+£/MWh
+Year        Electricity                Gas             Electricity                Gas             Electricity                Gas
+2010              37                    11                   56                    20                   77                   29
+2011              36                    11                   58                    21                   81                   31
+2012              38                    11                   60                    21                   87                   33
+2013              37                    11                   60                    21                   92                   35
+2014              38                    11                   61                    22                   97                   37
+2015              38                    11                   62                    22                   100                  39
+2016              38                    11                   62                    22                   104                  41
+2017              38                    11                   63                    22                   105                  41
+2018              38                    12                   63                    23                   101                  41
+2019              38                    12                   64                    23                   102                  41
+2020              38                    12                   64                    23                   102                  41
+   Source DECC
+   Figures in real 2009 prices
+
+
+
+
+   21
+     Wholesale price assumptions are based on DECC fossil fuel price assumptions ava22ilable at:
+   http://www.decc.gov.uk/assets/decc/statistics/projections/file51365.pdf.
+    These are different to DECC UEP projections primarily because electricity wholesale prices do not include the price of
+   carbon as the impact of EUETS is measured separately.
+
+
+   24
+Table C2: Estimated impact of energy and climate change policies on average
+domestic gas and electricity prices and an average domestic energy bill
+(including VAT), assuming an oil price of around $150/bbl in 2020
+
+                                                    2010       2015     2020
+                       Price impacts (real 2009 £/MWh and % change)
+                                                       1         4        7
+    Increase in gas prices due to policies
+                                                     (3%)      (7%)     (12%)
+    Increase in electricity price due to              20         33       37
+    policies                                        (15%)      (22%)    (23%)
+       Energy bill (gas + electricity) impacts (real 2009 £000s and % change)
+    Estimated average energy bill without           £1,307    £1,617   £1,699
+    policies
+    Estimated average energy bill with              £1,356    £1,568   £1,612
+    policies
+                                                      £50       -£49     -£87
+    Impact of policies on energy bill
+                                                     (4%)      (-3%)    (-5%)
+ Source: DECC 2010
+ Numbers may not add up due to rounding
+
+
+Table C3: Estimated impact of energy and climate change policies on average
+non-domestic retail gas and electricity prices and an average medium-sized
+non-domestic user’s energy bill, assuming an oil price of around $150/bbl in
+2020
+
+                                                    2010       2015     2020
+                       Price impacts (real 2009 £/MWh and % change)
+                                                       2         3        7
+    Increase in gas prices due to policies
+                                                     (5%)      (6%)     (14%)
+    Increase in electricity price due to              19         27       34
+    policies                                        (19%)      (22%)    (27%)
+       Energy bill (gas + electricity) impacts (real 2009 £000s and % change)
+    Estimated average energy bill without           £1,578    £2,016   £2,097
+    policies
+    Estimated average energy bill with              £1,793    £2,143   £2,380
+    policies
+                                                     £214      £126      £283
+    Impact of policies on energy bill
+                                                    (14%)      (6%)     (13%)
+ Source: DECC 2010
+ Numbers may not add up due to rounding
+
+
+
+
+                                                                                25
+ Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+Table C4: Estimated impact of energy and climate change policies on average
+domestic gas and electricity prices and an average domestic energy bill
+(including VAT), assuming an oil price of around $60/bbl in 2020
+
+                                                                   2010               2015    2020
+                       Price impacts (real 2009 £/MWh and % change)
+                                                                      1                 4       8
+      Increase in gas prices due to policies
+                                                                    (5%)              (14%)   (27%)
+      Increase in electricity price due to                           13                 29      43
+      policies                                                     (15%)              (32%)   (46%)
+       Energy bill (gas + electricity) impacts (real 2009 £000s and % change)
+      Estimated average energy bill without                        £822               £859    £907
+      policies
+      Estimated average energy bill with                           £862               £896    £991
+      policies
+                                                                     £40               £37     £84
+      Impact of policies on energy bill
+                                                                    (5%)              (4%)    (9%)
+ Source: DECC 2010
+ Numbers may not add up due to rounding
+
+
+Table C5: Estimated impact of energy and climate change policies on average
+non-domestic retail gas and electricity prices and an average medium-sized
+non-domestic user’s energy bill, assuming an oil price of around $60/bbl in
+2020
+
+                                                                   2010               2015    2020
+                       Price impacts (real 2009 £/MWh and % change)
+                                                                     2                  3       8
+      Increase in gas prices due to policies
+                                                                   (10%)              (16%)   (41%)
+      Increase in electricity price due to                           12                 22      39
+      policies                                                     (22%)              (39%)   (66%)
+       Energy bill (gas + electricity) impacts (real 2009 £000s and % change)
+      Estimated average energy bill without                        £874               £904    £942
+      policies
+      Estimated average energy bill with                          £1,022          £1,083      £1,374
+      policies
+                                                                    £149               £180    £431
+      Impact of policies on energy bill
+                                                                   (17%)              (20%)   (46%)
+ Source: DECC 2010
+ Numbers may not add up due to rounding
+
+
+
+
+ 26
+Annex D: Breakdown of estimated impact of energy and climate change
+policies on average domestic and non-domestic retail gas and electricity
+prices22
+
+Table D1: Estimated impact of energy and climate change policies on average
+domestic retail gas prices (including VAT)
+
+  £/MWh (real 2009 prices)                                                 2010   2015   2020
+  Estimated average price without policies                                 35     38     41
+  Price impact of CERT                                                      1      0      0
+  Price impact of CESP                                                      0      0      0
+  Price impact of Future Supplier Obligation                                0      2      1
+  Price impact of Better Billing                                            0      0      0
+  Price impact of Smart Metering                                            0      1      0
+  Price impact of RHI                                                       0      1      6
+  Price impact of Security Measures                                         0      0      0
+  Estimated average price with policies                                    36     42     49
+  Estimated impact of policies                                              1      4      8
+  % impact (on baseline)                                                   4%     10%    18%
+ Source: DECC 2010
+
+
+
+
+ 22
+      Numbers in the tables which follow may not add up due to rounding.
+
+
+                                                                                           27
+ Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+Table D2: Estimated impact of energy and climate change policies on average
+domestic retail electricity prices (including VAT)
+
+  £/MWh (real 2009 prices)                                       2010                 2015   2020
+  Estimated average price without policies                        107                 114    120
+  Price impact of CERT                                              4                  0      0
+  Price impact of CESP                                              0                  0      0
+  Price impact of Future Supplier Obligation                        0                  7      5
+  Price impact of Better Billing                                    0                  0      0
+  Price impact of Smart Metering                                    0                  3      2
+  Price impact of the Existing RO                                   4                  5      7
+  Price impact of the Extended RO                                   1                  5     14
+  Price impact of EU ETS impact on
+                                                                    6                  6      7
+  wholesale price
+  Price impact of CCS                                               0                  2      3
+  Price impact of FiTs                                              0                  1      2
+  Price impact of Security Measures                                 0                  0      0
+  Estimated average price with policies                           122                 144    160
+  Estimated impact of policies                                     15                 29     40
+  % impact (on baseline)                                          14%                 26%    33%
+ Source: DECC 2010
+
+
+Table D3: Estimated impact of energy and climate change policies on average
+non-domestic retail gas prices
+
+  £/MWh (real 2009 prices)                                       2010                 2015   2020
+  Estimated average price without policies                         26                 28     30
+  Price impact of the CCL                                           2                  2      2
+  Price impact of RHI                                               0                  1      6
+  Estimated average price with policies                            27                 31     38
+  Estimated impact of policies                                      2                  3      7
+  % impact (on baseline)                                           6%                 10%    24%
+ Source: DECC 2010
+
+
+
+
+ 28
+Table D4: Estimated impact of energy and climate change policies on average
+non-domestic retail electricity prices
+
+  £/MWh (real 2009 prices)                   2010         2015         2020
+  Estimated average price without policies    75           82           86
+  Price impact of the CCL                      5            5            5
+  Price impact of the Existing RO              3            5            6
+  Price impact of the Extended RO              1            5           14
+  Price impact of the EU ETS impact on
+                                               6            6            6
+  wholesale prices
+  Price impact of CCS                          0            2            3
+  Price impact of FiTs                         0            1            2
+  Estimated average price with policies       90           105          123
+  Estimated impact of policies                15           23           37
+  % impact (on baseline)                     20%          28%          43%
+ Source: DECC 2010
+
+
+
+
+                                                                          29
+ Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+ Annex E: Breakdown of estimated impact of energy and climate
+ change policies on an average domestic and medium-sized non-
+ domestic user’s gas and electricity bill
+
+
+Table E1: Estimated impact of energy and climate change policies on an
+average domestic gas bill (including VAT)
+
+  £(real 2009 prices)                                            2010                 2015   2020
+  Estimated average bill without policies                         582                 637    688
+  Bill impact of CERT                                               6                 -18    -18
+  Bill impact of CERT Extension                                     0                 -17    -18
+  Bill impact of CESP                                               1                  0      0
+  Bill impact of Future Supplier Obligation                         0                 16     -20
+  Bill impact of Better Billing                                    -1                  -2     -2
+  Bill impact of Smart Metering                                     0                  6      -4
+  Bill impact of RHI                                                0                 18     94
+  Bill impact of Products Policy                                    1                  9      8
+  Bill impact of Security Measures                                  2                  1      1
+  Estimated average bill with policies                            591                 651    727
+  Estimated impact of policies                                      9                 14     39
+  % impact (on baseline)                                           2%                 2%     6%
+ Source: DECC 2010
+
+
+
+
+ 30
+Table E2: Estimated impact of energy and climate change policies on an
+average domestic electricity bill
+
+  £(real 2009 prices)                         2010        2015           2020
+  Estimated average bill without policies     478          511           538
+  Bill impact of CERT                          -7          -39           -37
+  Bill impact of CERT Extension                0            -8            -8
+  Bill impact of CESP                          1            -1            -1
+  Bill impact of Future Supplier Obligation    0           29            11
+  Bill impact of Better Billing                -1           -2            -2
+  Bill impact of Smart Metering                0            3             -9
+  Bill impact of the Existing RO              16           24            30
+  Bill impact of the Extended RO               5           21            64
+  Bill impact of EU ETS impact on
+                                              26           28            30
+  wholesale prices
+  Bill impact of CCS                           0            8            15
+  Bill impact of FiTs                          0            6            10
+  Bill impact of Products Policy               -8          -81           -130
+  Bill impact of Security Measures             1            0             0
+  Estimated average bill with policies        512          499           512
+  Estimated impact of policies                33           -13           -26
+  % impact (on baseline)                      7%           -2%           -5%
+ Source: DECC 2010
+
+
+
+
+                                                                           31
+ Estimated impacts of energy and climate change policies on energy prices and bills
+
+
+
+Table E3: Estimated impact of energy and climate change policies on an
+average medium-sized non-domestic user’s gas bill
+
+  £000s (real 2009 prices)                                        2010                2015        2020
+  Estimated average bill without policies                         390                 427         462
+  Bill impact of the CCL                                           25                  25          25
+  Bill impact of RHI                                                0                  17          86
+  Bill impact of Products Policy                                    0                  2           5
+  Bill impact of the CRC                                            0                  -7          -21
+  Bill impact of the CCAs23                                         -4                 -25         -3
+  Estimated average bill with policies                            415                 439         554
+  Estimated impact of policies                                     25                  12          92
+  % impact (on baseline)                                           6%                  3%         20%
+ Source: DECC 2010
+
+
+Table E4: Estimated impact of energy and climate change policies on an
+average medium-sized non-domestic user’s electricity bill
+
+  £000s (real 2009 prices)                                        2010                2015        2020
+  Estimated average bill without policies                         827                 900         948
+  Bill impact of the CCL                                           52                  52          52
+  Bill impact of the Existing RO                                   38                  55          71
+  Bill impact of the Extended RO                                   11                  50         150
+  Bill impact of the EU ETS impact on
+                                                                   61                  66          71
+  wholesale prices
+  Bill impact of CCS                                                0                  18          36
+  Bill impact of FiTs                                               1                  15          24
+  Bill impact of Products Policy                                    -4                 -43         -94
+  Bill impact of the CRC                                            0                  -9          -27
+  Bill impact of the CCAs                                           -3                 -65         -7
+  Estimated average bill with policies                            981                 1,038       1,224
+  Estimated impact of policies                                    154                 138         276
+  % impact (on baseline)                                          19%                 15%         29%
+ Source: DECC 2010
+
+
+
+
+ 23
+      CCA savings in 2015 and 2020 are based on target proposal made to industry in March 2010.
+
+
+
+ 32
+© Crown copyright 2010
+Department of Energy & Climate Change
+3 Whitehall Place
+London SW1A 2HD
+www.decc.gov.uk
+
+URN 10D/719
+
+
+
+
+                                        33
+

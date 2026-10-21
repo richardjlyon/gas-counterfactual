@@ -1,0 +1,2821 @@
+ The final report of the Carbon Emissions
+ Reduction Target (CERT) 2008-2012
+
+
+ Final Report
+
+Reference:               66/13                  Contact: Andrew Abraham
+
+Publication date:        May 2013               Team:      Energy Efficiency
+
+                                                Email:     CERT@ofgem.gov.uk
+
+
+
+
+      Overview:
+
+      This document is the final statutory report on the Carbon Emissions Reduction Target
+      (CERT) 2008-2012. It provides details on the achievement of the targets and
+      obligations under the programme, which ended on 31 December 2012.
+
+      CERT required certain gas and electricity suppliers to meet a carbon emissions
+      reduction obligation by promoting the uptake of energy saving measures in domestic
+      properties in Great Britain.
+
+      Energy companies were required to achieve an overall target of 293 million lifetime
+      tonnes of carbon dioxide (Mt CO2) by 31 December 2012. Energy companies
+      achieved 296.9 Mt CO2.
+
+
+
+
+Ofgem/Ofgem E-Serve 9 Millbank, London SW1P 3GE                   www.ofgem.gov.uk
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Context
+The government introduced a range of policies to reduce the United Kingdom‟s
+greenhouse gas emissions by 80% by 2050. Currently, around 25% of UK emissions
+result from energy used to heat and power our homes.
+
+The Carbon Emissions Reduction Target (CERT) has, between 2008 and 2012, been
+the main legislative driver for improving energy efficiency in homes within Great
+Britain.
+
+The Department of Energy and Climate Change (DECC) was responsible for setting
+the overall target and for designing the statutory programme through which this
+target was to be achieved. Ofgem was responsible for administering the programme,
+on behalf of the Gas and Electricity Markets Authority (the Authority). The CERT
+obligation period started on 1 April 2008 and finished on 31 December 2012.
+
+Ofgem has reported annually to the Secretary of State for Energy and Climate
+Change on progress of the programme. This final report concludes the reporting
+requirements placed upon Ofgem and details the final position of CERT at the end of
+the obligation period.
+
+
+Associated documents
+    The Electricity and Gas (Carbon Emissions Reduction) Order 2008, Statutory
+    Instrument 2008 No. 188
+    The Electricity and Gas (Carbon Emissions Reduction) (Amendment) Order 2009,
+    Statutory Instrument 2009 No. 1904
+    The Electricity and Gas (Carbon Emissions Reduction) (Amendment) Order 2010,
+    Statutory Instrument 2010 No. 1958
+    The Electricity and Gas (Carbon Emissions and Community Energy Saving)
+    (Amendment) Order 2011, Statutory Instrument 2011 No. 3062
+    A review of the first year of Carbon Emissions Reduction Target, 1 August 2009
+    A review of the second year of Carbon Emissions Reduction Target, 2 August
+    2010
+    A review of the third year of Carbon Emissions Reduction Target, 25 August 2011
+    A review of the fourth year of Carbon Emissions Reduction Target, 7 August 2012
+    Carbon Emissions Reduction Target (CERT) 2008-11 Supplier Guidance V3,
+    February 2011.
+
+
+
+
+2
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Contents
+Executive Summary .................................................................. 4
+1. Introduction ......................................................................... 6
+2. The final CERT position ......................................................... 8
+    Measures carried forward from EEC2 2005-2008 ................................. 8
+    Progress to the end of CERT ............................................................. 8
+    Measures delivered......................................................................... 10
+    The Priority Group and Super Priority Group ...................................... 11
+3. Energy company progress .................................................. 13
+    Summary ...................................................................................... 13
+    British Gas .................................................................................... 14
+    EDF Energy ................................................................................... 17
+    E.ON ............................................................................................ 20
+    npower ......................................................................................... 23
+    SSE .............................................................................................. 26
+    Scottish Power ............................................................................... 29
+4. Measure delivered during CERT .......................................... 32
+    Measures ...................................................................................... 32
+    Insulation ...................................................................................... 34
+    Lighting ........................................................................................ 35
+    Heating ......................................................................................... 36
+    Appliances ..................................................................................... 36
+    Microgeneration & CHP ................................................................... 37
+    Behavioural measures..................................................................... 38
+    Demonstration action ..................................................................... 39
+    Market transformation action ........................................................... 40
+    Priority Group flexibility mechanism.................................................. 41
+5. Technical monitoring and audits ......................................... 43
+    Technical Monitoring ....................................................................... 43
+    Final technical monitoring results ..................................................... 44
+    Audits ........................................................................................... 45
+6. Analysis .............................................................................. 47
+    Progress to the end of CERT ............................................................ 47
+    Measures the energy companies have used ....................................... 48
+    Targeting the Priority Group and Super Priority Group ........................ 48
+    Transition to ECO ........................................................................... 49
+Appendices ............................................................................. 50
+    Appendix 1 – Energy company licenses ............................................. 51
+    Appendix 2 – The Authority‟s powers and duties ................................ 52
+    Appendix 3 – Glossary .................................................................... 55
+
+
+
+                                                                                                            3
+         The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Executive Summary
+This report fulfils Ofgem‟s reporting duties to the Secretary of State for Energy and
+Climate Change under the Electricity and Gas (Carbon Emissions Reduction) Order
+2008 (as amended). The report details both:
+      Progress towards the overall CERT target and the Insulation, Priority Group 1 and
+      Super Priority Group targets.
+      Energy company progress against their main obligations and each of their
+      Insulation, Priority Group and Super Priority Group sub-obligations.
+Energy companies achieved carbon savings by setting up schemes to promote and
+deliver energy saving measures to domestic energy users.
+The licence holders of British Gas, EDF Energy, E.ON, npower, Scottish Power and
+SSE2 were set carbon saving obligations to achieve an overall target of 293 Mt CO2.
+
+Unless otherwise stated, all carbon savings include carryover from the Energy
+Efficiency Commitment 2005-2008 (EEC2), the predecessor programme to CERT.
+
+Overall position
+
+In parallel with the CERT scheme, the CESP scheme delivered carbon savings to
+consumers. Across both schemes more than 99% of the combined carbon savings
+were achieved.
+By the end of CERT, energy companies had delivered:
+      296.9 Mt CO2 of carbon savings, equivalent to 101.3% of the overall CERT target
+      of 293 Mt CO2. In order to meet the main target, all energy companies had to
+      meet their main obligations. As two did not, the main target was not met.
+      41.3% of overall carbon savings to the Priority Group, against a target of 40%.
+      In order to meet the Priority Group target, all energy companies had to meet
+      their Priority Group obligations. As one did not, the Priority Group target was
+      not met.
+      16.6 Mt CO2 of carbon savings to the Super Priority Group, equivalent to 102.6%
+      of the 16.2 Mt CO2 target. In order to meet the Super Priority Group target, all
+      energy companies had to meet their Super Priority Group obligations. As one
+      did not, the Super Priority Group target was not met.
+      75.1 Mt CO2 of carbon savings by installing measures eligible under the
+      Insulation target, equivalent to 102.3% of the 73.4 Mt CO2 target. In order to
+      meet the Insulation target, all energy companies had to meet their Insulation
+      obligations. As two did not, the Insulation target was not met.
+    Energy companies can carry forward excess activity from CERT into the Energy
+    Companies Obligation (ECO). This is not taken into consideration in this report.
+
+
+
+1
+  CERT required 40% of the overall target to be achieved in the Priority Group. We refer to
+this as the „Priority Group target‟.
+2
+  Prior to 2010 SSE was Scottish and Southern Energy plc
+
+4
+        The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Under the Order, obligations were imposed on individual licence holders rather than
+on the parent company of a group of licence holders. However, for clarity and ease of
+reporting, the analysis presented here is aggregated at group level (referred to as an
+„energy company‟).
+
+The table below shows energy company compliance against the total obligations of
+the group. Each licence holder within an energy company must achieve its main
+obligation and sub-obligations for that energy company to be shown as compliant.
+Four energy companies complied with their main obligations: EDF Energy, E.ON,
+npower, Scottish Power. Two energy companies did not comply: British Gas and SSE.
+
+                                                           Obligations
+                                                                    Super Priority           Insulation
+Energy company               Overall          Priority Group
+                                                                       Group                 obligation
+   British Gas          Non-compliant            Compliant             Compliant          Non-compliant
+   EDF Energy              Compliant             Compliant             Compliant             Compliant
+       E.ON                Compliant             Compliant             Compliant             Compliant
+     npower*               Compliant             Compliant             Compliant             Compliant
+ Scottish Power            Compliant             Compliant             Compliant             Compliant
+      SSE**             Non-compliant         Non-compliant         Non-compliant         Non-compliant
+
+*npower submitted information on 22 April, too late to be taken into account in determining compliance.
+This data would not have affected its position in this table.
+**SSE submitted information on 19 April, too late to be taken into account in determining compliance.
+This information might have affected its position in this table.
+
+
+Key findings
+
+Below are the key findings of the programme:
+     The Insulation obligation increased the delivery of professionally installed
+     insulation measures.
+     The market transformation uplift incentivised innovative measures, with energy
+     companies almost meeting the 10% limit on this type of activity.
+     Demonstration actions only contributed a small amount of carbon savings.
+     However, a diverse range of new innovative measures were funded through this
+     mechanism.
+     Energy companies were successful at delivering measures to the Priority Group.
+     However, they struggled to meet the Super Priority Group obligation, as they
+     found identifying Super Priority Group households challenging.
+     Towards the end of the programme two energy companies were able to work
+     with Department for Work and Pensions (DWP) to cross check data in time to be
+     taken into account in determining compliance. This enabled them to meet their
+     Super Priority Group obligations.
+
+Ofgem will consider whether to exercise its enforcement powers in relation to any
+energy company which was non-compliant in its obligations. This could include the
+imposition of a financial penalty.
+
+                                                                                                          5
+          The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+1. Introduction
+1.1.      The Carbon Emissions Reduction Order 2008 (as amended) required certain
+          gas and electricity suppliers to achieve targets for a reduction in carbon
+          emissions generated in the domestic sector by promoting the uptake of
+          energy efficiency measures in domestic properties in Great Britain.
+
+1.2.      Under the Order, obligations were imposed on individual licence holders rather
+          than on the parent company of a group of licence holders. However, for clarity
+          and ease of reporting, the analysis presented here is aggregated at group
+          level (referred to as an „energy company‟).
+
+1.3.      The Government amended the CERT legislation in 2009 and 2010 to
+          restructure and extend CERT to 31 December 2012. Energy companies were
+          required to achieve a revised overall target of 293 Mt CO2 and three sub
+          targets:
+
+             At least 40% of the target had to be met by promoting to Priority Group
+             consumers3, defined as those in receipt of certain income-related benefits
+             or those over 70 years of age.
+
+             16.2 Mt CO2 had to be met by promoting to Super Priority Group
+             consumers. The Super Priority Group was a subset of the Priority Group
+             and includes those on certain qualifying benefits, for example households
+             in receipt of child tax credits and under an income threshold.
+
+             73.4 Mt CO2 had to be met towards the Insulation target by promoting
+             professionally installed insulation measures.
+
+1.4.      The 2010 amendment Order also required all lighting measures to be
+          requested in writing by the consumer from 1 January 2010 and prevented all
+          retail lighting activity (excluding LEDs) from 1 April 2011.
+
+1.5.      In December 2011, following a consultation by DECC, the threshold for
+          mandatory participation in CERT increased from 50,000 to 250,000
+          customers. The energy companies with CERT obligations were British Gas,
+          EDF Energy, E.ON, npower, Scottish Power and SSE.
+
+1.6.      Energy companies submitted their final notification of carbon saving measures
+          to Ofgem on 31 January 2013. These have been verified by Ofgem in
+          accordance with the Supplier Guidance and the Order. The carbon savings in
+          this report have been determined by Ofgem and are inclusive of market
+          transformation and Priority Group flexibility uplifts unless otherwise stated.
+
+1.7.      Previous annual reports were based on provisional data from energy
+          companies. This report is based on our actual determination of carbon
+          savings, upon which we have assessed energy company compliance against
+
+
+
+3
+    We refer to this as the „Priority Group target‟.
+
+6
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+       their obligations. In some cases negative figures occur in tables where final
+       compliance figures are lower than the provisional figures reported in previous
+       annual reports.
+
+1.8.   The carbon savings presented in this report are from all measures determined
+       under CERT. Some measures delivered by an energy company are not
+       required by that company to meet its obligations. Energy companies will be
+       able to carry forward some of these measures into the Energy Companies
+       Obligation 2012 (ECO). This will be determined separately and is not
+       considered in this report.
+
+1.9.   Due to rounding, some numbers provided in the report may not exactly match
+       those cited in the text and numbers may not exactly sum to the totals in
+       tables.
+
+1.10. The remaining chapters of the report provide information on specific aspects
+      of the CERT programme:
+
+         Chapter 2 describes overall progress towards the CERT target including the
+         overall carbon savings achieved and information on energy companies‟ final
+         positions.
+
+         Chapter 3 looks at individual energy company progress towards their main
+         obligations and sub-obligations.
+
+         Chapter 4 analyses the measures and types of qualifying action delivered
+         under CERT.
+
+         Chapter 5 presents technical monitoring results and provides information
+         on energy company audits.
+
+         Chapter 6 focuses on our analysis of the programme.
+
+
+
+
+                                                                                        7
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+2. The final CERT position
+Chapter summary
+
+This chapter outlines the:
+
+-      carbon savings achieved during the five years of CERT, against the CERT
+       target of 293 Mt CO2
+
+-      overall carbon savings achieved against the Insulation, Priority Group and
+       Super Priority Group targets
+
+-      information on energy companies‟ final positions.
+
+
+Measures carried forward from EEC2 2005-2008
+
+2.1.   As reported in previous CERT annual reports, energy companies carried over
+       37.8 Mt CO2 of carbon savings from EEC2 (2005-2008) into CERT. These
+       carbon savings account for 12.9% of the overall CERT target of 293 Mt CO2.
+       Unless otherwise stated, all carbon savings include EEC2 carryover.
+
+Progress to the end of CERT
+
+2.2.   By 31 December 2012, energy companies had achieved:
+
+          296.9 Mt CO2 of carbon savings, equivalent to 101.3% of the overall CERT
+          target of 293 Mt CO2. In order to meet the main target, all energy
+          companies had to meet their main obligations. As two did not, the main
+          target was not met.
+          41.3% of overall carbon savings to the Priority Group, against a target of
+          40%. In order to meet the Priority Group target, all energy companies had
+          to meet their Priority Group obligations. As one did not, the Priority Group
+          target was not met.
+          16.6 Mt CO2 of carbon savings to the Super Priority Group, equivalent to
+          102.6% of the 16.2 Mt CO2 target. In order to meet the Super Priority
+          Group target, all energy companies had to meet their Super Priority Group
+          obligations. As one did not, the Super Priority Group target was not met.
+          75.1 Mt CO2 of carbon savings by installing measures eligible under the
+          Insulation target, equivalent to 102.3% of the 73.4 Mt CO2 target. In order
+          to meet the Insulation target, all energy companies had to meet their
+          Insulation obligations. As two did not, the Insulation target was not met.
+
+2.3.   Any energy company with an excess of activity will be able to notify Ofgem
+       with the measures it plans to carry forward to ECO.
+
+
+
+
+8
+          The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Figure 2.1 Each energy company’s year-by-year progress towards their main
+obligation
+
+
+        British Gas
+
+
+        EDF Energy
+
+                                                                                        EEC2 Carryover
+              E.ON
+                                                                                        CERT Year 1
+                                                                                        CERT Year 2
+           npower
+                                                                                        CERT Year 3
+                                                                                        CERT Year 4
+              SSE
+                                                                                        CERT Year 5
+
+ Scottish Power
+
+
+                      0%      20%       40%       60%       80%         100%     120%
+                                    Percentage of obligation achieved
+
+
+
+
+2.4.      Figure 2.1 illustrates energy company activity over five years. Energy
+          companies showed a significant increase in carbon savings achieved in the
+          final year of the programme. This is, in part, because market transformation
+          uplifts for all measures are only applied at the end of the obligation period, as
+          required in the Order.
+
+Table 2.1 Carbon savings by measure type and year as a percentage of total
+carbon savings achieved
+
+                                 EEC2          CERT      CERT      CERT         CERT      CERT        Total
+Measure
+                               Carryover      Year 1    Year 2    Year 3       Year 4    Year 5
+Insulation (inc. Insulation
+                                    8.7%       10.4%    12.2%      9.1%        11.7%      14.2%       66.2%
+obligation)
+Heating                             1.4%       0.4%      1.1%      1.8%        2.2%       1.3%        8.2%
+Lighting                            2.5%       7.1%      4.4%      2.9%        0.4%       -0.2%       17.3%
+Appliances                          0.0%       0.6%      1.2%      1.3%        0.6%       2.2%        5.9%
+Microgeneration & CHP               0.0%       0.1%      0.2%      0.3%        0.0%       0.2%        0.8%
+Behavioural                         0.0%       0.0%      0.0%      0.7%        0.1%       0.6%        1.5%
+Demonstration actions               0.0%       0.0%      0.0%      0.0%        0.0%       0.1%        0.1%
+Total                               12.7%      18.6%    19.0%     16.1%        15.0%      18.5%       100.0%
+
+
+2.5.      During the first three years of the programme, insulation and lighting
+          measures contributed the highest proportion of carbon savings. In Year 4,
+          insulation and heating measures provided the highest proportion, largely due
+          to the legislative change in April 2011 which removed Compact Fluorescent
+          Lamps (CFLs) from CERT. In the final year, insulation activity made up a
+          higher percentage of carbon savings than in previous years due to a surge of
+
+
+                                                                                                          9
+              The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+              insulation activity towards the Insulation obligation. Carbon savings attributed
+              to appliances and heating measures were also high in the final year, in part
+              due to the application of market transformation uplifts.
+
+Measures delivered
+
+Figure 2.2 Cumulative carbon savings by measure type
+
+              350
+
+              300
+
+                                                                              Behavioural
+              250
+                                                                              Demonstration actions
+              200                                                             Microgeneration & CHP
+     Mt CO2
+
+
+
+
+                                                                              Appliances
+              150
+                                                                              Lighting
+
+              100                                                             Heating
+                                                                              Insulation obligation
+              50
+                                                                              Insulation
+
+               0
+                      EEC2      Year 1   Year 2    Year 3   Year 4   Year 5
+                    Carryover
+                                                  Year of CERT
+
+
+2.6.          The activity energy companies undertook can be broken down into eight main
+              measure types: insulation4, Insulation obligation, lighting, heating,
+              microgeneration & CHP, behavioural, demonstration actions and appliances.
+
+2.7.          Figure 2.2 shows the cumulative carbon savings achieved year-on-year,
+              broken down by measure type. Progress towards the overall CERT target was
+              steady through Years 1-3, slowed in Year 4 and increased again in Year 5.
+
+2.8.          The rate of delivery of microgeneration & CHP, behavioural and appliance
+              measures increased by varying degrees from Year 4 to Year 5. The rate of
+              delivery of heating measures grew in the final two years, increasing by 18%
+              from Year 4 and contributing significantly to the overall carbon savings for
+              Year 5. This is potentially due to the fact heating measures were eligible
+              under the Super Priority Group target and a number of energy companies
+              increased this activity to ensure compliance.
+
+
+
+
+4
+    This includes all eligible insulation measures
+
+10
+        The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Figure 2.3 Carbon savings by measure type
+
+                              Microgeneration &   Demonstration
+                                     CHP             actions
+                                    0.8%              0.1% Behavioural
+                      Appliances
+                        5.9%                                    1.5%
+                                                                         Insulation
+          Lighting                                                         41.0%
+           17.3%
+
+
+
+
+       Heating
+        8.2%
+
+
+
+
+                 Insulation
+                 obligation
+                   25.3%
+
+2.9.    Figure 2.3 shows carbon savings achieved by each measure type over the five
+        years of CERT. Insulation measures (including Insulation obligation)
+        accounted for two thirds of total carbon savings. Lighting measures accounted
+        for 17.3% of carbon savings. Nearly 10% of carbon savings were attributed to
+        heating measures, 5.9% to appliances and the remainder of delivery was split
+        between microgeneration & CHP, behavioural measures and demonstration
+        actions.
+
+The Priority Group and Super Priority Group
+
+2.10. The Priority Group included those aged 70 and over and those on a wider set
+      of qualifying benefits. The Super Priority Group represents a subset of the
+      Priority Group. It includes those on certain qualifying benefits as defined in
+      the Order, including households in receipt of child tax credits and under an
+      income threshold. Unless otherwise stated, the figures presented below as
+      Priority Group include carbon savings achieved towards the Super Priority
+      Group.
+
+2.11. Energy companies achieved a combined total of 16.6 Mt CO2 towards the
+      Super Priority Group target of 16.2 Mt CO2 (102.6%). This represents just
+      over 5% of total carbon savings achieved under CERT.
+
+2.12. Of the total carbon savings achieved by the end of CERT, 41.3% resulted from
+      measures installed in, or provided to, Priority Group households. This equated
+      to 122.5 Mt CO2. This was above the minimum 40% required by the Order.
+      The remaining carbon savings achieved were from measures promoted to
+      non-Priority Group households.
+
+
+
+
+                                                                                        11
+                    The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+      Figure 2.4 Cumulative carbon savings by year and consumer group
+
+
+                    350
+
+                                                                                           5.6%
+                    300                                                                                 Super Priority
+                                                                                                        Group
+                    250                                                       2.1%
+                                                                                          35.7%
+                                                                   0.1%                                 Priority Group
+                    200
+           Mt CO2
+
+
+
+
+                                                                             40.8%                      Excl. Super
+                                                                                                        Priority Group
+                    150                                           42.7%
+                                                                                                        Non-Priority
+                                                     43.2%
+                    100                                                                                 Group
+                                                                                          58.7%
+                                         45.2%                               57.2%
+                     50                                           57.1%
+                                                     56.8%
+                           33.2%         54.8%
+                           66.8%
+                     0
+                            EEC2         Year 1      Year 2       Year 3     Year 4       Year 5
+                          Carryover                    Year of CERT
+
+
+      2.13. Figure 2.4 illustrates year-on-year progress to the overall target and the
+            proportion of the target achieved through the Priority and Super Priority
+            Groups. Priority Group delivery stayed above the required 40% throughout
+            CERT.
+
+      2.14. Table 2.2 shows overall delivery by measure type and consumer group.
+            Insulation and lighting measures contributed the majority of carbon savings in
+            both Priority and non-Priority Groups, whereas insulation contributed the
+            majority of carbon savings in the Super Priority Group as these were
+            prescribed measures under this target.
+
+      Table 2.2 Carbon savings in the Priority, Super Priority and non-Priority
+      Groups as a percentage of total carbon savings
+
+                           Insulation
+                                                                               Micro-        Demon-
+             EEC2             (inc.                                                                       Behaviour-
+                                          Lighting   Appliances    Heating   generation      stration                     Total
+           Carryover       Insulation                                                                         al
+                                                                               & CHP         actions
+                           obligation)
+Non-           8.5%          30.9%         8.9%        3.7%          4.9%       0.6%          0.1%           1.1%        58.7%
+Priority
+Group
+Priority       4.2%          26.6%         5.8%        2.2%          1.8%       0.2%          0.0%           0.4%        41.3%
+Group
+Super          0.0%           5.3%         0.0%        0.0%          0.2%       0.0%          0.0%           0.0%        5.6%
+Priority
+Group
+Total        12.7%           57.5%         14.7%       5.9%          6.8%       0.8%          0.1%           1.5%        100.0%
+
+
+
+
+      12
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+3. Energy company progress
+
+Chapter summary
+
+This chapter presents each energy company‟s progress against their main obligations
+and sub-obligations to the end of CERT. The information presented is based on the
+energy companies‟ approved schemes and their carbon savings notified by 31
+January 2013.
+
+
+
+Summary
+
+3.1.   Energy companies were set a carbon emissions reduction obligation according
+       to the number of customers on their domestic licences. In February 2012 final
+       obligations were calculated. The achieved carbon savings detailed in this
+       chapter are compared against these final obligations.
+
+3.2.   Energy companies sought to meet these obligations by setting up schemes to
+       promote and deliver measures to reduce domestic carbon emissions. Energy
+       companies had flexibility in choosing the measure types and delivery
+       mechanisms that they promoted.
+
+3.3.   As part of our administrative duties, we monitored each energy company‟s
+       progress and compliance against their obligations. For each scheme we
+       determined whether the activity could be considered a qualifying action under
+       the Order, ie, whether it achieved improvements in energy efficiency and
+       reduced energy consumption. All qualifying actions were completed by 31
+       December 2012 and completion reports and final notifications of completed
+       actions were submitted to Ofgem by 31 January 2013.
+
+3.4.   The compliance of each obligated licence holder against its main and sub-
+       obligations is set out in Appendix 1.
+
+3.5.   Table 3.1 illustrates the final position of each energy company against their
+       obligations. The carbon savings achieved by energy companies include those
+       carried over from EEC2. Energy companies had to achieve their main
+       obligations and three sub-obligations to be compliant. Four energy companies
+       complied with their main obligations, two energy companies were non-
+       compliant with their Insulation obligations and one energy company was non-
+       compliant with its Priority Group and Super Priority Group obligations.
+
+3.6.   Table 3.1 shows that each energy company achieved between 98.9% and
+       106.0% of its main obligations.
+
+
+
+
+                                                                                       13
+          The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 3.1 Energy company achievement against their obligations
+
+
+                                            Priority       Super Priority
+                                Main                                            Insulation
+                                             Group            Group
+                             obligations                                        obligations
+                                           obligations      obligations
+British Gas                    98.9%        109.4%             105.0%             95.5%
+
+EDF Energy                    103.0%        108.3%             116.1%            109.6%
+
+E.ON                          101.8%        102.5%             105.6%            104.4%
+
+npower                        106.0%        100.2%             107.4%            109.2%
+
+SSE                            98.6%         99.7%             73.8%              99.9%
+
+Scottish Power                102.4%        102.0%             119.2%            106.2%
+
+
+
+British Gas
+
+3.7.      British Gas achieved 98.9% of its main obligations by the end of CERT. It
+          achieved 109.4% of its Priority Group obligations, 105.0% of its Super Priority
+          Group obligations and 95.5% of its Insulation obligations. The results of a
+          DWP exercise (see para 6.19 (ii)) were taken into account in assessing
+          compliance by British Gas. British Gas did not achieve its main obligations
+          and its Insulation obligations therefore it is non-compliant. British Gas has
+          taken steps to mitigate its shortfall after the end of the obligation period.
+
+Figure 3.1 British Gas – percentage of obligations achieved
+
+
+
+
+     Total obligation
+
+
+
+
+      Priority Group
+        obligation
+
+
+
+  Super Priority
+ Group obligation
+
+
+
+          Insulation
+          obligation
+
+
+                        0%        20%        40%         60%          80%          100%       120%
+                                           Percentage of obligations achieved
+
+
+
+
+14
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+3.8.   As shown in Figure 3.2, British Gas achieved nearly 60% of its overall carbon
+       savings by promoting insulation measures and roughly 20% by promoting
+       lighting measures. Insulation and lighting measures were promoted at
+       consistent levels across all consumer groups. Insulation obligation measures
+       accounted for a quarter of overall carbon savings and nearly all carbon
+       savings in the Super Priority Group.
+
+Figure 3.2 British Gas – carbon savings by measure type and consumer
+group
+
+
+
+
+3.9.   Appliances accounted for nearly 10% of overall carbon savings and were most
+       prevalent in the non-Priority Group (10.5% of carbon savings). Heating
+       measures accounted for 8.8% of overall carbon savings and were most
+       prevalent in the non-Priority Group (10.7% of carbon savings). Super Priority
+       Group delivery was dominated by the Insulation obligation.
+
+
+
+
+                                                                                       15
+             The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+     3.10. The remaining carbon savings were achieved through the promotion of low
+           levels of behavioural measures, microgeneration & CHP and demonstration
+           actions.
+
+     3.11. British Gas achieved 16.3% of its main obligations through carbon savings
+           carried over from EEC2. Over the first four years of CERT, British Gas
+           achieved an average of 16.5% of its main obligations per year. 17.5% of its
+           main obligations were delivered in the final year.
+
+     Table 3.2 British Gas – percentage of carbon savings achieved by measure
+     type and year
+
+Measure                EEC2        CERT       CERT       CERT       CERT      CERT         Total
+                     Carryover    Year 1     Year 2     Year 3     Year 4    Year 5
+Insulation
+                      12.5%        7.2%       9.2%      3.8%       2.3%       0.0%        34.9%
+Insulation
+                       0.0%        0.0%       0.0%      2.1%      10.5%      11.7%        24.2%
+obligation
+Heating
+                       2.6%        0.5%       0.7%      2.4%       1.8%       0.7%        8.8%
+Lighting
+                       1.2%        9.1%       4.9%      3.7%       0.4%       0.0%        19.3%
+Appliances
+                       0.0%        1.0%       1.7%      2.6%       0.1%       3.6%        9.0%
+Microgeneration
+                       0.0%        0.1%       0.3%      0.4%       0.1%       0.4%        1.3%
+& CHP
+Behavioural
+                       0.0%        0.0%       0.0%      1.2%       0.1%       1.2%        2.6%
+Demonstration
+                       0.0%        0.0%       0.0%      0.0%       0.0%       0.0%        0.0%
+actions
+Total
+                      16.3%       17.9%      16.7%      16.2%     15.3%      17.5%        100.0%
+
+
+     3.12. During CERT, British Gas undertook several small transfers with other energy
+           companies. British Gas also received transfers of measures equivalent to
+           1.5% of its main obligations from other energy companies.
+
+
+
+
+     16
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+EDF Energy
+
+3.13. EDF Energy met its main obligations by the end of CERT. It achieved 108.3%
+      of its Priority Group obligations, 116.1% of its Super Priority Group obligations
+      and 109.6% of its Insulation obligations. EDF Energy did not submit to us any
+      additional Super Priority Group activity identified through DWP (see para 6.19
+      (ii)). As EDF Energy achieved its main obligations and all of its sub-obligations
+      it is compliant.
+
+Figure 3.3 EDF Energy – percentage of obligations achieved
+
+
+
+
+                 Total obligation
+
+
+
+
+        Priority Group obligation
+
+
+
+
+  Super Priority Group obligation
+
+
+
+
+            Insulation obligation
+
+
+
+                                    0%   20%      40%        60%       80%         100%   120%
+                                               Percentage of obligation achieved
+
+
+3.14. As shown in Figure 3.4, EDF Energy achieved three quarters of its overall
+      carbon savings by promoting insulation measures and roughly 20% by
+      promoting lighting measures. Insulation and lighting measures were promoted
+      at similar levels across non-Priority and Priority groups. Insulation obligation
+      measures accounted for a quarter of overall carbon savings and nearly all
+      carbon savings in the Super Priority Group.
+
+3.15. Heating measures accounted for 2.1% of overall carbon savings and were
+      most prevalent in the Super Priority Group (2.8% of carbon savings). Super
+      Priority Group delivery was dominated by the Insulation obligation.
+
+3.16. The remaining carbon savings were achieved through the promotion of low
+      levels of appliances, microgeneration & CHP and demonstration actions.
+
+
+
+
+                                                                                                 17
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Figure 3.4 EDF Energy – carbon savings by measure type and consumer
+group
+
+
+
+
+3.17. EDF Energy achieved just over 10% of its main obligations through carbon
+      savings carried over from EEC2. Over the first four years of the programme
+      EDF Energy achieved an average of 17.3% per year across the first four years
+      and 19.2% of its main obligations in the final year.
+
+
+
+
+18
+             The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+    Table 3.4 EDF Energy – percentage of carbon savings achieved by measure
+    type and year
+
+Measure                EEC2       CERT      CERT     CERT      CERT      CERT      Total
+                     Carryover   Year 1    Year 2   Year 3    Year 4    Year 5
+Insulation
+                       9.7%      13.3%     10.1%     7.3%      3.0%     6.9%      50.2%
+Insulation
+                       0.0%       0.0%     0.0%      1.8%     11.4%     13.5%     26.7%
+obligation
+Heating
+                       0.0%       0.0%     0.4%      0.3%      1.0%     0.4%       2.1%
+Lighting
+                       2.0%      11.3%     6.1%      1.4%      0.6%     -1.7%     19.7%
+Appliances
+                       0.0%       0.0%     0.0%      0.0%      0.0%     0.0%       0.0%
+Microgeneration
+                       0.0%       0.1%     0.3%      0.5%      0.2%     0.2%       1.3%
+& CHP
+Behavioural
+                       0.0%       0.0%     0.0%      0.0%      0.0%     0.0%       0.0%
+Demonstration
+                       0.0%       0.0%     0.0%      0.0%      0.0%     0.0%       0.0%
+actions
+Total
+                      11.6%      24.7%     17.0%    11.2%     16.1%     19.2%    100.0%
+
+
+    3.18. During the final year, EDF Energy undertook small transfers with other energy
+          companies. In the first year, EDF Energy received transfers of measures
+          equivalent to 2.6% of its main obligations from another energy company.
+
+
+
+
+                                                                                           19
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+E.ON
+
+3.19. E.ON achieved 101.8% of its main obligations by the end of CERT. It
+      achieved 102.5% of its Priority Group obligations, 105.6% of its Super Priority
+      Group obligations and 104.4% of its Insulation obligations. E.ON did not
+      submit to us any additional Super Priority Group activity identified through
+      DWP (see para 6.19 (ii)). As E.ON achieved its main obligations and all of its
+      sub-obligations it is compliant.
+
+Figure 3.5 E.ON – percentage of obligations achieved
+
+
+
+
+     Total obligation
+
+
+       Priority Group
+         obligation
+
+
+ Super Priority Group
+     obligation
+
+
+ Insulation obligation
+
+
+                         0%   20%      40%         60%          80%      100%   120%
+                                     Percentage of obligation achieved
+
+
+3.20. As shown in Figure 3.6, E.ON achieved roughly 60% of carbon savings by
+      promoting insulation measures and a quarter by promoting lighting measures.
+      Lighting measures were promoted at consistent levels across non-Priority and
+      Priority Groups, however, insulation featured more in the Priority Group when
+      compared to the non-Priority Group. Insulation obligation measures
+      accounted for a quarter of overall carbon savings and almost all carbon
+      savings in the Super Priority Group.
+
+3.21. Appliances accounted for 6.4% of overall carbon savings. Heating measures
+      accounted for 3.9% of overall carbon savings and were most prevalent in the
+      non-Priority group (4.6% of carbon savings).
+
+3.22. The remaining carbon savings were achieved through the promotion of low
+      levels of behavioural measures and microgeneration & CHP measures.
+
+
+
+
+20
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Figure 3.6 E.ON – carbon savings by measure type and consumer group
+
+
+
+
+3.23. As presented in Table 3.5, E.ON achieved nearly 10% of its main obligations
+      through carbon savings carried over from EEC2. Carbon savings achieved in
+      the final year of the programme accounted for 12.9% of its main obligations,
+      compared to an average of nearly 20% per year over the first four years.
+
+
+
+
+                                                                                     21
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 3.5 E.ON – percentage of carbon savings achieved by measure type
+and year
+
+Measure              EEC2       CERT     CERT     CERT     CERT     CERT     Total
+                   Carryover   Year 1   Year 2   Year 3   Year 4   Year 5
+Insulation
+                     0.3%      12.1%    10.4%     6.9%     2.6%     3.2%    35.6%
+Insulation
+                     0.0%      0.0%     0.0%      8.2%    10.8%     6.7%    25.7%
+obligation
+Heating
+                     0.5%      0.1%     0.1%      1.1%     0.9%     1.1%     3.9%
+Lighting
+                     8.5%      10.5%    6.1%      2.1%     0.6%    -0.9%    26.7%
+Appliances
+                     0.0%      1.4%     0.5%      1.9%     0.5%     2.2%     6.4%
+Microgeneration
+                     0.0%      0.1%     0.1%      0.1%    -0.1%     0.1%     0.3%
+& CHP
+Behavioural
+                     0.0%      0.0%     0.0%      0.6%     0.3%     0.5%     1.4%
+Demonstration
+                     0.0%      0.0%     0.0%      0.0%     0.0%     0.0%     0.0%
+actions
+Total
+                     9.3%      24.2%    17.2%    20.9%    15.6%    12.9%    100.0%
+
+
+
+3.24. During CERT, E.ON undertook a small number of transfers with other energy
+      companies.
+
+
+
+
+22
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+npower
+
+3.25. As shown in Figure 3.7, npower achieved 106.0% of its main obligations by
+      the end of CERT. It achieved 100.2% of its Priority Group obligations,
+      107.4% of its Super Priority Group obligations and 109.2% of its Insulation
+      obligations. The final determination on compliance by npower did not take
+      account of revised evidence from a DWP exercise (see para 6.19 (ii)). npower
+      obtained this evidence, but at the time the energy company was able to
+      submit the evidence to Ofgem there was insufficient time to process that
+      evidence. As npower achieved its main obligations and all of its sub-
+      obligations it is compliant.
+
+Figure 3.7 npower – percentage of obligations achieved
+
+
+
+
+  Total obligation
+
+
+
+
+   Priority Group
+     obligation
+
+
+
+  Super Priority
+ Group obligation
+
+
+
+       Insulation
+       obligation
+
+
+                     0%   20%      40%          60%          80%      100%   120%
+                                  Percentage of obligation achieved
+
+
+
+3.26. As shown in Figure 3.8, npower achieved just over 70% of carbon savings by
+      promoting insulation measures and nearly 15% by promoting lighting
+      measures. Insulation was promoted more strongly to the Priority Group and
+      lighting measures were promoted more strongly to the non-Priority Group.
+      Insulation obligation measures accounted for a quarter of overall carbon
+      savings and 85% of carbon savings in the Super Priority Group.
+
+3.27. Heating measures accounted for 11.8% of overall carbon savings and were
+      most prevalent in the non-Priority group (13.8% of carbon savings). Super
+      Priority Group delivery was dominated by the Insulation obligation.
+
+3.28. The remaining carbon savings were achieved through the promotion of low
+      levels of behavioural measures and demonstration actions.
+
+
+
+
+                                                                                     23
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Figure 3.8 npower – carbon savings by measure type and consumer group
+
+
+
+
+3.29. As presented in Table 3.6, npower achieved just over 5% of its main
+      obligations through carbon savings carried over from EEC2. Carbon savings
+      achieved in the final year accounted for 19.8% of its main obligations,
+      compared to an average of 18.7% per year across the first four years of the
+      programme.
+
+
+
+
+24
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 3.6 npower – percentage of carbon savings achieved by measure type
+and year
+
+Measure             EEC2       CERT      CERT     CERT     CERT     CERT      Total
+                  Carryover   Year 1    Year 2   Year 3   Year 4   Year 5
+Insulation
+                    4.0%      11.7%     19.2%    8.6%      0.7%     1.6%      45.7%
+Insulation
+                    0.0%       0.0%     0.0%     3.7%      9.9%    12.2%      25.8%
+obligation
+Heating
+                    1.5%       0.2%     3.0%     1.4%      2.5%     3.2%      11.8%
+Lighting
+                    0.0%       1.6%     5.8%     5.3%      0.2%     1.2%      14.0%
+Appliances
+                    0.0%       0.0%     0.0%     0.0%      0.0%     0.0%      0.0%
+Microgeneration
+                    0.0%       0.0%     0.1%     0.0%      0.0%     0.1%      0.1%
+& CHP
+Behavioural
+                    0.0%       0.0%     0.0%     1.1%      0.0%     0.7%      1.7%
+Demonstration
+                    0.0%       0.0%     0.0%     0.0%      0.0%     0.8%      0.8%
+actions
+Total
+                    5.4%      13.5%     28.1%    20.1%    13.1%    19.8%     100.0%
+
+
+
+3.30. During the final year, npower received a transfer of measures equivalent to
+      1.3% of its main obligations from another energy company.
+
+
+
+
+                                                                                      25
+         The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+SSE
+
+3.31. SSE achieved carbon savings equivalent to 100.4% of its main obligations by
+      the end of CERT. However, because SSE did not achieve a number of the
+      sub-obligations its final position against its main obligation was 98.6% (as
+      shown in Figure 3.9).
+
+3.32. SSE achieved 99.7% of its Priority Group obligations and 73.8% of its Super
+      Priority Group obligations. SSE achieved carbon savings equivalent to 101.0%
+      of its Insulation obligations. However, it underachieved on one licence
+      (overachieving on the other) therefore its final Insulation obligation position
+      was 99.9%.
+
+3.33. The final determination on compliance by SSE did not take account of revised
+      evidence from a DWP exercise (see para 6.19 (ii)). SSE obtained this
+      evidence, but at the time the energy company was able to submit the
+      evidence to Ofgem there was insufficient time to process that evidence. As
+      SSE did not achieve three of its sub-obligations across its supply licences it is
+      non-compliant.
+
+Figure 3.9 SSE – percentage of obligations achieved
+
+
+
+
+              Total obligation
+
+
+
+
+     Priority Group obligation
+
+
+
+
+        Super Priority Group
+            obligation
+
+
+
+
+         Insulation obligation
+
+
+
+                                 0%   20%     40%         60%        80%        100%   120%
+                                            Percentage of obligation achieved
+
+
+
+3.34. As shown in Figure 3.10, SSE achieved just over 70% of carbon savings by
+      promoting insulation measures and 10% by promoting lighting measures.
+      Insulation was promoted more strongly to the Priority Group and lighting
+      measures were promoted more strongly to the non-Priority Group. Insulation
+      obligation measures accounted for a quarter of overall carbon savings and
+      roughly 85% of carbon savings in the Super Priority Group.
+
+
+
+
+26
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+3.35. Appliances accounted for 11.8% of overall carbon savings. Heating measures
+      accounted for 4.8% of overall carbon savings and were most prevalent in the
+      Super Priority Group (10.4% of carbon savings). Super Priority Group delivery
+      was dominated by the Insulation obligation.
+
+3.36. The remaining carbon savings were achieved through the promotion of low
+      levels of behavioural measures, demonstration actions and microgeneration &
+      CHP measures.
+
+Figure 3.10 SSE – carbon savings by measure type and consumer group
+
+
+
+
+3.37. As presented in Table 3.7, SSE achieved 15% of its main obligations through
+      carbon savings carried over from EEC2. Carbon savings achieved in the final
+      year accounted for 22.3% of its main obligations, compared to an average of
+      just over 15% per year across the first four years of the programme.
+
+
+
+
+                                                                                      27
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 3.7 SSE – percentage of carbon savings achieved by measure type and
+year
+
+Measure             EEC2        CERT     CERT      CERT     CERT      CERT     Total
+                  Carryover    Year 1   Year 2    Year 3   Year 4    Year 5
+Insulation
+                    12.1%      8.9%     14.5%     8.1%     -1.5%     4.0%     46.0%
+Insulation
+                    0.0%       0.0%      0.0%     3.1%      8.9%    13.2%     25.2%
+obligation
+Heating
+                    1.2%       0.6%      0.4%     0.7%      1.2%     0.6%      4.8%
+Lighting
+                    1.5%       4.6%      0.9%     1.2%      2.0%     0.0%     10.3%
+Appliances
+                    0.1%       0.6%      3.1%     0.9%      3.2%     4.0%     11.8%
+Microgeneration
+                    0.0%       0.0%      0.0%     0.6%      0.0%     0.4%      1.1%
+& CHP
+Behavioural
+                    0.0%       0.0%      0.0%     0.6%      0.0%     0.0%      0.6%
+Demonstration
+                    0.0%       0.0%      0.0%     0.0%      0.0%     0.1%      0.1%
+actions
+Total
+                    15.0%      14.7%    18.9%    15.3%     13.9%    22.3%     100.0%
+
+
+3.38. In the final year, SSE transferred a small amount of carbon savings to another
+      energy company. In the fourth year of CERT, SSE received transfers of
+      measures equivalent to 1.5% of its main obligations from another energy
+      company.
+
+
+
+
+28
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Scottish Power
+
+3.39. As shown in Figure 3.10, Scottish Power achieved 102.4% of its main
+      obligations by the end of CERT. It achieved 102.0% of its Priority Group
+      obligations, 119.2% of its Super Priority Group obligations and 106.2% of its
+      Insulation obligations. The results of a DWP exercise (see para 6.19 (ii)) were
+      taken into account in assessing compliance by Scottish Power. As Scottish
+      Power achieved its main obligations and all of its sub-obligations it is
+      compliant.
+
+Figure 3.10 Scottish Power – percentage of obligations achieved
+
+
+
+
+  Total obligation
+
+
+
+
+   Priority Group
+     obligation
+
+
+
+  Super Priority
+ Group obligation
+
+
+
+       Insulation
+       obligation
+
+
+                     0%   20%       40%          60%          80%      100%     120%
+                                   Percentage of obligation achieved
+
+
+
+3.40. As shown in Figure 3.11, Scottish Power achieved nearly 70% of carbon
+      savings by promoting insulation measures and 10% by promoting lighting
+      measures. Insulation and lighting were promoted consistently across the
+      Priority and non-Priority Groups. Insulation obligation measures accounted
+      for a quarter of overall carbon savings and nearly all carbon savings in the
+      Super Priority Group.
+
+3.41. Heating measures accounted for nearly 20% of overall carbon savings and
+      were most prevalent in the non-Priority Group.
+
+3.42. The remaining carbon savings were achieved through the promotion of low
+      levels of behavioural measures and microgeneration & CHP measures.
+
+
+
+
+                                                                                        29
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Figure 3.11 Scottish Power – carbon savings by measure type and consumer
+group
+
+
+
+
+3.43. As presented in Table 3.8, Scottish Power achieved 13.8% of its main
+      obligations through carbon savings carried over from EEC2. Carbon savings
+      achieved in the final year accounted for just over 20% of its obligations,
+      compared to an average of 16.3% per year over the first four years.
+
+
+
+
+30
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 3.8 Scottish Power – percentage of carbon savings achieved by
+measure type and year
+
+Measure             EEC2       CERT     CERT     CERT     CERT     CERT     Total
+                  Carryover   Year 1   Year 2   Year 3   Year 4   Year 5
+Insulation
+                    9.5%      15.2%    13.9%    2.0%     1.8%     0.8%     43.1%
+Insulation
+                    0.0%      0.0%     0.0%     0.0%     9.7%     16.3%    26.0%
+obligation
+Heating
+                    0.7%      0.8%     2.8%     4.8%     7.4%     3.2%     19.8%
+Lighting
+                    3.6%      3.4%     2.3%     3.1%     -2.1%    0.0%     10.4%
+Appliances
+                    0.0%      0.0%     0.0%     0.0%     0.0%     0.0%     0.0%
+Microgeneration
+                    0.0%      0.0%     0.0%     0.1%     0.0%     0.0%     0.1%
+& CHP
+Behavioural
+                    0.0%      0.0%     0.0%     0.0%     0.0%     0.7%     0.7%
+Demonstration
+                    0.0%      0.0%     0.0%     0.0%     0.0%     0.0%     0.0%
+actions
+Total
+                   13.8%      19.4%    19.0%    10.0%    16.8%    21.0%    100.0%
+
+
+3.44. In the third year of CERT, Scottish Power transferred a small amount of
+      carbon savings to another energy company. In the same year, Scottish Power
+      received a transfer of measures equivalent to 3.2% of its main obligations
+      from another energy company.
+
+
+
+
+                                                                                    31
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+4. Measure delivered during CERT
+Chapter summary
+
+This chapter provides information on measure types, volumes and delivery routes
+energy companies have used in the delivery of CERT.
+
+
+
+
+Measures
+
+Overall delivery mechanisms
+
+4.1.   Energy companies used a range of mechanisms to deliver their obligations.
+       Principal delivery routes included:
+
+         offering measures direct to consumers; and
+
+         partnering with social housing providers.
+
+4.2.   Other delivery routes included:
+
+         partnering with retailers, manufacturers and third sector organisations;
+
+         in conjunction with government programmes such as Warm Front.
+
+Overall number of measures
+
+4.3.   Table 4.1 shows the number of measures installed over the five years of CERT
+       (excluding EEC2 carryover) for the majority of measure types.
+
+
+
+
+32
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 4.1 The number of measures installed
+
+                                             Number of measures installed
+         Measure                Total non-   Non-Priority   Priority Group          Super
+                                  Priority     Group         (inclusive of         Priority
+                                Group and                   Super Priority          Group
+                                  Priority                      Group)
+                                   Group
+                                (inclusive
+                                 of Super
+                                  Priority
+                                  Group)
+Cavity wall insulation           2,568,870    1,309,218        1,259,652           237,692
+Professional loft insulation     3,897,324    1,563,525        2,333,799           531,932
+DIY loft insulation (m2)       112,850,996   94,842,717       18,008,279              0
+Solid wall insulation             58,916        15,386           43,530             8,229
+Draught proofing                  23,986         9,650           14,336               0
+Window glazing (m2)             34,590,263   34,477,568         112,695               0
+Hot water tank jackets            436,958      349,459           87,499            23,744
+Radiator panels (m2)              259,851      253,569            6,282             2,575
+Flat roof insulation                701           311              390               107
+Fuel switching                    108,516       56,541           51,975            11,121
+Shower regulators                9,653,441    8,127,692        1,525,749           41,661
+Replacement boilers               31,986         9,619           22,367             6,506
+Heating controls                 1,454,336     909,671          544,665              816
+Communal heating                     92            28              64                 0
+Compact fluorescent lamps
+                               303,952,610   182,463,142     121,489,468              0
+(CFLs)
+Light emitting diode (LED)
+                                  1,409          765             644                  0
+lighting
+Other lighting                  1,014,248      902,843         111,405                0
+Energy efficient cold and
+                                4,431,930     3,580,444        851,486                0
+wet appliances
+Standby savers                  4,926,715     2,527,519        2,399,196           57,308
+Energy efficient TVs           30,482,662    20,146,328       10,336,334             0
+Ground source heat pumps          4,128         3,059            1,069              378
+Air source heat pumps             3,331         2,184            1,147              585
+Solar water heating (m2)          1,099         1,096              3                 0
+Small scale CHP                     53            16              37                 0
+Solar PV                           108           108               0                 0
+Large scale CHP                    809           221              588                28
+Small biomass boilers5             395            99              296                0
+Real time displays              2,999,981     2,239,080         760,901            59,181
+Home energy advice
+                                   0              0               0                   0
+packages
+
+
+
+
+5
+ These numbers represent the number of connections to a communal biomass heating
+system, not the number of individual boilers installed.
+
+                                                                                            33
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Insulation
+
+4.4.   Insulation measures dominated energy company activity throughout the
+       programme and accounted for just under two thirds of the total carbon
+       savings achieved. Insulation activity was incentivised by the introduction of
+       the Insulation obligation in April 2011. Energy companies achieved a total of
+       196.7 Mt CO2, through insulation measures (including measures counting
+       towards the Insulation obligation and carryover from EEC2).
+
+4.5.   Loft insulation was the most prevalent insulation measure installed, with
+       nearly 3.9 million households benefiting from professional installations. DIY
+       loft insulation was the second most prevalent insulation measure. Nearly
+       112.9 million square metres of subsidised DIY loft insulation was promoted
+       (with approximately 2.8 million homes benefiting). Cavity wall insulation was
+       the third most prevalent measure with over 2.5 million households
+       benefitting. Solid wall insulation (mainly external wall insulation) was installed
+       in nearly 60,000 households.
+
+4.6.   Other insulation measures promoted include flat roof insulation, draught-
+       proofing, window glazing and hot water tank jackets. There were no reported
+       installations of under floor insulation.
+
+4.7.   Table 4.2 shows the carbon savings achieved through insulation, split by
+       consumer group.
+
+
+Table 4.2 The contribution to total carbon savings from installed insulation
+measures (professional and DIY) at the end of CERT
+
+
+                                        Priority Group
+            non-Priority Group        (including Super    Super Priority Group
+                                       Priority Group)
+
+                 37.4%                    28.9%                  5.3%
+
+
+
+
+Delivery routes for insulation
+
+4.8.   The majority of insulation measures were delivered by direct promotion to
+       private households and through partnerships with social housing providers
+       (SHPs). Other delivery routes included retail promotions, working with the
+       government‟s Warm Front programme and partnering with manufacturers.
+
+4.9.   Activity carried out in partnership with SHPs was popular with the energy
+       companies. It allowed them to target large numbers of Priority Group and
+       Super Priority Group householders, because they could lever additional
+       funding from the SHPs to help towards the cost of the measures.
+
+4.10. In many instances energy companies offered insulation to private households
+      in the Priority Group free of charge and some energy companies offered
+      vouchers or cash incentives to attract those in the Super Priority Group.
+
+
+34
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Lighting
+
+Number of measures
+
+4.11. At the end of CERT, energy companies achieved a total of 51.2 Mt CO2
+      through lighting measures, accounting for just under 20% of total carbon
+      savings achieved. Energy companies delivered just under 305 million lighting
+      measures by the end of CERT.
+
+4.12. The 2010 Amendment Order prevented direct lighting activity from being
+      promoted from 1 January 2010 and retail lighting activity (excluding LEDs)
+      from 1 April 2011. As a result of this there was very little lighting activity
+      during the final two years, with only one scheme for LED lighting approved in
+      the fourth year and no new lighting schemes delivered in the final year of
+      CERT.
+
+4.13. Nearly all lighting measures distributed were CFLs; only a small number of
+      energy-efficient halogens, luminaires and LEDs were promoted during CERT.
+
+
+Table 4.3 The contribution to total carbon savings from lighting measures at
+the end of CERT
+
+
+                                     Priority Group
+             non-Priority Group    (including Super    Super Priority Group
+                                    Priority Group)
+
+                  10.3%                 6.9%                  0.0%
+
+
+
+
+Delivery routes for lighting
+
+4.14. Two delivery routes were available to energy companies during the first two
+      years: direct and retail.
+
+4.15. Direct schemes involved promoting lighting directly to householders through
+      free giveaways, either to the energy companies‟ own customers, in
+      partnership with SHPs, or through promotions with commercial partners such
+      as newspapers. Retail schemes included reduced-price lighting sold through
+      retail outlets such as supermarkets or via mail-order promotions.
+
+4.16. A CFL monitoring exercise was conducted on the number of CFLs sold
+      between 1 January and 31 March 2011 to ascertain the volume that had been
+      or were likely to be installed before the end of CERT. We determined that
+      89.0% of all CFLs (and associated carbon savings) promoted during this
+      period were to be counted under CERT. We wrote to energy companies
+      advising them of the findings. Energy companies adjusted their figures in Year
+      5 and the revised totals are included in this report.
+
+4.17. All types of lighting delivered were limited to those products accredited under
+      the „Energy Saving Trust Recommended‟ programme. Energy companies
+
+
+                                                                                        35
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+      were also required to ensure approved schemes offered a range of different
+      types of CFLs to ensure consumers had sufficient choice to meet the lighting
+      needs in their homes.
+
+Heating
+
+Number of measures
+
+4.18. Energy companies achieved a total of 24.3 Mt CO2 through heating measures
+      by the end of CERT.
+
+4.19. Heating measures contributed just under 10% of total carbon savings
+      achieved. In the first two years of CERT, fuel switching (eg, replacing an
+      electric heating system with a gas fired heating system) was the most popular
+      heating measure energy companies promoted. Fuel switching was promoted
+      to 108,516 households. Thereafter, the majority of heating carbon savings
+      were delivered by shower regulators which limit how quickly water can flow
+      through a shower head, reducing hot water consumption.
+
+4.20. Across all energy companies nearly 10 million shower regulators were
+      promoted. This was under the 11 million limit in our CERT Supplier Guidance,
+      which was based on market data on the number of suitable showers in the
+      country. We monitored progress against this activity and worked with energy
+      companies to ensure the limit was not exceeded.
+
+
+Table 4.4 The contribution to total carbon savings from installed heating
+measures at the end of CERT
+
+
+                                     Priority Group
+           non-Priority Group      (including Super    Super Priority Group
+                                    Priority Group)
+
+                 5.5%                   2.7%                  0.2%
+
+
+
+
+Delivery routes for heating
+
+4.21. Shower regulators were mainly offered for free if consumers requested them,
+      with a small number also distributed via retail channels. The remainder of the
+      heating schemes were largely delivered in partnership with social housing
+      providers or through direct promotion to private households.
+
+Appliances
+
+Number of measures
+
+4.22. At the end of CERT, energy companies achieved a total of 17.6 Mt CO2
+      through the promotion of appliances.
+
+
+
+
+36
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+4.23. Appliances accounted for 5.9% of total achieved carbon savings. The carbon
+      savings generated by appliance schemes were comparatively low due to the
+      relatively small carbon saving that is achieved per measure. This low carbon
+      saving is due to the transformation of the appliance market through
+      improvements under the EEC2 programme and minimum standards under EU
+      legislation. Energy companies were only awarded carbon savings where they
+      were additional to those mandated in the EU legislation (specifically the
+      Energy Using Products directive).
+
+4.24. Appliances that were eligible under CERT included cold appliances rated A+ or
+      A++ (excluding chest freezers, for which A-rated appliances are permitted),
+      energy efficient TVs, standby savers and energy efficient kettles. Some
+      energy companies also promoted innovative consumer electronics and
+      information and communications technology measures such as standby
+      devices.
+
+Table 4.5 The contribution to total carbon savings from installed appliance
+measures at the end of CERT
+
+                                    Priority Group
+           non-Priority Group     (including Super     Super Priority Group
+                                   Priority Group)
+
+                 3.7%                  2.2%                   0.0%
+
+
+
+
+Delivery routes for appliances
+
+4.25. Cold appliances were promoted in two ways: incentive schemes (an energy
+      company promoted more efficient appliances to consumers who were already
+      intending to purchase an appliance) and trade-in schemes (where consumers
+      replaced appliances with a more efficient equivalent).
+
+4.26. The majority of other schemes delivering appliances were carried out in
+      partnership with manufacturers. Energy companies typically funded
+      promotional activity for energy efficient models, contributed to research and
+      development into product efficiency or subsidised the cost of the product
+      itself. Promotions in retail were also a popular delivery method. There was
+      relatively little activity in this area during the last two years of CERT.
+
+Microgeneration & CHP
+
+Number of measures
+
+4.27. Energy companies achieved a total of 2.4 Mt CO2 through microgeneration &
+      CHP measures by the end of CERT, which equated to less than 1% of total
+      activity.
+
+4.28. The most common measures were ground source and air source heat pumps
+      (installed in 7,459 households) and solar water heating (installed in 1,099
+      households).
+
+
+                                                                                      37
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 4.6 The contribution to total carbon savings from installed
+microgeneration & CHP measures at the end of CERT
+
+
+                                     Priority Group
+           non-Priority Group      (including Super   Super Priority Group
+                                    Priority Group)
+
+                 0.6%                   0.2%                  0.0%
+
+
+
+
+Delivery routes for microgeneration & CHP
+
+4.29. Microgeneration & CHP schemes were delivered in promotion to private
+      householders and in partnership with manufacturers.
+
+Behavioural measures
+
+Number of measures
+
+4.30. The provision of Real-Time Displays (RTDs) and Home Energy Advice
+      Packages (HEAPs) was limited to 2% of each energy company‟s total
+      obligation. Energy companies achieved a total of 4.3 Mt CO2 through these
+      behavioural measures by the end of CERT which accounted for 1.5% of total
+      carbon savings achieved (75% of the limit).
+
+4.31. All carbon savings were achieved through RTDs. No HEAPs were reported
+      under CERT. Almost 3 million RTDs were promoted in CERT, almost all of
+      which were claimed as market transformation actions.
+
+Table 4.7 The contribution to total carbon savings from behavioural
+measures to the end of CERT
+
+                                    Priority Group
+          non-Priority Group      (including Super      Super Priority Group
+                                   Priority Group)
+
+                1.1%                   0.4%                    0.0%
+
+
+
+
+Delivery routes for behavioural measures
+
+4.32. RTDs were delivered through a variety of routes including retail promotions,
+      partnerships with social housing providers and free provision to consumers on
+      request.
+
+4.33. The Order set out that RTDs and HEAPs were only eligible measures when
+      requested by a domestic energy user. Energy companies had to confirm in
+      writing that all RTDs were requested and that they were not provided without
+      request.
+
+
+38
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Demonstration action
+
+4.34. Demonstration actions were trials for measures to which a quantified carbon
+      saving could not be attributed. In order to qualify, the measure must have
+      been reasonably expected to achieve a reduction in carbon emissions.
+
+4.35. Demonstration actions were done at the expense of the manufacturer and/or
+      energy company. Under a demonstration action, energy companies were
+      accredited with a carbon reduction that was based on their financial
+      investment in the trial, irrespective of whether the trial produced quantifiable
+      carbon savings. DECC introduced this delivery route to encourage innovation
+      and energy companies chose this route for a number of different technology
+      types.
+
+4.36. The results had to be published upon completion of a demonstration action
+      and, where appropriate, a carbon saving and lifetime carbon score was
+      awarded. Energy companies could then promote the product as a standard or
+      market transformation action. Reports on the findings of these trials are
+      published on the Ofgem website6.
+
+4.37. Sixteen demonstration action proposals were submitted, seven of which were
+      completed and approved. The nine which were not completed were withdrawn
+      by energy companies. The total cost of completed demonstration actions was
+      approximately £7m. The total awarded carbon savings for completed
+      demonstration actions was 0.4 Mt CO2, 0.1% of the overall CERT target.
+
+4.38. The seven demonstration actions that were completed are detailed below.
+
+          EDF Energy evaluated a new innovative LED retrofit light bulb called the
+          Lemnis Pharox III LED retrofit light bulb. During the trial consumer
+          reaction to the bulb was measured as well as the bulb‟s carbon saving
+          performance. This demonstration action showed there is a carbon saving
+          when using the Lemnis Pharox III LED compared to typical household
+          lamps.
+
+          SSE worked with Vphase to determine the carbon savings that could be
+          attributed to VX1 Domestic Voltage Optimisation Devices. The results found
+          there was a carbon saving that could be attributed to the use of the Vphase
+          VX1 device.
+
+          SSE worked with Alba to evaluate the possible carbon savings achievable
+          by insulating Park Homes. It was demonstrated that the addition of
+          insulation to the external walls, the roofs and under the floors of existing
+          Park Homes would deliver a meaningful reduction in carbon emissions.
+
+
+
+
+6
+ Available at:
+http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=234&refer=Sustainability/Envir
+onment/EnergyEff
+
+                                                                                          39
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+         SSE looked to prove the energy saving potential of fitting doors to „walk-
+         throughs‟ between terraced houses. Doors were installed at both ends of
+         passageways, thus reducing the rate of heat loss from the walls and roof of
+         the passageway. The demonstration action concluded that significant
+         carbon savings are achieved from installing passageway doors in walk-
+         throughs.
+
+         The Visible Energy Trial was conducted by British Gas. This was a 12-
+         month study that analysed the impact of three different types of In Home
+         Display on the energy consumption of 273 homes across East Anglia. The
+         trial produced some important findings, particularly with regard to
+         understanding how households react to and interact with, advanced real-
+         time energy display equipment.
+
+         npower worked with Open Energi to assess the carbon savings associated
+         with Open Dynamic Demand. This technology turns fridges into smart
+         appliances, able to provide power frequency response services to the UK
+         electricity grid which are normally provided by conventional power stations.
+         This resulted in reduced carbon emissions.
+
+         The Smart Products Trial was conducted by npower. The aim of this
+         demonstration action was to evaluate the carbon savings associated with
+         three different products (Time of Day Tariff Product (Timeout), Enhanced
+         Web Service Product (Bounty) and Monthly Billed Product (Buttons)) which
+         were offered in conjunction with Smart Meters and Customer Display Units.
+         The final results showed that carbon savings were achieved in all of the
+         product groups.
+
+Market transformation action
+
+4.39. Carbon savings from market transformation actions were capped at 10% of
+      an energy company‟s obligation (in combination with demonstration action
+      savings). If at least 2% of an energy company‟s obligations were achieved
+      through market transformation microgeneration measures, the limit increased
+      to 12%.
+
+4.40. Energy companies did not report market transformation eligible
+      microgeneration measures that exceeded 2% of their total obligation. The
+      limit on market transformation (in combination with demonstration action
+      savings) therefore remained as 10% for each energy company.
+
+
+
+
+40
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Figure 4.1 Total market transformation actions by measure type
+
+
+                      Behavioural                         Insulation
+ Microgeneration &       9.6%                               15.0%
+        CHP
+       4.2%
+
+                                                                           Insulation
+                                                                           obligation
+                                                                             22.3%
+
+
+
+
+  Appliances
+    28.4%
+
+
+
+
+                                                            Heating
+                                                            20.5%
+
+
+
+4.41. Carbon savings from market transformation actions, excluding uplift,
+      accounted for 9.6% of the overall CERT target, almost all of the allowed limit.
+      A broad range of measures were claimed as market transformation measures
+      throughout the programme.
+
+4.42. Energy companies claimed market transformation action across all measures
+      apart from lighting. LEDs were eligible for market transformation as none
+      were claimed in EEC2, however, no claims were made for market
+      transformation activity for these measures in CERT.
+
+Priority Group flexibility mechanism
+
+4.43. This mechanism allowed energy companies flexibility in reaching their target
+      for carbon savings in the Priority Group, by providing higher carbon savings
+      for measures that met certain criteria. Carbon savings from this mechanism
+      were capped at 12.5% of an energy company‟s Priority Group obligations (5%
+      of its main obligations).
+
+4.44. Five schemes were approved under the Priority Group flexibility mechanism.
+      Total carbon savings were approximately 353,000 tCO2 (0.1% of the overall
+      target, and 0.3% of the Priority Group target).
+
+4.45. The measures permitted in this mechanism were solid wall insulation and, up
+      until 1 April 2011, ground source heat pumps. These measures were provided
+      uplifts to incentivise take up, as outlined in Table 4.8.
+
+
+
+
+                                                                                        41
+        The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 4.8 Priority Group flexibility uplifts
+
+                                                                      Carbon
+                                       % increase     Number
+                                                                    savings inc.
+               Measures                in carbon         of
+                                                                      uplifts
+                                        savings       Measures
+                                                                      (tCO2)
+     Ground Source heat pumps                  245%            8            3,912
+     Internal solid wall insulation             95%           32            4,697
+     External solid wall insulation            175%        1,677         344,554
+
+4.46. The mechanism was aimed at hard-to-reach properties that were not
+      connected to a gas supply. Carbon savings for solid wall insulation were based
+      on fuel type. This meant that installations at properties without a gas supply
+      received higher carbon savings. Ground source heat pumps could only be
+      installed at properties without a mains gas supply.
+
+4.47. Householders eligible for these measures had to be in the benefits subset of
+      the Priority Group (those who were in receipt of the Priority Group benefits or
+      tax credits with income below a certain threshold). The mechanism did not
+      apply to social housing properties.
+
+
+
+
+42
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+5. Technical monitoring and audits
+Chapter summary
+
+This chapter presents technical monitoring results and provides information on
+energy company audits.
+
+
+
+Technical Monitoring
+
+5.1.   Technical monitoring was a key control in CERT which required energy
+       companies to contract a suitably qualified independent agent to monitor 5%
+       of all professionally installed measures under CERT.
+
+5.2.   Properties were inspected using standard technical monitoring questions
+       developed by Ofgem and industry to ensure compliance with CERT legislation
+       and guidance. To ensure consistency these questions were also used for the
+       Community Energy Saving Programme (CESP). The questions covered a range
+       of topics for each measure type and failures could relate to customer
+       satisfaction, health and safety, legal/building regulations, as well as carbon
+       savings achieved.
+
+5.3.   The questions were divided between major fails and minor fails based upon
+       the severity of non compliance. While we expected energy companies to
+       address minor fails to minimise their occurrence, an installation was deemed
+       as failing inspection if a major question was not satisfied.
+
+5.4.   Ofgem worked with energy companies, via the analysis of energy companies‟
+       quarterly technical monitoring submissions, to reduce failure rates and ensure
+       compliance under the CERT Order.
+
+5.5.   While quarterly monitoring was completed on a sample of all professional
+       installations, the most significant results were for loft and cavity wall
+       insulation measures. Table 4.9 shows a summary of the failure rates for
+       individual questions for these measures during the quarters monitored. The
+       highest five failure rates for each quarter have been highlighted in red.
+
+
+
+
+                                                                                        43
+                           The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Table 4.9- Quarterly technical monitoring results
+
+
+                                                                                      Q15     Q16    Q17    Q18
+                         Is the work guaranteed by a CIGA warranty?                   10.1%   5.1%   6.6%   7.5%
+                         If not, has another form of guarantee for 25 years been      1.0%    1.6%   3.7%   6.1%
+                         provided?
+Cavity Wall Insulation
+
+
+
+
+                         Does the drilling pattern used ensure that the               2.0%    1.8%   2.3%   2.6%
+                         insulation material is distributed as evenly as possible
+                         throughout the cavity?
+                         Have the injection holes been made good?                     3.4%    3.0%   3.2%   3.5%
+                         Are all the air bricks and eaves vents clear of insulation   2.7%    2.4%   3.5%   2.9%
+                         material?
+                         Have the air bricks been sleeved to prevent material         2.5%    2.6%   2.9%   3.5%
+                         moving in the cavity and blocking the vent at a later
+                         date?
+                         Are all air vents particularly those for combustion          0.2%    0.3%   2.7%   1.0%
+                         appliances clear of insulation material?
+                         Was the insulation marked for 'DIY use only' or dyed a       0.0%    0.0%   0.1%   0.1%
+                         specific colour?
+                         Does the material comply with BS 5803 Part 1: 1985           0.0%    0.0%   0.0%   0.0%
+                         Thickness of original insulation (mm)                        0.0%    0.0%   0.0%   0.3%
+                         Total thickness of insulation (mm)                           1.6%    1.5%   0.0%   2.1%
+                         Has two thirds of the total loft area been insulated?        0.7%    0.4%   0.7%   0.7%
+                         - If not, approximately what proportion has been
+Loft Insulation
+
+
+
+
+                         insulated?
+                         Has insulation been applied to all appropriate areas         2.9%    2.3%   2.0%   5.0%
+                         including (i) beneath boarded areas and (ii) if the water
+                         storage tank is on the joists, around but not beneath
+                         the tanks; or if the tank is elevated, around and
+                         beneath the tank.
+                         Has the loft hatch been fitted with effective draught        4.3%    3.9%   3.3%   4.8%
+                         seals?
+                         Has the loft hatch been insulated?                           2.9%    2.5%   2.0%   3.3%
+                         Is the roof space adequately ventilated?                     1.2%    1.3%   0.7%   1.1%
+                         Have additional vents been fitted if required?               0.4%    0.5%   0.5%   0.9%
+                         Have the pipes and tanks been insulated to an                7.3%    4.4%   5.4%   8.4%
+                         adequate standard?
+
+
+Final technical monitoring results
+
+5.6.                       In addition to quarterly submissions, energy companies also submitted
+                           summaries of their technical monitoring results at the end of the programme.
+                           These showed aggregated monitoring rates of:
+
+                               6.7% for insulation measures,
+
+                               6.9% for heating measures and
+
+                               5.6% for microgeneration measures.
+
+
+
+
+44
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+5.7.   The aggregated failure rate across energy companies was 10.9% for
+       insulation measures, 5.3% for heating measures and 1.5% for
+       microgeneration measures.
+
+5.8.   All of the measures identified as failing technical monitoring were required to
+       have remedial action completed.
+
+Audits
+
+5.9.   Auditing was a very important aspect of CERT administration to ensure that
+       the programme was delivered effectively and in accordance with the Order.
+
+5.10. Throughout CERT, Ofgem commissioned independent auditors to carry out
+      audits on all energy companies. The audit programme consisted of both
+      technical and desk-based audits and was based on a risk-based approach.
+
+5.11. Key findings from the audits include:
+
+         some energy companies had missing or incomplete supporting
+         documentation at the time of audit;
+
+         classification of Priority Group status was largely undertaken by third
+         parties. There were instances identified during audit where installers or
+         surveyors had incorrectly reported measures as Priority Group or Super
+         Priority Group;
+
+         some discrepancies were found between installer records and entries on
+         energy companies‟ systems;
+
+         energy companies had a mixture of manual and automatic processes for
+         storing and reporting CERT data. At the time of audit, there were instances
+         of a lack of formal processes and documents;
+
+         energy companies had de-duplication processes in place for CERT, though
+         there were some instances of backlogs;
+
+         internal audits of processes were undertaken by energy companies.
+
+       A number of improvements were also recommended to energy companies‟
+       internal processes.
+
+5.12. Following each audit, findings were shared with the energy companies to
+      ensure action plans were put in place and the recommendations raised were
+      implemented effectively.
+
+5.13. The results of our audit programme along with energy companies‟ responses
+      provided assurance that:
+
+         measures were as claimed and installed to the required standard;
+
+         energy companies had adequate processes in place for reporting to Ofgem;
+
+
+
+                                                                                         45
+     The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+       energy companies had adequate processes in place for managing third
+       party contractors;
+
+       energy companies had adequate processes in place for de-duplication of
+       measures between CERT and other energy efficiency schemes.
+
+
+
+
+46
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+6. Analysis
+Chapter summary
+
+This chapter highlights the key issues and trends that have arisen during CERT.
+
+
+
+Progress to the end of CERT
+
+6.1.   By the end of CERT energy companies had achieved carbon savings of 296.9
+       Mt CO2, 101.3% of the overall target. Four energy companies were compliant
+       in meeting their main obligations, two energy companies were non-compliant
+       in their Insulation obligations and one energy company was non-compliant in
+       its Priority Group and Super Priority Group obligations.
+
+6.2.   Energy companies achieved more in the final year (54.9 Mt CO2) than they
+       averaged in the first four years (51.0 Mt CO2 per year). This is, in part,
+       because market transformation uplifts for all measures were only applied at
+       the end of the obligation period, as required in the Order.
+
+6.3.   Priority Group carbon savings made up 41.3% of overall carbon savings and
+       all but one of the energy companies met their respective Priority Group
+       obligations, set at 40% of their main obligations.
+
+6.4.   Energy companies achieved 75.1 Mt CO2 of carbon savings by promoting
+       measures eligible under the Insulation target, representing 102.3% of the
+       73.4 Mt CO2 target. Energy companies significantly increased Insulation
+       obligation activity in the final year of the programme: by the end of the fourth
+       year, energy companies had only achieved 54.1% of the target.
+
+6.5.   By the end of CERT, energy companies had achieved 16.6 Mt CO2 by
+       delivering measures to the Super Priority Group, which is the equivalent to
+       102.6% of the 16.2 Mt CO2 target.
+
+6.6.   During the final year, we undertook a number of activities designed to aid and
+       encourage delivery by energy companies. These included:
+
+         requiring energy companies to report progress on a monthly basis from
+         January 2012 onwards, including forecasts of final position;
+
+         holding monthly meetings with energy companies to resolve issues and
+         highlight problems promptly; and
+
+         issuing open letters from September 2012 indicating our approach to
+         enforcement for energy companies who do not meet their obligations.
+
+
+
+
+                                                                                          47
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+Measures the energy companies have used
+
+6.7.   Insulation measures dominated the carbon savings (66.2%) achieved under
+       CERT. Insulation measures featured particularly strongly in the final two
+       years as they were driven by the Insulation obligation.
+
+6.8.   The main insulation measures were cavity wall insulation, professionally
+       installed loft insulation and DIY loft insulation. Cavity wall insulation activity
+       was delivered at similar levels to Priority Group and non-Priority Group
+       consumers. Professionally installed loft insulation activity was more focussed
+       on Priority Group consumers, with around twice as many Priority Group
+       households being treated. DIY loft insulation has been more popular with non-
+       Priority Group consumers.
+
+6.9.   Market transformation uplift prompted the increased usage of bead cavity wall
+       insulation products which had improved thermal properties and, when injected
+       via a high pressure system, enabled an improved distribution of material to be
+       achieved.
+
+6.10. From 1 April 2011 CFLs were ineligible to be approved as a qualifying action.
+      Due to this, carbon savings from lighting measures contributed only 0.2% of
+      the overall CERT target since this date, compared to 14.4% before this date.
+
+6.11. The promotion of CFLs has transformed the market, with incandescent light
+      bulbs largely being displaced. The level of subsidy for CFLs would appear to
+      have been a key factor in achieving this transformation.
+
+6.12. All energy companies used market transformation products within their
+      measure mix. Insulation, heating, appliances and behavioural measures
+      featured prominently, with 9.6% of the overall target met through market
+      transformation activity. Innovative activity was a key component of many
+      energy companies‟ activity, with consumer electronics at the fore. In addition,
+      shower regulators were a prevalent measure, with 9.7 million distributed.
+
+6.13. Of the two main behavioural measures, real time displays were distributed in
+      CERT. No home energy advice packages were promoted.
+
+6.14. Several demonstration actions were published and, in the case of developing
+      an insulation solution for Park Homes, enabled the treatment of properties
+      previously outside of the scope of CERT.
+
+Targeting the Priority Group and Super Priority Group
+
+6.15. Energy companies utilised a variety of delivery routes for delivering measures,
+      including working in partnership with local authorities/social housing
+      providers, direct marketing to the owner-occupier sector and integrating with
+      other government programmes such as Warm Front.
+
+6.16. The Order contained a list of prescribed measures which could be promoted to
+      the Super Priority Group. If a prescribed measure was installed, other
+      measures promoted to the same household could also be installed and
+
+
+48
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+       counted towards the Super Priority Group obligation, called secondary
+       measures.
+
+6.17. All energy companies utilised secondary measures in addition to prescribed
+      measures. The most prevalent secondary measures were hot water tank
+      jackets, standby savers and shower regulators.
+
+6.18. Energy companies used a number of methods to identify Super Priority Group
+      households, including:
+
+           cash or voucher based incentives to Super Priority Group households or
+           those referring eligible households;
+
+           a mail out facilitated by DWP to eligible Super Priority Group customers;
+           and
+
+           use of Warm Home Discount “core group” data (which has similar eligibility
+           to the Super Priority Group).
+
+6.19. Energy companies have indicated that identifying Super Priority Group
+      households proved challenging, even with targeted mailings and incentives as
+      identified above. Two methodologies were developed by energy companies to
+      identify Super Priority Group households:
+
+     i.    Social housing: rather than collect information on a per-household basis,
+           energy companies provided empirical evidence that showed 32% of social
+           housing properties contained domestic energy users who met Super
+           Priority Group eligibility requirements. We were satisfied with this proposal
+           and subsequently permitted the methodology to be used across all energy
+           companies.
+
+     ii.   Private housing: a number of obligated energy companies worked
+           independently with the Department for Work and Pensions (DWP) to cross
+           check certain addresses against the Super Priority Group eligibility criteria.
+           This exercise produced evidence of delivery of measures to members of the
+           Super Priority Group
+
+Transition to ECO
+
+6.20. CERT is succeeded by The Gas and Electricity (Energy Companies Obligation)
+      Order 2012 (the ECO). Certain qualifying actions promoted under CERT can
+      be carried into ECO, where they are excess to that energy company‟s CERT
+      obligations. Section 21 of the ECO Order provides the eligibility criteria for the
+      carryover of such measures.
+
+
+
+
+                                                                                            49
+        The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Appendices
+
+Index
+
+Appendix     Name of Appendix                               Page Number
+1            Supplier licenses                              51
+2            The Authority‟s powers and duties              52
+3            Glossary                                       55
+
+
+
+
+50
+      The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Appendix 1 – Energy company licenses
+The energy companies obligated under CERT are listed below, together with their
+final compliance position. This has been assessed taking into account any transfers of
+completed actions.
+
+
+Energy Company              Licence                            Fuel          Compliant
+                                                                             with
+                                                                             obligation
+British Gas                 British Gas Trading Ltd            Electricity      Non-
+                                                                              compliant
+British Gas                 British Gas Trading Ltd            Gas              Non-
+                                                                              compliant
+EDF Energy                  EDF Energy Customers Plc           Electricity    Compliant
+EDF Energy                  Seeboard Energy Limited            Electricity    Compliant
+EDF Energy                  EDF Energy Customers Plc           Gas            Compliant
+EDF Energy                  Seeboard Energy Limited            Gas            Compliant
+E.ON Energy                 E.ON Energy Limited                Electricity    Compliant
+E.ON Energy                 E.ON Energy Limited                Gas            Compliant
+npower plc                  npower Direct Limited              Electricity    Compliant
+npower plc                  npower Limited                     Electricity    Compliant
+npower plc                  npower Northern Limited            Electricity    Compliant
+npower plc                  npower Northern Supply Limited     Electricity    Compliant
+npower plc                  npower Yorkshire Supply Limited    Electricity    Compliant
+npower plc                  Electricity Plus Supply Limited    Electricity    Compliant
+npower plc                  npower Direct Limited              Gas            Compliant
+npower plc                  npower Gas Limited                 Gas            Compliant
+npower plc                  npower Commercial Gas              Gas            Compliant
+npower plc                  npower Northern Limited            Gas            Compliant
+npower plc                  YE Gas Limited                     Gas            Compliant
+npower plc                  Gas Plus Supply Limited            Gas            Compliant
+npower plc                  npower Yorkshire Limited           Gas            Compliant
+SSE                         SSE Energy Supply Limited          Electricity      Non-
+                                                                              compliant
+SSE                         Southern Electric Gas Limited      Gas              Non-
+                                                                              compliant
+Scottish Power Retail       Scottish Power Energy Retail       Electricity    Compliant
+Scottish Power Retail       Scottish Power Energy Retail       Gas            Compliant
+
+
+
+
+                                                                                         51
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Appendix 2 – The Authority‟s powers and
+duties
+1.1    Ofgem is the Office of Gas and Electricity Markets which supports the Gas and
+       Electricity Markets Authority (“the Authority”), the regulator of the gas and
+       electricity industries in Great Britain. This appendix summarises the primary
+       powers and duties of the Authority. It is not comprehensive and is not a
+       substitute to reference to the relevant legal instruments (including, but not
+       limited to, those referred to below).
+
+1.2    The Authority's powers and duties are largely provided for in statute (such as
+       the Gas Act 1986, the Electricity Act 1989, the Utilities Act 2000, the
+       Competition Act 1998, the Enterprise Act 2002, the Energy Acts of 2004,
+       2008 and 2010 and the Energy Bill 2012) as well as arising from directly
+       effective European Community legislation.
+
+1.3    References to the Gas Act and the Electricity Act in this appendix are to Part 1
+       of those Acts.7 Duties and functions relating to gas are set out in the Gas Act
+       and those relating to electricity are set out in the Electricity Act. This appendix
+       must be read accordingly.8
+
+1.4    The Authority‟s principal objective is to protect the interests of existing and
+       future consumers in relation to gas conveyed through pipes and electricity
+       conveyed by distribution or transmission systems. The interests of such
+       consumers are their interests taken as a whole, including their interests in the
+       reduction of greenhouse gases and in the security of the supply of gas and
+       electricity to them.
+
+1.5    The Authority is generally required to carry out its functions in the manner it
+       considers is best calculated to further the principal objective, wherever
+       appropriate by promoting effective competition between persons engaged in,
+       or commercial activities connected with,
+
+          the shipping, transportation or supply of gas conveyed through pipes;
+
+          the generation, transmission, distribution or supply of electricity;
+
+          the provision or use of electricity interconnectors.
+
+1.6    Before deciding to carry out its functions in a particular manner with a view to
+       promoting competition, the Authority will have to consider the extent to which
+       the interests of consumers would be protected by that manner of carrying out
+
+
+
+
+7
+  Entitled “Gas Supply” and “Electricity Supply” respectively.
+8
+  However, in exercising a function under the Electricity Act the Authority may have regard to
+the interests of consumers in relation to gas conveyed through pipes and vice versa in the
+case of it exercising a function under the Gas Act.
+
+52
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+        those functions and whether there is any other manner (whether or not it
+        would promote competition) in which the Authority could carry out those
+        functions which would better protect those interests.
+
+1.7     In performing these duties, the Authority must have regard to:
+
+           the need to secure that, so far as it is economical to meet them, all
+           reasonable demands in Great Britain for gas conveyed through pipes are
+           met;
+
+           the need to secure that all reasonable demands for electricity are met;
+
+           the need to secure that licence holders are able to finance the activities
+           which are the subject of obligations on them 9; and
+
+           the need to contribute to the achievement of sustainable development.
+
+1.8     In performing these duties, the Authority must have regard to the interests of
+        individuals who are disabled or chronically sick, of pensionable age, with low
+        incomes, or residing in rural areas.10
+
+1.9     Subject to the above, the Authority is required to carry out the functions
+        referred to in the manner which it considers is best calculated to:
+
+           promote efficiency and economy on the part of those licensed 11 under the
+           relevant Act and the efficient use of gas conveyed through pipes and
+           electricity conveyed by distribution systems or transmission systems;
+
+           protect the public from dangers arising from the conveyance of gas through
+           pipes or the use of gas conveyed through pipes and from the generation,
+           transmission, distribution or supply of electricity; and
+
+           secure a diverse and viable long-term energy supply,
+
+        and shall, in carrying out those functions, have regard to the effect on the
+        environment.
+
+1.10    In carrying out these functions the Authority must also have regard to:
+
+           the principles under which regulatory activities should be transparent,
+           accountable, proportionate, consistent and targeted only at cases in which
+           action is needed and any other principles that appear to it to represent the
+           best regulatory practice; and
+
+
+
+
+9
+  Under the Gas Act and the Utilities Act, in the case of Gas Act functions, or the Electricity
+Act, the Utilities Act and certain parts of the Energy Acts in the case of Electricity Act
+functions.
+10
+   The Authority may have regard to other descriptions of consumers.
+11
+   Or persons authorised by exemptions to carry on any activity.
+
+                                                                                                  53
+         The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+             certain statutory guidance on social and environmental matters issued by
+             the Secretary of State.
+
+1.11      The Authority may, in carrying out a function under the Gas Act and the
+          Electricity Act, have regard to any interests of consumers in relation to
+          communications services and electronic communications apparatus or to
+          water or sewerage services (within the meaning of the Water Industry Act
+          1991), which are affected by the carrying out of that function.
+
+1.12      The Authority has powers under the Competition Act to investigate suspected
+          anti-competitive activity and take action for breaches of the prohibitions in the
+          legislation in respect of the gas and electricity sectors in Great Britain and is a
+          designated National Competition Authority under the EC Modernisation
+          Regulation12 and therefore part of the European Competition Network. The
+          Authority also has concurrent powers with the Office of Fair Trading in respect
+          of market investigation references to the Competition Commission.
+
+
+
+
+12
+     Council Regulation (EC) 1/2003.
+
+54
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Appendix 3 – Glossary
+A
+
+Achieved carbon savings
+
+Achieved carbon savings were calculated based on the CERT carbon saving score and
+lifetime of the measure. Achieved carbon savings were used to meet energy
+companies‟ obligations
+
+B
+
+Behavioural measures
+
+Real-time displays and Home Energy Advice Packages were the only behavioural
+measures included in the scope of CERT. They were introduced into CERT as eligible
+measures with the Amendment Order 2009
+
+C
+
+CERT
+
+Carbon Emissions Reduction Target (CERT) 2008 – 2012
+
+CESP
+
+Community Energy Savings Programme (CESP) 2009 – 2012
+
+CFLs
+
+Compact Fluorescent Lamps (energy efficient light bulbs)
+
+CHP
+
+Combined heat and power
+
+Completion
+
+Submission of final scheme reports by energy companies for determination of carbon
+savings by Ofgem
+
+D
+
+DECC
+
+Department of Energy and Climate Change
+
+De-duplication
+
+A process carried out by energy companies to ensure that each measure that was
+professionally installed was only counted once
+
+
+                                                                                     55
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Demonstration action
+
+Demonstration actions were trials performed under the Order, for measures to which
+a firm quantified carbon saving could not be attributed. In order to qualify, the
+measures must have been reasonably expected to achieve a reduction in carbon
+emissions
+
+DIY
+
+Do-it-yourself
+
+DWP
+
+Department for Work and Pensions
+
+E
+
+ECO
+
+The Energy Companies Obligation (January 2013 – March 2015), requires gas and
+electricity suppliers to achieve 20.9 Mt CO2 of carbon savings towards a Carbon
+Emissions Reduction Obligation, 6.8 Mt CO2 of carbon savings towards a Carbon
+Saving Community Obligation, and £4.2 billion of cost savings towards a Home
+Heating Cost Reduction Obligation
+
+EEC2
+
+Energy Efficiency Commitment, 2005 - 2008 (EEC2) required gas and electricity
+suppliers to achieve an energy saving target of 130 TWh in domestic households in
+Great Britain, between 1 April 2005 and 31 March 2008. At least 50 per cent of the
+target had to be met in relation to Priority Group consumers
+
+EEC2 carryover
+
+Energy companies were able to apply to Ofgem for the equivalent carbon emissions
+reduction from any excess carbon savings achieved surplus to their EEC2 target to be
+credited towards their obligation under CERT
+
+Energy company activity
+
+Energy efficiency work undertaken by energy companies to meet the Carbon
+Emissions Reduction Target
+
+EST
+
+Energy Saving Trust
+
+
+
+
+56
+       The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+
+Excess Actions
+
+Measures delivered under CERT with carbon savings that may be considered excess
+to an obligation. These may be carried forward into ECO if certain requirements are
+met
+
+F
+
+Fuel switching
+
+Fuel switching relates to the switching of carbon intensive primary heating fuel to a
+fuel with lower carbon content
+
+I
+
+IDTV
+
+Integrated digital television
+
+Insulation obligation
+
+The amount of an energy company‟s carbon emissions reduction obligation which
+was to be achieved by the promotion of professionally installed insulation measures
+in accordance with article 9 (1A) of the Order
+
+M
+
+Market transformation
+
+This was an uplift that applied to innovative measures such as microgeneration and
+solid wall insulation. The uplift was also applied to measures that passed a
+'significantly greater than' test (in terms of carbon savings) or a 'significantly
+different to' test (in terms of function) in comparison to measures delivered under
+EEC1 or, for measures delivered on or after 1 April 2011, EEC2
+
+Microgeneration
+
+Under the terms of CERT, these measures include small scale biomass boilers, wind
+turbines, heat pumps, solar photovoltaic, small hydro, solar water heating, large and
+small scale Combined Heat and Power and other microgeneration
+
+Mt CO2
+
+Million tonnes of carbon dioxide
+
+T
+
+The Order
+
+The Electricity and Gas (Carbon Emissions Reduction) Order 2008, The Electricity and
+Gas (Carbon Emissions Reduction) (Amendment) Order 2009, The Electricity and Gas
+
+
+                                                                                        57
+        The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+(Carbon Emissions Reduction) (Amendment) Order 2010 and The Electricity and Gas
+(Carbon Emissions and Community Energy Saving) (Amendment) Order 2011
+(together referred to as 'the Order')
+
+P
+
+Priority Group
+
+Defined in the CERT Order as the group of domestic energy users where each
+member fulfils one of the following criteria:
+
+     (a) is in receipt of at least one of the following benefits: council tax benefit,
+         housing benefit, income support, an income-based jobseeker's allowance, an
+         income-related employment and support allowance, an attendance allowance,
+         a disability living allowance, a war disablement pension which includes either
+         mobility supplement constant attendance allowance, a disablement pension
+         which includes constant attendance allowance, or a state pension credit, or
+
+     (b) is in receipt of at least one of the following credits: child tax credit or working
+         tax credit and has a relevant income of less than £16,040, or
+
+     (c) is at least 70 years old
+
+
+Priority Group flexibility mechanism
+
+This mechanism allowed energy companies some flexibility in reaching their target
+for carbon savings in the Priority Group. Eligible measures were ground source heat
+pumps and solid wall insulation. The mechanism was aimed at those off the gas grid
+and in hard to treat homes. Householders must have been in the benefits subset of
+the Priority Group
+
+S
+
+SHP
+
+Social Housing Provider
+
+Super Priority Group
+
+The group of domestic energy users in the Priority Group where each member is in
+receipt of
+
+     a) child tax credit and has a relevant income under a certain threshold
+
+        or
+
+     b) state pension credit
+
+        or
+
+     c) income-related employment and support allowance and has responsibility for
+        a child under the age of five who ordinarily resides with that member or is in
+        receipt of a qualifying component
+
+
+58
+   The final report of the Carbon Emissions Reduction Target (CERT) 2008-2012
+
+
+d) income based job seeker‟s allowance and has responsibility for a child under
+   the age of five who ordinarily resides with that member or is in receipt of a
+   qualifying component
+
+e) income support and has responsibility for a child under the age of five who
+   ordinarily resides with that member or is in receipt of a qualifying component
+
+
+
+
+                                                                                    59
+

@@ -1,0 +1,17 @@
+{
+ "source": "subsidy-clock site/data/breakdown.json, schemes[id=bsuos].raw_annual (cost, GBP, calendar year of settlement day)",
+ "clock_commit": "e5b4c0f165a0b3519254892eba3bd19cbd30bc52",
+ "file_sha256": "d40a9e2fc86ead0dc36faa59ebefca5ed0bcd72d4c491dc95f5875a2dde1c586",
+ "clock_field": "Half-hourly Charge to 31 Mar 2023, Actual BSUoS Cost (GBP) from 1 Apr 2023 (schemes/bsuos.py COST_COL_PRE/COST_COL_POST)",
+ "ticket": "s36 ticket 03 (0088)",
+ "raw_annual_gbp": {
+  "2017": 1238377287.45,
+  "2018": 1305499730.77,
+  "2019": 1487556555.39,
+  "2020": 2004658460.17,
+  "2021": 2970277561.79,
+  "2022": 4577543822.51,
+  "2023": 3258662770.01,
+  "2024": 3038529128.0
+ }
+}

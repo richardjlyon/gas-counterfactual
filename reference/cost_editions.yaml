@@ -1,0 +1,830 @@
+{
+ "_about": "Hand-entered from PDF-only tables (spec §14). Each row is the verbatim text of the stored PDF page (whitespace collapsed); tests/test_fossil_fleet.py checks every row against the PDF. Values are the Nth-of-a-kind columns; 'medium' is used. File format: JSON, which is valid YAML (no YAML parser is installed).",
+ "quotes": {
+  "mm2010": {
+   "file": "s18d-MottMacDonald_2010_UK_generation_costs.pdf",
+   "page": 39,
+   "quote": "All price assumptions in the Model are in 2009 prices"
+  },
+  "pb2012": {
+   "file": "s18d-PB_2012_nonrenewable.pdf",
+   "page": 24,
+   "quote": "Costs were presented in 2012 prices"
+  },
+  "pb2012_lhv": {
+   "file": "s18d-PB_2012_nonrenewable.pdf",
+   "page": 11,
+   "quote": "Net LHV efficiencies were therefore presented"
+  },
+  "decc2013": {
+   "file": "s18d-DECC_EGC2013_Dec.pdf",
+   "page": 5,
+   "quote": "All estimates are in 2012 real prices"
+  },
+  "decc2013_hurdle": {
+   "file": "s18d-DECC_EGC2013_Dec.pdf",
+   "page": 49,
+   "quote": "CCGT 7.5% OCGT 7.5%"
+  },
+  "lf2016": {
+   "file": "s18d-LeighFisher_Jacobs_2016_nonrenewable.pdf",
+   "page": 11,
+   "quote": "Values in this report are stated on 2014 basis"
+  },
+  "beis2016_hurdle": {
+   "file": "s18d-BEIS_EGC2016_report.pdf",
+   "page": 62,
+   "quote": "Coal plants All retrofits 8.20%"
+  },
+  "beis2016_hurdle_gas": {
+   "file": "s18d-BEIS_EGC2016_report.pdf",
+   "page": 62,
+   "quote": "CCGT & OCGT 7.80%"
+  },
+  "mm2010_scr": {
+   "file": "s18d-MottMacDonald_2010_UK_generation_costs.pdf",
+   "page": 44,
+   "quote": "with flue gas desulphurisation (FGD) and selective catalytic reduction (SCR)"
+  },
+  "egc2020_hhv": {
+   "file": "s18d-BEIS_EGC2020_report.pdf",
+   "page": 16,
+   "quote": "from 54% to 56.2% on a higher heat value (HHV) basis"
+  },
+  "cepa2025_lhv": {
+   "file": "s18d-CEPA_GHD_unabated_gas_costs_2025.pdf",
+   "page": 17,
+   "quote": "Net efficiency (%, LHV) 58.8 59.8 60.7 60.2 60.2 60.3"
+  }
+ },
+ "tables": {
+  "mm2010_ccgt": {
+   "file": "s18d-MottMacDonald_2010_UK_generation_costs.pdf",
+   "page": 94,
+   "table": "Table A.1 Gas CCGT, Nth of a kind",
+   "price_base": 2009,
+   "eff_basis": "gross_output_lhv",
+   "tech": "ccgt",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre- licensing, licensing & public enquiry) years 1.6 2.0 3.0 1.4 2.0 3.0",
+     "low": 1.4,
+     "medium": 2.0,
+     "high": 3.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 2.5 2.8 3.2 2.0 2.5 3.0",
+     "low": 2.0,
+     "medium": 2.5,
+     "high": 3.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 20.0 25.0 30.0 25.0 30.0 35.0",
+     "low": 25.0,
+     "medium": 30.0,
+     "high": 35.0
+    },
+    "size_mw": {
+     "row": "Gross Power Output MW 830 830 830 830 830 830",
+     "low": 830.0,
+     "medium": 830.0,
+     "high": 830.0
+    },
+    "efficiency": {
+     "row": "Gross Efficiency % 55.0% 56.0% 57.0% 58.0% 59.0% 60.0%",
+     "low": 0.58,
+     "medium": 0.59,
+     "high": 0.6
+    },
+    "auxiliary_power": {
+     "row": "Auxiliary Power % 2.1% 2.3% 2.6% 2.0% 2.3% 2.5%",
+     "low": 0.02,
+     "medium": 0.023,
+     "high": 0.025
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licencing costs, Technical and design £/kW 30.0 40.0 50.0 20.0 25.0 40.0",
+     "low": 20.0,
+     "medium": 25.0,
+     "high": 40.0
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licencing + public enquiry £/kW 30.0 35.0 40.0 15.0 25.0 35.0",
+     "low": 15.0,
+     "medium": 25.0,
+     "high": 35.0
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost £/kW 653.1 721.9 756.3 593.8 656.3 687.5",
+     "low": 593.8,
+     "medium": 656.3,
+     "high": 687.5
+    },
+    "infrastructure_gbp_kw": {
+     "row": "Infrastructure cost £/kW 6.0 12.0 18.1 6.0 12.0 18.1",
+     "low": 6.0,
+     "medium": 12.0,
+     "high": 18.1
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 13,200 16,500 20,900 12,000 15,000 19,000",
+     "low": 12000.0,
+     "medium": 15000.0,
+     "high": 19000.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 1.8 2.2 2.8 1.8 2.2 2.5",
+     "low": 1.8,
+     "medium": 2.2,
+     "high": 2.5
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 5,000 6,250 8,125 4,000 5,000 6,500",
+     "low": 4000.0,
+     "medium": 5000.0,
+     "high": 6500.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 2,000 6,000 10,000 2,000 6,000 10,000",
+     "low": 2000.0,
+     "medium": 6000.0,
+     "high": 10000.0
+    }
+   }
+  },
+  "mm2010_coal": {
+   "file": "s18d-MottMacDonald_2010_UK_generation_costs.pdf",
+   "page": 96,
+   "table": "Table A.3 Coal Plant - Pulversied fuel, ASC with FGD, Nth of a kind (reference plant with FGD and SCR, p.44)",
+   "price_base": 2009,
+   "eff_basis": "gross_output_lhv",
+   "tech": "coal",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre- licensing, licensing & public enquiry) years 2.8 3.3 4.4 2.5 3.0 4.0",
+     "low": 2.5,
+     "medium": 3.0,
+     "high": 4.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 4.2 4.8 5.4 3.5 4.0 4.5",
+     "low": 3.5,
+     "medium": 4.0,
+     "high": 4.5
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 32.0 36.0 40.0 35.0 40.0 45.0",
+     "low": 35.0,
+     "medium": 40.0,
+     "high": 45.0
+    },
+    "size_mw": {
+     "row": "Gross Power Output MW 1,600 1,600 1,600 1,600 1,600 1,600",
+     "low": 1600.0,
+     "medium": 1600.0,
+     "high": 1600.0
+    },
+    "efficiency": {
+     "row": "Gross Efficiency % 42.9% 43.9% 44.9% 44.0% 45.0% 46.0%",
+     "low": 0.44,
+     "medium": 0.45,
+     "high": 0.46
+    },
+    "auxiliary_power": {
+     "row": "Auxiliary Power % 6.5% 7.0% 7.5% 6.0% 6.5% 7.0%",
+     "low": 0.06,
+     "medium": 0.065,
+     "high": 0.07
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licencing costs, Technical and design £/kW 40.0 60.0 90.0 30.0 40.0 50.0",
+     "low": 30.0,
+     "medium": 40.0,
+     "high": 50.0
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licencing + public enquiry £/kW 40.0 60.0 90.0 30.0 40.0 50.0",
+     "low": 30.0,
+     "medium": 40.0,
+     "high": 50.0
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost £/kW 1,650.0 1,856.3 2,028.1 1,500.0 1,687.5 1,843.8",
+     "low": 1500.0,
+     "medium": 1687.5,
+     "high": 1843.8
+    },
+    "infrastructure_gbp_kw": {
+     "row": "Infrastructure cost £/kW 17.5 21.9 27.3 17.5 21.9 27.3",
+     "low": 17.5,
+     "medium": 21.9,
+     "high": 27.3
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 42,000 50,000 60,000 30,000 38,000 45,000",
+     "low": 30000.0,
+     "medium": 38000.0,
+     "high": 45000.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 2.1 2.4 3.0 1.8 2.0 2.5",
+     "low": 1.8,
+     "medium": 2.0,
+     "high": 2.5
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 10,000 15,000 18,000 9,000 12,000 15,000",
+     "low": 9000.0,
+     "medium": 12000.0,
+     "high": 15000.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 2,000 6,000 10,000 2,000 6,000 10,000",
+     "low": 2000.0,
+     "medium": 6000.0,
+     "high": 10000.0
+    }
+   }
+  },
+  "pb2012_ccgt": {
+   "file": "s18d-PB_2012_nonrenewable.pdf",
+   "page": 40,
+   "table": "Gas - CCGT, Nth of a kind",
+   "price_base": 2012,
+   "eff_basis": "net_lhv",
+   "tech": "ccgt",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre-licensing, licensing & public enquiry) years 2.0 2.3 5.0 2.0 2.3 5.0",
+     "low": 2.0,
+     "medium": 2.3,
+     "high": 5.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 2.0 2.5 3.0 2.0 2.5 3.0",
+     "low": 2.0,
+     "medium": 2.5,
+     "high": 3.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 20.0 30.0 35.0 20.0 30.0 35.0",
+     "low": 20.0,
+     "medium": 30.0,
+     "high": 35.0
+    },
+    "size_mw": {
+     "row": "Net Power Output MW 900 900 900 900 900 900",
+     "low": 900.0,
+     "medium": 900.0,
+     "high": 900.0
+    },
+    "efficiency": {
+     "row": "Net Efficiency % 57.9% 58.8% 60.0% 57.9% 58.8% 60.0%",
+     "low": 0.579,
+     "medium": 0.588,
+     "high": 0.6
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licensing costs, Technical and design £/kW 11.0 12.0 13.0 11.0 12.0 13.0",
+     "low": 11.0,
+     "medium": 12.0,
+     "high": 13.0
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licensing + public enquiry £/kW 0.4 0.4 2.9 0.4 0.4 2.9",
+     "low": 0.4,
+     "medium": 0.4,
+     "high": 2.9
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost (excluding interest during construction) –variability only £/kW 495.1 575.1 655.1 495.1 575.1 655.1",
+     "low": 495.1,
+     "medium": 575.1,
+     "high": 655.1
+    },
+    "infrastructure_gbp_k": {
+     "row": "Infrastructure cost £'000 7,000 14,500 22,000 7,000 14,500 22,000",
+     "low": 7000.0,
+     "medium": 14500.0,
+     "high": 22000.0
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 18,026 18,884 19,742 18,026 18,884 19,742",
+     "low": 18026.0,
+     "medium": 18884.0,
+     "high": 19742.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 0 0 0 0 0 0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 1,485 2,300 3,276 1,485 2,300 3,276",
+     "low": 1485.0,
+     "medium": 2300.0,
+     "high": 3276.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 3,070 3,070 3,070 3,070 3,070 3,070",
+     "low": 3070.0,
+     "medium": 3070.0,
+     "high": 3070.0
+    }
+   }
+  },
+  "pb2012_ocgt": {
+   "file": "s18d-PB_2012_nonrenewable.pdf",
+   "page": 41,
+   "table": "OCGT, Nth of a kind",
+   "price_base": 2012,
+   "eff_basis": "net_lhv",
+   "tech": "ocgt",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre-licensing, licensing & public enquiry) years 1.5 2.1 4.5 1.5 2.1 4.5",
+     "low": 1.5,
+     "medium": 2.1,
+     "high": 4.5
+    },
+    "construction_years": {
+     "row": "Construction Period years 1.7 1.9 2.5 1.7 1.9 2.5",
+     "low": 1.7,
+     "medium": 1.9,
+     "high": 2.5
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 35.0 40.0 45.0 35.0 40.0 45.0",
+     "low": 35.0,
+     "medium": 40.0,
+     "high": 45.0
+    },
+    "size_mw": {
+     "row": "Net Power Output MW 290 290 290 290 290 290",
+     "low": 290.0,
+     "medium": 290.0,
+     "high": 290.0
+    },
+    "efficiency": {
+     "row": "Net Efficiency % 33.3% 35.0% 36.8% 33.3% 35.0% 36.8%",
+     "low": 0.33299999999999996,
+     "medium": 0.35,
+     "high": 0.368
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licensing costs, Technical and design £/kW 16.3 18.9 24.6 16.3 18.9 24.6",
+     "low": 16.3,
+     "medium": 18.9,
+     "high": 24.6
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licensing + public enquiry £/kW 2.0 2.4 3.1 2.0 2.4 3.1",
+     "low": 2.0,
+     "medium": 2.4,
+     "high": 3.1
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost (excluding interest during construction) –variability only £/kW 417.3 472.5 567.0 417.3 472.5 567.0",
+     "low": 417.3,
+     "medium": 472.5,
+     "high": 567.0
+    },
+    "infrastructure_gbp_k": {
+     "row": "Infrastructure cost £'000 7,000 9,050 11,100 7,000 9,050 11,100",
+     "low": 7000.0,
+     "medium": 9050.0,
+     "high": 11100.0
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 18,000 23,000 28,000 18,000 23,000 28,000",
+     "low": 18000.0,
+     "medium": 23000.0,
+     "high": 28000.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 0 0 0 0 0 0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 1,252 1,890 2,835 1,252 1,890 2,835",
+     "low": 1252.0,
+     "medium": 1890.0,
+     "high": 2835.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 1,884 1,884 1,884 1,884 1,884 1,884",
+     "low": 1884.0,
+     "medium": 1884.0,
+     "high": 1884.0
+    }
+   }
+  },
+  "pb2012_coal": {
+   "file": "s18d-PB_2012_nonrenewable.pdf",
+   "page": 45,
+   "table": "Coal - ASC with FGD, Nth of a kind",
+   "price_base": 2012,
+   "eff_basis": "net_lhv",
+   "tech": "coal",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre-licensing, licensing & public enquiry) years 2.0 3.5 5.0 2.0 3.5 5.0",
+     "low": 2.0,
+     "medium": 3.5,
+     "high": 5.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 2.8 3.0 4.0 2.8 3.0 4.0",
+     "low": 2.8,
+     "medium": 3.0,
+     "high": 4.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 25.0 35.0 45.0 25.0 35.0 45.0",
+     "low": 25.0,
+     "medium": 35.0,
+     "high": 45.0
+    },
+    "size_mw": {
+     "row": "Net Power Output MW 1600 1600 1600 1600 1600 1600",
+     "low": 1600.0,
+     "medium": 1600.0,
+     "high": 1600.0
+    },
+    "efficiency": {
+     "row": "Net Efficiency % 41.3% 44.0% 45.0% 41.3% 44.0% 45.0%",
+     "low": 0.413,
+     "medium": 0.44,
+     "high": 0.45
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licensing costs, Technical and design £/kW 20.0 25.0 35.0 16.0 20.0 30.0",
+     "low": 16.0,
+     "medium": 20.0,
+     "high": 30.0
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licensing + public enquiry £/kW 0.2 0.2 1.6 0.2 0.2 1.6",
+     "low": 0.2,
+     "medium": 0.2,
+     "high": 1.6
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost (excluding interest during construction) –variability only £/kW 1450.0 1600.0 1800.0 1450.0 1600.0 1800.0",
+     "low": 1450.0,
+     "medium": 1600.0,
+     "high": 1800.0
+    },
+    "infrastructure_gbp_k": {
+     "row": "Infrastructure cost £'000 0 7,500 15,000 0 7,500 15,000",
+     "low": 0.0,
+     "medium": 7500.0,
+     "high": 15000.0
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 20,000 35,000 50,000 20,000 35,000 50,000",
+     "low": 20000.0,
+     "medium": 35000.0,
+     "high": 50000.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 1 1 1 1 1 1",
+     "low": 1.0,
+     "medium": 1.0,
+     "high": 1.0
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 1,450 2,400 3,600 1,450 2,400 3,600",
+     "low": 1450.0,
+     "medium": 2400.0,
+     "high": 3600.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 4,513 4,513 4,513 4,513 4,513 4,513",
+     "low": 4513.0,
+     "medium": 4513.0,
+     "high": 4513.0
+    }
+   }
+  },
+  "pb2012_scr": {
+   "file": "s18d-PB_2012_nonrenewable.pdf",
+   "page": 46,
+   "table": "Coal - retrofit SCR or NSCR, Nth of a kind (not used: superseded by LF 2016 coal NOx)",
+   "price_base": 2012,
+   "eff_basis": "net_lhv",
+   "tech": "coal_nox",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre-licensing, licensing & public enquiry) years 1.0 2.0 3.0 1.0 2.0 3.0",
+     "low": 1.0,
+     "medium": 2.0,
+     "high": 3.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 0.5 0.8 1.0 0.5 0.8 1.0",
+     "low": 0.5,
+     "medium": 0.8,
+     "high": 1.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 2.0 5.0 15.0 2.0 5.0 15.0",
+     "low": 2.0,
+     "medium": 5.0,
+     "high": 15.0
+    },
+    "size_mw": {
+     "row": "Net Power Output MW 988 988 988 988 988 988",
+     "low": 988.0,
+     "medium": 988.0,
+     "high": 988.0
+    },
+    "efficiency": {
+     "row": "Net Efficiency % 32.0% 34.0% 36.0% 32.0% 34.0% 36.0%",
+     "low": 0.32,
+     "medium": 0.34,
+     "high": 0.36
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licensing costs, Technical and design £/kW 0.0 0.1 0.1 0.0 0.1 0.1",
+     "low": 0.0,
+     "medium": 0.1,
+     "high": 0.1
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licensing + public enquiry £/kW 0.0 0.0 0.0 0.0 0.0 0.0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost (excluding interest during construction) –variability only £/kW 22.2 56.5 143.6 22.2 56.5 143.6",
+     "low": 22.2,
+     "medium": 56.5,
+     "high": 143.6
+    },
+    "infrastructure_gbp_k": {
+     "row": "Infrastructure cost £'000 0 0 0 0 0 0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 120 240 360 120 240 360",
+     "low": 120.0,
+     "medium": 240.0,
+     "high": 360.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 0 0 0 0 0 0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 0 0 0 0 0 0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 0 0 0 0 0 0",
+     "low": 0.0,
+     "medium": 0.0,
+     "high": 0.0
+    }
+   }
+  },
+  "pb2013_ccgt": {
+   "file": "s18d-PB_2013_nonrenewable.pdf",
+   "page": 37,
+   "table": "Gas - CCGT (single NOAK set)",
+   "price_base": 2012,
+   "eff_basis": "net_lhv",
+   "tech": "ccgt",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre-licensing, licensing & public enquiry) years 2.0 2.3 5.0",
+     "low": 2.0,
+     "medium": 2.3,
+     "high": 5.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 2.0 2.5 3.0",
+     "low": 2.0,
+     "medium": 2.5,
+     "high": 3.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 20.0 25.0 35.0",
+     "low": 20.0,
+     "medium": 25.0,
+     "high": 35.0
+    },
+    "size_mw": {
+     "row": "Net Power Output MW 900 900 900",
+     "low": 900.0,
+     "medium": 900.0,
+     "high": 900.0
+    },
+    "efficiency": {
+     "row": "Net LHV Efficiency % 57.4% 58.8% 60.0%",
+     "low": 0.574,
+     "medium": 0.588,
+     "high": 0.6
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licencing costs, Technical and design £/kW 6.0 12.0 15.0",
+     "low": 6.0,
+     "medium": 12.0,
+     "high": 15.0
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licencing + public enquiry £/kW 0.36 0.42 4.00",
+     "low": 0.36,
+     "medium": 0.42,
+     "high": 4.0
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost (excluding interest during construction) – variability only £/kW 490 569 648",
+     "low": 490.0,
+     "medium": 569.0,
+     "high": 648.0
+    },
+    "infrastructure_gbp_k": {
+     "row": "Infrastructure cost £'000 7,000 17,500 36,000",
+     "low": 7000.0,
+     "medium": 17500.0,
+     "high": 36000.0
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 18,026 21,954 25,882",
+     "low": 18026.0,
+     "medium": 21954.0,
+     "high": 25882.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 0.00 0.08 0.15",
+     "low": 0.0,
+     "medium": 0.08,
+     "high": 0.15
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 930 1,992 3,276",
+     "low": 930.0,
+     "medium": 1992.0,
+     "high": 3276.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 6,842 6,842 6,842",
+     "low": 6842.0,
+     "medium": 6842.0,
+     "high": 6842.0
+    }
+   }
+  },
+  "pb2013_ocgt": {
+   "file": "s18d-PB_2013_nonrenewable.pdf",
+   "page": 52,
+   "table": "OCGT (single NOAK set)",
+   "price_base": 2012,
+   "eff_basis": "net_lhv",
+   "tech": "ocgt",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period (including pre-licensing, licensing & public enquiry) years 1.5 1.8 4.5",
+     "low": 1.5,
+     "medium": 1.8,
+     "high": 4.5
+    },
+    "construction_years": {
+     "row": "Construction Period years 1.5 1.8 2.0",
+     "low": 1.5,
+     "medium": 1.8,
+     "high": 2.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 20.0 25.0 35.0",
+     "low": 20.0,
+     "medium": 25.0,
+     "high": 35.0
+    },
+    "size_mw": {
+     "row": "Net Power Output MW 561 565 608",
+     "low": 561.0,
+     "medium": 565.0,
+     "high": 608.0
+    },
+    "efficiency": {
+     "row": "Net LHV Efficiency % 37.3% 39.0% 39.1%",
+     "low": 0.373,
+     "medium": 0.39,
+     "high": 0.391
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licencing costs, Technical and design £/kW 16.3 18.9 24.6",
+     "low": 16.3,
+     "medium": 18.9,
+     "high": 24.6
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licencing + public enquiry £/kW 2.00 2.40 3.10",
+     "low": 2.0,
+     "medium": 2.4,
+     "high": 3.1
+    },
+    "epc_gbp_kw": {
+     "row": "EPC cost (excluding interest during construction) – variability only £/kW 218 274 330",
+     "low": 218.0,
+     "medium": 274.0,
+     "high": 330.0
+    },
+    "infrastructure_gbp_k": {
+     "row": "Infrastructure cost £'000 7,000 9,050 11,100",
+     "low": 7000.0,
+     "medium": 9050.0,
+     "high": 11100.0
+    },
+    "fixed_om_gbp_mw_yr": {
+     "row": "O&M fixed fee £/MW/yr 8,112 9,879 11,647",
+     "low": 8112.0,
+     "medium": 9879.0,
+     "high": 11647.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £/MWh 0.00 0.03 0.07",
+     "low": 0.0,
+     "medium": 0.03,
+     "high": 0.07
+    },
+    "insurance_gbp_mw_yr": {
+     "row": "Insurance £/MW/yr 414 959 1,667",
+     "low": 414.0,
+     "medium": 959.0,
+     "high": 1667.0
+    },
+    "connection_uos_gbp_mw_yr": {
+     "row": "Connection and UoS charges £/MW/yr 3,440 3,440 3,440",
+     "low": 3440.0,
+     "medium": 3440.0,
+     "high": 3440.0
+    }
+   }
+  },
+  "lf2016_coal_nox": {
+   "file": "s18d-LeighFisher_Jacobs_2016_nonrenewable.pdf",
+   "page": 152,
+   "table": "Appendix L Coal NOx abatement, Nth of a kind",
+   "price_base": 2014,
+   "eff_basis": "net_lhv",
+   "tech": "coal_nox",
+   "rows": {
+    "predev_years": {
+     "row": "Total Pre-development Period years 0.8 1.4 2.0 0.8 1.4 2.0",
+     "low": 0.8,
+     "medium": 1.4,
+     "high": 2.0
+    },
+    "construction_years": {
+     "row": "Construction Period years 1 1.5 4.0 0.8 1.4 2.0",
+     "low": 0.8,
+     "medium": 1.4,
+     "high": 2.0
+    },
+    "life_years": {
+     "row": "Plant Operating Period years 10.0 15.0 20.0 10.0 15.0 20.0",
+     "low": 10.0,
+     "medium": 15.0,
+     "high": 20.0
+    },
+    "prelicensing_gbp_kw": {
+     "row": "Pre-licensing costs, Technical and design £/kW 2.38 3.13 4.63 2.38 3.13 4.63",
+     "low": 2.38,
+     "medium": 3.13,
+     "high": 4.63
+    },
+    "regulatory_gbp_kw": {
+     "row": "Regulatory + licensing + public enquiry £/kW 2.38 3.13 4.63 2.38 3.13 4.63",
+     "low": 2.38,
+     "medium": 3.13,
+     "high": 4.63
+    },
+    "epc_gbp_kw": {
+     "row": "Capital cost (excluding interest during construction) £/kW 95 125 185 95 125 185",
+     "low": 95.0,
+     "medium": 125.0,
+     "high": 185.0
+    },
+    "variable_om_gbp_mwh": {
+     "row": "O&M variable fee £ / MWh 0.8 0.8 0.8 0.8 0.8 0.8",
+     "low": 0.8,
+     "medium": 0.8,
+     "high": 0.8
+    }
+   }
+  }
+ }
+}

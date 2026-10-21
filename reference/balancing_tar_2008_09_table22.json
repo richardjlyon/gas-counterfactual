@@ -1,0 +1,27 @@
+{
+ "_about": "Hand-entered from Ofgem, Transmission Annual Report for 2008-09 (Ref 48/10), Table 22 - NGET Revenue Summary, PDF p.38: the two balancing-cost rows the BSUoS-basis gross-up factor is computed from (ticket 48; EIC ruling 17 Oct 2026 18:50, after pass 5; file ruled .json, Richard 18 Oct 2026). Each row quotes the stored PDF (whitespace collapsed); tests/test_balancing.py hashes data/raw/ofgem_s18b/transmission_annual_report_final.pdf against each row's sha256 and checks every quote against page 38's text (pdftotext -layout -f 38 -l 38), and the factor against balancing.tar_balancing(). Not figures keys, not sourced keys: reference rows that let the fact-checker trace the factor.",
+ "rows": {
+  "tar_2008_09_t22_balancing_external_2007_08": {
+   "value": 569.85,
+   "units": "£m, cash",
+   "period": "FY2007/08",
+   "document": "Ofgem, Transmission Annual Report for 2008-09 (Ref 48/10)",
+   "file": "ofgem_s18b/transmission_annual_report_final.pdf",
+   "sha256": "fa75836ef9784fe621a3ed9a1614e028bcd8170f38d3659aca02a8a9a77837d0",
+   "page": 38,
+   "table": "Table 22 - NGET Revenue Summary",
+   "quote": "Balancing External 569.85 907.68 337.82 59%"
+  },
+  "tar_2008_09_t22_balancing_internal_2007_08": {
+   "value": 112.92,
+   "units": "£m, cash",
+   "period": "FY2007/08",
+   "document": "Ofgem, Transmission Annual Report for 2008-09 (Ref 48/10)",
+   "file": "ofgem_s18b/transmission_annual_report_final.pdf",
+   "sha256": "fa75836ef9784fe621a3ed9a1614e028bcd8170f38d3659aca02a8a9a77837d0",
+   "page": 38,
+   "table": "Table 22 - NGET Revenue Summary",
+   "quote": "Balancing Internal 112.92 99.32 -13.60 -12%"
+  }
+ }
+}

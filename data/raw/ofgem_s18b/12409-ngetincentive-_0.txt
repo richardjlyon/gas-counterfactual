@@ -1,0 +1,208 @@
+                                                                    National Grid House
+                                                                    Warwick Technology Park
+                                                                    Gallows Hill, Warwick
+                                                                    CV34 6DA
+
+
+
+
+                               National Grid Electricity Transmission
+                               System Operator Incentive Performance
+
+Background
+
+National Grid Electricity Transmission has been subject to financial incentives, as
+System Operator, since 1994. Following NETA Go-Live in March 2001, this
+arrangement has been articulated within the Transmission Licence as the Balancing
+Services Incentive Scheme (BSIS). The costs concerned are those of operating the
+Balancing Mechanism, all Balancing Services contracts, an adjustment to
+compensate for the net length or imbalance of the system, and a notional cost of
+transmission losses.
+
+National Grid Electricity Transmission’s existing System Operator incentive scheme
+applies to our role as GB System Operator. In our role as System Operator we are
+responsible for the efficient, economic and co-ordinated operation of the GB
+transmission system, in particular:
+
+
+     §    Ensuring that the electricity transmission system in kept in energy balance
+          minute by minute
+
+     §    Planning and operating the transmission system in order to optimise the
+          available transmission capacity in line with statutory security and reliability
+          requirements
+
+Both of these activity areas require the procurement of balancing services. The costs
+of these services are currently handled under the Balancing Services Incentive
+Scheme.
+
+We have consistently managed these costs to the positive benefit of end consumers.
+
+
+
+
+National Grid is a trading name for:              1
+National Grid Electricity Transmission plc
+Registered Office: 1-3 Strand, London WC2N 5EH
+Registered in England and Wales, No 2366977
+                                                                                          National Grid House
+                                                                                          Warwick Technology Park
+                                                                                          Gallows Hill, Warwick
+                                                                                          CV34 6DA
+
+
+
+
+Parameters of the scheme
+
+The parameters of the scheme were as follows:
+
+ Parameter              2001/02                  2002/03           2003/04         2004/05               2005/06
+                        scheme                   scheme            scheme          scheme                scheme
+
+    Target            £484.6 million £460million               £416 million      £415 million        £377.5 million
+
+
+
+  Upside                   40%                    60%                50%             40%                   40%
+  sharing
+   factor
+ Downside                  12%                    50%                50%             40%                   20%
+  sharing
+   factor
+    Cap               £46.3million           £60 million       £40 million        £40 million          £40 million
+
+
+     Floor            -£15.4 million -£45 million              -£40 million      -£40 million          -£20 million
+
+
+
+
+Historical performance
+
+The following table highlights National Grid Electricity Transmission’s performance
+under each incentive scheme based on money of the day.
+
+      Parameter             2001/2002 scheme               2002/2003         2003/2004 scheme           2004/2005
+                                  (£m)                      Scheme                 (£m)                  scheme
+                                                             (£m)                                         (£m)
+      Target IBC               484.6 to 514.4                460.0                416.0                   415.0
+
+
+     Outturn IBC                    365.6                    379.0                351.5                    384.1
+
+
+   Cost difference                  119.0                    81.0                  64.5                    30.9
+    (overrun) vs.
+       target
+   National Grid’s                   46.3                    48.6                  32.2                     7.7
+ incentive payment
+
+
+
+
+National Grid is a trading name for:                           2
+National Grid Electricity Transmission plc
+Registered Office: 1-3 Strand, London WC2N 5EH
+Registered in England and Wales, No 2366977
+                                                                  National Grid House
+                                                                  Warwick Technology Park
+                                                                  Gallows Hill, Warwick
+                                                                  CV34 6DA
+
+
+
+
+     §    Performance to date
+
+2001/2002
+
+During the period 2001/2002 the total incentivised balancing cost out turned at £119
+million lower than the target.
+
+In the first year under NETA, National Grid Electricity Transmission deplo yed a wide
+range of methods and processes to optimise balancing costs. The principal reasons
+for the out performance can be attributed the employment of a number of operational
+and commercial strategies to deliver savings in the operation of the system. In
+particular, the following:
+
+•    In relation to Fast Reserve and Frequency Response: To encourage new
+     providers and increased competition, a tender process was put in place from
+     October 2001 for the procurement of Fast Reserve. We introduced a new
+     demand-side response service to increase our procurement options and
+     maximise economic and efficient procurement of Frequency Response.
+•    To maximise the availability of transmission capacity, we developed and
+     employed innovative circuit thermal rating monitoring, on certain cables and
+     overhead lines, to help minimise constraint costs.
+•    In addition, we also continued to develop and employ revised operational
+     strategies in relation to our switching arrangements and operation of the system
+     to optimise flows on the Transmission System and minimise constraint costs.
+•    Go-Live saw the establishment of an entirely new trading activity within the
+     company. This enhanced our suite of balancing tools and opportunities for
+     efficiency. In particular forward trading allowed Nationa l Grid to purchase and sell
+     energy at more advantageous prices than the BM.
+
+2002/2003
+
+During the period 2002/2003 the total incentivised balancing cost out turned at £81
+million lower than the target. The principal reasons for the out performance can be
+attributed to the following:
+
+•    The use of a number of innovative constraint contracts and strategies to help
+     minimise constraint management costs.
+•    Development of new contracts and expansion of service provider base, including
+     demand-side, to increase competition for provision of services – particularly in
+     Frequency Response and Standing Reserve.
+•    Additional system re-inforcements delivered through TS-capex.
+•    Enhanced forward trading performance as a result of developments to our
+     forward trading strategy.
+
+National Grid is a trading name for:             3
+National Grid Electricity Transmission plc
+Registered Office: 1-3 Strand, London WC2N 5EH
+Registered in England and Wales, No 2366977
+                                                                National Grid House
+                                                                Warwick Technology Park
+                                                                Gallows Hill, Warwick
+                                                                CV34 6DA
+
+
+
+
+2003/2004
+
+During the period 2003/2004 the total incentivised balancing cost out turned at £64.5
+million lower than the target. The principal reasons for the out performance can be
+attributed to the following:
+
+•    The continued re-optimisation of balancing services use to minimise cost and
+     optimise dispatch across all balancing services
+•    Development of new analysis and strategies to continue to deliver optimal
+     holdings in relation to the use and dispatch of Response in line with system
+     requirements
+•    Continued development of our analytical techniques to ensure optimal calculation
+     and dispatch of Operating Reserve requirements. .
+•    Continued development of trading and contracting strategies led to savings both
+     for Energy and constraint reasons.
+
+2004/2005
+
+During the period 2004/2005 the total incentivised balancing cost out turned at £30.9
+million lower than the target. The principal reasons for the out performance can be
+attributed to the following:
+
+•    Further refinement of calculation and dispatch of Operati ng Reserve
+     Requirements.
+•    Success in attracting new balancing services provision for Ancillary services such
+     as Fast Reserve and Standing Reserve.
+•    System re-switches, enhanced ratings, outage management and contracting
+     strategies to minimise constraint costs.
+
+
+
+
+National Grid is a trading name for:             4
+National Grid Electricity Transmission plc
+Registered Office: 1-3 Strand, London WC2N 5EH
+Registered in England and Wales, No 2366977
+

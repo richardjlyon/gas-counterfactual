@@ -1,0 +1,2235 @@
+                             EXPLANATORY MEMORANDUM TO
+
+ THE ELECTRICITY & GAS (COMMUNITY ENERGY SAVING PROGRAMME) ORDER 2009
+
+                                              2009 No.
+
+
+1.   This explanatory memorandum has been prepared by the Department of Energy and Climate
+     Change and is laid before Parliament by Command of Her Majesty.
+
+     This memorandum contains information for the Joint Committee on Statutory Instruments.
+
+2.   Purpose of the instrument
+     2.1     The Order places an obligation on electricity and gas suppliers who have 50,000 or more
+     domestic customers and on electricity generators who have generated 10TWh/yr or more of
+     electricity in specified years to achieve a carbon emissions reduction obligation. The obligation
+     must be achieved by promoting particular types of (energy efficiency) actions to domestic energy
+     users in areas of low income. The Order is administered and enforced by the Office for Gas and
+     Electricity Markets (Ofgem).
+
+3.   Matters of special interest to the Joint Committee on Statutory Instruments
+
+     3.1     The Electricity and Gas (Carbon Emissions Reduction) Order 2008 (“the CERT Order”)
+     requires electricity and gas suppliers to achieve a carbon emissions reduction target set by the
+     Secretary of State for Energy and Climate Change. The Climate Change Act 2000 amended the Gas
+     Act 1986, the Electricity Act 1989 and the Utilities Act 2000 to allow the Secretary of State to
+     impose an obligation on electricity generators and to prescribe the areas in which energy efficiency
+     measures should be promoted as part of achieving the carbon emissions reduction target. Other
+     consequential amendments were made to allow the Secretary of State to place more than one
+     obligation on energy suppliers and electricity generators simultaneously.
+
+     3.2     As stated above, the CERT Order already requires energy suppliers to reduce the carbon
+     emissions of domestic energy customers by promoting energy efficiency/carbon saving measures.
+     The Electricity and Gas (Community Energy Saving Programme) Order 2009 (“the CESP Order”)
+     adds to this obligation for those energy suppliers with more than 50,000 domestic customers and
+     introduces an obligation for defined electricity generators to meet an additional carbon emissions
+     reduction target.
+
+     3.3    The CESP Order is subject to the affirmative resolution procedure.
+
+
+
+4.   Legislative Context
+
+     4.1     The CESP Order is being made to place a new obligation on energy suppliers and defined
+     electricity generators to reduce CO2 emissions by offering energy efficiency and small-scale
+     generation measures to domestic energy users in specified areas of low income throughout Great
+     Britain.
+
+5.   Territorial Extent and Application
+
+     5.1    This instrument applies to Great Britain.
+
+                                               Page | 1
+6.     European Convention on Human Rights
+
+       The Secretary of State for Energy and Climate Change has made the following statement regarding
+       Human Rights:
+
+        ‘In my view the provisions of the Electricity and Gas (Community Energy Saving Programme)
+        Order 2009 are compatible with the Convention rights.’
+
+
+7.     Policy background
+
+     7.1      On 11 September 2008 the Prime Minister announced the launch of the £1bn Home Energy
+     Saving Programme aimed at helping families to cut their energy bills permanently. A key part of the
+     announcement was the creation of a new Community Energy Saving Programme (CESP).
+
+     7.2       CESP will offer those households in the areas of lowest income in Great Britain (namely
+     those which fall within the lowest 10% of the income domain of the Index of Multiple Deprivation
+     (IMD), or 15% in Scotland and Wales), measures to improve energy efficiency standards and
+     permanently reduce fuel bills. CESP is designed to promote a ‘whole house’ approach (i.e. a package
+     of measures specific to the particular home), delivered house by house and street by street. It is
+     intended that CESP will be delivered through community-based partnerships involving local
+     authorities and other community organisations working with energy suppliers and electricity
+     generators to identify target communities. Partnership working will allow CESP to be implemented in
+     a way that is best suited to individual communities and coordinated with existing energy efficiency
+     and other community based initiatives.
+
+     7.3       CESP measures will be funded by an additional obligation on energy suppliers and a new
+     obligation on electricity generators. We estimate around 100 schemes will be funded, assisting
+     around 90,000 homes, and delivering a saving of around 3m tonnes of CO2 emissions. By focussing
+     on areas of low income it will also help reduce fuel bills for many households in fuel poverty.
+
+
+8.     Consultation
+
+     8.1       On 12 February 2009 the Department of Energy and Climate Change and the Department
+     for Communities & Local Government launched a 12 week joint consultation on proposals for CESP.
+     This was supported by a series of six road shows held around the country in March 2009. Nearly 500
+     stakeholders attended these workshops. 183 written responses were received to the consultation
+     document from a range of stakeholders including obligated companies, Local Authorities, and third
+     sector organisations. Those responding to the consultation generally supported the aims, nature and
+     design of the CESP proposals. In particular they welcomed the open manner in which the consultation
+     had been conducted. A summary of responses will be published on 30 June 2009.
+     8.2       There are several issues in the CESP Order which merit further explanation. Firstly, CESP
+     places an obligation on electricity generators for the first time. In response, generators (particularly
+     ‘independents’ who have no domestic customer base) have argued that their costs to deliver CESP
+     would be disproportionate. The consultation proposal was to allow the obligated companies (both
+     suppliers and generators) the option of trading away up to 75% of their individual obligation. In order
+     to allow suppliers and generators greater flexibility in managing their obligations, but at the same time
+     retaining a responsibility and contribution under CESP, the trading option has been increased to 100%
+     following consultation.
+
+
+
+                                                   Page | 2
+      8.3       One of CESP’s aims is to target areas of low income across Great Britain. To achieve this a
+      simple, clear methodology was needed to identify these areas. As noted in paragraph 7.2 the IMD was
+      adopted for this purpose. This ranks areas according to a number of different indicators and CESP will
+      use the lowest income subset to target areas of low income. This will unavoidably limit the number
+      and geographic spread of properties being eligible for CESP but, as acknowledged by the majority of
+      consultees, using the IMD indicator provides a transparent, objective and simple way of targeting
+      CESP.
+
+      8.4       As noted at paragraph 7.2, to meet its objectives CESP will be community based and deliver
+      a whole house approach. The Order contains a scoring mechanism setting out incentives to ensure that
+      the CESP policy objectives are delivered. Energy suppliers and electricity generators will be set an
+      overall carbon savings obligation by Ofgem. The scoring mechanism allows these parties to score
+      carbon points and achieve bonuses by delivering particular measures e.g. for two or more measures
+      delivered in a single home to promote the whole house approach; there are also bonuses for the
+      number of homes reached in a particular area. To underpin the whole house approach, target harder to
+      treat homes and avoid overlap with other energy efficiency initiatives a number of certain measures
+      delivered will be capped, i.e. cavity wall insulation at 4% of a company’s obligation and loft
+      insulation at 4% as both these measures are already delivered through CERT (see paragraph 3.2).
+      Home energy advice packages will also be capped at 1% of an obligation to avoid any impact on the
+      delivery of more expensive physical measures e.g. solid wall insulation.
+
+      8.5        We intend for the Order to come into force on 1 September 2009 and obligated companies
+      will be required to report their level of electricity generation or domestic supplier numbers for the
+      period 1st January 2008 to 31st December 2008 to Ofgem by 14 September 2009. Through the
+      consultation process the relevant companies who are likely to fall within the scope of the obligation
+      are fully aware of the timescales involved for the proposed commencement of CESP and the
+      notification arrangements. Equally, we have been working closely with Ofgem who are also aware of
+      the requirements of the Order and what will be required by way of administration.
+
+9.      Guidance
+
+        9.1    Non-statutory guidance for obligated parties will be published by Ofgem in late Autumn.
+        This will be subject to formal consultation from August 2009.
+
+        9.2    Copies of the published guidance will be circulated to all energy suppliers and generators
+         and other key stakeholders and will be available free of charge on Ofgem’s and the Department’s
+         website.
+
+10.     Impact
+
+        10.1 An Impact Assessment is attached to this memorandum. This shows that the costs to
+        energy suppliers and electricity generators of delivering CESP measures is likely to total around
+        £350m.
+
+        10.2 The Impact Assessment shows that the benefits of CESP are likely to include fuel bill
+        savings for about 90,000 participating households (totalling £37m pa). Other key benefits are
+        likely to include publicity for suppliers, generators and participating community groups; increased
+        environmental awareness at community level; improved performance ratings for local authorities
+        and lasting removal of around 30-40,000 households from fuel poverty.
+
+11.     Regulating small business
+
+
+
+                                                   Page | 3
+       11.1   The legislation does not apply to small businesses.
+
+12.    Monitoring & review
+
+12.1   Monitoring of CESP will be undertaken throughout the duration of the scheme, and an evaluation
+       will be published in 2012. This will gauge the level of success both of the outputs and the delivery
+       process of the programme. Key points of evaluation will include whether customer fuel bills were
+       reduced as a result; whether the targeting criteria was useful in achieving the objectives of the
+       scheme; and how successfully CESP interacted with other energy efficiency schemes. This will be
+       used to inform future policies as they are developed and implemented.
+
+13.    Contact
+
+       Steve Ives at the Department of Energy and Climate Change Tel: 0300 068 5068 or email:
+       steve.ives@decc.gsi.gov.uk can answer any queries regarding the instrument.
+
+
+
+
+                                                  Page | 4
+                                     Summary: Intervention & Options
+
+Department /Agency:                       Title:
+DECC                                      Impact Assessment of proposals for implementation of the
+                                          Community Energy Saving Programme (CESP)
+
+Stage: Final                              Version: 3.1                       Date: 29 May 2009
+Related Publications: CESP Consultation Document & summary of responses [to be published late June];
+CERT Uplift Consultation Document; Heat and Energy Saving Consultation Document; Climate Change
+Bill Amendment Impact Assessment
+Available to view or download at: www.decc.gov.uk/consultations
+
+Contact for enquiries: Steve Ives                                          Telephone: 0300 068 5068
+
+What is the problem under consideration? Why is government intervention necessary?
+The Energy White Paper (2007) set out the long-term energy challenges we face, which include tackling climate
+change by reducing greenhouse gas (GHG) emissions, and ensuring affordable energy. The Climate Change Act
+2008 established a long term target for an 80% reduction in UK net GHG emissions by 2050 and a system of
+legally binding five year carbon budgets. In the third carbon budget period (2018 – 2022), the UK has
+committed to reduce its net emissions of GHGs to at least 34% below 1990 levels. Improving household energy
+efficiency can help meet both challenges, reducing GHG emissions and reducing energy bills. However there
+are market failures and barriers with respect to the uptake of energy efficiency measures in homes. Government
+intervention which addresses these can improve overall welfare.
+
+The Community Energy Saving Programme (CESP) is particularly focussed on barriers to the uptake of energy
+efficiency measures in low income areas and hard to treat homes. In these homes, there are barriers to
+implementing energy efficiency measures for householders including lack of capital, awareness, hidden costs
+and landlord/tenant split incentives. Energy suppliers are incentivised to focus on delivering less costly
+measures in other areas through other existing obligations on suppliers. CESP will address the dual market
+failures of negative externalities and information asymmetries.
+
+
+
+
+What are the policy objectives and the intended effects? The Community Energy Savings Programme has the
+twin objective of significantly reducing the fuel bills of some of those living in deprived areas (proposed to be
+defined as Super Output Areas in bottom decile of the income domain of the Indices of Multiple Deprivation);
+and contributing to the improvement of the energy efficiency of the existing housing stock in order to reduce the
+UK’s GHG emissions.
+
+
+
+
+                                                     Page | 5
+ What policy options have been considered? Please justify any preferred option.
+ Four options were included in the partial Impact Assessment (IA) which accompanied the consultation document,
+including the ‘do nothing’ option as a comparator. The Government’s preferred option, the ‘Community
+approach’, was supported by the vast majority of consultees. The other two options, the ‘prescriptive approach’
+and the flexible approach are therefore not covered in this final IA. However a number of aspects of the flexible
+approach are common with the Community approach.
+
+
+
+ When will the policy be reviewed to establish the actual costs and benefits and the achievement of the desired
+ effects?
+ The policy will be formally reviewed at the end of the programme period. Interim reports will be made available
+ during the programme period.
+ Ministerial Sign-off:
+       I have read the Impact Assessment and I am satisfied that, given the available evidence, it
+       represents a reasonable view of the likely costs, benefits and impact of the leading options.
+ Signed by the responsible Minister:
+      Joan Ruddock............................................................................... Date: 29 June 2009
+
+
+
+
+                                                                      Page | 6
+                 Summary: Analysis & Evidence
+
+Policy Option: 1                    Description: New obligation – community approach
+
+                  ANNUAL COSTS               Description and scale of key monetised costs by ‘main
+                                             affected groups’
+             One-off (Transition)      Yrs
+                                             Cost to energy suppliers and electricity generators of delivering CESP
+             £ 400 000+                 1    measures, which may be passed on to customers, £311 million; Costs
+  COSTS
+
+
+
+
+             Average Annual Cost             to other parties that will be levered in by suppliers and generators, £65
+             (excluding one-off)             million
+             £ 130 million              3                             Total Cost (PV) £ 365 million
+             Other key non-monetised costs by ‘main affected groups’ Hidden costs to householders, e.g. hassle
+             and time costs; administrative costs on participating community groups.
+
+                 ANNUAL BENEFITS             Description and scale of key monetised benefits by ‘main
+                                             affected groups’
+             One-off                   Yrs
+                                             Energy savings for about 90,000 participating households; totalling
+             £                               £313 million over lifetime of measures, thermal comfort equates to
+  BENEFITS
+
+
+
+
+             Average Annual Benefit          £110 million; lifetime carbon savings of ca 2.9 MtCO2 valued at £63
+             (excluding one-off)             million.
+             £ 18 million              40                          Total Benefit (PV) £ 487 million
+            Other key non-monetised benefits by ‘main affected groups’ Publicity for suppliers, generators and
+            participating community groups; increased environmental awareness at community level; improved
+            performance ratings for local authorities; lasting removal of around 30-40,000 households from fuel
+            poverty
+Key Assumptions/Sensitivities/Risks The Government’s approach to carbon valuation is currently under
+review; this IA uses the current Shadow Price of Carbon to value the carbon savings generated by the policy; new
+values, to be published shortly, will affect the value of the benefits of CESP. We cannot be sure Suppliers and
+Generators will deliver measures in the way our illustrative mix intends. If another way is found the carbon
+savings may change (See annex D: Key assumptions/sensitivities/risks)
+Price Base              Time Period       Net Benefit Range (NPV)               NET BENEFIT (NPV Best
+Year 2009               Years 3           £ see Annex D                         estimate)
+What is the geographic coverage of the policy/option?                                      GB
+On what date will the policy be implemented?                                               Autumn 2009
+Which organisation(s) will enforce the policy?                                             Ofgem
+What is the total annual cost of enforcement for these organisations?                      £ 350,000
+Does enforcement comply with Hampton principles?                                           Yes
+Will implementation go beyond minimum EU requirements?                                     N/A
+What is the value of the proposed offsetting measure per year?                             N/A
+What is the value of changes in greenhouse gas emissions?                                  £63 million
+Will the proposal have a significant impact on competition?                                No
+Annual cost (£-£) per organisation                             Micro          Small        Medium      Large
+(excluding one off)                                            0              0                   0    0
+Are any of these organisations exempt?                            Yes           Yes           N/A          N/A
+Impact on Admin Burdens Baseline (2005 Prices)                                              (Increase - Decrease)
+Increase of       £               Decrease of £                            Net Impact       £
+
+
+                                                        Page | 7
+                               Evidence Base (for summary sheets)
+
+
+
+A short interpretative note on the summary tables is provided at Annex F
+
+Strategic Overview
+
+1       As a direct response to the challenge of climate change and energy price rises, the Prime Minister
+announced on 11 September 20081 proposals for £1 billion worth of measures to help families on middle
+and modest incomes to cut their energy bills. This included proposals for a new Community Energy
+Savings Programme (CESP), delivered by energy suppliers and electricity generators, delivering around
+£350m worth of measures to improve the energy efficiency of homes in low income areas through a
+community partnership approach. CESP will be complementary to existing initiatives that deliver energy
+efficiency measures to households.
+
+Other related programmes
+
+2       The Carbon Emission Reduction Target (CERT) is an obligation on energy suppliers to achieve
+targets for promoting reductions in carbon emissions in the household sector. It is the principal driver of
+energy efficiency improvements in homes in Great Britain. Warm Front, the Home Energy Efficiency
+Scheme and the Warm Deal and Central Heating Programme are all complementary programmes,
+delivering energy efficiency measures to help tackle fuel poverty in England, Wales and Scotland
+respectively. Decent Homes is a scheme designed to ensure all social sector housing in England meets a
+certain standard (including, and also going beyond, energy efficiency). Scottish and Welsh Housing
+Quality Standard, the Welsh National Energy Efficiency and Savings Plan, and the Scottish Energy
+Assistance Package are similar schemes. The Low Carbon Buildings Programme, the Community Energy
+Efficiency Fund and Green Neighbourhoods are also community based schemes that help build
+infrastructure to assist local groups to install energy efficiency measures in their own area.
+
+3       It is important that CESP takes account of and builds on these initiatives. For example, CESP is
+based on the CERT legislative model, but is designed to deliver where CERT generally will not. CESP will
+use community partnerships to treat large numbers of homes within a given area, rather than focusing on
+the most cost efficient CO2 reductions which are delivered under CERT. While CERT has a priority group
+to help target the most fuel poor, CESP will go further by focusing delivery in income deprived areas and
+often in “hard to treat” homes.
+
+4       More generally by following a community approach local partners should be encouraged to use
+their expertise on the ground to look for synergies with these and other programmes and ensure CESP
+dovetails with related initiatives. The community approach is designed to enable this. Sixty-eight per cent
+of those responding to the CESP consultation supported this approach.
+
+5       In developing its proposals for CESP the Government has engaged with stakeholders including
+suppliers, generators and other organisations with interests in energy efficiency, emissions reductions, fuel
+poverty and the environment. The Government held a stakeholder event in November 2008, with the
+support of the Energy Efficiency Partnership for Homes, which received contributions from a wide range
+of stakeholders. In addition, during March & April 2009, the Government held six national road shows to
+gather views on the proposals set out in the consultation document and inform the final policy decisions.
+
+The issue
+
+
+1
+    www.number10.gov.uk/Page16807
+
+                                                   Page | 8
+6       The Energy White Paper of 2007 set out the long-term energy challenges we face, which include
+tackling climate change by reducing carbon dioxide emissions, and ensuring secure, clean and affordable
+energy. Reducing energy demand and associated emissions from homes in the existing housing stock is an
+important part of this. The Climate Change Act 2008 aims to help the UK’s transition towards a low carbon
+economy and demonstrates UK leadership. The Act specifies legally binding targets for greenhouse gas
+emission reductions through action in the UK and abroad of at least 80% by 2050 compared to 1990. A
+carbon budgeting system, which caps emissions over five year periods with three budgets set at a time, sets
+out our trajectory to 2050. The first three carbon budgets run from 2008-12, 2013-17 and 2018-22. In the
+third carbon budget period (2018 – 2022) the UK has committed to reduce its net emissions of GHGs to at
+least 34% below 1990 levels. The Government must lay a report before parliament that details its policies
+and proposals to meet the first three budgets and will meet this obligation this summer.
+
+7       Energy prices have also risen significantly over the recent period. This has led to growing concern
+both at the number of people who are likely to be falling into fuel poverty (as technically defined), and
+more generally at the difficulties many households face in managing their fuel bills.
+
+8        The challenges of climate change and affordable energy can be addressed together, through
+improving the energy efficiency of the existing housing stock, to reduce both carbon emissions and fuel
+bills. Government intervention has begun to address this twin challenge through the past Energy Efficiency
+Commitment (EEC, EEC2) programmes and the current Carbon Emissions Reduction Target (CERT)
+programme, which placed obligations on energy suppliers to promote energy efficiency measures in their
+customers’ homes. The EEC and CERT programmes focused on delivering the most cost effective carbon
+emissions savings. EEC2 delivering an estimated 72.6 MtCO2 over the lifetime of the measures installed
+and CERT is expected to deliver 154 MtCO2 (or 184 MtCO2 with the proposed target increase), again over
+the lifetime of the measures installed. However, barriers remain to the uptake of energy efficiency
+measures, especially in hard to treat homes and in low income areas.
+
+9       There are two particular market failures that can be identified:
+
+     x Negative externality – households produce carbon emissions but do not fully take account of the
+        negative impacts their emissions have on third parties.
+     x Information asymmetries – households have incomplete information regarding energy use and
+        energy efficiency products and the potential savings that result from them. This results in
+        householders making poor choices.
+
+10      The main barriers to household energy saving fall under several distinct categories:
+
+     x Basic financial barriers: These include the potentially higher (upfront) costs of carbon abatement
+        products and the interest rates available to households.
+     x Hidden costs: These include “transaction costs” associated with finding reputable providers, time
+        costs of disruption, and the costs of differences in quality of product or service—all of which may
+        reduce the net benefit derived from efficiency measures.
+     x Lack of information: If households do not know their level of energy expenditure, how energy use
+        can be reduced, by how much, or at what cost, they are unlikely to consider investment in energy
+        efficiency.
+     x Risks and uncertainty: Uncertainty about future energy prices may deter households from
+        investing, since they cannot be assured of future savings; households also may not be certain
+        whether their tenure at a property will be sufficiently long for future savings to repay an initial
+        outlay. In addition, households may be wary of the risk associated with new (or unfamiliar)
+        products or services, and they may not trust energy suppliers or others who are promoting energy
+        saving measures.
+     x Poorly aligned incentives: The most commonly cited barrier of this kind is the “landlord-tenant
+        split”, whereby landlords under-invest in energy-efficiency because tenants pay energy bills, or
+
+                                                    Page | 9
+      tenants do not economise on energy because the landlord pays the energy bill. Similar
+      misalignments occur in the building industry and among property developers, often due in part to
+      asymmetries of information. Failure to incorporate environmental or other externalities (such as
+      energy security) into energy markets is also included here.
+   x Psychological / sociological barriers: This category refers to a range of less tangible barriers that
+      may explain consumer behaviour that does not conform to perfect “economic rationality”. These
+      may include inertia in decision-making (which may be due to loss-aversion and concerns about
+      regret), the use of rules-of-thumb rather than more complicated full optimisation, and preferences
+      that depend on the behaviour of others.
+   x Regulatory barriers: There are aspects of the energy market and its regulatory framework that
+      could make it more difficult for households to benefit from or consider energy efficiency. Examples
+      include limits on the types of “contracts” offered to households by suppliers, assignment of
+      responsibility for metering, and treatment of (high-efficiency and/or low-carbon) distributed
+      generation.
+
+11      For energy suppliers operating under CERT, the focus on delivering the CERT carbon target at least
+cost has resulted in the provision of a large volume of relatively low cost measures spread over a large
+number of households. Suppliers have kept their costs down by targeting households which are able to
+contribute to the installation cost for the measures. CESP seeks to resolve the two market failures and
+other barriers to carbon abatement measures, and aims to help alleviate the position where low-income
+households face high fuel bills.
+
+Objectives
+
+12      CESP aims to significantly reduce the fuel bills of those living in areas with low income levels and
+to contribute to the improvement of the energy efficiency of the existing housing stock in order to reduce
+the UK’s GHG emissions. Achieving a reduction in energy use will also ensure that householders,
+including tenants, on lower incomes are able to heat their homes more easily which will improve their
+comfort and wellbeing.
+
+Options identification
+
+13     In order to assess the impacts of meeting the Government’s twin policy objectives of reducing
+carbon emissions and fuel bills in vulnerable homes four options to deliver the Community Energy Savings
+Programme were proposed as part of the Partial Impact Assessment, which was part of the consultation
+process. These were:
+
+   -   Do nothing – as a baseline for comparative purposes
+   -   Introduce new obligation on energy suppliers and generators: prescriptive approach
+   -   Introduce new obligation on energy suppliers and generators: community approach
+   -   Introduce new obligation on energy suppliers and generators: flexible approach
+
+
+
+
+                                                  Page | 10
+14     Responses to the consultation overwhelmingly supported the community approach and our final
+proposal in heavily based on this.
+
+                        Partial IA Option        Community         Final
+                        S&G on measures          £315m             £298m
+                        Others on measures       £39m              £52m
+                        Total measures           £354m             £350m
+                        S&G on admin             £17m              £13m
+                        Others on admin          £17m              £13m
+                        Total admin              £35m              £27m
+                        Total cost of
+                        programme                £389m             £377m
+                        Total pass through
+                        cost                     £332m             £312m
+                        Total CO2 saving         3.9 mtCO2         2.9mtCO2
+                        CO2 saving for
+                        lowest decile            3.9 mtCO2         2.9mtCO2*
+                        Total households
+                        reached                  ~100,000          ~90,000
+                        Total households in
+                        lowest decile            ~100,000          ~90,000
+                        Value of total bill
+                        savings                  £44m              £33m
+                        Average household
+                        bill saving for those
+                        households receiving
+                        measures through
+                        CESP                     £440/year         £328/year
+
+* This change from the partial impact assessment is a result of improved cost estimates for the proposed
+CESP measures and an improved approach to assessing carbon savings in the long term taking in to
+account grid decarbonisation.
+
+
+Explanation of our final community approach
+
+15     The legal basis for CESP comes from the Climate Change Act 2008. The Electricity Act 1989 and
+the Gas Act 1986, as amended by the Utilities Act 2000 and the Climate Change and Sustainable Energy
+Act 2006, contain powers for the Secretary of State, by Order, to impose an obligation on electricity and
+gas suppliers to achieve carbon emissions reduction targets.
+
+16     The Climate Change Act has amended the Gas Act 1986 and the Electricity Act 1989 to all the
+Secretary of State to:
+   x place an obligation on energy generators;
+   x place more than one obligation on energy suppliers and generators simultaneously; and
+   x specify the areas in which these obligations must be met.
+
+17      These amendments allow the Secretary of State to place a new carbon reduction obligation on
+suppliers and generators in addition to that already placed on suppliers under CERT2. This new obligation
+has the same fundamental legal basis as CERT but will be implemented via separate secondary legislation.
+
+
+
+                                                 Page | 11
+18      The overall target for the CESP obligation will be specified in the legislation in terms of a carbon
+points score target equivalent to 12.5% of the original CERT target (i.e. 19.25 million lifetime tonnes of
+CO2 points score). This overall carbon points target will be split between supply and generation companies,
+giving each obligated company an individual carbon points target. The community approach is designed to
+ensure the provision of around £350m of carbon abatement measures.
+
+19       Each measure available under CESP will have an associated points score. This score is based upon
+the lifetime CO2 savings provided by the measure and the desirability of that measure in terms of achieving
+the CESP objectives. Every time a supplier or generator implements a measure they receive a score which
+counts towards their overall CO2 target.
+
+20        The community approach has three main elements which are described below.
+
+Partnership working: it is envisaged that suppliers and generators will work in partnership with local
+authorities and other community organisations where appropriate to promote measures, through a
+‘community approach’. It is proposed to leave maximum flexibility to allow for different partnership
+structures and for a variety of bodies to participate. It is envisaged that the advantages of partnership
+working would essentially be to allow CESP to be implemented in the way best suited to conditions in
+individual areas and to help ensure coordination with existing programmes and initiatives noted above, and
+with any other local regeneration initiatives that have (or plan to have) an energy efficiency element.
+
+Whole house, intensive approach: suppliers and generators would be encouraged to promote as many
+measures as possible (from a limited list), that would make the most significant reductions to fuel bills and
+CO2 emissions and that are needed in each targeted home - a ‘whole-house approach’. This will be done
+through the ‘scoring’ of measures to incentivise this way of working3. This type of approach will require
+targeted domestic energy users (householders) to be offered a complete whole-house package of measures.
+CESP is therefore intended to incentivise more than just the less costly, possibly more cost-effective
+measures (as are currently delivered under CERT). The aim would be to promote the best combination of
+measures which are most likely to have the greatest effect in improving the energy efficiency, or lowering
+the energy consumption, of the whole property and thus reducing carbon emissions.
+
+The measures which the Government proposes to be available under CESP are:
+             o Solid Wall Insulation (external)
+             o Solid Wall Insulation (internal)
+             o Cavity Wall Insulation
+             o Virgin Loft Insulation (includes anything less than 60mm existing)
+             o Loft Insulation Top Up
+             o Under floor insulation
+             o Flat roof insulation
+             o Draught proofing
+             o High Efficiency glazing
+             o Fuel Switch (to gas)
+             o Replacement of old boilers (G rated)
+             o Connection to a district heating scheme
+             o District Heating System Upgrade
+             o District Heating Heat Meter for Individual House Billing
+             o Ground Source Heat Pumps
+             o Air Source Heat Pumps
+             o Micro-generation (PV, Solar Thermal, mCHP, biomass boiler, micro wind, micro hydro)
+             o Heating Controls with a new heating system
+2
+    See Climate Change Bill Impact Assessment
+3
+    See Annex C
+
+                                                  Page | 12
+               o Home Energy Advice
+
+Following consultation, the list of measures was amended to include recommendations from stakeholders.
+These extra measures are included above.
+
+21     A second element of the whole house, intensive approach is that measures should be delivered
+through intensive action in specific areas. The aim of CESP is to provide measures to communities in low
+income regions, rather than targeting individual households anywhere in the country.
+
+22       Low income targeting: CESP will target those areas of the country that have significant levels of
+low income households.
+It is these areas that have the densest concentration of households in need of assistance, since energy
+efficiency improvements will result in permanent fuel bill reductions. It is envisaged that the design of the
+programme means that suppliers and generators have to offer measures for free, or at a very low cost, in
+order to meet their obligation. However, in line with the approach taken under CERT, it is not proposed to
+prescribe in the legislation that all measures have to be delivered for free.
+
+23      The advantage of this lies in the balance of flexibility for suppliers and generators and the certainty
+with regard to outcomes. By specifying the parameters within which suppliers and generators can operate,
+but leaving it up to them to choose specific areas and measures, desirable outcomes will be delivered in a
+cost-effective way which maximises synergies with existing programmes and community partnerships.
+
+24      Because CESP is focused on more significant measures that tend to be more expensive than those
+that are typically delivered under CERT, it will deliver to fewer houses for the same cost. However those
+houses that benefit will experience significant reductions in energy demand and CO2 emissions and hence
+will benefit from significant fuel bill savings. Further, by driving the installation of currently expensive
+measures we can expect costs in the longer term to be reduced. This trade-off of greater savings to fewer
+people is inevitable in a scheme that encourages a whole house approach and the installation of more
+expensive measures.
+
+Analysis
+
+General sources of evidence
+
+25      The Climate Change Programme Review of 2006 and the Energy Review of 2007 looked at
+programmes targeting households as well as those targeting industry, transport and other sectors relevant to
+the Government’s climate change and energy objectives. Those reviews considered progress towards
+targets, options for improving performance, and a large body of evidence on the cost̂effectiveness of
+different programmes.
+
+26      The results suggest that household energy programmes, both as a group and individually, were
+among the more cost-effective measures available to reduce the UK’s carbon emissions. This is largely
+because financial savings per tonne of carbon saved were found to be greater in the household sector than
+in others. This view is supported by the National Audit Office in their report on Government programmes
+to reduce household energy consumption (published in July 2008, www.nao.org.uk/pn/07-
+08/0708787.htm).
+
+27     The Energy Efficiency Commitment (EEC) was in operation from 2002-2008 and was preceded by
+the Energy Efficiency Standard of Performance. A large amount of evidence has been accumulated over
+the years, partly based on experience and evaluation, and partly based on a programme of commissioned
+research carried out to address specific issues. Much of this evidence is available on the Defra website
+(www.defra.gov.uk/environment/climatechange/uk/household/supplier/eec.htm), and in Ofgem quarterly
+updates and annual reports on EEC and CERT. Evidence on energy efficiency policies was presented as
+
+                                                   Page | 13
+part of the Energy White Paper 2002, the Energy Efficiency Action Plan 2004, the HMT/Defra Energy
+Efficiency Innovation Review 2005, the UK Climate Change Programme Review 2006, the Energy Review
+2006 and the Energy White Paper 2007. In addition, there are several data sources that are collecting
+relevant information on an ongoing basis and are published regularly, such as the English House Condition
+Survey and the Domestic Energy Fact File.
+
+28      Current and former obligations (CERT, EEC, EEC2) have resulted in carbon savings for the
+households taking advantage of the programmes, and suppliers have been able to focus on the most cost-
+effective carbon reduction measures. However, there has been no specific incentivisation of a whole-house
+approach through these programmes. By focusing on more than one measure within a home – the whole-
+house approach – the carbon and fuel bill savings within that home would be greater, and have a greater
+impact on addressing fuel poverty (Detail on what the whole house approach might mean in practice is
+provided at Annex C). Once the suppliers or generators have gained access to a home to install a certain
+measure, the marginal administrative cost of implementing further energy efficiency measures decreases.
+However the marginal cost of further improvements in the energy efficiency of the house is likely to rise as
+the most cost-effective measures are exploited and further improvements require less cost-effective
+measures to be implemented.–. For the householders, the benefits of the whole-house approach would be
+not only more significant fuel bill reductions but also less hassle from fewer visits and contacts with
+suppliers.
+
+29      There is also evidence supporting the delivery of household energy efficiency measures through a
+community approach. British Gas ‘Green Streets’ experiment has helped families cut CO2 by 20% and
+energy use by up to 30% in just over five months, through energy saving measures, neighbourhood energy
+advisers and by introducing elements of competition into energy saving4. The final evaluation of the Warm
+Zones pilots provides further support for a combined whole-house, community approach as a cost effective
+means of reducing fuel bills in low income homes5. Given the likelihood of similar dwelling types within a
+street or community, a community approach would have the additional benefit of minimising search costs
+which are likely to increase as measures become more expensive or intrusive (such as solid wall
+insulation), as well as increasing cost-effectiveness through economies of scale (for suppliers and
+generators, who can benefit from doing several houses at once). Targeted groups of houses within a locality
+can usefully act as demonstration projects of community action and community-led solutions. There is also
+the possibility to tap into existing networks of knowledge, such as local authorities and regional Energy
+Saving Trust advice centres, and the potential to pool funds from a range of sources to leverage wider
+financial support from within the community.
+
+30      The Sixth Annual Progress report, published October 2008, for the UK Fuel Poverty Strategy
+provides the fuel poverty figures across the UK for 2006. The figures show there were approximately 3.5
+million households in fuel poverty across the UK, an increase of 1 million households since 2005. Around
+2.75 million of these are vulnerable households, defined as a household which contains children, the
+elderly, or somebody who is disabled or long-term sick.
+
+31     The rise in the number of households in fuel poverty during 2006 was due to increases in consumer
+energy prices. The overall cost of energy to domestic consumers rose by 22 per cent in real terms between
+2005 and 2006, with gas prices rising by 29 per cent and electricity prices rising by 19 per cent. There have
+been further energy price rises since then.
+
+32 The Standard Assessment Procedure (SAP) is a means of determining the energy efficiency standard
+of a dwelling. It uses a scale to measure the heating and insulation characteristics of a property, with higher
+numbers indicating a better energy efficiency standard. Looking at SAP ratings, the average SAP value is
+very similar across all income deciles, although it does tend to drop as income rises. The average SAP
+rating is however slightly misleading. There are more dwellings with SAP > 65 in the lower income deciles
+4
+    http://www.ippr.org.uk/research/teams/project.asp?id=3027
+5
+    http://www.warmzones.co.uk/c_archived_news.html
+
+                                                      Page | 14
+(compared with the higher deciles), but the proportion of lower rated dwellings is similar across the income
+deciles.
+
+33 More detailed information on the potential fuel poverty implications of the programme is contained
+in Annex B. Annex C contains detailed information on how the carbon savings are calculated, how
+measures have been scored, and how the uplifts to encourage whole-house and street-by-street approaches
+have been applied.
+
+Costs and benefits by main affected groups
+
+Costs
+
+34      Costs on suppliers and generators are estimated at £298 million towards measures and £13 million
+towards administration costs, so the total cost to the suppliers and generators is estimated to be £311
+million. Given the greater flexibility of this option we assume there is more (but still limited) scope for the
+companies to receive contributions towards their costs from able-to-pay customers or from other sources
+such as local authorities and community groups. These contributions might be financial or in the form of
+local knowledge or local action on the ground. We assume the value of these contributions to be roughly
+£65 million.
+
+35       If the obligated companies pass through all their costs to their customers, this would equate to price
+rises on average annual domestic energy bills of around £3.00 for the duration of the programme. For
+industrial customers the increase in unit cost is likely to be below 1%. Price rises of this order might shift
+20,000 to 30,000 households into fuel poverty, as technically defined (assuming for these purposes that the
+scheme lasted three years, and that extra costs were incurred and passed on during this period only). There
+will of course be a compensatory effect as some of the households targeted under the scheme move out of
+fuel poverty in the short term and (to a greater extent) the long term as a result of the sustained energy
+efficiency improvements they will experience. Annex B provides greater detail on the fuel poverty effects
+of this. .
+
+36     The administrative costs faced by suppliers and generators are difficult to estimate but could
+include:
+    x Project development: relating to the development of schemes up to the point of submission and
+       approval.
+    x Project facilitation: after approval, getting the schemes off the ground, liaising with managing
+       agents and other parties, etc.
+    x Grant administration: processing claims and payments
+    x Monitoring: monitoring of the energy quality and customer satisfaction
+    x Evaluation and reporting: assessing the impact of schemes and reporting
+
+37    For an explanation of administration costs and how these are passed through to customers refer to
+Annex A: Administration and Pass Through Costs.
+
+38       The costs of the scheme which fall to the energy companies are likely to be passed on to their
+customers (domestic and industrial). Consultees expressed a concern that there was an unfair obligation
+placed on independent generators, who are unable to pass costs on as easily as vertically integrated
+generators. I. However, this impact assessment assumes for the purposes of quantification that 100% of the
+costs are passed through to customers, over a three year period. Of the programme costs, £210 million are
+therefore be passed through to domestic customers and £103 million to industrial customers6 (£311m in
+total). See Annex A for more detail.
+
+
+6
+    See Annex A and B
+
+                                                   Page | 15
+39     Ofgem will administer and manage the scheme, as they do with CERT. Although CESP will be a
+much smaller scheme overall, Ofgem believes its enforcement costs will be proportionally greater. Ofgem
+has provisionally estimated a £400,000 one-off cost associated with the set up of the scheme (including for
+example development of IT to administer the programme) and then an annual enforcement cost of around
+£350,000. We are currently working with Ofgem to finalise these estimates in light of final decisions on
+CESP.
+
+40      We assume there will be hassle and disruption costs, as well as potential environmental costs to
+householders. All households will participate voluntarily and they would therefore necessarily be taking
+the view that any disruption or loss of amenity was outweighed by benefits received. Nonetheless, several
+of the possible CESP measures will cause some disruption to the householder, in the short term (e.g. need
+to clear out the loft) or longer term (reduction of space with some forms of solid wall insulation). It is
+difficult to quantify this “hassle factor”, but it may be greater where householders have less control or
+choice over which particular measures are offered to them. For internal solid wall insulation, the hassle
+costs would be significant for the householders, as this would require clearing out rooms and redecoration.
+
+41      CESP will be delivered in partnership with local authorities and/or community groups, but proposes
+to leave the arrangements flexible, with no element of compulsion. Participating local authorities will be
+self-selecting and, it is reasonable to assume, will support the programme in the most cost-effective ways
+that they can for the benefits they will achieve. It is difficult to assess at any general level what sorts or
+levels of costs they might choose to incur. Similarly, there may also be impacts on other parts of the third
+sector.
+
+Benefits
+
+42      Suppliers and generators would be likely to gain some social benefit through publicity and brand
+awareness from their participation in the scheme, although this could be less for generators than for
+suppliers as they do not have a domestic customer base and may therefore have less direct interest in
+fostering consumer awareness. It is difficult to quantify this effect, but it would be likely to be greater
+under a less prescriptive model where companies would have some flexibility to select areas which were
+important to them in a business sense. Other benefits include energy security of supply, reduced
+infrastructure needed, reduced UK balance of payments deficit, improved housing stock and other social
+benefits, such as call on NHS services.
+
+43     We estimate that the average fuel bill saving per household receiving measures under this option to
+be on average £328 and a total annual fuel bill saving of £33 million for the estimated 90,000 participating
+households. (These assumptions are set out further in Annex C). We therefore estimate the lifetime fuel-bill
+reductions from these measures at roughly £624m. Some of the measures might also increase the value of
+the properties concerned.
+
+44      Although not formally part of CESP, benefit entitlement checks may well be offered to
+participating households in parallel. These can produce very significant increases in income, with
+experience from the Warm Front programme suggesting average annual income increases of around £1,400
+for those found to be under-claiming.
+
+45      The nature of the targeted areas means that the assisted households are likely to have a much
+greater initial propensity to fuel poverty than average. Fuel bill savings might remove around 30-40,000
+households from fuel poverty, as technically defined (see Annex B). Because of the significant size of the
+fuel bill savings, this would lift households out of fuel poverty and protect them from falling back into it as
+a result of future price rises.
+
+46     In practice, householders may take some of the benefits of the scheme in the form of improved
+thermal comfort (comfort taking), i.e. in light of the reduced fuel bills they feel able to afford to heat their
+
+
+                                                    Page | 16
+homes at their preferred level. We have assumed that comfort taking reduces the emissions savings by 40%
+for all insulation measures, as opposed to the 15% assumed in CERT calculations. Given that CESP
+focuses on hard to treat homes in income deprived areas, the larger figure seems appropriate7(see Annex
+B).
+
+47     Social benefits may include a greater sense of engagement with the community, through the area
+focus of the scheme, which may have knock on benefits both for further environmental activity at
+community level. However, the fact that the communities concerned would be essentially self-selected
+might lead to greater benefits in terms of informed and sustained engagement at local level
+
+48     Local authorities in targeted areas may benefit from improved assessments against the local
+government performance, which includes indicators on both area wide carbon reductions and fuel poverty
+(national indicators 186 and 187). There may also be some social benefit through publicity and brand
+awareness from participation in the scheme, for local authorities and/or other community groups.
+
+49      The insulation and energy efficiency installation industry is set to benefit through increased demand
+for their products and services. The increased market could lead to new entrants to the sector, and greater
+competition, making the sector as a whole more efficient in the longer term. There may also be benefits in
+terms of employment effects and an increasingly skilled workforce.
+
+50      By virtue of participating in the scheme, householders are also likely to become more aware of
+energy efficiency issues, and be better placed to make behaviour changes which will help them control
+usage, and cost, in the future. The impact may depend on the extent to which certain types of measure, e.g.
+home energy advice, are included within the scheme.
+
+51     The estimated total lifetime carbon savings under the programme amount to 2.9 Mt CO2, valued at
+£63 million. This is made up of 1.6 MtCO2 of traded sector reductions and 1.3 MtCO2 of reductions in the
+non-traded sector. Further information is provided later in this document.
+
+Risks
+
+52      There are uncertainties and risks associated with introducing CESP. For example, there is a risk that
+it could push some households into fuel poverty for the duration of the policy as a result of companies
+passing their costs through onto energy bills. However, this depends on how much of their costs the
+companies pass through to customers, income growth and how much fuel prices and individual fuel bills
+change. There is also the potential for unintended consequences and perverse incentives for the suppliers
+and generators. There is a risk that the definition of communities, low-income households and hard-to-treat
+homes may allow for loopholes for suppliers and generators to operate in ways which were not the policy
+intention of the programme. More generally, there is a great deal of uncertainty surrounding estimates of
+the overall administration costs, since the programme is new for the parties concerned
+
+53      There is a risk that introducing new powers might make investments in the energy supply and
+electricity generation markets less attractive, although, we believe this risk is small. There is uncertainty
+relating to placing a new obligation on generators for the first time, uncertainties associated with placing an
+additional obligation on suppliers, and uncertainties associated with introducing area based obligations.
+
+
+
+
+7
+  www.apho.org.uk/resource/view.aspx?RID=53281
+http://www.defra.gov.uk/environment/climatechange/uk/energy/research/pdf/insulationmeasures-
+review.pdf (page 16)
+http://www.eci.ox.ac.uk/research/energy/downloads/40house/chapter04.pdf
+
+
+                                                   Page | 17
+54      There are some key risks. First, the households may not want to have the expensive measures
+installed in their homes if they believe there will be disruption to their living arrangements. Second, a
+major risk for the programme under this approach concerns our lack of firm knowledge of the costs to
+suppliers and generators of installing measures. This might mean that the illustrative mix proves not to be a
+good approximation of what will be delivered. The proposed design of the scheme includes strong
+incentives to reward a whole-house and whole-community approach but - if costs of measures differ
+significantly from our estimates - these rewards might not always be sufficient to outweigh the cost
+advantages to the companies of alternative more scattered approaches, and the policy objectives might not
+be met in full. There is another risk associated with able to pay households, in that suppliers and generators
+might target these households as they may present the least cost way of meeting their obligations.
+However, the scoring system is intended to work in such a way as to overcome this risk, and in relevant
+circumstances to allow CESP and CERT, for example, to work in tandem to help identify the homes that
+are able to pay and unable to pay and assign the allocation of measures accordingly.
+
+55      There is uncertainty associated both with the number of households that may fall into fuel poverty
+for the duration of the programme, as this depends not only on fuel prices and individual bills but on other
+factors too, and the number of people that may be taken out of or pushed into fuel poverty as a result of the
+programme.
+
+Enforcement
+
+56     Ofgem will be responsible for the enforcement of each of the suppliers’ and generators’ obligations.
+The obligation imposed upon each supplier and generator under the CESP Order will be a relevant
+requirement of the supplier’s and generator’s electricity or gas licence.
+
+57     The enforcement provisions allow Ofgem to make such Orders as necessary to ensure compliance
+with the obligation and/or impose a financial penalty. If suppliers and generators fail to meet their target
+the consultation proposes they be subject to a penalty, namely up to 10% of global turn-over.
+
+Conclusion
+
+58      Consultation has informed and supported the Government’s preference for the community
+approach. We believe this best balances the need to achieve the twin objectives of reducing fuel bills in
+hard to treat homes in areas of low income and reducing carbon emissions from the existing housing stock,
+while at the same time retaining sufficient flexibility for suppliers and generators to deliver the programme
+cost-effectively. Although this option does not give the greatest COЇ savings, it does present the best
+overall option. We believe this approach will also deliver the greatest synergies with the wide range of
+complimentary initiatives – both nationally (e.g. CERT) and at local level.
+
+Target
+
+59       The overall target for the CESP obligation will be specified in the legislation in terms of a carbon
+points score of a proposed 19.25 million lifetime tonnes of CO2 (equivalent to 12.5% of the original CERT
+target). This overall carbon points target will be split between supply and generation companies, giving
+each obligated company an individual carbon points target. (It is important to note that 19.25m will be a
+notional carbon savings figures. The real carbon savings delivered are likely to be around 2.9MtCO2.
+
+60     This target is set in such a way as to be challenging for the supply and generation companies to
+meet and yet not impossible to deliver upon. We calculate that it will cost roughly £350million spent on
+measures to achieve this.
+
+
+
+
+                                                   Page | 18
+61      To put a target set at this level in context, we have also considered what the outcome could be
+across a range from £500million to £200million. We have only considered these outcomes in relation to the
+community approach because we feel it delivers on the CESP objectives in the most cost efficient way.
+
+62       Were the target to be set at £500million, the potential pass through costs to customers’ bills would
+rise to £13.50, if fully passed on, which would consequently increase the number of households shifted into
+fuel poverty over the duration of the programme (see Annex 2). Further it is important to recognise CESP’s
+position in relation to other energy efficiency schemes such as CERT and Warm Front. If the CESP target
+were set this high the programme might become disproportionate in size for what it is attempting to
+achieve. The larger national project of this kind is CERT. CESP should work to complement CERT, not
+become a competitive programme.
+
+63     Were the target to be set at £200million, the carbon savings that CESP could deliver would be
+heavily reduced. The estimated 2.9MtCO2 reduction under the £350million target on our preferred option
+would be reduced to an estimated 1.7MtCO2 if the target were set at £200million and the community
+approach used. That is a potential loss of 1.2MtCO2 saving. Further, a much smaller percentage of
+households living in the lowest income decile would be reached. A programme of this scale would have a
+much smaller impact on fuel poverty, and contribute relatively little towards meeting the 2020 target of
+reducing GHG by at least 34% relative to 1990 levels.
+
+64      The £350million target is felt to be the most appropriate, balancing the need for a significant step
+forward in tackling energy efficiency within the existing housing stock with the need for an achievable
+target for suppliers and generators that simultaneously protects customers from high pass through costs.
+We consulted on the appropriateness of this through the consultation document.
+
+
+Implementation
+
+65      Milestones are:
+     x Consultation phase February 2009 – May 2009
+
+     x Summary of consultation responses published: early Summer 2009
+
+     x Lay draft Order before the House: early Summer 2009
+
+     x Order comes into force: Autumn 2009
+
+Monitoring and evaluation
+
+66     Ofgem will be responsible for the monitoring of suppliers’ and generators’ performance in meeting
+their CESP obligations. Ofgem will be authorised to require information from suppliers and generators
+about their proposals for complying with any aspect of their obligation and their progress towards
+achieving it. Ofgem will be required to provide an annual report to the Secretary of State on suppliers’ and
+generators’ progress towards meeting their targets.
+
+67      Given the relative novelty of the CESP programme and its potential benefit for informing future
+approaches to tackling energy efficiency issues on a national scale, it has been suggested that these
+reporting and monitoring arrangements might be more detailed than for the existing scheme, CERT, to
+ensure that the maximum possible information is received to help assess its progress as early as possible.
+
+68      The Government is also considering the precise mechanisms for reviewing the scheme during and
+at the end of its life, but will ensure that it is thoroughly evaluated.
+
+
+
+                                                   Page | 19
+Specific impact tests
+
+Climate Change Policy Cost-Effectiveness Indicator
+
+69      All Impact Assessments that estimate changes in CO2 emissions in excess of either (i) 0.1Mt CO2e
+average per year for an appraisal of less than 20 years, or (ii) 2.0Mt CO2e over the lifetime of an appraisal
+of more than 20 years are required by PSA Delivery Agreement 27, Indicator 6 to undergo a Climate
+Change Policy Cost-Effectiveness analysis. This involves measuring the proportion of tonnes of CO2
+abated, for which the cost falls below the Shadow Price of Carbon (SPC) (or EU ETS Allowance Price)
+once weighted and discounted. The stream of benefits for all approaches are over 20 years and are above
+the minimum thresholds of 2.0mt/ CO2e lifetime and 0.05mt/ CO2e for annual savings.
+
+70      The policy based test applied to the Community approach yields a result where 100% of emissions
+are below the SPC. The cost effectiveness indicator (CEI) for this approach in the non-traded sector and
+traded sector was then set against the weighted average discounted shadow price of carbon (WAD SPC)
+and weighted average discounted EU allowance (WAD EU A), respectively. The results are shown below:
+
+71     In the non-traded there was a WAD SPC of £22.36 with a CEI of -£58.99. This means that 100% of
+emissions fell under the SPC. In the traded sector the WAD EU A was £22.03 and the CEI was -£54.54.
+This again means that 100% of emissions fell under the EUA.
+
+72      It should be noted that there is a strong element of uncertainty in the figures. Conservative
+assumptions have been made on the material costs to suppliers and generators of meeting their obligations,
+so these costs may turn out to be lower ex post than stated in this IA. On the other hand, hidden costs to
+households associated with the disruption caused by having installations in their homes have not been
+valued.
+
+ Security of supply                                                         9
+ Technological development (Innovation externality)                         n/a
+ Meeting the EU renewables target                                           9
+ Meeting the EU biofuels target                                             n/a
+ EU Directive Requirements                                                  n/a
+ Other (please specify below)                                               n/a
+ If you have ticked any of the boxes please provide an explanation of how and to what extent
+ the non-monetised benefit applied to this policy/measure:
+ CESP is designed to help improve the security of supply for the UK by reducing energy
+ consumption and therefore energy demand especially amongst low-income households.
+ It is not specifically designed to increase renewable uptake but there may be an increase if
+ suppliers and generators deem these small scale renewable to be effective means of abating
+ carbon emissions and reducing fuel bills in low-income households.
+
+
+72       It should also be noted that the Government’s approach to carbon valuation is currently being
+revised, with a new approach due to be published shortly. This will affect the valuation of carbon benefits
+in this IA, and the overall cost benefit assessment. However, given the value of other benefits (notably
+energy savings) accruing from this policy the new carbon values will not affect the overall conclusion that
+there is a net benefit to the introduction of CESP.
+
+
+Equity and fairness
+
+
+
+                                                   Page | 20
+73      One of CESPs aims is to help families on low incomes to significantly cut their energy bills. The
+programme aims to address the problems faced by lower-income households who face high fuel bills.
+Those on the lowest incomes are often the least able to pay for measures to increase the energy efficiency
+of their homes and therefore lower their fuel bills. This is why CESP is focusing on this societal group.
+However, it must be recognised that allowing the funding of the programme to be passed on to the
+generality of energy bill customers is potentially regressive, and some households may be shifted into fuel
+poverty as a result of this. However, this will only be for the duration of the programme, whereas those
+who have been lifted out of fuel poverty are likely to enjoy lower fuel bills for many years. CESP is
+estimated to be broadly fuel poverty neutral for the duration of the programme, but with the benefits
+continuing after the programme end for participating households.
+
+74     More generally there may be some concerns about any programme which asks the majority of
+consumers (not just those technically in fuel poverty) to subsidise improvements for the few, given that all
+consumers are facing rising bills. However, CESP has been designed so that those who are receiving the
+subsidies are generally the most in need.
+
+75      Any area-based scheme will inevitably produce winning and losing areas. The design of the
+programme ensures that all areas potentially targeted will meet objective and defensible criteria for
+inclusion, and the specific areas for action will be selected by the companies to a large extent as a function
+of the willingness of the communities concerned to get involved. However, it is the case that there will be
+abrupt boundaries on the ground, where households in one street may get assistance, and those in the next
+street (who meet similar criteria) do not. This could lead to perceptions of unfairness, but there is no
+obvious solution to this given that it is a resource-limited programme.
+
+Competition issues
+
+76      Competition issues arise in two different markets – the market for energy and the market for
+energy/carbon saving measures. CESP as proposed does not create any barriers to entry into the market for
+the supply of electricity or gas. However, since it is an obligation on suppliers and generators, it does raise
+the entry costs, although these costs may be passed through to consumers.
+
+77      We propose that suppliers’ and generators’ individual CESP obligations should be based on their
+size. In order not to deter new entry by small firms, and to reflect the relatively higher costs incurred by
+small companies, it is proposed not to impose an obligation on energy suppliers supplying less than 50,000
+customers or on electricity generators who generate less than 10TWh/yr of electricity. However, it must be
+noted that the use of a threshold could create barriers to expansion as it will represent a significant cost to
+small suppliers who want to expand their business activity. An Ofgem report8 highlighted that firms below
+this sort of supply threshold often fail after a few years.
+
+78      Suppliers and generators will be able to pass on the costs of their obligations under the CESP. A
+supplier or generator that is inefficient in its delivery of programme objectives or that increases its prices
+simply in order to increase economic rent is likely to lose customers. Suppliers and generators have an
+incentive to keep the costs of their obligations under CESP as low as possible in order to minimise the
+amount of any pass-through. This reflects the competitive market and the drive to retain or acquire
+customers. There is therefore an incentive to be competitive in the supply of energy/carbon saving products
+and services. Barriers to entry into the market for most efficient energy/carbon saving products and
+services are relatively low.
+
+79     While some suppliers or generators may choose to undertake a large proportion of their obligations
+through in-house contractors, there is no reason to suppose this will reduce competition in the rest of the
+
+8
+ http://www.ofgem.gov.uk/Markets/RetMkts/ensuppro/Documents1/Energy%20Supply%20Probe%20-
+%20Initial%20Findings%20Report.pdf
+
+                                                   Page | 21
+energy supply or electricity generation market. In fact competition may increase slightly among smaller
+firms in the insulation/energy efficiency installation sector.
+
+80      Given the size of CESP and the nature of the measures proposed, we do not envisage any supply
+issues for carbon abatement products, installation or development arising as a result.
+
+81       Some generators form part of a vertically integrated unit with suppliers; others are independent and
+have no particular link through to domestic consumers. It has been suggested that the former type of
+company will find it easier to meet their obligations than the latter, since the integrated generators will have
+at least indirect experience of the current CERT scheme (arguably reducing their set up costs), and will
+have better channels through to households.
+
+82      It is likely that independent generators may face a steeper learning curve at the start of the
+programme, but for a variety of reasons it seems unlikely that costs on an ongoing basis will be materially
+greater for these companies than for others, for example because of the ease with delivery on the ground
+may be subcontracted to a third party. Other features of the scheme (e.g. the possibility of buying in credits
+(up to 100%) from other parties, or trading away up to 100% of the underlying obligation) should also
+reduce any difficulties they may face. For these reasons, we do not believe that there will be any material
+impact on competition between independent and other generators caught by the scheme.
+
+Small firms impact test
+
+83      The proposals will not impose costs on small businesses. The proposals do not apply to new and
+small energy suppliers with fewer than 50,000 customers and electricity generators of less than 10TWh/yr
+generation. This means that new entrants would not have to set up CESP programmes while at an early
+stage. CESP also contains other provisions that should avoid the risk of creating barriers to new entrant
+companies: for example, allowing suppliers or generators to buy in credits achieved by other parties as a
+way of meeting their own targets; and consultation on the possibility of allowing them to trade away a
+proportion of their underlying liability.
+
+Race equality, gender equality, disability equality
+
+84      Under CESP there will be opportunities for consumers to benefit from the measures, regardless of
+race, gender or disability, and no obvious issues are expected to arise.
+
+Rural proofing
+
+85      CESP has been specifically designed to assist vulnerable households to achieve CO2 savings and
+permanent fuel bill savings. Following consultation DECC has decided to retain the income indicator of the
+Index of Multiple Deprivation, which is an established, transparent and objective means of identifying the
+poorest communities for targeting CESP. Under this measure, the majority of deprived households are in
+urban settings, with only a small number containing rural communities. The Government appreciates that
+this approach limits the number of deprived individuals and households in more dispersed rural settings (as
+well as many households in urban areas), who do not fall in the criteria of the lowest income decile of the
+IMD (or 15% in Wales and Scotland).
+
+86      Some respondents suggested that action should be taken to ensure a spread of projects across the
+country, including in rural as well as urban areas. After careful consideration of all the responses, we have
+concluded that it is right to avoid an over-prescriptive approach and to leave the scheme participants with
+the flexibility to target those areas where they can form the most effective partnerships at local level.
+However, if CESP is to have its maximum value, it is important that it should foster a reasonable spread of
+different types of project, in different types of location, and the Government therefore expects that
+obligated companies will seriously consider targeting action at a variety of different areas around the
+
+
+                                                   Page | 22
+country, including rural areas. We will facilitate contacts where this would be helpful and will monitor and
+evaluate all schemes to ensure that any lessons relevant to rural delivery are considered in future policy
+development.
+
+87 The Chief Economist of DECC has reviewed this impact assessment and considers that it represents a
+reasonable assessment of the costs and benefits of the leading options.
+
+
+
+
+                                                  Page | 23
+                                    Specific Impact Tests: Checklist
+
+
+Use the table below to demonstrate how broadly you have considered the potential impacts of your policy
+options.
+
+Ensure that the results of any tests that impact on the cost-benefit analysis are contained within the
+main evidence base; other results may be annexed.
+
+ Type of testing undertaken                                    Results in           Results annexed?
+                                                               Evidence Base?
+ Competition Assessment                                        Yes                  No
+ Small Firms Impact Test                                       Yes                  No
+ Legal Aid                                                     No                   No
+ Sustainable Development                                       No                   No
+ Carbon Assessment                                             Yes                  No
+ Other Environment                                             No                   No
+ Health Impact Assessment                                      No                   No
+ Race Equality                                                 Yes                  No
+ Disability Equality                                           Yes                  No
+ Gender Equality                                               Yes                  No
+ Human Rights                                                  No                   No
+ Rural Proofing                                                Yes                  No
+
+
+
+
+                                                Page | 24
+                                                  Annexes
+
+
+Annex A: Administration and Pass Through Costs
+
+
+1       CESP will incur inevitable administration costs through its delivery. The modelling of these costs is
+carried out in the same way as it was for CERT, by assuming that for each measure delivered there is an
+associated administrative cost representing both the costs associated with finding households who want and
+need the measures and also the head office costs of suppliers and generators running the programme and
+reporting to Ofgem. These indirect administrative costs are very difficult to estimate. For the analysis,
+indirect costs are assumed to be a percentage of the unit cost of the measure. A fixed percentage tends to
+give unrealistically high admin costs for expensive measures. Using bands (e.g. 20% if less than £500, 10%
+if more, etc.) leads to jumps where if a measure was cheaper by a small amount its administration cost
+would be nearly doubled. To avoid such discontinuities, the following empirical formula was used as the
+most practical way of assigning values.
+
+                                  % of unit cost = 250 / (unit cost + 1000)
+
+2        The percentage is higher for low cost measures (reaching a maximum of 25% for the cheapest), but
+falls off exponentially as the cost increases. This means that the absolute indirect cost rises at an ever-
+slower rate as the unit cost increases. This gives an indirect cost of 20% at a unit cost of £250 and 10% at a
+cost of £1500. Unlike in the analysis for CERT, we do not assume a higher indirect cost associated with a
+priority group as this principally represents the cost of identifying priority group households and in CESP,
+priority areas will be pre-defined.
+
+3     Given that the administrative costs increase with the cost of measures but not following a direct
+scaling, our final community approach has estimated administrative costs of ~ £27m.
+4     There are several important aspects to CESP that could increase these administrative costs that need
+to be highlighted:
+x   The emphasis within CESP on a whole house approach and intensive action within small geographical
+     areas may mean greater time and effort is spent identifying the areas, and homes within those areas
+     with the most potential for the delivery of measures. This could consequently increase administration
+     costs.
+x   The high potential liability on the suppliers and generators if they fail to deliver on CESP may increase
+     administration costs due to the steps that will need to be taken to avoid this significant risk
+x   Overcoming household resistance to disruptive measures such as solid wall insulation will incur
+     further administrative burdens.
+5    CESP has been designed to include certain features that should overcome these increased
+administrative costs. These include:
+x   The community approach of encouraging suppliers and generators to deliver measures with the
+     assistance of community partners which will allow the community partners to use their local
+     knowledge to reduce the costs associated with identifying households and areas with the most
+     potential. Community partners may also help to overcome householder resistance to measures.
+x   For suppliers, delivering CERT and CESP measures within the same area will reduce administration
+     costs for each programme. For generators, the ability to refer additional non-CESP measures on to
+     CERT obligated parties may reduce the costs
+ 6    CESP will of course be new, and it is therefore possible that existing programmes do not provide a
+sufficient guide.
+
+                                                   Page | 25
+The maximum pass through costs
+7     For the purposes of this assessment, we are assuming that all the costs incurred through CESP by the
+suppliers and generators will be passed onto their customers. This means on this model that individual
+domestic consumers will experience an increase in bills corresponding to all of the suppliers’ costs plus a
+proportion of the generators’ costs. The maximum pass through cost of the programme (which includes
+100% of the cost of CESP measures, plus 100% of the administration costs incurred by suppliers and
+generators to deliver those measures) will be approximately ~£350m + £27m, which comes to ~£377m.
+However, a proportion of the generators’ pass through costs will go to industrial customers and will
+therefore not be passed onto domestic consumers. It is also assumed, as discussed below, that a proportion
+of the overall costs (including the administration costs) will be covered by the third parties such as
+householders or community partners who will be working with the suppliers and generators to deliver the
+programme. The possibility of combining funding from different schemes has also been discussed, but
+raises issue of double counting scores.
+
+
+How the programme will divide administration and measures costs
+8     It is unlikely that the total programme cost above will be divided between the suppliers and
+generators and then passed on to consumers accordingly. This is because we assume that, in some
+circumstances the community partners may contribute a relatively large proportion of the administration
+costs and a small proportion of the costs to the measures. This is because there may be enough competition,
+between third party groups looking to work with suppliers and generators, that those who can contribute to
+the programme in some significant way will be accepted as partners by the obligated parties. It is also
+possible that householders themselves, who are able to pay, may contribute directly.
+
+
+The Community Approach
+9     Under the community approach, we assume that suppliers and generators would pay most of the costs
+of the measures but a smaller proportion of the administrative costs. These variables may change a little
+with suppliers and generators contributing a larger proportion of the administration costs and a smaller
+proportion of the cost of the measures, however overall we assume that ~82.5% of the total costs are met
+by the suppliers and generators. We assume that all the costs borne by suppliers and generators are passed
+on (~£311m) however only 35% of the generators’ costs are passed on to domestic customers as the rest
+are passed on to other electricity consumers. Overall we estimate the pass through costs to consumers will
+be approximately £210m9
+10 During the consultation process, some of the uncertainties around how costs might be passed through
+have been raised. For the energy suppliers, any pass through could be directly applied to consumers’ bills
+though for the electricity generators who do not have a direct link to household customers, this is more
+difficult. For generators who are part of vertically integrated companies, it is conceivable that the linked
+supply business could pick up all the costs for the generation and supply CESP obligations and pass these
+directly to households. However this would place the company at a disadvantage in the competitive market
+for domestic energy supply. It is also conceivable that their generation arm could gather and pass through
+all the costs through an increase in the price of the wholesale electricity it generates. Which approach a
+vertically integrated company takes will be dependent on the commercial arrangements and decisions of
+that company and on the competitiveness of the retail and wholesale markets. In practice it is assumed that
+each arm of a vertically integrated company will manage the costs of the CESP programme separately to
+the other arm.
+11 For companies which are independent of the supply business, the choices are more limited and it
+seems reasonable to assume that costs passed through with be directly met through a small increase in the
+
+9
+    See Annex B, Impact on Fuel Poverty
+
+                                                 Page | 26
+wholesale electricity price. With some exceptions, the wholesale electricity market is very dynamic and not
+governed by long-term fixed price contracts. Where long-term fixed price contracts are in place, the
+rationale for using these is to provide certainty against the risks of market fluctuations. In effect the risk is
+transferred from the buyer to the seller with an associated additional cost. Obligations such as CESP
+(although small) are one of many factors causing fluctuations in the wholesale price electricity price and
+the risk of such obligations may no doubt be included as a factor in calculating the price of offering the
+certainty of a long-term fixed price contract.
+
+
+
+
+                                                    Page | 27
+Annex B: Fuel poverty analysis
+
+Low income households
+
+1       It is difficult to source data on energy consumption by level of income. However, assuming that
+there is a fairly strong correlation between consumption and bills (a reasonable assumption), considering
+average spend by income decile should be a close approximation.
+
+2     Low income households tend to spend much less than average income households on fuel. The table
+below shows the average weekly and annual spend on fuel (electricity, gas, coal & solid fuels and domestic
+heating oil) by income decile of the reporting household, updated to 2008 prices. The final column shows
+the spend on energy bills by income decile, relative to average spend.
+
+ Spend on electricity, gas and other domestic fuels, by income
+
+                                      2006                       estimated, 2008
+                                                                             relative to
+ Income decile               per week        per year          per year        average
+ Lowest                        £10.20         £530.40           £675.90            -36%
+ Second                        £12.50         £650.00           £828.30            -21%
+ Third                         £14.00         £728.00           £927.60           -12%
+ Fourth                        £14.00         £728.00           £927.60           -12%
+ Fifth                         £15.40         £800.80          £1020.40             -3%
+ Sixth                         £15.90         £826.80          £1053.50              0%
+ Seventh                       £16.40         £852.80          £1086.70              3%
+ Eighth                        £18.00         £936.00          £1192.70             13%
+ Ninth                         £19.70        £1024.40          £1305.30             24%
+ Highest                       £22.90        £1190.80          £1517.40             44%
+
+ Average                        £15.90        £826.80     £1053.50
+                                              Source: Expenditure & Food Survey, ONS
+
+
+Energy efficiency
+
+3     The Standard Assessment Procedure (SAP) is a means of determining the energy efficiency standard
+of a dwelling. It uses a scale to measure the heating and insulation characteristics of a property, with higher
+numbers indicating a better energy efficiency standard. Looking at SAP ratings, the average SAP value is
+very similar across all income deciles, although does tend to drop as income rises. There are more
+dwellings with SAP > 65 in the lower income deciles (compared with the higher deciles), but the
+proportion of lower rated dwellings is similar across the income deciles.
+
+
+
+
+                                                   Page | 28
+                                                              % of households
+                                                              with
+                               Income                         SAP < SAP >
+                                decile          Ave sap       35       65
+                                  1              48.8            18%      16%
+                                  2              50.8            15%      17%
+                                  3              50.6            13%      16%
+                                  4              49.2            15%      13%
+                                  5              48.8            15%      12%
+                                  6              49.4            13%      11%
+                                  7              48.6            14%       8%
+                                  8              47.6            16%       8%
+                                  9              47.1            18%      10%
+                                 10              47.0            18%       9%
+
+
+Impact on fuel poverty
+
+Pass through costs:
+
+Consumers
+
+4    If the total cost of the CESP programme to suppliers and generators is passed on to domestic
+consumers on bills, but also assuming that only ~ 35% of electricity from the generators is for domestic use
+and only this 35% is passed on to domestic customers whilst 100% of supplier energy is for domestic use,
+we estimate the total estimated cost of CESP to be borne by domestic households will be around
+£210million.
+
+5     As under CERT, we have assumed that suppliers are able to pass costs through entirely to domestic
+customers rather than spread the costs between domestic and business – they have the ability to do this
+because they have different pricing structures for domestic and business. Generators however only sell to
+big business (suppliers and big industry) so it seems reasonable to assume they spread the pass-through
+over all their customers.
+
+6    The table below shows the impact on bills of passing this cost on to consumers.
+                                Increase in
+               Total CESP      bills (average    Estimated increase in
+                spending             per                  fuel poverty
+                passed on       household)               (households)
+
+                 £11.8m            £0.50                   neg
+                 £23.6m            £0.90                   neg
+                 £35.4m            £1.40                  10,000
+                 £47.3m            £1.90                  20,000
+                 £59.1m            £2.40                  20,000
+                 £78.0m            £3.10                  30,000
+                 £94.5m            £3.80                  30,000
+                 £118.1m           £4.70                  40,000
+                 £141.8m           £5.70                  50,000
+                 £177.2m           £7.00                  60,000
+                 £236.3m           £9.40                  70,000
+
+
+                                                  Page | 29
+Note: the increase in bills is measured as an average per household – households that are not
+connected to the gas network will incur roughly half of the increase illustrated in the table.
+Source: English House Condition Survey CLG, Fuel Poverty dataset DECC
+
+7     Under the programme, not all the costs would be transferred to customers in the same year.
+Assuming the £210 million was split over three years as £70 million per year, the programme could
+potentially place between 20,000-30,000 households into fuel poverty over these three years.
+
+8      It is worth noting that this approach above assumes that the pass-through costs are passed on equally
+to every customer account – in practice, it is likely that the costs will be passed on as an increase in unit
+charges for gas and electricity, and therefore the increase in bills will be proportional to usage. From the
+earlier table on spend by income decile, this would suggest that the lower income households will face
+slightly lower increase in charges, and higher income households will face slightly higher increases.
+
+9     While the increase in costs, if passed through to consumers, may shift a certain number of households
+into fuel poverty, they will become marginally fuel poor. However, average annual fuel bill savings of
+£328, as estimated under the community approach, would help much more severely fuel poor households
+out of fuel poverty, or closer to coming out of fuel poverty
+
+Industry/business
+
+10       The total cost passed through to industry and business might be around £100 - £150 million over
+the programme period. However it is very difficult to make an accurate estimate of the exact pass-through
+charge, since the cost faced by each will be dependent on their energy consumption. The increase in unit
+cost is likely to be below 1% (marginal impact on generators prices).
+
+Benefits
+
+11      Energy efficiency measures realised through the CESP programme are estimated to provide fuel bill
+reductions worth £33 million per year (see below). Although only approximately 90,000 households would
+benefit, many of those would achieve significant reductions in their bills, even if they are not removed
+from fuel poverty. Benefits of measures expected to be implemented have been considered and applied to
+households in the lowest 10% of incomes (around 2.1 million households).
+
+12 It is important to recognise that if a household is not currently fuel poor, it cannot be removed from
+fuel poverty. Some non fuel poor households will benefit from measures when they are not currently fuel
+poor. Similarly, some households that are severely fuel poor may not be removed from fuel poverty despite
+the measures, though removing them from fuel poverty subsequently would be easier. Therefore, assessing
+the benefits purely on a fuel poverty basis is spurious since all households receiving measures would incur
+lower fuel bills and reduce CO2 emissions.
+
+13      An illustrative mix for the measures installed under this approach is given in annex C. Assuming
+the programme includes a strong incentive for a whole house approach these measures might be delivered
+to over 90,000 households. Of this, 90,000 households, it is expected about half will receive significant
+packages, worth an average of £540/year bill savings; it is expected the other half will receive single
+measures, or smaller packages, worth an average of £115/year bill savings.
+
+
+
+Fuel poverty implications
+
+14 The figures used to estimate the impact on fuel poverty come from the 2006 fuel poverty data set,
+derived from the English House Condition Survey (from the Communities and Local Government
+
+
+                                                   Page | 30
+department). The estimates have been made by selecting only households in the lowest income decile and
+assuming that these households are each equally likely to benefit from the measures.
+
+15 The assumed saving per household is also the same for each of these households and has been set in
+line with the figures derived from the illustrative mix (in Annex B) by dividing the total fuel bill saving by
+the number of households who benefit under each option. By applying this fuel bill saving to each of the
+households in the lowest income decile, it is possible to estimate how many of these would be removed
+from fuel poverty due to the saving, and calculate this as a % of all households in the lowest income decile,
+thereby giving a probability of households in the lowest income decile being removed from fuel poverty
+through the savings. By multiplying this probability by the total number of households receiving the
+measures, we can estimate the number of fuel poor households who are removed from fuel poverty.
+
+16    This analysis estimates that the approach could remove a little more, possibly around 30-40,000.
+
+
+
+
+                                                   Page | 31
+Annex C: Illustrative Mix of measures for CESP 2009-2012
+
+
+1     This annex describes the Illustrative Mix of measures for the Community Energy Savings
+Programme (CESP).
+
+Introduction
+
+2       The programme builds heavily on principles and assumptions used in the Energy Efficiency
+Commitment (EEC) and Carbon Emissions Reduction Target (CERT) schemes (see for example the CERT
+consultation and Illustrative Mix
+http://www.opsi.gov.uk/si/si2008/draft/em/ukdsiem_9780110805306_en.pdf).
+
+3       The illustrative mix table included here gives an idea of the numbers of measures that the
+programme might deliver. However given the open nature of the list of measures, costs, carbon savings and
+uplifts within the programme, the illustrative mix should not be seen as a case study of how companies
+would meet their obligation, but as an example of the approximate scale of the programme and the typical
+costs and carbon savings for measures included.
+The illustrative mix tables do not show a prediction or ‘government view’ of the numbers of measures
+which will be delivered under the CESP and the aim of the programme is to allow obligated energy
+companies to meet their obligation in a wide variety of different ways by supporting projects which deliver
+the right solutions at the local level.
+
+Description of model fundamentals
+
+How savings are calculated
+
+4       Energy, fuel bill and carbon savings have been calculated for a range of domestic carbon saving
+measures following the same methodology used for the CERT scheme – using the BREDEM model from
+the Buildings Research Establishment and assuming the measures are installed in a typical 3 bedroom
+semi-detached house. As with the current CERT programme the carbon savings (and so the carbon scores)
+for measures delivered under CESP will be calculated by Ofgem, taking into account any further
+considerations which Ofgem believe are appropriate. Under CERT this includes consideration of the size
+and type of home into which the measures are installed and in some cases the fuel type that home is using
+for heating. This is particularly worth noting for CESP as the households which receive measures in CESP
+may not fit the typical 3 bedroom semi-detached model. The illustrative mix tables provided here and in the
+consultation document give an approximation of the carbon savings Ofgem might attribute to a measure
+based on some assumptions and averages of house size and fuel types.
+
+5      Originally the value of energy savings was given at the retail price (in the partial impact assessment
+published with the CESP consultation). Since then new government guidance on how to value energy
+savings has come into effect. Now valuing energy reductions is done using the resource cost (variable
+element cost). Comfort taking is still valued at the retail price.
+
+Scores for measures
+
+6        Measures will be scored according to their lifetime carbon saving, as under EEC and CERT. Scores
+will be further modified away from the direct carbon savings through uplifts to ensure that the measures
+which are considered to best deliver the policy objectives are cost effective for suppliers/generators to
+install.
+
+
+District Heating
+
+
+                                                  Page | 32
+7       District heating has been shown to have the potential to reduce CO2 emissions from groups of
+dwellings when counted as a whole10. District heating can be particularly successful when used in a
+situation where lots of homes are grouped together, in flats or a tower block for example11. Indeed, there
+are a number of examples across the country of successful district heating schemes12.
+
+8      As each district heating scheme would be different, Ofgem will assign a points score to district
+heating schemes on a case-by-case basis. This score will reflect the CO2 savings delivered to each domestic
+home on the network which is in an area eligible for CESP.
+
+9       In addition to connecting new homes to new or existing networks and reducing the carbon intensity
+of the heat delivered by district heating networks, the installation of individual home heat meters is also a
+qualifying action. The move from using unmetered heat and paying for this on at flat rate to having a heat
+meter for a home and paying just for the heat used has been shown to reduce heat demand by up to 20% or
+30% however the evidence of the saving from fitting meters tends to be from outside of the UK. The
+figures used here assume a 10% saving is realised and so are quite conservative. The lifetime of heat
+meters is assumed to be 15 years as anecdotal evidence suggests this is the approximate battery life of
+meters and, in some cases, approaching the technical lifetime as well.
+
+Home Energy Advice
+
+10      Home energy advice will now be included in CESP proposal after overwhelming support for its
+inclusion during the consultation. This was based on energy advice helping to reinforce behavioural
+changes and strengthen the savings delivered by physical measures. It is proposed home energy advice in
+CESP will run in much the same way it is proposed to be included in CERT. Home energy advice will
+receive a (small) carbon points score under CESP, but will be not be eligible for bonuses or uplifts and will
+not provide bonuses or uplifts to other measures.
+
+11    Further evidence for the savings delivered by home energy advice can be found in the CERT
+documents.
+
+Uplifts for measures
+
+12      Cavity wall and loft insulation receive a score reduction (in effect scoring half as many carbon
+points as their lifetime CO2 savings would suggest). The rationale for this is that the CERT programme is
+the main policy driving cavity wall and loft insulation and this should remain the case without competition
+between the CESP and CERT programmes. We envisage cavity wall and loft insulation continuing to be
+delivered primarily under the CERT programme but the measures are included here as they may be needed
+in some homes in target areas as part of a whole house approach.
+
+13     Significant uplifts have been applied to solid wall insulation measures as these measures are not
+well supported by other programmes and can make a significant difference to the fuel bills and emissions
+of a house. The uplifts we propose are aiming to make solid wall insulation a cost effective measure for
+delivery within CESP and to ensure that predominantly solid wall areas are strongly considered for
+10
+   http://www.energysavingtrust.org.uk/uploads/documents/housingbuildings/CE65%20-%20Case%20Study%20-
+%20Hard%20to%20Treat.pdf
+11
+   www.energysavingtrust.org.uk/power-in-numbers
+12
+  http://server-uk.imrworldwide.com/cgi-
+bin/b?cg=deccce65&ci=energyst&tu=http://www.energysavingtrust.org.uk/business/content/downl
+oad/179174/421895/version/1/file/ce65.pdf
+
+
+
+
+                                                  Page | 33
+delivery of CESP. In addition smaller uplifts have been applied to key heating measures to promote the
+delivery of packages of measures including both insulation and heating. The new proposed uplifts are
+described below.
+
+         Measure                                                 Score
+                                                                 modification
+         Cavity wall insulation                                  -50%
+         Loft insulation                                         -50%
+         Solid wall insulation                                   +200%
+         District heating                                        +50%
+         Biomass boilers                                         +50%
+         Heat pumps                                              +50%
+         Solar water heating                                     +50%
+         Micro-CHP                                               +50%
+         Replacement Boilers                                     +50%
+
+
+Uplifts for whole house and area based approaches
+
+14      To incentivise a whole house approach, uplifts will be added to the scores for all measures
+delivered after the first measure in a home. The size of the whole-house bonus percentage is dependent on
+which measures are installed. Each measure contributes a different amount to whole-house bonus
+percentage and the overall whole-house bonuses is the addition of the bonuses by all the measures
+installed.
+
+15       For example, assuming three measures are available with scores and uplift contributions, as set out
+in the table below.
+
+                 Measure          Score        Bonus
+                 Measure 1           20        +50%
+                 Measure 2           10        +10%
+                 Measure 3           10        +50%
+
+For the first measure installed, total score = 20 points
+For the second measure installed, total score = 30 points (+60%) = 48 points
+For the third measure installed, total score = 40 points (+110%) = 84 points
+
+
+
+
+                                                  Page | 34
+The bonuses provided for delivering more than one measure per household are given in the table below.
+
+
+
+
+     Measure                                                   Contribution
+                                                                 to whole
+                                                               house bonus
+     Cavity wall insulation                                        10%
+     Loft insulation                                               10%
+     SWI external                                                  50%
+     SWI internal                                                  50%
+     Fuel Switching                                                40%
+     District heating individual meters                            10%
+     Heating controls                                              10%
+     District heating                                              40%
+     Wood pellet boilers                                           40%
+     Solar Water Heater                                            10%
+     Air source heat pump                                          50%
+     Ground source heat pumps                                      50%
+     Micro Wind                                                    10%
+     Mini-wind                                                     10%
+     Micro Hydro                                                   10%
+     Photovoltaic panels                                           10%
+     mCHP                                                          10%
+     Replacing old boiler (65% by 88.3%)                           40%
+     Under floor insulation                                        10%
+     Flat roof insulation (whole house)                            10%
+     Draught proofing                                              10%
+     Double glazing                                                10%         16     To incentives the
+                                                                               delivery of intensive action in
+target areas, delivery to a high percentage of the homes within an area will make all measures delivered in
+that area eligible for a further bonus. This bonus is calculated after any other bonuses and is cumulative
+(multiplicative) with them. The size of the bonus is equal to half of the percentage coverage delivered so
+for example delivering to 40% of homes in an area would result in the measures in those 40% of homes
+being eligible for a 20% score increase. To avoid providing an uplift at very low levels of delivery, this
+uplift is only unlocked when a company delivers to more than 25% of homes in an area.
+
+An example of how the scoring may work in practice
+
+17       A Victorian terraced house in Doncaster within a targeted deprived area could be an ideal candidate
+for the delivery of the CESP programme. It currently has solid stone and brick walls, no loft insulation and
+a G rated efficient boiler from the 1980’s. This house will be losing large amounts of energy through heat
+escaping through the roof and walls. The boiler is very inefficient and will be burning a lot of fuel for the
+heat it produces.
+
+18      A whole house approach to improving this home might be to install loft insulation to current
+building regulation standards, provide internal solid wall insulation and replace the old boiler with an
+efficient condensing model. The points score available for these improvements would work as follows:
+
+19     Installing loft insulation would cost approximately £268, the carbon dioxide savings would be
+roughly 251kg CO2, the points score of this measure as set out in the illustrative mix would be 5.0
+
+
+                                                   Page | 35
+20     Installing internal solid wall insulation would cost approximately £3,500, the carbon dioxide
+savings would be roughly 1,475kg CO2, the points score of this measure as set out in the illustrative mix
+would be 132.8.
+
+21     Installing a new boiler would cost approximately £2500, the carbon dioxide savings would be
+roughly 1979kg CO2, the points score for this measure as set out in the illustrative mix would be also be
+29.0.
+
+22      The total cost for introducing loft insulation, internal solid wall insulation and a replacement boiler
+would be approximately £8,000. The total carbon dioxide savings these measures would represent in this
+case would be roughly 3,700kg CO213. The total points score for measures installed within this house
+would be 216.8 however as three measures have been installed in the same house, these measures would
+eligible for a whole-house uplift. The size of the uplift is given by the addition of the contributions from
+each measure installed. These are loft insulation 10%, ISWI 50% and new boiler 40%. This gives a whole
+house uplift of 100% and a total score of 438.
+
+23     Diagram to show the CO2 savings that could result from a whole house approach as described
+above: [figures for picture will need to change]
+
+
+
+
+Capping
+
+24     To mitigate the risk of an obligated company finding alternative method of delivery which does not
+meet the overall objectives of the programme three measures will be capped and so will not score if
+
+13
+  Note that the savings from insulation and heating measures are generally not completely additive however for the purposes of
+this CESP scoring system, savings from multiple measures in a single dwelling are assumed to be additive. A correction is then
+applied at the whole policy level to reduce the calculated savings achieved by the policy to the correct level.
+
+                                                          Page | 36
+delivered beyond their cap. These caps are assessed in percentage carbon score terms. A cap at 1% would
+mean that a company could meet up to 1% of its obligation through the delivery of that measure – based on
+adding up the carbon scores for each individual example of that measure delivered prior to applying any
+bonus scores or reductions (uplifts) that apply to the carbon score of that measure. If the cap on a measure
+is exceeded then any further delivery of that measure will not score a carbon saving, nor count for the
+calculation of bonuses to other measures.
+
+25      The proposed caps are as follows:
+
+Home Energy Advice – 1%
+Cavity Wall Insulation – 4%
+Loft Insulation – 4%
+
+26     It is difficult to say in precise terms what these caps equate to as numbers of measures delivered
+given that the scores achieved by measures depends on the property type in which it is delivered. However
+in approximate terms this equates to ~285,000 home energy advice, 45,000 cavity wall insulations and
+250,000 loft insulations.
+
+
+How CESP may operate on the ground
+
+27      There are numerous groups and partnerships working to address fuel poverty and /or climate change
+through energy efficiency measures across the country. Many will be working with their local authority and
+be a part of the Local Strategic Partnership (see above). In some areas there will be partnership work
+actively considering local energy planning. Suppliers are also often involved in local delivery partnerships
+as part of their existing obligation.
+
+28      We assume that a generator/supplier will consider whether its existing partnerships work in
+appropriate qualifying areas, or whether they need to work in what will be new areas for them in which
+case they will need to engage with relevant partnerships and community groups relating to that area. In
+partnership they will agree their approach, paying due consideration to any existing approaches to delivery.
+
+29     It is likely that this will include contacting householders within the area to carry out an assessment
+of which energy efficiency measures could be suitably delivered within each home will be made.
+
+30     Due to the points score uplifts associated with installing more than one measure within each home it
+is expected that the generators/suppliers will prefer to install as many complementary and appropriate
+measures per home as possible.
+
+31     The generators/suppliers, in partnership with the community groups, will then encourage the
+householder to agree to the installation of as many measures that are available under CESP that are
+appropriate for each individual home. Once an agreement has been made with every home a calculation
+can be made on the estimated score available for that area. This calculation assessment will then be sent to
+Ofgem to confirm the proposed action will be eligible for CESP scoring.
+
+32      Generators/suppliers in partnership with community groups will then coordinate with installers a
+strategic approach to delivering measures. We envisage the most cost effective delivery will have installers
+of a particular measure working on a house by house basis within the specified area.
+
+33      We envisage that CESP will be delivered in a way that meets its objectives as a result of the:
+     x measures available under CESP all delivering significant CO2 and fuel bill savings
+     x points score uplifts associated with installing many complementary measures within a single home
+
+
+
+                                                   Page | 37
+      x cost efficiencies of taking a strategic ‘every house contacted’ approach to designing and delivering
+         an installation programme
+      x partnerships established with community groups
+
+Costs
+
+34     The cost of measures to suppliers and generators is estimated by considering the direct cost of
+measures, the indirect costs (administration, marketing, search costs) and any contribution by the
+householder or a third party. The assumed cost split between obligated parties and community groups,
+landlords and householders across the whole programme is set out in Annex A.
+
+35      The costs of measures given in the tables are designed to be appropriate considering the
+assumptions and averages used to generate the carbon savings. For example if the carbon savings in the
+tables represent the measure being installed in a large property, the cost should also reflect this. However
+the costs do assume that measures are being delivered in bulk and in some cases only partially include
+some of the associated costs where it seems likely that these could be met through another route. The costs
+also do not reflect the average cost of a measure installed anywhere in the country, but reflect the costs
+which might be paid within the programme. Since the energy companies are likely to try to meet their
+obligation at least cost, by finding synergies and low cost approaches or lower cost homes, the cost of
+measures in the table reflects the savings these approaches might bring.
+
+36      The costs of measures have been revised in light of comments made and evidence provided during
+the consultation period. The most significant changes have been in the cost estimates for solid wall
+insulation (SWI). The evidence shows that the cost of solid wall insulation can vary widely between
+property types and between properties of the same type, due to problems with access or making good the
+underlying structure prior to installing the insulation. In addition it is clear that when seeking out individual
+homes to receive SWI it may be appropriate to assume the associated costs such as the cost of scaffolding
+can be met by the householder or landlord – for example when other work is going on at the same time.
+However taking a street-by-street approach this assumption is no longer valid as it is unlikely that all
+homes will be undergoing renovations at the same time. The costs for external solid wall insulation
+therefore now include an element of associated costs. The cost figures are taken from a variety of sources
+however a key piece of the evidence base is a review of the insulation supply chain carried out by Purple
+Market Research.14
+
+Number of Installations
+
+37     The number of each measure installed within the programme is estimated based on prior experience
+with the EEC and CERT schemes, the likely cost effectiveness of measures to suppliers/generators and the
+proposed criteria for scoring and uplifts. This includes the proposed caps discussed previously for Home
+Energy Advice, Cavity Wall Insulation and Loft Insulation.
+
+Supply chain issues
+
+38      Given the small number of measures expected to be installed through CESP (in comparison to ECC
+and CERT) there are not considered to be any constraints brought about by a limited supply of measures or
+installers..
+
+Types of houses and potential to deliver
+
+39      Having target areas which include approximately 10% of the GB housing stock will provide a large
+pool of possible homes for suppliers and generators to target (~2.5 million homes). The number of
+
+14
+     http://www.eeph.org.uk/uploads/documents/partnership/SWI%20supply%20chain%20review%208%20May%2020091.pdf
+
+                                                     Page | 38
+households which are suitable for both a menu 1 and menu 2 measure is however a significantly smaller
+number.
+
+40      For insulation, data suggests that approximately 36% of the target households have solid walls
+almost all of which can be insulated (either internally or externally) and do not currently have solid wall
+insulation. Also 34% of target households have cavity walls which are currently un-insulated. In addition
+over the target group 11% have 50mm or less loft insulation.
+
+41      For heating measures the data is sparser however approximately 15% are not currently gas heated
+and are likely to be suitable for either fuel switching or a heat pump. The potential for community heating
+schemes is very large although they make up a very small part of the illustrative mix due to the difficulties
+of delivering community heating solutions within the timeframe of CESP. G-rated gas boilers make up
+approximately 15-20% of the domestic gas boiler stock. Assuming they are represented proportionally in
+the target areas this represents a significant potential. And finally while micro-gen may not be a cost
+effective solution for many homes, it is expected to make up a small part of the delivered programme.
+
+42      Given the physical nature of the housing stock and the potential remaining for delivering the key
+measures in CESP, there does not appear to be a limitation on the ability of the programme to meet the
+overall CO reduction target through delivery of measures similar to that set out in the Illustrative Mix.
+
+Carbon savings and comfort taking
+
+43      Households who have their fuel bills reduced due to measures installed may wish to use some of the
+saving to fund increasing the temperature of their homes as their thermal comfort. We assume comfort
+taking reduces the emissions savings by 40% for all insulation measures installed in low income areas
+(15% is assumed in CERT and for any CESP measures installed outside of low income areas, however
+given the CESP focus on low-income areas a larger figure seems appropriate in these areas). Research
+suggests that after a home has reached a comfortable temperature of approximately 21ºC in the living area
+further bill savings will not be taken as increased comfort. To account for this, when considering the CESP
+whole house approach, comfort taking has only been applied to insulation measures15.
+
+44     Fuel bill savings are presented here without a reduction from comfort taking as the value of the
+additional thermal comfort is equal to the cost of paying for the extra demand (if households did not
+believe comfort taking was worth it they would not do it).
+
+45       Adding up the expected carbon savings from all the individual measures that might be installed
+under CESP from the Illustrative Mix table gives an overall lifetime carbon saving of 3.84 MtCO2. This
+figure of 3.84 MtCO2 is different to the programme carbon savings as quoted elsewhere in this document.
+There are two key reasons for this. Firstly this figure of 3.84 MtCO2 does not account for heating and
+insulation measures installed in the same home not giving 100% additional savings (as compared to
+installing the same two measures in two different homes). Since a whole house approach is a key part of
+CESP, the real savings delivered by the programme will be smaller than 3.84 MtCO2.The actual size of the
+reduction is very dependent on which measures are installed with which other measures but we have
+assumed an 80% reduction. Secondly some of the measures installed save electricity and are long lived and
+so for the purposes of calculating the overall savings from the programme future grid decarbonisation is
+
+15
+ References to research on comfort taking in similar circumstances:
+Hong, S. H. et al, The Impact of energy efficient refurbishment on the space heating fuel consumption in English
+   dwellings; Energy and Buildings 38 (2006) 1171-1181.
+www.apho.org.uk/resource/view.aspx?RID=53281
+http://www.eci.ox.ac.uk/research/energy/downloads/40house/chapter04.pdf
+http://www.defra.gov.uk/environment/climatechange/uk/energy/research/pdf/insulationmeasures-
+review.pdf
+
+
+                                                        Page | 39
+considered. However neither of these factors effect the way savings are calculated in the illustrative mix, or
+how these savings are affected by bonuses and add up to the overall notional target of 19.25 MtCO2.
+
+
+
+
+                                                   Page | 40
+  Illustrative Mix
+
+Carbon          Numb Cost of       Cost to    Individ       Lifeti   Individ    Annual    Uplift on measure
+saving          er of   the          the         ual       me of        ual       bill    (score multiplied by
+measure         measu individu    obligated   lifetime      CO2      lifetime   savings   thisper
+                 res     al       company     kgCO2        saving      tCO2       (£)     centage)
+                       measur                  saving         s      savings
+                          e                     (after                 (after
+                                              comfort                measur
+                                              taking)                    es
+                                                                     uplifts)
+Cavity wall     10,000
+                          356       364         448          40       17.9       127      50%
+insulation
+Loft            8,000
+insulation                268       276         251          40       10.1        72      50%
+(prof virgin)
+Loft            40,000
+insulation                268       276         87           40        3.5        25      50%
+(prof top-up)
+SWI external    14,000
+                         3,600      3369        820          30       24.6       234      300%
+(flat)
+SWI external    13,000
+(semi-det                6,300      5812       1,560         30       46.8       445      300%
+house)
+SWI internal    15,000
+to U of                  3,500      3278       1,475         30       44.3       420      300%
+0.45W/m2K
+Fuel            5,000
+                         3,888      3630       4,220         20       84.4       694      100%
+Switching
+Heating         20,500
+controls -
+upgrade with              84         89         35           12        0.4        6       100%
+new heat
+system
+Community       10,000
+heating                   200       208         431          15        6.5       100      100%
+meters
+Existing        10,000
+community                 701       418         685          30       20.6        64      150%
+heat to CHP
+Electric to     5,000
+community                7,124      3707       3,107         30       93.2       914      150%
+CHP
+Wood pellet          0
+boilers                  7,110      6544       5,192         20       103.8      330      150%
+(primary)
+Solar Water      700
+                         3,500      3278        326          25        8.1        57      150%
+Heater (4m²)
+Air source      5,000
+                         5,844      5400       3,076         15       46.1       443      150%
+heat pump
+Ground          1,000
+                         10,295     9416       2,204         40       88.2       474      150%
+source heat
+
+                                               Page | 41
+pumps
+Micro Wind         0
+(1 kWp, 1%                 3,200       3006          38         10       0.4         105     100%
+LF)
+Mini-wind 5        0
+                          21,000       19058       3,777        22.5     85.0        1066    100%
+kW, 20% LF
+Micro Hydro        0
+(0.7kWp,                   1,890       1809        1,322        20       26.4        368     100%
+50% LF)
+Photovoltaic      50
+panels (2.5                9,375       8587         911         25       22.8        254     100%
+kWp)
+mCHP              50
+                            563         566         210         15       3.2         128     150%
+(revised)
+Replacing old   13,500
+boiler (65%                2,500       2368        1,610        12       19.3        253     150%
+by 88.3%)
+HEA             100,00
+                            45           48          90         7.5      0.7          17     100%
+                  0
+Underfloor      1,000
+                            800         793         217         10       2.2          50     100%
+insulation
+Glazing E to     1,000
+                            200         208          71         20       1.4          16     100%
+C rated
+Flat roof         500
+insulation                 1,500       1449          87         40       3.5          25     100%
+(whole house)
+Draughtproofi    1,000
+ng (ie not                  100                     101         10       1.0          29     100%
+with glazing)
+
+
+  All forms of community heating will be eligible, and will be assessed on a case-by-case basis for their
+  carbon saving and score. Supplier / generator cost is assumed to be 90% of the direct cost of the measures
+  and 50% of the admin cost in most cases (see annex A). For district heating, suppliers and generators are
+  assumed to meet 50% of the capital costs of schemes with the remaining 50% being recovered through heat
+  sales through the life of the district heat network.
+
+
+  Comfort taking is assumed at 40% for insulation measures only.
+
+  Air source heat pumps are assumed to be installed in electrically heated dwellings only.
+
+
+
+
+                                                    Page | 42
+The Illustrative Mix divided into packages of measures
+
+46      Whilst the table above shows a number of each measures which might be delivered to meet the
+overall target, and by adding up the cost of each measure it is clear that this table delivers £350m worth of
+measures, it is not clear from this table how the delivery of these measures would meet the overall 19.25
+MtCO2 score target. To demonstrate that the delivery of these measures would meet the target it is
+necessary to make assumptions about the levels of whole house uplift and area based uplift that would be
+gained by companies. The table below sets out the same measures delivered but separated into packages
+where each package represents the delivery to a single household. Adding up the scores of the packages in
+the table below gives an overall score of 14.54MtCO2 carbon points. In addition to delivery in packages,
+measures will also be delivered through intensive action in target areas. Assuming, on average over the
+scores of all the projects delivered, a coverage of 65%16 is achieved. This would provide a 32.5% bonus to
+the overall score, leading to just in excess of 19.25MtCO2 points score obtained.
+
+
+Package                          Carbon           Whole-          Score         Number            Total Score
+                                 score for        house           after         delivered         (kilo-tonnes)
+                                 package          uplift          uplift
+                                 (tonnes)                         (tonnes)
+ESWI (flat) + ASHP +
+HC                                         143          110%            301              4000              1205
+ESWI (semi) +ASHP +
+LI top-up                                  211          110%            444              1000                444
+ESWI (semi) + Boiler +
+LI top-up + HC                             172          110%            360              5000              1801
+ISWI + Boiler + LI top-
+up + HC                                    164          110%            344              5000              1721
+ESWI (semi) + fuel
+switch + LI top-up + HC                    227          110%            477              2000                953
+ISWI + fuel switch + LI
+top-up                                     219          100%            438              2000                876
+CWI + fuel switch + LI
+top-up                                      95           60%            152              1000               152
+ESWI (flat) + DH + HM                      111          100%            222             10000              2222
+ISWI + DH + LI top-up                      274          100%            549              5000              2743
+ESWI (semi) + LI top-up                    142           60%            227              2000               455
+ISWI + LI top-up                           135           60%            215              3000               646
+ESWI (semi) + GSHP +
+LI top-up + HC                             275          120%            605              1000                605
+CWI + Boiler + LI top-up
++ HC                                        40            70%            68              3000                204
+CWI + LI top-up                             11            20%            13              5000                 64
+CWI                                          9                            9              1000                  9
+ESWI (semi)                                140                          140              2000                281
+LI (full)                                    5                            5              8000                 40
+LI (top-up)                                  2                            2              5000                  9
+
+16
+  A variety of previous community projects suggest that this level of coverage is achievable when significant effort is made to
+engage with the local community. For example in the Hadyard Hill Community Energy Programme
+(http://www.energyagency.org.uk/projects.php) and the Changing Streets programme (http://www.eastriding.gov.uk/cs/housing-
+and-public-protection/housing-services/private-sector-housing/).
+
+                                                           Page | 43
+SWH                        12               12      700            9
+Photovoltaic panels (2.5
+kWp)                       23               23       50            1
+mCHP (revised)              5                5       50            0
+Boiler + HC                29   50%         44      500           22
+Home energy advice          1                1   100000           68
+Underfloor insulation       2                2     1000            2
+Glazing E to C rated        1                1     1000            1
+Flat roof insulation
+(whole house)               3                3      500            2
+Draught proofing (not
+with glazing)               1                1     1000            1
+Total                                                     14.54MtCO2
+
+
+
+
+                                Page | 44
+Annex D: Key Assumptions/Sensitivities/Risks
+
+
+How to value carbon savings
+
+1       The carbon savings are calculated by taking the annual savings in tonnes of carbon dioxide
+equivalent and multiplying it by the correct price. This is then broken down into tonnes saved under the
+traded sector and the tonnes saved under the non-traded sector. The non-traded savings are multiplied by the
+SPC (shadow price of carbon). The SPC is the cost to society of the damage caused by carbon emitted. The
+price in 2009 for the SPC is £27 and increases by 2% every year. In the traded sector, under the EU ETS, the
+price is set by EU allowances. These are essentially the revealed price that firms are willing to pay to emit an
+extra tonne of carbon. The 2009 price is £16.72 and increases up to 2012 by three percent. After 2012 the
+EU allowances’ price increases further.
+
+2       The issue of poorly predicted the costs of measures is a small factor as suppliers and generators have
+the flexibility to follow a least cost solution. This does however mean that the carbon savings set out in this
+impact assessment are based on an illustrative mix which is only one possible solution for suppliers and
+generators to meet their targets. If suppliers and generators find a lower cost method of fulfilling their
+obligation they are likely to take it and this may mean the numbers of measures delivered on the ground are
+not similar to the illustrative mix. In this case the carbon savings may be quite different while the costs for
+suppliers and generators are slightly reduced.
+
+3       If the estimated costings for measures are inaccurate, this will impact on the number delivered and
+therefore the overall carbon savings. For example, if the scheme were todisportionately deliver solid wall
+insulation there would be virtually no change in the carbon saved. However, if there were to be a
+disproportionate number of replacement boilers, the overall carbon saving would be greatly reduced.
+Realistically, it is possible that the real carbon savings may vary by -20% to +100%.
+
+
+
+
+                                                   Page | 45
+Annex E: Carbon Impact Assessment
+
+1       The carbon impact assessment has looked at potential reductions or increases of carbon from the
+different approaches. All carbon emissions reductions are considered at a whole programme level and are
+converted from kgCO2e into monetary terms for inclusion in the cost-benefit analysis of the options. There
+are two different factors for converting emissions reductions into monetary values, the Shadow Price of
+Carbon (SPC) and the value of EU ETS allowances.
+
+2       The EU Emissions Trading Scheme places an EU level cap on emissions from sources covered by
+the scheme. (For the purposes of this policy assessment the only sources of relevance are UK electricity
+producing power stations.) Allowances to emit carbon are issued to member countries. The UK net
+emissions within the scheme are fixed by the number of allowances issued to the UK. Allowances can be
+traded within the scheme; however emissions savings in one country cause allowances to be sold to other
+countries. This allows countries purchasing allowances to produce more emissions. In this way any
+emissions savings from sources within the EU ETS do not cause an EU wide reduction in emissions.
+However these savings are still valuable to the UK economy as the sale of allowances brings money into the
+country, and so emissions savings which occur at sources within the EU ETS are valued at the projected
+price of allowances. For the CESP this relates to any savings of electricity as electricity producing power
+stations fall within the scheme.
+
+3       The Shadow Price of Carbon is used to value emissions savings which fall outside the EU ETS and
+so are not traded within the scheme. Put simply, the SPC reflects the damage costs of climate change caused
+by each additional tonne of greenhouse gas emitted – converted into carbon dioxide equivalent (CO2e) for
+ease of comparison.
+
+4       The carbon impact assessment has looked at potential carbon reductions or increases from the
+different approaches.
+
+5       The Shadow Price of Carbon (SPC) is applied to the emissions that fall under the non-traded sector;
+the traded price is applied to the emissions that fall under the traded sector. In accordance with government
+guidance, the valuation of the decrease in emissions that will result from products using less power is
+calculated using the projected EU Allowance price under the EU Emissions Trading Scheme, i.e. the
+revenue gained from selling permits for emissions.
+
+6
+The values for the EU Allowance used for the period 2008 to 2020 are as follows:
+
+
+EU allowance under emission trading
+£/tCO
+         2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
+2
+
+2008             £16.   £17.    £17.   £18.    £26.    £27.    £27.   £28.   £29.    £30.    £30.   £31.
+         16.0
+Prices            72     21      73     38      60      27      95     65     36      10      85     62
+
+Assumptions: All prices expressed in £2009, Exchange rate of €1 = £0.7, 2010 -2012 uses prices from the
+forward market (averaged across August 2007-May 2008), and 2013-2020 is based upon the European
+Commission's price forecast of €39 (2005 prices) from their Impact Assessment for measures to meet the
+Climate and Energy Package, adjusted to 2008 prices.
+
+
+                                                   Page | 46
+The traded sector price is currently under review. After 2020 a linear function is applied to the 2020 price of
+4.5% per annum. This is the cost of carry of the EU allowances price. This is unlikely to hold; however as
+there is a risk that the market does not exist or that significant change is not properly factored in, the price
+schedule is likely to change.
+
+8      CESP produces total lifetime carbon savings amounting to 2.9 Mt CO2, valued at £63 million. This
+can be broken down to show £35 million in the traded sector and £28 million in the non-traded sector17.
+
+                    2009       2010       2011      2012       2013      2014        2015      2016      2017       2018
+ Reduction
+ in CO2e
+ emissions
+ (traded)
+ (kT)              68.21      68.21     68.21      68.21      68.21     68.21       68.21     67.53     66.84     66.84
+ Reduction
+ in CO2e
+ emissions
+ (non-traded)
+ (kT)              50.89      50.28     50.28      50.28      50.28     50.28       50.28     47.51     44.74     44.74
+
+      2019       2020        2021         2022        2023        2024          2025         2026       2027        2028
+     66.79     66.79       66.79       66.79        65.24       53.05       53.05        46.74        45.47       44.21
+     44.52     44.52       39.72       39.72        39.72       39.73       39.73        39.73        39.73       39.73
+
+      2029       2030        2031         2032        2033        2034          2035         2036       2037        2038
+     37.69     37.69       36.58       35.47        34.36       33.20       32.10        30.99        30.99       29.88
+     27.30     27.30       27.30       27.30        27.30       27.14       27.14        27.14        27.14       27.14
+
+      2039       2040        2041         2042        2043        2044          2045         2046       2047        2048
+     1.04      1.00         0.96        0.92        0.88         0.84        0.84           0.80      0.76        -0.72
+     8.64      8.64         8.64        8.64        8.64         8.64        8.64           8.64      8.64        8.64
+
+ Budget
+ Period             Traded Emissions (kt)                                Non-traded Emissions (kt)
+ 2009-2012                                                    272.85                                              201.73
+ 2013-2017                                                    339.00                                              243.08
+ 2018-2022                                                    333.99                                              213.22
+ 2023-2027                                                    263.55                                              198.66
+ 2028-2032                                                    191.63                                              148.95
+ 2033-2037                                                    161.64                                              135.88
+
+
+17
+  The ratio of traded to non-traded sector emissions savings is highly dependent on the measures installed. This is particularly
+evident when considering the savings from the fuel switching measure which moves a household from using electricity (traded) to
+using gas (non-traded).
+
+                                                            Page | 47
+2038-2042                                             33.82                                        61.72
+2043-2047                                              4.14                                        43.22
+2048-2053                                              0.72                                         8.64
+
+
+
+
+                                                                    Annex F
+
+Note to summary tables
+
+1     Most of the data in the summary tables is explained in more detail in the main document and annexes
+however, for clarity, some additional explanation is given here.
+
+2       The one-off transition costs quoted are our estimates of costs to Ofgem. There will clearly also be
+set-up costs for the energy company participants in the scheme. In this Impact Assessment we provide our
+best estimate of the overall administration costs of implementing the scheme over its lifetime, but have not
+attempted to break these administration costs down into one-off and ongoing elements, as we have
+insufficient evidence to do so.
+
+3     The annual costs are given over three years, as an indicative lifetime period for the CESP
+programme.
+
+4       The annual benefits are based on the expected lifetime of the measures installed. The mix of
+measures that will be installed includes measures with a lifetime of up to 40 years. Lifetime carbon savings
+refer to the sum of the carbon savings expected of each measure throughout the lifetime of that measure.
+
+5       A standard discount rate of 3.5% pa. is used where applicable however the rate is reduced to 3.0%
+pa. after 30 years (in line with Treasury guidelines).
+
+
+
+
+                                                   Page | 48
+
