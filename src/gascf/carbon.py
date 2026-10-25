@@ -238,8 +238,9 @@ def read_cps_rates(path: Path = HMRC_RATES_HTML) -> list[dict]:
 
 def co2_t_per_mwh_coal() -> float:
     """CO2 per MWh of coal burned (gross CV), implied by HMRC's own CPS table: the coal rate
-    (£/gross GJ) over the carbon price equivalent (£/tCO2), × 3.6 GJ/MWh. Every CPS row gives
-    the same factor to 3 s.f. (0.3226 t/MWh); the first row is used."""
+    (£/gross GJ) over the carbon price equivalent (£/tCO2), × 3.6 GJ/MWh. The rows do not agree:
+    from 1 Apr 2013 0.32257, 2014 0.30876, 2015 0.31233, 2016 0.30958 t/MWh. The first row (from
+    1 April 2013, 0.32257 t/MWh) is used for every year."""
     r = read_cps_rates()[0]
     return r["coal_gbp_per_gj"] / r["gbp_per_t"] * 3.6
 
@@ -314,11 +315,12 @@ def c_marg_monthly(eta_ccgt: dict[int, float], years: range = range(2002, 2026))
     return out
 
 
-def nz1c(volume_twh_monthly: dict[Month, float], eta_ccgt: dict[int, float]) -> dict[int, dict]:
+def nz1c(volume_twh_monthly: dict[Month, float], eta_ccgt: dict[int, float], cm: dict | None = None) -> dict[int, dict]:
     """NZ1c by calendar year, £m: Σ months C_marg(m) × V(m) (V in TWh from the residual strand).
-    This is carved out of NZ1, never added to it."""
-    cm = c_marg_monthly(eta_ccgt, range(min(k[0] for k in volume_twh_monthly),
-                                        max(k[0] for k in volume_twh_monthly) + 1))
+    This is carved out of NZ1, never added to it. `cm`: the monthly carbon to use (RB v1.1 M7 passes the
+    switched one, `bills.c_marg`); by default gas at the margin, `c_marg_monthly`."""
+    cm = cm if cm is not None else c_marg_monthly(eta_ccgt, range(min(k[0] for k in volume_twh_monthly),
+                                                                  max(k[0] for k in volume_twh_monthly) + 1))
     out: dict[int, dict] = {}
     for k, v in volume_twh_monthly.items():
         row = out.setdefault(k[0], {"gbp_m": 0.0, "basis": "modelled", "source_id": "nz1c"})
@@ -329,10 +331,10 @@ def nz1c(volume_twh_monthly: dict[Month, float], eta_ccgt: dict[int, float]) -> 
 
 
 def collected_carbon_on_power(year: int) -> float:
-    """HMRC estimated CPF receipts, CY (Table 1b), £m: the 'tax collected' half of the §6
-    cross-check (the ETS-auction share is the Clock's and is not computed here)."""
-    from gascf.subsidies import read_ccl_table_1b
-    return read_ccl_table_1b()[year]["cpf_receipts"]
+    """HMRC estimated CPF receipts, CY (Table 1b), £m, from the shared cost register (0168; series CPS): the
+    'tax collected' half of the §6 cross-check (the ETS-auction share is the Clock's and is not computed here)."""
+    from gascf import register_pin as RP
+    return RP.register().series("CPS")[year]
 
 
 # ------------------------------------------------------------------ s27b: NZ1c split
@@ -348,7 +350,15 @@ CARBON_FALLBACKS = [
 
 
 def ets_power_receipts() -> dict[int, tuple[float, str, str]]:
-    """UK auction receipts for allowances attributable to power, CY £m, UK (GB scaling in `nz1c_split`).
+    """UK auction receipts for allowances attributable to power, CY £m, UK (GB scaling in `nz1c_split`), from the
+    shared cost register (0168; series ETS_POWER, built from `src_ets_power_receipts`)."""
+    from gascf import register_pin as RP
+    return RP.fy_rows("ETS_POWER")
+
+
+def src_ets_power_receipts() -> dict[int, tuple[float, str, str]]:
+    """The engine's reading of its stored auction files: the register's builder only (0168).
+    UK auction receipts for allowances attributable to power, CY £m, UK (GB scaling in `nz1c_split`).
     s36 (tickets 20, 21): revenue x power's share (0058), never the Subsidy Clock's 'ets' column.
     2002-07: none (no UK auctions in Phase I). 2008-12: traced auctions (`ets_power_phases`). 2013-20:
     registered revenue (`ets_auctions.uk_revenue_2013_20`) x the 0055 stand-in. 2021-24: calendar-year
@@ -406,7 +416,15 @@ def ets_power_phases() -> dict[int, dict]:
 
 
 def cpf_receipts() -> dict[int, tuple[float, str, str]]:
-    """HMRC estimated CPF (Carbon Price Support) receipts, CY £m, Table 1b. CPS is levied only on
+    """HMRC estimated CPF (Carbon Price Support) receipts, CY £m, from the shared cost register (0168; series CPS,
+    built from `src_cpf_receipts`)."""
+    from gascf import register_pin as RP
+    return RP.fy_rows("CPS")
+
+
+def src_cpf_receipts() -> dict[int, tuple[float, str, str]]:
+    """The engine's reading of HMRC Table 1b: the register's builder only (0168).
+    HMRC estimated CPF (Carbon Price Support) receipts, CY £m, Table 1b. CPS is levied only on
     fossil fuel used to generate electricity, so all of it is carbon tax collected on power.
     Before 2013: 0 (no CPS). 2013: total CCL+CPF receipts 2013 − 2012 (estimated, declared)."""
     from gascf.subsidies import HMRC_ENVTAX, read_ccl_table_1b, read_ods
@@ -462,9 +480,12 @@ def nz1c_split(nz1c_by_year: dict[int, dict]) -> dict[int, dict]:
       pricing of all MWh).
     The two add to NZ1c exactly; carbon_in_price may be negative in a year if receipts exceed
     NZ1c (reported, not clipped)."""
-    from gascf import ets_auctions as E
+    from gascf import register_pin as RP
     from gascf.system_costs import gb_share_of_uk
-    cpf, ets, phases = cpf_receipts(), ets_power_receipts(), ets_power_phases()
+    cpf, ets = cpf_receipts(), ets_power_receipts()
+    reg = RP.register()       # 0168: the 2008-12 phase split of ETS_POWER is the register's memo rows
+    phases = {y: {"ets_phase2_gbp_m": v, "ets_phase3_gbp_m": reg.series("ETS_POWER_PHASE3")[y]}
+              for y, v in reg.series("ETS_POWER_PHASE2").items()}
     rank = {"measured": 0, "modelled": 1, "estimated": 2}
     out = {}
     for y, row in nz1c_by_year.items():

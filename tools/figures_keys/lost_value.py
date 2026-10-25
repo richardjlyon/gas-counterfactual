@@ -45,7 +45,8 @@ STRAIGHT = {f"rb.lost_value.straight_line.{c}.{p}": ("straight_line", c, p)
 
 def _m(label, mapped, period, units="£bn, 2024 prices"):
     return {"label": label, "basis": "estimated", "provisional": period == "2025", "ticket": "31",
-            "run_field": "bills[y].totals gap_gbp_m, go_gbp_m, s1_gbp_m, gap_real_bn (gascf.lost_value.estimate)",
+            "run_field": "bills[y].totals gap_gbp_m over go_gbp_m (the whole bill, same-in-both block once), gap_real_bn "
+                         "(gascf.lost_value.estimate)",
             "units": units, "period": period, "price_base": PRICE_BASE_LABEL, "status": "SOURCED", "print": True,
             "mapped_name": mapped, "sources": SOURCES, "estimate_label": "estimate, not a model output (0007)", "in_headline": False}
 
@@ -73,7 +74,7 @@ def by_year(run: dict) -> dict:
     for y in sorted(run["bills"], key=int):
         t = run["bills"][y]["totals"]
         e = s[int(y)] * lv.E_HOUSEHOLDS + (1 - s[int(y)]) * lv.E_NON_HOUSEHOLDS
-        r = t["gap_gbp_m"] / (t["go_gbp_m"] + t["s1_gbp_m"])
+        r = lv.price_rise(t)
         out[y] = {"s": s[int(y)], "eps_central": e, "r": r,
                   "quoted_central_gbp_bn": to_2024(lv._ce_actual(e, r) * t["gap_real_bn"], run),
                   "straight_line_central_gbp_bn": to_2024(lv._straight(e, r) * t["gap_real_bn"], run)}

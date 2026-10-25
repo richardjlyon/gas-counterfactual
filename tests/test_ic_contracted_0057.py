@@ -98,9 +98,14 @@ def test_own_firm_same_basis_headline_and_2025_as_measured_for_0110(monkeypatch,
     with pre_s37():
         b = B.build(B.CENTRAL)
     head = sum(b[y]["totals"]["gap_real_bn"] for y in range(2002, 2025)) * c[2024] / c[B.PRICE_BASE]
-    assert head == pytest.approx(161.27549935440913, abs=5e-4)
+    # v4-s42 (card [internal ticket], decision 0195): the seven input fixes move this build's headline 161.2755 -> 161.1443
+    # (A1, A2, A3, A5, D1; 2002-24) and its 2025 gap per household 570.758 -> 590.285 (A4, 2025 on EGC 2023, and A3),
+    # measured on this seam by work/[internal ticket]/repin_s42.py; NZ5 2025 does not move.
+    # v4-s43 (card [internal ticket], decision 0197): the 2002-05 NI lists move it 161.1443 -> 161.1475 (work/[internal ticket]/
+    # repin_s43.py on this seam; fails at 59512c8, passes at a7e5ee4); NZ5 2025 and the 2025 gap do not move.
+    assert head == pytest.approx(161.14746883137346, abs=5e-4)
     assert B.val(b[2025], "NZ5") == pytest.approx(212.77518920695888, abs=5e-3)
-    assert b[2025]["totals"]["gap_per_hh_real"] == pytest.approx(570.7581508587472, abs=5e-3)
+    assert b[2025]["totals"]["gap_per_hh_real"] == pytest.approx(590.284661668059, abs=5e-3)
 
 
 # ---- build-level (heavy: two full builds, run alone) ----
@@ -147,8 +152,14 @@ def test_metered_reproduces_v4_s35(monkeypatch, request):
     # 0059 (ticket 11) takes the unbilled station load out of the fossil fleet's cost (every year). These move
     # under the central settings, independent of ic_basis, so they join the A1 moved set and the totals move by
     # exactly the named lines' sum.
-    moved = {"netzero": lambda y: {"NZ2", "NZ8", "NZ10", "NZ11"} | ({"NZ6"} if 2017 <= y <= 2024 else set()),
-             "gasonly": lambda y: {"GO1", "GO4", "GO7"}}
+    # v4-s42 (card [internal ticket], decision 0195) adds the lines its seven input fixes move on this build, by year, from
+    # work/[internal ticket]/repin_s42.py (every other line still matches v4-s35 to 1e-6): NZ6 2010-11 (D1, FY2010/11
+    # balancing on basis (i)); GO1k (fossil Britain's new build) 2002-06 (A2), 2010-11 (A1; A5 in 2011) and 2021-25
+    # (A3; A4 in 2025). The totals still move by exactly the named lines' sum.
+    S42_GO1K_YEARS = {2002, 2003, 2004, 2005, 2006, 2010, 2011, 2021, 2022, 2023, 2024, 2025}
+    moved = {"netzero": lambda y: {"NZ2", "NZ8", "NZ10", "NZ11"} | ({"NZ6"} if 2017 <= y <= 2024 else set())
+                                  | ({"NZ6"} if y in (2010, 2011) else set()),
+             "gasonly": lambda y: {"GO1", "GO4", "GO7"} | ({"GO1k"} if y in S42_GO1K_YEARS else set())}
     for y in B.YEARS:
         e = E["bills"][str(y)]
         delta = {}

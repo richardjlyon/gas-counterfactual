@@ -15,7 +15,7 @@ Y05_12 = [str(y) for y in range(2005, 2013)]
 Y13_20 = [str(y) for y in range(2013, 2021)]
 
 
-def _m(label, run_field, units="£bn, 2024 prices", basis="estimated", period="2002-2024", provisional=False,
+def _m(label, run_field, units="£bn, 2024 prices", basis="modelled", period="2002-2024", provisional=False,
        **extra):
     return {"label": label, "basis": basis, "provisional": provisional, "ticket": "29",
             "run_field": run_field, "units": units, "period": period, "price_base": PRICE_BASE_LABEL,
@@ -135,11 +135,11 @@ SCALARS = {
                              "fleet[2024].new_gw", dict(units="GW, nameplate", basis="modelled", **_Y24)),
     "negative_gap_years": ("Years 2002-24 with a negative gap", "[y for y in 2002-24 if gap[y] < 0]",
                            dict(units="years")),
-    "cost_per_household_2002_24_gbp": ("Cost to Britain per household, summed 2002-24",
+    "cost_per_household_2002_24_gbp": ("Extra cost of net zero on electricity bills, per household, summed 2002-24",
                                        "Σ2002-24 gap[y].per_household_real", _gbp()),
-    "cost_per_household_2024_gbp": ("Cost to Britain per household, 2024", "gap[2024].per_household_real",
+    "cost_per_household_2024_gbp": ("Extra cost of net zero on electricity bills, per household, 2024", "gap[2024].per_household_real",
                                     _gbp(**_Y24)),
-    "cost_per_household_2025p_gbp": ("Cost to Britain per household, 2025 (provisional)",
+    "cost_per_household_2025p_gbp": ("Extra cost of net zero on electricity bills, per household, 2025 (provisional)",
                                      "gap[2025].per_household_real", _gbp(**_PROV)),
     "own_bills_per_household_2002_24_gbp": ("Net-zero cost on households' own bills, summed 2002-24 (CCL excluded, 0025)",
                                             "Σ2002-24 bills[y].netzero_on_household_bill_per_household.value",
@@ -228,7 +228,14 @@ DECLARED = {
                                     {"name": "gap_gbp_bn", "source": "gap[y].national_gbp_bn_real"},
                                     {"name": "gap_per_household_gbp", "source": "gap[y].per_household_real"},
                                     {"name": "carbon_gbp_bn", "source": "bills[y].nz1c"},
-                                    {"name": "ccl_gbp_bn", "source": "NZ8"}]),
+                                    {"name": "ccl_gbp_bn", "source": "NZ8"},
+                                    # v4-s41 (decision 0184, card [internal ticket]): per MWh billed, R19 (a) volume
+                                    {"name": "nz_bill_gbp_per_mwh",
+                                     "source": "bills[y].totals.nz_real (2024 prices) x 1,000 / years[y].volume_twh",
+                                     "units": "£/MWh, 2024 prices"},
+                                    {"name": "rb_bill_gbp_per_mwh",
+                                     "source": "bills[y].totals.go_real (2024 prices) x 1,000 / years[y].volume_twh",
+                                     "units": "£/MWh, 2024 prices"}]),
     "table_waterfall_2002_24": _m("Waterfall 2002-24: the 11 printed steps in step order, adding to the headline",
                                   "the wf_ keys (never waterfall_grouped or netzero_groups)", units="table, £bn, 2024 prices"),
 }
@@ -295,6 +302,13 @@ def values(run: dict) -> dict:
          "carbon_gbp_bn": _bn(run, b[y]["nz1c"]["national_gbp_m_real"]),
          "ccl_gbp_bn": _bn(run, _line_m(y, run, "NZ8"))}
         for y in Y02_24 + ["2025"]]
+    # v4-s41 (decision 0184, card [internal ticket]): the actual bill and the road's bill per MWh billed, from the same
+    # unrounded bills over the billed volume V (years[y].volume_twh; R19 (a), decision 0163). £bn x 1,000 / TWh.
+    vol = {str(r["year"]): r["volume_twh"] for r in run["years"]}
+    for r in wf["table_results_by_year"]:
+        v = vol[str(r["year"])]
+        r["nz_bill_gbp_per_mwh"] = r["nz_bill_gbp_bn"] * 1e3 / v
+        r["rb_bill_gbp_per_mwh"] = r["rb_bill_gbp_bn"] * 1e3 / v
     labels = {k: v[0] for k, v in (WF_STEPS | WF_LINES).items()}
     lines = {k: list(v[1]) for k, v in (WF_STEPS | WF_LINES).items()}
     wf["table_waterfall_2002_24"] = [{"key": k, "label": labels[k], "lines": lines[k], "value": wf[k]}

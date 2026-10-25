@@ -26,15 +26,21 @@ DECLARED = {
     "pricing_residual_2002_05_gbp_m": _m("Pricing residual 2002-05: (NZ1 - NZ1c) - GO1 market part - GO1k (§5.3)",
                                          "Σ2002-05 bills[y] NZ1 - nz1c - fleet[y].market_gbp_m - GO1k, to 2025 money",
                                          "£m, 2025 prices", "2002-2005", "11"),
-    "gas_feedback_e_central": _m("Gas-price feedback, elasticity, central: supply 0.06 + demand 0.169 (Albrizio et "
-                                 "al. 2022's pair; 0144 item 2A)",
+    "gas_feedback_e_central": _m("Gas-price feedback, elasticity, central: supply 0.06 plus demand 0.169, the pair of "
+                                 "Albrizio et al. 2022 (IMF WP/22/143), combined by their equation 5, pp.13-14 (§9.3; "
+                                 "0144 item 2A)",
                                  "fossil_like_for_like.GAS_ELASTICITY['central']", "elasticity", "", "0144"),
-    "gas_feedback_e_supply_central": _m("Gas-price feedback, supply elasticity in the central pair (Krichene 2005 "
-                                        "Table 5, short-run, as Albrizio use it; 0144)",
+    "gas_feedback_e_supply_central": _m("Gas-price feedback, supply elasticity in the central pair: Albrizio et al. "
+                                        "2022 (p.12) take 0.06 from Krichene (2002), Energy Economics 24(6); Krichene "
+                                        "2005 (IMF WP/05/32), Table 5, p.20, prints the same short-run figure (§9.3; "
+                                        "0144)",
                                         "fossil_like_for_like.GAS_ELASTICITY_PAIRS['central'][0]", "elasticity", "",
                                         "0144"),
-    "gas_feedback_e_demand_central": _m("Gas-price feedback, demand elasticity in the central pair (Albrizio et al. "
-                                        "2022 Table 2, EU-weighted; 0144)",
+    "gas_feedback_e_demand_central": _m("Gas-price feedback, demand elasticity in the central pair: Albrizio et al. "
+                                        "2022, Table 2 (p.12), sector elasticities weighted by the EU gas consumption "
+                                        "shares in the same table: 0.084 x 0.23 + 0.24 x 0.34 + 0.136 x 0.32 + 0.22 x "
+                                        "0.11 = 0.169, printed 0.17. Albrizio et al. name no source or year for the "
+                                        "shares (§9.3; 0144)",
                                         "fossil_like_for_like.GAS_ELASTICITY_PAIRS['central'][1]", "elasticity", "",
                                         "0144"),
     "gas_feedback_e_high": _m("Gas-price feedback, elasticity at the high end of the range (Krichene 2005 Table 2 "

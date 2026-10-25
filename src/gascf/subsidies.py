@@ -28,6 +28,8 @@ from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
 
+from gascf import register_pin as RP
+
 import pymupdf
 
 RAW = Path(__file__).parents[2] / "data/raw"
@@ -203,13 +205,19 @@ def read_ro_2025_26_ex_ante() -> dict[str, float]:
     return {"rocs": rocs, "buyout": bo, "gbp_m": rocs * bo / 1e6}
 
 
-def ro_fy() -> dict[int, tuple[float, str, str]]:
-    """RO by obligation year (start year), £m, with basis and source."""
+def src_ro_fy() -> dict[int, tuple[float, str, str]]:
+    """RO by obligation year (start year), £m, with basis and source: the engine's reading of its stored Ofgem
+    files. The register's builder only (0168); the run reads `ro_fy`."""
     out = {y: (v, "measured", SRC_RO_0506) for y, v in read_ro_sy1_4().items()}
     out.update({y: (v, "measured", SRC_RO_0910) for y, v in read_ro_sy5_8().items()})
     out.update({y: (r["gbp_m"], "measured", SRC_RO_SY23) for y, r in read_ro_sy9_23().items()})
     out[2025] = (read_ro_2025_26_ex_ante()["gbp_m"], "estimated", SRC_RO_2526)
     return out
+
+
+def ro_fy() -> dict[int, tuple[float, str, str]]:
+    """RO by obligation year (start year), £m, with basis and source, from the shared cost register (0168)."""
+    return RP.fy_rows("RO")
 
 
 def ro(years=YEARS) -> dict[int, dict]:
@@ -222,6 +230,60 @@ def ro(years=YEARS) -> dict[int, dict]:
         basis = "estimated" if any(p[1] == "estimated" for p in parts) else "measured"
         out[y] = _row(cy[y], basis, "+".join(sorted({p[2] for p in parts})))
     return out
+
+
+# RO mutualisation (decision 0169; cards [internal ticket], [internal ticket]; bills.Settings.ro_mutualisation, OFF by default
+# until the release card sets central). Source files: the five reports saved by card [internal ticket] (sha256 pinned in
+# tests/test_ro_mutualisation.py).
+# Ofgem's "worth" of a ROC above (Figure A4.1) is the buy-out price plus the recycle of the buy-out and late
+# payment funds only; each year's report says suppliers "will receive a further mutualisation recycle value",
+# so the mutualisation payments solvent suppliers made to cover failed suppliers' unpaid obligation are not in
+# NZ2. Read from the "Total received" cell of each mutualisation-payments table; where two reports print the
+# same scheme year, both must agree.
+RO_MUT_REPORTS = [RAW / f"ofgem_ro_fit/RO_annual_report_{n}.pdf" for n in ("2020-21", "SY20", "SY21", "SY22", "SY23")]
+SRC_RO_MUT = "ofgem-ro-annual-reports-2020-21-sy20-sy23-mutualisation-payments-received"
+_MUT_TABLE = re.compile(r"(?:Table|Figure) A\d\.\d:? (RO|ROS) mutualisation payments received\s*\d*\s*(SY\d+|20\d\d-\d\d)")
+
+
+@lru_cache(maxsize=None)
+def read_ro_mutualisation() -> dict[int, dict]:
+    """GB mutualisation payments received, by the scheme year they make good (start year):
+    {year: {ro_gbp, ros_gbp, gbp_m}}. NI is not mutualised (RO annual reports)."""
+    got: dict[tuple[int, str], float] = {}
+    for p in RO_MUT_REPORTS:
+        t = _pdf_text(p)
+        for m in _MUT_TABLE.finditer(t):
+            lab = m.group(2)
+            y = int(lab[:4]) if lab[0] == "2" else int(lab[2:]) + 2001
+            seg = t[m.end(): m.end() + 60000]
+            nxt = _MUT_TABLE.search(seg)
+            tot = re.search(r"Totals? ((?:£[\d,]+\.\d\d ?){6})", seg[: nxt.start()] if nxt else seg)
+            if not tot:
+                raise ValueError(f"{p.name}: {m.group(1)} {lab}: no Totals row")
+            v = _num(tot.group(1).split()[-1])           # the last column, "Total received"
+            k = (y, m.group(1))
+            if k in got and abs(got[k] - v) > 0.005:
+                raise ValueError(f"RO mutualisation {k}: reports disagree ({got[k]} vs {v})")
+            got[k] = v
+    years = sorted({y for y, _ in got})
+    if years != list(range(2017, 2022)) or len(got) != 10:
+        raise ValueError(f"RO mutualisation: read {sorted(got)}")
+    return {y: {"ro_gbp": got[(y, "RO")], "ros_gbp": got[(y, "ROS")],
+                "gbp_m": (got[(y, "RO")] + got[(y, "ROS")]) / 1e6} for y in years}
+
+
+def ro_mutualisation_cy(years=YEARS) -> dict[int, float]:
+    """The payments on calendar years by NZ2's own rule (scheme year -> CY, 0.25/0.75), £m cash, from the shared
+    cost register (0168; series RO_MUT, built from `read_ro_mutualisation`). SY21-SY23 (2022-23 to 2024-25) did
+    not trigger mutualisation (their reports): 0, sourced. SY24 (2025-26) is not yet known: 0, recorded as the
+    fallback 'ro-mutualisation-sy24-zero' (2025 provisional only)."""
+    from gascf import fallbacks as fb
+    fy = {y: v for y, v in RP.register().series("RO_MUT").items() if y <= 2024}
+    if max(years) >= 2025:
+        fy[2025] = RP.register().series("RO_MUT")[2025]
+        fb.record("ro-mutualisation-sy24-zero", 2025, fy[2025], "GBP m",
+                   "SY24 mutualisation unknown; taken as 0")
+    return fy_to_cy(fy, years)
 
 
 # ------------------------------------------------------------------ NZ3 Feed-in tariffs
@@ -280,19 +342,61 @@ SRC_FIT_LEV_AR = "ofgem-fit-annual-reports-sy14-sy15-levelisation-fund"
 SRC_FIT_LEV_QR = "ofgem-fit-quarterly-reports-61-64-levelisation-fund"
 FIT_BASIS_OPTIONS = ("levelisation", "scheme_value")   # 'levelisation' = central (s27b)
 
+# C-008: FIT years 1-5 (2010-11 … 2014-15), Ofgem's annual reports, each year's own "Levelisation fund" row.
+# (file, PDF page, pattern). Pages and tables: SY1 p.5; SY2 Table 7 (cont.) p.24; SY3 Table 9 p.21; SY4 p.17;
+# SY5 p.15. Saved by the input audit ([internal ticket], 21 Oct 2026; URLs in SOURCES.md).
+FIT_AR_SY1_5 = {
+    2010: (RAW / "ofgem_ro_fit/FIT_annual_report_2010-11.pdf", 5, r"Levelisation fund £([\d,]+\.\d{2})"),
+    2011: (RAW / "ofgem_ro_fit/FIT_annual_report_2011-12.pdf", 24, r"Levelisation fund £([\d,]+\.\d{2})"),
+    2012: (RAW / "ofgem_ro_fit/FIT_annual_report_2012-13.pdf", 21, r"Levelisation fund \(= A\+B\+C-D\) £([\d,]+)"),
+    2013: (RAW / "ofgem_ro_fit/FIT_annual_report_2013-14.pdf", 17, r"Levelisation fund \(=A\+B\+C-D\) £([\d,]+)"),
+    2014: (RAW / "ofgem_ro_fit/FIT_annual_report_2014-15.pdf", 15, r"Levelisation fund \(=A\+B\+C-D\) £([\d,]+)"),
+}
+SRC_FIT_LEV_SY1_5 = "ofgem-fit-annual-reports-2010-11-to-2014-15-levelisation-fund"
+
+
+def _pdf_page_text(path: Path, page: int) -> str:
+    return re.sub(r"\s+", " ", pymupdf.open(path)[page - 1].get_text())
+
+
+def fit_sy1_5_figure_2_5() -> dict[int, int]:
+    """Cross-check only: the 2014-15 report's Figure 2.5 (PDF p.18), 'Total levelisation fund (A+B+C-D)' for
+    years 1-5 to the pound, {start year: £}."""
+    t = _pdf_page_text(FIT_AR_SY1_5[2014][0], 18)
+    i = t.find("Total levelisation fund (A+B+C-D)")
+    if i < 0:
+        raise ValueError("FIT annual report 2014-15: Figure 2.5 moved")
+    out = {}
+    for n in range(1, 6):
+        m = re.compile(rf"\b{n} £([\d,]+) £([\d,]+) £([\d,]+) £([\d,]+) £([\d,]+)").search(t, i)
+        if not m:
+            raise ValueError(f"FIT annual report 2014-15: Figure 2.5 row {n} not found")
+        out[2009 + n] = int(_num(m.group(5)))
+    return out
+
 
 @lru_cache(maxsize=None)
 def read_fit_levelisation() -> dict[int, tuple[float, str, str]]:
     """The FIT levelisation fund, £m, by scheme year (start year): the cost of the scheme to
-    licensed suppliers, which is what reaches bills (generation + deemed export + qualifying
-    costs − value of export electricity to suppliers). Ofgem: "The levelisation fund is the total
+    licensed suppliers, which is what reaches bills. Ofgem: "The levelisation fund is the total
     combined cost of the scheme to licensed electricity suppliers" (SY14 report).
+    Why it is below the scheme value (decision 0084, reason as corrected 17 Oct 2026): Ofgem deducts the
+    wholesale value of exported FiT power, deemed and metered, valued at the System Sell Price, because
+    suppliers receive that power (FIT Annual Report SY15 para 3.4 p.33; FiT Order 2012 art 27(2),(6)); and
+    metered export payments were left out of levelisation in FIT years 1-9 (to 2018-19). The SSP is a
+    wholesale stand-in price; Ofgem (letter 2 Feb 2021) notes some deemed-export benefit may go to network owners.
 
+    SY1–SY5 (2010-11 … 2014-15): each year's own annual report, "Levelisation fund … £…" (C-008).
     SY6–SY13 (2015-16 … 2022-23): "The total Levelisation Fund for the year was calculated at £…"
     (annual levelisation notices). SY14, SY15: "The levelisation fund (D) (A + B + C) £…" (annual
     reports). SY16 (2025-26): sum of "The levelisation fund totalled £…" in quarterly reports 61–64
     (estimated: quarterly, before annual reconciliation)."""
     out: dict[int, tuple[float, str, str]] = {}
+    for fy, (p, page, pat) in FIT_AR_SY1_5.items():
+        m = re.search(pat, _pdf_page_text(p, page))
+        if not m:
+            raise ValueError(f"{p.name} p.{page}: levelisation fund row moved")
+        out[fy] = (_num(m.group(1)) / 1e6, "measured", SRC_FIT_LEV_SY1_5)
     for fy, p in FIT_NOTICE.items():
         m = re.search(r"The total Levelisation Fund for the year was calculated at £([\d,]+\.\d+)", _pdf_text(p))
         if not m:
@@ -317,27 +421,40 @@ def read_fit_levelisation() -> dict[int, tuple[float, str, str]]:
     return out
 
 
-def fit_fy(basis: str = "levelisation") -> dict[int, tuple[float, str, str]]:
-    """FIT by scheme year (start year), £m.
+def src_fit_fy(basis: str = "levelisation") -> dict[int, tuple[float, str, str]]:
+    """FIT by scheme year (start year), £m: the engine's reading of its stored Ofgem files. The register's builder
+    only (0168); the run reads `fit_fy`.
 
     basis 'levelisation' (central, s27b; spec §15.5 item 3 "FiT at the levelisation cost"): the
-    levelisation fund (`read_fit_levelisation`) for SY6–SY16. SY1–SY5 (2010-11 … 2014-15) have no
-    stored levelisation notice: scheme value × the SY6 ratio levelisation ÷ scheme value
-    (estimated; disclosed fallback 'fit-sy1-5-levelisation-ratio'). 'scheme_value': the pre-s27 line."""
+    levelisation fund (`read_fit_levelisation`) for SY1–SY16, all as Ofgem published it (C-008 replaced
+    the SY1–SY5 estimate, scheme value × the SY6 ratio). 'scheme_value': the pre-s27 line."""
     if basis == "scheme_value":
         return fit_fy_scheme_value()
     if basis != "levelisation":
         raise ValueError(basis)
-    sv = read_fit_scheme_value()
     lev = read_fit_levelisation()
-    ratio = lev[2015][0] / sv[2015]
-    out = {fy: (v * ratio, "estimated", f"{SRC_FIT}+{SRC_FIT_LEV}") for fy, v in sv.items() if fy < 2015}
-    out.update(lev)
-    return out
+    if set(read_fit_scheme_value()) - set(lev):
+        raise ValueError("FIT: a scheme year with a scheme value has no levelisation fund")
+    return dict(lev)
 
 
-FIT_FALLBACKS = [{"name": "fit-sy1-5-levelisation-ratio", "years": "SY1-SY5 (FY2010/11-2014/15)",
-                  "what": "levelisation fund not stored for SY1-SY5: scheme value x SY6 levelisation/scheme-value ratio"}]
+def fit_fy(basis: str = "levelisation") -> dict[int, tuple[float, str, str]]:
+    """FIT by scheme year (start year), £m, from the shared cost register (0168): 'levelisation' = series FIT
+    (central); 'scheme_value' = FIT plus the register's named input adjustment alt.FIT.ofgem_scheme_value."""
+    if basis == "levelisation":
+        return RP.fy_rows("FIT")
+    if basis != "scheme_value":
+        raise ValueError(basis)
+    reg = RP.register()
+    adj = reg.adjustments("FIT", "rb_sensitivity_fit_scheme_value")["alt.FIT.ofgem_scheme_value"]
+    alt = {int(r["year"]): r for r in reg.rows if r["item_id"] == "alt.FIT.ofgem_scheme_value"}
+    lev = reg.series("FIT")
+    return {y: (lev[y] + adj.get(y, 0.0), *((alt[y]["basis"], alt[y]["source_id"]) if y in alt else
+                                            (reg.row("FIT", y)["basis"], reg.row("FIT", y)["source_id"])))
+            for y in lev}
+
+
+FIT_FALLBACKS: list[dict] = []     # C-008: 'fit-sy1-5-levelisation-ratio' retired (SY1-5 now published figures)
 
 
 def fit(years=YEARS, basis: str = "levelisation") -> dict[int, dict]:
@@ -397,11 +514,9 @@ def cfd_monthly_by_group() -> dict[str, dict[tuple[int, int], float]]:
     return {k: dict(v) for k, v in out.items()}
 
 
-def cfd(years=YEARS, part: str = "all") -> dict[int, dict]:
-    """NZ4 by calendar year, £m; zero before the first settlement (30 June 2016).
-
-    part: 'all' (the whole CfD, pre-s27 NZ4), 'other' (NZ4 central from s27b: CfD without
-    biomass) or 'biomass' (NZ4b: Biomass Conversion + Dedicated Biomass). other + biomass = all."""
+def src_cfd(years=YEARS, part: str = "all") -> dict[int, dict]:
+    """NZ4 by calendar year, £m, from the stored LCCC file: the register's builder only (0168); the run reads
+    `cfd`. part: 'all', 'other' or 'biomass'."""
     if part == "all":
         m = cfd_monthly()
         src = SRC_CFD
@@ -412,6 +527,22 @@ def cfd(years=YEARS, part: str = "all") -> dict[int, dict]:
         raise ValueError(part)
     return {y: _row(sum(v for k, v in m.items() if k[0] == y), "measured",
                     src if any(k[0] == y for k in m) else "cfd-not-yet-started") for y in years}
+
+
+CFD_LINES = {"all": "CFD", "other": "CFD_OTHER", "biomass": "CFD_BIOMASS"}
+
+
+def cfd(years=YEARS, part: str = "all") -> dict[int, dict]:
+    """NZ4 by calendar year, £m, from the shared cost register (0168); zero before the first settlement
+    (30 June 2016).
+
+    part: 'all' (the whole CfD, pre-s27 NZ4; series CFD), 'other' (NZ4 central from s27b: CfD without
+    biomass; memo CFD_OTHER) or 'biomass' (NZ4b: Biomass Conversion + Dedicated Biomass; memo CFD_BIOMASS).
+    other + biomass = all."""
+    if part not in CFD_LINES:
+        raise ValueError(part)
+    r = RP.fy_rows(CFD_LINES[part])
+    return {y: _row(*r[y]) for y in years}
 
 
 @lru_cache(maxsize=None)
@@ -429,12 +560,20 @@ def cm_monthly() -> dict[tuple[int, int], float]:
     return dict(out)
 
 
-def CM_paid(years=YEARS) -> dict[int, dict]:
-    """Capacity Market payments to capacity providers by calendar year, £m (LCCC). Zero
-    before October 2016. NZ5 = max(0, CM_paid − CM_gasonly) is computed by the parent."""
+def src_CM_paid(years=YEARS) -> dict[int, dict]:
+    """Capacity Market payments by calendar year, £m, from the stored LCCC file: the register's builder only
+    (0168); the run reads `CM_paid`."""
     m = cm_monthly()
     return {y: _row(sum(v for k, v in m.items() if k[0] == y), "measured",
                     SRC_CM if any(k[0] == y for k in m) else "cm-not-yet-started") for y in years}
+
+
+def CM_paid(years=YEARS) -> dict[int, dict]:
+    """Capacity Market payments to capacity providers by calendar year, £m (LCCC), from the shared cost register
+    (0168; series CM_PAID). Zero before October 2016. NZ5 = max(0, CM_paid − CM_gasonly) is computed by the
+    parent."""
+    r = RP.fy_rows("CM_PAID")
+    return {y: _row(*r[y]) for y in years}
 
 
 # ------------------------------------------------------------------ NZ8 CCL, electricity
@@ -491,8 +630,8 @@ def read_ccl_table_1c_electricity() -> dict[tuple[int, int], float]:
 
 def ccl_electricity_exempt_period(years=YEARS) -> dict[int, float]:
     """CCL electricity declarations in the months renewable electricity was exempt (to 31 July
-    2015), £m UK, by calendar year: the whole Table 1b year before 2015; 2015 = 7/12 of the Table 1b
-    year (decision D2's stated fallback); 0 after 2015.
+    2015), £m UK, by calendar year: the whole year before 2015; 2015 = 7/12 of the year (decision D2's stated
+    fallback); 0 after 2015. Read from the shared cost register (0168; series CCL_ELEC = HMRC Table 1b).
 
     Why 7/12 and not the monthly table: HMRC publishes no monthly electricity RECEIPTS (receipts
     carry no commodity split; the bulletin says separate CCL/CPF receipts are only estimated).
@@ -501,14 +640,14 @@ def ccl_electricity_exempt_period(years=YEARS) -> dict[int, float]:
     record, Table 1c Jan-Jul 2015 = £144.2m, and Jan-Jun plus a third of the Jul-Sep quarter = about
     £168m, against 7/12 = £189.1m: pro rata counts about £21m more for the exempt months than the
     quarterly reading does (`ccl_2015_monthly_readings`)."""
-    t = read_ccl_table_1b()
+    t = RP.register().series("CCL_ELEC")
     ey, em = LEC_EXEMPTION_END
     out = {}
     for y in years:
         if y < ey:
-            out[y] = t[y]["electricity"]
+            out[y] = t[y]
         elif y == ey:
-            out[y] = t[y]["electricity"] * em / 12
+            out[y] = t[y] * em / 12
         else:
             out[y] = 0.0
     return out
@@ -519,15 +658,17 @@ def ccl_2015_monthly_readings() -> dict[str, float]:
     m = read_ccl_table_1c_electricity()
     jan_jun = sum(m[(2015, k)] for k in range(1, 7))
     q3 = sum(m[(2015, k)] for k in (7, 8, 9))
-    return {"table_1b_2015": read_ccl_table_1b()[2015]["electricity"],
-            "pro_rata_7_12": read_ccl_table_1b()[2015]["electricity"] * 7 / 12,
+    return {"table_1b_2015": RP.register().series("CCL_ELEC")[2015],
+            "pro_rata_7_12": RP.register().series("CCL_ELEC")[2015] * 7 / 12,
             "table_1c_jan_jul": jan_jun + m[(2015, 7)],
             "table_1c_jan_jun_plus_third_of_q3": jan_jun + q3 / 3}
 
 
 def ccl_electricity(years=YEARS) -> dict[int, dict]:
-    """NZ8: CCL electricity declarations by calendar year, £m (UK). CPS is not here (it is in
-    NZ1c). The 2025 row is HMRC-provisional and tagged estimated."""
-    t = read_ccl_table_1b()
-    return {y: _row(t[y]["electricity"], "estimated" if t[y]["provisional"] else "measured", SRC_CCL)
-            for y in years}
+    """NZ8: CCL electricity declarations by calendar year, £m (UK), from the shared cost register (0168; series
+    CCL_ELEC, built from HMRC Table 1b by `read_ccl_table_1b`). CPS is not here (it is in NZ1c). The 2025 row is
+    HMRC-provisional and tagged estimated."""
+    reg = RP.register()
+    t = reg.series("CCL_ELEC")
+    return {y: _row(t[y], "estimated" if reg.row("CCL_ELEC", y)["basis"] == "provisional" else "measured",
+                    reg.row("CCL_ELEC", y)["source_id"]) for y in years}

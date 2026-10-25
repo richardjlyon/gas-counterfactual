@@ -1,4 +1,5 @@
-# path	sha256	url ("-": no public download address; see data-rights.md)
+# path	sha256	url ("-": no public download address; see data/raw/SOURCES.md)
+data/raw/BoE_XUDLERS_2014-2021.csv	c8edd73532186124472709d8a37bb893fa7ef209d4c28c3b65b626465a7bbf82	-
 data/raw/boe/s18a-XUDLERS_XUAAERS_2004-2026.csv	e89fe7c05876800d2dc94feabf72906fc5b589a1c587e3dfd32a108679132603	https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2004&Dateto=10/Oct/2026&SeriesCodes=XUDLERS,XUAAERS&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N
 data/raw/desnz_cm/NESO_ECR_2026.pdf	19659558c468dd4c57756101f3a21e1d3e8d814b42c3fc51cb178a50dd533226	https://emrdeliverybody.nationalenergyso.com/IG/s/article/CM-Auction-Guidelines-and-Parameters
 data/raw/desnz_cm/NESO_ECR_2026_Data_Workbook.xlsx	423c48d9f5e27877acb0ff3a4bc51691166062f07bd31465b97b4de735884fb8	-
@@ -9,6 +10,13 @@ data/raw/nationalgas/Notice_of_Final_NTS_Exit_Capacity_Charges_effective_1_Octob
 data/raw/nationalgas/Notice_of_General_Non-Transmission_Services_Charges_October_2026.pdf	b5075d0fde106a5411e4582895c6246b732dbbc9f62328bd49baeface3619c0e	https://www.nationalgas.com/sites/default/files/documents/Notice%20of%20General%20Non-Transmission%20Services%20Charges%20October%202026.pdf
 data/raw/nationalgas/October_2026_Charging_Information_Provision.pdf	f7bc4aa570c6dae91e1d92e028a2b829ced05767082ad1cafcdc39df1e36fed5	https://www.nationalgas.com/sites/default/files/documents/October%202026%20Charging%20Information%20Provision.pdf
 data/raw/nationalgas/SAP_PUBOB603.csv	36b39974392c718416d021e53a9a23163aad475091ceecaf314f7c23d6a87f37	-
+data/raw/nationalgas/hist/nationalgas-transportation-charges-oct2022.pdf	19dbf89e1f6d02a081f1bf00ddfdbec090ed4e71dda46256de5f4f978596c026	-
+data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2023.pdf	495146be552859ce5dd25d039f07c71145c7ae3c665962baa1da3fa306e49d1d	-
+data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2024.pdf	37fb37fa68ed59988675077a14ed6ccb233cfe4eab5fc0e3f6a0a5cc9e5fc6cb	-
+data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2025.pdf	e292c456916695c1630fafa07bed1fc529663c1e58c6fc743dda3e92c4a18cd1	-
+data/raw/nationalgas/hist/nationalgrid-notice-transportation-charges-oct2021.pdf	6dad8a5998a564adc1f57208a070329e4e63727953b85bf5bb711000c9a47055	-
+data/raw/nationalgas/hist/nationalgrid-transportation-statement-feb2021.pdf	75cc5e9403beeb19f4c7e92a0cb056f842b3895835a63b5ebe557f521a4774a3	-
+data/raw/neso/CMP201_document_129056.pdf	aefbcac7ea25f5997e113815112a5c588d6c9339da5907646c6204c1225c5303	-
 data/raw/neso/CMP308_Second_Workgroup_Consultation_2021-04-01.pdf	05bf86f7842fa572edb423f79d7f0129743ca4e08b101b19d44a72a792b88e29	https://www.nationalgrideso.com/codes/connection-and-use-system-code-cusc/modifications/removal-bsuos-charges-generation
 data/raw/neso/NESO_2025_Annual_Balancing_Costs_Data_Workbook.xlsx	14bb3b3b305fcba4376e3742311535b5276a988bcc4ebe6457d5b9f0f52f3d9f	https://www.neso.energy/document/362561/download
 data/raw/neso/tnuos/Final_TNUoS_Tariffs_2022-23_Tables.xlsx	59652d923d931276bb9e03b2552d5987782e5a5aecaad12a1b38ff78a409d8fc	https://www.neso.energy/document/235026/download
@@ -71,6 +79,7 @@ data/raw/neso_s20d/s20d-mbss_pack_2014_15.zip	45db206637825222a0eef6a2c4cf8eb488
 data/raw/neso_s20d/s20d-neso_doc_114041_TNUoS_in_10_minutes_extract.md	912d85c8f3b819d3821df1baa53478f7317526b27f67902e904c55b24dabe734	-
 data/raw/neso_s20d/s20d-neso_doc_137351_Final_TNUoS_2019-20_extract.md	119c427ac696b18a17778c5e703588367c1193f66c5c12e9a5329ed5e05b0026	-
 data/raw/neso_s20d/s20d-neso_doc_50276_Final_TNUoS_2017-18_extract.md	3826af37d66d5b91e2a032e6315e9fb89d7fae93a9404e24a4bd2b38b4fbcf01	-
+data/raw/neso_s42/ng-mbss-march-2011-v2.txt	30d76138c77df17d52515e3deb7f7f2867cd5acb74107de428005bc258afe3a8	-
 data/raw/ofgem/s18a-WMI_elec_dayahead_monthly_n9WSDfgxc.js	0591f19954084b37bd8720c2f3a8453c5936c60429eb5f43cfa08085366f07bd	https://app.everviz.com/inject/n9WSDfgxc/
 data/raw/ons_households/statswales_household_estimates_mid2012-2024.csv	e9987c5de5e06da9d967cd1b7649e5b4a81b54c330ce25908ece0f9cac2ddf48	https://stats.gov.wales/en-GB/ce1308bb-9afd-4107-ae5a-38d3022c7181
 data/raw/papers/s22-Shao_etal_2022_RO_wind_merit_order.pdf	2b05f77bf74034c72413b7a292ee402eb10c01c120ba72bb3842481a5f428d87	https://cronfa.swan.ac.uk/Record/cronfa58360/Download/58360__21196__ea76b280adbe432798f860fcf8868851.pdf
@@ -82,7 +91,10 @@ data/raw/s24/s24-NG_Final_ALFs_2016-17_doc50216.pdf	54115f197a91bfb5d05de667f9de
 data/raw/s24/s24-NG_Final_ALFs_2016-17_doc50216.txt	3e839246595ddcc49344547b246c39553eabab7ed8ec7607c297332670206907	-
 data/raw/s26a/s26a-Neuhoff_2022_EPRG2212_gas_price_limits.pdf	d2fe07b3680262ec66f767d3ea9053ea5da7295f562310f3fa803d072543370b	-
 data/raw/s36/ets-2025/ice-report-278-2025.csv	4aab8a4a85d3389ee7c00623a6bd926a002deb41d2824e6b815df3a1154c9806	https://www.ice.com/report/278
+data/raw/s36/ets/uk_report_201610_en.pdf	dc583776b7ed1703a8b6879b7d04807c0223cf118d9a99adb8ba948f96c83af5	https://climate.ec.europa.eu/document/download/193c6f4b-a982-4373-a3a0-951770c0a8c1_en?filename=uk_report_201610_en.pdf
+data/raw/s36/ets/uk_report_201612_en.pdf	24d55d66f8b94948b0b1cddf1c819eca7c359ec0ddf56a9219afb90955062f25	-
 data/raw/s36/s36-albrizio2022_imf_wp22-143.txt	ec965094b9bfa661d727ce675db46a568b655668837852aefea92bb1380bfc52	-
 data/raw/s36/s36-casoli_manera_valenti_FEEM_NDL2022-045.pdf	2664f626bb281e146abb224d1e9ce1964d8e9f762e1823a1af1c613f28d4a05f	-
 data/raw/s36/s36-krichene2005_IMF_WP0532.pdf	85cea718f5374c83b215f59cf87a8b045ba469f2cac183b38650953d7de98bfd	https://www.imf.org/external/pubs/ft/wp/2005/wp0532.pdf
 data/raw/s36/ucl-oshea/oshea-ucloe-preprint-290-v1.pdf	d7fa85732a2b30a3f0fa3160401fa888b1d336a79f7d11a3b27655c3f9fd09a6	-
+data/raw/v11/cepa-ghd-2025-05-generation-cost-study-life-extension.txt	7b7a6f8da17b494c94094e47c70b48071bf469001835e01db48dca2cea7151db	-

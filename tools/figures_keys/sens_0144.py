@@ -62,7 +62,7 @@ def _key(fid: str, part: str) -> str:
 
 
 def _m(label, run_field, units="£bn, 2024 prices", **extra):
-    return {"label": label, "basis": "estimated", "provisional": False, "ticket": "0144", "run_field": run_field,
+    return {"label": label, "basis": "modelled", "provisional": False, "ticket": "0144", "run_field": run_field,
             "units": units, "period": "2002-2024", "price_base": PRICE_BASE_LABEL, "status": "SOURCED",
             "print": True, "decisions": ["0144"], **extra}
 
@@ -88,9 +88,11 @@ DECLARED["table_sensitivity_rows_0144"] = _m("Sensitivity rows for the review fi
                                              "headline 2002-24 and change from the central",
                                              "sens_0144.measure", units="table, £bn, 2024 prices")
 DECLARED["note_uplift_2021_23_probably_low"] = _m(
-    "Finding 3, option A as ruled (0144): the central uplift (Shao et al. pooled, sample April 2009 to March 2021) "
-    "is probably low in 2021-23, when gas cost several times its sample level; the UCL short-run estimate gives "
-    "the change in sens_uplift_ucl_2021_23_change_gbp_bn. The paper's sentence is the report-writer's.",
+    "Finding 3, as superseded for 2021-23 by decision 0164 (M9 B): the central uplift is now re-estimated on outturn "
+    "with direct coefficients from May 2021 to Dec 2023 (Shao et al. pooled, sample April 2009 to March 2021, in "
+    "every other year), because Shao's sample-period uplift was probably low when gas cost several times its sample "
+    "level; the UCL short-run estimate stays a methods-page row, its change in "
+    "sens_uplift_ucl_2021_23_change_gbp_bn. The paper's sentence is the report-writer's.",
     "text; sens_0144 row 3B", units="text")
 
 

@@ -63,6 +63,14 @@ def _straight(e: float, r: float) -> float:
     return 0.5 * abs(e) * r
 
 
+def price_rise(t: dict) -> float:
+    """r = ΔP/P, the gap over the whole bill customers pay (0082), counted once. bills.py builds totals.go_gbp_m as the
+    Reliable Britain lines plus the same-in-both block, so go_gbp_m is that whole bill; adding s1_gbp_m again (as
+    dwl.py's first draft and this port did, TOTAL_GO + S1_TOTAL) counted the same-in-both block twice (card
+    [internal ticket] item 5)."""
+    return t["gap_gbp_m"] / t["go_gbp_m"]
+
+
 def total_bn(run: dict, e: float, method: str, years) -> float:
     """Σ over `years` of lost value at one elasticity for every user, £bn 2024 prices (port check, spec test 2)."""
     f = {"quoted": _ce_actual, "straight_line": _straight}[method]
@@ -71,7 +79,7 @@ def total_bn(run: dict, e: float, method: str, years) -> float:
     tot = 0.0
     for y in years:
         t = run["bills"][str(y)]["totals"]
-        tot += f(e, t["gap_gbp_m"] / (t["go_gbp_m"] + t["s1_gbp_m"])) * t["gap_real_bn"] * k
+        tot += f(e, price_rise(t)) * t["gap_real_bn"] * k
     return tot
 
 
@@ -91,7 +99,7 @@ def estimate(run: dict) -> dict:
             per_year = {}
             for y in years:
                 t = run["bills"][str(y)]["totals"]
-                r = t["gap_gbp_m"] / (t["go_gbp_m"] + t["s1_gbp_m"])
+                r = price_rise(t)
                 per_year[y] = f(e(y), r) * t["gap_real_bn"] * to_2024
             out[name][case] = {p: sum(per_year[y] for y in ys) for p, ys in periods.items()}
     q, sl = out["quoted"]["central"]["2002-2024"], out["straight_line"]["central"]["2002-2024"]

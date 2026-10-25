@@ -84,9 +84,10 @@ def test_wh_keys_take_placeholder_names():
         assert k[f"wh_{p}_uplift_gbp_mwh"]["value"] == WH[p]["scaled_step_gbp_mwh"]
         assert k[f"annex.s4.merit_order_uplift_raw_{p}_gbp_mwh"]["value"] == WH[p]["raw_step_gbp_mwh"]
     assert not [n for n in k if n.startswith("rb.s4.")]
-    # without worked_hh every wh key is None; shao_uplift_2022 reads fleet[2022] (re-pinned 19 Oct 2026, [internal ticket])
+    # without worked_hh every wh key is None; shao_uplift_2022 reads fleet[2022] (re-pinned 19 Oct 2026, [internal ticket]),
+    # and so do shao_uplift_2021 and _2023 (R26, [internal ticket]; card [internal ticket])
     assert all(v["value"] is None for n, v in F.generate(RUN, modules=[worked_hh])["keys"].items()
-               if n != "shao_uplift_2022_gbp_mwh")
+               if not n.startswith("shao_uplift_"))
 
 
 def test_wh_halfhour_prints_the_span_on_the_uk_clock():

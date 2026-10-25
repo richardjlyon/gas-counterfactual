@@ -44,20 +44,76 @@ def test_clock_export_meta_matches_registry(r):
     assert e["meta"]["schema"] in ce.KNOWN_SCHEMAS
 
 
+# Recorded known faults in frozen releases (decision 0177, card [internal ticket]). A released file never changes
+# (0028, 0045), so a fault found after the cut is recorded here, dated, with the release that fixes it, and the
+# test checks the frozen file holds EXACTLY the recorded wrong values: any other difference, or a change to the
+# recorded ones, still fails. Nothing is skipped and nothing is hidden: the entry is the disclosure.
+KNOWN_FAULTS: dict[str, dict] = {
+    "v4-s39": {
+        "decision": "0177",
+        "recorded": "2026-10-23",
+        "card": "[internal ticket]",
+        "fixed_in": "v4-s40",
+        "what": "Clock export cm_paid_gbp 2017-25 holds the Clock's displayed CM line (since Clock 35132e73 only the "
+                "net-zero part), not CM paid (the LCCC levy; register CM_PAID). NZ5 low, NZ5, NZ5 high, the run "
+                "file and figures.json are right; only this export field is wrong. Analyst note cm-sources.md "
+                "([internal ticket]). Fixed in src/gascf/clock_export.py at c69d8d5.",
+        "cm_paid_gbp": {"wrong_values": {   # £ cash, as frozen in out/clock/v4-s39.json (sha256 dffbfb18...480c5e)
+            "2017": 31270034.88, "2018": 45467658.97, "2019": 126825663.01, "2020": 177635697.11,
+            "2021": 200557514.36, "2022": 145618431.36, "2023": 236669665.63, "2024": 343819210.62,
+            "2025": 396333094.27,
+        }},
+    },
+}
+
+
+def _cm_fault_years(e: dict, run: dict) -> dict[str, float]:
+    """Years where the export's cm_paid_gbp is not the run file's CM paid (LCCC levy), with the export's value."""
+    return {y: row["cm_paid_gbp"] for y, row in e["capacity_market"]["years"].items()
+            if abs(row["cm_paid_gbp"] - run["capacity_market"][y]["cm_paid_gbp_m"] * 1e6) > 0.005}
+
+
 @pytest.mark.parametrize("r", RELEASES, ids=IDS)
 def test_clock_export_cm_block_equals_run_file(r):
     e = json.loads((ROOT / r["clock_export_file"]).read_text())
     run = json.loads((ROOT / r["run_file"]).read_text())
-    assert e["capacity_market"] == ce.capacity_market(run)
+    fault = KNOWN_FAULTS.get(r["version"], {}).get("cm_paid_gbp")
+    want = ce.capacity_market(run)
+    if fault:
+        # the recorded fault, and only it: the wrong values are the Clock's displayed (net-zero) CM line
+        assert _cm_fault_years(e, run) == fault["wrong_values"], f"{r['version']}: fault differs from its record"
+        for y, v in fault["wrong_values"].items():
+            assert abs(v - run["clock_cm_correction"][y]["clock_cm_gbp_m"] * 1e6) <= 0.005, y
+            want["years"][y]["cm_paid_gbp"] = v
+    assert e["capacity_market"] == want
     # and to the penny against the raw blocks, independently of the rounding helper
     for y, row in e["capacity_market"]["years"].items():
         c, k = run["clock_cm_correction"][y], run["capacity_market"][y]
-        assert abs(row["cm_paid_gbp"] - c["clock_cm_gbp_m"] * 1e6) <= 0.005, y
+        faulty = bool(fault) and y in fault["wrong_values"]
+        # CM paid = the levy paid (LCCC; register CM_PAID), the run file's capacity_market line (0168, 0177)
+        if not faulty:
+            assert abs(row["cm_paid_gbp"] - k["cm_paid_gbp_m"] * 1e6) <= 0.005, y
         assert abs(row["netzero_gbp"] - c["nz5_gbp_m"] * 1e6) <= 0.005, y
         assert abs(row["netzero_low_gbp"] - c["nz5_low_gbp_m"] * 1e6) <= 0.005, y
         assert abs(row["netzero_high_gbp"] - c["nz5_high_gbp_m"] * 1e6) <= 0.005, y
         assert abs(row["own_backup_gbp"] - k["reliable_britain_cm_gbp_m"] * 1e6) <= 0.005, y
-        assert 0 <= row["netzero_low_gbp"] <= row["netzero_gbp"] <= row["netzero_high_gbp"] <= row["cm_paid_gbp"]
+        assert 0 <= row["netzero_low_gbp"] <= row["netzero_gbp"] <= row["netzero_high_gbp"]
+        assert row["netzero_high_gbp"] <= k["cm_paid_gbp_m"] * 1e6 + 0.005, y
+        if faulty:
+            assert row["netzero_high_gbp"] > row["cm_paid_gbp"], (y, "recorded fault no longer breaks the order")
+        else:
+            assert row["netzero_high_gbp"] <= row["cm_paid_gbp"], y
+
+
+def test_known_faults_are_recorded_in_full():
+    """Every known-fault entry names a listed release, its decision, the date recorded, the card, and a release
+    that fixes it which is listed after it (or is the engine version being built)."""
+    from gascf import export_v4 as X
+    for v, f in KNOWN_FAULTS.items():
+        assert v in IDS, v
+        assert {"decision", "recorded", "card", "fixed_in", "what"} <= set(f), (v, sorted(f))
+        assert f["fixed_in"] not in KNOWN_FAULTS
+        assert f["fixed_in"] == X.ENGINE_VERSION or IDS.index(f["fixed_in"]) > IDS.index(v), (v, f["fixed_in"])
 
 
 def test_latest_release_baselines_equal_engine_code():

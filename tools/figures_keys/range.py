@@ -13,7 +13,7 @@ Y02_24 = [str(y) for y in range(2002, 2025)]
 
 
 def _m(label, run_field, units="£bn, 2024 prices", **extra):
-    return {"label": label, "basis": "estimated", "provisional": False, "ticket": "28", "run_field": run_field,
+    return {"label": label, "basis": "modelled", "provisional": False, "ticket": "28", "run_field": run_field,
             "units": units, "period": "2002-2024", "price_base": PRICE_BASE_LABEL, "status": "SOURCED",
             "print": True, **extra}
 

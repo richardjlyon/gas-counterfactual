@@ -29,7 +29,7 @@ CASES = {
     "closures_actual_e006": replace(B.CENTRAL, closures="actual", gas_feedback="high"),
     "case_b_all_three": replace(B.CENTRAL, closures="actual", gas_feedback="high", kept_price="actual"),
 }
-E_CENTRAL, E_HIGH = GAS_ELASTICITY["central"], GAS_ELASTICITY["high"]     # 0.16 and 0.06 (0033)
+E_CENTRAL, E_HIGH = GAS_ELASTICITY["central"], GAS_ELASTICITY["high"]     # 0.229 (0.06 + 0.169, 0144) and 0.06 supply only (0033, case B)
 TOL = 1e-9
 
 
@@ -62,7 +62,7 @@ def block(built: dict, build=None) -> dict:
                          for n, s in CASES.items()},
             "rejection": REJECTION, "in_range": False, "money": "gap_real_bn: run price base, £bn",
             "note": "dq_twh is the engine's: fossil Britain's gas burn for power less the actual (DUKES 5.6.A), "
-                    "floored at 0. rise_at_e = dq / (e x q). Failed sign check recorded, never a stop (0034).",
+                    "signed (RB v1.1 M6, 0163 R7 (a); floored at 0 to v4-s38). rise_at_e = dq / (e x q). Failed sign check recorded, never a stop (0034).",
             "decisions": ["0029", "0034", "0048", "0095", "0117"]}
 
 

@@ -82,7 +82,7 @@ def _run():
     fleet = {y: {"margin_on_gross_extra_gw": 0.1 * int(y), "imports_contracted_gw": 0.5,
                  "ic_called_twh": 1.0 if int(y) >= 2016 else None, "ic_called_halfhours": 2 if int(y) >= 2016 else None,
                  "kept_stations": ([["Drax", "unit 1", 660.0, "net_zero_policy"],
-                                    ["Rugeley", "all", 448.0, "mixed"]] if int(y) in (2016, 2017) else
+                                    ["Rugeley", "all", 1006.0, "mixed"]] if int(y) in (2016, 2017) else
                                    [["Drax", "unit 2", 660.0, "net_zero_policy"]])}
              for y in years}
     gas = {y: {"gasonly": [{"id": "GO5", "national_gbp_m_nominal": 100.0, "carried_gbp_m": 60.0}]} for y in years}

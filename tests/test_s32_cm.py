@@ -1,13 +1,6 @@
 """s32: the Capacity Market rule (spec §5.4 rewritten). NZ5 = CM paid less Reliable Britain's
 notional CM, priced only on the firm capacity whose fixed cost GO1 does NOT already carry: new
 plant, the firm spare and kept-open coal are excluded (s32 roast, Finding 1)."""
-import json
-import os
-import subprocess
-import sys
-from functools import lru_cache
-from pathlib import Path
-
 import pytest
 
 from gascf import bills as B
@@ -15,7 +8,6 @@ from gascf import bridge as R
 from gascf import household_bill as HB
 
 CM_YEARS = range(2016, 2026)
-ROOT = Path(__file__).parents[1]
 
 
 @pytest.fixture(scope="module")
@@ -106,7 +98,8 @@ def test_clock_correction_covers_engine_years_only():
     cc = R.clock_cm_correction()
     assert min(y for y in cc if cc[y]["nz5_gbp_m"] is not None) == 2016
     assert cc[2026]["nz5_gbp_m"] is None and cc[2026]["status"].startswith("not covered")
-    assert cc[2026]["clock_cm_gbp_m"] == pytest.approx(1225.03, abs=0.01)
+    # live Clock 35132e73, 2026 row of s39-combined-annual_35132e73.csv (re-pinned on card [internal ticket]; 1,225.03 on cf9b292e)
+    assert cc[2026]["clock_cm_gbp_m"] == pytest.approx(339.18, abs=0.01)
     for y in CM_YEARS:
         assert cc[y]["correction_gbp_m"] == pytest.approx(cc[y]["nz5_gbp_m"] - cc[y]["clock_cm_gbp_m"])
         assert cc[y]["nz5_low_gbp_m"] <= cc[y]["nz5_gbp_m"] <= cc[y]["nz5_high_gbp_m"] + 1e-9
@@ -138,19 +131,12 @@ def test_household_cm_line_is_reliable_britains_notional_share(central):
     assert p1["capacity_market"] > 0
 
 
-@lru_cache(maxsize=1)
 def _real_register_2025() -> dict:
     """NZ5 2025 on the real closure register (the run behind out/v4), in a separate interpreter:
-    this session runs on the conftest fixture register."""
-    code = ("import json; from gascf import bills as B; "
-            "b = B.build()[2025]; lo = B.build(B.replace(B.CENTRAL, cm_rule='extra_kept_coal'))[2025]; "
-            "print(json.dumps({'nz5': B.val(b, 'NZ5'), 'low': B.val(lo, 'NZ5'), 'gw': b['cm']['cm_gw'], "
-            "'kept': b['cm']['split_gw']['kept_coal_gw'], 'price': b['cm']['price_gbp_kw_yr']}))")
-    env = {k: v for k, v in os.environ.items() if k != "GASCF_FOSSIL_CLOSURES"}
-    r = subprocess.run([sys.executable, "-W", "ignore", "-c", code], env=env, cwd=ROOT, capture_output=True,
-                       text=True, timeout=1800)
-    assert r.returncode == 0, r.stderr[-2000:]
-    return json.loads(r.stdout.strip().splitlines()[-1])
+    this session runs on the conftest fixture register. The interpreter is shared with the other
+    real-register checks (`tests/real_register.py`, [internal ticket])."""
+    from real_register import real_register
+    return real_register()["cm_2025"]
 
 
 def test_nz5_2025_value_on_the_real_register():

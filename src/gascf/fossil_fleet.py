@@ -33,6 +33,7 @@ from pathlib import Path
 
 import openpyxl
 
+from . import workbook_cache
 from .deflator_cpih import cpih
 from .official import Plant, read_desnz_plants
 from .plant import annualised_fixed_gbp_kw_yr
@@ -109,17 +110,30 @@ def cost_editions() -> dict:
     return json.loads(EDITIONS_FILE.read_text())
 
 
+# RB v1.1 O2 (decision 0160, card [internal ticket]): the plant-cost case, off by default. Each case names the column read for
+# the capital rows (pre-development, construction / EPC, infrastructure) and for the hurdle rate. Only an edition that
+# prints a high hurdle (EGC 2025 Annex A) can give one; the others print one hurdle, used in every case. Held for
+# ruling R13 (bills.HELD_SWITCHES): 'high_capital_hurdle' is DESNZ's published high case as it stands, 'high_capital'
+# the capital rows only.
+COST_CASES = {"medium": ("medium", "medium"), "high_capital": ("high", "medium"),
+              "high_capital_hurdle": ("high", "high")}
+CAPITAL_ROWS = ("prelicensing_gbp_kw", "regulatory_gbp_kw", "epc_gbp_kw", "infrastructure_gbp_k",
+                "infrastructure_gbp_kw")
+
+
 def _even(n_years: float) -> tuple[float, ...]:
     """Equal spending over the whole years spanned; used where an edition gives only a duration."""
     n = max(1, round(n_years))
     return tuple([1.0 / n] * n)
 
 
-def plant_from_table(key: str, hurdle: float, eff_year: int) -> Plant:
+def plant_from_table(key: str, hurdle: float, eff_year: int, capital: str = "medium") -> Plant:
     """A `Plant` from one PDF table (medium column). Phasing is even over the stated periods
-    (the tables give durations, not phasing): labelled in `spec-fossil.md`."""
+    (the tables give durations, not phasing): labelled in `spec-fossil.md`. `capital` (RB v1.1 O2): the column read
+    for the capital rows only (pre-licensing, regulatory, EPC, infrastructure); every other row stays medium."""
     t = cost_editions()["tables"][key]
     r = {k: v["medium"] for k, v in t["rows"].items()}
+    r |= {k: v[capital] for k, v in t["rows"].items() if k in CAPITAL_ROWS}
     fuel = "coal" if t["tech"] == "coal" else "gas"
     size = r.get("size_mw", 1000.0)
     infra_k = r["infrastructure_gbp_k"] if "infrastructure_gbp_k" in r else r.get("infrastructure_gbp_kw", 0.0) * size
@@ -146,14 +160,14 @@ def _pct(v) -> float | None:
     return float(s) / 100 if s and re.fullmatch(r"[\d.]+", s) else None
 
 
-def read_egc2016(tech: str) -> Plant:
-    """BEIS EGC 2016 Annexes, Table 19, commissioning 2018 column, medium case (2014 prices).
+def read_egc2016(tech: str, capital: str = "medium") -> Plant:
+    """BEIS EGC 2016 Annexes, Table 19, commissioning 2018 column, medium case (2014 prices). `capital` (RB v1.1 O2):
+    'high' reads the High rows of Pre-development, Construction and Infrastructure; nothing else has a High row.
 
     Block layout (checked): name row; size/load factor/efficiency in the column right of the
     name; durations and spend shares in the name column and the two to its right; costs in
     the 'Commissioning year' row's 2018 column. Hurdle 7.8% ('CCGT & OCGT', report Table 17)."""
-    wb = openpyxl.load_workbook(EGC / "s18d-BEIS_EGC2016_Annexes.xlsx", read_only=True, data_only=True)
-    t = list(wb["Table 19"].iter_rows(values_only=True))
+    t = workbook_cache.sheet_rows(EGC / "s18d-BEIS_EGC2016_Annexes.xlsx", "Table 19")
     if not str(t[0][0]).startswith("Table 19"):
         raise ValueError("EGC 2016 Table 19 layout changed")
     h = c = None
@@ -200,7 +214,10 @@ def read_egc2016(tech: str) -> Plant:
         i = block.index(find(lbl, "High"))
         if str(block[i + 1][1]).strip() != "Medium":
             raise ValueError(f"EGC 2016 Table 19 {tech}: {lbl} rows out of order")
-        return float(block[i + 1][c])
+        return float(block[i + (0 if capital == "high" else 1)][c])
+
+    if capital not in ("medium", "high"):
+        raise ValueError(f"EGC 2016 Table 19: no {capital!r} capital column read")
 
     one = lambda v: {"low": v, "medium": v, "high": v}  # noqa: E731
     return Plant(
@@ -216,12 +233,12 @@ def read_egc2016(tech: str) -> Plant:
         hurdle=one(0.078))
 
 
-def read_annex_generic(path: Path, tech: str, year: int = 2025) -> Plant:
+def read_annex_generic(path: Path, tech: str, year: int = 2025, capital: str = "medium") -> Plant:
     """EGC 2020 / 2023 'Technical and cost assumptions' column (same layout as EGC 2025, but
-    lower-case labels and single-valued periods). Medium case."""
-    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    sheet = next(s for s in wb.sheetnames if s.lower() == "technical and cost assumptions")
-    t = list(wb[sheet].iter_rows(values_only=True))
+    lower-case labels and single-valued periods). Medium case. `capital` (RB v1.1 O2): the sub-row read for
+    pre-development cost, construction cost and infrastructure (a single-valued row is read as printed)."""
+    sheet = next(s for s in workbook_cache.sheetnames(path) if s.lower() == "technical and cost assumptions")
+    t = workbook_cache.sheet_rows(path, sheet)
     j = next((k for k, v in enumerate(t[0]) if v and str(v).strip() == tech and t[1][k] == year), None)
     if j is None:
         raise ValueError(f"{path.name}: {tech!r} {year} not found")
@@ -255,9 +272,9 @@ def read_annex_generic(path: Path, tech: str, year: int = 2025) -> Plant:
         name=f"{path.name} {tech}", commissioning=year, size_mw=val("reference plant size"),
         net_load_factor=val("average load factor"), efficiency_gcv=val("average fuel efficiency"),
         life_years=int(val("operating lifetime")),
-        predev_gbp_kw=one(val("pre-development cost")), predev_phasing=phasing("pre-development phasing"),
-        construction_gbp_kw=one(val("construction cost")), construction_phasing=phasing("construction phasing"),
-        infrastructure_gbp_k=one(val("infrastructure")), fixed_om_gbp_mw_yr=val("fixed o&m"),
+        predev_gbp_kw=one(val("pre-development cost", capital)), predev_phasing=phasing("pre-development phasing"),
+        construction_gbp_kw=one(val("construction cost", capital)), construction_phasing=phasing("construction phasing"),
+        infrastructure_gbp_k=one(val("infrastructure", capital)), fixed_om_gbp_mw_yr=val("fixed o&m"),
         variable_om_gbp_mwh=val("variable o&m"), insurance_gbp_mw_yr=val("insurance"),
         connection_uos_gbp_mw_yr=val("connection and use of system"),
         hurdle=one(val("hurdle rate")))
@@ -274,6 +291,7 @@ class Edition:
     price_base: dict[str, int]
     source_id: dict[str, str]
     basis: dict[str, str] = field(default_factory=dict)
+    cost_case: str = "medium"       # RB v1.1 O2 (COST_CASES); medium = central
 
 
 def _hurdle_for(year: int) -> float:
@@ -285,60 +303,86 @@ def _hurdle_for(year: int) -> float:
     return 0.075                     # EGC 2020/2023 CCGT; EGC 2025 read from the Annex
 
 
-def edition(year: int) -> Edition:
+def edition(year: int, cost_case: str = "medium") -> Edition:
     """The latest official cost set published by the end of `year` (earliest set before 2010).
 
-    Gas: MM2010 (to 2011), PB2012 (2012), PB2013 (2013-15), EGC2016 (2016-19), EGC2020 (2020-22),
-    EGC2023 (2023-24), EGC2025 (2025). OCGT before 2012: Mott MacDonald 2010 has no OCGT table,
+    Gas: MM2010 (to 2010), PB2011 (2011; PB 2011 update for DECC, Aug 2011), PB2012 (2012), PB2013 (2013-15),
+    EGC2016 (2016-19), EGC2020 (2020-22), EGC2023 (2023-25; EGC 2025 was first published on 14 Jan 2026),
+    EGC2025 (2026-). A4 and A5, v4-s42, decision 0195: the stated rule governs, as in the corrected spec 4.3 table.
+    OCGT before 2011: Mott MacDonald 2010 has no OCGT table,
     so the earliest set with one (PB2012) is used, labelled.
     Coal: no official unabated new-coal set after PB2012. MM2010 (FGD + SCR in the reference
     plant) to 2011; PB2012 'ASC with FGD' from 2012 plus the NOx retrofit of the set in force
-    (PB2012 SCR/SNCR to 2015, Leigh Fisher 2016 coal NOx abatement from 2016)."""
+    (PB2012 SCR/SNCR to 2015, Leigh Fisher 2016 coal NOx abatement from 2016).
+
+    cost_case (RB v1.1 O2, `COST_CASES`): 'medium' is the central case (v4-s37). The high cases read each edition's
+    high column for the capital rows, and (high_capital_hurdle) the high hurdle where the edition prints one; every
+    plant then carries the chosen values in all three of its low/medium/high slots, so downstream code is unchanged."""
     if not 2002 <= year <= 2025:
         raise ValueError(f"no edition rule for {year}")
+    if cost_case not in COST_CASES:
+        raise ValueError(f"unknown cost case {cost_case!r}; one of {sorted(COST_CASES)}")
+    cap, hc = COST_CASES[cost_case]
     h = _hurdle_for(year)
     coal_h = 0.082 if year >= 2016 else h            # BEIS 2016 Table 17 'Coal plants All retrofits 8.20%'
     src, base, basis = {}, {}, {}
-    if year <= 2011:
-        ccgt = plant_from_table("mm2010_ccgt", h, 2009); src["ccgt"], base["ccgt"] = "mm2010-tableA1", 2009
-        ocgt = plant_from_table("pb2012_ocgt", h, 2012); src["ocgt"], base["ocgt"] = "pb2012-ocgt", 2012
+    if year <= 2010:
+        ccgt = plant_from_table("mm2010_ccgt", h, 2009, cap); src["ccgt"], base["ccgt"] = "mm2010-tableA1", 2009
+        ocgt = plant_from_table("pb2012_ocgt", h, 2012, cap); src["ocgt"], base["ocgt"] = "pb2012-ocgt", 2012
         basis["ocgt"] = "estimated"
+    elif year == 2011:                   # A5 (v4-s42, decision 0195): PB 2011 update, published Aug 2011
+        pb = cost_editions()["tables"]["pb2011_ccgt"]["price_base"]
+        ccgt = plant_from_table("pb2011_ccgt", h, 2011, cap); src["ccgt"], base["ccgt"] = "pb2011-ccgt", pb
+        ocgt = plant_from_table("pb2011_ocgt", h, 2011, cap); src["ocgt"], base["ocgt"] = "pb2011-ocgt", pb
     elif year == 2012:
-        ccgt = plant_from_table("pb2012_ccgt", h, 2012); src["ccgt"], base["ccgt"] = "pb2012-ccgt", 2012
-        ocgt = plant_from_table("pb2012_ocgt", h, 2012); src["ocgt"], base["ocgt"] = "pb2012-ocgt", 2012
+        ccgt = plant_from_table("pb2012_ccgt", h, 2012, cap); src["ccgt"], base["ccgt"] = "pb2012-ccgt", 2012
+        ocgt = plant_from_table("pb2012_ocgt", h, 2012, cap); src["ocgt"], base["ocgt"] = "pb2012-ocgt", 2012
     elif year <= 2015:
-        ccgt = plant_from_table("pb2013_ccgt", h, 2012); src["ccgt"], base["ccgt"] = "pb2013-ccgt", 2012
-        ocgt = plant_from_table("pb2013_ocgt", h, 2012); src["ocgt"], base["ocgt"] = "pb2013-ocgt", 2012
+        ccgt = plant_from_table("pb2013_ccgt", h, 2012, cap); src["ccgt"], base["ccgt"] = "pb2013-ccgt", 2012
+        ocgt = plant_from_table("pb2013_ocgt", h, 2012, cap); src["ocgt"], base["ocgt"] = "pb2013-ocgt", 2012
     elif year <= 2019:
-        ccgt = read_egc2016("CCGT H Class"); src["ccgt"], base["ccgt"] = "beis-egc2016-table19", 2014
-        ocgt = read_egc2016("OCGT 600MW 500 hr"); src["ocgt"], base["ocgt"] = "beis-egc2016-table19", 2014
+        ccgt = read_egc2016("CCGT H Class", cap); src["ccgt"], base["ccgt"] = "beis-egc2016-table19", 2014
+        ocgt = read_egc2016("OCGT 600MW 500 hr", cap); src["ocgt"], base["ocgt"] = "beis-egc2016-table19", 2014
     elif year <= 2022:
         f = EGC / "s18d-BEIS_EGC2020_KeyData.xlsx"
-        ccgt = read_annex_generic(f, "CCGT H Class"); ocgt = read_annex_generic(f, "OCGT 600MW 500 hr")
+        ccgt = read_annex_generic(f, "CCGT H Class", capital=cap)
+        ocgt = read_annex_generic(f, "OCGT 600MW 500 hr", capital=cap)
         src["ccgt"] = src["ocgt"] = "beis-egc2020-keydata"; base["ccgt"] = base["ocgt"] = 2018
-    elif year <= 2024:
+    elif year <= 2025:                   # A4 (v4-s42, decision 0195): EGC 2025 first published 14 Jan 2026
         f = EGC / "s18d-EGC2023_AnnexA.xlsx"
-        ccgt = read_annex_generic(f, "CCGT H Class"); ocgt = read_annex_generic(f, "OCGT 600MW 500 hr")
+        ccgt = read_annex_generic(f, "CCGT H Class", capital=cap)
+        ocgt = read_annex_generic(f, "OCGT 600MW 500 hr", capital=cap)
         src["ccgt"] = src["ocgt"] = "desnz-egc2023-annexA"; base["ccgt"] = base["ocgt"] = 2021
     else:
         p = read_desnz_plants(EGC / "s18d-EGC2025_AnnexA_current.xlsx")
         ccgt, ocgt = p[("Gas CCGT 93% Load Factor", 2030)], p[("Gas OCGT 760MW 30% Load Factor", 2030)]
+        if cost_case != "medium":         # O2: the Annex's own low/medium/high, the chosen column in every slot
+            ccgt, ocgt = (_case_plant(x, cap, hc) for x in (ccgt, ocgt))
         # 2025 Annex starts at 2030 commissioning for these columns; 2030 is the nearest printed
         src["ccgt"] = src["ocgt"] = "desnz-egc2025-annexA"; base["ccgt"] = base["ocgt"] = 2024
         coal_h = ccgt.hurdle["medium"]
     if year <= 2011:
-        coal = plant_from_table("mm2010_coal", coal_h, 2009); nox = None
+        coal = plant_from_table("mm2010_coal", coal_h, 2009, cap); nox = None
         src["coal"], base["coal"] = "mm2010-tableA3", 2009
     else:
-        coal = plant_from_table("pb2012_coal", coal_h, 2012); src["coal"], base["coal"] = "pb2012-coal", 2012
+        coal = plant_from_table("pb2012_coal", coal_h, 2012, cap); src["coal"], base["coal"] = "pb2012-coal", 2012
         if year <= 2015:
-            nox = plant_from_table("pb2012_scr", coal_h, 2012); src["coal_nox"], base["coal_nox"] = "pb2012-scr", 2012
+            nox = plant_from_table("pb2012_scr", coal_h, 2012, cap); src["coal_nox"], base["coal_nox"] = "pb2012-scr", 2012
         else:
-            nox = plant_from_table("lf2016_coal_nox", coal_h, 2014); src["coal_nox"], base["coal_nox"] = "lf2016-coal-nox", 2014
+            nox = plant_from_table("lf2016_coal_nox", coal_h, 2014, cap)
+            src["coal_nox"], base["coal_nox"] = "lf2016-coal-nox", 2014
         basis["coal"] = "estimated"          # carried forward: no later official new-coal set
     for k in ("ccgt", "ocgt", "coal"):
         basis.setdefault(k, "measured")
-    return Edition(year, ccgt, ocgt, coal, nox, base, src, basis)
+    return Edition(year, ccgt, ocgt, coal, nox, base, src, basis, cost_case)
+
+
+def _case_plant(p: Plant, capital: str, hurdle: str) -> Plant:
+    """O2: a plant whose capital rows and hurdle carry the chosen column of its own published low/medium/high."""
+    from dataclasses import replace as _r
+    one = lambda v: {"low": v, "medium": v, "high": v}  # noqa: E731
+    return _r(p, predev_gbp_kw=one(p.predev_gbp_kw[capital]), construction_gbp_kw=one(p.construction_gbp_kw[capital]),
+              infrastructure_gbp_k=one(p.infrastructure_gbp_k[capital]), hurdle=one(p.hurdle[hurdle]))
 
 
 def restate(value: float, price_base: int, year: int) -> float:
@@ -466,26 +510,50 @@ def coal_capacity_uk() -> dict[int, float]:
 
 
 @lru_cache(maxsize=None)
-def kilroot_mw() -> dict[int, float]:
-    """Northern Ireland coal (Kilroot), MW, from the DUKES 5.11 annual station lists.
-
-    Sheet 'DUKES y' is read for year y; years before the first sheet (2004) take the 2004
-    value, labelled. Kilroot closed its coal units in September 2023."""
+def _kilroot_rows() -> dict[int, dict[str, float]]:
+    """{edition: {'coal': MW of the Kilroot coal(/oil) row, 'ocgt': MW of a separate 'Kilroot OCGT' row or 0}}."""
     wb = openpyxl.load_workbook(DUKES_511, read_only=True, data_only=True)
     out = {}
     for sn in wb.sheetnames:
         m = re.fullmatch(r"DUKES (\d{4})", sn)
         if not m:
             continue
-        mw = 0.0
+        mw = ocgt = 0.0
         for r in wb[sn].iter_rows(values_only=True):
             cells = [str(x) for x in r if isinstance(x, str)]
-            if any("Kilroot" in c for c in cells) and any(re.search(r"(?i)\bcoal", c) for c in cells) \
-                    and not any("OCGT" in c for c in cells):
-                nums = [x for x in r if isinstance(x, (int, float)) and 100 < x < 1000]
+            if not any("Kilroot" in c for c in cells):
+                continue
+            nums = [x for x in r if isinstance(x, (int, float)) and 100 < x < 1000]
+            if any(re.search(r"(?i)\bcoal", c) for c in cells) and not any("OCGT" in c for c in cells):
                 mw = max(mw, nums[0]) if nums else mw
-        out[int(m.group(1))] = mw
+            elif any("OCGT" in c for c in cells) and nums:
+                ocgt = max(ocgt, float(nums[0]))
+        out[int(m.group(1))] = {"coal": mw, "ocgt": ocgt}
     return out
+
+
+@lru_cache(maxsize=None)
+def kilroot_split() -> dict[int, float]:
+    """{edition: MW of Kilroot's OCGT printed inside its coal/oil row}. Input audit v4-s41, part A find 1 (card
+    [internal ticket]; v4-s42, decision 0195): 'DUKES 2010' and 'DUKES 2011' print one row 'Kilroot coal/oil
+    662'; 'DUKES 2012', the first sheet that lists 'Kilroot OCGT' separately, splits it into coal/oil 520 and OCGT
+    142. An earlier edition whose single row equals that first split's coal + OCGT carries the OCGT inside it."""
+    rows = _kilroot_rows()
+    first = min(y for y, r in rows.items() if r["ocgt"] > 0)
+    coal1, ocgt1 = rows[first]["coal"], rows[first]["ocgt"]
+    return {y: ocgt1 for y, r in rows.items()
+            if y < first and r["ocgt"] == 0 and abs(r["coal"] - (coal1 + ocgt1)) < 0.5}
+
+
+@lru_cache(maxsize=None)
+def kilroot_mw() -> dict[int, float]:
+    """Northern Ireland coal (Kilroot), MW, from the DUKES 5.11 annual station lists.
+
+    Sheet 'DUKES y' is read for year y; years before the first sheet (2004) take the 2004
+    value, labelled. Kilroot closed its coal units in September 2023. Where the coal/oil row
+    carries the OCGT inside it (`kilroot_split`, 2010-11), only the coal part is taken."""
+    sp = kilroot_split()
+    return {y: r["coal"] - sp.get(y, 0.0) for y, r in _kilroot_rows().items()}
 
 
 def coal_capacity_gb(year: int) -> tuple[float, str]:
@@ -530,7 +598,7 @@ DEFAULT_COAL_RULE = "forced"
 def cost_fossil_year(year: int, rows, reserve_margin: float, derating: dict[str, float],
                      step_mw: float = 50.0, coal_cap_mw: float | None = None,
                      transport=None, coal_rule: str = DEFAULT_COAL_RULE,
-                     firm_requirement_mw: float | None = None) -> FossilYear:
+                     firm_requirement_mw: float | None = None, cost_case: str = "medium") -> FossilYear:
     """Size and cost the fossil fleet for one calendar year.
 
     rows: half-hours with `.day` (date) and `.residual` (MW) — `residual.residual_year` rows
@@ -551,7 +619,7 @@ def cost_fossil_year(year: int, rows, reserve_margin: float, derating: dict[str,
        (coal vs CCGT; OCGT last), fuel charged at the month's price."""
     if coal_rule not in COAL_RULES:
         raise ValueError(f"unknown coal rule {coal_rule!r}; one of {COAL_RULES}")
-    ed = edition(year)
+    ed = edition(year, cost_case)            # RB v1.1 O2: the plant-cost case (medium = central)
     cap = coal_capacity_gb(year)[0] if coal_cap_mw is None else coal_cap_mw
     load = [max(0.0, r.residual) for r in rows]
     months = [r.day.month for r in rows]
@@ -655,8 +723,9 @@ ABATEMENT = ("FGD", "SCR", "FGD+SCR")
 def fgd_retrofit(ed: Edition) -> tuple[Plant, int, str]:
     """(FGD retrofit as a `Plant`, price base, source_id) for the edition in force."""
     mm = cost_editions()["tables"]["mm2010_coal"]["rows"]
-    epc = mm["epc_gbp_kw"]["medium"] * FGD_SHARE_OF_COAL_EPC
-    life_src = ed.coal_nox if ed.coal_nox is not None else plant_from_table("pb2012_scr", ed.coal.hurdle["medium"], 2012)
+    epc = mm["epc_gbp_kw"][COST_CASES[ed.cost_case][0]] * FGD_SHARE_OF_COAL_EPC     # O2: the case's capital column
+    life_src = ed.coal_nox if ed.coal_nox is not None else plant_from_table("pb2012_scr", ed.coal.hurdle["medium"], 2012,
+                                                                            COST_CASES[ed.cost_case][0])
     one = lambda v: {"low": v, "medium": v, "high": v}  # noqa: E731
     p = Plant(name="fgd_retrofit", commissioning=2009, size_mw=1000.0, net_load_factor=0.93,
               efficiency_gcv=1.0, life_years=life_src.life_years, predev_gbp_kw=one(0.0), predev_phasing=(1.0,),
@@ -672,7 +741,8 @@ def scr_retrofit(ed: Edition) -> tuple[Plant, int, str]:
     retrofit, PB2012 'Coal - retrofit SCR or NSCR' (labelled estimated by the caller)."""
     if ed.coal_nox is not None:
         return ed.coal_nox, ed.price_base["coal_nox"], ed.source_id["coal_nox"]
-    return plant_from_table("pb2012_scr", ed.coal.hurdle["medium"], 2012), 2012, "pb2012-scr"
+    return (plant_from_table("pb2012_scr", ed.coal.hurdle["medium"], 2012, COST_CASES[ed.cost_case][0]), 2012,
+            "pb2012-scr")
 
 
 def abatement_gbp_kw_yr(ed: Edition, need: str | None) -> tuple[float, float, list[str]]:

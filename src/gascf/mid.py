@@ -1,4 +1,5 @@
-"""Elexon BMRS MID: day-ahead market index, APX (APXMIDP) half-hourly £/MWh and MWh.
+"""Elexon BMRS MID: the Elexon market index price, APX (APXMIDP) half-hourly £/MWh and MWh. Elexon describes MID
+as the price "in the short term markets"; it is not the day-ahead auction price (0163 R25 (a)).
 
 N2EX (N2EXMIDP) is published with zero prices and volumes in most periods, so APX is
 used. Stored one CSV per year: settlementDate, settlementPeriod, price, volume.

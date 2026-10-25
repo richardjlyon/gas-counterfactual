@@ -1,0 +1,56 @@
+{
+ "about": "Card t_90ef8976 (measure only; Richard has not ruled). Kept coal units held to an IED Annex V hours cap from 1 July 2020, under the coal_lf switch 'dukes_max+ied_<reading>_<hours>'. Units match the closure register by station and unit. Unit-by-unit facts: shared/2026-10-21-rb-read-through/ied-hours-cap-units.md (analyst, card t_a957ba0f), section 2 and 3.",
+ "from": "2020-07-01",
+ "hours": {
+  "1500": "IED 2010/75/EU Annex V Part 1 (PDF pp.43-44): under 1,500 operating hours a year as a rolling average over 5 years",
+  "2250": "Permit condition 2.3.6, maximum 2,250 hours in any one year: Drax EPR/VP3530LS/V018 PDF p.11; West Burton A EPR/SP3935LW/V011 PDF p.11"
+ },
+ "units": [
+  {"station": "West Burton A", "unit": "all", "readings": ["permits", "route"],
+   "source": "EA permit EPR/SP3935LW/V011 condition 2.3.6 (PDF p.11); decision document PDF p.8: no SCR or SNCR fitted"},
+  {"station": "Drax", "unit": "units 5-6 (last coal units)", "readings": ["permits", "route"],
+   "source": "EA permit EPR/VP3530LS/V018 condition 2.3.6 (PDF p.11); decision document PDF p.9: 'Coal (boilers 5 and 6): <1500 hours'"},
+  {"station": "Drax", "unit": "unit 1 (first biomass conversion)", "readings": ["route"],
+   "source": "No coal route in reality (biomass). Reading C gives it Drax's own LCP91 1,500-hour route by analogy"},
+  {"station": "Drax", "unit": "unit 2 (second biomass conversion)", "readings": ["route"],
+   "source": "As unit 1"},
+  {"station": "Drax", "unit": "unit 3 (third biomass conversion)", "readings": ["route"],
+   "source": "As unit 1"},
+  {"station": "Drax", "unit": "unit 4 (fourth biomass conversion)", "readings": ["route"],
+   "source": "As unit 1"},
+  {"station": "Lynemouth", "unit": "all", "readings": ["route"],
+   "source": "No coal route in reality (biomass from 2018). Reading C gives it the 1,500-hour route by analogy"}
+ ],
+ "existing_jul2020_about": "rb-v4-s39-rc merge: renamed from 'existing' (that key is card t_3b9e5ce5's block). Card t_0b506f56 (measure only; Richard has not ruled). EXISTING coal under the IED from 1 July 2020, coal_lf suffix '+ex_cap_<hours>' (hours cap) or '+ex_scr' (SCR charged as kept SCR is, no cap). A station counts as existing in each year before its real closure year (DUKES end-of-year capacity, the engine's coal-block basis). Facts: ied-hours-cap-units.md section 4 (analyst, card t_a957ba0f).",
+ "existing_jul2020": [
+  {"station": "West Burton A", "unit": "all",
+   "source": "EA permit EPR/SP3935LW/V011 condition 2.3.6 (PDF p.11); decision document PDF p.8: no SCR or SNCR fitted. Existing until its real closure, 31 Mar 2023"},
+  {"station": "Drax", "unit": "units 5-6 (last coal units)",
+   "source": "EA permit EPR/VP3530LS/V018 condition 2.3.6 (PDF p.11); decision document PDF p.9: 'Coal (boilers 5 and 6): <1500 hours'. Existing until its real closure, 30 Apr 2023"}
+ ],
+ "existing": {
+  "about": "Card t_3b9e5ce5 (measure only; Richard has not ruled). Existing (not kept) coal held to its real caps under coal_lf rules ending '+existing'. Units, dates and caps: shared/2026-10-21-rb-read-through/ied-hours-cap-units.md (analyst, card t_a957ba0f), sections 2 and 4. A station counts while its register coal end is on or after 31 December of the year (the engine's DUKES end-year capacity basis).",
+  "lcpd": {
+   "from": "2008-01-01",
+   "to": "2015-12-31",
+   "total_hours": 20000,
+   "source": "Directive 2001/80/EC Art. 4(4)(a), OJ L 309, 27.11.2001, p. L 309/4: 20,000 operational hours from 1 Jan 2008, closure by 31 Dec 2015. Opt-outs: DECC Energy Trends Sept 2015 Table 1 p.72; National Grid GCRP 07/32 p.1",
+   "units": [
+    {"station": "Didcot A", "unit": "all"},
+    {"station": "Cockenzie", "unit": "all"},
+    {"station": "Kingsnorth", "unit": "all"},
+    {"station": "Ironbridge", "unit": "all"},
+    {"station": "Ferrybridge C", "unit": "units 1-2 (LCPD opted-out half)"},
+    {"station": "Tilbury B", "unit": "all"}
+   ]
+  },
+  "permits": {
+   "from": "2020-07-01",
+   "source": "Permit condition 2.3.6 (1,500-hour route): Drax EPR/VP3530LS/V018 PDF p.11 (DD PDF p.9: 'Coal (boilers 5 and 6): <1500 hours'); West Burton A EPR/SP3935LW/V011 PDF p.11. Hours a year = the rule's hours (1500 or 2250), pro rata from 1 July 2020",
+   "units": [
+    {"station": "West Burton A", "unit": "all"},
+    {"station": "Drax", "unit": "units 5-6 (last coal units)"}
+   ]
+  }
+ }
+}

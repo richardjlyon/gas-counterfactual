@@ -5,6 +5,7 @@
         uv-cache/      a warmed uv cache, so `uv sync --frozen --offline` works with no network
         figures.json   the released figures file
         <run file>     the released run file (name as in the releases.yaml row)
+        tests/         the gate's full suite output and junit, when the row pins them (suite_output; 5.1)
         RERUN.md       the rerun command and what it checks
         rerun.sh       the rerun command as a script (review-report runs `bash /bundle/rerun.sh` in a sealed box)
         SHA256SUMS     every file except itself, paths relative to the bundle, written last
@@ -95,7 +96,7 @@ def release_only_diff(row: dict, ref: str, root: Path) -> list[str]:
         raise SystemExit(f"REFUSED: the row's cut commit {cut} is not an ancestor of {ref}")
     changed = [p for p in _git_text(root, "diff", "--name-only", cut, ref).splitlines() if p]
     allowed = {"releases.yaml", "CHANGELOG.md", "RERUN.md", row.get("run_file"), row.get("clock_export_file"),
-               row.get("figures_file")}
+               row.get("figures_file"), *(row.get("suite_output") or {})}
     code = [p for p in changed if p not in allowed and not p.startswith("work/")]
     if code:
         raise SystemExit(f"REFUSED: {ref} changes more than release files after the cut commit {cut}: {code}")
@@ -120,6 +121,13 @@ def build(version: str, ref: str, *, uv_cache: Path, releases_root: Path = RELEA
     shutil.copytree(uv_cache, out / "uv-cache", symlinks=False)
     (out / Path(row["run_file"]).name).write_bytes(_git_bytes(root, "show", f"{ref}:{row['run_file']}"))
     (out / "figures.json").write_bytes(_git_bytes(root, "show", f"{ref}:{row['figures_file']}"))
+    # card [internal ticket] (sweep 5.1): the gate's full suite output and junit, as pinned in the row
+    for f, sha in (row.get("suite_output") or {}).items():
+        b = _git_bytes(root, "show", f"{ref}:{f}")
+        if hashlib.sha256(b).hexdigest() != sha:
+            raise SystemExit(f"REFUSED: {f} at {ref} does not match its sha256 in the row")
+        (out / "tests").mkdir(exist_ok=True)
+        (out / "tests" / Path(f).name).write_bytes(b)
     (out / "RERUN.md").write_text(RERUN_MD.format(model=MODEL, version=version) + PROVENANCE_MD.format(
         cut=row["commit"], src=src_commit, ref=ref,
         between="\n".join(f"- `{p}`" for p in between) or "- nothing (the same commit)"))

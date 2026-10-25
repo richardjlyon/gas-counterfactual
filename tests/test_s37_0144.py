@@ -32,6 +32,17 @@ S36_FIGS = ROOT / "out/figures/v4-s36.json"
 YEAR = 2018          # a year with extra running, a merit-order uplift and a positive gas-feedback dQ (42 TWh on v4-s36)
 
 
+@pytest.fixture
+def v4_s38():
+    """v4-s39 (card [internal ticket]): test 1 is 0144's arithmetic on the v4-s36/s38 engine (monthly prices, carbon at gas
+    intensity, register MW and coal hours); the v4-s39 rulings are set back explicitly (tests/_pre_0133.py)."""
+    from _pre_0133 import pre_s39
+    B.fleet_lfl.cache_clear()
+    with pre_s39():
+        yield
+    B.fleet_lfl.cache_clear()
+
+
 # ----------------------------------------------------------------------------- sources
 
 
@@ -79,7 +90,7 @@ def _lfl(year: int, s=None):
     return L.lfl_year(year, s.residual, s.margin, s.transport, s.closures, s.newbuild, cf, s.coal_lf, s.ic_basis)
 
 
-def test_1_extra_running_charged_the_market_price_each_month():
+def test_1_extra_running_charged_the_market_price_each_month(v4_s38):
     """1A: the extra running of the plant real Britain had is charged what its actual output is charged, each
     month: actual price less carbon (P - C), plus the merit-order uplift, plus the gas-price feedback; its fuel,
     running and gas-transport cost is no longer counted on top. Expected parts built here from the LfL year's own
@@ -113,11 +124,14 @@ def test_1_extra_running_charged_the_market_price_each_month():
     assert f["total_gbp_m"] == pytest.approx(sum(f[k] for k in parts), rel=1e-12)
 
 
-def test_1_option_c_keeps_the_v4_s36_mix_to_the_penny(monkeypatch, request):
+def test_1_option_c_keeps_the_v4_s36_mix_to_the_penny(monkeypatch, request, v4_s38):
     """Sensitivity row C (keep the mix): with extra_running='cost' the fleet's uplift, running and transport parts
     are the released v4-s36 run file's own (fleet block, 2018), to the penny (£m to 1e-6). These parts do not
     depend on the gas-feedback elasticity (2A) or on Cottam (open in 2018 in both registers)."""
-    monkeypatch.setenv("GASCF_FOSSIL_CLOSURES", str(ROOT / "reference/fossil_closures.yaml"))   # the release's
+    # v4-s36's own register (36c9745, tests/_pre_0133.py): the release register has since moved Rugeley (0159) and
+    # the coal rows (0163, 0166), which change the 2018 fleet (card [internal ticket])
+    from _pre_0133 import PRE_0144_REGISTER
+    monkeypatch.setenv("GASCF_FOSSIL_CLOSURES", str(PRE_0144_REGISTER))
     # fleet_lfl's cache is keyed on its arguments, not on the register in use: clear it either side
     B.fleet_lfl.cache_clear()
     request.addfinalizer(B.fleet_lfl.cache_clear)
@@ -297,7 +311,9 @@ def test_7_each_judgement_finding_has_a_named_row():
         assert row["name"] and row["headline_key"] in S.DECLARED and row["change_key"] in S.DECLARED, fid
         assert S.DECLARED[row["headline_key"]]["units"].startswith("£bn")
     assert "partial whole-Britain view" in S.DECLARED[S.ROWS["5bB"]["headline_key"]]["label"]
-    assert "probably low in 2021-23" in S.DECLARED["note_uplift_2021_23_probably_low"]["label"]
+    # v4-s39 (card [internal ticket]): finding 3's note now says it is superseded for 2021-23 by 0164 (M9 B)
+    lab = S.DECLARED["note_uplift_2021_23_probably_low"]["label"]
+    assert "probably low" in lab and "0164" in lab
 
 
 def test_7_rows_reproduce_the_v4_s36_figures_from_the_released_files():

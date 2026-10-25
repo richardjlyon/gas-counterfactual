@@ -42,7 +42,11 @@ def test_early_years_gap_close_to_net_zero_extras_pooled(central):
     19 Oct 2026, item 1.3): the check keeps the 0097-netted lines and is NOT re-pinned. On the s36 build it gives
     about 34.6% against the 30% limit (36.1% after decision 0133 moved the margin to the 2027/28 peak), so this test FAILS by design: an expected, disclosed failure, stated in the
     paper's §5 with its cause (0097's netting takes about £647m, 2025 prices, out of the lines over 2002-04) and the
-    fact that the headline is unaffected. Never loosen, skip or xfail it (0111)."""
+    fact that the headline is unaffected. Never loosen, skip or xfail it (0111).
+    RB v1.1 M6 (0163 R7 (a), Richard Lyon 21 Oct 2026): with the gas-price feedback both ways the check itself is
+    unchanged but now PASSES on the fixture (pooled 22.7%, -£4.43 a household; was 36.6%, -£7.11): fossil Britain
+    burns less gas than the actual system in 2002-04, so its gas is cheaper. Reported to the research-director;
+    the §5 disclosure is the paper's to change."""
     from gascf.calibration_block import early_years_check
     rows = [{"year": y, "gap_hh": central[y]["totals"]["gap_per_hh_real"],
              "lines_hh": B.real(nz_only_lines(central[y]), y) * 1e6 / central[y]["households"],
@@ -61,10 +65,22 @@ def test_calibration_early_block_discloses_the_0111_failure(central):
              "lines_hh": B.real(nz_only_lines(central[y]), y) * 1e6 / central[y]["households"],
              "households": central[y]["households"]} for y in (2002, 2003, 2004)]
     want = early_years_check(rows)
-    assert blk["pooled"] == pytest.approx(want["pooled"]) and blk["passed"] is want["passed"] is False
-    assert blk["pooled"]["pct"] == pytest.approx(36.6, abs=0.05)   # 34.6 at s36-gA; 36.1 after decision 0133 (margin on the 2027/28 peak); 36.6 after 0144 (v4-s37 run file: 36.637)
-    assert blk["pooled"]["diff_hh"] == pytest.approx(-7.11, abs=0.01)   # -6.72 before 0133; -7.01 before 0144 (v4-s37 run file: -7.113)
-    assert blk["decision"] == "0111" and blk["disclosed_failure"] is True
+    # RB v1.1 M6 (0163 R7 (a)): with the gas-price feedback both ways, fossil Britain's gas is cheaper in 2002-04
+    # (dQ < 0), so the gap is less negative and the pooled check now PASSES (22.7% against the 30% limit; was 36.6%).
+    # The engine sets disclosed_failure from the result (calibration_block); nothing here is loosened.
+    assert blk["pooled"] == pytest.approx(want["pooled"]) and blk["passed"] is want["passed"] is True
+    # v4-s39 (card [internal ticket]): re-pinned from the cut export out/v4/2026-10-22-s39.json, tests.calibration_early.pooled
+    # (pct 17.814, diff_hh -3.481): the v4-s39 rulings (coal hours 0166, M7/M8 and the generators' share 0167, RO
+    # mutualisation 0169) move the 2002-04 gap and lines; still a pass.
+    # v4-s42 (card [internal ticket], decision 0195): re-pinned from the v4-s42 cut's run file (pct 17.943, diff_hh -3.506), moved
+    # by A2 alone (the same on the candidate's A2 run, [internal ticket]): Coolkeeragh counted in 2006 is also deducted in
+    # 2002-04 by the unchanged nearest-year rule (Q-0195-A, not ruled); still a pass.
+    # v4-s43 (card [internal ticket], decision 0197, "each year's own list"): re-pinned from the v4-s43 build on this seam
+    # (work/[internal ticket]/repin_s43.py: pct 16.847, diff_hh -3.293), moved by the 2002-05 NI lists alone (fails at 59512c8,
+    # passes at a7e5ee4); still a pass.
+    assert blk["pooled"]["pct"] == pytest.approx(16.85, abs=0.05)   # 17.94 at v4-s42; 17.81 at v4-s39-s41
+    assert blk["pooled"]["diff_hh"] == pytest.approx(-3.29, abs=0.01)   # -3.51 at v4-s42; -3.48 at v4-s39-s41
+    assert blk["decision"] == "0111" and blk["disclosed_failure"] is False
     assert "0097" in blk["note"] and "headline" in blk["note"]
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     from tools.figures_keys import calibration as K
@@ -73,7 +89,7 @@ def test_calibration_early_block_discloses_the_0111_failure(central):
     assert v["calib_pooled_2002_04_gbp_hh"] == blk["pooled"]["diff_hh"]
     assert [v[f"calib_{y}_pct"] for y in (2002, 2003, 2004)] == [p["pct"] for p in blk["per_year"]]
     assert v["calib_limit_pct"] == 30.0 and v["calib_limit_gbp_hh"] == 25.0
-    assert v["calib_pooled_2002_04_passed"] is False
+    assert v["calib_pooled_2002_04_passed"] is True
     assert K.values({"tests": {}})["calib_pooled_2002_04_pct"] is None
 
 
@@ -88,8 +104,12 @@ def test_fossil_britain_pays_more_for_power_than_the_actual_price_less_carbon(ce
     """Under the s22 rule (with the merit-order uplift) step 1 is never positive. s23b, spec
     §15.3 item 1: with no uplift in the central case, step 1 CAN be positive (2021-22: the
     renewables' MWh are paid the actual price less carbon in net-zero Britain, but cost only
-    fuel and running cost in fossil Britain). That is shown, not tested away."""
-    wf = W.waterfall(B.replace(B.CENTRAL, moe="larger", closures="actual", newbuild="gas_only"))
+    fuel and running cost in fossil Britain). That is shown, not tested away.
+    RB v1.1 M6 (0163 R7 (a)): the gas-price feedback now works both ways, so in a year where fossil Britain burns
+    less gas than the actual system (dQ < 0) its power is cheaper and step 1 can be positive by that feedback alone
+    (2008 on the fixture: +£0.25m). The merit-order claim this test guards is checked with the feedback off; the
+    two-way feedback has its own tests (tests/test_rb11_m6_feedback_both_ways.py)."""
+    wf = W.waterfall(B.replace(B.CENTRAL, moe="larger", closures="actual", newbuild="gas_only", gas_feedback="none"))
     for y in YEARS:
         s1 = next(s for s in wf[y] if s["step"] == 1)["value_gbp_m_nominal"]
         assert s1 <= 1e-6, (y, s1)
@@ -145,7 +165,10 @@ def test_moe_central_is_shao_and_none_is_a_methods_switch(central):
     for y in YEARS:
         f = central[y]["fleet"]
         assert f["moe_gbp_m"] >= 0.0 and f["moe_kept_gbp_m"] >= 0.0, y
-        assert f["moe"]["applied_mean_gbp_mwh"] == pytest.approx(max(0.0, f["moe"]["shao_mean_gbp_mwh"])), y
+        if f["moe"].get("crisis_rule", "shao") == "shao":
+            assert f["moe"]["applied_mean_gbp_mwh"] == pytest.approx(max(0.0, f["moe"]["shao_mean_gbp_mwh"])), y
+        else:   # v4-s39 (0164, M9 B): May 2021-Dec 2023 scaled up from Shao (k_B 2.63-2.83, [internal ticket])
+            assert f["moe"]["applied_mean_gbp_mwh"] > 1.5 * max(0.0, f["moe"]["shao_mean_gbp_mwh"]), y
         # the uplift makes fossil Britain dearer -> smaller (or equal) gap
         assert central[y]["totals"]["gap_gbp_m"] <= nn[y]["totals"]["gap_gbp_m"] + 1e-6, y
 

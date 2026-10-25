@@ -53,7 +53,9 @@ def test_generators_share_taken_off_each_day_at_its_fy_share(year):
     assert b.nz6()[year]["gbp_m"] == pytest.approx(REMOVED[year], abs=0.01)
 
 
-@pytest.mark.parametrize("year", list(range(2002, 2017)) + [2025])
+# Card [internal ticket]: CY2010 and CY2011 take FY2010/11, which now comes from MBSS March 2011 (input audit part D);
+# they are pinned by tests/test_bsuos_fy2010_mbss_2011.py instead.
+@pytest.mark.parametrize("year", [y for y in range(2002, 2017) if y not in (2010, 2011)] + [2025])
 def test_nz6_outside_2017_24_unchanged_from_v4_s35(year):
     """Guards: 2002-2016 keep the 1/4 : 3/4 rule (and the baseline); 2025 keeps the FY2025/26
     partial-year estimate path (0088 covers 2017-24 only). Equal to the v4-s35 run file."""
@@ -71,4 +73,5 @@ def test_b11_fy2006_fallback_recorded_like_fy2010():
     rec = {f["name"]: f for f in fb.recorded()}
     assert rec["bsuos-fy2006-ibc-grossup"]["year"] == 2006
     assert rec["bsuos-fy2006-ibc-grossup"]["size"] == pytest.approx(593.1, abs=0.05)
-    assert "bsuos-fy2010-cpih-interpolation" in rec
+    # card [internal ticket]: FY2010/11 external now from MBSS March 2011; only its internal part is interpolated
+    assert "bsuos-fy2010-internal-cpih-interpolation" in rec

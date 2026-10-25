@@ -5,7 +5,10 @@ each alone with the rest central, as its own per-year gap and the bill lines it 
 The `sensitivities` block keeps only each switch's per-year lowest and highest change, so a 2002-24 total
 under one option cannot be read from it (the per-year min can come from different options in different
 years). This block keeps every option apart. `bills.build` is cached on Settings, so the builds are the
-ones `ranges()` and the methods page already make."""
+ones `ranges()` and the methods page already make.
+
+v4-s40 item 9 (decision 0175): a fourth group, `method_checks` (`bills.METHOD_CHECKS`, the ruled kept-coal rows of
+decision 0163 and 0166 item 4), measured the same way. No range key reads it, so no method check sets a range end."""
 from __future__ import annotations
 
 from dataclasses import fields
@@ -34,12 +37,18 @@ def _option(s, run: dict, central: dict) -> dict:
             "lines_moved_gbp_m_nominal": moved}
 
 
-def block(built: dict, build=None, ranked=None, methods=None) -> dict:
+def block(built: dict, build=None, ranked=None, methods=None, held=None, checks=None) -> dict:
+    """`held` (RB v1.1, decision 0160): rows switched off by default and held for Richard's ruling on where they are
+    printed (`bills.HELD_SWITCHES`). Measured here like the other two blocks; read by no range or table key.
+    `checks` (v4-s40 item 9, decision 0175): the method checks (`bills.METHOD_CHECKS`), outside the range."""
     build = B.build if build is None else build
     ranked = B.switch_settings() if ranked is None else ranked
     methods = B.METHOD_SWITCHES if methods is None else methods
+    held = B.HELD_SWITCHES if held is None else held
+    checks = B.METHOD_CHECKS if checks is None else checks
     return {name: {label: [_option(s, build(s), built) for s in sets] for label, sets in reg.items()}
-            for name, reg in (("ranked", ranked), ("methods_page", methods))}
+            for name, reg in (("ranked", ranked), ("methods_page", methods), ("held", held),
+                              ("method_checks", checks))}
 
 
 from gascf import export_v4 as _X  # noqa: E402

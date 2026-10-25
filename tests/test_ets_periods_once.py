@@ -82,4 +82,4 @@ def test_2019_20_revenue_on_calendar_years_0110():
     for y in range(2013, 2019):                         # 2013-18 unchanged
         assert r[y]["basis"] == "calendar", y
     assert sum(r[y]["gbp_m"] for y in range(2013, 2019)) == pytest.approx(
-        347.8 + 312.2 + 412.0 + 311.0 + 529.4 + 1421.8, abs=1e-9)
+        347.8 + 312.2 + 412.0 + 342.2 + 529.4 + 1421.8, abs=1e-9)   # 2016: 342.2 (C1, v4-s42, decision 0195; was 311.0)

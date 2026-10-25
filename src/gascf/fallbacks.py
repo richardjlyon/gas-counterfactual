@@ -24,14 +24,16 @@ DECLARED: dict[str, str] = {
     "dukes_efficiency_nearest_year": (
         "DUKES 5.10.C efficiency outside the printed years: the nearest printed year."),
     "ni_fossil_nearest_year": (
-        "Northern Ireland fossil MW (taken off the UK DUKES 5.7 totals) for a year the NI "
-        "source does not cover: the nearest covered year."),
+        "Northern Ireland fossil MW (taken off the UK DUKES 5.7 totals) for a year before 2002, the first "
+        "DUKES station list the engine holds: the nearest list. Each year from 2002 takes its own edition's "
+        "list (decision 0197), so this does not fire for 2002-25."),
     "shao_wind_pooled": (
         "Shao et al. 2022 wind coefficient for a calendar year partly or wholly outside its "
         "April 2009 - March 2021 sample: the pooled coefficient (Table 3) for the missing part."),
     "wind_gw_dukes_flat": (
         "Mean wind GW removed (for the Shao uplift) where the NESO generation mix is missing "
-        "or estimated: DUKES 5.6.E wind supplied spread flat over the year."),
+        "or estimated: DUKES 5.6.E wind supplied spread flat over the year. DUKES 5.6.E is UK wind, so it "
+        "includes Northern Ireland (2002-08; the UK basis, declared, decision 0195)."),
     "oil_price_carried_forward": (
         "DESNZ QEP oil price for a quarter not yet printed: the latest printed quarter."),
     "gb_gas_share_nearest_year": (
@@ -40,11 +42,9 @@ DECLARED: dict[str, str] = {
     "gb_gas_demand_nearest_year": (
         "GB gas demand (Energy Trends 4.1) for a year outside the table: the nearest year "
         "(denominator of the gas-price feedback)."),
-    # s27b fallbacks, registered by s27c (names as declared in subsidies.FIT_FALLBACKS and
-    # carbon.CARBON_FALLBACKS; recorded by `bills.record_netzero_fallbacks`).
-    "fit-sy1-5-levelisation-ratio": (
-        "FiT levelisation fund not stored for scheme years 1-5 (FY2010/11-2014/15): scheme value "
-        "x the SY6 levelisation / scheme-value ratio (NZ3)."),
+    # s27b fallbacks, registered by s27c (names as declared in carbon.CARBON_FALLBACKS; recorded by
+    # `bills.record_netzero_fallbacks`). "fit-sy1-5-levelisation-ratio" retired by C-008 (Ofgem's published
+    # levelisation funds for FIT years 1-5 now read).
     "cpf-receipts-2013": (
         "HMRC Table 1b prints no Carbon Price Support split for 2013: total CCL+CPF receipts 2013 "
         "less 2012 (carbon tax collected)."),
@@ -57,13 +57,18 @@ DECLARED: dict[str, str] = {
     "bsuos-fy2006-ibc-grossup": (
         "No measured balancing-cost total for FY2006/07: National Grid 2010 Table 1 GB IBC outturn "
         "x (1 + the FY2007/08 SO internal/external ratio, Ofgem TAR 2008-09 T22) (NZ6; s36 B11)."),
-    "bsuos-fy2010-cpih-interpolation": (
-        "No balancing-cost total found for FY2010/11: the real-terms (CPIH) mean of FY2009/10 and "
-        "FY2011/12 (NZ6)."),
+    "bsuos-fy2010-internal-cpih-interpolation": (
+        "FY2010/11 SO internal balancing cost, which the March 2011 MBSS does not print: the real-terms "
+        "(CPIH) mean of the FY2009/10 and FY2011/12 internal costs, added to the MBSS external cost (NZ6; "
+        "card t_2dca67b2)."),
     # s36 ticket 24 (0060): the general guard on silent 2025 carry-forwards names each input here.
     "domestic-share-2025-carried": (
         "Domestic share of UK electricity sales (DUKES 5.2 / 5.5.D) for 2025 equal to (or missing and "
         "taken from) 2024: the 2024 value carried. Not used while DUKES 2026 prints 2025."),
+    # decision 0169 (cards [internal ticket], [internal ticket]): recorded only when bills.Settings.ro_mutualisation is not 'off'
+    "ro-mutualisation-sy24-zero": (
+        "RO mutualisation for scheme year 24 (2025-26), whose compliance closes after the SY23 report: "
+        "taken as 0 (no shortfall known), for the 2025 calendar year's 3/4 share only (never 2002-24)."),
 }
 
 

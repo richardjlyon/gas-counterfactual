@@ -29,13 +29,14 @@ def _built(gap_bn: float, nz8: float = 100.0, nz1c: float = 50.0) -> dict:
 def test_block_exports_each_option_alone_with_its_settings_and_gap_by_year():
     lo, hi = replace(B.CENTRAL, margin="low"), replace(B.CENTRAL, margin="high")
     runs = {lo: _built(9.0), hi: _built(11.0, nz8=130.0)}
-    blk = O.block(_built(10.0), build=runs.__getitem__, ranked={"spare margin (6.6% / 8.2%)": (lo, hi)}, methods={})
+    blk = O.block(_built(10.0), build=runs.__getitem__, ranked={"spare margin (6.6% / 8.2%)": (lo, hi)}, methods={},
+                  held={}, checks={})     # RB v1.1 (0160) held block and v4-s40 item 9 method checks, empty here
     opts = blk["ranked"]["spare margin (6.6% / 8.2%)"]
     assert [o["settings"] for o in opts] == [{"margin": "low"}, {"margin": "high"}]
     assert opts[0]["gap_real_bn"]["2024"] == 9.0 and opts[1]["gap_real_bn"]["2002"] == 11.0
     assert opts[1]["lines_moved_gbp_m_nominal"]["2024"] == {"NZ8": 30.0}
     assert opts[0]["lines_moved_gbp_m_nominal"]["2024"] == {}
-    assert blk["methods_page"] == {}
+    assert blk["methods_page"] == {} and blk["held"] == {}
 
 
 def test_block_is_registered_through_the_run_file_hook():

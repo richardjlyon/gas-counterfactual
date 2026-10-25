@@ -10,15 +10,16 @@ the run file only. Money: 2024 prices (CPIH, `gascf.figures.to_2024`) unless a k
   option, with their size): every ranked (range) switch with an option below central, mechanically, lowest first.
   Which of them the paper argues as exceptions is the writer's and Richard's; this is the measured list.
 - table_calibration (§5.1): the early-years check (0061, 0111) and the residual-demand calibration rows.
-- table_household_by_year (§14.3): households, the cost to Britain per household and the part on households' own
+- table_household_by_year (§14.3): households, the extra cost of net zero on electricity bills per household and the part on households' own
   bills, by year.
 - annex_b_annual_tables: every bill line, every year 2002-25 (the 2024 table's layout, plus the same-in-both lines).
 - annex_c_engine_summary: the run's own record of how it was built (settings, sources, fallbacks with their size).
-- annex_e_bridge: headline keys against the prior release (v4-s35, read from releases.yaml, sha256-checked).
+- (annex_e_bridge, the old Annex E bridge to the prior release, is cut by decision 0162; the new Annex E, the version
+  and change log, and Annex C's equations and parameters are tools/figures_keys/annex_v11.py.)
 - release_version, release_commit: the release name and the commit the cut ran at (the run's suite record).
 
-Annex A (the figure register) is written by tools.figures over the whole file. Annex D (derived figures) and annex F
-(changelog) are not engine outputs: see the 0122 pull request."""
+Annex A (the figure register) is written by tools.figures over the whole file. Annex D's workings are keyed in this
+module, the per-item modules and annex_v11 (annex_d_working_index lists them)."""
 from __future__ import annotations
 
 import json
@@ -41,12 +42,6 @@ def _m(label, run_field, units, period, basis="modelled", **extra):
 
 
 _P = {"price_base": PRICE_BASE_LABEL}
-BRIDGE_KEYS = ("headline_2002_24_gbp_bn", "gap_2024_gbp_bn", "gap_2025p_gbp_bn", "cost_per_household_2024_gbp",
-               "cost_per_household_2025p_gbp", "own_bills_per_household_2024_gbp",
-               "own_bills_per_household_2025p_gbp", "nz_bill_2002_24_gbp_bn", "rb_bill_2002_24_gbp_bn",
-               "wf_power_before_carbon_gbp_bn", "wf_carbon_gbp_bn", "wf_ro_gbp_bn", "wf_fit_gbp_bn", "wf_cfd_gbp_bn",
-               "wf_cm_gbp_bn", "wf_balancing_gbp_bn", "wf_grid_gbp_bn", "wf_ccl_extra_gbp_bn", "wf_schemes_gbp_bn",
-               "wf_vat_gbp_bn")
 
 DECLARED = {
     "sizing_peak_halfhour_2024": _m("Half-hour at which Reliable Britain's fleet is sized, 2024 (gross demand peak, "
@@ -63,31 +58,30 @@ DECLARED = {
         "than central, with the lowest such option and its change; lowest first. Mechanical list: which of these the "
         "paper argues as exceptions is not decided here",
         "table_one_at_a_time ranked rows with change_gbp_bn < 0, lowest option per switch",
-        "table, £bn, 2024 prices", "2002-2024", basis="estimated", **_P),
+        "table, £bn, 2024 prices", "2002-2024", basis="modelled", **_P),
     "table_calibration": _m(
         "Calibration (§5.1): the early-years check pooled over 2002-04 (0061; failure disclosed under 0111) and the "
         "residual-demand calibration of FUELHH against NESO by year (loosened rule)",
         "tests.calibration_early; tests.calibration.loosened", "table, £ a household (2025 prices) and %",
         "2002-2025", money="2025 prices (the calib_* keys' money)"),
     "table_household_by_year": _m(
-        "Households, the cost to Britain per household, and the net-zero cost on households' own bills (CCL "
+        "Households, the extra cost of net zero on electricity bills per household, and the net-zero cost on households' own bills (CCL "
         "excluded, 0025), by year 2002-25 (2025 provisional)",
         "years[y].households; gap[y].per_household_real; bills[y].netzero_on_household_bill_per_household",
-        "table, million households, £ a household, 2024 prices, %", "2002-2025", basis="estimated", **_P),
+        "table, million households, £ a household, 2024 prices, %", "2002-2025", basis="modelled", **_P),
     "annex_b_annual_tables": _m(
         "Annex B: every bill line, every year 2002-25 (2025 provisional): net-zero Britain, Reliable Britain and the "
-        "same-in-both lines; 'of which' rows are shown, never added",
+        "same-in-both lines; 'of which' rows are shown, never added; each line tagged measured, modelled or labelled "
+        "estimate and given its cash figure (£m, that year's money) beside 2024 prices; each year's data basis (v1.1 "
+        "F1, F2)",
         "bills[y].netzero, .gasonly, .same_in_both, .nz1c; waterfall[y] step 2 parts", "table, £bn, 2024 prices",
-        "2002-2025", basis="estimated", **_P),
+        "2002-2025", basis="modelled", **_P),
     "annex_c_engine_summary": _m(
         "Annex C: engine summary, the run's own record (version, run date, money, households source, central "
         "settings, residual method, calibration rule, provisional years, every declared fallback with its size)",
         "meta.*", "record", "release", basis="measured"),
-    "annex_e_bridge": _m(
-        "Annex E: bridge to the prior release (the one before this in releases.yaml; columns named by version), "
-        "headline keys in that release and this one, 2024 prices",
-        "tools.figures_keys.core on the prior release's run file (releases.yaml, sha256-checked) and on this run",
-        "table, £bn and £ a household, 2024 prices", "2002-2025", basis="estimated", **_P),
+    # Decision 0162 item 1 (Richard Lyon, 21 Oct 2026: "Yep, cut annex E."): annex_e_bridge is cut. The new Annex E
+    # (Version and change log) is tools/figures_keys/annex_v11.py.
     "release_version": _m("Release name", "meta.engine_version", "text", "release", basis="measured"),
     "household_share_gb_2024_pct": _m(
         "Domestic meters' share of Great Britain's electricity consumption, 2024 (DESNZ sub-national statistics, GB "
@@ -158,8 +152,29 @@ def _households(run: dict) -> list[dict]:
     return out
 
 
+# v1.1 F1 (0160; W2, R23 (a)): each Annex B line's tag is the engine's own data basis for that line and year (the
+# weakest evidence among its inputs, bills._RANK). "estimated" prints as "labelled estimate" (0007); the 2004-06
+# metering rows, which have no figure of their own, as "no separate figure".
+TAG = {"measured": "measured", "modelled": "modelled", "estimated": "labelled estimate",
+       "UNSOURCED": "no separate figure"}
+
+
+def _line_facts(run: dict, y: str) -> dict:
+    """{line id: (engine basis, cash £m in year y's money)} for every Annex B row of year y."""
+    b = run["bills"][y]
+    facts = {x["id"]: (x["basis"], x.get("national_gbp_m_nominal"))
+             for x in b["netzero"] + b["gasonly"] + b["same_in_both"]}
+    facts["NZ1c"] = (b["nz1c"]["basis"], b["nz1c"]["national_gbp_m_nominal"])
+    step2 = [s for s in run["waterfall"][y] if tuple(s.get("lines") or ()) == ("NZ1c",)][0]
+    for p in step2.get("parts", {}).values():
+        facts[p["line"]] = (p["basis"], p["value_gbp_m_nominal"])
+    return facts
+
+
 def _annex_b(run: dict) -> list[dict]:
     from tools.figures_keys.core import _lines_table
+    prov = [str(p) for p in run["meta"]["provisional_years"]]
+    years = {str(r["year"]): r for r in run["years"]}
     out = []
     for y in Y02_25:
         rows = _lines_table(run, y)
@@ -169,7 +184,20 @@ def _annex_b(run: dict) -> list[dict]:
                   # 2004-06 metering has no separate figure (the run's own note says where it sits): no value, a note
                   "note": x.get("years_note") if x.get("national_gbp_m_real") is None else None}
                  for x in run["bills"][y]["same_in_both"]]
-        out.append({"year": int(y), "provisional": y in [str(p) for p in run["meta"]["provisional_years"]],
+        facts = _line_facts(run, y)
+        for r in rows:                                   # F1 tag and F2 cash column (£m, that year's money)
+            basis, cash = facts[r["id"]]
+            r["tag"] = TAG[basis]
+            r["cash_gbp_m"] = cash if r.get("value") is not None else None
+        by_tag: dict = {}
+        for r in rows:
+            by_tag.setdefault(r["tag"], []).append(r["id"])
+        out.append({"year": int(y), "provisional": y in prov,
+                    # F2: the year's data basis
+                    "data_basis": {"status": "provisional" if y in prov else "outturn",
+                                   "volume_basis": years[y]["volume_basis"],
+                                   "wholesale_basis": years[y]["wholesale_basis"],
+                                   "lines_by_tag": by_tag},
                     "rows": [{k: v for k, v in r.items() if v is not None} for r in rows]})
     return out
 
@@ -183,30 +211,6 @@ def _annex_c(run: dict) -> dict:
     m = run["meta"]
     return {**{f: m.get(f) for f in SUMMARY_FIELDS if m.get(f) is not None}, "run_price_base": m.get("price_base"),
             "figures_price_base": PRICE_BASE_LABEL, "input_checksums_count": len(m.get("input_checksums") or {})}
-
-
-def prior_version(this: str, releases: Path | None = None) -> str:
-    """The release listed in releases.yaml just before `this` (or the last listed one when `this` is not cut yet).
-    v4-s37 (0144): the bridge is to the release before this one, not a fixed v4-s35."""
-    rows = [r["version"] for r in json.loads(Path(releases or ROOT / "releases.yaml").read_text())["releases"]]
-    rows = rows[:rows.index(this)] if this in rows else rows
-    if not rows:
-        raise KeyError(f"{this}: no earlier release in releases.yaml")
-    return rows[-1]
-
-
-def _annex_e(run: dict) -> list[dict] | None:
-    if "release_step_effects" not in run:
-        return None
-    from gascf import release_step_effects as RSE
-    from tools.figures_keys import core
-    this = run["meta"]["engine_version"]
-    before = prior_version(this)
-    prior = RSE.prior_release_run(before)
-    old, new = core.values(prior), core.values(run)
-    label = {k: core.DECLARED[k]["label"] for k in BRIDGE_KEYS}
-    a, b = before.replace("-", "_"), this.replace("-", "_")
-    return [{"key": k, "label": label[k], a: old[k], b: new[k], "change": new[k] - old[k]} for k in BRIDGE_KEYS]
 
 
 def _gb_household_share_2024() -> float:
@@ -245,5 +249,4 @@ def values(run: dict) -> dict:
         if "waterfall" in run:
             out["annex_b_annual_tables"] = _annex_b(run)
     out["annex_c_engine_summary"] = _annex_c(run)
-    out["annex_e_bridge"] = _annex_e(run)
     return out

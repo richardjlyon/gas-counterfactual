@@ -1,7 +1,5 @@
 """s21b: the v4 export carries the spec §13 fields and agrees with the engine."""
 import json
-import os
-import subprocess
 import sys
 from pathlib import Path
 
@@ -68,14 +66,10 @@ def test_payload_has_every_spec13_block():
 
 def _fresh_gap_2025(register: Path) -> float:
     """Central 2025 gap from a fresh build against `register`, in a separate interpreter: the
-    rest of this session runs on the conftest fixture register and the engine caches by it."""
-    code = ("from gascf import bills as B; "
-            "print(repr(B.build()[2025]['totals']['gap_per_hh_real']))")
-    env = os.environ | {"GASCF_FOSSIL_CLOSURES": str(register)}
-    r = subprocess.run([sys.executable, "-c", code], env=env, cwd=X.ROOT, capture_output=True,
-                       text=True, timeout=1200)
-    assert r.returncode == 0, r.stderr[-2000:]
-    return float(r.stdout.strip().splitlines()[-1])
+    rest of this session runs on the conftest fixture register and the engine caches by it.
+    The interpreter is shared with the other real-register checks (`tests/real_register.py`)."""
+    from real_register import real_register
+    return float(real_register(register)["gap_2025"])
 
 
 def test_written_file_matches_engine():
@@ -110,8 +104,9 @@ def test_s27c_answers_and_fallbacks():
     names = {f["name"] for f in d["meta"]["fallbacks"]}
     # s36 ticket 21: "ets-power-receipts-2025" retired (2025 is the 0079 provisional estimate, not a carry)
     assert "ets-power-receipts-2025" not in names
-    assert {"fit-sy1-5-levelisation-ratio", "cpf-receipts-2013",
+    assert {"cpf-receipts-2013",
             "bsuos-gen-share-interpolated", "coal_efficiency_mean_2015_2023"} <= names
+    assert "fit-sy1-5-levelisation-ratio" not in names      # C-008: FIT years 1-5 are Ofgem's published figures
     assert all(f["unit"] and f["size"] == f["size"] for f in d["meta"]["fallbacks"])
 
 

@@ -53,7 +53,7 @@ def main() -> int:
             continue
         if check_only or url == "-":
             manual += 1
-            print(f"MISSING  {path}  (no public download address; see data-rights.md)" if url == "-" else f"MISSING  {path}")
+            print(f"MISSING  {path}  (no public download address; see data/raw/SOURCES.md)" if url == "-" else f"MISSING  {path}")
             continue
         tmp = dest.with_name(dest.name + ".fetched")
         try:

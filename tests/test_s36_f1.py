@@ -28,11 +28,12 @@ def test_go4_energy_part_scales_by_one_plus_uplift():
         assert up[y]["services_gbp_m"] == base[y]["services_gbp_m"]
 
 
-@pytest.mark.parametrize("bad", [{**U, 2010: -0.01}, {**U, 2010: math.nan}, {**U, 2010: math.inf},
+@pytest.mark.parametrize("bad", [{**U, 2010: -1.0}, {**U, 2010: math.nan}, {**U, 2010: math.inf},
                                  {y: v for y, v in U.items() if y != 2010}],
-                         ids=["negative", "nan", "inf", "missing"])
+                         ids=["minus_one", "nan", "inf", "missing"])
 def test_go4_refuses_a_bad_uplift(bad):
-    """F1-7: ValueError if uplift < 0, not finite, or a year missing (no silent zero)."""
+    """F1-7: ValueError if uplift <= -1 (RB v1.1 M6, 0163 R7 (a): a negative uplift is allowed, the feedback works both
+    ways; was < 0 to v4-s38), not finite, or a year missing (no silent zero)."""
     with pytest.raises(ValueError):
         b.go4(B.PRICE_BASE, gas_uplift=bad)
 
@@ -142,7 +143,8 @@ S35_RUN = json.loads((ROOT / "out/v4/2026-10-14-s35.json").read_text())
 def test_clock_balancing_needs_an_uplift_and_reads_it_from_the_run():
     """R-3: balancing_series() with no argument is a TypeError, None a ValueError; uplift_from_run
     reads every engine year's price_rise_frac from the run file and refuses a missing, non-finite
-    or negative value."""
+    or a fall of all of the price or more (RB v1.1 M6, 0163 R7 (a): a negative rise is allowed; was any negative to
+    v4-s38)."""
     from gascf import clock_export as ce
     with pytest.raises(TypeError):
         ce.balancing_series()
@@ -151,7 +153,7 @@ def test_clock_balancing_needs_an_uplift_and_reads_it_from_the_run():
     u = ce.uplift_from_run(S35_RUN)
     assert set(u) == set(YEARS)
     assert u[2025] == S35_RUN["fleet"]["2025"]["gas_feedback"]["price_rise_frac"]
-    for bad in (None, -0.1, math.nan):
+    for bad in (None, -1.0, math.nan):
         run = json.loads(json.dumps(S35_RUN))
         run["fleet"]["2020"]["gas_feedback"]["price_rise_frac"] = bad
         with pytest.raises(ValueError):

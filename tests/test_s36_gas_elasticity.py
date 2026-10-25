@@ -18,8 +18,10 @@ def test_gas_elasticity_names_inverse_of_keys():
     """v4-s37, decision 0144 item 2A (Richard Lyon, 20 Oct 2026): e = supply + demand, by pair. Central Albrizio's
     0.06 + 0.169; the range row Krichene's world long-run 0.16 + 0.45; 'high' (0.06, supply only) kept for case B
     only (0048, open). v4-s36 pinned {central 0.16, low 0.34, high 0.06}, supply only."""
-    assert L.GAS_ELASTICITY_PAIRS == {"central": (0.06, 0.169), "krichene_lr": (0.16, 0.45), "high": (0.06, 0.0)}
-    assert L.GAS_ELASTICITY == pytest.approx({"central": 0.229, "krichene_lr": 0.61, "high": 0.06})
+    # RB v1.1 A5 (0160): the held 1974-2004 pair (Krichene Table 2, VECM), never in the range
+    assert L.GAS_ELASTICITY_PAIRS == {"central": (0.06, 0.169), "krichene_lr": (0.16, 0.45), "high": (0.06, 0.0),
+                                      "krichene_lr_1974": (0.21, 0.06)}
+    assert L.GAS_ELASTICITY == pytest.approx({"central": 0.229, "krichene_lr": 0.61, "high": 0.06, "krichene_lr_1974": 0.27})
     line = next(ln for ln in SRC.splitlines() if ln.startswith("GAS_ELASTICITY ="))
     assert "#" in line and "supply + demand" in line.split("#", 1)[1]
 
@@ -79,7 +81,7 @@ def test_sources_md_krichene_table5():
 def test_gas_option_names_not_renamed():
     """Ruled 17 Oct (R1): engine names kept; report keys map by value only. 0144 (v4-s37) removed 'low' (0.34,
     supply only) and added 'krichene_lr' (the paired range row); 'central', 'high' and 'none' keep their names."""
-    assert L.GAS_FEEDBACK_RULES == ("central", "krichene_lr", "high", "none")
+    assert L.GAS_FEEDBACK_RULES == ("central", "krichene_lr", "high", "none", "krichene_lr_1974")   # A5 held (0160)
     assert not hasattr(L, "RENAMED_GAS_FEEDBACK")
     assert not re.search(r"""["']e0\.\d+["']""", SRC)
 

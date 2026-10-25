@@ -40,8 +40,10 @@ def test_uk_only_lines_put_on_gb_basis(central):
         gb, _ = sc.gb_share_of_uk(y)
         o = central[y]["on_the_road"]
         # NZ2 (0097, ticket 26) and NZ8 (0044, ticket 12) are counted less their 2001 on-the-road parts;
-        # the GB scaling (this test's subject) is unchanged, so add the netted-off parts back to check it
-        assert B.val(central[y], "NZ2") + o["nz2_on_the_road_gbp_m"] == pytest.approx(S.ro()[y]["gbp_m"] * gb)
+        # the GB scaling (this test's subject) is unchanged, so add the netted-off parts back to check it.
+        # v4-s39 (0169, card [internal ticket]): NZ2 also carries the GB RO mutualisation payments received (already GB).
+        mut = S.ro_mutualisation_cy().get(y, 0.0)
+        assert B.val(central[y], "NZ2") + o["nz2_on_the_road_gbp_m"] - mut == pytest.approx(S.ro()[y]["gbp_m"] * gb)
         assert B.val(central[y], "NZ8") + o["nz8_on_the_road_gbp_m"] + o["nz8_lec_exempt_gbp_m"] \
             == pytest.approx(S.ccl_electricity()[y]["gbp_m"] * gb)
         assert all(l["geo"] == "GB" for l in central[y]["netzero"] + central[y]["fossil"])

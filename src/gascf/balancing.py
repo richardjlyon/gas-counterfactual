@@ -15,7 +15,7 @@ Net-zero Britain (NZ6), one basis every year: **costs incurred, external + SO in
 | 2005/06 | NAO "£642 million in 2005-06" | measured | `nao_s18b/Electricity-Balancing-Services.txt` |
 | 2006/07 | GB IBC outturn 495 (NG Table 1) × (1 + internal/external 2007/08) | estimated | `neso_s18b/neso_doc_46611.txt`; `ofgem_s18b/transmission_annual_report_final.txt` T22 |
 | 2007/08–09/10 | "Balancing External" + "Balancing Internal" | measured | Ofgem TAR 2008-09 Table 22; TAR 2009-10 |
-| 2010/11 | not found: real-terms (CPIH) interpolation 2009/10 ↔ 2011/12 | estimated | — |
+| 2010/11 | MBSS March 2011 §9 YTD "TOTAL (excl TLIC)" less "NIA" + internal by CPIH interpolation 2009/10 ↔ 2011/12 (card [internal ticket]) | estimated | `neso_s42/ng-mbss-march-2011-v2.txt` |
 | 2011/12–15/16 | MBSS March issue, §10.3 total outturn row + "Estimated Internal BSUoS (£m)" | measured | `neso_s20d/s20d-MBSS_MARCH_{2013,2014_V2,2016v1}.txt`, `neso_s18b/neso_doc_60556.txt` |
 | 2016/17–22/23 | Σ half-hourly "Half-hourly Charge" | measured | `neso_s18b/bsuos_charges/2016-2023-rf.csv` |
 | 2023/24–24/25 | Σ "Actual BSUoS Cost (£)" | measured | `…/2023-2024-rf.csv`, `…/2024-2025-rf.csv` |
@@ -237,6 +237,45 @@ def mbss_totals() -> dict[int, dict]:
     return out
 
 
+MBSS_2011 = RAW / "neso_s42/ng-mbss-march-2011-v2.txt"
+SRC_FY2010 = "ng-mbss-march-2011-s9+internal-cpih-interpolation"
+
+
+@lru_cache(maxsize=None)
+def mbss_march_2011() -> dict:
+    """FY2010/11 external balancing cost, £m nominal: MBSS March 2011 (v2), section 9 "Summary of BSIS Costs",
+    PDF p.27, column "Year to Date Total Cost" (1 Apr 2010 to 31 Mar 2011; the 4th money column; the same table is
+    printed twice in the issue and both must agree). External before the Net Imbalance Adjustment = TOTAL (excl
+    TLIC) less NIA, the basis of the FY2011/12 MBSS March 2013 table, which has no NIA row (card [internal ticket];
+    basis (i), NIA not netted, ruled by Richard in decision 0195, 24 Oct 2026, "yes to all three")."""
+    t = MBSS_2011.read_text(encoding="utf-8")
+
+    def ytd(label: str) -> list[float]:
+        vals = []
+        for ln in t.splitlines():
+            if ln.startswith(label):
+                nums = [(-1 if (a or b2) else 1) * float(x.replace(",", ""))
+                        for a, b2, x in re.findall(r"(-?)£?(-?)([\d,]+\.\d)\b", ln[len(label):])]
+                if len(nums) == 7:
+                    vals.append(nums[3])
+        return vals
+
+    nia, tot = ytd("NIA "), ytd("TOTAL (excl TLIC)")
+    if not nia or not tot or len(set(nia)) != 1 or len(set(tot)) != 1:
+        raise ValueError(f"MBSS March 2011 s9: anchors moved (NIA {nia}, TOTAL {tot})")
+    return {"nia": nia[0], "total_excl_tlic": tot[0], "external_before_nia": tot[0] - nia[0],
+            "source_id": "ng-mbss-march-2011-s9"}
+
+
+def fy2010_internal() -> float:
+    """FY2010/11 SO internal cost, £m nominal: not printed in MBSS March 2011, so the real-terms (CPIH) mean of the
+    neighbours' internal costs (FY2009/10 Ofgem TAR 2009-10; FY2011/12 MBSS March 2013 s10.3). Estimated; listed in
+    the fallback register as 'bsuos-fy2010-internal-cpih-interpolation'."""
+    c = dfl.cpih()
+    i09, i11 = tar_balancing()[2009]["internal"], mbss_totals()[2011]["internal"]
+    return (i09 / c[2009] + i11 / c[2011]) / 2 * c[2010]
+
+
 def _day(s: str) -> date:
     """'2016-04-01', ' 2022-10-1', '2023-04-01T00:00:00' → date."""
     m = re.match(r"\s*(\d{4})-(\d{1,2})-(\d{1,2})", s)
@@ -328,10 +367,8 @@ def bsuos_fy() -> dict[int, dict]:
         out[fy] = _row(v["external"] + v["internal"], "measured", "ofgem-tar-2008-09-t22|ofgem-tar-2009-10")
     for fy, v in mbss_totals().items():
         out[fy] = _row(v["external"] + v["internal"], "measured", v["source_id"])
-    c = dfl.cpih()
-    r09 = out[2009]["gbp_m"] / c[2009]
-    r11 = out[2011]["gbp_m"] / c[2011]
-    out[2010] = _row((r09 + r11) / 2 * c[2010], "estimated", "s20d-cpih-interpolation-2009-10-2011-12")
+    out[2010] = _row(mbss_march_2011()["external_before_nia"] + fy2010_internal(), "estimated",
+                     SRC_FY2010)
     b = bsuos_csv_fy()
     for fy in range(2016, 2023):
         out[fy] = _row(b[fy]["charge"], "measured", "neso-bsuos-2016-2023-rf-half-hourly-charge")
@@ -392,7 +429,32 @@ def bsuos_gen_share_cy(years=YEARS) -> dict[int, float]:
 
 
 def nz6(years=YEARS, gen_share: str = "removed") -> dict[int, dict]:
-    """NZ6 by calendar year (§2 weighting), £m nominal. CY2002–05: the §7.2 baseline (modelled).
+    """NZ6 by calendar year (§2 weighting), £m nominal, from the shared cost register (0168): series BSUOS (the
+    whole charge; CY2002–05 the §7.2 baseline, modelled) and, for 'removed', Reliable Britain's input adjustment
+    rb.BSUOS.generators_share_out. Both were built by `src_nz6` at the v4-s39 release.
+
+    gen_share: 'removed' (central, s27b): each FY less the generators' BSUoS share
+    (`bsuos_gen_share_fy`; zero from FY2023/24); 'included': the whole BSUoS (pre-s27 line)."""
+    from gascf import register_pin as RP
+    if gen_share not in BSUOS_GEN_OPTIONS:
+        raise ValueError(gen_share)
+    reg = RP.register()
+    vals = reg.line("BSUOS", "rb") if gen_share == "removed" else reg.series("BSUOS")
+    out = {}
+    for y in years:
+        r = reg.row("BSUOS", y)
+        src = r["source_id"] + (f"|{SRC_CMP308}" if gen_share == "removed" and y not in BASE_WINDOW else "")
+        out[y] = {"gbp_m": vals[y], "basis": r["basis"], "source_id": src, "geo": "GB"}
+    if gen_share == "removed":
+        g = bsuos_gen_share_cy(years)
+        for y in out:
+            out[y]["gen_share"] = g[y]
+    return dict(sorted(out.items()))
+
+
+def src_nz6(years=YEARS, gen_share: str = "removed") -> dict[int, dict]:
+    """The engine's reading of its stored balancing files: the register's builder only (0168).
+    NZ6 by calendar year (§2 weighting), £m nominal. CY2002–05: the §7.2 baseline (modelled).
 
     gen_share: 'removed' (central, s27b): each FY less the generators' BSUoS share
     (`bsuos_gen_share_fy`; zero from FY2023/24); 'included': the whole BSUoS (pre-s27 line)."""
@@ -539,8 +601,9 @@ def go4(base_year: int, share: float | None = None, option: str = "ibc", years=Y
     gs = bsuos_gen_share_cy(years) if gen_share == "removed" else {y: 0.0 for y in years}
     u = {y: 0.0 for y in years} if gas_uplift is None else dict(gas_uplift)
     for y in years:
-        if y not in u or not math.isfinite(u[y]) or u[y] < 0:
-            raise ValueError(f"gas_uplift for {y}: {u.get(y)!r} (needs a finite fraction >= 0 every year)")
+        # RB v1.1 M6 (0163 R7 (a)): the uplift may be negative (fossil Britain burns less gas), never -1 or below
+        if y not in u or not math.isfinite(u[y]) or u[y] <= -1:
+            raise ValueError(f"gas_uplift for {y}: {u.get(y)!r} (needs a finite fraction > -1 every year)")
     out = {}
     for y in years:
         k = 1 - gs[y]
@@ -554,6 +617,6 @@ def go4(base_year: int, share: float | None = None, option: str = "ibc", years=Y
                   "gen_share": gs[y], "basis": "modelled",
                   "source_id": f"{SRC_B0}|neso-2025-abc-workbook-total-outturn"
                   + (f"|{SRC_CMP308}" if gen_share == "removed" else "")
-                  + ("|neuhoff-2022-eprg2212-gas-price-limits" if any(v > 0 for v in u.values()) else ""),
+                  + ("|neuhoff-2022-eprg2212-gas-price-limits" if any(v != 0 for v in u.values()) else ""),
                   "geo": "GB"}
     return out

@@ -42,6 +42,14 @@ def _wh(p):
                                       f"{f}.rb_cost_gbp_mwh (export: p0, p1, top running block)", "£/MWh, cash"),
         f"wh_{p}_marginal_plant": _m(f"Marginal plant type on the road in the worked {p} half-hour (the top "
                                      "running block)", f"{f}.top_block", "text", allowed=list(BLOCKS)),
+        # RB v1.1 F7 (decision 0163, R25 (a), Richard Lyon 21 Oct 2026): Elexon's market index price beside the
+        # worked half-hour, named as what it is (a short-term market index, not the day-ahead auction price).
+        f"wh_{p}_market_index_price_gbp_mwh": _m(
+            f"Elexon market index price (MID, APX) in the worked {p} half-hour: the actual short-term market "
+            "price, shown beside the worked example (Elexon BMRS MID, free)",
+            f"{f}.market_index_price_gbp_mwh (data/raw/elexon/MID_APX_2024.csv, Elexon BMRS MID, APXMIDP rows)",
+            "£/MWh, cash", basis="measured", status="SOURCED", provisional=False,
+            source_id="elexon-mid-apx", decisions=["0163 R25 (a)"]),
     }
 
 
@@ -61,9 +69,17 @@ DECLARED = {
     "shao_uplift_2022_gbp_mwh": _m(
         "Merit-order uplift in 2022, time-mean, modelled: this paper's estimate using the method of Shao and "
         "others (2022) (their coefficients, wind and solar), applied by the engine; not a figure published by "
-        "Shao and others", "fleet[2022].moe.shao_mean_gbp_mwh (time mean; read only where moe.rule is 'shao')",
+        "Shao and others; not the v4-s39 central uplift, which from May 2021 to Dec 2023 is re-estimated on "
+        "outturn (decision 0164, M9 B)", "fleet[2022].moe.shao_mean_gbp_mwh (time mean; read only where moe.rule is 'shao')",
         "£/MWh, cash",
         period="2022", estimate_label="modelled (engine value), not sourced (E2)"),
+    # R26 / R123 (research-director, card [internal ticket]): the same for 2021 and 2023, beside the 2022 key, same basis.
+    **{f"shao_uplift_{y}_gbp_mwh": _m(
+        f"Merit-order uplift in {y}, time-mean, modelled: this paper's estimate using the method of Shao and "
+        "others (2022) (their coefficients, wind and solar), applied by the engine; not a figure published by "
+        f"Shao and others; not the v4-s39 central uplift, which from May 2021 to Dec 2023 is re-estimated on "
+        f"outturn (decision 0164, M9 B)", f"fleet[{y}].moe.shao_mean_gbp_mwh (time mean; read only where moe.rule is 'shao')",
+        "£/MWh, cash", period=y, estimate_label="modelled (engine value), not sourced (E2)") for y in ("2021", "2023")},
 }
 
 
@@ -74,6 +90,12 @@ def values(run: dict) -> dict:
         if m22.get("rule") != "shao":
             raise ValueError(f"fleet[2022].moe.rule is {m22.get('rule')!r}, not 'shao': shao_uplift_2022 has no source")
         out["shao_uplift_2022_gbp_mwh"] = m22["shao_mean_gbp_mwh"]
+    for y in ("2021", "2023"):
+        m = run["fleet"].get(y, {}).get("moe")
+        if m:
+            if m.get("rule") != "shao":
+                raise ValueError(f"fleet[{y}].moe.rule is {m.get('rule')!r}, not 'shao': shao_uplift_{y} has no source")
+            out[f"shao_uplift_{y}_gbp_mwh"] = m["shao_mean_gbp_mwh"]
     wh = run["fleet"]["2024"].get("worked_hh")
     if not wh:
         return out
@@ -83,7 +105,8 @@ def values(run: dict) -> dict:
                     f"wh_{p}_residual_gw": h["residual_mw"] / 1000,
                     f"wh_{p}_uplift_gbp_mwh": h["scaled_step_gbp_mwh"],
                     f"annex.s4.merit_order_uplift_raw_{p}_gbp_mwh": h["raw_step_gbp_mwh"],
-                    f"wh_{p}_rb_cost_gbp_mwh": h["rb_cost_gbp_mwh"], f"wh_{p}_marginal_plant": h["top_block"]})
+                    f"wh_{p}_rb_cost_gbp_mwh": h["rb_cost_gbp_mwh"], f"wh_{p}_marginal_plant": h["top_block"],
+                    f"wh_{p}_market_index_price_gbp_mwh": h.get("market_index_price_gbp_mwh")})
         if h["top_block"] not in BLOCKS:
             raise ValueError(f"worked_hh.{p}.top_block {h['top_block']!r} is not a stack block name {BLOCKS}")
     return out

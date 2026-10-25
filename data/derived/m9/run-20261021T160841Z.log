@@ -1,0 +1,29 @@
+START 2026-10-21 17:08:41 BST commit 4182bf7
+<internal path>:237: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+INCONCLUSIVE
+== CALIBRATION: 2018-04-01 to 2021-03-31, n = 1062 days, k = 25, rho = 0.2152 (7 iterations), t(0.975, 1037) = 1.9623
+   days dropped (an input missing): 34; AR(1) chain segments: 16
+   days with some half-hours missing: {'price': 35, 'fuelhh_wind': 11, 'nd': 0}; carbon source days: {'EUA': 1062}
+   mean wind 7.2269 GW, mean solar 1.3626 GW, mean price 44.55 £/MWh
+   const     -22.4856  se   6.6264  95% [ -35.4882,   -9.4829]
+   nd          0.9834  se   0.1768  95% [   0.6365,    1.3303]
+   wind       -1.3081  se   0.0866  95% [  -1.4782,   -1.1381]
+   solar      -1.8913  se   0.3290  95% [  -2.5368,   -1.2457]
+   gas         0.6831  se   0.0577  95% [   0.5698,    0.7964]
+   carbon      0.4871  se   0.1211  95% [   0.2494,    0.7247]
+   calibration: wind 95% interval [-1.4782, -1.1381] holds -1.27 -> OK
+== TEST WINDOW: 2021-05-01 to 2023-12-31, n = 975 days, k = 25, rho = 0.2450 (6 iterations), t(0.975, 950) = 1.9625
+   days dropped (an input missing): 0; AR(1) chain segments: 1
+   days with some half-hours missing: {'price': 3, 'fuelhh_wind': 2, 'nd': 0}; carbon source days: {'UKA': 975}
+   mean wind 8.4188 GW, mean solar 1.4961 GW, mean price 143.63 £/MWh
+   const    -209.8179  se  30.8340  95% [-270.3285, -149.3072]
+   nd          5.3346  se   0.7722  95% [   3.8192,    6.8501]
+   wind       -4.0853  se   0.2903  95% [  -4.6549,   -3.5156]
+   solar      -5.6857  se   1.8095  95% [  -9.2369,   -2.1346]
+   gas         0.6749  se   0.0270  95% [   0.6219,    0.7279]
+   carbon      1.1963  se   0.1677  95% [   0.8671,    1.5254]
+   uplift on window means, £/MWh (time-mean, cash): re-estimated 42.90; from Shao's 1.28/2.98 15.23
+   R = 2.8159, se 0.2912, 95% interval [2.2445, 3.3874]
+EXIT 0
+FINISH 2026-10-21 17:08:43 BST

@@ -73,6 +73,27 @@ def test_refuses_a_source_commit_that_does_not_contain_the_cut(repo, tmp_path):
         BU.build("v4-s99", "HEAD", releases_root=tmp_path / "releases", uv_cache=cache, root=root)
 
 
+def test_bundle_carries_the_gates_suite_output(repo, tmp_path):
+    """Card [internal ticket] (sweep 5.1): the suite output files the row pins (row.suite_output) go into the bundle under
+    tests/, and committing them after the cut is a release-files-only change."""
+    root, cache = repo
+    reg = json.loads((root / "releases.yaml").read_text())
+    (root / "out/tests").mkdir()
+    (root / "out/tests/v4-s99-suite.log").write_text("3 passed in 1.0s\n")
+    (root / "out/tests/v4-s99-suite-junit.xml").write_text("<testsuites/>")
+    import hashlib
+    reg["releases"][0]["suite_output"] = {
+        f: hashlib.sha256((root / f).read_bytes()).hexdigest()
+        for f in ("out/tests/v4-s99-suite.log", "out/tests/v4-s99-suite-junit.xml")}
+    (root / "releases.yaml").write_text(json.dumps(reg))
+    _git(root, "add", "-A")
+    _git(root, "-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "-m", "c2 suite output")
+    out = BU.build("v4-s99", "HEAD", releases_root=tmp_path / "releases", uv_cache=cache, root=root)
+    assert (out / "tests/v4-s99-suite.log").read_text() == "3 passed in 1.0s\n"
+    assert (out / "tests/v4-s99-suite-junit.xml").is_file()
+    assert BU.check_layout(out) == []
+
+
 def test_bundle_layout_matches_review_report(repo, tmp_path):
     root, cache = repo
     out = BU.build("v4-s99", "HEAD", releases_root=tmp_path / "releases", uv_cache=cache, root=root)

@@ -10,7 +10,7 @@ UCL_PDF = "./s36/ucl-oshea/oshea-ucloe-preprint-290-v1.pdf"
 DECLARED = {
     "gap_ucl_period": {
         "label": "Reliable Britain's gap on our method over UCL's period, 2010-23",
-        "basis": "estimated", "provisional": False, "ticket": "30",
+        "basis": "modelled", "provisional": False, "ticket": "30",
         "run_field": "Σ2010-23 gap[y].national_gbp_bn_real (= bills[y].totals.gap_gbp_m by CPIH)",
         "units": "£bn, 2024 prices", "period": "2010-2023", "price_base": PRICE_BASE_LABEL,
         "status": "SOURCED", "print": True,
@@ -24,8 +24,23 @@ DECLARED = {
         "note": ("UCL's figure is wind-only, on a Europe-wide gas premise. There is no run on that premise; "
                  "this key is RB's gap on RB's method over UCL's period only."),
     },
+    # R37 (a), decision 0164 (Richard Lyon, 21 Oct 2026, "Agree."): §3.3 compares RB and UCL over 2010-23, both in
+    # money of the day. Card [internal ticket].
+    "gap_ucl_period_cash": {
+        "label": "Reliable Britain's gap on our method over UCL's period, 2010-23, in money of the day",
+        "basis": "modelled", "provisional": False, "ticket": "t_a6fd25b7",
+        "ruling": "0164 R37 (a)",
+        "run_field": "Σ2010-23 gap[y].national_gbp_m_nominal / 1000 (cash, not deflated)",
+        "units": "£bn, money of the day (cash)", "period": "2010-2023", "price_base": "cash (money of the day)",
+        "status": "SOURCED", "print": True,
+        "period_start": PERIOD[0], "period_end": PERIOD[-1], "year_basis": "calendar",
+        "note": ("Compared in §3.3 with UCL's £104.3bn. UCL gives no price basis; that its figure is cash is "
+                 "inferred from its inputs. UCL's figure is wind-only, on a Europe-wide gas premise; this key is "
+                 "RB's gap on RB's method over UCL's period only."),
+    },
 }
 
 
 def values(run: dict) -> dict:
-    return {"gap_ucl_period": to_2024(sum(run["gap"][str(y)]["national_gbp_bn_real"] for y in PERIOD), run)}
+    return {"gap_ucl_period": to_2024(sum(run["gap"][str(y)]["national_gbp_bn_real"] for y in PERIOD), run),
+            "gap_ucl_period_cash": sum(run["gap"][str(y)]["national_gbp_m_nominal"] for y in PERIOD) / 1000.0}

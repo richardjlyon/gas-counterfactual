@@ -144,17 +144,10 @@ def test_annex_c_engine_summary_is_the_runs_meta(v, run):
     assert c["input_checksums_count"] == len(m["input_checksums"])
 
 
-def test_annex_e_bridges_to_the_prior_release(v):
-    rows = {r["key"]: r for r in v["annex_e_bridge"]}
-    h = rows["headline_2002_24_gbp_bn"]
-    assert round(h["v4_s35"], 3) == 177.763 and round(h["v4_s36"], 3) == 161.207   # 161.275 before decision 0133
-    assert h["change"] == pytest.approx(h["v4_s36"] - h["v4_s35"], abs=1e-12)
-    assert round(rows["cost_per_household_2025p_gbp"]["v4_s35"], 2) == 576.79
-
-
-def test_annex_e_is_none_on_a_run_without_release_step_effects(K):
-    r = json.loads(S35.read_text())
-    assert K.values(r)["annex_e_bridge"] is None
+def test_annex_e_bridge_is_cut_by_0162(v, K):
+    """Decision 0162 item 1 ("Yep, cut annex E."): no bridge key. The new Annex E is tools/figures_keys/annex_v11.py
+    (tests/test_v11_annexes_0162.py)."""
+    assert "annex_e_bridge" not in v and "annex_e_bridge" not in K.DECLARED
 
 
 def test_cm_nuclear_suspended_effect_sums_the_block_2017_24_in_2024_prices(K, run):

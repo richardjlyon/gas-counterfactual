@@ -12,7 +12,8 @@ def _m(label: str, mapped: str, units: str, **extra) -> dict:
 
 DECLARED = {
     "calib_pooled_2002_04_pct": _m("Early-years check, pooled 2002-04: |gap - net-zero-only lines| as % of the lines "
-                                   "(fails the 30% limit; 0111, stated in §5)",
+                                   "(judged against the 30% limit; whether it passes is calib_pooled_2002_04_passed; "
+                                   "0111, 0177)",
                                    "rb.calibration.pooled_2002_04.pct", "%"),
     "calib_pooled_2002_04_gbp_hh": _m("Early-years check, pooled 2002-04: gap less net-zero-only lines, £ a household",
                                       "rb.calibration.pooled_2002_04.diff_hh", "£ a household, 2025 prices"),
@@ -22,8 +23,9 @@ DECLARED = {
                           "rb.calibration.pooled_2002_04.pass_pct", "%"),
     "calib_limit_gbp_hh": _m("Early-years check limit: within £25 a household", "rb.calibration.pooled_2002_04.pass_gbp",
                              "£ a household, 2025 prices"),
-    "calib_pooled_2002_04_passed": _m("Early-years check, pooled 2002-04, passed both limits (False: disclosed failure, "
-                                      "0111)", "rb.calibration.pooled_2002_04.passed", "true/false"),
+    "calib_pooled_2002_04_passed": _m("Early-years check, pooled 2002-04, passed both limits (true or false as this "
+                                      "run gives it; 0111 printed a failure as it fell; 0177)",
+                                      "rb.calibration.pooled_2002_04.passed", "true/false"),
 }
 
 

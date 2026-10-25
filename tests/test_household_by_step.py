@@ -29,40 +29,16 @@ def test_parts_add_to_the_total_and_the_end_rows_are_not_steps(monkeypatch):
     assert sum(p["per_household_real"] for p in hb["by_step"].values()) == pytest.approx(hb["value"], abs=1e-9)
 
 
-# ---- heavy: subprocess builds on the real closure register (the run behind out/v4), under the lock ----
-import json  # noqa: E402
-import os  # noqa: E402
-import subprocess  # noqa: E402
-import sys  # noqa: E402
-from functools import lru_cache  # noqa: E402
-from pathlib import Path  # noqa: E402
-
-ROOT = Path(__file__).parents[1]
-WINDOWS = {"2006-2023": (2006, 2023), "2006-2024": (2006, 2024), "2006-2025": (2006, 2025), "2002-2025": (2002, 2025)}
+# ---- heavy: a separate interpreter on the real closure register (the run behind out/v4), under the lock;
+# shared with test_export_v4 and test_s32_cm (`tests/real_register.py`, [internal ticket]) ----
+from real_register import WINDOWS, real_register  # noqa: E402,F401
 
 
-@lru_cache(maxsize=1)
 def _real_register_by_step() -> dict:
     """Σ real £bn by step and window for v4-s35 settings (metered interconnectors, metered nuclear)
     and the s36 central case, plus the largest |Σ by_step − value| over all years, from a separate
     interpreter (this session runs on the conftest fixture register)."""
-    code = (
-        "import json; from gascf import bills as B; from gascf import waterfall as W\n"
-        "out = {}\n"
-        "for name, s in (('s35', B.replace(B.CENTRAL, ic_basis='metered', nuclear_cm_column=None)), ('s36', B.CENTRAL)):\n"
-        "    b, wf = B.build(s), W.waterfall(s)\n"
-        f"    win = {WINDOWS!r}\n"
-        "    hb = {y: B.on_household_bill(b[y], y, wf[y]) for y in B.YEARS}\n"
-        "    out[name] = {'windows': {w: {n: sum(hb[y]['by_step'][n]['real_gbp_m'] for y in range(a, z + 1)) / 1e3\n"
-        "                                 for n in range(1, 10)} for w, (a, z) in win.items()},\n"
-        "                 'max_err': max(abs(sum(p['per_household_real'] for p in hb[y]['by_step'].values()) - hb[y]['value'])\n"
-        "                                for y in B.YEARS)}\n"
-        "print(json.dumps(out))")
-    env = {k: v for k, v in os.environ.items() if k != "GASCF_FOSSIL_CLOSURES"}
-    r = subprocess.run([sys.executable, "-W", "ignore", "-c", code], env=env, cwd=ROOT, capture_output=True,
-                       text=True, timeout=3000)
-    assert r.returncode == 0, r.stderr[-2000:]
-    return json.loads(r.stdout.strip().splitlines()[-1])
+    return real_register()["by_step"]
 
 
 def test_v4_s35_settings_reproduce_the_b6_arithmetic_steps_4_and_5():
@@ -77,10 +53,17 @@ def test_v4_s35_settings_reproduce_the_b6_arithmetic_steps_4_and_5():
     recommendations"; v4-s37) moves step 5 through F1 only (GO4 at RB's own gas price: the paired e =
     0.06 + 0.169 (2A) and the dQ that Cottam's closure moves (6)): 3.8309 -> 3.8970, measured by
     work/s37/repin_0144.py with this module's helper code, on these
-    settings and on the central alike. Step 4 0.7119 (inside the pin)."""
+    settings and on the central alike. Step 4 0.7119 (inside the pin).
+    Re-pin, 23 Oct 2026 (card [internal ticket]): v4-s40 item 1 (decision 0175, coal capped at its legal energy limit in
+    2012-13) moves step 5 through GO4: 3.8879 (v4-s39, inside the old pin) -> 3.8723, measured on the M4 by
+    work/[internal ticket]/repin_s40.py (item 1 alone 3.8723; item 2 alone and the v4-s39 readings 3.8879). Step 4 0.7119
+    unchanged.
+    Re-pin, 24 Oct 2026 (card [internal ticket]): v4-s42 (decision 0195) moves step 5 (NZ6 less GO4) 3.8723 -> 3.8263,
+    measured by work/[internal ticket]/repin_s42.py with this module's helper code on the real register; attributed to
+    the fixes by the single-fix candidate trees ([internal ticket]). Step 4 0.7119 unchanged."""
     d = _real_register_by_step()["s35"]
     assert d["windows"]["2006-2025"]["4"] == pytest.approx(0.72, abs=0.01)
-    assert d["windows"]["2006-2025"]["5"] == pytest.approx(3.8970, abs=0.01)
+    assert d["windows"]["2006-2025"]["5"] == pytest.approx(3.8263, abs=0.01)
     assert d["max_err"] < 1e-9
 
 
@@ -101,10 +84,19 @@ def test_s36_central_steps_4_and_5_re_pinned_from_the_build():
     0.3718 -> 0.3656; step 5 unchanged at 3.8309.
     Re-pin, 20 Oct 2026 (card [internal ticket]): decision 0144 (v4-s37) moves step 5 only, through F1 (2A, the paired
     elasticity, and the dQ Cottam moves): 2006-25 3.8309 -> 3.8970 (work/s37/repin_0144.py, this helper); step 4
-    unchanged (0.4421)."""
+    unchanged (0.4421).
+    Re-pin, 22 Oct 2026 (card [internal ticket]): the v4-s39 central (decisions 0159-0170) moves step 5, measured by this
+    helper on the real register at 704f686 (aios, 22 Oct): 2006-25 3.8970 -> 3.8879; step 4 2006-25 unchanged.
+    Re-pin, 23 Oct 2026 (card [internal ticket]): v4-s40 item 1 (decision 0175) moves step 5 only, through GO4 in 2012-13,
+    measured by work/[internal ticket]/repin_s40.py with this helper on the real register at c48c477 (M4, 09:22-09:25 UTC):
+    2006-25 3.8879 -> 3.8723, 2006-24 3.0100 -> 2.9944, 2006-23 2.3991 -> 2.3835; item 2 alone and the v4-s39
+    readings give 3.8879; step 4 unchanged in every window.
+    Re-pin, 24 Oct 2026 (card [internal ticket]): v4-s42 (decision 0195) moves step 5 only, 2006-25 3.8723 -> 3.8263,
+    measured by work/[internal ticket]/repin_s42.py with this helper on the real register; step 4 unchanged in every
+    window (0.4421, 0.2915, 0.3656)."""
     d = _real_register_by_step()["s36"]
     assert d["windows"]["2006-2025"]["4"] == pytest.approx(0.4421, abs=0.0005)
-    assert d["windows"]["2006-2025"]["5"] == pytest.approx(3.8970, abs=0.0005)          # 3.8309 before 0144
+    assert d["windows"]["2006-2025"]["5"] == pytest.approx(3.8263, abs=0.0005)          # 3.8723 in v4-s40-s41
     assert d["windows"]["2006-2023"]["4"] == pytest.approx(0.2915, abs=0.0005)
     assert d["windows"]["2006-2024"]["4"] == pytest.approx(0.3656, abs=0.0005)
     assert d["max_err"] < 1e-9

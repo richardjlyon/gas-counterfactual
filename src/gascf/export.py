@@ -301,7 +301,8 @@ SOURCES = {
                                      "(PUBOB603)", "daily",
                                      "https://api.nationalgas.com/operationaldata/v1/publications/gasday",
                                      "SAP for the gas day shown", "data/raw/nationalgas/SAP_PUBOB603.csv"),
-    "elexon-mid-apx": _src("Elexon", "BMRS Market Index Data (MID), APX day-ahead index", "daily",
+    "elexon-mid-apx": _src("Elexon", "BMRS Market Index Data (MID), APX rows: Elexon market index price "
+                           "(short-term markets; not the day-ahead auction price, 0163 R25)", "daily",
                            "https://data.elexon.co.uk/bmrs/api/v1/datasets/MID/stream",
                            "APXMIDP price and volume, all settlement periods of the day",
                            "data/raw/elexon/MID_APX_YYYY.csv"),

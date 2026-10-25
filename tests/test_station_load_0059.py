@@ -18,7 +18,8 @@ from gascf import bills as B
 S35 = json.loads((Path(__file__).resolve().parents[1] / "out/v4/2026-10-14-s35.json").read_text())
 EARLY = (2002, 2003, 2004, 2005)
 # 0144 (v4-s37): v4-s35's extra running was at cost; the rest of the pre-0144 engine is set by pre_s37 below
-V435 = replace(B.CENTRAL, ic_basis="metered", nuclear_cm_column=None, extra_running="cost")
+from _pre_0133 import V4_S38     # v4-s39 (card [internal ticket]): the v4-s38 settings, explicit
+V435 = replace(B.CENTRAL, **V4_S38, ic_basis="metered", nuclear_cm_column=None, extra_running="cost")
 
 
 @pytest.fixture(scope="module")
@@ -67,10 +68,13 @@ def _step1_real(b, y):
 
 def test_3_step1_2002_05_rises_by_the_measured_station_load(b435):
     """Spec test 3: step 1 (power before carbon), 2002-05, 2025 money, rises by 765.5 ± 10.0 £m against v4-s35;
-    years within ± £5m of +106.0, +181.8, +196.0, +281.7."""
+    years within ± £5m of +106.0, +181.8, +196.0, +281.7.
+    Re-pin, 24 Oct 2026 (card [internal ticket]; v4-s42, decision 0195): A2 (NI CCGT 2006 1,036 MW, and through the unchanged
+    nearest-year fill 2002-05) moves the existing gas fleet 2002-05, so step 1 against v4-s35 is now 748.5 ± 10.0 £m:
+    +107.3, +183.4, +175.8, +282.0 (work/[internal ticket]/repin_s42.py on this build; A2 alone on the candidate)."""
     d = {y: _step1_real(b435, y) - S35["waterfall"][str(y)][1]["value_gbp_m_real"] for y in EARLY}
-    assert sum(d.values()) == pytest.approx(765.5, abs=10.0)
-    for y, want in zip(EARLY, (106.0, 181.8, 196.0, 281.7)):
+    assert sum(d.values()) == pytest.approx(748.5, abs=10.0)
+    for y, want in zip(EARLY, (107.3, 183.4, 175.8, 282.0)):
         assert d[y] == pytest.approx(want, abs=5.0), y
 
 
@@ -92,10 +96,18 @@ def test_2_fleet_and_dispatch_unchanged_against_v4_s35(b435):
     the CM split equal the frozen v4-s35 run file (v4-s35 interconnector basis, real register)."""
     keys = ("coal_gw", "ccgt_gw", "ocgt_gw", "spare_gw", "gen_twh", "energy_twh", "gas_burn_twh",
             "moe_gbp_m", "moe_kept_gbp_m")
+    # v4-s42 (card [internal ticket], decision 0195): the (year, key) pairs the seven input fixes move against v4-s35 are
+    # compared with the v4-s42 build's value (tests/fixtures/station_load_v4_s42_moves.json, written by
+    # work/[internal ticket]/write_sl_fixture.py from repin_s42.py); every other pair is still v4-s35's exactly.
+    # v4-s43 (card [internal ticket], decision 0197): the 2002-05 NI lists move 2002-05 again; the fixture now holds the
+    # v4-s43 values (tests/fixtures/station_load_v4_s43_moves.json, work/[internal ticket]/repin_s43.py), every pair
+    # outside 2002-05 equal to the v4-s42 fixture (the script refuses otherwise).
+    s42 = json.loads((Path(__file__).parent / "fixtures/station_load_v4_s43_moves.json").read_text())["moves"]
     for y in B.YEARS:
         e = S35["fleet"][str(y)]
         for k in keys:
-            assert b435[y]["fleet"][k] == pytest.approx(e[k], abs=1e-9), (y, k)
+            want = s42[str(y)][k]["v4_s43"] if k in s42.get(str(y), {}) else e[k]
+            assert b435[y]["fleet"][k] == pytest.approx(want, abs=1e-9), (y, k)
         if str(y) in S35["capacity_market"]:                 # the run file's CM block starts in 2016
             assert S35["capacity_market"][str(y)]["nz5_real"] == pytest.approx(B.real(B.val(b435[y], "NZ5"), y), abs=1e-6), y
 

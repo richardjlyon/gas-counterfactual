@@ -120,13 +120,15 @@ def _dukes_511_gb_coal_2011_2024():
 
 def test_coal_total_matches_dukes_511(rows):
     """Identity: register coal (2011-2024) = DUKES 5.11 changed list + Fiddler's Ferry
-    unit 1 (485 MW). The DUKES list closes only 1510 MW at Fiddler's Ferry in 2020 from an
-    edition capacity of 1961 MW; SSE's RNS records the separate March 2019 unit 1 closure."""
+    unit 1 (485 MW) + Rugeley's 558 MW. The DUKES list closes only 1510 MW at Fiddler's Ferry in 2020 from an
+    edition capacity of 1961 MW; SSE's RNS records the separate March 2019 unit 1 closure. The list closes Rugeley
+    at 448 MW; the register uses the 1,006 MW of the DUKES 2004-16 edition sheets (decision 0159, Richard Lyon,
+    21 Oct 2026), so 1,006 - 448 = 558 MW more."""
     reg = sum(r["capacity_mw"] for r in rows if r["fuel"] == "coal" and r["capacity_mw"]
               and "2011-01-01" <= r["actual_close"] <= "2024-12-31")
     dukes = _dukes_511_gb_coal_2011_2024()
     assert dukes == pytest.approx(27431, abs=1)  # recorded value from the stored workbook
-    assert reg - 485 == pytest.approx(dukes, abs=1), (reg, dukes)
+    assert reg - 485 - (1006 - 448) == pytest.approx(dukes, abs=1), (reg, dukes)
 
 
 def test_coal_total_vs_dukes_57(rows):
@@ -168,14 +170,31 @@ def test_s24_closure_test_applied(rows):
         assert by[s]["reason"] == "other" and by[s]["fossil_britain_close"] == by[s]["actual_close"], s
     rug = by["Rugeley"]
     assert rug["reason"] == "mixed" and rug["fossil_britain_close"] == "2020-06-30"
-    assert rug["abatement_needed"] is None and rug["capacity_mw"] == 448
+    # Decision 0159 (Richard Lyon, 21 Oct 2026, "A we have to fix it."): 1,006 MW, the installed capacity in all 13
+    # DUKES edition sheets 2004-16 (DUKES 2026 Table 5.11 workbook, e.g. sheet 'DUKES 2016' row 107), not the 448 MW
+    # of the 2016 'Changed and converted stations' row 58.
+    assert rug["abatement_needed"] is None and rug["capacity_mw"] == 1006
+    assert "DUKES 2016" in rug["quote"] and "1006" in rug["quote"]
 
 
 def test_s24_margins_file_agrees_with_register(rows):
     """The stored margin table drives the register: positive in the year before closure
-    exactly where the register keeps the station running beyond its real date."""
+    exactly where the register keeps the station running beyond its real date. The margin
+    script types each station's MW in by hand, so it must equal the register's (0159)."""
     m = json.loads((ROOT / "work/s24-closure-test/margins.json").read_text())
     by = {r["station"]: r for r in rows if r["fuel"] == "coal"}
+    assert m["Rugeley"]["mw"] == by["Rugeley"]["capacity_mw"]
+    # C-007 (Richard Lyon, 21 Oct 2026, relayed by the chief-executive: "Agree to all. Yep."): Rugeley's TNUoS
+    # generation zone is 18. NG 'TNUoS tariffs for 2013/14' (doc 50671) p.27 old-to-new zone table lists
+    # 'Rugeley B' under old zone 14, new zone 18, with Ironbridge and Ratcliffe-on-Soar. Zone 18 wider tariffs,
+    # £/kW: 2013/14 2.44 (doc 50671); 2014/15 3.55 and 2015/16 2.09 (doc 50181). Zone 16 (5.18, 6.17, 4.89) is not used.
+    t = (ROOT / "data/raw/neso_s18b/neso_doc_50671.txt").read_text()
+    block = t[t.index("14       Ironbridge             18"):t.index("Pembroke               20")]
+    assert "Rugeley B" in block
+    rug_years = {r["year"]: r for r in m["Rugeley"]["years"]}
+    for y, tariff in ((2013, 2.44), (2014, 3.55), (2015, 2.09)):
+        assert rug_years[y]["tnuos_gbp_kw"] == pytest.approx(tariff, abs=0.005), y
+        assert "16 North Midlands" not in rug_years[y]["tnuos_src"], y
     for s, v in m.items():
         last = v["years"][-1]["margin_before_filters_gbp_m"]
         kept = by[s]["fossil_britain_close"] is None or by[s]["fossil_britain_close"] > by[s]["actual_close"]

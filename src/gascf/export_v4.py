@@ -22,7 +22,7 @@ from gascf import waterfall as W
 ROOT = Path(__file__).parents[2]
 OUT = ROOT / "out/v4"
 RAW = ROOT / "data/raw"
-ENGINE_VERSION = "v4-s37"    # decision 0144 (Richard Lyon, 20 Oct 2026): the review findings on v4-s36 as ruled; s36 Route A before (rulings 0108, 0110, 0111, 0112)
+ENGINE_VERSION = "v4-s43"    # card [internal ticket]: point release, decision 0197 (Richard Lyon, 24 Oct 2026, msg 8982, "each year's own list"): the 2002-05 NI station lists, each year's own DUKES list (DUKES 2002 and 2003 Table 5.10 entered from the archived editions; DUKES 2004 and 2005 sheets read by station name), plus text-only fixes from the v4-s42 closure check; v4-s42: card [internal ticket]: point release, decision 0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676, "yes to all three"): the seven input-audit fixes (A1 Kilroot 2010-11, A2 NI CCGT 2006, A3 gas transport 2021-25, A4 2025 on EGC 2023, A5 2011 on PB 2011, C1 ETS 2016, D1 balancing FY2010/11 basis (i)); v4-s41: card [internal ticket]: point release, decision 0184 (Richard Lyon, 23 Oct 2026, msg 7888, "Do it."): table_results_by_year gains the two bills per MWh billed; no value moves; v4-s40: card [internal ticket]: step-3 items 1, 2 and 9 as ruled in decision 0175 (Richard Lyon, 23 Oct 2026, "Yes." 06:13:51 UTC, verified [internal ticket]): coal capped at its permit-derived energy limit, kept coal's M3 margin on the road's own revenue, the method checks exported outside the range; v4-s39: card [internal ticket]: Reliable Britain corrected, as ruled in decisions 0159-0170 (M2-M4, M6, M7 merit order, M8 MID shape both Britains, M9 B, coal permit hours (i), generators' share way 2, RO mutualisation, C-005/C-007/C-008/C-009/C-011); v4-s38: decision 0159 (Richard Lyon, 21 Oct 2026, "A we have to fix it."): Rugeley 1,006 MW (DUKES 2004-16 editions); otherwise as v4-s37, decision 0144 (Richard Lyon, 20 Oct 2026): the review findings on v4-s36 as ruled; s36 Route A before (rulings 0108, 0110, 0111, 0112)
 # s33: central GO4 = ibc + FY2018/19 share (spec §15.1 item 8); clock-export/2 per-year grid/balancing
 # s32: NZ5 rule (spec §5.4 rewritten: notional CM only on firm capacity GO1 does not pay)
 SCHEMA_VERSION = "4.0"
@@ -46,11 +46,25 @@ def _sha(p: Path) -> str:
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
+def _m7_meta() -> dict:
+    from gascf import marginal_carbon as M7
+    return M7.run_meta()
+
+
+def _m8_meta() -> dict:
+    from gascf import hh_pricing as M8
+    return M8.run_meta()
+
+
 def _closures_meta() -> dict:
     import gascf.fossil_like_for_like as lfl
     p = Path(lfl.closures_path()).resolve()
     rel = str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p)
-    return {"path": rel, "sha256": _sha(p)}
+    meta = {"path": rel, "sha256": _sha(p)}
+    sw = lfl.edition_mw_switches()
+    if sw:      # card [internal ticket]: recorded only when a switch is on, so a default run file is unchanged
+        meta["edition_mw_switches"] = list(sw)
+    return meta
 
 
 def _input_files() -> list[Path]:
@@ -77,6 +91,26 @@ def _input_files() -> list[Path]:
     return sorted(files)
 
 
+def _counterfactual_text() -> str:
+    """One plain description of the central counterfactual, for the run file's meta (v4-s39 rulings named)."""
+    if B.CENTRAL.fleet != "like_for_like":
+        return "fossil Britain (coal and gas, built new); coal forced to actual GB capacity"
+    return ("fossil Britain, like for like (s22): the actual system with net zero taken out; renewables' output "
+            "replaced by extra running of existing fossil plant, then new CCGT/OCGT; merit-order uplift from "
+            "Shao et al. 2022 (spec §15.5 item 1) in 2002-20, Jan-Apr 2021 and 2024-25p, and re-estimated on "
+            "outturn with direct coefficients from May 2021 to Dec 2023 (0164, M9 B); extra running of the plant "
+            "Britain had at the market price (0144 item 1A); gas-price feedback dQ / ((e_s + e_d) Q), "
+            "e = 0.06 + 0.169 (Albrizio et al. 2022's pair, 0144 item 2A); 'mixed' closures by the margin test at "
+            "the road's own coal load factor, kept coal paid its fixed cost less its margin, filter running cost "
+            "in the price (0163 M2-M4); every coal station on its real permit hours, the 2011-14 LCPD opt-outs "
+            "included and the kept LCPD stations held (0166, reading (i)); carbon in real Britain's price at the "
+            "marginal plant from 1 Jan 2009 (0167, M7 merit order); half-hourly prices by Ofgem's month with "
+            "Elexon MID's half-hour shape in both Britains from 12 Sep 2016 (0167, M8); the net-zero part of the "
+            "generators' share of BSUoS and TNUoS taken out of fossil Britain's market price (0167, way 2); "
+            "RO mutualisation payments received counted in the RO (0169); the five closures at their DUKES "
+            "edition MW (C-009)")
+
+
 def _meta(run_date: str) -> dict:
     files = _input_files()
     return {
@@ -84,14 +118,7 @@ def _meta(run_date: str) -> dict:
         "headline_year": B.HEADLINE_YEAR, "latest_full_year": B.LATEST_FULL_YEAR,
         "provisional_years": list(B.PROVISIONAL_YEARS), "price_base": B.PRICE_BASE,
         "deflator": "ONS CPIH L522", "households_source": "ons_lfs_households_by_size_2025;ons-adhoc-005374-households-region-1996-2017 (GB: England + Wales + Scotland)",
-        "counterfactual": ("fossil Britain, like for like (s22): the actual system with net zero taken "
-                           "out; renewables' output replaced by extra running of existing fossil plant, "
-                           "then new CCGT/OCGT; merit-order uplift = Shao et al. 2022 (spec §15.5 item 1); "
-                           "extra running of the plant Britain had at the market price (0144 item 1A); gas-price feedback "
-                           "dQ / ((e_s + e_d) Q), e = 0.06 + 0.169 (Albrizio et al. 2022's pair, 0144 item 2A); "
-                           "kept coal capped at the DUKES "
-                           "5.10.B load factor" if B.CENTRAL.fleet == "like_for_like" else
-                           "fossil Britain (coal and gas, built new); coal forced to actual GB capacity"),
+        "counterfactual": _counterfactual_text(),
         "central_settings": vars(B.CENTRAL) | {"bal_choice": B.go4_central_choice(B.CENTRAL.bsuos_gen)},
         "residual_method": "NESO demand-side, every year (departure from §4.1 2016+ FUELHH; see bills.py)",
         "calibration_rule": rn.DEFAULT_CALIBRATION_RULE,
@@ -99,6 +126,10 @@ def _meta(run_date: str) -> dict:
         "input_checksums": {str(p.relative_to(ROOT)): _sha(p) for p in files},
         # the fossil-Britain closure register the run used (tests compare a fresh build with it)
         "closures_register": _closures_meta(),
+        # RB v1.1 M7 (0163 R8 (a)): which carbon intensity the price is taken out at, and from when
+        "carbon_marginal": _m7_meta(),
+        # RB v1.1 M8 (0163 R9 (a)): half-hourly pricing switch and its break
+        "hh_pricing": _m8_meta(),
         "gaps": GAPS,
     }
 
@@ -178,7 +209,9 @@ def _gap(built: dict, rg: dict) -> dict:
             "low": {"national_gbp_bn_real": r(g["low"]) / 1e3, "per_household_real": r(g["low"]) * 1e6 / H},
             "high": {"national_gbp_bn_real": r(g["high"]) / 1e3, "per_household_real": r(g["high"]) * 1e6 / H},
             "national_gbp_m_nominal": g["central"],
-            "basis": B.weakest(*(l["basis"] for l in built[y]["netzero"] + built[y]["fossil"])),
+            # W2 (R23 (a), 0163): the gap is a model output, "modelled" in the release and the paper. Each line keeps
+            # its own data basis (bills[y] lines; Annex B's tags).
+            "basis": "modelled",
         }
     return out
 
@@ -186,7 +219,7 @@ def _gap(built: dict, rg: dict) -> dict:
 def _fleet(built: dict) -> dict:
     keys = ("coal_gw", "coal_cap_gw", "ccgt_gw", "ocgt_gw", "spare_gw", "energy_twh", "fixed_gbp_m",
             "fuel_gbp_m", "vom_gbp_m", "transport_gbp_m", "gbp_per_mwh", "cost_edition", "gas_burn_twh",
-            "gen_twh", "basis")
+            "gen_twh", "basis", "gen_nz_charge")      # gen_nz_charge: 0167 way 2, present only when the switch is on
     lfl = ("market_gbp_m", "moe_gbp_m", "moe_kept_gbp_m", "existing_gw", "existing_derated_gw", "new_gw",
            "firm_extra_gw", "renewables_replaced_twh", "new_total_gbp_m", "extra_running_gbp_m", "moe", "method",
            "new_coal_gw", "kept_gw", "kept_abated_gw", "kept_stations", "kept_fixed_gbp_m", "kept_abatement_vom_gbp_m",
@@ -202,7 +235,10 @@ def _fleet(built: dict) -> dict:
            "ic_basis", "sizing_peak_gross_gw", "sizing_peak_residual_mw", "sizing_peak_halfhour", "margin_fraction",
            "firm_requirement_gw", "margin_on_gross_extra_gw", "nuclear_at_peak_gw", "ps_at_peak_gw",
            "imports_metered_at_peak_gw", "imports_contracted_gw", "imports_counted_gw",
-           "ic_peak_dy", "ic_peak_dy_contracted_mw")
+           "ic_peak_dy", "ic_peak_dy_contracted_mw",
+           # card [internal ticket] (sweep-flags row 6; 0175 item 2): kept coal's pay by year (fixed cost, road margin after
+           # the generators' charge, life-extension cost, paid), so the run file shows item 2's result
+           "kept_coal_pay")
     return {str(y): {k: built[y]["fleet"][k] for k in keys + lfl if k in built[y]["fleet"]} for y in B.YEARS}
 
 
@@ -263,7 +299,8 @@ def _cm(built: dict) -> dict:
 
 
 def _carbon_check(built: dict) -> dict:
-    t = __import__("gascf.subsidies", fromlist=["x"]).read_ccl_table_1b()
+    from gascf import register_pin as RP
+    cps = RP.register().line("CPS", "clock_live")     # 0168: HMRC CPF receipts as the Clock counts them (none in 2013)
     out = {}
     for y in B.YEARS:
         inw = B.val(built[y], "NZ1c")
@@ -275,7 +312,7 @@ def _carbon_check(built: dict) -> dict:
                     "2021-24 calendar sums of data/raw/s36/ets/ukets-auctions-2021-24.csv x DESNZ shares (0055, "
                     "0012); 2025 provisional: ICE report 278 auctions x 2024 share (0079), CPS about 428 (0054)")
         else:
-            col = t.get(y, {}).get("cpf_receipts")
+            col = cps.get(y) or None
             note = "HMRC estimated CPF receipts only (ETS auction share not computed)"
         out[str(y)] = {"in_wholesale_gbp_m": inw, "collected_gbp_m": col, "collected_note": note,
                        "ratio": inw / col if col else None}
@@ -338,15 +375,15 @@ def gas_break_even(built: dict) -> dict:
                "price_rise_frac_central": fc, "dq_twh": g.get("dq_twh"), "q_twh": g.get("q_twh"),
                "elasticity_central": g.get("elasticity"), "basis": "modelled",
                "source_ids": g.get("source_ids", [])}
-        if fc > 0 and F > 0:
+        if fc * F > 0:      # M6 (0163 R7 (a)): fc and F may both be negative (fossil Britain burns less gas)
             fstar = fc + gap * fc / F
             from gascf.fossil_fleet import gas_price_month
             gp = statistics.mean(gas_price_month(y, m)[0] for m in range(1, 13))
             row |= {"price_rise_frac": fstar, "gas_price_gbp_mwh_actual": gp,
                     "price_rise_gbp_mwh": fstar * gp, "gas_price_gbp_mwh_break_even": gp * (1 + fstar),
-                    "elasticity_break_even": g["dq_twh"] / (fstar * g["q_twh"]) if fstar > 0 else None}
+                    "elasticity_break_even": g["dq_twh"] / (fstar * g["q_twh"]) if fstar != 0 else None}
         else:
-            row |= {"price_rise_frac": None, "note": "no extra gas burnt in fossil Britain this year: "
+            row |= {"price_rise_frac": None, "note": "fossil Britain burns the actual gas this year (dQ = 0): "
                     "no feedback channel, no break-even"}
         out[str(y)] = row
     return out

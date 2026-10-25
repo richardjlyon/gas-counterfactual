@@ -21,7 +21,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-import openpyxl
+from . import workbook_cache
 
 RAW = Path(__file__).parents[2] / "data/raw/desnz_cm"
 WORKBOOK = RAW / "NESO_ECR_2026_Data_Workbook.xlsx"
@@ -45,17 +45,17 @@ MARGIN_PEAK = {
 }
 
 
-def _rows(ws) -> list[list]:
-    """Rows with blank cells dropped: the workbook's tables start in varying columns."""
-    return [[c for c in r if c is not None] for r in ws.iter_rows(values_only=True)
+def _rows(sheet: str) -> list[list]:
+    """Rows of one ECR sheet with blank cells dropped: the workbook's tables start in varying columns.
+    The workbook is read once per process (`workbook_cache`); the layout checks below run on every call."""
+    return [[c for c in r if c is not None] for r in workbook_cache.sheet_rows(WORKBOOK, sheet)
             if any(c is not None for c in r)]
 
 
 def read_derating() -> dict[str, float]:
     """{'ocgt': f, 'ccgt': f} from Figure A10, ECR 2026 column."""
-    ws = openpyxl.load_workbook(WORKBOOK, read_only=True, data_only=True)["Figure A10"]
     out = {}
-    for r in _rows(ws):
+    for r in _rows("Figure A10"):
         label = str(r[0])
         if "OCGT" in label:
             out["ocgt"] = float(r[2])         # [label, ECR 2025, ECR 2026, ...]
@@ -68,7 +68,7 @@ def read_derating() -> dict[str, float]:
 
 def read_peak_base_case() -> dict[str, float]:
     """ACS peak demand, Base Case 2026, GW by delivery year (Figure B1)."""
-    rows = _rows(openpyxl.load_workbook(WORKBOOK, read_only=True, data_only=True)["Figure B1"])
+    rows = _rows("Figure B1")
     hdr = next(r for r in rows if r[0] == "Capacity (GW)")
     base = next(r for r in rows if r[0] == "Base Case 2026")
     return {y: float(v) for y, v in zip(hdr[1:], base[1:]) if y and v is not None}

@@ -86,9 +86,45 @@ def _m(label):
 DECLARED = {
     "eii_shift_2018_24_low": _m("EII exemptions' cost shifted onto households, 2018-24, reading A (estimate)"),
     "eii_shift_2018_24_high": _m("EII exemptions' cost shifted onto households, 2018-24, reading B (estimate)"),
+    # RB v1.1 A1 (decision 0160, card [internal ticket]): Annex D's working for the two keys above, year by year
+    "table_eii_shift_working": {**_m("Annex D working: the EII shift year by year, 2018-24, both readings, with every "
+                                     "input (S, GB share, domestic share, exempt volume, x, the calendar ratios, the "
+                                     "lines); the shifts add to eii_shift_2018_24_low and _high"),
+                                "units": "table, TWh, shares, £m 2024 prices", "ticket": "v1.1 A1 (0160)"},
 }
+
+
+def working(run: dict) -> dict:
+    """The arithmetic of `shift_gbp_m`, kept year by year (same formula, same inputs)."""
+    eng = {y: _year(run, y) for y in range(2017, 2026)}
+
+    def ratio(fy, reading):
+        if fy not in EXEMPT_TWH:
+            return 0.0
+        x = 1.0 if (fy >= 2024 or reading == "B") else 0.85
+        nxt = eng.get(fy + 1, {}).get("S") or eng[fy]["S"]
+        S = (0.75 * eng[fy]["S"] + 0.25 * nxt) * eng[fy]["gb"]
+        return x * EXEMPT_TWH[fy] / (S - x * EXEMPT_TWH[fy])
+
+    rows = []
+    for y in YEARS:
+        e = eng[y]
+        row = {"year": y, "final_consumption_twh": e["S"], "gb_share": e["gb"], "domestic_share": e["d"],
+               "exempt_twh_fy": EXEMPT_TWH.get(y), "rfc_lines_gbp_m": to_2024(e["rfc"], run),
+               "cm_line_gbp_m": to_2024(e["cm"], run)}
+        for rd in ("A", "B"):
+            rc = 0.25 * ratio(y - 1, rd) + 0.75 * ratio(y, rd)
+            rcm = 0.25 * (ratio(y - 1, rd) if y - 1 >= 2024 else 0) + 0.75 * (ratio(y, rd) if y >= 2024 else 0)
+            row |= {f"ratio_{rd}_rfc": rc, f"ratio_{rd}_cm": rcm,
+                    f"shift_{rd}_gbp_m": to_2024(e["rfc"] * e["d"] * rc + e["cm"] * e["d"] * rcm, run)}
+        rows.append(row)
+    return {"years": rows, "exempt_twh_by_fy": dict(EXEMPT_TWH),
+            "x_reading_A": {"to_2023_24": 0.85, "from_2024_25": 1.0}, "x_reading_B": 1.0,
+            "calendar_rule": "0.25 FY(y-1) + 0.75 FY(y); CM exemption from 1 Apr 2024 (SI 2024/434)",
+            "money": "£m, 2024 prices"}
 
 
 def values(run: dict) -> dict:
     return {"eii_shift_2018_24_low": to_2024(shift_gbp_m(run, "A"), run) / 1e3,
-            "eii_shift_2018_24_high": to_2024(shift_gbp_m(run, "B"), run) / 1e3}
+            "eii_shift_2018_24_high": to_2024(shift_gbp_m(run, "B"), run) / 1e3,
+            "table_eii_shift_working": working(run)}

@@ -12,6 +12,8 @@ from pathlib import Path
 
 import openpyxl
 
+from . import workbook_cache
+
 DUKES_SHEET = "5.10.B and 5.10.C"
 CCGT = "Combined cycle gas turbine stations"
 
@@ -86,8 +88,7 @@ def read_desnz_plants(path: Path, prefix: str = "Gas ") -> dict[tuple[str, int],
 
     Only gas columns are read: some renewable columns carry phasing that does not sum
     to 1, which this engine has no use for and does not try to interpret."""
-    wb = openpyxl.load_workbook(path, data_only=True, read_only=True)
-    t = list(wb[TECH_SHEET].iter_rows(values_only=True))
+    t = workbook_cache.sheet_rows(path, TECH_SHEET)
     labels = [(str(r[0]).strip() if r[0] else "", str(r[1]).strip() if r[1] else "") for r in t]
 
     def row(name: str, sub: str = "") -> int:

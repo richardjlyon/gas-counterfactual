@@ -49,16 +49,18 @@ from pathlib import Path
 
 from gascf import bills as B
 from gascf import waterfall as W
-from gascf.subsidies import ccl_electricity_exempt_period, read_ccl_table_1b
+from gascf.subsidies import ccl_electricity_exempt_period
 
 RAW = Path(__file__).parents[2] / "data/raw"
-# Stored byte copies of ../subsidy-clock commit cf9b292e (2026-10-10), so the bridge does not move
-# when the Clock's working tree does (review s25c). SHA-256 in data/raw/SHA256SUMS.
-CLOCK = RAW / "subsidy_clock/s26b-combined-annual_cf9b292e.csv"
-CLOCK_TIMESERIES = RAW / "subsidy_clock/s27b-timeseries_cf9b292e.json"
+# Stored byte copies of the live Clock, GitHub master 35132e73 (files as served 21 Oct 2026, equal by sha256 to
+# that commit's site/data), so the bridge does not move when the Clock's working tree does (review s25c).
+# SHA-256 in data/raw/SHA256SUMS. v4-s39 (card [internal ticket]) replaced the stale cf9b292e copy (2026-10-10), which
+# stays in data/raw for reruns of v4-s38 and earlier.
+CLOCK = RAW / "subsidy_clock/s39-combined-annual_35132e73.csv"
+CLOCK_TIMESERIES = RAW / "subsidy_clock/s39-timeseries_35132e73.json"
 CLOCK_HOUSEHOLDS = 29_000_000          # subsidy-clock/reference/context.yaml 'households'
-SRC_CLOCK = "subsidy-clock-combined-annual-2026-10-10"
-SRC_CLOCK_TS = "subsidy-clock-timeseries-2026-10-10"
+SRC_CLOCK = "subsidy-clock-combined-annual-2026-10-21"
+SRC_CLOCK_TS = "subsidy-clock-timeseries-2026-10-21"
 COLS = ("cfd_renewable", "constraints", "capacity_market", "ro", "fit", "ccl", "ets", "tnuos",
         "constraint_turnup", "bsuos")
 ROWS = "ABCDEFGHIJKLM"
@@ -125,21 +127,22 @@ def clock_check(clock: dict[int, dict[str, float | None]] | None = None,
 
 
 def cps_part(y: int) -> float:
-    """The CPS part of the Clock's CCL line, £m: HMRC Table 1b estimated CPF receipts (the
-    Clock's own construction; it omits 2013 CPF, so 2013's CPS part is zero here too)."""
-    v = read_ccl_table_1b().get(y, {}).get("cpf_receipts")
-    return v or 0.0
+    """The CPS part of the Clock's CCL line, £m: CPS as the Clock builds it (no CPS in 2013), read from the shared
+    cost register (0168: series CPS plus the input adjustment clock.CPS.not_counted_2013)."""
+    from gascf import register_pin as RP
+    return RP.register().line("CPS", "clock_live").get(y, 0.0) or 0.0
 
 
 def clock_ccl_after_exemption(y: int, clock_ccl_less_cps: float) -> float:
     """The part of the Clock's electricity CCL (its CCL line less CPS, £m) from 1 August 2015,
     which the Clock stops counting at its 31 Oct release (D2): all of it after 2015, none before,
     and for 2015 the Aug-Dec 5/12 (D2's pro-rata fallback)."""
+    from gascf import register_pin as RP
     if y < 2015:
         return 0.0
     if y > 2015:
         return clock_ccl_less_cps
-    t = read_ccl_table_1b()[y]["electricity"]
+    t = RP.register().series("CCL_ELEC")[y]
     return clock_ccl_less_cps * (1 - ccl_electricity_exempt_period([y])[y] / t)
 
 
@@ -169,7 +172,8 @@ def bridge_year(b: dict, y: int, clock: dict[str, float | None]) -> list[dict]:
          -c["bsuos"] + v("NZ6") - v("GO4")),
         ("F", "High-voltage grid: drop the Clock's TNUoS uplift, add NZ7 − GO5",
          -c["tnuos"] + v("NZ7") - v("GO5")),
-        ("G", "RO, FiT, CfD (incl. biomass CfD): calendar-year time weighting, unrounded, FiT at levelisation cost",
+        ("G", "RO, FiT, CfD (incl. biomass CfD): calendar-year time weighting, unrounded, RO scaled UK to GB, "
+              "FiT at levelisation cost",
          v("NZ2") + v("NZ3") + v("NZ4") + _v_opt(b, "NZ4b") - c["ro"] - c["fit"] - c["cfd_renewable"]),
         ("H", "Households: year-matched count (zero in £m)", 0.0),
         ("I", "Power before carbon: the avoided fossil fleet (waterfall step 1)", step1),

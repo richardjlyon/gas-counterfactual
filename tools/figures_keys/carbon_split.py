@@ -9,10 +9,11 @@ SHORTFALL_KEY = "carbon_shortfall_rule_price_receipts_2013_20_gbp_bn"
 
 DECLARED = {
     "ets_power_2025p_gbp_m": {
-        "label": "2025 ETS power receipts, GB, provisional (0079: 2025 auctions x 2024 share; DESNZ figure about 30 Nov 2026)",
+        "label": "2025 ETS power receipts, GB, provisional (0079: 2025 auctions x 2024 share)",
         "run_field": "carbon_2025p.ets_power_2025p_gbp_m", **_COMMON},
     "cps_2025p_gbp_m": {
-        "label": "2025 Carbon Price Support, provisional (0054, about £428m; final HMRC data March 2027)",
+        "label": "2025 Carbon Price Support, provisional (0054, about £428m; HMRC's next estimate of receipts from the "
+                 "Carbon Price Floor for 2025, in the Environmental Taxes Bulletin tables due in March 2027)",
         "run_field": "carbon_2025p.cps_2025p_gbp_m", **_COMMON},
     "cps_2025p_range_high_gbp_m": {
         "label": "2025 Carbon Price Support, top of range (0054 Method B)",

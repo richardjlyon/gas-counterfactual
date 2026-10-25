@@ -1,0 +1,7 @@
+edition,list_date,company,station,fuel,installed_capacity_mw,year_began,source_file,source_sheet,source_row
+DUKES 2002,end of May 2002,AES,Kilroot,coal/oil,520,1981,dukes2002_table5_10_end-may-2002.xls,Table 5.10,12
+DUKES 2002,end of May 2002,Coolkeeragh Power,Coolkeeragh,oil,293,1959,dukes2002_table5_10_end-may-2002.xls,Table 5.10,53
+DUKES 2002,end of May 2002,Premier Power,Ballylumford,oil/gas,1080,1968,dukes2002_table5_10_end-may-2002.xls,Table 5.10,131
+DUKES 2003,end of May 2003,AES,Kilroot,coal/oil,520,1981,dukes2003_table5_10_end-may-2003.xls,Table 5.10,12
+DUKES 2003,end of May 2003,Coolkeeragh Power,Coolkeeragh,oil,293,1959,dukes2003_table5_10_end-may-2003.xls,Table 5.10,57
+DUKES 2003,end of May 2003,Premier Power Ltd,Ballylumford,oil/gas,823,1968,dukes2003_table5_10_end-may-2003.xls,Table 5.10,134

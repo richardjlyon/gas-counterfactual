@@ -241,6 +241,28 @@ BASIS = {"EEC": "estimated", "CERT": "estimated", "CESP": "estimated", "ECO": "e
 @lru_cache(maxsize=1)
 def schemes(years=YEARS) -> dict[int, dict]:
     """{year: {"gbp_m" (central, lower of each range), "low", "high", "by_scheme": {...},
+    "basis", "source_id", "note"}} — electricity share, £m nominal, calendar year, from the shared cost register
+    (0168; series ENERGY_SAVING and its memo rows ENERGY_SAVING_<scheme>, built by `src_schemes`)."""
+    from gascf import register_pin as RP
+    reg = RP.register()
+    memo = sorted((r for r in reg.rows if r["row_type"] == "memo" and r["line_id"].startswith("ENERGY_SAVING_")),
+                  key=lambda r: (int(r["year"]), int(r["note"].split()[-1])))
+    out = {}
+    for y in years:
+        r = reg.row("ENERGY_SAVING", y)
+        by = {m["line_id"].removeprefix("ENERGY_SAVING_"): {"central": float(m["cash_gbp_m"]),
+                                                           "low": float(m["low_gbp_m"]),
+                                                           "high": float(m["high_gbp_m"])}
+              for m in memo if int(m["year"]) == y}
+        out[y] = {"gbp_m": float(r["cash_gbp_m"]), "low": float(r["low_gbp_m"]), "high": float(r["high_gbp_m"]),
+                  "by_scheme": by, "basis": r["basis"], "source_id": r["source_id"], "note": r["note"]}
+    return out
+
+
+@lru_cache(maxsize=1)
+def src_schemes(years=YEARS) -> dict[int, dict]:
+    """The engine's reading of its stored scheme files: the register's builder only (0168).
+    {year: {"gbp_m" (central, lower of each range), "low", "high", "by_scheme": {...},
     "basis", "source_id", "note"}} — electricity share, £m nominal, calendar year."""
     mo = monthly()
     out = {}

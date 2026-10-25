@@ -104,8 +104,54 @@ MOE_HIGH = "model"                   # the engine's own supply-stack estimate: h
 MOE_METHODS = "none"                 # §15.3 rule, kept for the methods page
 
 # s27a, spec §15.5 item 3: kept coal capped at the best recorded GB coal-fleet load factor.
-COAL_LF_RULES = ("dukes_max", "none")
+# Card [internal ticket] (built OFF; decision 0166 makes 'dukes_max+ied_permits_1500+existing' central in v4-s39, the 'route'
+# reading a check row only): "dukes_max+ied_<reading>_<hours>" also
+# holds each kept coal unit in reference/ied_hours_caps.json to an IED hours cap from 1 July 2020
+# (reading "permits" = the stations' real permits; "route" = also Drax 1-4 and Lynemouth; hours 1500 or 2250).
+IED_HOURS_RULES = tuple(f"dukes_max+ied_{r}_{h}" for r in ("permits", "route") for h in (1500, 2250))
+# Card [internal ticket] (built OFF; central in v4-s39 under 0166): "<kept rule>+existing" also holds existing coal
+# to its real caps (the file's "existing" part): the LCPD opt-outs' 20,000 hours from 2008, and West Burton A and
+# Drax 5-6 to their permits from 1 July 2020 while still open in reality.
+IED_KEPT_RULES = IED_HOURS_RULES
+IED_HOURS_RULES += tuple(f"{r}+existing" for r in IED_HOURS_RULES)
+# Card [internal ticket] (measure only, OFF; not used under 0166, which rules SCR-instead out): a suffix "+ex_cap_<hours>" holds the
+# EXISTING coal stations in the same file's "existing_jul2020" list (West Burton A, Drax 5-6) to the hours cap from
+# 1 July 2020 while they are in the existing block; "+ex_scr" charges them SCR instead (no cap), costed as kept SCR.
+# rb-v4-s39-rc merge: the suffix goes on dukes_max or a kept-coal rule, not on a '+existing' rule (the two cards'
+# existing-coal treatments are alternatives, never stacked).
+IED_EXISTING_SUFFIXES = ("+ex_cap_1500", "+ex_cap_2250", "+ex_scr")
+# Card [internal ticket] (built OFF; ON by default in v4-s39 under 0166, see below): under a '+existing' rule, $GASCF_IED_LCPD_KEPT=on
+# also holds the LCPD opt-outs that M2's closure test KEEPS past their real closes (Tilbury B, Ironbridge) to the
+# 20,000 hours (`ied_existing_units`).
+LCPD_KEPT_ENV = "GASCF_IED_LCPD_KEPT"
+# v4-s39 central (card [internal ticket]; decision 0166, Richard Lyon 22 Oct 2026: "As long as it was lawful, then it's
+# legitimate. Approved."): ON when the variable is unset; "off" turns it off (for reruns of the older line).
+
+
+def lcpd_kept_on() -> bool:
+    """Kept LCPD opt-outs held to their hours: True unless $GASCF_IED_LCPD_KEPT is "off" (0166)."""
+    return os.environ.get(LCPD_KEPT_ENV, "on").strip() != "off"
+
+
+# v4-s40 item 1 (step-3 sheet item 1 (a); decision 0175, Richard Lyon 23 Oct 2026, "Yes." at 06:13:51 UTC to "The coal
+# fix caps coal at its legal energy limit, without building a station-by-station timetable."; verified on card
+# [internal ticket]). To v4-s39 the s29 actual-output floor overrode the permit-derived energy limit (2012-13 breaches,
+# review [internal ticket] item 1). "absolute" (central, unset): where a permit-derived limit is supplied it binds; the floor
+# stays only under the DUKES load-factor cap, which is not a legal limit. "floored" = v4-s39 (explicit only). Set the
+# variable before the process starts (lfl_year is cached).
+COAL_CEILING_ENV = "GASCF_COAL_CEILING"
+COAL_CEILING_READINGS = ("absolute", "floored")
+
+
+def coal_ceiling_reading() -> str:
+    v = (os.environ.get(COAL_CEILING_ENV) or COAL_CEILING_READINGS[0]).strip()
+    if v not in COAL_CEILING_READINGS:
+        raise ValueError(f"${COAL_CEILING_ENV}={v!r}: one of {COAL_CEILING_READINGS}")
+    return v
+COAL_LF_RULES = (("dukes_max", "none") + IED_HOURS_RULES
+                 + tuple(b + s for b in ("dukes_max",) + IED_KEPT_RULES for s in IED_EXISTING_SUFFIXES))
 DEFAULT_COAL_LF = "dukes_max"        # max of DUKES 5.10.B "of which coal-fired stations" (65.04%, 2003)
+IED_HOURS_FILE = Path(__file__).parents[2] / "reference/ied_hours_caps.json"
 SRC_510 = "desnz-dukes-5.10"
 
 # s27a, spec §15.5 item 2: gas-price feedback. v4-s37, decision 0144 item 2A (Richard Lyon, 20 Oct 2026: "Yes,
@@ -129,9 +175,13 @@ SRC_510 = "desnz-dukes-5.10"
 # Q = EU historic gas demand 4,000 TWh (Neuhoff 2022 Table 2) + GB gas demand (Energy Trends 4.1
 # 'Total demand', by year). dQ = fossil Britain's gas burn for power less the actual (DUKES 5.6.A
 # MPP gas fuel used), floored at 0.
-GAS_FEEDBACK_RULES = ("central", "krichene_lr", "high", "none")
+# - krichene_lr_1974 (0.21, 0.06) = 0.27, RB v1.1 A5 (J3; decision 0160, card [internal ticket]), a held row for ruling R14,
+#   never in the range: Krichene (2005) Table 2 (PDF p.13), VECM panel, 1974-2004: supply 0.21 (t 6.51), demand -0.06
+#   (t -1.67, not significant at 5%). Confirmed by the analyst (card [internal ticket]) from the same table as krichene_lr.
+GAS_FEEDBACK_RULES = ("central", "krichene_lr", "high", "none", "krichene_lr_1974")
 DEFAULT_GAS_FEEDBACK = "central"
-GAS_ELASTICITY_PAIRS = {"central": (0.06, 0.169), "krichene_lr": (0.16, 0.45), "high": (0.06, 0.0)}
+GAS_ELASTICITY_PAIRS = {"central": (0.06, 0.169), "krichene_lr": (0.16, 0.45), "high": (0.06, 0.0),
+                        "krichene_lr_1974": (0.21, 0.06)}
 GAS_ELASTICITY = {k: s + d for k, (s, d) in GAS_ELASTICITY_PAIRS.items()}   # the e in dQ / (e Q): supply + demand
 KRICHENE_2005_PDF = RAW / "s36/s36-krichene2005_IMF_WP0532.pdf"
 CASOLI_2023_PDF = RAW / "s36/s36-casoli_manera_valenti_FEEM_NDL2022-045.pdf"
@@ -150,6 +200,9 @@ DEFAULT_CLOSURES = "legitimate"            # spec §15.3 items 2 and 5
 NEWBUILD_RULES = ("cheapest", "gas_only")
 DEFAULT_NEWBUILD = "cheapest"              # spec §15.3 item 4
 CLOSURE_REASONS = ("age", "air_pollution", "net_zero_policy", "mixed", "other")
+# RB v1.1 O1 (decision 0163 R17 (a)): closure classes, register data on the net_zero_policy and mixed rows (the
+# net_zero_policy rows' classes are R34 (a), ruled in 0164); a class row closes that class on its real dates
+CLOSURE_CLASSES = ("biomass_conversion", "coal_phase_out_deadline", "mixed")
 CLOSURE_FUELS = ("coal", "gas", "oil")
 SRC_CLOSURES = "s23a-fossil-closures-register"
 
@@ -168,9 +221,9 @@ ETA_OIL = 0.30
 
 
 @lru_cache(maxsize=None)
-def edition(year: int):
-    """`fossil_fleet.edition`, cached here (it re-reads the cost workbooks on every call)."""
-    return ff.edition(year)
+def edition(year: int, cost_case: str = "medium"):
+    """`fossil_fleet.edition`, cached here (it re-reads the cost workbooks on every call). cost_case: RB v1.1 O2."""
+    return ff.edition(year, cost_case)
 
 
 @lru_cache(maxsize=None)
@@ -206,13 +259,48 @@ def _row57(table: str, gen: str, fuel: str) -> dict[int, float]:
             if h and str(h).isdigit() and isinstance(v, (int, float))}
 
 
+# Decision 0197 (Richard Lyon, 24 Oct 2026, msg 8982: "each year's own list"; card [internal ticket], v4-s43): the NI rows
+# of DUKES 2002 and DUKES 2003 Table 5.10, entered from the archived editions (data/raw/dukes_s43/, checked cell by
+# cell by work/[internal ticket]/check_ni_rows.py), and the NI stations of the 'DUKES 2004' and 'DUKES 2005' sheets of
+# DUKES 5.11, which print no region column and are read by station name.
+NI_LISTS_2002_2003 = RAW / "dukes_s43/dukes_5_10_ni_2002_2003.csv"
+NI_STATIONS_BY_NAME = {"DUKES 2004": ("Kilroot", "Coolkeeragh", "Ballylumford"),
+                       "DUKES 2005": ("Kilroot", "Coolkeeragh", "Ballylumford")}
+
+
+def _ni_row(cells: list[str], mw: float | None) -> str | None:
+    """Class one NI station row as its list prints it: None (not fossil, or Kilroot's coal, which is already out
+    of coal_capacity_gb), 'ccgt' (labelled CCGT) or 'other' (any other fossil label, e.g. 'oil', 'oil/gas')."""
+    low = " ".join(cells).lower()
+    if any(k in low for k in ("wind", "solar", "hydro", "biomass", "landfill", "anaerobic",
+                              "waste", "battery", "storage", "(mw)")):
+        return None
+    if "kilroot" in low and "coal" in low:
+        return None                                        # NI coal: already out of coal_capacity_gb
+    if mw is None:
+        return None
+    return "ccgt" if "ccgt" in low else "other"
+
+
 @lru_cache(maxsize=None)
 def ni_fossil_mw() -> dict[int, dict[str, float]]:
-    """Northern Ireland fossil stations other than Kilroot's coal units, MW, by DUKES 5.11
-    edition: {'ccgt': .., 'other': ..}. Editions before 2006 list none; those years take the
-    2006 list (estimated; deducting too much is the conservative side)."""
+    """Northern Ireland fossil stations other than Kilroot's coal units, MW, by DUKES edition:
+    {'ccgt': .., 'other': ..}, each year from its own edition's list, classed as that list prints it
+    (decision 0197). DUKES 2002 and DUKES 2003 come from their Table 5.10, entered from the archived
+    editions (data/raw/dukes_s43/dukes_5_10_ni_2002_2003.csv); DUKES 2004 and DUKES 2005 from their
+    DUKES 5.11 sheets, read by station name as those sheets print no region column; DUKES 2006 on from
+    the sheets' region column. Only a year before 2002 (the first list held) would take the nearest
+    list, recorded as a fallback by `existing_plant`."""
     wb = openpyxl.load_workbook(DUKES_511, read_only=True, data_only=True)
     out = {}
+    with NI_LISTS_2002_2003.open(newline="") as f:
+        for row in csv.DictReader(f):
+            y = int(row["edition"].removeprefix("DUKES "))
+            acc = out.setdefault(y, {"ccgt": 0.0, "other": 0.0})
+            mw = float(row["installed_capacity_mw"])
+            k = _ni_row([row["company"], row["station"], row["fuel"]], mw)
+            if k:
+                acc[k] += mw
     for sn in wb.sheetnames:
         m = re.fullmatch(r"DUKES (\d{4})", sn)
         if not m:
@@ -220,24 +308,23 @@ def ni_fossil_mw() -> dict[int, dict[str, float]]:
         ccgt = other = 0.0
         for r in wb[sn].iter_rows(values_only=True):
             cells = [str(x).strip() for x in r if isinstance(x, str)]
-            if not any(c.startswith("Northern Ireland") and len(c) < 20 for c in cells):
+            named = any(c in NI_STATIONS_BY_NAME.get(sn, ()) for c in cells)
+            # A2 (input audit v4-s41, v4-s42, decision 0195): 'DUKES 2006' labels Coolkeeragh 'N. Ireland'
+            if not named and not any((c.startswith("Northern Ireland") and len(c) < 20) or c == "N. Ireland"
+                                     for c in cells):
                 continue
-            low = " ".join(cells).lower()
-            if any(k in low for k in ("wind", "solar", "hydro", "biomass", "landfill", "anaerobic",
-                                      "waste", "battery", "storage", "(mw)")):
-                continue
-            if "kilroot" in low and "coal" in low:
-                continue                                   # NI coal: already out of coal_capacity_gb
             nums = [x for x in r if isinstance(x, (int, float)) and 5 < x < 3000]
-            if not nums:
-                continue
-            if "ccgt" in low:
+            k = _ni_row(cells, nums[0] if nums else None)
+            if k == "ccgt":
                 ccgt += nums[0]
-            else:
+            elif k == "other":
                 other += nums[0]
+        # Input audit v4-s41 A1 (v4-s42, decision 0195): Kilroot's OCGT printed inside its coal/oil row
+        # (DUKES 2010, 2011; split out in DUKES 2012) is NI 'other', not NI coal.
+        other += ff.kilroot_split().get(int(m.group(1)), 0.0)
         if ccgt or other:
             out[int(m.group(1))] = {"ccgt": ccgt, "other": other}
-    return out
+    return dict(sorted(out.items()))
 
 
 @dataclass(frozen=True)
@@ -284,6 +371,63 @@ def closures_path() -> Path:
     return Path(os.environ.get(CLOSURES_ENV) or CLOSURES_FILE)
 
 
+# Card [internal ticket] (measure only; Richard has not ruled): one switch per station for the Rugeley rule
+# ("use the capacity in the DUKES 5.11 edition sheet listing last before closure") on five closures.
+# All OFF by default. Turn on by naming switches in $GASCF_EDITION_MW (comma-separated), for example
+# "barry,fawley,ironbridge_940,deeside,uskmouth_230". The register file is never edited by a switch.
+EDITION_MW_FILE = ROOT / "reference/closures_edition_mw.yaml"
+EDITION_MW_ENV = "GASCF_EDITION_MW"
+# v4-s39 central (card [internal ticket]; corrections log C-009 under the Rugeley rule, 0159): the five switches ON
+# when $GASCF_EDITION_MW is unset. Ironbridge (900 or 940) and Uskmouth (230 or 363) are still open for
+# Richard (0164 item 3); set as C-009 has them. "none" reads the register as stored (the v4-s38 MW).
+EDITION_MW_CENTRAL = "barry,deeside,fawley,ironbridge_900,uskmouth_230"
+EDITION_MW_OFF = "none"
+
+
+@lru_cache(maxsize=None)
+def _edition_mw_table() -> dict[str, dict]:
+    return {r["switch"]: r for r in json.loads(EDITION_MW_FILE.read_text())}
+
+
+def edition_mw_switches() -> tuple[str, ...]:
+    """The switches turned on, sorted: the central five when $GASCF_EDITION_MW is unset, () when it is
+    "none" or empty."""
+    raw = os.environ.get(EDITION_MW_ENV)
+    if raw is None:
+        raw = EDITION_MW_CENTRAL
+    if raw.strip() == EDITION_MW_OFF:
+        raw = ""
+    sw = tuple(sorted({s.strip() for s in raw.split(",") if s.strip()}))
+    table = _edition_mw_table()
+    bad = [s for s in sw if s not in table]
+    if bad:
+        raise ValueError(f"{EDITION_MW_ENV}: unknown switch {bad}; one of {sorted(table)}")
+    seen: dict[str, str] = {}
+    for s in sw:
+        st = table[s]["station"]
+        if st in seen:
+            raise ValueError(f"{EDITION_MW_ENV}: two switches for {st} ({seen[st]}, {s}); turn on one")
+        seen[st] = s
+    return sw
+
+
+def _edition_mw_overrides(sw: tuple[str, ...]) -> dict[tuple[str, str], dict]:
+    t = _edition_mw_table()
+    return {(t[s]["station"], t[s]["unit"]): t[s] for s in sw}
+
+
+def switched_mw(station: str, mw: float) -> float:
+    """The MW to use for `station` (unit 'all') under the switches on: the edition MW if its
+    switch is on, else `mw`. For scripts that type a station's MW by hand (the s24 margin script)."""
+    o = _edition_mw_overrides(edition_mw_switches()).get((station, "all"))
+    if o is None:
+        return mw
+    if mw != o["register_mw"]:
+        raise ValueError(f"{EDITION_MW_ENV} {o['switch']}: {station} is {mw} MW here, the switch was "
+                         f"written against {o['register_mw']} MW")
+    return o["edition_mw"]
+
+
 def _date(v, field: str, station: str) -> date | None:
     if v is None:
         return None
@@ -294,8 +438,9 @@ def _date(v, field: str, station: str) -> date | None:
 
 
 @lru_cache(maxsize=None)
-def _read_closures(path: str) -> tuple[dict, ...]:
+def _read_closures(path: str, switches: tuple[str, ...] = ()) -> tuple[dict, ...]:
     p = Path(path)
+    over = _edition_mw_overrides(switches)
     if not p.exists():
         raise FileNotFoundError(f"closure register {p} not found (strand s23a builds it; "
                                 f"set {CLOSURES_ENV} to a fixture to run without it)")
@@ -334,15 +479,34 @@ def _read_closures(path: str) -> tuple[dict, ...]:
         if not isinstance(r["capacity_mw"], (int, float)):
             raise ValueError(f"closure register: {st} capacity {r['capacity_mw']!r} is not a number")
         mw = float(r["capacity_mw"])
+        o = over.pop((r["station"], r["unit"]), None)
+        if o is not None:
+            if mw != o["register_mw"]:
+                raise ValueError(f"{EDITION_MW_ENV} {o['switch']}: register {st} is {mw} MW, the switch was "
+                                 f"written against {o['register_mw']} MW")
+            mw = float(o["edition_mw"])
         if not 0 < mw < 5000:
             raise ValueError(f"closure register: {st} capacity {mw} MW out of range")
         out.append({**r, "capacity_mw": mw, "actual_close_d": act, "fossil_britain_close_d": fb})
+    if over:
+        raise ValueError(f"{EDITION_MW_ENV}: no register row for {sorted(over)} in {p}")
     return tuple(out)
 
 
+def edition_mw_switches_for(path: str | Path) -> tuple[str, ...]:
+    """The switches for the register at `path`. The central default (variable unset) belongs to the real register
+    only: a fixture register read with the variable unset gets none (card [internal ticket]). A switch named in
+    $GASCF_EDITION_MW applies to any register, strictly, as before."""
+    if os.environ.get(EDITION_MW_ENV) is None and Path(path).resolve() != Path(CLOSURES_FILE).resolve():
+        return ()
+    return edition_mw_switches()
+
+
 def read_closures(path: str | Path | None = None) -> tuple[dict, ...]:
-    """The closure register (spec §15.3 item 2), schema-checked. One function, one place."""
-    return _read_closures(str(path or closures_path()))
+    """The closure register (spec §15.3 item 2), schema-checked. One function, one place.
+    Edition-MW switches ($GASCF_EDITION_MW; v4-s39: the C-009 five on the real register by default) apply here."""
+    p = str(path or closures_path())
+    return _read_closures(p, edition_mw_switches_for(p))
 
 
 def _open_share(year: int, start: date, end: date | None) -> float:
@@ -364,21 +528,42 @@ def stack_kind(r: dict) -> str:
     return "other_gas" if ("ocgt" in txt or "gas turbine" in txt or "open cycle" in txt) else "ccgt"
 
 
-@lru_cache(maxsize=None)
-def kept_open(year: int, closures: str = DEFAULT_CLOSURES, path: str | None = None) -> dict:
+def kept_open(year: int, closures: str = DEFAULT_CLOSURES, path: str | None = None, overrides: tuple = (),
+              real_date_class: str = "none") -> dict:
     """Plant fossil Britain keeps that Britain actually closed, for calendar year `year`.
 
     MW are time-weighted over the year (a station kept from 1 April counts 0.75 of its MW).
     Returns {"mw": {coal, ccgt, other_gas, oil}, "abated_mw": {FGD, SCR, FGD+SCR}, "stations":
-    [(station, unit, MW-share, reason)], "basis", "source_id"}. `closures="actual"`: nothing kept."""
+    [(station, unit, MW-share, reason)], "basis", "source_id"}. `closures="actual"`: nothing kept.
+
+    overrides (RB v1.1 M2, `closure_test.fixed_point`): ((station, unit, close ISO or None, filters), ...) in place
+    of the register's close and filters for the rows named; () = the register as written.
+    real_date_class (RB v1.1 O1): the rows whose `closure_class` is this close on their real dates (after any
+    overrides); 'none' = no class row.
+    Cached on the edition-MW switches too ($GASCF_EDITION_MW), so a switch turned on in the same
+    process is never served a stale result."""
+    return _kept_open(year, closures, path, overrides, real_date_class, edition_mw_switches())
+
+
+@lru_cache(maxsize=None)
+def _kept_open(year: int, closures: str, path: str | None, overrides: tuple, real_date_class: str,
+               switches: tuple[str, ...]) -> dict:
     if closures not in CLOSURE_RULES:
         raise ValueError(f"unknown closure rule {closures!r}; one of {CLOSURE_RULES}")
+    if real_date_class != "none" and real_date_class not in CLOSURE_CLASSES:
+        raise ValueError(f"unknown closure class {real_date_class!r}; one of {CLOSURE_CLASSES}")
     mw = {"coal": 0.0, "ccgt": 0.0, "other_gas": 0.0, "oil": 0.0}
     abated = {k: 0.0 for k in ff.ABATEMENT}
     stations = []
     if closures == "actual":
         return {"mw": mw, "abated_mw": abated, "stations": stations, "basis": "measured", "source_id": ""}
     rows = read_closures(path)
+    if overrides:
+        from gascf import closure_test as CT
+        rows = CT.apply(rows, overrides)
+    if real_date_class != "none":
+        rows = tuple({**r, "fossil_britain_close_d": r["actual_close_d"], "abatement_needed": None}
+                     if r.get("closure_class") == real_date_class else r for r in rows)
     for r in rows:
         sh = _open_share(year, r["actual_close_d"], r["fossil_britain_close_d"])
         if sh <= 0:
@@ -604,6 +789,9 @@ class LfLYear:
     coal_avail_scale: float = 1.0        # share of the coal block left in its merit place (rest moved to the top)
     coal_lf_achieved: float = 0.0        # coal block's yearly output / (nameplate x hours)
     coal_twh: float = 0.0                # coal block's yearly output, TWh (s29: >= actual)
+    coal_ied: dict = None                # card [internal ticket]: IED hours-capped kept coal units and the block's limit
+    existing_scr_fixed_gbp_m: float = 0.0   # card [internal ticket] "+ex_scr": SCR on existing WBA and Drax 5-6, £m
+    existing_scr_vom_gbp_m: float = 0.0     # and its running cost, £m (year-y money)
     gas_marginal_share: float = 0.0      # share of half-hours gas plant is marginal at fossil Britain's load
     gas_marginal_share_actual_load: float = 0.0   # the same at the actual fossil load (check vs Zakeri 2023)
     extra_gas_fuel_gbp_m: float = 0.0    # gas commodity cost of the extra running of existing plant (no transport)
@@ -614,11 +802,18 @@ class LfLYear:
     ic_called_twh: float = 0.0
     ic_called_halfhours: int = 0
     worked_hh: dict = None               # 44 (B20): 2024 residual peak and median half-hours, for the §4.3 worked example
+    m8_sums: dict = None                 # RB v1.1 M8 (0163 R9 a): {month: {"f": MonthSums, "x": MonthSums}} when switched on
     hh_cap: tuple = None                 # 44 debug: every half-hour (residual, day, period, d, p0, p1, top), set only when keep_hh
     hh_debug: dict = None                # 44 debug: {stacks, new_srmc, new_ccgt_mw} for recomputing a half-hour step, set only when keep_hh
+    closure_test: dict = None            # RB v1.1 M2: the road-load-factor loop (closure_test.fixed_point), None under 'register'
+    # v4-s40 item 2 (0175): the coal block's own output by month, its uplift-weighted volume (sum of the half-hour uplift
+    # x coal MW / 2, as moe_vol_f_m) and its M8 half-hour sums, so kept coal's margin reads the road's own revenue
+    coal_twh_m: dict = None
+    coal_moe_vol_m: dict = None
+    coal_m8: dict = None
 
 
-def _new_block(year, rows, short, transport, der, newbuild: str = "gas_only"):
+def _new_block(year, rows, short, transport, der, newbuild: str = "gas_only", cost_case: str = "medium"):
     """New plant on the half-hours where existing plant runs out, sized and costed by the
     edition in force (`fossil_fleet.cost_fossil_year`, margin 0: the firm margin is checked
     against the whole system below).
@@ -643,16 +838,16 @@ def _new_block(year, rows, short, transport, der, newbuild: str = "gas_only"):
     rr = [_R(r.day, s) for r, s in zip(rows, short)]
     if newbuild == "cheapest":
         return ff.cost_fossil_year(year, rr, 0.0, der, coal_cap_mw=float("inf"), transport=transport,
-                                   coal_rule="allowed")
-    return ff.cost_fossil_year(year, rr, 0.0, der, coal_cap_mw=0.0, transport=transport)
+                                   coal_rule="allowed", cost_case=cost_case)
+    return ff.cost_fossil_year(year, rr, 0.0, der, coal_cap_mw=0.0, transport=transport, cost_case=cost_case)
 
 
-def kept_costs(year: int, kept: dict) -> tuple[float, float, dict]:
+def kept_costs(year: int, kept: dict, cost_case: str = "medium") -> tuple[float, float, dict]:
     """(fixed £m, abatement £/MWh on kept coal, detail) for the plant fossil Britain keeps open:
     keep-open running costs of the edition's plant of that type (coal: coal; CCGT: CCGT; other
     gas and oil: OCGT) and the annualised filters, year-y money. No new capital for the station
-    itself: it was built and paid for in the actual world."""
-    ed = edition(year)
+    itself: it was built and paid for in the actual world. cost_case (RB v1.1 O2) reaches the filters' capital."""
+    ed = edition(year, cost_case)
     tech = {"coal": "coal", "ccgt": "ccgt", "other_gas": "ocgt", "oil": "ocgt"}
     keep = {k: ff.keep_open_gbp_kw_yr(ed, tech[k]) * 1000 * mw / 1e6 for k, mw in kept["mw"].items()}
     ab_fixed, ab_vom_w, src = 0.0, 0.0, set()
@@ -711,7 +906,142 @@ def actual_coal_supplied_twh(year: int) -> float:
 def coal_lf_cap(rule: str) -> float | None:
     if rule not in COAL_LF_RULES:
         raise ValueError(f"unknown coal load-factor rule {rule!r}; one of {COAL_LF_RULES}")
-    return dukes_coal_lf_max()[0] if rule == "dukes_max" else None
+    return dukes_coal_lf_max()[0] if rule.startswith("dukes_max") else None
+
+
+@lru_cache(maxsize=None)
+def _ied_hours_file() -> dict:
+    return json.loads(IED_HOURS_FILE.read_text())
+
+
+def ied_capped_units(year: int, rule: str, path: str | None = None) -> list[tuple[str, str, float, float, float]]:
+    """Kept coal units held to an IED hours cap in `year` under coal_lf `rule` (card [internal ticket]):
+    [(station, unit, register MW, share of the year kept on or after the cap's start, cap hours a year)].
+    Empty unless the rule is one of IED_HOURS_RULES. Dates are the closure register's, as `kept_open`."""
+    coal_lf_cap(rule)                                   # rejects an unknown rule
+    rule = rule.split("+ex_")[0]                        # card [internal ticket]: the existing-coal suffix is not kept coal
+    if rule not in IED_HOURS_RULES:
+        return []
+    reading, hours = rule.removeprefix("dukes_max+ied_").removesuffix("+existing").rsplit("_", 1)
+    f = _ied_hours_file()
+    start = date.fromisoformat(f["from"])
+    want = {(u["station"], u["unit"]) for u in f["units"] if reading in u["readings"]}
+    out = []
+    for r in read_closures(path):
+        if r["fuel"] != "coal" or (r["station"], r["unit"]) not in want:
+            continue
+        sh = _open_share(year, max(r["actual_close_d"], start), r["fossil_britain_close_d"])
+        if sh > 0:
+            out.append((r["station"], r["unit"], r["capacity_mw"], sh, float(hours)))
+    return out
+
+
+def existing_ied_units(year: int, rule: str, path: str | None = None) -> list[tuple]:
+    """Card [internal ticket] (measure only): EXISTING coal stations the IED reaches from 1 July 2020 under the rule's
+    suffix: [(station, unit, register MW, share of the year, cap hours a year or None under "+ex_scr")].
+    A station is existing in a year if it is in DUKES's end-of-year capacity (the engine's coal-block basis):
+    every year before its real closure year. Empty without a suffix."""
+    coal_lf_cap(rule)                                   # rejects an unknown rule
+    if "+ex_" not in rule:
+        return []
+    mode = rule.split("+ex_")[1]
+    hours = None if mode == "scr" else float(mode.removeprefix("cap_"))
+    f = _ied_hours_file()
+    start = date.fromisoformat(f["from"])
+    want = {(u["station"], u["unit"]) for u in f["existing_jul2020"]}
+    out = []
+    for r in read_closures(path):
+        if r["fuel"] != "coal" or (r["station"], r["unit"]) not in want:
+            continue
+        sh = _open_share(year, start, date(r["actual_close_d"].year, 1, 1))
+        if sh > 0:
+            out.append((r["station"], r["unit"], r["capacity_mw"], sh, hours))
+    return out
+
+
+def existing_scr_costs(year: int, rule: str, path: str | None = None) -> tuple[float, float]:
+    """(fixed £m, filters' running cost £/MWh), year-y money: SCR on the existing stations under "+ex_scr",
+    costed exactly as `kept_costs` costs SCR on kept coal. (0, 0) otherwise."""
+    eq = sum(mw * sh for _, _, mw, sh, h in existing_ied_units(year, rule, path) if h is None)
+    if eq <= 0:
+        return 0.0, 0.0
+    f, v, _ = ff.abatement_gbp_kw_yr(edition(year), "SCR")
+    return f * 1000 * eq / 1e6, v
+
+
+def _year_hours(year: int) -> float:
+    return 8784.0 if year % 4 == 0 else 8760.0
+
+
+def lcpd_hours_used(year: int, lf_by_year: dict[int, float]) -> float:
+    """Card [internal ticket]: an LCPD opt-out station's operating hours used from the opt-out's start to the end of
+    `year` - 1, at the coal block's achieved load factor each year (`lf_by_year`), never more than the total."""
+    f = _ied_hours_file()["existing"]["lcpd"]
+    total, used = float(f["total_hours"]), 0.0
+    for t in range(date.fromisoformat(f["from"]).year, year):
+        used += min(total - used, lf_by_year[t] * _year_hours(t))
+    return used
+
+
+def ied_existing_units(year: int, rule: str, path: str | None = None,
+                       lcpd_used_h: float = 0.0,
+                       kept_stations: tuple = ()) -> list[tuple[str, str, float, float, float]]:
+    """Existing (not kept) coal held to its real hours cap in `year` (card [internal ticket]), as `ied_capped_units`:
+    [(station, unit, register MW, share of the year capped, cap hours a year)]. Empty unless the rule ends in
+    '+existing'. A station counts only while in the coal block on the engine's DUKES end-year capacity basis
+    (register coal end on or after 31 December). LCPD opt-outs: hours left = total - `lcpd_used_h`, listed only
+    when that is under the block cap x the year's hours (otherwise the cap does not bind). Permits: the reading's
+    hours a year from the permits' start, pro rata.
+    Card [internal ticket] (built OFF; ON by default in v4-s39 under 0166): with $GASCF_IED_LCPD_KEPT=on, an LCPD opt-out that is KEPT open
+    past its real close (`kept_stations`, the `kept_open` list for the year, as M2's closure test sets it) is held to
+    the same hours left for the share of the year it is kept: (station, unit, register MW, kept MW / register MW,
+    hours left). Set the variable before the process starts (lfl_year is cached)."""
+    cap = coal_lf_cap(rule)
+    if rule not in IED_HOURS_RULES or not rule.endswith("+existing"):
+        return []
+    hours = float(rule.removesuffix("+existing").rsplit("_", 1)[1])
+    f = _ied_hours_file()["existing"]
+    lc, pm = f["lcpd"], f["permits"]
+    lc_units = {(u["station"], u["unit"]) for u in lc["units"]}
+    pm_units = {(u["station"], u["unit"]) for u in pm["units"]}
+    lc0, lc1 = date.fromisoformat(lc["from"]), date.fromisoformat(lc["to"])
+    pm0 = date.fromisoformat(pm["from"])
+    left = max(0.0, float(lc["total_hours"]) - lcpd_used_h)
+    out = []
+    lcpd_binds = lc0.year <= year <= lc1.year and left < cap * _year_hours(year)
+    kept_mw = {}
+    if lcpd_kept_on():
+        for s, u, mw, _ in kept_stations:
+            kept_mw[(s, u)] = kept_mw.get((s, u), 0.0) + mw
+    for r in read_closures(path):
+        key = (r["station"], r["unit"])
+        if r["fuel"] == "coal" and key in lc_units and lcpd_binds and kept_mw.get(key, 0.0) > 0:
+            out.append((r["station"], r["unit"], r["capacity_mw"], kept_mw[key] / r["capacity_mw"], left))
+            continue
+        if r["fuel"] != "coal" or r["actual_close_d"] < date(year, 12, 31):
+            continue
+        if key in lc_units and lcpd_binds:
+            out.append((r["station"], r["unit"], r["capacity_mw"], 1.0, left))
+        elif key in pm_units:
+            sh = _open_share(year, pm0, None)
+            if sh > 0:
+                out.append((r["station"], r["unit"], r["capacity_mw"], sh, hours))
+    return out
+
+
+def coal_energy_limit_mwh(year: int, coal_mw: float, hours: float, rule: str,
+                          path: str | None = None, extra_units: list | tuple = ()) -> float | None:
+    """The coal block's yearly energy limit, MWh, before the actual-output floor (s29). Off ('dukes_max'):
+    cap x nameplate x hours. On (IED_HOURS_RULES): each capped unit at most its cap hours for the share of the
+    year it is capped; the rest of the block at the 65.04% cap. None under 'none'. `extra_units`: existing coal
+    held to its caps (card [internal ticket], `ied_existing_units`)."""
+    cap = coal_lf_cap(rule)
+    if cap is None:
+        return None
+    u = (list(ied_capped_units(year, rule, path)) + [x for x in existing_ied_units(year, rule, path) if x[4] is not None]
+         + list(extra_units))
+    capped_eq = sum(mw * sh for _, _, mw, sh, _ in u)
+    return cap * (coal_mw - capped_eq) * hours + sum(mw * sh * h for _, _, mw, sh, h in u)
 
 
 def _cap_stack(st, sc: float):
@@ -729,7 +1059,7 @@ def _cap_stack(st, sc: float):
     return out[:-1] + top + out[-1:] if out and out[-1][0] != "coal" else out + top
 
 
-def _coal_scale(year, avail, coal_mw, cap, L, F, H, rows, tv) -> tuple[float, float]:
+def _coal_scale(year, avail, coal_mw, cap, L, F, H, rows, tv, cap_mwh: float | None = None) -> tuple[float, float]:
     """(share of the coal block left in its merit place, achieved load factor). The coal
     block's yearly output in fossil Britain (actual + extra running, existing + kept coal) may
     not exceed cap x nameplate x hours. The share is lowered until it does (`_cap_stack`): the
@@ -757,7 +1087,12 @@ def _coal_scale(year, avail, coal_mw, cap, L, F, H, rows, tv) -> tuple[float, fl
     # below the actual output in 2003, 2005-07, 2012 and 2013. Scaling the cap to DUKES's
     # basis instead was rejected: it runs the engine's smaller fleet at 77-83% and raises the
     # gap (spec §15.1 conservative rule).
-    lim = max(cap * coal_mw * hours, actual_coal_supplied_twh(year) * 1e6)
+    # card [internal ticket]: `cap_mwh` (coal_energy_limit_mwh) replaces cap x nameplate x hours when IED hours caps are on
+    # v4-s40 item 1 (0175): a permit-derived limit (cap_mwh) is absolute unless $GASCF_COAL_CEILING=floored (v4-s39)
+    if cap_mwh is not None and coal_ceiling_reading() == "absolute":
+        lim = cap_mwh
+    else:
+        lim = max(cap * coal_mw * hours if cap_mwh is None else cap_mwh, actual_coal_supplied_twh(year) * 1e6)
     lo, hi = 0.0, 1.0
     if o <= lim * (1 + 1e-4):
         return 1.0, o / (coal_mw * hours)
@@ -773,11 +1108,56 @@ def _coal_scale(year, avail, coal_mw, cap, L, F, H, rows, tv) -> tuple[float, fl
     return lo, out(lo) / (coal_mw * hours)
 
 
+@lru_cache(maxsize=None)
+def road_lf_closures(residual: str, margin: str, transport_key, newbuild: str, closures_file: str | None,
+                     coal_lf: str, ic_basis: str, real_date_class: str = "none", cost_case: str = "medium") -> dict:
+    """RB v1.1 M2 (decision 0163 R1-R3 (a)): the 'mixed' rows' closes by the margin test at the road's own coal load
+    factor, repeated until the list stops changing (`closure_test.fixed_point`). The load factor is the road's under
+    the same settings as the run (so a sensitivity that moves the road's coal output re-runs the test)."""
+    from gascf import closure_test as CT
+    path = closures_file or str(closures_path())
+    rows = [r for r in read_closures(path) if r["reason"] == "mixed"]
+    for r in rows:
+        if "closure_test" not in r:
+            raise ValueError(f"closure register: mixed row {r['station']} / {r['unit']} has no closure_test data")
+
+    def lf_of(y: int, state: tuple) -> float:
+        return lfl_year(y, residual, margin, transport_key, "legitimate", newbuild, closures_file, coal_lf, ic_basis,
+                        False, "register", state, real_date_class, cost_case).coal_lf_achieved
+
+    def margin_of(r: dict, y: int, lf: float, state: tuple) -> tuple[float, float]:
+        m = CT.station_margin(r["closure_test"]["margin_name"], y, lf)
+        return m["margin_before_filters_gbp_m"], m["margin_after_fgdscr_gbp_m"]
+
+    return {"rule": "road_lf", **CT.fixed_point(rows, lf_of, margin_of)}
+
+
+@lru_cache(maxsize=None)
+def _mid_year(year: int) -> dict | None:
+    """Elexon MID, APX rows, as held by the engine (data/raw/elexon/MID_APX_YYYY.csv, `gascf.mid`); None for a year
+    with no file (the engine holds 2018 on; Elexon's free MID starts 12 Sep 2016)."""
+    from gascf.mid import OUT, read_mid
+    return read_mid(year) if (OUT / f"MID_APX_{year}.csv").exists() else None
+
+
+def market_index_price(day, sp: int) -> float | None:
+    """RB v1.1 F7 (decision 0163, R25 (a)): Elexon's market index price (MID, APX), £/MWh cash, for one settlement
+    period; None where the engine holds no MID for that year or period (never a filled value). It is a short-term
+    market index, not the day-ahead auction price, and is labelled so."""
+    from datetime import date as _date
+    d = _date.fromisoformat(day) if isinstance(day, str) else day
+    m = _mid_year(d.year)
+    if m is None or (d, int(sp)) not in m:
+        return None
+    return m[(d, int(sp))][0]
+
+
 def _worked_hh(cap: list, factor: tuple) -> dict | None:
     """44 (B20): the 2024 worked half-hours. peak = largest residual (earliest on ties); median = the lower
     middle of the residual sorted ascending, rank (n-1)//2 (earliest on ties). `cap` is chronological, so the
     first row attaining a value is the earliest. `factor` is the year's (mult, flat) MOE pair from moe_factor;
-    scaled step = raw x mult + flat."""
+    scaled step = raw x mult + flat. RB v1.1 F7 (0163 R25 (a)): each carries Elexon's market index price for
+    that half-hour (`market_index_price`), None where none is held."""
     if not cap:
         return None
     mult, flat = factor
@@ -785,7 +1165,8 @@ def _worked_hh(cap: list, factor: tuple) -> dict | None:
     def entry(res, day, period, d, p0, p1, top, *_):
         return {"date": day.isoformat(), "sp": period, "residual_mw": res,
                 "raw_step_gbp_mwh": d, "scaled_step_gbp_mwh": d * mult + flat,
-                "p0_gbp_mwh": p0, "p1_gbp_mwh": p1, "rb_cost_gbp_mwh": p1, "top_block": top}
+                "p0_gbp_mwh": p0, "p1_gbp_mwh": p1, "rb_cost_gbp_mwh": p1, "top_block": top,
+                "market_index_price_gbp_mwh": market_index_price(day, period)}
 
     peak_res = max(c[0] for c in cap)
     peak = next(c for c in cap if c[0] == peak_res)
@@ -799,8 +1180,23 @@ def _worked_hh(cap: list, factor: tuple) -> dict | None:
 def lfl_year(year: int, residual: str = "neso", margin: str = "central", transport_key=None,
              closures: str = DEFAULT_CLOSURES, newbuild: str = DEFAULT_NEWBUILD,
              closures_file: str | None = None, coal_lf: str = DEFAULT_COAL_LF,
-             ic_basis: str = "metered", keep_hh: bool = False) -> LfLYear:
+             ic_basis: str = "metered", keep_hh: bool = False, closure_test: str = "register",
+             overrides: tuple = (), real_date_class: str = "none", cost_case: str = "medium") -> LfLYear:
+    """cost_case (RB v1.1 O2, `fossil_fleet.COST_CASES`): the plant-cost case for new build, firm spare plant and the
+    kept coal's filters; 'medium' = central. The merit-order stack uses running costs only, which no case moves.
+    rb-v4-s39-rc merge: under closure_test='road_lf' the fixed point runs at the same cost_case (the road's load
+    factor 'under the same settings as the run', road_lf_closures)."""
     from gascf import bills as B
+    from gascf import closure_test as CT
+    if closure_test not in CT.RULES:
+        raise ValueError(f"unknown closure_test rule {closure_test!r}; one of {CT.RULES}")
+    ct_detail = None
+    if closure_test == "road_lf" and closures == "legitimate" and real_date_class != "mixed":   # O1 mixed row: all real dates
+        if overrides:
+            raise ValueError("closure_test='road_lf' sets its own overrides")
+        ct_detail = road_lf_closures(residual, margin, transport_key, newbuild, closures_file, coal_lf, ic_basis,
+                                     real_date_class, cost_case)
+        overrides = ct_detail["overrides"]
     if residual == "fuelhh" and year >= 2016:
         from gascf.residual import residual_year
         rows = residual_year(year, replace_other=True)[0]
@@ -809,7 +1205,8 @@ def lfl_year(year: int, residual: str = "neso", margin: str = "central", transpo
     tr = B.transport_for(year) if transport_key else None
     der = capacity.read_derating()
     ex0 = existing_plant(year)
-    kept = kept_open(year, closures, closures_file or str(closures_path()) if closures == "legitimate" else None)
+    kept = kept_open(year, closures, closures_file or str(closures_path()) if closures == "legitimate" else None,
+                     overrides, real_date_class)
     km = kept["mw"]
     ex = Existing(coal=ex0.coal + km["coal"], ccgt=ex0.ccgt + km["ccgt"], other_gas=ex0.other_gas + km["other_gas"],
                   oil=ex0.oil + km["oil"], basis=ex0.basis if not kept["stations"] else
@@ -824,12 +1221,45 @@ def lfl_year(year: int, residual: str = "neso", margin: str = "central", transpo
     tv = (B.transport_for(year).commodity_gbp_mwh_gas if transport_key else 0.0)
     H = hydro_year(year, keys)
     cap = coal_lf_cap(coal_lf)
-    scale, lf_got = _coal_scale(year, avail, ex.coal, cap, L, F, H, rows, tv)
+    cpath = closures_file or str(closures_path()) if closures == "legitimate" else None
+    ied_u = ied_capped_units(year, coal_lf, cpath) if kept["stations"] else []
+    ex_jul = existing_ied_units(year, coal_lf, cpath)        # card [internal ticket]: existing coal under the IED, Jul 2020
+    lcpd_used = 0.0
+    lc_from = date.fromisoformat(_ied_hours_file()["existing"]["lcpd"]["from"]).year
+    if coal_lf.endswith("+existing") and year > lc_from:
+        # card [internal ticket]: LCPD hours used to the end of last year, at this rule's own block load factors.
+        # rb-v4-s39-rc merge: the earlier years run with this run's own closure list, class row and cost case
+        # (closure_test resolved to its overrides above), so under road_lf the hours are the road's own.
+        lcpd_used = lcpd_hours_used(year, {t: lfl_year(t, residual, margin, transport_key, closures, newbuild,
+                                                       closures_file, coal_lf, ic_basis, keep_hh, "register",
+                                                       overrides, real_date_class, cost_case).coal_lf_achieved
+                                           for t in range(lc_from, year)})
+    ex_u = ied_existing_units(year, coal_lf, cpath, lcpd_used, tuple(kept["stations"]))
+    cap_mwh = (coal_energy_limit_mwh(year, ex.coal, len(rows) / 2, coal_lf, cpath, ex_u)
+               if (ied_u or ex_u or any(u[4] is not None for u in ex_jul)) and ex.coal > 0 else None)
+    scale, lf_got = _coal_scale(year, avail, ex.coal, cap, L, F, H, rows, tv, cap_mwh)
+    capped_eq = sum(mw * sh for _, _, mw, sh, _ in ied_u)
+    coal_ied = {"rule": coal_lf, "capped_mw_eq": capped_eq,
+                "capped_cap_twh": sum(mw * sh * h for _, _, mw, sh, h in ied_u) / 1e6,
+                "limit_twh": cap_mwh / 1e6 if cap_mwh is not None else None,
+                "units": [{"station": s, "unit": u, "mw": mw, "capped_share": sh, "cap_hours": h}
+                          for s, u, mw, sh, h in ied_u],
+                "existing": [{"station": s, "unit": u, "mw": mw, "share": sh, "cap_hours": h}
+                             for s, u, mw, sh, h in ex_jul],
+                "existing_mw_eq": sum(mw * sh for _, _, mw, sh, _ in ex_u),
+                # v4-s40 item 1: whether the s29 actual-output floor applies over the limit (False where a
+                # permit-derived limit binds absolutely; True under the DUKES cap alone or the v4-s39 reading)
+                "actual_floor": cap is not None and (cap_mwh is None or coal_ceiling_reading() == "floored"),
+                "ceiling_reading": coal_ceiling_reading(),
+                "existing_cap_twh": sum(mw * sh * h for _, _, mw, sh, h in ex_u) / 1e6,
+                "lcpd_hours_used_before": lcpd_used,
+                "existing_units": [{"station": s, "unit": u, "mw": mw, "capped_share": sh, "cap_hours": h}
+                                   for s, u, mw, sh, h in ex_u]}
     A = sum(avail.values())                       # full coal MW: the cap limits energy, not capacity
     serv = [min(l, max(A, f)) for l, f in zip(L, F)]            # existing plant in fossil Britain
     short = [l - s for l, s in zip(L, serv)]
-    new = _new_block(year, rows, short, tr, der, newbuild)
-    ed = edition(year)
+    new = _new_block(year, rows, short, tr, der, newbuild, cost_case)
+    ed = edition(year, cost_case)      # O2: firm spare fixed cost; efficiencies and VOM are the same in every case
     stacks = {m: _cap_stack(stack_month(year, m, avail, tv), scale) for m in range(1, 13)}
     sparts = {m: {k: p for k, _, _, p in stack_parts(year, m, avail, tv)} for m in range(1, 13)}
     xparts = {"fuel": 0.0, "transport": 0.0, "vom": 0.0, "burn": 0.0}
@@ -853,8 +1283,17 @@ def lfl_year(year: int, residual: str = "neso", margin: str = "central", transpo
     moe_x = {m: 0.0 for m in range(1, 13)}
     moe_k = {m: 0.0 for m in range(1, 13)}
     n_m = {m: 0 for m in range(1, 13)}
+    from gascf import hh_pricing as H8
+    m8 = {m: {"f": H8.MonthSums(), "x": H8.MonthSums()} for m in range(1, 13)} if H8.active() else None
+    coal_m = {m: 0.0 for m in range(1, 13)}
+    coal_moe = {m: 0.0 for m in range(1, 13)}
+    coal_m8 = {m: H8.MonthSums() for m in range(1, 13)} if m8 is not None else None
     for r, l, f, s, sh, h in zip(rows, L, F, serv, short, H):
         m = r.day.month
+        if m8 is not None:
+            p8, g8 = H8.mid_at(r.day, r.period), H8.is_gap(r.day, r.period)
+            m8[m]["f"].add(p8, f, g8)
+            m8[m]["x"].add(p8, s - f, g8)
         st = stacks[m]
         w0, w1 = max(0.0, f - h), max(0.0, s - h)        # hydro runs first, at no running cost
         c0, p0, g0 = _walk(st, w0)
@@ -884,6 +1323,11 @@ def lfl_year(year: int, residual: str = "neso", margin: str = "central", transpo
         moe_f[m] += d * f / 2
         moe_x[m] += d * (s - f) / 2
         moe_k[m] += d * r.kept / 2
+        g1c = g1.get("coal", 0.0)                       # v4-s40 item 2: the coal block this half-hour, MW
+        coal_m[m] += g1c / 2e6
+        coal_moe[m] += d * g1c / 2
+        if coal_m8 is not None:
+            coal_m8[m].add(p8, g1c, g8)
         n_m[m] += 1
         mkt_m[m] += f / 2e6
         xm[m] += (s - f) / 2e6
@@ -948,14 +1392,21 @@ def lfl_year(year: int, residual: str = "neso", margin: str = "central", transpo
     moe_m = {m: moe_sum[m] / n_m[m] if n_m[m] else 0.0 for m in range(1, 13)}
     model_mean = sum(moe_sum.values()) / max(1, sum(n_m.values()))
     basis = "estimated" if "estimated" in (rbasis, ex.basis) else "modelled"
-    kfix, kvom, kdet = kept_costs(year, kept) if kept["stations"] else (0.0, 0.0, {})
+    kfix, kvom, kdet = kept_costs(year, kept, cost_case) if kept["stations"] else (0.0, 0.0, {})
     # filters' running cost on kept coal's extra output (kept coal's share of the coal block)
     k_ab_vom = kvom * xgen.get("coal", 0.0) * (km["coal"] / ex.coal if ex.coal else 0.0) / 1e6
+    # card [internal ticket] "+ex_scr": SCR on existing West Burton A and Drax 5-6, fixed as kept SCR, and its running
+    # cost on the two stations' MW share of the coal block's whole output (actual + extra)
+    ex_scr_fixed, ex_scr_v = existing_scr_costs(year, coal_lf, cpath)
+    coal_twh = lf_got * ex.coal * (len(rows) / 2) / 1e6
+    ex_scr_eq = sum(mw * sh for _, _, mw, sh, h in ex_jul if h is None)
+    ex_scr_vom = ex_scr_v * coal_twh * (ex_scr_eq / ex.coal if ex.coal else 0.0)
     y = LfLYear(
-        kept={**kept, **kdet}, kept_fixed_gbp_m=kfix, kept_abatement_vom_gbp_m=k_ab_vom,
+        kept={**kept, **kdet}, kept_fixed_gbp_m=kfix, kept_abatement_vom_gbp_m=k_ab_vom, closure_test=ct_detail,
         extra_gen_by_block_twh={k: v / 1e6 for k, v in xgen.items()}, closures=closures, newbuild=newbuild,
         nuclear_note=ff.nuclear_available(year)[1],
-        coal_lf=coal_lf, coal_lf_cap=cap or 0.0, coal_avail_scale=scale, coal_lf_achieved=lf_got, coal_twh=lf_got * ex.coal * (len(rows) / 2) / 1e6,
+        coal_lf=coal_lf, coal_lf_cap=cap or 0.0, coal_avail_scale=scale, coal_lf_achieved=lf_got, coal_twh=coal_twh, coal_ied=coal_ied,
+        existing_scr_fixed_gbp_m=ex_scr_fixed, existing_scr_vom_gbp_m=ex_scr_vom,
         gas_marginal_share=n_gas_marg / max(1, len(rows)), gas_marginal_share_actual_load=n_gas_marg0 / max(1, len(rows)), extra_gas_fuel_gbp_m=xgas_fuel / 1e6, kept_twh_m=kept_m,
         year=year, market_twh_m=mkt_m, extra_twh=extra_twh, extra_twh_m=xm, energy_twh_m=lm, extra_cost_gbp_m=extra_cost / 1e6,
         extra_fuel_gbp_m=extra_fuel, extra_vom_gbp_m=extra_vom,
@@ -977,7 +1428,8 @@ def lfl_year(year: int, residual: str = "neso", margin: str = "central", transpo
         actual_fossil_twh=sum(F) / 2e6, energy_twh=sum(L) / 2e6, peak_mw=peak, existing=ex,
         existing_derated_mw=A, gas_burn_existing_twh=gas_burn, basis=basis,
         sizing=sp, firm_req=fr, ic_called_twh_m=called_m, ic_called_twh=sum(called_m.values()),
-        ic_called_halfhours=n_called, worked_hh=None,
+        ic_called_halfhours=n_called, worked_hh=None, m8_sums=m8,
+        coal_twh_m=coal_m, coal_moe_vol_m=coal_moe, coal_m8=coal_m8,
         hh_cap=tuple(hh_cap) if keep_hh else None,
         hh_debug={"stacks": stacks, "new_srmc": new_srmc, "new_ccgt_mw": new_ccgt_mw} if keep_hh else None)
     return replace(y, worked_hh=_worked_hh(hh_cap, moe_factor(y, "shao")))
@@ -1025,6 +1477,18 @@ def actual_power_gas_burn_twh(year: int) -> float:
     return float(r[j]) / 1e3
 
 
+# Card [internal ticket]: M6 (0163 R7 (a)) both ways is the default; the v4-s37/v4-s38 floored dQ is an explicit setting,
+# $GASCF_M6_FEEDBACK=floored, for guards that reproduce frozen releases cut before v4-s39. Not a range or methods row.
+M6_ENV, M6_OPTIONS, M6_DEFAULT = "GASCF_M6_FEEDBACK", ("both", "floored"), "both"
+
+
+def m6_reading() -> str:
+    v = os.environ.get(M6_ENV, M6_DEFAULT)
+    if v not in M6_OPTIONS:
+        raise ValueError(f"${M6_ENV}={v!r}: one of {M6_OPTIONS}")
+    return v
+
+
 def gas_feedback(y: LfLYear, rule: str = DEFAULT_GAS_FEEDBACK) -> dict:
     """Spec §15.5 item 2: fossil Britain burns more gas, so its gas price is higher.
 
@@ -1035,7 +1499,8 @@ def gas_feedback(y: LfLYear, rule: str = DEFAULT_GAS_FEEDBACK) -> dict:
     0.06 supply only, kept for case B (0048, open); see the comment above GAS_FEEDBACK_RULES. Q = EU historic demand
     4,000 TWh (Neuhoff Table 2) + GB gas demand that year (ET 4.1), dQ = fossil Britain's gas
     burn for power (existing plant at fossil Britain's load + new plant) less the actual gas
-    burnt by major power producers (DUKES 5.6.A), floored at 0 (s27c fix: was measured against
+    burnt by major power producers (DUKES 5.6.A), signed: negative where fossil Britain burns less gas, so its
+    gas price is lower (RB v1.1 M6, decision 0163 R7 (a); was floored at 0 to v4-s38) (s27c fix: was measured against
     the engine's coal-first dispatch of the actual load, which double-counted). Applied to (a) the at-cost gas fuel (existing
     plant's extra running and the new plant), and (b) every market-priced MWh (actual fossil
     output and the kept nuclear, imports and pumped storage) x the share of half-hours gas
@@ -1051,7 +1516,12 @@ def gas_feedback(y: LfLYear, rule: str = DEFAULT_GAS_FEEDBACK) -> dict:
     # output is market-priced) but not for the change in gas DEMAND the market sees.
     fossil_burn = y.gas_burn_existing_twh + (y.new or {}).get("gas_burn_twh", 0.0)
     actual_burn = actual_power_gas_burn_twh(y.year)
-    dq = max(0.0, fossil_burn - actual_burn)
+    # RB v1.1 M6 (decision 0163, R7 (a), Richard Lyon 21 Oct 2026): the feedback works both ways. dQ is the signed
+    # difference; where fossil Britain burns less gas than the actual system, its gas price is lower (was floored at 0).
+    m6 = m6_reading()
+    dq = fossil_burn - actual_burn
+    if m6 == "floored":          # v4-s37/v4-s38 reading, explicit only (card [internal ticket])
+        dq = max(0.0, dq)
     d = gb_gas_demand_twh()
     yy = y.year if y.year in d else (min(d) if y.year < min(d) else max(d))
     if yy != y.year:

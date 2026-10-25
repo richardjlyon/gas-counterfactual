@@ -338,7 +338,35 @@ GEN_SHARE_OPTIONS = ("removed", "included")   # 'removed' = central (s27b); 'inc
 
 
 def nz7(years=YEARS, gen_share: str = "removed") -> dict[int, dict]:
-    """NZ7 by calendar year, £m nominal. Basis = weakest of the two FYs used.
+    """NZ7 by calendar year, £m nominal, from the shared cost register (0168): series TNUOS (the whole charge;
+    CY2002–05 the assembled allowances, modelled) and, for 'removed', Reliable Britain's input adjustment
+    rb.TNUOS.generators_share_out. Both were built by `src_nz7` at the v4-s39 release.
+
+    gen_share: 'removed' (central, s27b): each FY's total less the generators' share
+    (`tnuos_gen_share_fy`); 'included': the whole TNUoS total (the pre-s27 line)."""
+    from gascf import register_pin as RP
+    if gen_share not in GEN_SHARE_OPTIONS:
+        raise ValueError(gen_share)
+    reg = RP.register()
+    vals = reg.line("TNUOS", "rb") if gen_share == "removed" else reg.series("TNUOS")
+    gs = tnuos_gen_share_fy() if gen_share == "removed" else None
+    out = {}
+    for y in years:
+        r = reg.row("TNUOS", y)
+        src = r["source_id"]
+        if gs is not None and y not in BASE_WINDOW:
+            src += f"|{gs[y - 1]['source_id']}|{gs[y]['source_id']}"
+        out[y] = {"gbp_m": vals[y], "basis": r["basis"], "source_id": src, "geo": "GB"}
+    if gen_share == "removed":
+        g = tnuos_gen_share_cy(years)
+        for y in out:
+            out[y]["gen_share"] = g[y]
+    return dict(sorted(out.items()))
+
+
+def src_nz7(years=YEARS, gen_share: str = "removed") -> dict[int, dict]:
+    """The engine's reading of its stored TNUoS files: the register's builder only (0168).
+    NZ7 by calendar year, £m nominal. Basis = weakest of the two FYs used.
 
     gen_share: 'removed' (central, s27b): each FY's total less the generators' share
     (`tnuos_gen_share_fy`); 'included': the whole TNUoS total (the pre-s27 line)."""

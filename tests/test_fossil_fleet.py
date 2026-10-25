@@ -44,7 +44,9 @@ def test_unknown_basis_raises():
 
 @pytest.mark.parametrize("year,ccgt", [(2005, "mm2010-tableA1"), (2012, "pb2012-ccgt"), (2014, "pb2013-ccgt"),
                                        (2017, "beis-egc2016-table19"), (2021, "beis-egc2020-keydata"),
-                                       (2024, "desnz-egc2023-annexA"), (2025, "desnz-egc2025-annexA")])
+                                       (2024, "desnz-egc2023-annexA"),
+                                       # v4-s42 (A4, decision 0195): 2025 on EGC 2023, the set in force at the end of 2025
+                                       (2025, "desnz-egc2023-annexA")])
 def test_edition_rule(year, ccgt):
     e = F.edition(year)
     assert e.source_id["ccgt"] == ccgt
@@ -66,7 +68,8 @@ def test_fixed_cost_restated_with_cpih():
 
 
 def test_coal_capacity_gb_drops_kilroot_and_hits_zero():
-    assert F.coal_capacity_gb(2010)[0] == pytest.approx(F.coal_capacity_uk()[2010] - 662)
+    # v4-s42 (A1, decision 0195): Kilroot coal 2010 is 520 MW (the DUKES 2010 row of 662 carries its 142 MW OCGT)
+    assert F.coal_capacity_gb(2010)[0] == pytest.approx(F.coal_capacity_uk()[2010] - 520)
     assert F.coal_capacity_gb(2025)[0] == 0.0
 
 

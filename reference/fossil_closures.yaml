@@ -123,7 +123,16 @@
   "source_title": "DECC, Energy Trends September 2015 special feature: LCPD running hours 2014/15 and capacity 2015/16",
   "source_file": "data/raw/s23a/s23a-DECC_LCPD_2014_15.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Tilbury B",
+   "if_kept_rule": "lcpd_opt_out",
+   "if_kept_close": "2013-08-31",
+   "if_kept_source": "LCPD opted out (DECC LCPD 2014/15, this row's quote: 'Tilbury closed in August 2013'): the register's s23a fossil-Britain close = LCPD date, August 2013 (month end, the register's convention for a month-only date); no filters allowed for an opted-out plant",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Derwent",
@@ -267,7 +276,9 @@
   "source_title": "DESNZ, DUKES 2026 Table 5.11, sheet 'Changed and converted stations' (stored data/raw/DUKES_5.11.xlsx)",
   "source_file": "data/raw/s23a/s23a-DUKES_5.11_changed.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "biomass_conversion",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: DUKES 5.11 'Changed and converted stations' (s23a-DUKES_5.11_changed.txt): 2013 Drax Coal Partially Converted 3960 -> 3300"
  },
  {
   "station": "Ironbridge",
@@ -285,7 +296,16 @@
   "source_title": "DECC, Energy Trends September 2013 special feature: LCPD running hours winter 2012/13",
   "source_file": "data/raw/s23a/s23a-DECC_LCPD_running_hours_2012_13.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Ironbridge",
+   "if_kept_rule": "lcpd_opt_out",
+   "if_kept_close": "2015-12-31",
+   "if_kept_source": "LCPD opted out (NGET 07/32: '20,000 hours of operation between 1st Jan 08 and 31st Dec 2015'): the register's s23a fossil-Britain close 31 Dec 2015 (latest LCPD date)",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Roosecote",
@@ -357,7 +377,9 @@
   "source_title": "DESNZ, DUKES 2026 Table 5.11, sheet 'Changed and converted stations' (stored data/raw/DUKES_5.11.xlsx)",
   "source_file": "data/raw/s23a/s23a-DUKES_5.11_changed.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "biomass_conversion",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: DUKES 5.11 'Changed and converted stations' (s23a-DUKES_5.11_changed.txt): 2014 Drax Coal Partially Converted 3300 -> 2640"
  },
  {
   "station": "Ferrybridge C",
@@ -429,7 +451,9 @@
   "source_title": "DESNZ, DUKES 2026 Table 5.11, sheet 'Changed and converted stations' (stored data/raw/DUKES_5.11.xlsx)",
   "source_file": "data/raw/s23a/s23a-DUKES_5.11_changed.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "biomass_conversion",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: DUKES 5.11 'Changed and converted stations' (s23a-DUKES_5.11_changed.txt): 2015 Drax Coal Partially Converted 2640 -> 1980"
  },
  {
   "station": "Lynemouth",
@@ -447,7 +471,9 @@
   "source_title": "Commission Decision (EU) 2017/1436 of 1 Dec 2015 on state aid SA.38762 for Lynemouth biomass conversion",
   "source_file": "data/raw/s23a/s23a-EC_Lynemouth_stateaid_2015.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "biomass_conversion",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: DUKES 5.11 'Changed and converted stations' (s23a-DUKES_5.11_changed.txt): 2015 Lynemouth Mothballed, reopened as a biomass plant in 2018; Commission Decision (EU) 2017/1436, SA.38762 (s23a-EC_Lynemouth_stateaid_2015.pdf): 'aid for the conversion of the coal fired Lynemouth power station to operate entirely on biomass'"
  },
  {
   "station": "Ferrybridge C",
@@ -465,7 +491,16 @@
   "source_title": "SSE plc RNS, 20 May 2015, Review of coal-fired generation assets",
   "source_file": "data/raw/s23a/s23a-SSE_RNS_coal_review_2015.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Ferrybridge C",
+   "if_kept_rule": "ied_lld",
+   "if_kept_close": null,
+   "if_kept_source": "IED limited-life derogation (SSE_IED_2013; Defra LLD list): 17,500 hours to 31 Dec 2023 at most; the register: 'The legitimate (IED) close cannot be dated from the hours without running-hours data, so the actual date is kept (conservative)'",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Longannet",
@@ -483,7 +518,16 @@
   "source_title": "ScottishPower press release, 2015, Longannet Power Station to close in March 2016",
   "source_file": "data/raw/s23a/s23a-SP_Longannet_close_Mar2016.md",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Longannet",
+   "if_kept_rule": "ied_tnp",
+   "if_kept_close": "2020-06-30",
+   "if_kept_source": "IED Transitional National Plan (Defra TNP Annex B; register s23a convention: FGD+SCR 'required to run past June 2020'): runs to 30 June 2020, then fits FGD+SCR or closes (spec §15.4 item 3, §15.3 item 2)",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Killingholme",
@@ -507,19 +551,28 @@
   "station": "Rugeley",
   "unit": "all",
   "fuel": "coal",
-  "capacity_mw": 448,
+  "capacity_mw": 1006,
   "actual_close": "2016-06-30",
   "reason": "mixed",
   "fossil_britain_close": "2020-06-30",
   "abatement_needed": null,
-  "source_id": "DUKES511_CHANGED",
+  "source_id": "DUKES511_EDITIONS",
   "url": "https://www.gov.uk/government/statistics/electricity-chapter-5-digest-of-united-kingdom-energy-statistics-dukes",
-  "quote": "2016 | Rugeley | Coal | Closed | 448 | 0",
-  "note": "Reuters (press, colour only) reports Engie's statement: 'market conditions for UK coal plant have deteriorated rapidly in recent years, as a result of a continued fall in power prices on the back of a commodity market decline, and increases in carbon costs'. The Engie primary statement was not retrieved, so per the brief the reason is 'other' with the actual date. DUKES 5.11 changed list gives 448 MW; the DUKES 2016 edition lists Rugeley at 1006 MW (GAP: capacity discrepancy). FLAG: with Engie's primary statement this would likely be 'mixed' or 'net_zero_policy' (~1 GW). s24 closure test (spec §15.4 item 2; work/s24-closure-test/margins.md): margin in fossil Britain without carbon, before filters: 2013 £+56m, 2014 £+14m, 2015 £+3m. After FGD+SCR (required to run past June 2020, s23a convention): 2015 £-46m. Positive in the year before closure (and in all three years), with the station's own TNUoS load factors and the higher of the two possible zone tariffs (16/18): by Richard's rule (spec §15.4 item 2) the closure was caused by carbon costs, so reason net_zero_policy and it keeps running in fossil Britain. The margin is thin (£3m on £57m revenue) and is not robust to small input changes. It was in the IED Transitional National Plan (Defra TNP Annex B), so like the other kept TNP stations it pays for FGD+SCR after June 2020 (s23a convention, fitment not documented); with that cost on 2015 terms the margin would be negative, so its long-run survival in fossil Britain is doubtful. Carbon cause: Reuters report of Engie's statement (press); the Engie primary statement still not retrieved. Capacity 448 MW per DUKES 5.11 (editions 1006 MW, GAP). PARENT FIX 11 Oct (Richard, spec §15.4 item 3): reason set to mixed: carbon costs caused the 2016 closure, but the pollution-law deadline would have closed it in fossil Britain; with FGD+SCR it loses money (2015 £-46m), so in fossil Britain it runs until the pollution-law deadline (30 Jun 2020) and then closes, rather than paying for filters that do not pay (air_pollution limit, spec §15.3 item 2).",
-  "source_title": "DESNZ, DUKES 2026 Table 5.11, sheet 'Changed and converted stations' (stored data/raw/DUKES_5.11.xlsx)",
-  "source_file": "data/raw/s23a/s23a-DUKES_5.11_changed.txt",
+  "quote": "DUKES 2016 :: Rugeley | Coal | 1006 | 1972 | West Midlands",
+  "note": "Reuters (press, colour only) reports Engie's statement: 'market conditions for UK coal plant have deteriorated rapidly in recent years, as a result of a continued fall in power prices on the back of a commodity market decline, and increases in carbon costs'. The Engie primary statement was not retrieved, so per the brief the reason is 'other' with the actual date. CAPACITY (decision 0159, Richard Lyon, 21 Oct 2026: \"A we have to fix it.\"): 1,006 MW, the installed capacity of the coal station in all 13 DUKES edition sheets 2004-16 of the DESNZ DUKES 2026 Table 5.11 workbook (stored data/raw/DUKES_5.11.xlsx, byte-identical to the programme's sources/files/desnz-dukes-2026-table-5.11.xlsx, sha256 760286f4...c72a; text extract data/raw/s23a/s23a-DUKES_5.11_editions.txt). Excel rows: 'DUKES 2016' row 107, 'DUKES 2015' row 253, 'DUKES 2014' row 237, 'DUKES 2013' row 239, 'DUKES 2012' row 225, 'DUKES 2011' row 226, 'DUKES 2010' row 197, 'DUKES 2009' row 196, 'DUKES 2008' row 168, 'DUKES 2007' row 176, 'DUKES 2006' row 175, 'DUKES 2005' row 152, 'DUKES 2004' row 102; each reads Rugeley, coal, 1006 MW, 1972 (the 50 MW Rugeley GT, gas oil, is listed separately on the next row and is not included). The 'Changed and converted stations' sheet row 58 (2016 | Rugeley | Coal | Closed | 448 | 0, Notes empty) is out of line with every edition sheet and unexplained; it is not used here (only DESNZ can say whether it is an error). Releases to v4-s37 used 448 MW. FLAG: with Engie's primary statement this would likely be 'mixed' or 'net_zero_policy' (~1 GW). s24 closure test (spec §15.4 item 2; work/s24-closure-test/margins.md): margin in fossil Britain without carbon, before filters, at 1,006 MW and zone 18: 2013 £+129m, 2014 £+34m, 2015 £+10m (at 1,006 MW and zone 16: £+127m, £+31m, £+7m; at 448 MW and zone 16: £+56m, £+14m, £+3m). After FGD+SCR (required to run past June 2020, s23a convention): 2015 £-101m (1,006 MW and zone 16: £-103m; 448 MW: £-46m). Positive in the year before closure (and in all three years), with the station's own TNUoS load factors and its zone 18 tariff (C-007, Richard Lyon, 21 Oct 2026, relayed by the chief-executive: \"Agree to all. Yep.\"; NG 'TNUoS tariffs for 2013/14', doc 50671, p.27 lists 'Rugeley B' old zone 14 -> new zone 18; releases to v4-s37 used the higher of zones 16 and 18): by Richard's rule (spec §15.4 item 2) the closure was caused by carbon costs, so reason net_zero_policy and it keeps running in fossil Britain. The margin is thin (£10m on £128m revenue in 2015 at 1,006 MW and zone 18) and is not robust to small input changes. It was in the IED Transitional National Plan (Defra TNP Annex B), so like the other kept TNP stations it pays for FGD+SCR after June 2020 (s23a convention, fitment not documented); with that cost on 2015 terms the margin would be negative, so its long-run survival in fossil Britain is doubtful. Carbon cause: Reuters report of Engie's statement (press); the Engie primary statement still not retrieved. PARENT FIX 11 Oct (Richard, spec §15.4 item 3): reason set to mixed: carbon costs caused the 2016 closure, but the pollution-law deadline would have closed it in fossil Britain; with FGD+SCR it loses money (2015 £-46m at the 448 MW then used; £-101m at 1,006 MW and zone 18), so in fossil Britain it runs until the pollution-law deadline (30 Jun 2020) and then closes, rather than paying for filters that do not pay (air_pollution limit, spec §15.3 item 2).",
+  "source_title": "DESNZ, DUKES 2026 Table 5.11, edition sheets 'DUKES 2004'..'DUKES 2016' (stored data/raw/DUKES_5.11.xlsx)",
+  "source_file": "data/raw/s23a/s23a-DUKES_5.11_editions.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Rugeley",
+   "if_kept_rule": "ied_tnp",
+   "if_kept_close": "2020-06-30",
+   "if_kept_source": "IED Transitional National Plan (Defra TNP Annex B; register s23a convention: FGD+SCR 'required to run past June 2020'): runs to 30 June 2020, then fits FGD+SCR or closes (spec §15.4 item 3, §15.3 item 2); this row's PARENT FIX 11 Oct",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Uskmouth",
@@ -573,7 +626,9 @@
   "source_title": "DESNZ, DUKES 2026 Table 5.11, sheet 'Changed and converted stations' (stored data/raw/DUKES_5.11.xlsx)",
   "source_file": "data/raw/s23a/s23a-DUKES_5.11_changed.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "biomass_conversion",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: DUKES 5.11 'Changed and converted stations' (s23a-DUKES_5.11_changed.txt): 2018 Drax Coal Converted 1980 -> 1320"
  },
  {
   "station": "Eggborough",
@@ -627,7 +682,16 @@
   "source_title": "SSE plc RNS 1284C, 13 Jun 2019, Proposed closure of Fiddler's Ferry coal station",
   "source_file": "data/raw/s23a/s23a-SSE_RNS_FiddlersFerry_2019.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Fiddler's Ferry unit 1",
+   "if_kept_rule": "ied_tnp",
+   "if_kept_close": "2020-06-30",
+   "if_kept_source": "IED Transitional National Plan (Defra TNP Annex B; register s23a convention: FGD+SCR 'required to run past June 2020'): runs to 30 June 2020, then fits FGD+SCR or closes (spec §15.4 item 3, §15.3 item 2); Defra TNP Annex B row 66",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Barry",
@@ -681,7 +745,16 @@
   "source_title": "EDF Energy news release, 2019, Cottam power station to cease generation",
   "source_file": "data/raw/s23a/s23a-EDF_Cottam_2019.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Cottam",
+   "if_kept_rule": "ied_tnp",
+   "if_kept_close": "2020-06-30",
+   "if_kept_source": "IED Transitional National Plan (Defra TNP Annex B; register s23a convention: FGD+SCR 'required to run past June 2020'): runs to 30 June 2020, then fits FGD+SCR or closes (spec §15.4 item 3, §15.3 item 2); 'Cottam Power Station LCP1'",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Knapton",
@@ -717,7 +790,16 @@
   "source_title": "RWE Generation SE press release, 1 Aug 2019, Aberthaw Power Station to be closed",
   "source_file": "data/raw/s23a/s23a-RWE_Aberthaw_2019.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Aberthaw B",
+   "if_kept_rule": "ied_tnp",
+   "if_kept_close": "2020-06-30",
+   "if_kept_source": "IED Transitional National Plan (Defra TNP Annex B; register s23a convention: FGD+SCR 'required to run past June 2020'): runs to 30 June 2020, then fits FGD+SCR or closes (spec §15.4 item 3, §15.3 item 2)",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Aberthaw GT",
@@ -753,7 +835,16 @@
   "source_title": "SSE plc RNS 1284C, 13 Jun 2019, Proposed closure of Fiddler's Ferry coal station",
   "source_file": "data/raw/s23a/s23a-SSE_RNS_FiddlersFerry_2019.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_test": {
+   "margin_name": "Fiddler's Ferry units 2-4",
+   "if_kept_rule": "ied_tnp",
+   "if_kept_close": "2020-06-30",
+   "if_kept_source": "IED Transitional National Plan (Defra TNP Annex B; register s23a convention: FGD+SCR 'required to run past June 2020'): runs to 30 June 2020, then fits FGD+SCR or closes (spec §15.4 item 3, §15.3 item 2); Defra TNP Annex B row 66",
+   "decision": "RB v1.1 M2, decision 0163 R1-R3 (a), Richard Lyon 21 Oct 2026 (relayed): used only under closure_test='road_lf'"
+  },
+  "closure_class": "mixed",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: the register's own reason 'mixed' (spec §15.4 item 4), as now"
  },
  {
   "station": "Sandbach",
@@ -843,7 +934,9 @@
   "source_title": "EDF news release, 22 Mar 2021, West Burton A to close Sept 2022, two years ahead of Government deadline",
   "source_file": "data/raw/s23a/s23a-EDF_WestBurton_Sep2022_2021.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "coal_phase_out_deadline",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: EDF news release 22 Mar 2021 (s23a-EDF_WestBurton_Sep2022_2021.txt): 'two years ahead of Government deadline for coal-fired power'; no source names the carbon price"
  },
  {
   "station": "Drax",
@@ -861,7 +954,9 @@
   "source_title": "Drax Group plc, Feb 2020, End of coal generation at Drax Power Station",
   "source_file": "data/raw/s23a/s23a-Drax_end_coal_RNS.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "coal_phase_out_deadline",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: Drax Group RNS Feb 2020 (s23a-Drax_end_coal_RNS.txt): 'ahead of the UK's 2025 deadline'; also economics and the CM; no source names the carbon price"
  },
  {
   "station": "Baglan Bay",
@@ -897,7 +992,9 @@
   "source_title": "BEIS press release, 30 Jun 2021, End to coal power brought forward to October 2024",
   "source_file": "data/raw/s23a/s23a-GOVUK_coal_Oct2024_2021.txt",
   "retrieved": "2026-10-11",
-  "basis": "measured"
+  "basis": "measured",
+  "closure_class": "coal_phase_out_deadline",
+  "closure_class_source": "R34 (a), ruled in decision 0164 (Richard Lyon, 21 Oct 2026); option-a-sourcing.md section 8: BEIS press release 30 Jun 2021 (s23a-GOVUK_coal_Oct2024_2021.txt): 'From 1 October 2024 Great Britain will no longer use coal to generate electricity'"
  },
  {
   "station": "Kingsnorth GT",

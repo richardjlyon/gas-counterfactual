@@ -77,6 +77,10 @@ DECISION_0133_KEYS = {"2.5": ["ecr2026_t1_derated_margin_low_gw", "ecr2026_t1_de
 # Decision 0144 item 2A (Richard Lyon, 20 Oct 2026; v4-s37): the gas-feedback pairs' sources, engine-checked.
 DECISION_0144_KEYS = {"9": ["albrizio_eu_weighted_gas_demand_elasticity", "krichene_sr_gas_supply_table5",
                             "krichene_lr_gas_demand_table2"]}
+# Decision 0175 item 22 (b) (card [internal ticket], sweep-flags row 5): the UCL cells, 47 keys, all section 3, claims IDs
+# not yet numbered; checked cell by cell in tests/test_ucl_cells_0175_item22.py.
+ITEM22_KEYS = {k.removeprefix("sourced.") for k in json.loads(SOURCED.read_text())["keys"]
+               if k.startswith(("sourced.ucl_t1_", "sourced.ucl_t9_", "sourced.ucl_t10_", "sourced.ucl_discrepancies_"))}
 
 
 def test_the_writers_51_keys_plus_0133s_3_and_no_others(entries):
@@ -85,7 +89,11 @@ def test_the_writers_51_keys_plus_0133s_3_and_no_others(entries):
     extra = {f"sourced.{k}" for ks in DECISION_0133_KEYS.values() for k in ks}
     extra44 = {f"sourced.{k}" for ks in DECISION_0144_KEYS.values() for k in ks}
     assert len(extra) == 3 and not extra & want and len(extra44) == 3 and not extra44 & (want | extra)
-    assert set(entries) == want | extra | extra44
+    extra22 = {f"sourced.{k}" for k in ITEM22_KEYS}
+    assert len(extra22) == 8 * 5 + 7 and not extra22 & (want | extra | extra44)
+    assert set(entries) == want | extra | extra44 | extra22
+    for k in ITEM22_KEYS:
+        assert entries[f"sourced.{k}"]["section"] == "3", k
     for k in DECISION_0144_KEYS["9"]:
         assert entries[f"sourced.{k}"]["section"] == "9", k
     for sec, ks in (WRITER_KEYS | {"2.5": WRITER_KEYS["2.5"] + DECISION_0133_KEYS["2.5"]}).items():
@@ -101,7 +109,7 @@ def test_claims_ids_as_settled_and_the_rest_flagged_tbc(entries):
             assert not e.get("claims_id_tbc"), k
         else:
             assert e.get("claims_id_tbc") is True and "claims_id" not in e, k
-    assert len([e for e in entries.values() if e.get("claims_id_tbc")]) == 10 + 3 + 3   # 0122's ten, 0133's, 0144's
+    assert len([e for e in entries.values() if e.get("claims_id_tbc")]) == 10 + 3 + 3 + 47   # 0122, 0133, 0144, item 22
 
 
 def test_every_entry_has_value_units_source_locator_file_and_a_known_status(entries):

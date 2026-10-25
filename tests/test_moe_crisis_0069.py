@@ -59,15 +59,24 @@ def test_no_build_path_reads_table_5(tmp_path):
     p = _fixture(tmp_path, ltmoe_gbp_mwh={**d["ltmoe_gbp_mwh"], "values": lt})
     for y in MC.CRISIS_YEARS:
         assert MC.target_gbp_mwh(y, 1.0, p) == MC.target_gbp_mwh(y, 1.0)
-    for f in ("bills.py", "fossil_like_for_like.py", "moe_crisis.py"):
-        src = (ROOT / "src/gascf" / f).read_text()
-        assert "ltmoe" not in src.replace('"ltmoe_gbp_mwh" is carried', ""), f
+    # RB v1.1 M10 (0160; 0163 R10 (a), Richard Lyon 21 Oct 2026): Table 5 is read by one held sensitivity rule,
+    # 'ucl_ltmoe' (bills.HELD_M10), and by nothing else. Card [internal ticket] narrowed this guard from "no source line
+    # names ltmoe" (0087, before M10 was ruled) to: no central or range build reads it, and every line naming it
+    # belongs to the M10 rule.
+    from gascf import bills as B
+    assert B.CENTRAL.moe_crisis != "ucl_ltmoe"
+    assert all(s.moe_crisis != "ucl_ltmoe" for v in B.SWITCHES.values() for s in v)
+    assert "ltmoe" not in (ROOT / "src/gascf/fossil_like_for_like.py").read_text()
+    for f in ("bills.py", "moe_crisis.py"):
+        for line in (ROOT / "src/gascf" / f).read_text().replace('"ltmoe_gbp_mwh" is carried', "").splitlines():
+            if "ltmoe" in line:
+                assert "ucl_ltmoe" in line or "M10" in line or line.lstrip().startswith("#"), (f, line)
 
 
 def test_build_refuses_the_ucl_case_on_a_pending_data_file_before_any_output(tmp_path, monkeypatch):
     from gascf import bills as B
     from gascf.pending import PendingSourceError
-    assert B.CENTRAL.moe_crisis == "shao"
+    assert B.CENTRAL.moe_crisis == "m9_direct_mayon"     # v4-s39: 0164 addendum (M9 B); was "shao" to v4-s38
     monkeypatch.setattr(MC, "DATA", _fixture(tmp_path, status="PENDING"))
     MC.read.cache_clear()
     try:
@@ -91,6 +100,13 @@ def test_ucl_case_applied_mean_uplift_is_target_b_in_each_crisis_year():
 def central():
     from gascf import bills as B
     return B.build()
+
+
+@pytest.fixture(scope="module")
+def shao():
+    """Shao in every month: the v4-s38 central rule (card [internal ticket]; central is M9 B from v4-s39, 0164)."""
+    from gascf import bills as B
+    return B.build(B.replace(B.CENTRAL, moe_crisis="shao"))
 
 
 @pytest.fixture(scope="module")
@@ -120,7 +136,7 @@ def test_ucl_case_is_a_methods_page_switch_not_in_the_range():
     from gascf import bills as B
     name = "merit-order uplift 2021-23: UCL short-run (preprint)"
     assert [s.moe_crisis for s in B.METHOD_SWITCHES[name]] == ["ucl_stmoe"]
-    assert all(s.moe_crisis == "shao" for v in B.SWITCHES.values() for s in v)
+    assert all(s.moe_crisis == B.CENTRAL.moe_crisis for v in B.SWITCHES.values() for s in v)
 
 
 def test_run_file_block_is_registered_through_the_hook():
@@ -131,28 +147,32 @@ def test_run_file_block_is_registered_through_the_hook():
     assert "moe_crisis" in X._BLOCKS
 
 
-def test_both_gaps_printed_in_the_run_file_block(central):
-    """Spec test 5: `moe_crisis.years[y]` has shao, ucl_stmoe and difference = ucl_stmoe - shao for
-    2021-23; shao equals the central gap. (Block, not gap[y]: the hook may not replace `gap`.)"""
+def test_both_gaps_printed_in_the_run_file_block(central, shao, ucl):
+    """Spec test 5: `moe_crisis.years[y]` has central, shao, ucl_stmoe for 2021-23. v4-s39 (card [internal ticket];
+    0164 addendum): central = the build (M9 B), shao = Shao in every month, difference = ucl_stmoe - central
+    (the UCL row re-based on the new central). (Block, not gap[y]: the hook may not replace `gap`.)"""
     from gascf import moe_crisis_block as MB
     from gascf import bills as B
     b = MB.block(central)
-    ucl = B.build(B.replace(B.CENTRAL, moe_crisis="ucl_stmoe"))
+    assert b["central_rule"] == B.CENTRAL.moe_crisis == "m9_direct_mayon"
     assert sorted(b["years"]) == ["2021", "2022", "2023"]
     for y in MC.CRISIS_YEARS:
         r = b["years"][str(y)]
-        assert r["shao"]["per_household_real"] == pytest.approx(central[y]["totals"]["gap_per_hh_real"], abs=1e-9)
-        assert r["shao"]["national_gbp_bn_real"] == pytest.approx(central[y]["totals"]["gap_real_bn"], abs=1e-12)
+        assert r["central"]["per_household_real"] == pytest.approx(central[y]["totals"]["gap_per_hh_real"], abs=1e-9)
+        assert r["central"]["national_gbp_bn_real"] == pytest.approx(central[y]["totals"]["gap_real_bn"], abs=1e-12)
+        assert r["shao"]["national_gbp_m_nominal"] == pytest.approx(shao[y]["totals"]["gap_gbp_m"], abs=1e-9)
         assert r["ucl_stmoe"]["national_gbp_m_nominal"] == pytest.approx(ucl[y]["totals"]["gap_gbp_m"], abs=1e-9)
+        assert abs(r["shao"]["national_gbp_m_nominal"] - r["central"]["national_gbp_m_nominal"]) > 1.0, y
         for k in ("per_household_real", "national_gbp_bn_real", "national_gbp_m_nominal"):
-            assert r["difference"][k] == pytest.approx(r["ucl_stmoe"][k] - r["shao"][k], abs=1e-9)
+            assert r["difference"][k] == pytest.approx(r["ucl_stmoe"][k] - r["central"][k], abs=1e-9)
     assert b["peer_reviewed"] is False and b["source_id"] == MC.read()["source_id"]
 
 
-def test_ucl_gap_is_smaller_than_the_shao_gap_each_crisis_year(central, ucl):
-    """Spec test 6: a larger uplift raises Reliable Britain's bill, so the gap falls."""
+def test_ucl_gap_is_smaller_than_the_shao_gap_each_crisis_year(shao, ucl):
+    """Spec test 6: a larger uplift raises Reliable Britain's bill, so the gap falls (against Shao in every
+    month; from v4-s39 the central is M9 B, card [internal ticket])."""
     for y in MC.CRISIS_YEARS:
-        assert _per_hh(ucl, y) < _per_hh(central, y), y
+        assert _per_hh(ucl, y) < _per_hh(shao, y), y
 
 
 def test_central_unchanged_and_applied_uplift_is_shao_every_year(central):
@@ -175,29 +195,52 @@ def test_central_unchanged_and_applied_uplift_is_shao_every_year(central):
     (fleet extra_moe_gbp_m); the uplift on the actual output is unchanged, and that is what is pinned here."""
     import json
     pre = json.loads((ROOT / "tests/fixtures/moe_crisis_central_pre18.json").read_text())["values"]
-    pin = json.loads((ROOT / "tests/fixtures/moe_crisis_central_s36_merged.json").read_text())
+    # Re-pinned 22 Oct 2026 (card [internal ticket]): part s39, the v4-s39 rulings (0159-0170, C-005/C-008/C-009), from
+    # work/[internal ticket]/repin_moe_0069.py (the build on this seam). The uplift on actual output is unchanged except in
+    # 2021-23 (M9 B, 0164: scaled, not Shao) and 2020 (coal hours 0166 from 1 Jul 2020 move part of the actual
+    # fossil output off the existing blocks, +32.2 £m measured by the script).
+    # Re-pinned 23 Oct 2026 (card [internal ticket]): part s40, v4-s40 item 2 (decision 0175, kept coal's M3 margin on the
+    # road's own revenue), from work/[internal ticket]/repin_s40.py on the M4 at c48c477: on this fixture register item 2
+    # moves 2016-20 and 2023-25, item 1 moves nothing, and the v4-s39 readings reproduce the s39 pin exactly. The
+    # uplift on actual output does not move (the assertions below are unchanged).
+    # Re-pinned 24 Oct 2026 (card [internal ticket]): part s42, the seven input fixes of v4-s42 (decision 0195), from
+    # work/[internal ticket]/repin_s42.py on this seam (the v4-s42 build). By year: 2002-06 A2 (NI CCGT; 2002-05 through the
+    # unchanged nearest-year fill), 2010-11 A1, A5 (2011) and D1, 2021-25 A3, 2025 A4; C1 moves no gap. Attribution
+    # from the single-fix candidate trees ([internal ticket]) on the M4. The uplift on actual output does not move.
+    # Re-pinned 24 Oct 2026 (card [internal ticket]): part s43, decision 0197 (each year's own NI station list), 2002-05
+    # only, from work/[internal ticket]/repin_s43.py on this seam (fails at 59512c8, passes at a7e5ee4).
+    pin = json.loads((ROOT / "tests/fixtures/moe_crisis_central_s43.json").read_text())
     from gascf import bills as B
     for y in B.YEARS:
         gap0, moe, moe_k = pre[str(y)]
         parts = pin["moves_from_pre18_gbp_m"][str(y)]
-        assert sorted(parts) == ["0110_1_8", "0133", "0144", "03_0088", "09_B4", "10_F1", "12_0044", "26_0097"], y
+        assert sorted(parts) == ["0110_1_8", "0133", "0144", "03_0088", "09_B4", "10_F1", "12_0044", "26_0097",
+                                 "s39", "s40", "s42", "s43"], y
         assert pin["gap_gbp_m"][str(y)] - gap0 == pytest.approx(sum(parts.values()), abs=1e-5), y
         assert central[y]["totals"]["gap_gbp_m"] == pytest.approx(pin["gap_gbp_m"][str(y)], abs=1e-9), y
         f = central[y]["fleet"]
+        m = central[y]["fleet"]["moe"]
+        if y in (2020, 2021, 2022, 2023):
+            continue
+        # v4-s42: in the fixes' years (A2 2002-06, A1/A5 2010-11, A3 2024, A3/A4 2025) the uplift on actual and on
+        # kept output moves with the fleet; those years compare with the v4-s42 build (work/[internal ticket]/
+        # repin_moe_s42.py, fixture key s42_uplift_moves), every other year with the pre-18 fixture as before.
+        if str(y) in pin["s43_uplift_moves"]:
+            moe, moe_k = (pin["s43_uplift_moves"][str(y)][k] for k in ("moe_actual_gbp_m", "moe_kept_gbp_m"))
         assert f["moe_gbp_m"] - f["extra_moe_gbp_m"] == pytest.approx(moe, abs=1e-9), y     # actual output (0144 1A)
         assert central[y]["fleet"]["moe_kept_gbp_m"] == pytest.approx(moe_k, abs=1e-9), y
-        m = central[y]["fleet"]["moe"]
         assert m["applied_mean_gbp_mwh"] == pytest.approx(max(0.0, m["shao_mean_gbp_mwh"]), abs=1e-9), y
 
 
-def test_ucl_move_is_linear_in_k_against_the_no_uplift_pass_through(central, ucl):
+def test_ucl_move_is_linear_in_k_against_the_no_uplift_pass_through(shao, ucl):
     """Spec test 7, on the s36 build: Δgap(UCL) = (gap_central − gap_no_uplift) × (k − 1), within ±2% per
     year (the spec item's own method; its £36.57bn / £48.28bn are s35 arithmetic, reported, not pinned)."""
     from gascf import bills as B
     none = B.build(B.replace(B.CENTRAL, moe="none"))
-    blk = __import__("gascf.moe_crisis_block", fromlist=["block"]).block(central)
+    # k is UCL's scale on Shao's uplift, so the move is measured from Shao in every month (card [internal ticket])
+    blk = __import__("gascf.moe_crisis_block", fromlist=["block"]).block(shao)
     for y in MC.CRISIS_YEARS:
         k = blk["years"][str(y)]["k"]
-        want = (central[y]["totals"]["gap_gbp_m"] - none[y]["totals"]["gap_gbp_m"]) * (k - 1)
-        got = ucl[y]["totals"]["gap_gbp_m"] - central[y]["totals"]["gap_gbp_m"]
+        want = (shao[y]["totals"]["gap_gbp_m"] - none[y]["totals"]["gap_gbp_m"]) * (k - 1)
+        got = ucl[y]["totals"]["gap_gbp_m"] - shao[y]["totals"]["gap_gbp_m"]
         assert got == pytest.approx(want, rel=0.02), y

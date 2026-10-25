@@ -81,7 +81,10 @@ def capacity_market(run: dict) -> dict:
             continue                       # not modelled: the Clock carries the last share forward
         k = cm[y]
         years[str(int(y))] = {
-            "cm_paid_gbp": _pennies(c["clock_cm_gbp_m"]),
+            # CM paid = the whole levy paid (LCCC, calendar year): the engine's own capacity_market line, which
+            # is the register's CM_PAID. Never the Clock's displayed CM line (clock_cm_gbp_m): since Clock
+            # 35132e73 that is only the net-zero part (decisions 0168, 0177; card [internal ticket]).
+            "cm_paid_gbp": _pennies(k["cm_paid_gbp_m"]),
             "netzero_gbp": _pennies(c["nz5_gbp_m"]),
             "netzero_low_gbp": _pennies(c["nz5_low_gbp_m"]),
             "netzero_high_gbp": _pennies(c["nz5_high_gbp_m"]),
@@ -205,7 +208,7 @@ def uplift_from_run(run: dict) -> dict[int, float]:
     out = {}
     for y in B.YEARS:
         v = ((run.get("fleet", {}).get(str(y)) or {}).get("gas_feedback") or {}).get("price_rise_frac")
-        if not isinstance(v, (int, float)) or not math.isfinite(v) or v < 0:
+        if not isinstance(v, (int, float)) or not math.isfinite(v) or v <= -1:    # M6, 0163 R7 (a): may be < 0
             raise ValueError(f"run file fleet[{y}].gas_feedback.price_rise_frac: {v!r}")
         out[y] = float(v)
     return out

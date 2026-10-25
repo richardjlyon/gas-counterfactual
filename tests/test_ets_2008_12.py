@@ -159,7 +159,9 @@ def test_only_the_ets_part_is_scaled_to_gb_in_every_year():
     # sum over 2019-20 of (new - old revenue) x 0055 share x (1 - GB share) x CPIH(2024)/CPIH(y). Re-pinned: 306.870007
     off = sum(_to_2024(sp[y]["carbon_price_receipts"]["ets_uk_gbp_m"] - sp[y]["carbon_price_receipts"]["ets_gbp_m"], y)
               for y in range(2013, 2025))
-    assert off == pytest.approx(306.98884392469193 - 0.11883694738869677, abs=1e-6)
+    # v4-s42 (C1, decision 0195): UK ETS revenue 2016 342.2, not 311.0 (+31.2 GBP m cash) moves it by +0.562278, the
+    # 2016 term of the same sum (re-pinned from the v4-s42 build: 307.432285; 306.870007 at v4-s41).
+    assert off == pytest.approx(306.98884392469193 - 0.11883694738869677 + 0.5622783251225, abs=1e-6)
 
 
 def test_years_outside_2008_12_carry_no_phase_fields():

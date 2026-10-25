@@ -184,7 +184,9 @@ def test_block_registered_and_keys_read_it_never_under_gap():
                                                                        rel=1e-12)
     for k, meta in K.DECLARED.items():
         assert meta["basis"] == "estimated" and "estimate" in meta["label"].lower(), k
-        assert meta["print_sections"] == ["§9", "§16"] and meta["period"] == "2002-2024", k
+        # 0099 covers 2002-24; RB v1.1 A3 (0160) adds the 2025 keys and the working, printed under R21 (a) (0163)
+        held = meta.get("ruling") == "R21 (a)" and meta["period"] in ("2025", "2002-2025")
+        assert meta["print_sections"] == ["§9", "§16"] and (meta["period"] == "2002-2024" or held), k
         assert not k.startswith(("gap", "headline")), k
     assert K.values({"meta": run["meta"]})["npg_estimate_2002_24_central_gbp_bn"] is None
 

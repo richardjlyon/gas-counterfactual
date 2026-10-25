@@ -20,11 +20,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 
 def _toy(dq_by_year, q=4680.386, e=0.16, gap=lambda y: 1.0, actual=100.0):
-    """A built-like dict: fleet[y].gas_feedback as fossil_like_for_like.gas_feedback returns it (dq floored at 0)."""
+    """A built-like dict: fleet[y].gas_feedback as fossil_like_for_like.gas_feedback returns it (dq signed, RB v1.1
+    M6, 0163 R7 (a); floored at 0 to v4-s38)."""
     out = {}
     for y in B.YEARS:
         raw = dq_by_year(y)
-        dq = max(0.0, raw)
+        dq = raw
         out[y] = {"fleet": {"gas_feedback": {
             "rule": "x", "elasticity": e, "dq_twh": dq, "q_twh": q, "price_rise_frac": dq / (e * q),
             "actual_power_gas_twh": actual, "fossil_power_gas_twh": actual + raw}},
@@ -66,9 +67,8 @@ def test_block_fields_and_rise_arithmetic_every_case_and_year():
     for name, run in {"central": central, **cases}.items():
         for y in B.YEARS:
             row, g = blk["cases"][name][str(y)], run[y]["fleet"]["gas_feedback"]
-            # the engine's dq is floored at 0 (fossil_like_for_like.gas_feedback, s27c), so test 1 reads max(0, .)
-            assert row["dq_twh"] == pytest.approx(max(0.0, g["fossil_power_gas_twh"] - g["actual_power_gas_twh"]),
-                                                  abs=1e-9)
+            # the engine's dq is signed (RB v1.1 M6, 0163 R7 (a); floored at 0 to v4-s38), so test 1 reads it as is
+            assert row["dq_twh"] == pytest.approx(g["fossil_power_gas_twh"] - g["actual_power_gas_twh"], abs=1e-9)
             # 0144: the field named e016 now holds the rise at the engine's central e (0.229); name kept, case B open
             assert row["rise_at_e016"] == pytest.approx(row["dq_twh"] / (0.229 * row["q_twh"]), abs=1e-12)
             assert row["rise_at_e006"] == pytest.approx(row["dq_twh"] / (0.06 * row["q_twh"]), abs=1e-12)

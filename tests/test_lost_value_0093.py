@@ -1,6 +1,11 @@
 """Lost value in the release (0080-0085), quoted for 2002-24 with 2025 apart (0093), with 0081 re-ruled
-as option 2 (non-household central -0.520). Literals on v4-s35 inputs from reports-programme
-b-items-calc/l0081_alternatives.json, case B_T3_electricity_LT_simple_avg (2024 prices, £bn)."""
+as option 2 (non-household central -0.520). Literals on v4-s35 inputs (2024 prices, £bn).
+
+Card [internal ticket] item 5 (21 Oct 2026): the literals first came from reports-programme
+b-items-calc/l0081_alternatives.json, whose price rise was GAP / (TOTAL_GO + S1_TOTAL); TOTAL_GO already holds the
+same-in-both block, so that counted it twice. The price rise is now the gap over the whole bill counted once (0082),
+and the literals are re-pinned from work/v1.1-lost-value/before_after.py, which sums the bill lines itself (old value
+in each comment). tests/test_v11_lost_value_once.py pins the same on the released v4-s37 run file."""
 import json
 from pathlib import Path
 
@@ -23,26 +28,27 @@ def s35():
 
 
 def test_quoted_central_2002_24_on_s35_inputs(s35):
-    assert s35["quoted"]["central"]["2002-2024"] == pytest.approx(9.831, abs=0.005)
+    assert s35["quoted"]["central"]["2002-2024"] == pytest.approx(12.515, abs=0.005)     # was 9.831 (block twice)
 
 
 def test_quoted_central_2025_alone_on_s35_inputs(s35):
-    assert s35["quoted"]["central"]["2025"] == pytest.approx(1.232, abs=0.005)
+    assert s35["quoted"]["central"]["2025"] == pytest.approx(1.555, abs=0.005)           # was 1.232
 
 
 def test_straight_line_central_2002_24_on_s35_inputs(s35):
-    assert s35["straight_line"]["central"]["2002-2024"] == pytest.approx(11.012, abs=0.005)
+    assert s35["straight_line"]["central"]["2002-2024"] == pytest.approx(14.505, abs=0.005)   # was 11.012
 
 
-def test_straight_line_over_quoted_rounds_to_12_percent(s35):
-    # 0085 wording fix: about 12% higher, not 11%
-    assert round(100 * s35["straight_line_over_quoted"]) == 12
+def test_straight_line_over_quoted_rounds_to_16_percent_on_s35_inputs(s35):
+    # 0085 wording fix said about 12% (block counted twice); with the bill counted once it is 15.9% on v4-s35
+    # inputs (12.9% on v4-s37's): the paper's "about 12%" must be re-read from the new release
+    assert round(100 * s35["straight_line_over_quoted"]) == 16
 
 
 def test_range_on_current_bounds_on_s35_inputs(s35):
     # the journal range change is dropped (0081 citation ruling): bounds -0.203 / -0.677
-    assert s35["quoted"]["low"]["2002-2024"] == pytest.approx(3.53, abs=0.01)
-    assert s35["quoted"]["high"]["2002-2024"] == pytest.approx(12.19, abs=0.01)
+    assert s35["quoted"]["low"]["2002-2024"] == pytest.approx(4.46, abs=0.01)           # was 3.53
+    assert s35["quoted"]["high"]["2002-2024"] == pytest.approx(15.57, abs=0.01)         # was 12.19
 
 
 def test_no_2002_25_key(s35):
@@ -86,13 +92,14 @@ def test_desnz_1920_is_the_s36_copy_with_its_registered_sha256():
 
 
 def test_first_draft_reproduced_at_0607_for_all_users():
-    """Spec test 2: ε = −0.607 for every user, straight line, 2002-25 as in dwl.py's first draft: 13.69
-    (low 4.58, high 15.27). A port check only; no 2002-25 key is exported (0098)."""
+    """Spec test 2: ε = −0.607 for every user, straight line, 2002-25 as in dwl.py's first draft, with the bill counted
+    once (item 5): 18.02 (low 6.03, high 20.10); the first draft's 13.69 (4.58, 15.27) counted the same-in-both block
+    twice. A port check only; no 2002-25 key is exported (0098)."""
     run = json.loads(S35.read_text())
     yrs = range(2002, 2026)
-    assert lv.total_bn(run, -0.607, "straight_line", yrs) == pytest.approx(13.69, abs=0.005)
-    assert lv.total_bn(run, -0.203, "straight_line", yrs) == pytest.approx(4.58, abs=0.005)
-    assert lv.total_bn(run, -0.677, "straight_line", yrs) == pytest.approx(15.27, abs=0.005)
+    assert lv.total_bn(run, -0.607, "straight_line", yrs) == pytest.approx(18.019, abs=0.005)
+    assert lv.total_bn(run, -0.203, "straight_line", yrs) == pytest.approx(6.026, abs=0.005)
+    assert lv.total_bn(run, -0.677, "straight_line", yrs) == pytest.approx(20.097, abs=0.005)
 
 
 def test_actual_anchor_ratio_equals_numerical_integration():

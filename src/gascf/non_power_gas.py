@@ -45,7 +45,7 @@ DUKES_41 = ROOT / "data/raw/s36/gas-demand/gas_demand_production.csv"
 SUBNATIONAL = ROOT / "data/raw/desnz_subnational/subnational-electricity-and-gas-consumption-summary-report-2024.pdf"
 SRC_DUKES41 = "desnz-dukes-2026-4.1-gas-balance"
 SRC_SUBNAT_GAS = "desnz_subnational_consumption_2024_t7.2"
-YEARS = list(range(2002, 2025))          # 0099: 2002-24, matching the headline; never 2025
+YEARS = list(range(2002, 2025))          # 0099: 2002-24, matching the headline; 2025 only as year_2025p (v1.1 A3)
 E = {"central": GAS_ELASTICITY["central"], "krichene_lr": GAS_ELASTICITY["krichene_lr"]}   # 0144 item 2A
 LABEL = "estimate (0007): extra cost to non-power gas users, beside the gap, never added to it (0070)"
 METHOD = ("0070 D1: rise = dQ / (e Q) from the engine's feedback; gross = rise x actual gas price x non-power gas "
@@ -109,12 +109,12 @@ def actual_gas_price(year: int) -> float:
 
 def _row(y: int, g: dict, inp: dict | None, share: tuple | None, price: float | None) -> dict:
     dq, q = g["dq_twh"], g["q_twh"]
-    if dq > 0:
+    if dq != 0:     # RB v1.1 M6 (0163 R7 (a)): a year with dQ < 0 is a gain to these users and needs the same inputs
         missing = [k for k in ("v_np_twh", "uk_production_twh", "uk_demand_twh")
                    if inp is None or inp.get(k) is None]
         if missing or share is None or share[0] is None or price is None:
             raise PendingSourceError(f"non-power gas estimate {y}: input missing "
-                                     f"({', '.join(missing) or 'GB share or gas price'}) in a year with dQ > 0")
+                                     f"({', '.join(missing) or 'GB share or gas price'}) in a year with dQ != 0")
     else:
         inp = inp or {}
     v = inp.get("v_np_twh") or 0.0
@@ -143,7 +143,7 @@ def block(built: dict, inputs: dict | None = None, shares: dict | None = None, g
     years = {}
     for y in YEARS:
         g = built[y]["fleet"]["gas_feedback"]
-        need = g["dq_twh"] > 0
+        need = g["dq_twh"] != 0
         share = (shares.get(y) if shares is not None else (gb_gas_share(y) if need else None))
         price = (gas_price.get(y) if gas_price is not None else (actual_gas_price(y) if need else None))
         years[str(y)] = _row(y, g, inputs.get(y), share, price)
@@ -151,7 +151,20 @@ def block(built: dict, inputs: dict | None = None, shares: dict | None = None, g
            "low": sum(r["range"]["krichene_lr"] for r in years.values()),
            "gross": sum(r["gross_gbp_bn_real"] for r in years.values()),
            "producers_gain": sum(r["producers_gain_gbp_bn_real"] for r in years.values())}
-    return {"years": years, "totals": {"2002-2024": tot}, "basis": "estimated", "label": LABEL, "method": METHOD,
+    # RB v1.1 A3 (decision 0160, card [internal ticket]): 2025, provisional, by the same rule, kept OUTSIDE `years` and the
+    # 2002-24 totals (0099: the estimate covers 2002-24 to match the headline). Printed under R21 (a) (0163); 0099
+    # set aside for this 2025 figure only, as ruled in 0164 R36 (a).
+    # The GB share takes the nearest published year (Table 7.2 ends 2024), recorded by gb_gas_share's fallback.
+    p25 = None
+    if 2025 in built and inputs.get(2025) is not None:     # a toy or partial input set without 2025: not computed
+        g = built[2025]["fleet"]["gas_feedback"]
+        need = g["dq_twh"] > 0
+        share = (shares.get(2025) if shares is not None else (gb_gas_share(2025) if need else None))
+        price = (gas_price.get(2025) if gas_price is not None else (actual_gas_price(2025) if need else None))
+        p25 = _row(2025, g, inputs.get(2025), share, price) | {"provisional": True, "in_totals": False,
+                                                                "ruling": "R21 (a): printed in §9.8 and Annex D"}
+    return {"years": years, "totals": {"2002-2024": tot}, "year_2025p": p25, "basis": "estimated", "label": LABEL,
+            "method": METHOD,
             "in_gap": False, "print_sections": ["§9", "§16"], "money": "£bn in the run's price base (CPIH)",
             "elasticities": E, "pass_through": "full, same year (D5; stated, not adjusted)",
             "decisions": DECISIONS}

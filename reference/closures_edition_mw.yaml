@@ -1,0 +1,72 @@
+[
+ {
+  "switch": "barry",
+  "station": "Barry",
+  "unit": "all",
+  "register_mw": 375,
+  "edition_mw": 235,
+  "edition": "DUKES 2018",
+  "quote": "DUKES 2018 :: Barry | CCGT | 235 | 1998 | Wales | (2)",
+  "note": "Last edition sheet before the register's close (31 Mar 2019). Footnote (2) of DUKES 2018: 'Capacity reduced in 2013, with these stations typically now operating as Open Cycle Gas Turbines.' Editions: 2004-06 250, 2007 245, 2008-12 230, 2013-14 140, 2015-18 235. The register's 375 MW is the 'Changed and converted stations' 2019 row, above every edition."
+ },
+ {
+  "switch": "fawley",
+  "station": "Fawley",
+  "unit": "all",
+  "register_mw": 1036,
+  "edition_mw": 968,
+  "edition": "DUKES 2012",
+  "quote": "DUKES 2012 :: Fawley  | oil | 968 | 1969 | South East",
+  "note": "Last edition sheet before the register's close (31 Mar 2013). The same sheet lists 'Fawley GT | gas oil | 68' separately; 968 + 68 = 1,036, the register's MW (from the DECC LCPD table and the changed sheet). The register also carries Fawley GT (68 MW) as its own row, to 31 May 2015."
+ },
+ {
+  "switch": "ironbridge_940",
+  "station": "Ironbridge",
+  "unit": "all",
+  "register_mw": 1000,
+  "edition_mw": 940,
+  "edition": "DUKES 2012",
+  "quote": "DUKES 2012 :: Ironbridge | coal | 940 | 1970 | West Midlands",
+  "note": "Variant 1 of 2 (edge case, not settled): the last edition sheet listing the station as COAL (end May 2012). The register closes the coal station on 30 Jun 2013; DUKES 2013 (end May 2013) already lists it as biomass 900 MW (variant ironbridge_900)."
+ },
+ {
+  "switch": "ironbridge_900",
+  "station": "Ironbridge",
+  "unit": "all",
+  "register_mw": 1000,
+  "edition_mw": 900,
+  "edition": "DUKES 2013",
+  "quote": "DUKES 2013 :: E.On UK | Ironbridge | biomass | 900 | 1970 | West Midlands",
+  "note": "Variant 2 of 2 (edge case, not settled): the last edition sheet before the register's coal close date (30 Jun 2013); it lists the station on BIOMASS. The changed sheet says 'Initially converted to 940 MW'."
+ },
+ {
+  "switch": "deeside",
+  "station": "Deeside",
+  "unit": "all",
+  "register_mw": 498,
+  "edition_mw": 515,
+  "edition": "DUKES 2017",
+  "quote": "DUKES 2017 :: ENGIE | Deeside | CCGT | 515 | 1994 | Wales",
+  "note": "Last edition sheet before the register's close (2018, mid-year used); absent from DUKES 2018. Editions: 2004-11 500, 2012-17 515."
+ },
+ {
+  "switch": "uskmouth_230",
+  "station": "Uskmouth",
+  "unit": "all",
+  "register_mw": 220,
+  "edition_mw": 230,
+  "edition": "DUKES 2017",
+  "quote": "DUKES 2017 :: SIMEC | Uskmouth Power | Coal | 230 | 1966 | Wales",
+  "note": "Variant 1 of 2 (edge case, not settled): the last edition sheet before the register's close (2017, mid-year used)."
+ },
+ {
+  "switch": "uskmouth_363",
+  "station": "Uskmouth",
+  "unit": "all",
+  "register_mw": 220,
+  "edition_mw": 363,
+  "edition": "DUKES 2018",
+  "quote": "DUKES 2018 :: SIMEC | Uskmouth power | Coal | 363 | 1966 | Wales",
+  "note": "Variant 2 of 2 (edge case, not settled): DUKES 2018 (end May 2018) still lists the station, at 363 MW, after the register's 2017 mothballing date. 363 MW is also the 2008-12 editions' figure."
+ }
+]

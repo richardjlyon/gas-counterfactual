@@ -116,6 +116,206 @@
    },
    "figures_file": "out/figures/v4-s37.json",
    "figures_sha256": "e85a473f736530839f51fa4dd609f302fde3e6448717f647e0e75c877e890fe3"
+  },
+  {
+   "version": "v4-s39",
+   "date": "2026-10-22",
+   "commit": "bf4023631ab99a85886e06d9800798056456d242",
+   "run_commit": "704f686249c76cc27ffc8a0146010c186b162fc1",
+   "run_file": "out/v4/2026-10-22-s39.json",
+   "run_sha256": "3a9f26933b6fc855fb1dfc2edbbce8c516cb56755ad9005fddd04de2acc0a959",
+   "clock_export_file": "out/clock/v4-s39.json",
+   "clock_export_sha256": "dffbfb18a773b9023bccf0ff821e15038c5f2541fc998aeb906fe0a025480c5e",
+   "note": "Reliable Britain corrected: decisions 0159-0170 and 0173, C-005/C-007/C-008/C-009/C-011; headline 141.625 (2002-24, 2024 prices); LOCAL ONLY until Richard says publish; Richard tags",
+   "tests": {
+    "commit": "bf4023631ab99a85886e06d9800798056456d242",
+    "passed": 1549,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 101,
+    "duration_s": 7413.01,
+    "started_utc": "2026-10-22T21:30:32+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEs"
+   },
+   "figures_file": "out/figures/v4-s39.json",
+   "figures_sha256": "41402348679e61b8f72030c4afc39e4f831dccaa1dbd8542927b4f95e3a4690d"
+  },
+  {
+   "version": "v4-s40",
+   "date": "2026-10-23",
+   "commit": "c211bd76a4da5e1e180d20ac300bcb4b978957db",
+   "run_commit": "12b81d9132c5b165cbc10a457d0fa73f6f959131",
+   "run_file": "out/v4/2026-10-23-s40.json",
+   "run_sha256": "ce898d4adcb049ed853ef2b8a2126be52cbba1210b9ddcbb68097db2e2d40604",
+   "clock_export_file": "out/clock/v4-s40.json",
+   "clock_export_sha256": "abce8777777230a8f97c2dfe84ad9447f03fda098aec979d1eeaccc4433f201e",
+   "note": "v4-s40 release (card t_ef3eb61e): the final, corrected v4-s40 run (decisions 0175, 0177, 0178); gate on aios",
+   "tests": {
+    "commit": "c211bd76a4da5e1e180d20ac300bcb4b978957db",
+    "passed": 1709,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 106,
+    "duration_s": 1402.3,
+    "started_utc": "2026-10-23T15:45:58+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX"
+   },
+   "figures_file": "out/figures/v4-s40.json",
+   "figures_sha256": "8f5bb881ae6149c7ed2c3b089469dc1d567498ccbf14f875b5a829b013013053",
+   "post_release_check": {
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 0,
+    "duration_s": 1.26,
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX tests/test_releases.py"
+   },
+   "figures_null_fields": {
+    "count": 44,
+    "expected_file": "reference/figures_null_fields.json",
+    "equal": true
+   },
+   "suite_output": {
+    "out/tests/v4-s40-suite.log": "653bc2fc7f1cde7d7ff2c141856d8c9cb9dbce4c4dcae1f1eb1afd9aa94ce561",
+    "out/tests/v4-s40-suite-junit.xml": "b5aa4adfe096b958e9582ed1113b224f45413d17404a20950f85767092abc9be",
+    "out/tests/v4-s40-post-release.log": "80bb6a41f107b4fdba9375048750abc89acf10b178c4317aef4e4eb5c50daa1c",
+    "out/tests/v4-s40-post-release-junit.xml": "684c51f65e589f8466f365538293e5d0e6c1edfbba27d65d6f59b73305aca065"
+   }
+  },
+  {
+   "version": "v4-s41",
+   "date": "2026-10-24",
+   "commit": "cce61bfdb2f343e403a925b80ea16cc0d98a89ff",
+   "run_commit": "49264aa6b665b917e80747ee289218a28f5b12c0",
+   "run_file": "out/v4/2026-10-24-s41.json",
+   "run_sha256": "2af691b7031d79621f82afa52c190d30ba0fdea2d198ee1eaad0c69533331617",
+   "clock_export_file": "out/clock/v4-s41.json",
+   "clock_export_sha256": "766b35be79ba506aff736d782d5974cd1acec5161ca1abc0bd9f749bc5caed34",
+   "note": "v4-s41 point release (card t_ad7dadc5; decision 0184): table_results_by_year gains the actual bill and the road's bill per MWh billed, 2002-25; no existing value changes; gate on aios",
+   "tests": {
+    "commit": "cce61bfdb2f343e403a925b80ea16cc0d98a89ff",
+    "passed": 1719,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 106,
+    "duration_s": 1503.08,
+    "started_utc": "2026-10-23T23:39:42+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX"
+   },
+   "figures_file": "out/figures/v4-s41.json",
+   "figures_sha256": "5d9ea178f244ab392f479ab369fde4b5d11edbc5c12bb90f244c36c948b90252",
+   "post_release_check": {
+    "passed": 33,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 0,
+    "duration_s": 1.26,
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX tests/test_releases.py"
+   },
+   "figures_null_fields": {
+    "count": 44,
+    "expected_file": "reference/figures_null_fields.json",
+    "equal": true
+   },
+   "suite_output": {
+    "out/tests/v4-s41-suite.log": "229f18a8fde91f859378509dd706e79beb77837547f3eefcdc6f70f6c182e194",
+    "out/tests/v4-s41-suite-junit.xml": "545f9dc583d34f274311771bf8d31410c48f4bfcf3b4c71458fa08ec7c42e2d9",
+    "out/tests/v4-s41-post-release.log": "4df1120ca002bc82e0e512d9d6f9b7a458ded28ffd138734302c95245f9e8143",
+    "out/tests/v4-s41-post-release-junit.xml": "a540433257b46efba263b92419cb20f9e3ba4411f4ec0e32538e982f408c0e2f"
+   }
+  },
+  {
+   "version": "v4-s42",
+   "date": "2026-10-24",
+   "commit": "ce19aa44c5377c61885774ac7ce412a931139922",
+   "run_commit": "8722580861faa159d1774c1be2b7b847d83e3647",
+   "run_file": "out/v4/2026-10-24-s42.json",
+   "run_sha256": "bcd7f057d23293a637f04c6a10c9c2c599763c19803d3a234790271ed7bcbf2c",
+   "clock_export_file": "out/clock/v4-s42.json",
+   "clock_export_sha256": "6dc97de1424c57514d1049e342a9c645fe07fe4d367962300be87e275d997d7b",
+   "note": "v4-s42 point release (card t_4c8d4798; decision 0195): the seven input-audit fixes (A1, A2, A3, A4, A5, C1, D1 basis (i)); gate on aios",
+   "tests": {
+    "commit": "ce19aa44c5377c61885774ac7ce412a931139922",
+    "passed": 1766,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 106,
+    "duration_s": 1502.09,
+    "started_utc": "2026-10-24T11:19:19+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX"
+   },
+   "figures_file": "out/figures/v4-s42.json",
+   "figures_sha256": "0e4cd1ed81d087aceb74ecd0bdb34e0da82d0fd2ddd381e4d36ce65c3219a678",
+   "post_release_check": {
+    "passed": 36,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 0,
+    "duration_s": 1.5,
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX tests/test_releases.py"
+   },
+   "figures_null_fields": {
+    "count": 44,
+    "expected_file": "reference/figures_null_fields.json",
+    "equal": true
+   },
+   "suite_output": {
+    "out/tests/v4-s42-suite.log": "777db3353d0a30a332d5d88df36f769acd3d6b787c888d2916ed635ddcba380a",
+    "out/tests/v4-s42-suite-junit.xml": "fa731c93608c9b308695b4c486cd2d197cb9ceb5555cb279e9b701d5189c2522",
+    "out/tests/v4-s42-post-release.log": "d683b28b62b3c74bfcea0e09068230bac37a1cf4e47afab825dde4cc231bb3a1",
+    "out/tests/v4-s42-post-release-junit.xml": "90584599c674a4c7eb4fe5207710d8fd40ae9061c455c271e6041bef4c6932e2"
+   }
+  },
+  {
+   "version": "v4-s43",
+   "date": "2026-10-24",
+   "commit": "8a5b0e1a070b561a4a964e55c5d29fbc6d03274b",
+   "run_commit": "11c088cf58fa508ec71b51964f9e9bf7c5231653",
+   "run_file": "out/v4/2026-10-24-s43.json",
+   "run_sha256": "dccd97d56efa9b4b26bc68604b8ae7f0204e40a9c1126a653886e268d28b49e4",
+   "clock_export_file": "out/clock/v4-s43.json",
+   "clock_export_sha256": "e1cf23af9fd6129cc7e4b1dc7b1a5b058c9f20d0e1a64077d6817decea3828cf",
+   "note": "v4-s43 point release (card t_b7f775eb; decision 0197): each year's own NI station list for 2002-05, plus text-only closure-check fixes; gate on aios",
+   "tests": {
+    "commit": "8a5b0e1a070b561a4a964e55c5d29fbc6d03274b",
+    "passed": 1778,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 106,
+    "duration_s": 1484.53,
+    "started_utc": "2026-10-24T13:22:28+00:00",
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX"
+   },
+   "figures_file": "out/figures/v4-s43.json",
+   "figures_sha256": "babdadb500f71fa6dfbda60a310cf8370c2044dcd2693211073ce1e5a41e3cf4",
+   "post_release_check": {
+    "passed": 39,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 0,
+    "duration_s": 1.22,
+    "command": "python -m pytest -p no:xdist -p no:cacheprovider -q -rfEsxX tests/test_releases.py"
+   },
+   "figures_null_fields": {
+    "count": 44,
+    "expected_file": "reference/figures_null_fields.json",
+    "equal": true
+   },
+   "suite_output": {
+    "out/tests/v4-s43-suite.log": "1a3d8a4d07c59bdca6fa9360731417290460707b40911a5ae4883136343b145b",
+    "out/tests/v4-s43-suite-junit.xml": "1f3af1ec2edac14012d038d264e8b9841f9c8ddc71d224cd5159249e9e398b54",
+    "out/tests/v4-s43-post-release.log": "cc2c0f14c0e57847f20cffb52565c19e287c01504cd3e5a10048e878564d97aa",
+    "out/tests/v4-s43-post-release-junit.xml": "720762afd1ab7758493f5539716e3e0cc54d72dfa68f1adacff91dfde8e95756"
+   }
   }
  ]
 }

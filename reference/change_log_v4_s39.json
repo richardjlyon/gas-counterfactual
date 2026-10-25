@@ -1,0 +1,336 @@
+{
+ "_about": "Annex E (decision 0162 item 3), the step-by-step change log from v4-s37 (v1.0) to the corrected release (v4-s39). One row per change, in build order, with its own measured effect on the headline (headline_2002_24_gbp_bn, £bn, 2024 prices, total 2002-24). Rows are added by each build card; the release card (t_a6fd25b7) filled every 'pending' row with its effect as measured on the release-candidate builds named in each row (work/t_a6fd25b7/fill_change_log.py). Figures here are measured on unreleased builds, each on the base its card names; none is a released figure. Read by tools/figures_keys/annex_v11.py into annex_e_change_log. v4-s40 (card t_18235261) appends the three step-3 items of decision 0175, each marked release v4-s40, so the log runs from v4-s37 to v4-s40. v4-s42 (card t_4c8d4798) appends the seven input-audit fixes of decision 0195, each measured alone against v4-s41 on the unsealed candidate (t_9d806708), and their measured interaction, each marked release v4-s42, so the log runs from v4-s37 to v4-s42 (v4-s41 moved no value). v4-s43 (card t_b7f775eb) appends decision 0197, each year's own NI station list for 2002-05, measured against v4-s42, marked release v4-s43, so the log runs from v4-s37 to v4-s43.",
+ "baseline": {
+  "version": "v4-s37",
+  "headline_2002_24_gbp_bn": 141.10113097962292
+ },
+ "steps": [
+  {
+   "item": "0159 + C-007",
+   "what": "Rugeley B at 1,006 MW (DUKES 2004-16 edition sheets) in the closure register and the margin test, and its TNUoS zone 18 (NG TNUoS 2013/14, doc 50671 p.27). The zone moves only the 2015 Rugeley margin key (+2.817 £m cash), not the headline.",
+   "decision": "0159; C-007 (0163)",
+   "card": "t_e2f845b1",
+   "commits": [
+    "e7b86f8",
+    "b2d7df5"
+   ],
+   "headline_change_gbp_bn": 0.5916407688373333,
+   "measured_on": "v4-s37 code + the two fixes (run file db8f269e...910a); headline 141.101 -> 141.693",
+   "status": "measured"
+  },
+  {
+   "item": "W1, W2, F1-F5, A1, A3, O4, held rows, A10",
+   "what": "Release wording and new keys: 'modelled' for the gap (R23 (a)); Annex B tags, cash and data basis; year-by-year waterfall; per-option 2025 figures; EII and other-gas-users workings; per-MWh gap at the billed volume (R19 (a)); the O2, O3, M10 and A5 rows outside the range (R10, R13, R14, R18 (a)); the Annex F step runs.",
+   "decision": "0160; 0163",
+   "card": "t_bf883717; t_6c0411d4",
+   "commits": [
+    "13ab78d",
+    "782eab5",
+    "95ec7e9",
+    "4327908",
+    "9349dac",
+    "9605fe4"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "rb-v1.1 export (16173d7, run file 6befc0ee...fa2a) against the b2d7df5 export: every released key equal",
+   "status": "no number moves"
+  },
+  {
+   "item": "Lost value (§12.6)",
+   "what": "The price rise is the gap over the whole bill with the same-in-both block counted once (it was counted twice). Moves the lost-value keys only: 2002-24 central 6.442 -> 8.219 £bn on v4-s37 inputs. Not in the headline.",
+   "decision": "0082 (as written: the whole bill customers pay)",
+   "card": "t_6c0411d4",
+   "commits": [
+    "99e3f0d"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "v4-s37 run file and the rb-v1.1 run file (work/v1.1-lost-value)",
+   "status": "measured"
+  },
+  {
+   "item": "C-008",
+   "what": "FiT scheme years 1-5 (2010/11 to 2014/15) from Ofgem's published levelisation funds in place of the estimate (scheme value x the SY6 ratio); net +2.193 £m cash.",
+   "decision": "C-008 (CE under Richard's delegation, 21 Oct 2026)",
+   "card": "t_cb589b68; t_6c0411d4",
+   "commits": [
+    "f85dc0f",
+    "ac34d2b"
+   ],
+   "headline_change_gbp_bn": 0.00304465508821,
+   "measured_on": "b2d7df5 central build (t_cb589b68, work/c008-fit-sy1-5): 141.69277 -> 141.69582",
+   "status": "measured"
+  },
+  {
+   "item": "W6",
+   "what": "sourced.eesop_fy2001_02_level_gbp_m labelled as the two-year average it is (April 2000 to March 2002); locator cites the March 2000 EESoP 3 final decision. Value stays 55.",
+   "decision": "option-a-sourcing.md section 6",
+   "card": "t_6c0411d4",
+   "commits": [
+    "e0cfad1"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "label and locator only",
+   "status": "no number moves"
+  },
+  {
+   "item": "C-009: five closures at their last DUKES edition MW",
+   "what": "Barry 235, Fawley 968, Deeside 515, Ironbridge 900 (after its biomass conversion), Uskmouth 230 MW. +0.000 on its own; Ironbridge then reaches the engine through M2 (at 1,000 MW the headline would be +0.044).",
+   "decision": "C-009; 0169 (Ironbridge)",
+   "card": "t_f9f9bb65",
+   "commits": [
+    "d242aee"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "export s3 on the ruled walk (shared 2026-10-21-rb-read-through/ruled-merge-overnight.md, step 3)",
+   "status": "measured"
+  },
+  {
+   "item": "Kept coal: M2, M3 (a), M4 (M5, O1 rows)",
+   "what": "Closure test at the road's own load factor (R1-R3); kept coal paid its fixed cost less its market margin (R4 (a)); filter running cost in the price (R5). M5 (life extension) and O1 are rows outside the range.",
+   "decision": "0163",
+   "card": "t_fa6c8885",
+   "commits": [
+    "9b5773d"
+   ],
+   "headline_change_gbp_bn": 6.589,
+   "measured_on": "export s4 on the ruled walk (shared 2026-10-21-rb-read-through/ruled-merge-overnight.md, step 4): 141.696 -> 148.285",
+   "status": "measured"
+  },
+  {
+   "item": "Prices: M6 both ways, F7 keys",
+   "what": "Gas-price feedback both ways (R7 (a)); Elexon market index price beside the worked half-hours (R25).",
+   "decision": "0163",
+   "card": "t_dd53df12",
+   "commits": [
+    "12c42a2"
+   ],
+   "headline_change_gbp_bn": 3.603,
+   "measured_on": "export s6 on the ruled walk (shared 2026-10-21-rb-read-through/ruled-merge-overnight.md, step 6): 148.285 -> 151.888",
+   "status": "measured"
+  },
+  {
+   "item": "M9 B: merit-order uplift re-estimated, May 2021 to Dec 2023",
+   "what": "Direct coefficients on outturn (Shao elsewhere). The carbon options O6a, O6b and O9 are dropped (0164).",
+   "decision": "0164",
+   "card": "t_99299395",
+   "commits": [
+    "5097dc6"
+   ],
+   "headline_change_gbp_bn": -24.31,
+   "measured_on": "quick s7 on the ruled walk (shared 2026-10-21-rb-read-through/ruled-merge-overnight.md, step 7): 151.888 -> 127.578",
+   "status": "measured"
+  },
+  {
+   "item": "Coal hours reading (i), 0166",
+   "what": "Every coal station on its real permit hours, incl. the 2011-14 LCPD opt-outs and the kept LCPD stations held; H2 2020 pro rata.",
+   "decision": "0166; C-011",
+   "card": "t_3671994f",
+   "commits": [
+    "63fdb1e"
+   ],
+   "headline_change_gbp_bn": -6.012,
+   "measured_on": "ruled-set export with the kept-LCPD switch on (shared 2026-10-21-rb-read-through/ruled-merge-overnight.md, coal-hours table): 127.578 -> 121.566",
+   "status": "measured"
+  },
+  {
+   "item": "M7 carbon at the marginal plant and M8 MID half-hour shape, together",
+   "what": "M7 from 2009 (alone +8.370); M8 in both Britains from 12 Sep 2016 (alone +1.807).",
+   "decision": "0167",
+   "card": "t_b1864fe8",
+   "commits": [],
+   "headline_change_gbp_bn": 10.57,
+   "measured_on": "final combined run on the 121.566 set (t_b1864fe8 PR, compute job t_b1864fe8-combined): 121.566 -> 132.137",
+   "status": "measured"
+  },
+  {
+   "item": "Generators' share of BSUoS and TNUoS (net-zero part), way 2",
+   "what": "A cost of real Britain, taken out of fossil Britain's market price. +8.674 before VAT, +8.837 with VAT alone; the paper must say which it quotes.",
+   "decision": "0167",
+   "card": "t_b1864fe8",
+   "commits": [
+    "f582a3a"
+   ],
+   "headline_change_gbp_bn": 8.836,
+   "measured_on": "final combined run (t_b1864fe8 PR): 132.137 -> 140.973",
+   "status": "measured"
+  },
+  {
+   "item": "RO mutualisation payments received",
+   "what": "Counted in the RO (NZ2), scheme-year basis. Received £525.5m cash against billed £526.4m (flag).",
+   "decision": "0169",
+   "card": "t_b1fe22de",
+   "commits": [
+    "2d9fb1d"
+   ],
+   "headline_change_gbp_bn": 0.652218,
+   "measured_on": "full combined, every ruling on (t_b1fe22de PR, compute job t_b1fe22de-combined): 140.973 -> 141.625",
+   "status": "measured"
+  },
+  {
+   "item": "Release labels, measure (c) keys (0170, 0173), run-file text",
+   "what": "Lost-value double count fixed (t_6c0411d4 item 5; keys only), measure (c) keys, run-file and key labels follow the rulings. The cut export reproduces the combined run to every digit.",
+   "decision": "0162; 0170; 0173",
+   "card": "t_a6fd25b7",
+   "commits": [],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "cut export out/v4/2026-10-22-s39.json: 141.62490946652264",
+   "status": "no number moves"
+  },
+  {
+   "item": "Step-3 item 9: method checks outside the range",
+   "what": "The ruled kept-coal rows (0163, 0166 item 4) are exported as method checks in their own one_at_a_time.method_checks group, 13 printed keys and table_method_checks. No range key reads them, so none can set a range end. Export only.",
+   "decision": "0175 (step-3 item 9 (a))",
+   "release": "v4-s40",
+   "card": "t_9296014c; t_4f5c4803",
+   "commits": [
+    "3c359f0"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "t_4f5c4803 job E (M4, 23 Oct 2026): legacy export (items 1 and 2 off) = the v4-s39 run file byte for byte once the added method_checks block is removed: 141.62490946652264",
+   "status": "no number moves"
+  },
+  {
+   "item": "Step-3 item 1: coal capped at its legal energy limit",
+   "what": "A permit-derived coal energy limit is absolute: the s29 actual-output floor no longer lifts coal over it. Energy limit only, no station-by-station timetable. Moves 2012 and 2013 only.",
+   "decision": "0175 (step-3 item 1 (a))",
+   "release": "v4-s40",
+   "card": "t_9296014c; t_4f5c4803",
+   "commits": [
+    "e5c78df"
+   ],
+   "headline_change_gbp_bn": -3.4775998542861,
+   "measured_on": "t_4f5c4803 job E (M4, 23 Oct 2026): item 1 alone against the v4-s39 readings: 141.625 -> 138.147",
+   "status": "measured"
+  },
+  {
+   "item": "Step-3 item 2: kept coal's M3 margin on the road's own revenue",
+   "what": "Kept coal's margin is what the road pays the coal block's own output, month by month: price less carbon (MID-shaped under M8), the merit-order uplift on the coal block's own half-hours, the gas-price feedback at the month's gas price, less the generators' net-zero charge. Moves 2017, 2019, 2020, 2023, 2024 (and 2025 provisional).",
+   "decision": "0175 (step-3 item 2 (a))",
+   "release": "v4-s40",
+   "card": "t_9296014c; t_4f5c4803",
+   "commits": [
+    "7ad88e7"
+   ],
+   "headline_change_gbp_bn": 2.19497811068751,
+   "measured_on": "t_4f5c4803 job E (M4, 23 Oct 2026): item 2 alone against the v4-s39 readings: 141.625 -> 143.820; all three together 140.34228772292403, confirmed by the cut export out/v4/2026-10-23-s40.json (t_18235261)",
+   "status": "measured"
+  },
+  {
+   "item": "A1: Kilroot coal 2010-11 520 MW, not 662",
+   "what": "DUKES 5.11 'DUKES 2010' and 'DUKES 2011' print one Kilroot coal/oil row of 662 MW that carries its 142 MW OCGT; 'DUKES 2012' splits it. GB coal less Kilroot's 520 MW; the 142 MW counted in NI 'other'. Moves 2010, 2011.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "34c4edf"
+   ],
+   "headline_change_gbp_bn": 0.08245947214533089,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'A1' at b1840a3: 140.342 -> 140.425 (this fix alone)",
+   "status": "measured"
+  },
+  {
+   "item": "A2: NI CCGT 2006 1,036 MW, Coolkeeragh counted",
+   "what": "'DUKES 2006' labels Coolkeeragh CCGT (420 MW) 'N. Ireland'; the NI filter now reads it (616 -> 1,036 MW). By the engine's existing nearest-year rule (unchanged, not ruled: Q-0195-A) 2002-05 take the 2006 list, so Coolkeeragh is also deducted in 2002-04. Moves 2002-06.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "5f02e16"
+   ],
+   "headline_change_gbp_bn": -0.006214798542487188,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'A2' at b46d6f1: 140.342 -> 140.336 (this fix alone)",
+   "status": "measured"
+  },
+  {
+   "item": "A3: gas transport 2021-25 at National Gas's published rates",
+   "what": "Calendar 2021-25 exit capacity (DC points, plus Exit RRC) and GNTS exit from the six saved National Gas statements and notice, CY y = 0.75 GY(y-1) + 0.25 GY(y); 2002-20 keep the CPIH back-cast. Moves 2021-24 (and 2025 provisional).",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "0f5b5ee"
+   ],
+   "headline_change_gbp_bn": 0.12190805629660417,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'A3' at 3f9f037: 140.342 -> 140.464 (this fix alone)",
+   "status": "measured"
+  },
+  {
+   "item": "A4: 2025 costed on EGC 2023",
+   "what": "Under the stated rule (spec 4.3, corrected table) 2025 takes EGC 2023 Annex A, the set in force at the end of 2025 (EGC 2025 first published 14 Jan 2026); EGC 2025 from 2026. Moves 2025 (provisional) only; 2002-24 unchanged.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "55adc21"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'A4' at 4239d14: 140.342 -> 140.342 (this fix alone)",
+   "status": "no number moves"
+  },
+  {
+   "item": "A5: 2011 gas plant on PB 2011",
+   "what": "Under the stated rule 2011 CCGT and OCGT take the PB 2011 update (DECC, Aug 2011), Appendix B Nth-of-a-kind medium. PB 2011 prints no price base: 2011 taken (2010 measures the same to £0.00004bn; stated, not ruled). Coal 2011 stays on MM2010. Moves 2011.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "3fd93fb"
+   ],
+   "headline_change_gbp_bn": 0.007727911304641566,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'A5' at dfea4c5: 140.342 -> 140.350 (this fix alone)",
+   "status": "measured"
+  },
+  {
+   "item": "C1: UK ETS auction revenue 2016 £342.2m, not £311.0m",
+   "what": "EC UK auction platform reports, Oct and Dec 2016 per-auction tables (report 58's Q4 2016 row is internally wrong); register ETS_POWER 2016 follows. Splits NZ1c only. Moves no headline figure; the shortfall-rule split 2013-20.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "5262430"
+   ],
+   "headline_change_gbp_bn": 0.0,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'C1' at d985587: 140.342 -> 140.342 (this fix alone)",
+   "status": "no number moves"
+  },
+  {
+   "item": "D1: balancing FY2010/11 on basis (i), £685.78m",
+   "what": "MBSS March 2011 (v2) s9 'TOTAL (excl TLIC)' before the Net Imbalance Adjustment, £584.2m external, plus SO internal by the CPIH interpolation of FY2009/10 and FY2011/12 (£101.6m); was £851.41m. Register BSUOS 2010-11 follow. Moves 2010, 2011.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [
+    "b0fdfb1",
+    "12b1811"
+   ],
+   "headline_change_gbp_bn": -0.24649124854846605,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'D1-i' at ce4dca2: 140.342 -> 140.096 (this fix alone)",
+   "status": "measured"
+  },
+  {
+   "item": "Interaction of the seven v4-s42 fixes, measured together",
+   "what": "All seven together less the sum of each alone (the fixes touch overlapping years, 2010-11 and 2021-25). Not a change of its own.",
+   "decision": "0195 (Richard Lyon, 24 Oct 2026, msgs 8539 and 8676: \"yes to all three\")",
+   "release": "v4-s42",
+   "card": "t_9d806708 (measured); t_4c8d4798 (cut)",
+   "commits": [],
+   "headline_change_gbp_bn": -0.003440735281515117,
+   "measured_on": "t_9d806708 on the M4, 24 Oct 2026 (10:00-10:28 BST), unsealed candidate on v4-s41 (919ae75), run 'all7-D1i' at f1bdd20: 140.342 -> 140.298 (all seven); confirmed by the v4-s42 cut export out/v4/2026-10-24-s42.json (t_4c8d4798)",
+   "status": "measured"
+  },
+  {
+   "item": "NI station lists 2002-05: each year's own DUKES list",
+   "what": "For 2002-05 the Northern Ireland stations taken off UK capacity are each year's own DUKES list, classed as each list prints it: DUKES 2002 and 2003 Table 5.10 entered from the archived editions (NI other 1,373 and 1,116 MW), DUKES 2004 and 2005 sheets of DUKES 5.11 read by station name (other 1,336 MW; CCGT 1,416 MW); was the 2006 list for all four years (CCGT 1,036, other 380 MW). Ballylumford is 'oil/gas' (NI other) in the 2002-04 lists, as printed. From 2006 nothing changes. Moves 2002-05.",
+   "decision": "0197 (Richard Lyon, 24 Oct 2026, msg 8982: \"each year's own list\")",
+   "release": "v4-s43",
+   "card": "t_b7f775eb",
+   "commits": [
+    "f2450b8",
+    "59512c8"
+   ],
+   "headline_change_gbp_bn": 0.013680360667933655,
+   "measured_on": "t_b7f775eb on aios, 24 Oct 2026 (13:19-13:25 BST), export of the decision-0197 code at 59512c8 on v4-s42: 140.298 -> 140.312; confirmed by the v4-s43 cut export out/v4/2026-10-24-s43.json",
+   "status": "measured"
+  }
+ ]
+}

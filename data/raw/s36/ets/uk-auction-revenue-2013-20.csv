@@ -1,0 +1,9 @@
+year,uk_revenue_gbp_m,basis,period_start,period_end,status,source_id,source
+2013,347.8,calendar,2013-01-01,2013-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"EC UK Phase III Auction Platform Reports nos. 57 and 58 (ICE auctions for BEIS/DECC), calendar-year sum, EUR at BoE annual average rates; value as stored by the Subsidy Clock (ets column 173.9m at its flat 0.5 share, x 2), Clock reference/indirect_annual.yaml ets.source"
+2014,312.2,calendar,2014-01-01,2014-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 156.1m x 2)"
+2015,412.0,calendar,2015-01-01,2015-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 206.0m x 2)"
+2016,311.0,calendar,2016-01-01,2016-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 155.5m x 2)"
+2017,529.4,calendar,2017-01-01,2017-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 264.7m x 2)"
+2018,1421.8,calendar,2018-01-01,2018-12-31,SOURCED,ec-uk-auction-platform-reports-57-58,"as 2013 (Clock ets 710.9m x 2)"
+2019,201.2,financial_year,2019-04-01,2020-03-31,SOURCED,beis-ara-2020-21-trust-statement,"BEIS ARA 2020-21 Trust Statement, EU ETS auction income FY2019-20 (printed GBP 201.4m; the Clock stored 100.6m at 0.5, so 201.2 here, unchanged from the engine); UK auctions were suspended Jan 2019 to Mar 2020, so this is March 2020 auctions"
+2020,2213.0,financial_year,2020-04-01,2021-03-31,SOURCED,beis-ara-2020-21-trust-statement,"BEIS ARA 2020-21 Trust Statement, EU ETS auction income FY2020-21 (printed GBP 2,213.1m; the Clock stored 1,106.5m at 0.5, so 2,213.0 here, unchanged from the engine)"

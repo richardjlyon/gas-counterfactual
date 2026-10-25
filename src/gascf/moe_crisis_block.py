@@ -1,8 +1,9 @@
-"""Run-file block `moe_crisis` (s36 ticket 18; 0069, 0086, 0087): the 2021-23 gap under Shao (central)
-and under the UCL short-run sensitivity, through the ticket 02 hook (export_v4.register_block). A block
+"""Run-file block `moe_crisis` (s36 ticket 18; 0069, 0086, 0087): the 2021-23 gap under the central rule, under
+Shao in every month, and under the UCL short-run sensitivity, through the ticket 02 hook (export_v4.register_block). A block
 of its own, not `gap[y].moe_crisis` as the spec item wrote it: the hook may not replace `gap`, and the
 central `gap[y]` keeps its keys and values (spec D6). O'Shea, Horne and Maslin (2025) Table 4 printed
-p.22 (PDF p.24); Table 5 printed p.25 (PDF p.27) is not run (0087)."""
+p.22 (PDF p.24); Table 5 printed p.25 (PDF p.27) is not run here (0087;
+RB v1.1 runs it only as the held row M10, bills.HELD_M10)."""
 from __future__ import annotations
 
 from gascf import bills as B
@@ -18,7 +19,13 @@ def _gap(b: dict, y: int) -> dict:
 
 
 def block(built: dict) -> dict:
+    """`central` = the build as run (v4-s39: M9 B May 2021-Dec 2023, Shao Jan-Apr 2021, decision 0164 addendum);
+    `shao` = Shao's uplift in every month (the v4-s38 central; the build itself when the central rule is Shao);
+    `ucl_stmoe` = the UCL methods-page row; `difference` = UCL less central (0164 addendum: re-based on the new
+    central). Card [internal ticket]."""
+    rule = B.CENTRAL.moe_crisis
     ucl = B.build(B.replace(B.CENTRAL, moe_crisis="ucl_stmoe"))
+    shao_b = built if rule == "shao" else B.build(B.replace(B.CENTRAL, moe_crisis="shao"))
     d = MC.require_sourced()
     years, tot, wind = {}, {}, {}
     for y in MC.CRISIS_YEARS:
@@ -26,18 +33,20 @@ def block(built: dict) -> dict:
         shao = max(0.0, m["shao_mean_gbp_mwh"])
         solar = -SHAO_SOLAR_POOLED * m["solar_gw_mean"]
         t4 = d["stmoe_total_gbp_mwh"]["values"][str(y)]
-        s, u = _gap(built, y), _gap(ucl, y)
-        years[str(y)] = {"shao": s, "ucl_stmoe": u, "difference": {k: u[k] - s[k] for k in s},
+        c, s, u = _gap(built, y), _gap(shao_b, y), _gap(ucl, y)
+        years[str(y)] = {"central": c, "shao": s, "ucl_stmoe": u, "difference": {k: u[k] - c[k] for k in c},
                          "shao_mean_gbp_mwh": shao, "shao_solar_part_gbp_mwh": solar,
                          "ucl_table4_gbp_mwh": t4, "target_gbp_mwh": MC.target_gbp_mwh(y, m["solar_gw_mean"]),
                          "k": MC.k(y, shao, m["solar_gw_mean"])}
         tot[str(y)], wind[str(y)] = t4 / shao, t4 / (shao - solar)
-    return {"years": years, "ucl_over_shao": {"total": tot, "wind": wind},
+    return {"central_rule": rule, "years": years, "ucl_over_shao": {"total": tot, "wind": wind},
             "target": "B (0086): UCL Table 4 Total MOE (wind) + the engine's Shao solar part",
             "source_id": d["source_id"], "locator": d["stmoe_total_gbp_mwh"]["locator"],
             "peer_reviewed": False,
-            "note": "methods-page sensitivity; Shao is central in every year (0069); Table 5 carried, not run "
-                    "(0087); money: national_gbp_m_nominal, real in the run's price base"}
+            "note": "methods-page sensitivity; central 2021-23 = the run's moe_crisis rule (v4-s39: re-estimate May "
+                    "2021-Dec 2023, Shao Jan-Apr 2021 and every other year, 0164); 'shao' = Shao in every month "
+                    "(v4-s38 central); Table 5 not run here (held row M10) (0087); money: national_gbp_m_nominal, "
+                    "real in the run's price base"}
 
 
 X.register_block("moe_crisis", block)

@@ -78,12 +78,54 @@ def test_go5_rpi_above_cpih_and_same_in_base_window():
 
 def test_fit_levelisation_fund_values():
     lev = {k: round(v[0], 1) for k, v in s.read_fit_levelisation().items()}
-    assert lev == {2015: 1110.0, 2016: 1283.5, 2017: 1375.1, 2018: 1414.7, 2019: 1539.7,
+    assert lev == {2010: 14.4, 2011: 150.8, 2012: 506.3, 2013: 691.0, 2014: 865.6,
+                   2015: 1110.0, 2016: 1283.5, 2017: 1375.1, 2018: 1414.7, 2019: 1539.7,
                    2020: 1603.0, 2021: 1273.1, 2022: 1453.0, 2023: 1754.9, 2024: 1725.7, 2025: 1877.6}
     new, old = s.fit(), s.fit(basis="scheme_value")
     assert new[2009]["gbp_m"] == 0 and new[2020]["gbp_m"] < old[2020]["gbp_m"]
-    assert new[2012]["basis"] == "estimated"                           # SY1-5 fallback, disclosed
-    assert s.FIT_FALLBACKS[0]["name"] == "fit-sy1-5-levelisation-ratio"
+    assert new[2012]["basis"] == "measured"                            # C-008: SY1-5 published, no estimate
+    assert s.FIT_FALLBACKS == []
+
+
+# C-008 (input audit [internal ticket]): Ofgem's published levelisation fund for FIT years 1-5, £, as printed in each
+# year's own annual report (file, table, PDF page). Typed from the PDFs, not from the engine.
+FIT_SY1_5_OFGEM = {
+    2010: (14_435_324.77, "FIT_annual_report_2010-11.pdf", "Levelisation fund row", 5),
+    2011: (150_756_063.58, "FIT_annual_report_2011-12.pdf", "Table 7 (cont.)", 24),
+    2012: (506_328_139, "FIT_annual_report_2012-13.pdf", "Table 9", 21),
+    2013: (690_991_283, "FIT_annual_report_2013-14.pdf", "Levelisation fund (=A+B+C-D) row", 17),
+    2014: (865_553_975, "FIT_annual_report_2014-15.pdf", "Levelisation fund (=A+B+C-D) row", 15),
+}
+
+
+def test_fit_sy1_5_are_ofgem_published_levelisation_funds_c008():
+    """C-008: FIT years 1-5 are read from Ofgem's annual reports to the penny, each tagged measured with its
+    own source id, in place of the old scheme value x SY6 ratio estimate (which gave 149.48 for SY2)."""
+    lev, fy = s.read_fit_levelisation(), s.fit_fy()
+    for y, (gbp, fname, _table, _page) in FIT_SY1_5_OFGEM.items():
+        assert lev[y][0] == pytest.approx(gbp / 1e6, abs=5e-9), y
+        assert lev[y][1] == "measured" and lev[y][2] == s.SRC_FIT_LEV_SY1_5, y
+        assert fy[y] == lev[y], y
+        assert (s.RAW / "ofgem_ro_fit" / fname).is_file(), fname
+    assert set(s.FIT_AR_SY1_5) == set(FIT_SY1_5_OFGEM)
+
+
+def test_fit_sy1_5_agree_with_the_2014_15_five_year_table_c008():
+    """Not a choice between sources: the 2014-15 report's Figure 2.5 restates all five years, to the pound,
+    and each equals that year's own report rounded to £1."""
+    t = s.fit_sy1_5_figure_2_5()
+    assert sorted(t) == sorted(FIT_SY1_5_OFGEM)
+    for y, (gbp, *_rest) in FIT_SY1_5_OFGEM.items():
+        assert t[y] == round(gbp), y
+
+
+def test_fit_sy1_5_ratio_fallback_is_gone_c008():
+    """No estimate left for SY1-5: the build records no 'fit-sy1-5-levelisation-ratio' fallback."""
+    from gascf import bills as B
+    from gascf import fallbacks as fb
+    assert "fit-sy1-5-levelisation-ratio" not in fb.DECLARED
+    B.record_netzero_fallbacks(B.CENTRAL)
+    assert all(r["name"] != "fit-sy1-5-levelisation-ratio" for r in fb.recorded())
 
 
 def test_cfd_biomass_split_adds_up():

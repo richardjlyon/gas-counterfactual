@@ -193,14 +193,17 @@ def test_bridge_reads_the_clock_and_spot_values():
     assert c[2024]["ro"] == pytest.approx(7700.0)
     assert c[2024]["ccl"] == pytest.approx(1253.0)
     assert c[2024]["ets"] == pytest.approx(882.834732)
-    assert c[2024]["capacity_market"] == pytest.approx(1256.981395, abs=1e-3)
+    # v4-s39 (card [internal ticket], Grok audit item 1): the stored Clock copy is the live Clock 35132e73, whose 2024
+    # Capacity Market line is £343,819,210.62 (s39-combined-annual_35132e73.csv, 2024 row); £1,256.98m was the stale
+    # pin cf9b292e. The bridge table only; the headline does not read it.
+    assert c[2024]["capacity_market"] == pytest.approx(343.81921062, abs=1e-3)
 
 
 def test_clock_cm_correction_2024():
-    """§10.2: the Clock's CM line is £1.26bn in 2024; the correction is NZ5 − that line (s32: NZ5
-    is no longer zero, so the correction is less than the whole line)."""
+    """§10.2: the Clock's CM line is £0.34bn in 2024 on the live Clock 35132e73 (£1.26bn on the stale pin cf9b292e;
+    re-pinned on card [internal ticket]); the correction is NZ5 − that line (s32: NZ5 is no longer zero)."""
     c = R.clock_cm_correction()[2024]
-    assert c["clock_cm_gbp_m"] == pytest.approx(1257.0, abs=1)
+    assert c["clock_cm_gbp_m"] == pytest.approx(343.8, abs=1)
     assert c["correction_gbp_m"] == pytest.approx(c["nz5_gbp_m"] - c["clock_cm_gbp_m"])
     assert c["nz5_gbp_m"] > 0
     assert c["correction_per_household_clock"] == pytest.approx(
@@ -213,7 +216,7 @@ def test_clock_cm_correction_2024():
 
 def test_s27_switch_defaults_are_the_new_central():
     c = B.CENTRAL
-    assert (c.moe, c.gas_feedback, c.coal_lf) == ("shao", "central", "dukes_max")
+    assert (c.moe, c.gas_feedback, c.coal_lf) == ("shao", "central", "dukes_max+ied_permits_1500+existing")  # 0166
     assert (c.tnuos_gen, c.bsuos_gen, c.go5_index, c.fit_basis) == ("removed", "removed", "rpi", "levelisation")
     assert c.cfd_split and c.carbon_split
     o = B.OLD_CENTRAL
