@@ -10,6 +10,14 @@ This repository is the frozen release the report and the paper cite, tag `v4-s43
 comes from the model comes from `figures.json` here. This release supersedes `v4-s37`, published here earlier, which
 stays in this repository's history under its own tag.
 
+## How to cite
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652961.svg)](https://doi.org/10.5281/zenodo.23652961)
+
+- Model: Lyon, R. (2026). *gas-counterfactual v4-s43* [software]. https://doi.org/10.5281/zenodo.23652961
+- Technical paper: Lyon, R. (2026). *Reliable Britain: what Britain's electricity would have cost on gas.* Technical note to Report No. 1, version 1.0. richardlyon.net. https://doi.org/10.5281/zenodo.23652965
+- Report: Lyon, R. (2026). *Reliable Britain: Report No. 1. What Britain's electricity would have cost on gas.* Version 1.0. richardlyon.net. https://doi.org/10.5281/zenodo.23652967
+
 ## How it ties to the paper
 
 | | |

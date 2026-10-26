@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below. The technical paper and the report it supports are listed under references."
+type: software
+title: "gas-counterfactual"
+version: v4-s43
+doi: 10.5281/zenodo.23652961
+date-released: 2026-10-25
+license: MIT
+repository-code: "https://github.com/richardjlyon/gas-counterfactual"
+authors:
+  - family-names: Lyon
+    given-names: Richard
+references:
+  - type: report
+    title: "Reliable Britain: what Britain's electricity would have cost on gas. Technical note to Report No. 1"
+    authors:
+      - family-names: Lyon
+        given-names: Richard
+    year: 2026
+    version: "1.0"
+    publisher:
+      name: richardlyon.net
+    doi: 10.5281/zenodo.23652965
+    url: "https://doi.org/10.5281/zenodo.23652965"
+  - type: report
+    title: "Reliable Britain: Report No. 1. What Britain's electricity would have cost on gas"
+    authors:
+      - family-names: Lyon
+        given-names: Richard
+    year: 2026
+    version: "1.0"
+    publisher:
+      name: richardlyon.net
+    doi: 10.5281/zenodo.23652967
+    url: "https://doi.org/10.5281/zenodo.23652967"
