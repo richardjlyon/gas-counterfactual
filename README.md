@@ -58,14 +58,15 @@ The last command rebuilds the run file from the code and data, compares its SHA-
 `figures.json` from it, compares every figure with the released `figures.json` and its SHA-256, and ends with
 `RERUN PASS v4-s43` or `RERUN FAIL v4-s43 <n> mismatches`. The rebuilt files are in `rerun-out/`.
 
-`fetch_data.py` (Python standard library only) reads `data/FETCH.tsv`, the list of the 99 inputs not in this
-repository. It does not download all of them. For the ones with a public download address, it downloads the file
-from its publisher and checks it against the release's SHA-256. A file the publisher has changed since the release
-used it is kept beside its place as `<name>.fetched` and reported. The others have no public download address and
-are reported as missing. It gets 32 of the 99 in the bytes the release used (see "Files not in this
-repository" below). The rerun passes only when every input is the release's own copy, so from public sources alone
-it ends in `RERUN FAIL`; with the full input set, which reviewers can have on request, it ends in
-`RERUN PASS v4-s43`.
+`fetch_data.py` (Python standard library only, plus `pdftotext` from poppler-utils for the text copies) reads
+`data/FETCH.tsv`, the list of the 99 inputs not in this repository, and checks each file it gets against the
+release's SHA-256. It downloads a file from its publisher, or from an Internet Archive copy where the publisher has
+since changed or removed it; for a text copy the engine reads in place of a publisher's PDF, it downloads that PDF and
+remakes the text with `pdftotext -layout`. A file the publisher has changed since the release used it is kept beside
+its place as `<name>.fetched` and reported. The others are reported as missing. From an empty folder it gets 62 of the
+99 in the bytes the release used (tested 9 Nov 2026; see "Files not in this repository" below). The rerun passes only
+when every input is the release's own copy, so from public sources alone it ends in `RERUN FAIL`; with the full input
+set, which reviewers can have on request, it ends in `RERUN PASS v4-s43`.
 
 The release's test suite (`tests/`, `uv run --frozen python -m pytest`) is shipped as code but is not part of the
 rerun. Many tests read the author's working files, which are not in this copy, so it is not expected to pass here.
@@ -91,14 +92,16 @@ Attribution for the data in this repository:
 
 ## Files not in this repository
 
-99 input files are not republished here: for 9 the publisher's terms do not allow it, and for 90 the terms are unclear. 87 of them are the files release v4-s37 also withheld; the other 12 are inputs that v4-s37 did not read. `fetch_data.py` fetches 32 of them in the bytes the release used (tested 21 Oct 2026, on the 87 that v4-s37 also withheld). 1 of the 12 new files has a public download address and has not been tested. The other 66 cannot be fetched in those bytes:
+99 input files are not republished here: for 9 the publisher's terms do not allow it, and for 90 the terms are unclear. 87 of them are the files release v4-s37 also withheld; the other 12 are inputs that v4-s37 did not read. `fetch_data.py` fetches 62 of them in the bytes the release used (tested 9 Nov 2026, from an empty folder). The other 37 cannot be fetched in those bytes:
 
-- 5: the publisher has changed the file since the release used it;
+- 6: the publisher has changed the file since the release used it, and no Internet Archive copy holds the release's bytes;
 - 1: the download address no longer resolves;
-- 28: there is no public download address;
-- 32: the file is a text extract the engine reads in place of the publisher's document, so no download gives these bytes.
+- 25: there is no public download address, or the file is a text extract no download gives;
+- 5: text copies of withheld PDFs; `fetch_data.py` remakes them once those PDFs are in place.
 
-Without those 66 the rerun does not reach the released hashes.
+Without those 37 the rerun does not reach the released hashes.
+
+Changes since the release: on 9 Nov 2026 `fetch_data.py` and `data/FETCH.tsv` were updated to fetch 62 of the 99 (32 before). No code the run computes from, no input in this repository and no figure changed.
 
 Reviewers can have the full set of input files on request: corrections@richardlyon.net.
 
@@ -110,19 +113,19 @@ Reviewers can have the full set of input files on request: corrections@richardly
 | `data/raw/desnz_cm/NESO_ECR_2026_Data_Workbook.xlsx` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/desnz_cm/NESO_T-1_T-4_Auction_Guidelines_2026_v1.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/eex/emission-spot-primary-market-auction-report-2012-2025-data.zip` | EEX (European Energy Exchange) | https://www.eex.com/fileadmin/EEX/Downloads/Markets/Environmentals/EUA_Emission_Spot_Primary_Market_Auction_Report/Archive_Reports/emission-spot-primary-market-auction-report-2012-2025-data.zip | yes |
-| `data/raw/nao_s18b/Electricity-Balancing-Services.txt` | National Audit Office | https://www.nao.org.uk/wp-content/uploads/2014/05/Electricity-Balancing-Services.pdf | no: text extract made from the publisher's document |
+| `data/raw/nao_s18b/Electricity-Balancing-Services.txt` | National Audit Office | https://www.nao.org.uk/wp-content/uploads/2014/05/Electricity-Balancing-Services.pdf | yes: text remade from the publisher's PDF |
 | `data/raw/nationalgas/Notice_of_Final_NTS_Exit_Capacity_Charges_effective_1_October_2026.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/Notice%20of%20Final%20NTS%20Exit%20Capacity%20Charges%20effective%201%20October%202026.pdf | yes |
 | `data/raw/nationalgas/Notice_of_General_Non-Transmission_Services_Charges_October_2026.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/Notice%20of%20General%20Non-Transmission%20Services%20Charges%20October%202026.pdf | yes |
 | `data/raw/nationalgas/October_2026_Charging_Information_Provision.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/October%202026%20Charging%20Information%20Provision.pdf | yes |
 | `data/raw/nationalgas/SAP_PUBOB603.csv` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/nationalgas/hist/nationalgas-transportation-charges-oct2022.pdf` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2023.pdf` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2024.pdf` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2025.pdf` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/nationalgas/hist/nationalgrid-notice-transportation-charges-oct2021.pdf` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/nationalgas/hist/nationalgrid-transportation-statement-feb2021.pdf` | National Gas Transmission | see `data/raw/SOURCES.md` | no: no public download address |
+| `data/raw/nationalgas/hist/nationalgas-transportation-charges-oct2022.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/Gas%20Transportation%20Charges%20October%202022.pdf | yes |
+| `data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2023.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/October%202023%20Transportation%20Statement.pdf | yes |
+| `data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2024.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/Transportation%20Statement%20Oct%2024.pdf | yes |
+| `data/raw/nationalgas/hist/nationalgas-transportation-statement-oct2025.pdf` | National Gas Transmission | https://www.nationalgas.com/sites/default/files/documents/Transportation%20Statement%20Oct%2025.pdf | yes |
+| `data/raw/nationalgas/hist/nationalgrid-notice-transportation-charges-oct2021.pdf` | National Gas Transmission | https://www.gasgovernance.co.uk/sites/default/files/related-files/2023-11/Notice%20of%20Gas%20Transportation%20Charges%20October%202021%20(1).pdf | yes |
+| `data/raw/nationalgas/hist/nationalgrid-transportation-statement-feb2021.pdf` | National Gas Transmission | https://www.gasgovernance.co.uk/sites/default/files/related-files/2023-11/February%202021%20Transportation%20Statement.pdf | yes |
 | `data/raw/neso/CMP201_document_129056.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/neso/CMP308_Second_Workgroup_Consultation_2021-04-01.pdf` | NESO (website documents) | https://www.nationalgrideso.com/codes/connection-and-use-system-code-cusc/modifications/removal-bsuos-charges-generation | no: the address no longer resolves |
+| `data/raw/neso/CMP308_Second_Workgroup_Consultation_2021-04-01.pdf` | NESO (website documents) | https://www.nationalgrideso.com/codes/connection-and-use-system-code-cusc/modifications/removal-bsuos-charges-generation | no: the download address no longer resolves |
 | `data/raw/neso/NESO_2025_Annual_Balancing_Costs_Data_Workbook.xlsx` | NESO (website documents) | https://www.neso.energy/document/362561/download | no: the publisher's file has changed |
 | `data/raw/neso/tnuos/Final_TNUoS_Tariffs_2022-23_Tables.xlsx` | NESO (website documents) | https://www.neso.energy/document/235026/download | yes |
 | `data/raw/neso/tnuos/Final_TNUoS_Tariffs_2023-24_Tables.xlsx` | NESO (website documents) | https://www.neso.energy/document/275726/download | yes |
@@ -133,76 +136,76 @@ Reviewers can have the full set of input files on request: corrections@richardly
 | `data/raw/neso/tnuos/Final_TNUoS_Tariffs_2026-27_Report.pdf` | NESO (website documents) | https://www.neso.energy/document/376336/download | yes |
 | `data/raw/neso/tnuos/Final_TNUoS_Tariffs_2026-27_Tables.xlsx` | NESO (website documents) | https://www.neso.energy/document/376341/download | yes |
 | `data/raw/neso_s18b/neso_doc_125636.pdf` | NESO (website documents) | https://www.neso.energy/document/125636/download | yes |
-| `data/raw/neso_s18b/neso_doc_125636.txt` | NESO (website documents) | https://www.neso.energy/document/125636/download | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_125636.txt` | NESO (website documents) | https://www.neso.energy/document/125636/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_163311.pdf` | NESO (website documents) | https://www.neso.energy/document/163311/download | yes |
-| `data/raw/neso_s18b/neso_doc_163311.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_163311.txt` | NESO (website documents) | https://www.neso.energy/document/163311/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_186176.pdf` | NESO (website documents) | https://www.neso.energy/document/186176/download | yes |
-| `data/raw/neso_s18b/neso_doc_186176.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_186176.txt` | NESO (website documents) | https://www.neso.energy/document/186176/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_46611.pdf` | NESO (website documents) | https://www.neso.energy/document/46611/download | yes |
-| `data/raw/neso_s18b/neso_doc_46611.txt` | NESO (website documents) | https://www.neso.energy/document/46611/download | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_46611.txt` | NESO (website documents) | https://www.neso.energy/document/46611/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_47901.pdf` | NESO (website documents) | https://www.neso.energy/document/47901/download | yes |
-| `data/raw/neso_s18b/neso_doc_47901.txt` | NESO (website documents) | https://www.neso.energy/document/47901/download | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_47901.txt` | NESO (website documents) | https://www.neso.energy/document/47901/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_50181.pdf` | NESO (website documents) | https://www.neso.energy/document/50181/download | yes |
-| `data/raw/neso_s18b/neso_doc_50181.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_50181.txt` | NESO (website documents) | https://www.neso.energy/document/50181/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_50211.pdf` | NESO (website documents) | https://www.neso.energy/document/50211/download | yes |
-| `data/raw/neso_s18b/neso_doc_50211.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_50211.txt` | NESO (website documents) | https://www.neso.energy/document/50211/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_50671.pdf` | NESO (website documents) | https://www.neso.energy/document/50671/download | yes |
-| `data/raw/neso_s18b/neso_doc_50671.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_50671.txt` | NESO (website documents) | https://www.neso.energy/document/50671/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_50676.pdf` | NESO (website documents) | https://www.neso.energy/document/50676/download | yes |
-| `data/raw/neso_s18b/neso_doc_50676.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_50676.txt` | NESO (website documents) | https://www.neso.energy/document/50676/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_50691.pdf` | NESO (website documents) | https://www.neso.energy/document/50691/download | yes |
-| `data/raw/neso_s18b/neso_doc_50691.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_50691.txt` | NESO (website documents) | https://www.neso.energy/document/50691/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_60556.pdf` | NESO (website documents) | https://www.neso.energy/document/60556/download | yes |
-| `data/raw/neso_s18b/neso_doc_60556.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_60556.txt` | NESO (website documents) | https://www.neso.energy/document/60556/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_60696.pdf` | NESO (website documents) | https://www.neso.energy/document/60696/download | yes |
-| `data/raw/neso_s18b/neso_doc_60696.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_60696.txt` | NESO (website documents) | https://www.neso.energy/document/60696/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_60761.pdf` | NESO (website documents) | https://www.neso.energy/document/60761/download | yes |
-| `data/raw/neso_s18b/neso_doc_60761.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_60761.txt` | NESO (website documents) | https://www.neso.energy/document/60761/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s18b/neso_doc_60821.pdf` | NESO (website documents) | https://www.neso.energy/document/60821/download | yes |
-| `data/raw/neso_s18b/neso_doc_60821.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
-| `data/raw/neso_s20d/s20d-Final_TNUoS_Tariffs_2024-25_Report.txt` | NESO (website documents) | https://www.neso.energy/document/301741/download | no: text extract made from the publisher's document |
-| `data/raw/neso_s20d/s20d-Final_TNUoS_Tariffs_2025-26_Report.txt` | NESO (website documents) | https://www.neso.energy/document/353086/download | no: text extract made from the publisher's document |
-| `data/raw/neso_s20d/s20d-Final_TNUoS_Tariffs_2026-27_Report.txt` | NESO (website documents) | https://www.neso.energy/document/376336/download | no: text extract made from the publisher's document |
+| `data/raw/neso_s18b/neso_doc_60821.txt` | NESO (website documents) | https://www.neso.energy/document/60821/download | yes: text remade from the publisher's PDF |
+| `data/raw/neso_s20d/s20d-Final_TNUoS_Tariffs_2024-25_Report.txt` | NESO (website documents) | https://www.neso.energy/document/301741/download | yes: text remade from the publisher's PDF |
+| `data/raw/neso_s20d/s20d-Final_TNUoS_Tariffs_2025-26_Report.txt` | NESO (website documents) | https://www.neso.energy/document/353086/download | yes: text remade from the publisher's PDF |
+| `data/raw/neso_s20d/s20d-Final_TNUoS_Tariffs_2026-27_Report.txt` | NESO (website documents) | https://www.neso.energy/document/376336/download | yes: text remade from the publisher's PDF |
 | `data/raw/neso_s20d/s20d-MBSS_0607_March_2007.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/neso_s20d/s20d-MBSS_0607_March_2007.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s20d/s20d-MBSS_0607_March_2007.txt` | NESO (website documents) | data/raw/neso_s20d/s20d-MBSS_0607_March_2007.pdf | no: remade once its PDF is in place |
 | `data/raw/neso_s20d/s20d-MBSS_DATA_MAR13.xls` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-MBSS_DATA_MAR14.xls` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-MBSS_DATA_MAR15.xls` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-MBSS_DATA_MAR16.xlsx` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-MBSS_DATA_MAR17.xlsx` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-MBSS_MARCH_2013.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/neso_s20d/s20d-MBSS_MARCH_2013.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s20d/s20d-MBSS_MARCH_2013.txt` | NESO (website documents) | data/raw/neso_s20d/s20d-MBSS_MARCH_2013.pdf | no: remade once its PDF is in place |
 | `data/raw/neso_s20d/s20d-MBSS_MARCH_2014_V2.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/neso_s20d/s20d-MBSS_MARCH_2014_V2.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s20d/s20d-MBSS_MARCH_2014_V2.txt` | NESO (website documents) | data/raw/neso_s20d/s20d-MBSS_MARCH_2014_V2.pdf | no: remade once its PDF is in place |
 | `data/raw/neso_s20d/s20d-MBSS_MARCH_2016v1.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/neso_s20d/s20d-MBSS_MARCH_2016v1.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s20d/s20d-MBSS_MARCH_2016v1.txt` | NESO (website documents) | data/raw/neso_s20d/s20d-MBSS_MARCH_2016v1.pdf | no: remade once its PDF is in place |
 | `data/raw/neso_s20d/s20d-MBSS_March_2017.pdf` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/neso_s20d/s20d-MBSS_March_2017.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/neso_s20d/s20d-MBSS_March_2017.txt` | NESO (website documents) | data/raw/neso_s20d/s20d-MBSS_March_2017.pdf | no: remade once its PDF is in place |
 | `data/raw/neso_s20d/s20d-mbss_pack_2006_07.zip` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-mbss_pack_2013_14.zip` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-mbss_pack_2014_15.zip` | NESO (website documents) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/neso_s20d/s20d-neso_doc_114041_TNUoS_in_10_minutes_extract.md` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
 | `data/raw/neso_s20d/s20d-neso_doc_137351_Final_TNUoS_2019-20_extract.md` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
 | `data/raw/neso_s20d/s20d-neso_doc_50276_Final_TNUoS_2017-18_extract.md` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
-| `data/raw/neso_s42/ng-mbss-march-2011-v2.txt` | NESO (website documents) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
-| `data/raw/ofgem/s18a-WMI_elec_dayahead_monthly_n9WSDfgxc.js` | Ofgem chart data hosted by everviz | https://app.everviz.com/inject/n9WSDfgxc/ | yes |
+| `data/raw/neso_s42/ng-mbss-march-2011-v2.txt` | NESO (website documents) | http://web.archive.org/web/20110617021440id_/http://www.nationalgrid.com/NR/rdonlyres/C0DA02FC-03D9-4B49-BE4F-8484D21FA465/46924/MBSS_March_2011v2.pdf | yes: text remade from the publisher's PDF |
+| `data/raw/ofgem/s18a-WMI_elec_dayahead_monthly_n9WSDfgxc.js` | Ofgem chart data hosted by everviz | https://app.everviz.com/inject/n9WSDfgxc/ | no: the publisher's file has changed |
 | `data/raw/ons_households/statswales_household_estimates_mid2012-2024.csv` | Welsh Government (StatsWales) | https://stats.gov.wales/en-GB/ce1308bb-9afd-4107-ae5a-38d3022c7181 | no: the publisher's file has changed |
 | `data/raw/papers/s22-Shao_etal_2022_RO_wind_merit_order.pdf` | academic paper (author/publisher) | https://cronfa.swan.ac.uk/Record/cronfa58360/Download/58360__21196__ea76b280adbe432798f860fcf8868851.pdf | yes |
 | `data/raw/s24/s24-NG_ALFs_2017-18_doc50281.pdf` | NESO (website documents) | https://www.neso.energy/document/50281/download | yes |
-| `data/raw/s24/s24-NG_ALFs_2017-18_doc50281.txt` | NESO (website documents) | https://www.neso.energy/document/50281/download | no: text extract made from the publisher's document |
+| `data/raw/s24/s24-NG_ALFs_2017-18_doc50281.txt` | NESO (website documents) | https://www.neso.energy/document/50281/download | yes: text remade from the publisher's PDF |
 | `data/raw/s24/s24-NG_ALFs_2017-18_doc50296.pdf` | NESO (website documents) | https://www.neso.energy/document/50296/download | yes |
-| `data/raw/s24/s24-NG_ALFs_2017-18_doc50296.txt` | NESO (website documents) | https://www.neso.energy/document/50296/download | no: text extract made from the publisher's document |
+| `data/raw/s24/s24-NG_ALFs_2017-18_doc50296.txt` | NESO (website documents) | https://www.neso.energy/document/50296/download | yes: text remade from the publisher's PDF |
 | `data/raw/s24/s24-NG_Final_ALFs_2016-17_doc50216.pdf` | NESO (website documents) | https://www.neso.energy/document/50216/download | yes |
-| `data/raw/s24/s24-NG_Final_ALFs_2016-17_doc50216.txt` | NESO (website documents) | https://www.neso.energy/document/50216/download | no: text extract made from the publisher's document |
+| `data/raw/s24/s24-NG_Final_ALFs_2016-17_doc50216.txt` | NESO (website documents) | https://www.neso.energy/document/50216/download | yes: text remade from the publisher's PDF |
 | `data/raw/s26a/s26a-Neuhoff_2022_EPRG2212_gas_price_limits.pdf` | academic paper (author/publisher) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/s36/ets-2025/ice-report-278-2025.csv` | ICE (Intercontinental Exchange) | https://www.ice.com/report/278 | no: the publisher's file has changed |
-| `data/raw/s36/ets/uk_report_201610_en.pdf` | European Commission (UK auction platform reports) | https://climate.ec.europa.eu/document/download/193c6f4b-a982-4373-a3a0-951770c0a8c1_en?filename=uk_report_201610_en.pdf | not tested (new in v4-s43) |
-| `data/raw/s36/ets/uk_report_201612_en.pdf` | European Commission (UK auction platform reports) | see `data/raw/SOURCES.md` | no: no public download address |
+| `data/raw/s36/ets/uk_report_201610_en.pdf` | European Commission (UK auction platform reports) | https://web.archive.org/web/20240701030859id_/https://climate.ec.europa.eu/document/download/193c6f4b-a982-4373-a3a0-951770c0a8c1_en?filename=uk_report_201610_en.pdf | yes: Internet Archive copy |
+| `data/raw/s36/ets/uk_report_201612_en.pdf` | European Commission (UK auction platform reports) | https://web.archive.org/web/20240701030858id_/https://climate.ec.europa.eu/document/download/b954831d-0be0-4332-97cd-deb3b6fe1596_en?filename=uk_report_201612_en.pdf | yes: Internet Archive copy |
 | `data/raw/s36/s36-albrizio2022_imf_wp22-143.txt` | academic paper (author/publisher) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
 | `data/raw/s36/s36-casoli_manera_valenti_FEEM_NDL2022-045.pdf` | academic paper (author/publisher) | see `data/raw/SOURCES.md` | no: no public download address |
 | `data/raw/s36/s36-krichene2005_IMF_WP0532.pdf` | academic paper (author/publisher) | https://www.imf.org/external/pubs/ft/wp/2005/wp0532.pdf | yes |
 | `data/raw/s36/ucl-oshea/oshea-ucloe-preprint-290-v1.pdf` | academic paper (author/publisher) | see `data/raw/SOURCES.md` | no: no public download address |
-| `data/raw/v11/cepa-ghd-2025-05-generation-cost-study-life-extension.txt` | CEPA and GHD for DESNZ (consultants' report) | see `data/raw/SOURCES.md` | no: text extract made from the publisher's document |
+| `data/raw/v11/cepa-ghd-2025-05-generation-cost-study-life-extension.txt` | CEPA and GHD for DESNZ (consultants' report) | https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf | yes: text remade from the publisher's PDF |
 
 ## Layout
 
